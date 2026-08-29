@@ -1,0 +1,71 @@
+{
+  "manifest_schema": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_V8_BV4_FNA98",
+  "created_utc": "2026-08-29",
+  "storage_decision": {
+    "primary": "SOURCE_WINDOW",
+    "backup": "GOOGLE_DRIVE",
+    "git_github_remote_sync": "ABANDONED_DO_NOT_REACTIVATE",
+    "drive_execution_authority": "NONE"
+  },
+  "reclassification_formula": "BV4 = FIELD + OCCUPANT_SET + HOUSE_LORD + LORD_RELATION_SET",
+  "coordinate_actor_lock": {
+    "FIELD": "COORDINATE_NOT_ACTOR",
+    "LORD_DESTINATION": "COORDINATE_NOT_ACTOR",
+    "HOUSE_PLANET_RASHI": "NOT_APPLICABLE",
+    "HOUSE_PLANET_BHAVA": "ALIAS_ONLY_OF_BHAVA_OCCUPANT",
+    "ARRIVAL_PLANET": "VOID_AMBIGUOUS_SPLIT_REQUIRED"
+  },
+  "validation": {
+    "nak_lanes": 17,
+    "jobs_per_lane": 240,
+    "nak_total_jobs": 4080,
+    "oo2o_jobs": 240,
+    "oo2o_boards": 12,
+    "d2_authority_pass": "204/204",
+    "unauthorized_hold": 0,
+    "direct_3ab_crosscheck": "PASS_ALL_240",
+    "quick_validate": "PASS_BOTH_SKILLS",
+    "python_compile": "PASS_BOTH_BUILDERS"
+  },
+  "d11_h11_anchor": {
+    "rashi_field": "H11_KUMBHA",
+    "rashi_occupant_set": ["Mars"],
+    "bhava_occupant_set": [],
+    "same_planets": [],
+    "outflow_planets": ["Mars"],
+    "target_inflow_planets": [],
+    "house_lord": "Saturn",
+    "lord_destination_rashi": "H09_DHANUS",
+    "lord_destination_actual_bhava": "H10",
+    "dest_co_occupant": ["Mercury"],
+    "dest_sign_dispositor": ["Jupiter"],
+    "dest_aspector": "NOT_SUPPLIED_001",
+    "dest_argala": "NOT_SUPPLIED_001",
+    "direct_3ab_row_sha256": "191713843671c24b0d69c118714eef3d8a30f7fbc195b856cc0e6820277092c7"
+  },
+  "components": [
+    {"path": "rq-nak/SKILL.md", "size": 16866, "sha256": "545557a3910cacf166848c7b9a2ea4e8b75f50f0619489c5e20d829454107995"},
+    {"path": "rq-nak/agents/openai.yaml", "size": 562, "sha256": "4b850d9fc3b0b4b20b5dc7bc55698e46c910ced1c904028d6a0714a514b437aa"},
+    {"path": "rq-nak/scripts/nak_preexpanded_240.py", "size": 101403, "sha256": "774cbf51d3688e4f7b08b2326874cb7c81803af3db2f009a9f74cc37153d8105"},
+    {"path": "rq-nak/references/001_BV4_VEDIC_RECLASSIFICATION_FORMULA_LOCK.md", "size": 4071, "sha256": "d00ea6c7b0f0b73e02e049f11d134808476b6d446cfb0a29bb38e50a354d425c"},
+    {"path": "rq-nak/references/nak-version-lane-contract.md", "size": 9996, "sha256": "fdc108c7a0ec7450d0f0e55bb1fec7788b590efecafc8167f790f31723be25fb"},
+    {"path": "rq-nak/references/nak-sentence-job-contract.md", "size": 4861, "sha256": "3f65fe85356843326a08d946964143fe38259e0f43581ab1c4b08156a778c9c0"},
+    {"path": "rq-nak/references/source-family-routing.md", "size": 8331, "sha256": "829cff9e18db92476ceca8d1b704627c2628d6647101d43b3c053d51e8077f18"},
+    {"path": "rq-nak/references/batch-240-contract.md", "size": 4288, "sha256": "183991cd6fbd590a8d461470396ce3ddbea910d06f5d4d3279a535b155baa8bb"},
+    {"path": "rq-nak/references/nak-preexpanded-source-registry.md", "size": 6098, "sha256": "cd38c1cea801ddb210ebd09804f57e86fb8efd03889308829ed8cb916fe40dcf"},
+    {"path": "rq-nak/assets/THINGK002_NAK_PREEXPANDED_240_MASTER.zip", "size": 16224654, "sha256": "eb5d8f626b81f72a55d707dce8fe01a13f39d54c41df416299aa023e0b840b81"},
+    {"path": "rq-nak/assets/NAK_240_MASTER_INDEX.json", "size": 8160, "sha256": "b996a7cabc2fa9706d04f649de03a7d677264c97a0081384a027e4695e2f77ee"},
+    {"path": "rq-nak/assets/NAK_240_BUILD_AUDIT.json", "size": 1718, "sha256": "9d33fa2b5559460c4a033abebf3924fa3cdf000b5b0477316ec19e407511853d"},
+    {"path": "rq-nak/assets/00_SHARED_FOUR_GRAIN_DICTIONARY_INDEX.json", "size": 909230, "sha256": "a8a1e0a07bb07f84374e4ee58ce8dc1b9281cb16fef82e3b85f0cb47a0ec745e"},
+    {"path": "oo2o/SKILL.md", "size": 3716, "sha256": "15df0f5fa87dfbe6949be3bc3e0f78ee2dad47a16dfee124cb9831c7d4218186"},
+    {"path": "oo2o/agents/openai.yaml", "size": 261, "sha256": "8d438a259fdca1a28be884c3691f6f91dc20aabd74eb2216762f19fac8fc0657"},
+    {"path": "oo2o/scripts/build_oo2o_240.py", "size": 34451, "sha256": "0cdafbc53dad5a7a555ab12ab3bcf808602a6d0220f852b44268cc20a4fe2888"},
+    {"path": "oo2o/references/four-role-contract.md", "size": 3314, "sha256": "e6cda0b23b7d255f6cf69a7c712f8b5fc334e254f387a8af481910318f77a80b"},
+    {"path": "oo2o/assets/OO2O_240_VEDIC_BV4_VERTICAL_DATA.zip", "size": 4426140, "sha256": "09a03db01bf1f6d39ab29ebac1286496437c2cb6b4b7dd62712ccf25a272faf5"},
+    {"path": "oo2o/assets/manifest.json", "size": 3038, "sha256": "6524bbaa56e6c3301f762463b9e720af7b1bac7140fe91f5e868ec8d12be08ac"}
+  ],
+  "holds": {
+    "GLOBAL_NO_MISSING_STORAGE_CLAIM": "PENDING_DRIVE_UPLOAD_READBACK",
+    "AUTO_RUNTIME_CALL": "HOLD_FRESH_TAB_RUNTIME_EVIDENCE_REQUIRED"
+  }
+}

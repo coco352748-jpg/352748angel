@@ -1,0 +1,235 @@
+{
+  "title": "DD2_GITHUB_REMOTE_FULL_PACK_MANIFEST_FNA98",
+  "version": 1,
+  "created_utc": "2026-08-29",
+  "authority": {
+    "source_window": "PRIMARY",
+    "google_drive": "BACKUP",
+    "github": "REMOTE_SYNC_ONLY"
+  },
+  "repository": "coco352748-jpg/352748angel",
+  "branch": "dd2-remote-sync",
+  "original_file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip",
+  "original_bytes": 20801589,
+  "original_sha256": "722d1580bf6185940c82908389c51b728c07620939bfff22257f99b301381233",
+  "archive_test": "PASS_NO_ERRORS",
+  "storage_format": "LOSSLESS_RAW_BINARY_PARTS",
+  "part_size_bytes": 700000,
+  "part_count": 30,
+  "restore_order": "LEXICOGRAPHIC_ASCENDING_PART_SUFFIX_000_TO_029",
+  "restored_file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip",
+  "verify_command": "sha256sum DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip",
+  "expected_sha256": "722d1580bf6185940c82908389c51b728c07620939bfff22257f99b301381233",
+  "parts": [
+    {
+      "order": 0,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part000",
+      "bytes": 700000,
+      "sha256": "6326f5e42c3380e7cede4c1845708a75407b9388ad400a8d84be73bf35dc7c19",
+      "git_blob_sha": "c68e8856805569f240f647041ae797c9f543f62e"
+    },
+    {
+      "order": 1,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part001",
+      "bytes": 700000,
+      "sha256": "cff8541bf33dce297215bf953b1bd97db3cac82c2aa3f99543e162fa6c31f198",
+      "git_blob_sha": "182b7c3df1101d0e89b86bbdf1f78e6b3774bcb2"
+    },
+    {
+      "order": 2,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part002",
+      "bytes": 700000,
+      "sha256": "e34432f4a440666319f218413f3a3b1080906b57b7dd8036030d0e342b5562ed",
+      "git_blob_sha": "483d16c42b8e2ab3adaa43c442a85d6f018e85e3"
+    },
+    {
+      "order": 3,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part003",
+      "bytes": 700000,
+      "sha256": "7d8b46c5976525e4d1504fdb066d2fc7d1800ee5375b323b965a300df342418a",
+      "git_blob_sha": "97c2127635bcefb449be46562afd09d425f078ea"
+    },
+    {
+      "order": 4,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part004",
+      "bytes": 700000,
+      "sha256": "40390caa0b2fe34a106c8fc356e1da1d7fa92c6f676f52cdc9da0236e5f520c8",
+      "git_blob_sha": "e09e16b0664e1a4e754a33186bddd846aad0fad2"
+    },
+    {
+      "order": 5,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part005",
+      "bytes": 700000,
+      "sha256": "cb41d176a8fe10544256a4b62ab48e0ac2eac65e72e1f480c5b6803d22708f6a",
+      "git_blob_sha": "a059e4b29206f6224dad750cf69b9f400bdd28b5"
+    },
+    {
+      "order": 6,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part006",
+      "bytes": 700000,
+      "sha256": "aee9f61ba30bbf53d90a71f544b78b4a7643009603717af45c6d058a2ed34820",
+      "git_blob_sha": "80ce269f3ee46f02c45b9cf2bd53515268a0ba7c"
+    },
+    {
+      "order": 7,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part007",
+      "bytes": 700000,
+      "sha256": "330dd2927f496449d67aa03033b12a975ab04a4298f76fc9195416cd0f3c529e",
+      "git_blob_sha": "857024f0043733300d7bc93ed719e9dc62c01b1a"
+    },
+    {
+      "order": 8,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part008",
+      "bytes": 700000,
+      "sha256": "9ebc4a5f5cb14944dd1c0137d65e00afeb40b4079b97d9b2ffb3c513d590e92f",
+      "git_blob_sha": "bf0069a548dc7730ec09ddd04df1a5a1e45bb49b"
+    },
+    {
+      "order": 9,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part009",
+      "bytes": 700000,
+      "sha256": "880c9190b22dadff21e645ce3325d5e978c620be7f850cee741a7174f1df1878",
+      "git_blob_sha": "5358de1c24babdf4e3a1189902405874e536b4bf"
+    },
+    {
+      "order": 10,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part010",
+      "bytes": 700000,
+      "sha256": "0b7bcc7179d8812d5839e58ecf3cabfdc99d32ec43772034a269fa3168a6281c",
+      "git_blob_sha": "fcf007537950564d8b3a69fd80986781d308f7c0"
+    },
+    {
+      "order": 11,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part011",
+      "bytes": 700000,
+      "sha256": "5821b6b045dc067cae8ea47bda9b4eb3e1b25250c77cc9c3ee9f64c44d1980f2",
+      "git_blob_sha": "bda2dd132dcf25dbb40ec626856b60ccc0c2dc56"
+    },
+    {
+      "order": 12,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part012",
+      "bytes": 700000,
+      "sha256": "b6226a06771a985f8a29f0de7964ff28c17d05cc51d4d0e1fd0f7f222fb9bef6",
+      "git_blob_sha": "532b4cf2af59092a43015803d7c6255e74a97012"
+    },
+    {
+      "order": 13,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part013",
+      "bytes": 700000,
+      "sha256": "1ae6afee4bfbdc002f03dbb430de179729f60395f665e49ad641c74a4967347c",
+      "git_blob_sha": "e82a24ac6221e8957318cb5e1c957603f3b6acfa"
+    },
+    {
+      "order": 14,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part014",
+      "bytes": 700000,
+      "sha256": "73a78ef3050c55e66b6b9e476b5047ce1c833680cf1175c61077c8450f880ed0",
+      "git_blob_sha": "bdaa3c6dcb579f1c25d5be2729f30583e5696b8d"
+    },
+    {
+      "order": 15,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part015",
+      "bytes": 700000,
+      "sha256": "cb7e36e7d123f6b7db7fdd2413cd5d14a93f2e48dde1f22008a7b7f2deafc9a6",
+      "git_blob_sha": "31dfd113de13c606b526303285ff4d796c572e0e"
+    },
+    {
+      "order": 16,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part016",
+      "bytes": 700000,
+      "sha256": "42f85693d9b4c9e7a66f6f250304585ccb9badf6182b4485cd365d9966962fda",
+      "git_blob_sha": "d4b7ab8a5cbb8b5de271e6b8656c9484670560cb"
+    },
+    {
+      "order": 17,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part017",
+      "bytes": 700000,
+      "sha256": "c5a8cffdbd9d29ffff114b81a40f00cf5fdcd6bfad81b2d8d71d18d312d70dcb",
+      "git_blob_sha": "a9a131cf295342675759e75d5f8b09b375c8688d"
+    },
+    {
+      "order": 18,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part018",
+      "bytes": 700000,
+      "sha256": "917b7a4db17dbb674b20505441a7d9c07a5d2f2397130fce4003546e8eaa307d",
+      "git_blob_sha": "ec54baf08ea49fb899dc0f6f7f6d84f0101025b0"
+    },
+    {
+      "order": 19,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part019",
+      "bytes": 700000,
+      "sha256": "d824b453acd110c5cfaf399feebf62f8d7cfd0f984946bf48b528c3acf3738b4",
+      "git_blob_sha": "4b4fd1e47afe17c9bad2078f1bf9fe6bb7f01f6f"
+    },
+    {
+      "order": 20,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part020",
+      "bytes": 700000,
+      "sha256": "69b2efd32a9d74e4d1342ab2d1b5ea44b39347205304cac0ab7705c509ecb7f7",
+      "git_blob_sha": "a3c93bbec41cfbf137cde0934992aa6c473f1459"
+    },
+    {
+      "order": 21,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part021",
+      "bytes": 700000,
+      "sha256": "8def0e831b0bf394b8355ee4968b963c56bacf85f1f42c12d6be494a5c09fc87",
+      "git_blob_sha": "34c53202f9c88258604d417a985457c398b5a509"
+    },
+    {
+      "order": 22,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part022",
+      "bytes": 700000,
+      "sha256": "57454d057507ca32c7c44ab67292e73c599d6e0fa1ae22b23254d6605b10280d",
+      "git_blob_sha": "93bec0728843e8f8b230e9908f30770c28301f84"
+    },
+    {
+      "order": 23,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part023",
+      "bytes": 700000,
+      "sha256": "7f0c49625bae93c00abd784bf3f70d0d045a8067b22151a508bfcb08dcc2501c",
+      "git_blob_sha": "33c088d91977331a108f068d372b6269c363ab66"
+    },
+    {
+      "order": 24,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part024",
+      "bytes": 700000,
+      "sha256": "8b5aece38a7559940f87451d140e4ee11a8cc4d3d1763d89dbf0990e37eed8d1",
+      "git_blob_sha": "5a1f0af7eba690fe051801a6492a99da48333d17"
+    },
+    {
+      "order": 25,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part025",
+      "bytes": 700000,
+      "sha256": "8ee771f30682b8feb99c303dc0fd2715913cb1d09564c45ceaf51d1f820df707",
+      "git_blob_sha": "eebab03ab37c60f9baf07fc784aea96827c518e6"
+    },
+    {
+      "order": 26,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part026",
+      "bytes": 700000,
+      "sha256": "0696bb6e31628c4292c227464eb66841ea3f69330c7f6fff0d457e4dc5ae8f61",
+      "git_blob_sha": "6c2985d7a031bcbf65fc565b7fda987d439bbf33"
+    },
+    {
+      "order": 27,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part027",
+      "bytes": 700000,
+      "sha256": "f6764dab5be7f072b54ca3d900b7509db558256276d2cc34720ce1deb58f0e3e",
+      "git_blob_sha": "fd2f39d1d84a86423c84710cc8db6fc987fa631d"
+    },
+    {
+      "order": 28,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part028",
+      "bytes": 700000,
+      "sha256": "4d6f7c29f47fb736286dc99ffe403eefe1f34a7a3fa191dc56ea2a30ec2378aa",
+      "git_blob_sha": "abdaf139ceda21e0f07c3dd7ae4c69c8ac23a3dd"
+    },
+    {
+      "order": 29,
+      "file": "DD2_SOURCE_WINDOW_PRIMARY_DRIVE_BACKUP_PACK_V8_BV4_FNA98.zip.part029",
+      "bytes": 501589,
+      "sha256": "48e1ba7ecff7131dc7ea9fab06ba2e777927f08b553e619edb05873211599e27",
+      "git_blob_sha": "3cbc53cf859009b7ddd7b2eed759f7419e01e3cd"
+    }
+  ]
+}
