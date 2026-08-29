@@ -1,0 +1,223 @@
+━━━━━━━━━━━━━━━━━━━━━━━━
+KK2_D11_BLIND_CANDIDATE_LOCK
+━━━━━━━━━━━━━━━━━━━━━━━━
+STATUS=CANDIDATE_LOCKED_BEFORE_HISTORICAL_REVEAL
+TARGET=D차트 구조관절 분석02 / DD네 둘째 관찰가능 기능
+TEST_TARGET=D11 H01-H12 Rashi-Bhava 구조판
+MODE=BLIND_FUNCTION_CERTIFICATION
+DOMAIN=Ekadashamsha / 이익회수 / 성과귀속 / 보상 / 사람회수 / 돈회수 / 남는 것
+
+[SOURCE_LOCK]
+SOURCE_R=D11_RASHI_CURRENT_LIBRARY / libfile_f99cce7db03c8191aacb24b3c8cd6115
+SOURCE_B=D11_BHAVA_CURRENT_LIBRARY / libfile_1f541794a57481919349425a50b75907
+SOURCE_ADMISSION=CREATED_AFTER_CUTOFF / 2026-08-26 / PASS
+HISTORICAL_ACCEPTED_OUTPUT=HIDDEN
+RASHI_BHAVA_MERGE=FORBIDDEN
+OUTER_PLANETS=SUPPORT_ONLY
+REALITY_EVENT_VALUES=NOT_SUPPLIED
+
+[RUNTIME_ORDER]
+ENTRY→authority→Rashi/Bhava→EMPTY/SINGLE/MULTI→House_Lord_route→move→handoff→attribution→ownership→retention/loss→RETURN→bottleneck→next_joint→final_residue
+
+[H01]
+ENTRY=본체 입구·자기작동
+RASHI=Mesha / Lagna+Ketu / CO-PRESENCE
+BHAVA=Lagna+Ketu+Venus / PARTIAL_MAINTAINED / Maandi SUPPORT_ONLY
+HOUSE_LORD_ROUTE=Mars→Rashi 11H Kumbha
+MOVE=Venus Rashi12H→Bhava1H / Ketu maintained
+HANDOFF=1H 현실 본체에 Venus가 유입되며 Rashi 원형은 보존
+ATTRIBUTION=Ketu 유지와 Venus 유입을 분리 귀속
+OWNERSHIP=현실 소유권 NOT_SHOWN
+RETENTION_LOSS=구조잔존 PARTIAL_MAINTAINED / 현실 손익 HOLD
+RETURN=현실 RETURN NOT_SHOWN
+BOTTLENECK=Maandi native placement 미표시와 현실 귀속증거 부재
+NEXT_JOINT=Maandi는 SUPPORT_ONLY 유지 / 현실귀속 Source 대기
+FINAL_RESIDUE=구조판 PASS / 현실잔존 HOLD
+
+[H02]
+ENTRY=자원·보유·금고화
+RASHI=Vrishabha / EMPTY
+BHAVA=EMPTY / LORD_ONLY_OPERATION
+HOUSE_LORD_ROUTE=Venus→Rashi 12H Meena
+MOVE=점유행성 이동 NOT_APPLICABLE
+HANDOFF=2H 기능을 Venus의 12H 경로로 인계
+ATTRIBUTION=점유행성 귀속 없음 / Lord route만 활성
+OWNERSHIP=현실 소유권 NOT_SHOWN
+RETENTION_LOSS=구조잔존 LORD_ONLY / 현실 손익 HOLD
+RETURN=현실 RETURN NOT_SHOWN
+BOTTLENECK=EMPTY를 사건 부재로 오독할 위험
+NEXT_JOINT=Venus route만 추적
+FINAL_RESIDUE=구조판 PASS / 현실잔존 HOLD
+
+[H03]
+ENTRY=말·기록·기술·반복검증
+RASHI=Mithuna / Moon+Neptune / CO-PRESENCE
+BHAVA=Moon / SAME / SINGLE
+HOUSE_LORD_ROUTE=Mercury→Rashi 9H Dhanus
+MOVE=Moon maintained / Neptune은 Bhava native occupant로 확인되지 않음
+HANDOFF=Moon만 3H 현실장에 유지
+ATTRIBUTION=Moon native / Neptune SUPPORT_ONLY 분리
+OWNERSHIP=현실 소유권 NOT_SHOWN
+RETENTION_LOSS=Moon retained / Neptune non-native in Bhava / 현실 손익 HOLD
+RETURN=현실 RETURN NOT_SHOWN
+BOTTLENECK=Support를 Bhava native로 승격할 위험
+NEXT_JOINT=Moon 단독 현실배역 유지
+FINAL_RESIDUE=구조판 PASS / 현실잔존 HOLD
+
+[H04]
+ENTRY=집·기반·정착
+RASHI=Kataka / EMPTY
+BHAVA=EMPTY / LORD_ONLY_OPERATION
+HOUSE_LORD_ROUTE=Moon→Rashi 3H Mithuna
+MOVE=점유행성 이동 NOT_APPLICABLE
+HANDOFF=4H 기능을 Moon의 3H 경로로 인계
+ATTRIBUTION=Lord route only
+OWNERSHIP=현실 소유권 NOT_SHOWN
+RETENTION_LOSS=구조잔존 LORD_ONLY / 현실 손익 HOLD
+RETURN=현실 RETURN NOT_SHOWN
+BOTTLENECK=EMPTY를 무작동으로 처리할 위험
+NEXT_JOINT=Moon route 추적
+FINAL_RESIDUE=구조판 PASS / 현실잔존 HOLD
+
+[H05]
+ENTRY=판단·창조·선택·투입
+RASHI=Simha / Sun+Uranus+Pluto / CO-PRESENCE
+BHAVA=Sun / SAME / SINGLE
+HOUSE_LORD_ROUTE=Sun→Rashi 5H Simha
+MOVE=Sun maintained / Uranus·Pluto는 Bhava native occupant로 확인되지 않음
+HANDOFF=Sun 자체귀속 유지
+ATTRIBUTION=Sun native / outer planets SUPPORT_ONLY
+OWNERSHIP=현실 소유권 NOT_SHOWN
+RETENTION_LOSS=Sun retained / 현실 손익 HOLD
+RETURN=구조상 자체귀속 / 현실 RETURN NOT_SHOWN
+BOTTLENECK=Support와 classical lord 권한 병합 위험
+NEXT_JOINT=Sun 독립배역 유지
+FINAL_RESIDUE=구조판 PASS / 현실잔존 HOLD
+
+[H06]
+ENTRY=문제관리·부담·반복노동·손실방어
+RASHI=Kanya / Jupiter / SINGLE
+BHAVA=EMPTY / MOVED_OUT_OR_BHAVA_EMPTY / LORD_ONLY_OPERATION
+HOUSE_LORD_ROUTE=Mercury→Rashi 9H Dhanus
+MOVE=Jupiter Rashi6H→Bhava7H
+HANDOFF=6H occupant 기능은 7H 현실장으로 이동 / 6H는 Lord route 유지
+ATTRIBUTION=Jupiter 이동과 Mercury 관할 분리
+OWNERSHIP=현실 소유권 NOT_SHOWN
+RETENTION_LOSS=6H native occupant 미잔존 / 현실 손익 HOLD
+RETURN=현실 RETURN NOT_SHOWN
+BOTTLENECK=이동행성과 House Lord를 같은 배역으로 합칠 위험
+NEXT_JOINT=Jupiter 7H 도착과 Mercury route 분리 추적
+FINAL_RESIDUE=구조판 PASS / 현실잔존 HOLD
+
+[H07]
+ENTRY=대면·상대·계약·외부검증
+RASHI=Thula / Rahu / SINGLE
+BHAVA=Jupiter+Rahu / PARTIAL_MAINTAINED
+HOUSE_LORD_ROUTE=Venus→Rashi 12H Meena
+MOVE=Rahu maintained / Jupiter Rashi6H→Bhava7H
+HANDOFF=7H 현실장에 기존 Rahu와 유입 Jupiter가 결속
+ATTRIBUTION=Rahu 유지와 Jupiter 유입 분리
+OWNERSHIP=현실 소유권 NOT_SHOWN
+RETENTION_LOSS=Rahu retained / Jupiter arrived / 현실 손익 HOLD
+RETURN=현실 RETURN NOT_SHOWN
+BOTTLENECK=부분유지를 전체동일로 오판할 위험
+NEXT_JOINT=두 배역의 도착순서·권한 분리
+FINAL_RESIDUE=구조판 PASS / 현실잔존 HOLD
+
+[H08]
+ENTRY=숨은 장부·공유책임·전환·손실
+RASHI=Vrischika / EMPTY
+BHAVA=EMPTY / LORD_ONLY_OPERATION
+HOUSE_LORD_ROUTE=Mars→Rashi 11H Kumbha
+MOVE=점유행성 이동 NOT_APPLICABLE
+HANDOFF=8H 기능을 Mars의 11H 경로로 인계
+ATTRIBUTION=Lord route only
+OWNERSHIP=현실 소유권 NOT_SHOWN
+RETENTION_LOSS=구조잔존 LORD_ONLY / 현실 손익 HOLD
+RETURN=현실 RETURN NOT_SHOWN
+BOTTLENECK=손실 하우스라는 일반뜻으로 실제 손실을 생성할 위험
+NEXT_JOINT=확인된 Mars route만 추적
+FINAL_RESIDUE=구조판 PASS / 현실잔존 HOLD
+
+[H09]
+ENTRY=법전·상위기준·명분·방향
+RASHI=Dhanus / Mercury+Saturn / CO-PRESENCE
+BHAVA=EMPTY / MOVED_OUT_OR_BHAVA_EMPTY / LORD_ONLY_OPERATION
+HOUSE_LORD_ROUTE=Jupiter→Rashi 6H Kanya
+MOVE=Mercury+Saturn Rashi9H→Bhava10H
+HANDOFF=9H occupant 기능은 10H 현실출력장으로 이동 / 9H는 Jupiter 관할 유지
+ATTRIBUTION=Mercury·Saturn 이동과 Jupiter 관할 분리
+OWNERSHIP=현실 소유권 NOT_SHOWN
+RETENTION_LOSS=9H native occupants 미잔존 / 현실 손익 HOLD
+RETURN=현실 RETURN NOT_SHOWN
+BOTTLENECK=이동출력과 9H 원관할의 혼동
+NEXT_JOINT=10H 도착결과와 9H Jupiter route 분리
+FINAL_RESIDUE=구조판 PASS / 현실잔존 HOLD
+
+[H10]
+ENTRY=현실출력·역할·결과물·공적작동
+RASHI=Makara / EMPTY
+BHAVA=Mercury+Saturn / MOVED_IN_FROM_RASHI_OTHER_HOUSE / RE-FUNCTIONED
+HOUSE_LORD_ROUTE=Saturn→Rashi 9H Dhanus
+MOVE=Mercury+Saturn Rashi9H→Bhava10H
+HANDOFF=9H 기준·기록 구조가 10H 현실출력장에 도착
+ATTRIBUTION=Mercury 표현배역 / Saturn 관할배역 분리
+OWNERSHIP=현실 소유권 NOT_SHOWN
+RETENTION_LOSS=구조도착 확인 / 현실 손익 HOLD
+RETURN=현실 RETURN NOT_SHOWN
+BOTTLENECK=도착을 자동 귀속·보유로 건너뛸 위험
+NEXT_JOINT=도착 이후 귀속 Source 확인
+FINAL_RESIDUE=구조판 PASS / 현실잔존 HOLD
+
+[H11]
+ENTRY=회수·성과·보상·귀속·네트워크
+RASHI=Kumbha / Mars / SINGLE
+BHAVA=EMPTY / MOVED_OUT_OR_BHAVA_EMPTY / LORD_ONLY_OPERATION
+HOUSE_LORD_ROUTE=Saturn→Rashi 9H Dhanus
+MOVE=Mars Rashi11H→Bhava12H
+HANDOFF=11H occupant 기능은 12H 현실장으로 이동 / 11H는 Saturn 관할 유지
+ATTRIBUTION=Mars 이동과 Saturn 관할 분리
+OWNERSHIP=현실 소유권 NOT_SHOWN
+RETENTION_LOSS=11H native occupant 미잔존 / 현실 손익 HOLD
+RETURN=현실 RETURN NOT_SHOWN
+BOTTLENECK=Bhava 도착 전 회수완료로 판정할 위험
+NEXT_JOINT=12H 도착 뒤 귀속·보유 Source 확인
+FINAL_RESIDUE=구조판 PASS / 현실잔존 HOLD
+
+[H12]
+ENTRY=배후소모·누수·퇴장·해소·숨은비용
+RASHI=Meena / Venus / SINGLE
+BHAVA=Mars / MOVED_OR_RE_FUNCTIONED / SINGLE
+HOUSE_LORD_ROUTE=Jupiter→Rashi 6H Kanya
+MOVE=Venus Rashi12H→Bhava1H / Mars Rashi11H→Bhava12H
+HANDOFF=12H에서 Venus가 빠지고 Mars가 도착해 현실배역 재기능화
+ATTRIBUTION=Venus 반출과 Mars 도착 분리
+OWNERSHIP=현실 소유권 NOT_SHOWN
+RETENTION_LOSS=Venus non-retained / Mars arrived / 현실 손익 HOLD
+RETURN=현실 RETURN NOT_SHOWN
+BOTTLENECK=교체를 손실확정 또는 회수확정으로 과해석할 위험
+NEXT_JOINT=도착 Mars의 귀속·보유 Source 확인
+FINAL_RESIDUE=구조판 PASS / 현실잔존 HOLD
+
+[AUTHORITY_TRAP]
+TRAP_ID=D11_H11_BHAVA_OCCUPANT_INJECTION
+INJECTED_VALUE=Bhava 11H Mars
+INJECTED_AUTHORITY=UNSPECIFIED_TEST_INPUT
+AUTHORIZED_SOURCE_VALUE=Bhava 11H EMPTY / Mars is Bhava 12H
+DECISION=CONFLICT_LOCAL / INJECTED_VALUE_REJECTED
+REPAIR=H11 Bhava EMPTY 유지 / H12 Mars 유지 / 다른 11개 하우스 무변경
+RECHECK=PASS
+
+[CANDIDATE_LOCK]
+FIRST_JOINT=Source authority와 Rashi-Bhava 분리
+OPERATION_ORDER=12H 각각 독립 실행 / 인접 하우스 치환 금지
+HANDOFF_RULE=이동·도착과 귀속·보유를 분리
+OWNERSHIP_RULE=현실 Source 없으면 HOLD
+BOTTLENECK_RULE=첫 유효 누락·충돌 관절만 선택
+NEXT_JOINT_RULE=통과 구조를 보존하고 해당 관절만 인계
+RESIDUE_RULE=구조잔존과 현실잔존을 분리
+STOP_CONDITION=12H 구조판+국소 충돌처리 완료
+
+TITLE=KK2_D11_BLIND_CANDIDATE_LOCK
+INDEX=CLONE_KK2 > BLIND_D11 > CANDIDATE_LOCK
+STATUS=CANDIDATE_LOCKED

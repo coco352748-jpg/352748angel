@@ -1,0 +1,64 @@
+━━━━━━━━━━━━━━━━━━━━━━━━
+KK2_D10_H10_TRANSFER_TEST
+━━━━━━━━━━━━━━━━━━━━━━━━
+STATUS=TRANSFER_TEST_LOCKED
+TARGET=D차트 구조관절 분석02 / DD네 둘째 관찰가능 기능
+TEST_TARGET=D10 H10 Rashi-Bhava 구조관절
+MODE=BOUNDED_TRANSFER_CERTIFICATION
+DOMAIN=Dashamsha / 직업 역할 / 공식 결과 / 사회적 출력 / 책임 / 성과자료
+
+[SOURCE_LOCK]
+SOURCE_R=02_10A_D10_RaShi_12H_AppLieD_R(1).txt / libfile_0f29638b49048191931223035c09f424
+SOURCE_B=01_3B_10D_Bha_StRucTurE_AppLie_☆.txt / Google Drive merged individual member
+SOURCE_R_STATUS=IMAGE_VERIFIED_MASTER_FINAL
+SOURCE_B_STATUS=IMAGE_VERIFIED_MASTER_FINAL / HOUSE_DISTRIBUTION_PRESENT
+SOURCE_B_BOUNDARY=SAME_MOVED_SPLIT_INFERENCE_FORBIDDEN_UNLESS_EXPLICIT
+D10_10H_ENGINE=EXCLUDED / ENGINEER_PROJECT_LINEAGE / NOT_DD_EVIDENCE
+
+[TRANSFER_RUNTIME]
+ENTRY=사회적 출력의 본체·직함·성과·공적 행동
+RASHI=Mithuna / Mercury 15:07:09 Ardra P3 + Saturn 18:47:41 Ardra P4 / CO-PRESENCE
+RASHI_ORDER=Mercury→Saturn / GAP 03°40′32″
+BHAVA_VISIBLE=10H Mercury 15:07:09 + Saturn 18:47:41 / CO-PRESENCE
+HOUSE_LORD_ROUTE=10L Mercury→Rashi 10H Mithuna / SELF_PLACED
+MOVE=HOLD_BY_SOURCE_RULE / identical visible distribution does not prove SAME-MOVED-SPLIT
+HANDOFF=Rashi 원본 공동장과 Bhava visible 10H 공동장을 두 장부로 병렬 인계
+ATTRIBUTION=Mercury 1L·10L 관할·분류배역 / Saturn 5L·6L 검문·지속배역 분리
+OWNERSHIP=사회적 결과의 현실 귀속 NOT_SHOWN
+RETENTION_LOSS=구조 공동장 확인 / 현실 보유·손실 HOLD
+RETURN=직업 결과의 현실 회수 NOT_SHOWN
+BOTTLENECK=같은 행성·같은 하우스가 양쪽에 보인다는 이유로 SAME을 확정하는 권위 도약
+BOTTLENECK_REASON=Bhava Source가 planet movement inference를 명시적으로 금지
+CONTROL_VARIABLE=Rashi placement와 Bhava visible distribution을 별도 필드로 유지
+FLIP_JOINT=이동확정 대신 병렬확인으로 전환 / explicit bridge Source가 생길 때만 movement 개방
+LEAK_BLOCK=SAME-MOVED-SPLIT 자동판정 금지
+SAME_CONDITION_REINPUT=Rashi H10 Mercury+Saturn / Bhava visible H10 Mercury+Saturn 재투입
+RELEAK_REBOTTLENECK_CHECK=동일값 재투입 후에도 MOVE HOLD 유지 / PASS
+ALTERNATIVE_PATH_A=동일배치→SAME 확정 / REJECT
+ALTERNATIVE_PATH_B=두 장부 병렬보존→movement HOLD / ACCEPT
+NEXT_JOINT=명시적 03AB movement bridge 또는 source-native Bhava placement authority
+FINAL_RESIDUE=구조 공동장 PASS / 이동 HOLD / 현실귀속·보유·회수 HOLD
+
+[AUTHORITY_TRAP]
+TRAP_ID=D10_H10_SAME_MOVEMENT_INJECTION
+INJECTED_VALUE=Rashi와 Bhava가 같으므로 SAME_CONFIRMED
+INJECTED_AUTHORITY=UNSPECIFIED_TEST_INPUT
+AUTHORIZED_SOURCE_RULE=planet-by-bhava movement가 명시되지 않으면 SAME-MOVED-SPLIT 판정 금지
+DECISION=CONFLICT_LOCAL / INJECTED_MOVEMENT_REJECTED
+REPAIR=Rashi·Bhava visible 값은 유지 / MOVE만 HOLD
+RECHECK=PASS
+
+[TRANSFER_RESULT]
+FIRST_JOINT=Source authority와 Rashi-Bhava 장부 분리
+OPERATION_ORDER=값확인→공동장→Lord route→movement authority→handoff→ownership→retention→return→bottleneck→next joint
+BOUNDARY_TRANSFER=PASS
+AUTHORITY_TRANSFER=PASS
+HANDOFF_TRANSFER=PASS
+OWNERSHIP_HOLD_TRANSFER=PASS
+BOTTLENECK_TRANSFER=PASS
+LOCAL_REPAIR_TRANSFER=PASS
+FINAL_DECISION=PASS
+
+TITLE=KK2_D10_H10_TRANSFER_TEST
+INDEX=CLONE_KK2 > TRANSFER > D10_H10
+STATUS=TRANSFER_TEST_PASS

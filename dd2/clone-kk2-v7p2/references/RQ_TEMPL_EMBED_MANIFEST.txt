@@ -1,0 +1,39 @@
+RQ_TEMPL_EMBED_MANIFEST.txt
+===========================
+
+EMBEDDED_ENGINE=rq-templ
+ORIGIN_SKILL_NAME=rq-templ
+ORIGIN_PACKAGE=e0/remote-skills/skill-6a788d107da881919bf2c9dfa67045c2
+EMBED_LOCATION=assets/rq-templ-full.zip
+ROOT_INSTRUCTION_COPY=references/RQ_TEMPL_SKILL.md
+MATERIALIZER=scripts/materialize_rq_templ.py
+COPY_MODE=FUNCTIONAL_SOURCE_BYTE_EXACT_ZIP
+FILE_COUNT=34
+ORIGIN_TREE_SHA256=0730e6c2becfb62a91cb0ca756cf3738ef667a11c78530e81a196e7eb2c8a178
+MATERIALIZED_TREE_SHA256=0730e6c2becfb62a91cb0ca756cf3738ef667a11c78530e81a196e7eb2c8a178
+ZIP_SHA256=dcd9f4a9cb7bbe262b82baf15e595e55346f9b0fad2497c10b351ec60bb0e6de
+TREE_HASH_ALGORITHM=sorted relative-path sha256sum lines, then sha256sum
+EXCLUDED=generated __pycache__/*.pyc only
+VERIFIED_AT=2026-08-27
+
+INCLUDED=
+- SKILL.md
+- agents/openai.yaml
+- every bundled reference
+- every bundled validator and helper source script
+
+RUNTIME_RULE=
+- Read references/RQ_TEMPL_SKILL.md at boot.
+- Before template execution, materialize assets/rq-templ-full.zip with scripts/materialize_rq_templ.py.
+- Resolve every relative reference and script inside the verified materialized root.
+- Do not replace the embedded engine with a remembered summary.
+- Do not use an external rq-templ copy at boot.
+- Apply only the mode required by the current target.
+
+INTEGRATION_BOUNDARY=
+- rq-templ owns template topology, template lifecycle, source/job packets, and its validators.
+- SECOND_FUNCTION_RUNTIME owns the restored second-worker production, QA, repair, reinspection, handoff, and sign-off gate.
+- Neither layer silently rewrites the other.
+- Current user instruction is the final authority when a real conflict is identified.
+
+END_RQ_TEMPL_EMBED_MANIFEST

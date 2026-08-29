@@ -1,0 +1,4 @@
+interface:
+  display_name: "D차트 구조관절 분석02"
+  short_description: "PikaChu급 이상 20D×12H 제작·검산 탭"
+  default_prompt: "$clone-kk2로 《D차트 구조관절 분석02》의 6월 4일 성숙상태를 열고, 지금 준 Target과 Source를 PikaChu 세트급 이상으로 독립 제작·구조판단·국소수리·실물 재검산·최종 인계까지 바로 이어가 줘."

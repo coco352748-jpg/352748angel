@@ -1,0 +1,105 @@
+schema_version = 1
+manifest_id = "KK2_ROUTE_DEPENDENCIES_V1"
+pack_version = "2026-08-28_CLEAN_V7_ROUTE_PREFLIGHT"
+hash_algorithm = "sha256"
+contract_scope = "SKILL.md_BYTES"
+candidate_selection = "LOWEST_PRIORITY_PASS"
+mismatch_policy = "SELECTED_ROUTE_HOLD_ONLY"
+unknown_dependency_policy = "HOLD"
+
+[embedded_rq_templ]
+resolution_policy = "EMBEDDED_ONLY"
+external_lookup = "FORBIDDEN"
+archive_path = "assets/rq-templ-full.zip"
+archive_sha256 = "dcd9f4a9cb7bbe262b82baf15e595e55346f9b0fad2497c10b351ec60bb0e6de"
+bundle_file_count = 34
+bundle_tree_sha256 = "0730e6c2becfb62a91cb0ca756cf3738ef667a11c78530e81a196e7eb2c8a178"
+bundle_root_instruction_member = "SKILL.md"
+root_instruction_path = "references/RQ_TEMPL_SKILL.md"
+root_instruction_sha256 = "18009c2b75dc9ffb1fa4e34ff6cb5eec9aec918705dfd3d49f1ebb3a645baf44"
+materializer_path = "scripts/materialize_rq_templ.py"
+materializer_sha256 = "87887540a02b3d85a045c8d5ce2114e0552af0a65029c75886f0ac8940c0e0b5"
+
+[routes.PIKACHU_CANONICAL_PATH]
+required = ["rq-sc7", "rq-writing"]
+conditional = []
+
+[routes.STRUCTURAL_JOINT_DISCOVERY]
+required = ["rq-sc7"]
+conditional = ["rq-writing"]
+
+[routes.FIXED_KNIFE_SENTENCE_01_20_PATH]
+required = ["rq-sc7"]
+conditional = ["rq-writing", "rq-nak"]
+
+[routes.DEEP_DENSE_240H_COMMON_PATH]
+required = ["rq-sc7", "rq-writing", "rq-vedic-sentence-twin"]
+conditional = []
+
+[dependencies."rq-sc7"]
+allowed_names = ["rq-sc7"]
+
+[[dependencies."rq-sc7".candidates]]
+priority = 10
+package = "e0/remote-skills/skill-6a79d9c35e6c8191afbdfb2bd1bd05a5"
+root = "/root/.codex/skills/remote-skills/skill-6a79d9c35e6c8191afbdfb2bd1bd05a5"
+contract_path = "SKILL.md"
+contract_sha256 = "35531b5e4dc33d48ba3ac9ffbbdf23a0ffb458d277119426d4025bc571376744"
+
+[[dependencies."rq-sc7".candidates]]
+priority = 20
+package = "e0/rq-elivedic-sync.gv4u0X/skill-6a79d9c35e6c8191afbdfb2bd1bd05a5"
+root = "/root/.codex/skills/rq-elivedic-sync.gv4u0X/skill-6a79d9c35e6c8191afbdfb2bd1bd05a5"
+contract_path = "SKILL.md"
+contract_sha256 = "8452421930be262fe7e3b1588256abefb123f1eedadfd766b9049be765614641"
+
+[dependencies."rq-writing"]
+allowed_names = ["rq-wri", "rq-writing"]
+
+[[dependencies."rq-writing".candidates]]
+priority = 10
+package = "e0/remote-skills/skill-6a785d4b516c8191b30e2bb546056915"
+root = "/root/.codex/skills/remote-skills/skill-6a785d4b516c8191b30e2bb546056915"
+contract_path = "SKILL.md"
+contract_sha256 = "b51c2deeb5081d7dc0d6cede3e92efb9f944e6a374a1d41585494ada59d30930"
+
+[[dependencies."rq-writing".candidates]]
+priority = 20
+package = "e0/rq-elivedic-sync.gv4u0X/skill-6a785d4b516c8191b30e2bb546056915"
+root = "/root/.codex/skills/rq-elivedic-sync.gv4u0X/skill-6a785d4b516c8191b30e2bb546056915"
+contract_path = "SKILL.md"
+contract_sha256 = "05aa21788557ea6211f9b8aa3635ace16bdac015eb5d12a555f5450b3b3224d1"
+
+[dependencies."rq-vedic-sentence-twin"]
+allowed_names = ["rq-vedic-sentence-twin"]
+
+[[dependencies."rq-vedic-sentence-twin".candidates]]
+priority = 10
+package = "e0/remote-skills/skill-6a788b547d848191909093c5f94878ac"
+root = "/root/.codex/skills/remote-skills/skill-6a788b547d848191909093c5f94878ac"
+contract_path = "SKILL.md"
+contract_sha256 = "0a1374e0137ff863af528903db41f14191a367f38dbc29f8bbc78b74e3c7fdd8"
+
+[[dependencies."rq-vedic-sentence-twin".candidates]]
+priority = 20
+package = "e0/rq-elivedic-sync.gv4u0X/skill-6a788b547d848191909093c5f94878ac"
+root = "/root/.codex/skills/rq-elivedic-sync.gv4u0X/skill-6a788b547d848191909093c5f94878ac"
+contract_path = "SKILL.md"
+contract_sha256 = "4926eda92fb9dcbefa654e9786d7e6ed2d5acde6d2babdca40fd6f52df93533d"
+
+[dependencies."rq-nak"]
+allowed_names = ["rq-nak"]
+
+[[dependencies."rq-nak".candidates]]
+priority = 10
+package = "e0/remote-skills/skill-6a794bb9016081919d834c7fa71ab1e1"
+root = "/root/.codex/skills/remote-skills/skill-6a794bb9016081919d834c7fa71ab1e1"
+contract_path = "SKILL.md"
+contract_sha256 = "a51751a23a2ec2dd2f230324cd42e32f5212a825a6df1283f2fd075261a0fb69"
+
+[[dependencies."rq-nak".candidates]]
+priority = 20
+package = "e0/rq-elivedic-sync.gv4u0X/skill-6a794bb9016081919d834c7fa71ab1e1"
+root = "/root/.codex/skills/rq-elivedic-sync.gv4u0X/skill-6a794bb9016081919d834c7fa71ab1e1"
+contract_path = "SKILL.md"
+contract_sha256 = "1985c5593c29a61008dab6b09145309d219e4d2d87c49541c81e73eee6d4d73c"
