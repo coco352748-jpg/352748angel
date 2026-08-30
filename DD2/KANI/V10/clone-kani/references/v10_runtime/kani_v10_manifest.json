@@ -1,5 +1,5 @@
 {
-  "bundle_completeness": "EVIDENCE_PRESENT_AWAITING_USER_REVIEW",
+  "bundle_completeness": "EVIDENCE_REVIEWED_PROMOTED_WITH_EXACT_HOLDS",
   "claims": {
     "E5_E6_OVERLAY": "ADD_TO_V9_DO_NOT_OVERWRITE",
     "FINAL_PASS": "HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE",
@@ -8,6 +8,17 @@
     "SECOND_RESTORE": "EVIDENCE_REVIEW",
     "V10": "EXPECTED_VALUE_BOUND",
     "V9_BASELINE": "PRESERVED_NOT_OVERWRITTEN"
+  },
+  "effective_states": {
+    "FINAL_FNA98_RUNTIME": "HOLD_UNTIL_REAL_RUNTIME_GATES_PASS",
+    "FINAL_PASS": "HOLD_REMAINING_RUNTIME_GATES",
+    "FRESH_TAB_REAL_BOOT_TEST": "HOLD",
+    "GLOBAL_29_LANE_E5": "HOLD_28_JUDGMENT_TO_SENTENCE_LANES_UNTESTED",
+    "PUBLIC_RESTORE_STATE": "ACTIVE_EVIDENCE_SCOPED",
+    "REAL_LONG_DRIFT": "HOLD_REAL_LONG_DRIFT_NOT_PROVEN",
+    "SECOND_RESTORE": "PASS_EVIDENCE_SCOPED",
+    "USER_EVIDENCE_REVIEW": "PASS",
+    "V10": "EXPECTED_VALUE_BOUND"
   },
   "engine": "KANI_CAUSAL_RESTORE_V10",
   "historical_v9_e5_e6": {
@@ -234,9 +245,9 @@
       },
       "boot_validator": {
         "availability": "PRESENT",
-        "bytes": 19913,
+        "bytes": 21366,
         "path": "scripts/validate_kani_boot.py",
-        "sha256": "c11b8d6041a1a6043c921bb1d8a2134d1345870626db1e15243e8cd5f0f5edaa"
+        "sha256": "f3568e04e9edfaf018b529b470a5dbc638653b8a258417b01990fb139633a29f"
       },
       "e5_independent_validator": {
         "availability": "PRESENT",
@@ -276,26 +287,26 @@
       },
       "skill_entrypoint": {
         "availability": "PRESENT",
-        "bytes": 16633,
+        "bytes": 20076,
         "path": "SKILL.md",
-        "sha256": "f6414d73a207d2d46bcec7de6051793e9b4bbf0a2c346bb8a2e02742b7d0c1d1"
+        "sha256": "4e5b4e326239401bf6edf45627940936e3dfb35345ec5498cad6c336c69d2687"
       },
       "v10_manifest_builder": {
         "availability": "PRESENT",
-        "bytes": 36879,
+        "bytes": 43825,
         "path": "scripts/build_kani_v10_manifest.py",
-        "sha256": "ed3d6cd37f06833f91ea9c3a067d3a22f7e4b553dd15e9ff84418fe982f96b3d"
+        "sha256": "e22d16fa0d621391a666700b6f614d8549f7bb4611b4bf3d44ef837252155db6"
       },
       "v10_runtime_validator": {
         "availability": "PRESENT",
-        "bytes": 38644,
+        "bytes": 47422,
         "path": "scripts/validate_kani_v10_runtime.py",
-        "sha256": "6c2a496a7d98e91d7dfd9802ee5eb14874f2d283316ef73709cd42c65f187304"
+        "sha256": "a05a00dbc5d6bc7646cd89ff1d9da5460728bf0a0d403d11f3d65dcd2a7caa3f"
       }
     },
     "status": "HASH_LOCKED_EXECUTABLES_AND_ENTRYPOINTS"
   },
-  "manifest_id": "28133ce6ceb3e6442a500686a910d85cf0c6e3ed6dc46c81cec843afa7fb80fa",
+  "manifest_id": "779e40b620c761dd5cb2e314c1d3c3ba223662135e0ea881a7e925549b8f4989",
   "pending_components": [],
   "promotion_authority": "CURRENT_USER_EXPLICIT_ONLY",
   "purpose": "SECOND_RESTORE_ROUTER_EXECUTION_EVIDENCE_BOARD",
@@ -358,6 +369,23 @@
       "path": "references/v10_runtime/v9_e5_e6_audit_sidecar.json",
       "sha256": "4a8e361f8d9c53e0f779aba6f9ddb9036c9957ba8071dcc011a0f47a1318e3c4"
     },
+    "promotion_effective_states": {
+      "FINAL_FNA98_RUNTIME": "HOLD_UNTIL_REAL_RUNTIME_GATES_PASS",
+      "FINAL_PASS": "HOLD_REMAINING_RUNTIME_GATES",
+      "FRESH_TAB_REAL_BOOT_TEST": "HOLD",
+      "GLOBAL_29_LANE_E5": "HOLD_28_JUDGMENT_TO_SENTENCE_LANES_UNTESTED",
+      "PUBLIC_RESTORE_STATE": "ACTIVE_EVIDENCE_SCOPED",
+      "REAL_LONG_DRIFT": "HOLD_REAL_LONG_DRIFT_NOT_PROVEN",
+      "SECOND_RESTORE": "PASS_EVIDENCE_SCOPED",
+      "USER_EVIDENCE_REVIEW": "PASS",
+      "V10": "EXPECTED_VALUE_BOUND"
+    },
+    "promotion_record": {
+      "availability": "PRESENT",
+      "bytes": 9309,
+      "path": "references/v10_runtime/user_evidence_promotion_20260830.json",
+      "sha256": "354244a626cc9342b751e0d21d1b3564401866e8b506d5eb9304511634c4a1e8"
+    },
     "protocol": {
       "availability": "PRESENT",
       "bytes": 7984,
@@ -366,9 +394,9 @@
     },
     "restore_call": {
       "availability": "PRESENT",
-      "bytes": 2601,
+      "bytes": 3754,
       "path": "RESTORE_CALL.md",
-      "sha256": "903a9e2509752ec2e3dc186f37e3a4f3b8d6dd998d89d5796c27d4b8a8979d08"
+      "sha256": "b757221576bf973e6e817646d1b538193c227a966d3435e07a62d35a7699894c"
     },
     "router": {
       "availability": "PRESENT",

@@ -1,16 +1,46 @@
 {
-  "base_remote_commit": "a9fa11e0a8f06d2f417fc1c2e55bfefc272b1f0c",
-  "branch": "dd2-remote-sync",
-  "expanded_evidence_files": "BROWSABLE_KEY_V9_V10_SOURCE_RUNTIME_AND_CODE_FILES",
-  "full_bundle_archive_sha256": "808ac483869ec45b7485495d899f887adf945525cf1dde24ab0bb08d6fd639be",
-  "local_commit": "cc85d1961f07217062930288bbc381de7a07973f",
-  "main_branch_write_count": 0,
-  "remote_authority": "REMOTE_SYNC_ONLY_NO_EXECUTION_AUTHORITY",
+  "schema_version": "KANI_V10_GITHUB_SYNC_SCOPE_V2",
   "repository": "coco352748-jpg/352748angel",
-  "restore_call_path": "DD2/KANI/V10/clone-kani/RESTORE_CALL.md",
-  "restore_call_sha256": "903a9e2509752ec2e3dc186f37e3a4f3b8d6dd998d89d5796c27d4b8a8979d08",
-  "schema_version": "KANI_V10_GITHUB_SYNC_SCOPE_V1",
+  "branch": "dd2-remote-sync",
+  "base_remote_commit": "5aa49d00a80597a4fc12a2836d79fe4a373152ed",
+  "base_remote_tree": "87e2681fde2dddc55e515575518f560839630dea",
+  "local_commit": "bd2e5c5104951b8758e04134159fa69ac263e5c6",
   "target_path": "DD2/KANI/V10/clone-kani",
-  "v10_manifest_id": "28133ce6ceb3e6442a500686a910d85cf0c6e3ed6dc46c81cec843afa7fb80fa",
-  "v9_overwrite_count": 0
+  "expanded_evidence_files": "BROWSABLE_KEY_V9_V10_SOURCE_RUNTIME_CODE_AND_USER_PROMOTION_RECORD",
+  "bundle_manifest_path": "DD2/KANI/V10/clone-kani/_bundle/manifest.json",
+  "full_bundle_archive_sha256": "1c461eb02a9d18dad22e5e129f3ebddc19f1619d3a6572d9b770737896bb26b3",
+  "restore_call_path": "DD2/KANI/V10/clone-kani/RESTORE_CALL.md",
+  "restore_call_sha256": "b757221576bf973e6e817646d1b538193c227a966d3435e07a62d35a7699894c",
+  "promotion_record_path": "DD2/KANI/V10/clone-kani/references/v10_runtime/user_evidence_promotion_20260830.json",
+  "promotion_record_sha256": "354244a626cc9342b751e0d21d1b3564401866e8b506d5eb9304511634c4a1e8",
+  "v10_manifest_sha256": "da2a408f36a53bb9e083fcf835034c64cfa9deac44ffa74161079f6310ccc5a3",
+  "v10_manifest_id": "779e40b620c761dd5cb2e314c1d3c3ba223662135e0ea881a7e925549b8f4989",
+  "effective_states": {
+    "USER_EVIDENCE_REVIEW": "PASS",
+    "SECOND_RESTORE": "PASS_EVIDENCE_SCOPED",
+    "FINAL_PASS": "HOLD_REMAINING_RUNTIME_GATES",
+    "GLOBAL_29_LANE_E5": "HOLD_28_JUDGMENT_TO_SENTENCE_LANES_UNTESTED",
+    "FRESH_TAB_REAL_BOOT_TEST": "HOLD",
+    "REAL_LONG_DRIFT": "HOLD_REAL_LONG_DRIFT_NOT_PROVEN",
+    "FINAL_FNA98_RUNTIME": "HOLD_UNTIL_REAL_RUNTIME_GATES_PASS"
+  },
+  "sc7_source_binding": {
+    "pass": 231,
+    "hold": 9,
+    "hold_jobs": [
+      "D1-H02",
+      "D1-H03",
+      "D1-H04",
+      "D1-H05",
+      "D1-H07",
+      "D1-H08",
+      "D1-H09",
+      "D1-H11",
+      "D1-H12"
+    ]
+  },
+  "remote_authority": "REMOTE_SYNC_ONLY_NO_EXECUTION_AUTHORITY",
+  "main_branch_write_count": 0,
+  "v9_overwrite_count": 0,
+  "historical_e5_e6_overwrite_count": 0
 }

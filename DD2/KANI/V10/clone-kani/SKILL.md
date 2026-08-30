@@ -32,13 +32,16 @@ VERSION_TAG=KANI_V10
 ALIAS=kani
 V9_BASELINE=READ_ONLY
 V10_MODE=E5_E6_OVERLAY
-SECOND_RESTORE=EVIDENCE_REVIEW
-FINAL_PASS=USER_EVIDENCE_REVIEW_PENDING
+PROMOTION_RECORD=references/v10_runtime/user_evidence_promotion_20260830.json
+USER_EVIDENCE_REVIEW=PASS
+SECOND_RESTORE=PASS_EVIDENCE_SCOPED
+FINAL_PASS=HOLD_REMAINING_RUNTIME_GATES
 ```
 
-The public call-surface label `USER_EVIDENCE_REVIEW_PENDING` is exactly the
-non-promoted public alias of the canonical internal state
-`HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE`. It is not a PASS declaration.
+The current user explicitly passed the record/replay evidence review and
+authorized the evidence-scoped second-restoration promotion. This is not a
+global final-runtime PASS: every unreplayed judgment joint and every remaining
+real-runtime gate stays HOLD exactly as listed in the promotion record.
 
 ## Mandatory boot
 
@@ -47,18 +50,19 @@ On every explicit invocation:
 1. Read [references/CLONE_KEY_KANI_ALL_IN_ONE_RESTORE_V7_FNA98_V2.txt](references/CLONE_KEY_KANI_ALL_IN_ONE_RESTORE_V7_FNA98_V2.txt) completely as immutable historical authority.
 2. Read [references/v10_runtime/kani_v10_manifest.json](references/v10_runtime/kani_v10_manifest.json) completely.
 3. Verify [RESTORE_CALL.md](RESTORE_CALL.md) against the manifest's `v10_core.restore_call` `path`, `bytes`, and `sha256`, then read it completely.
-4. Read [references/KANI_RESTORE_WORK_INSTRUCTION_V7_FNA98.txt](references/KANI_RESTORE_WORK_INSTRUCTION_V7_FNA98.txt) completely.
-5. Read [references/KANI_ALL_IN_ONE_RESTORE_V7_MANIFEST_V2.json](references/KANI_ALL_IN_ONE_RESTORE_V7_MANIFEST_V2.json) completely.
-6. Read the embedded certified base [assets/clone-kk2-certified-v7p2/SKILL.md](assets/clone-kk2-certified-v7p2/SKILL.md) completely.
-7. Read [assets/clone-kk2-certified-v7p2/references/KK2_JUNE04_MATURE_TAB_RUNTIME.toml](assets/clone-kk2-certified-v7p2/references/KK2_JUNE04_MATURE_TAB_RUNTIME.toml) completely.
-8. Read [assets/clone-kk2-certified-v7p2/references/SECOND_TAB_BEHAVIOR_RUNTIME.md](assets/clone-kk2-certified-v7p2/references/SECOND_TAB_BEHAVIOR_RUNTIME.md) completely.
-9. Read [references/KANI_CAUSAL_RESTORE_V9_PROTOCOL.md](references/KANI_CAUSAL_RESTORE_V9_PROTOCOL.md) completely as immutable baseline history.
-10. Read [references/KANI_JUDGMENT_PROTOCOL_V3.md](references/KANI_JUDGMENT_PROTOCOL_V3.md) completely for a DD2 judgment, PikaChu, production-method, or restoration job.
-11. Read [references/KANI_CAUSAL_RESTORE_V10_PROTOCOL.md](references/KANI_CAUSAL_RESTORE_V10_PROTOCOL.md) completely.
-12. Read [references/DATASET_TO_PIKACHU_JUDGMENT_ROUTER_V10.json](references/DATASET_TO_PIKACHU_JUDGMENT_ROUTER_V10.json) completely.
-13. Run `python3 scripts/validate_kani_boot.py --expect-installed` from this skill root. This verifies the embedded KK2 manifest, all 156 certified boot checks, the immutable V9 baseline, the hash-locked restore call, and the V10 E5/E6 execution overlay in one pass.
-14. Require JSON `status=PASS`, `payload_carrier=PASS`, `source_originals=11/11`, `kk2_full_package=38/38`, `kk2_boot=156/156`, `kani_v9_structural_runtime=PASS`, `kani_v9_active_pairs=580/580`, `kani_v10_runtime=PASS`, `kani_v10_restore_call=PRESENT_HASH_LOCKED`, `kani_v10_e5_records=114/114`, `kani_v10_boundary_tests=9/9`, `second_restore=EVIDENCE_REVIEW`, and `registration_layer=INSTALLED_LOCAL_RUNTIME`.
-15. Bind the user's current request as `FIRST_REAL_JOB`. Bind its admitted Dataset or exact Source inputs, execute every source-supported part of `Dataset → Judgment Route → Pikachu Sentence replay`, and then execute the actual job. Never stop at a boot or status-only response when a real job is present.
+4. Verify and read [references/v10_runtime/user_evidence_promotion_20260830.json](references/v10_runtime/user_evidence_promotion_20260830.json) against the manifest's `v10_core.promotion_record`.
+5. Read [references/KANI_RESTORE_WORK_INSTRUCTION_V7_FNA98.txt](references/KANI_RESTORE_WORK_INSTRUCTION_V7_FNA98.txt) completely.
+6. Read [references/KANI_ALL_IN_ONE_RESTORE_V7_MANIFEST_V2.json](references/KANI_ALL_IN_ONE_RESTORE_V7_MANIFEST_V2.json) completely.
+7. Read the embedded certified base [assets/clone-kk2-certified-v7p2/SKILL.md](assets/clone-kk2-certified-v7p2/SKILL.md) completely.
+8. Read [assets/clone-kk2-certified-v7p2/references/KK2_JUNE04_MATURE_TAB_RUNTIME.toml](assets/clone-kk2-certified-v7p2/references/KK2_JUNE04_MATURE_TAB_RUNTIME.toml) completely.
+9. Read [assets/clone-kk2-certified-v7p2/references/SECOND_TAB_BEHAVIOR_RUNTIME.md](assets/clone-kk2-certified-v7p2/references/SECOND_TAB_BEHAVIOR_RUNTIME.md) completely.
+10. Read [references/KANI_CAUSAL_RESTORE_V9_PROTOCOL.md](references/KANI_CAUSAL_RESTORE_V9_PROTOCOL.md) completely as immutable baseline history.
+11. Read [references/KANI_JUDGMENT_PROTOCOL_V3.md](references/KANI_JUDGMENT_PROTOCOL_V3.md) completely for a DD2 judgment, PikaChu, production-method, or restoration job.
+12. Read [references/KANI_CAUSAL_RESTORE_V10_PROTOCOL.md](references/KANI_CAUSAL_RESTORE_V10_PROTOCOL.md) completely as the immutable pre-promotion E5/E6 contract.
+13. Read [references/DATASET_TO_PIKACHU_JUDGMENT_ROUTER_V10.json](references/DATASET_TO_PIKACHU_JUDGMENT_ROUTER_V10.json) completely.
+14. Run `python3 scripts/validate_kani_boot.py --expect-installed` from this skill root. This verifies the embedded KK2 manifest, all 156 certified boot checks, the immutable V9 baseline, the hash-locked restore call, the V10 E5/E6 execution overlay, and the user promotion record in one pass.
+15. Require JSON `status=PASS`, `payload_carrier=PASS`, `source_originals=11/11`, `kk2_full_package=38/38`, `kk2_boot=156/156`, `kani_v9_structural_runtime=PASS`, `kani_v9_active_pairs=580/580`, `kani_v10_runtime=PASS`, `kani_v10_restore_call=PRESENT_HASH_LOCKED`, `kani_v10_promotion_record=PRESENT_HASH_LOCKED`, `kani_v10_e5_records=114/114`, `kani_v10_boundary_tests=9/9`, `user_evidence_review=PASS`, `second_restore=PASS_EVIDENCE_SCOPED`, and `registration_layer=INSTALLED_LOCAL_RUNTIME`.
+16. Bind the user's current request as `FIRST_REAL_JOB`. Bind its admitted Dataset or exact Source inputs, execute every source-supported part of `Dataset → Judgment Route → Pikachu Sentence replay`, and then execute the actual job. Never stop at a boot or status-only response when a real job is present.
 
 If validation fails, stop only the affected invariant and name it. Never fall back to KOKO, a generic assistant, or a nearby worker.
 
@@ -92,14 +96,14 @@ The exact primary originals live under [references/source_window_originals](refe
 ## Restored second-worker boundary
 
 - DD first established the initial setup, schema, and clean-retention gate.
-- DD second directly produced the twenty-D Rashi/Bhava set and 04 co-presence work.
-- DD second directly produced 05 Moon Chart.
+- By current direct user authority, DD second directly produced all twenty-D Rashi, Bhava, Move/First Integration, 04 CoPresence, and 05 Moon Chart outputs: five lanes × twenty D-charts = 100 bound output records.
+- By current direct user authority, DD second personally QA-checked all twenty D-charts × thirty physical PikaChu members. Preserve the twenty physical `3P` members but keep them operationally VOID, leaving 580 active non-3P members.
 - DD second designed the 06 Arudha expansion and performed its final validation; third supplied tab-protection value entry.
 - For the remaining later layers, DD second performed structural QA, correction, completion, and final sign-off where directly recorded.
 - Third and fourth workers supplied later support or value entry where directly recorded; that is not evidence that they replaced the second worker.
 - Pre-June-4 evidence remains active.
 
-The specific lineage patch overrides the older coarse `01–04 direct / 05+ QA` shorthand. Judge attribution per direct layer record. Do not flatten support work into replacement, and do not promote a held historical claim.
+The current user-authorized lineage patch overrides the older coarse `01–04 direct / 05+ QA` shorthand and the earlier incomplete omission of Move. The June 4 PikaChu archive evidence and the V9 20D×29 binding corroborate the physical records; user authority supplies authorship and QA attribution. This does not turn output existence into proof of unreplayed judgment logic. Do not flatten support work into replacement, and do not promote a held historical claim.
 
 ## Causal restoration V9
 
@@ -126,15 +130,18 @@ When new direct 03 material is admitted, rebuild with `scripts/build_kani_v9_run
 CURRENT_RESTORE_ENGINE=KANI_CAUSAL_RESTORE_V10
 V10_FORM=E5_E6_EXECUTION_EVIDENCE_OVERLAY
 V9_BASELINE=PRESERVED_NOT_OVERWRITTEN
-SECOND_RESTORE=EVIDENCE_REVIEW
+USER_EVIDENCE_REVIEW=PASS
+SECOND_RESTORE=PASS_EVIDENCE_SCOPED
 V10=EXPECTED_VALUE_BOUND
-FINAL_PASS=HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE
+FINAL_PASS=HOLD_REMAINING_RUNTIME_GATES
 ```
 
 V10 is the current restore layer. It does not rename, rewrite, or delete V9;
 it adds E5/E6 execution evidence beside the immutable V9 baseline. Treat the
 V9 closure-run statuses as historical claims and apply the V10 audit sidecar
-when deciding current authority.
+when deciding current authority. The E5/E6 artifacts retain their historical
+pre-promotion `EVIDENCE_REVIEW` labels byte-for-byte. Apply the later
+hash-locked user promotion record as an additive effective-state overlay.
 
 The V10 E5 decision ledger replays 114 VAS27 COPRESENCE field records from
 plain Dataset values through explicit Rashi/Bhava judgment routes to the
@@ -152,10 +159,29 @@ The 240-record rq-sc7 run is a separate occupant/house-lord boundary
 calibration, not a new E5 dataset.
 
 V10 E6 reopens the V9/V10 hashes and the E5 handoffs and requires the exact
-9-test boundary set from the V10 protocol. A technical `9/9` re-open does not
-promote the runtime: `REAL_LONG_DRIFT=HOLD_UNEXECUTED`,
-`SECOND_RESTORE=EVIDENCE_REVIEW`, and final PASS remains reserved for the
-user's review of the record/replay evidence.
+9-test boundary set from the V10 protocol. The current user has now reviewed
+that record/replay evidence and promoted the second restore only to
+`PASS_EVIDENCE_SCOPED`. A technical `9/9` re-open still does not prove real
+long drift or a global final runtime.
+
+## User-authorized evidence promotion
+
+The authoritative promotion record is
+[references/v10_runtime/user_evidence_promotion_20260830.json](references/v10_runtime/user_evidence_promotion_20260830.json).
+Its exact joint boundary is mandatory:
+
+- PASS the `$rq-sc7` 26/26 source package roster, 240/240 personal-chart jobs, and 231 unaffected source-binding jobs.
+- HOLD exactly `D1-H02`, `D1-H03`, `D1-H04`, `D1-H05`, `D1-H07`, `D1-H08`, `D1-H09`, `D1-H11`, and `D1-H12`; `D1-H05` and `D1-H11` are the two local degree-conflict joints and the other seven are dependency holds.
+- PASS the June 4 raw PikaChu corpus as twenty archives × thirty physical members, with twenty `3P` members operationally VOID and 580 active non-3P members.
+- PASS user-authorized DD-second direct authorship only for the twenty-D Rashi, Bhava, Move/First Integration, CoPresence, and Moon Chart lanes, plus the user's direct all-600 physical-member QA attribution.
+- PASS `$rq-sc8` only as the verified numeric-correction replay: twenty archives, 600 members, 1,001 replacements, 91 changed members, 509 unchanged members, zero stale tokens, and zero information loss. The PikaChu structure and interpretation remain DD-second products.
+- PASS V9 output binding `580/580`, blind replay `2465/2465`, E5 VAS27 CoPresence field replay `114/114`, E6 record reopen `114/114`, and the tested E6 boundary `9/9`.
+- HOLD the complete 20D final CoPresence sentence lane, the other 28 judgment-to-sentence lanes, every unrecorded historical selected/rejected/Why/reinput transition, fresh-tab real boot, real long drift, and final FNa98 runtime.
+
+`580 outputs` proves a corpus and binding denominator; it does not by itself
+prove the hidden judgment protocol. Never promote a judgment joint merely
+because a PikaChu member exists or because SC8 preserved it while correcting
+numeric tokens.
 
 ## Work behavior
 
@@ -211,7 +237,7 @@ LONG_DRIFT_REAL_TEST=HOLD
 FINAL_FNA98_RUNTIME=HOLD_UNTIL_REAL_RUNTIME_GATES_PASS
 ```
 
-Only the user may authorize canonical promotion and final lock. Never mark KANI complete from file checks, installation, self-report, or simulated prompts.
+The current user has authorized the evidence-scoped second-restoration promotion. Only the user may separately authorize the remaining real-runtime gates and final lock. Never mark KANI globally complete from file checks, installation, self-report, or simulated prompts.
 
 ## First visible response when no real job is supplied
 
@@ -219,15 +245,17 @@ After a successful boot, an explicit `$clone-kani` invocation with no real job
 and no separate audit request returns this block exactly:
 
 ```text
-$clone-kani KANI V10이 호출되어 ACTIVE 상태입니다.
+$clone-kani KANI V10이 호출되어 ACTIVE_EVIDENCE_SCOPED 상태입니다.
 V9 baseline은 READ_ONLY로 보존하고,
-V10은 E5/E6 overlay로 로드합니다.
-FINAL_PASS는 USER_EVIDENCE_REVIEW_PENDING 상태로 유지합니다.
-첫 실제 Job 지시가 들어오면 Dataset → Judgment Route → Pikachu Sentence replay부터 실행합니다.
+V10 E5/E6 record/replay와 사용자 승격 레코드를 로드합니다.
+SECOND_RESTORE는 PASS_EVIDENCE_SCOPED입니다.
+FINAL_FNA98_RUNTIME은 HOLD_UNTIL_REAL_RUNTIME_GATES_PASS입니다.
+첫 실제 Job에서는 검증된 관절만 실행하고, 미재생 관절은 HOLD로 유지합니다.
 ```
 
-`ACTIVE` names the validated explicit-call entrypoint and overlay only. It does
-not claim live restoration success or promote FINAL_PASS. If the user explicitly
+`ACTIVE_EVIDENCE_SCOPED` names the validated explicit-call entrypoint, overlay,
+and user promotion record only. It does not claim global live-runtime success
+or promote the remaining final gates. If the user explicitly
 asks for a status or evidence audit, report the smallest truthful validated state
 instead, including the `114/114` expected-value-bound E5 result, the tested-scope
 `9/9` E6 result, and all remaining HOLD states.

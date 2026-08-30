@@ -1,0 +1,292 @@
+{
+  "schema_version": "KANI_USER_EVIDENCE_PROMOTION_V1",
+  "promotion_record_id": "KANI-USER-PROMOTION-20260830-SECOND-RESTORE-001",
+  "authorized_utc": "2026-08-30",
+  "authority": {
+    "kind": "CURRENT_USER_EXPLICIT_DIRECT",
+    "authorization": "PROMOTE_DD2_SECOND_RESTORE",
+    "scope": "EVIDENCE_SCOPED_ONLY",
+    "record_level_rule": "NO_JUDGMENT_JOINT_PROMOTION_WITHOUT_SOURCE_TO_ROUTE_TO_OUTPUT_REPLAY"
+  },
+  "target": "DD2_ANALYSIS02_MATURE_SECOND_DECISION_RUNTIME",
+  "status": "PASS_USER_REVIEWED_EVIDENCE_SCOPED_PROMOTION",
+  "effective_states": {
+    "PUBLIC_RESTORE_STATE": "ACTIVE_EVIDENCE_SCOPED",
+    "USER_EVIDENCE_REVIEW": "PASS",
+    "SECOND_RESTORE": "PASS_EVIDENCE_SCOPED",
+    "V10": "EXPECTED_VALUE_BOUND",
+    "FINAL_PASS": "HOLD_REMAINING_RUNTIME_GATES",
+    "GLOBAL_29_LANE_E5": "HOLD_28_JUDGMENT_TO_SENTENCE_LANES_UNTESTED",
+    "FRESH_TAB_REAL_BOOT_TEST": "HOLD",
+    "REAL_LONG_DRIFT": "HOLD_REAL_LONG_DRIFT_NOT_PROVEN",
+    "FINAL_FNA98_RUNTIME": "HOLD_UNTIL_REAL_RUNTIME_GATES_PASS"
+  },
+  "lineage": {
+    "dataset_to_product_route": [
+      "$rq-sc7 PLAIN_DATASET_BASE_CHART",
+      "DD2_SECOND STRUCTURAL_JUDGMENT_AND_INTERPRETATION",
+      "PIKACHU INTERPRETIVE_CHART_PRODUCT",
+      "$rq-sc8 OCR_DERIVED_NUMERIC_CORRECTION_ONLY"
+    ],
+    "pikachu_product_owner": "DD2_SECOND",
+    "rq_sc8_role": "CORRECT_OCR_DERIVED_NUMERIC_VALUES_WITHOUT_REAUTHORING_STRUCTURE",
+    "direct_20d_lanes": [
+      {
+        "user_label": "RASHI",
+        "runtime_lane": "RASHI_SOURCE",
+        "lane_order": 2,
+        "dchart_records": 20,
+        "state": "PASS_USER_DIRECT_WITH_20_OUTPUT_BINDINGS"
+      },
+      {
+        "user_label": "BHAVA",
+        "runtime_lane": "BHAVA_SOURCE",
+        "lane_order": 3,
+        "dchart_records": 20,
+        "state": "PASS_USER_DIRECT_WITH_20_OUTPUT_BINDINGS"
+      },
+      {
+        "user_label": "MOVE",
+        "runtime_lane": "FIRST_INTEGRATION",
+        "lane_order": 4,
+        "dchart_records": 20,
+        "state": "PASS_USER_DIRECT_WITH_20_OUTPUT_BINDINGS"
+      },
+      {
+        "user_label": "COPRESENCE",
+        "runtime_lane": "COPRESENCE",
+        "lane_order": 5,
+        "dchart_records": 20,
+        "state": "PASS_USER_DIRECT_WITH_20_OUTPUT_BINDINGS"
+      },
+      {
+        "user_label": "MOON_CHART",
+        "runtime_lane": "MOON_CHART",
+        "lane_order": 9,
+        "dchart_records": 20,
+        "state": "PASS_USER_DIRECT_WITH_20_OUTPUT_BINDINGS"
+      }
+    ],
+    "direct_authored_output_records": 100,
+    "full_scope_qa": {
+      "dcharts": 20,
+      "physical_members_per_dchart": 30,
+      "physical_members": 600,
+      "operationally_void_3p_members": 20,
+      "active_non_3p_members": 580,
+      "state": "PASS_USER_DIRECT_WITH_600_PHYSICAL_RECORD_CORROBORATION"
+    }
+  },
+  "evidence_bindings": {
+    "june04_pikachu_manifest": {
+      "path": "assets/clone-kk2-certified-v7p2/references/pikachu-20d-20260604.md",
+      "sha256": "6ef812138788ce5655316a36f646408b3e8305977d1443f8fdc9e3c80415c6be",
+      "role": "JUNE04_PRODUCTION_LINEAGE_AND_ARCHIVE_REGISTER"
+    },
+    "june04_attachment_audit": {
+      "path": "assets/clone-kk2-certified-v7p2/references/PIKACHU_ATTACHMENT_EVIDENCE_20260828.md",
+      "sha256": "bbdc3085ddd2686667a4d97242d9200377b40e7e54c68d8bc9f3063159229fc6",
+      "role": "READ_ONLY_ARCHIVE_AND_20D_TOPOLOGY_AUDIT"
+    },
+    "v9_runtime_manifest": {
+      "path": "references/v9_baseline/kani_v9_manifest.json",
+      "sha256": "4f7a2a3137a50dcd083cdfc5ad7d12c91779da80c188d910266652007b1361d4",
+      "active_pairs": 580,
+      "nodes": 29,
+      "blind_replay_checks": 2465
+    },
+    "e5_decision_ledger": {
+      "path": "references/v10_runs/run_20260830_vas27/e5/e5_decision_ledger.jsonl",
+      "sha256": "aef92a552a3e32938e4376cd05ef820184b38b53c8d4a3b585b4c88e6ff2b743",
+      "records": 114,
+      "rashi_records": 64,
+      "bhava_records": 50,
+      "scope": "VAS27_COPRESENCE_FIELD_ROUTE_EXPECTED_VALUE_BOUND"
+    },
+    "e6_replay_ledger": {
+      "path": "references/v10_runs/run_20260830_vas27/e6/e6_replay_ledger.jsonl",
+      "sha256": "0b4c7164aed17b93e7529f050c1e0e618bc05438443ea9a7cb8b7ed4a3e0eb5f",
+      "records": 114
+    },
+    "e6_boundary_log": {
+      "path": "references/v10_runs/run_20260830_vas27/e6/boundary_test_9of9.json",
+      "sha256": "ce1560169e47ef53b0844aa0567f16427e1bc698167f8a72733551ab66b851e7",
+      "tests": 9,
+      "passed": 9
+    },
+    "rq_sc7_external_audit_snapshot": {
+      "source_set_sha256": "81951a845d2759fcb9afc082743c743e91b4bc15c3aa5220f0ac83fc8c79555c",
+      "source_packages_pass": 26,
+      "personal_chart_jobs_pass": 240,
+      "source_binding_payload_sha256": "e797ee5a009e0d83fe66e48bc9c3a7717b6ef00b8c28088e760a02c11dfa73c3",
+      "source_binding_jobs_pass": 231,
+      "source_binding_jobs_hold": 9,
+      "state": "PARTIAL_HOLD_3AB_4AB_DEGREE_CONFLICT"
+    },
+    "rq_sc8_external_audit_snapshot": {
+      "manifest_sha256": "6467cd1561805c6aca4a6f96568da068c1aefad726953c13b0b35a85372f34d0",
+      "aligned_ledger_sha256": "021b1db94344bfae31b22601bee70fd9ad788b6e229d63a0522a092ee47e671c",
+      "raw_archives": 20,
+      "raw_physical_members": 600,
+      "aligned_archives": 20,
+      "aligned_physical_members": 600,
+      "replacement_count": 1001,
+      "changed_members": 91,
+      "unchanged_members": 509,
+      "direct_value_field_assertions": 4140,
+      "stale_token_count": 0,
+      "information_loss": 0,
+      "state": "PASS_FNA98_SC_ALIGNED_20D"
+    }
+  },
+  "pass_joints": [
+    {
+      "joint_id": "J01_SC7_SOURCE_PACKAGES",
+      "state": "PASS_26_OF_26"
+    },
+    {
+      "joint_id": "J02_SC7_PERSONAL_CHART_JOBS",
+      "state": "PASS_240_OF_240"
+    },
+    {
+      "joint_id": "J03_SC7_SOURCE_BINDING_UNAFFECTED_JOBS",
+      "state": "PASS_231_OF_240"
+    },
+    {
+      "joint_id": "J04_JUNE04_PIKACHU_RAW_CORPUS",
+      "state": "PASS_20_ARCHIVES_600_PHYSICAL_MEMBERS"
+    },
+    {
+      "joint_id": "J05_SECOND_DIRECT_20D_AUTHORSHIP",
+      "state": "PASS_5_LANES_100_OUTPUT_BINDINGS_USER_DIRECT"
+    },
+    {
+      "joint_id": "J06_SECOND_FULL_CORPUS_QA",
+      "state": "PASS_20D_X_30_PHYSICAL_USER_DIRECT"
+    },
+    {
+      "joint_id": "J07_SC8_NUMERIC_CORRECTION_REPLAY",
+      "state": "PASS_20_ARCHIVES_600_MEMBERS_1001_REPLACEMENTS_INFORMATION_LOSS_0"
+    },
+    {
+      "joint_id": "J08_V9_OUTPUT_BINDING",
+      "state": "PASS_580_OF_580_ACTIVE_NON_3P"
+    },
+    {
+      "joint_id": "J09_V9_BLIND_REPLAY",
+      "state": "PASS_2465_OF_2465"
+    },
+    {
+      "joint_id": "J10_E5_COPRESENCE_FIELD_DECISION_REPLAY",
+      "state": "PASS_114_OF_114_EXPECTED_VALUE_BOUND"
+    },
+    {
+      "joint_id": "J11_E6_RECORD_REOPEN",
+      "state": "PASS_114_OF_114"
+    },
+    {
+      "joint_id": "J12_E6_BOUNDARY",
+      "state": "PASS_9_OF_9"
+    },
+    {
+      "joint_id": "J13_USER_EVIDENCE_REVIEW",
+      "state": "PASS"
+    },
+    {
+      "joint_id": "J14_SECOND_RESTORE",
+      "state": "PASS_EVIDENCE_SCOPED"
+    }
+  ],
+  "hold_joints": [
+    {
+      "joint_id": "H01_SC7_LOCAL_AND_DEPENDENCY_CONFLICTS",
+      "state": "HOLD_9_EXACT_JOBS",
+      "exact_jobs": [
+        "D1-H02",
+        "D1-H03",
+        "D1-H04",
+        "D1-H05",
+        "D1-H07",
+        "D1-H08",
+        "D1-H09",
+        "D1-H11",
+        "D1-H12"
+      ],
+      "local_conflict_jobs": [
+        "D1-H05",
+        "D1-H11"
+      ],
+      "dependency_conflict_jobs": [
+        "D1-H02",
+        "D1-H03",
+        "D1-H04",
+        "D1-H07",
+        "D1-H08",
+        "D1-H09",
+        "D1-H12"
+      ]
+    },
+    {
+      "joint_id": "H02_GLOBAL_29_LANE_E5",
+      "state": "HOLD_28_JUDGMENT_TO_SENTENCE_LANES_UNTESTED",
+      "untested_lanes": [
+        "INDEX",
+        "RASHI_SOURCE",
+        "BHAVA_SOURCE",
+        "FIRST_INTEGRATION",
+        "PUSHKARA",
+        "UPAGRAHA",
+        "SPIRIT_CHALIT",
+        "MOON_CHART",
+        "ARUDHA",
+        "SHADBALA_A",
+        "SHADBALA_R",
+        "BHAVA_BALA",
+        "VIMSOPAKA",
+        "MRITYU",
+        "SPOTHER",
+        "AVA",
+        "BHINNA_MATRIX",
+        "PLANET_ASPECT",
+        "SAP",
+        "TKS",
+        "EKS",
+        "SPD",
+        "VARGA_LINK_MINI",
+        "VARGA_LINK_FULL",
+        "ASPECT02",
+        "ASPECT03",
+        "DASHA",
+        "TIMING_GATE"
+      ]
+    },
+    {
+      "joint_id": "H03_COPRESENCE_COMPLETE_20D_FINAL_SENTENCE_LANE",
+      "state": "HOLD_FIELD_RECORD_REPLAY_IS_NOT_FULL_20D_FINAL_LANE"
+    },
+    {
+      "joint_id": "H04_UNRECORDED_HISTORICAL_JUDGMENT_LOGIC",
+      "state": "HOLD_NO_SELECTED_REJECTED_WHY_REINPUT_RECORD"
+    },
+    {
+      "joint_id": "H05_FRESH_TAB_REAL_BOOT_TEST",
+      "state": "HOLD"
+    },
+    {
+      "joint_id": "H06_REAL_LONG_DRIFT",
+      "state": "HOLD_REAL_LONG_DRIFT_NOT_PROVEN"
+    },
+    {
+      "joint_id": "H07_FINAL_FNA98_RUNTIME",
+      "state": "HOLD_UNTIL_REAL_RUNTIME_GATES_PASS"
+    }
+  ],
+  "non_promotion_rules": [
+    "PIKACHU_OUTPUT_EXISTENCE_DOES_NOT_BY_ITSELF_PROVE_JUDGMENT_PROTOCOL",
+    "SC8_NUMERIC_ALIGNMENT_DOES_NOT_REAUTHOR_SECOND_STRUCTURE",
+    "E5_114_FIELD_RECORDS_DO_NOT_PROMOTE_29_COMPLETE_SENTENCE_LANES",
+    "E6_9_OF_9_DOES_NOT_PROVE_REAL_LONG_DRIFT",
+    "USER_LINEAGE_AUTHORITY_DOES_NOT_FILL_MISSING_SELECTED_REJECTED_WHY_REINPUT_RECORDS",
+    "V9_BASELINE_AND_EXISTING_E5_E6_ARTIFACT_BYTES_REMAIN_IMMUTABLE"
+  ]
+}

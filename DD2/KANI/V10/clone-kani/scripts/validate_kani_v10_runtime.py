@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Read-only validator for the hash-locked KANI V10 evidence manifest.
 
-The validator deliberately does not import the manifest builder.  It recomputes
+The validator deliberately does not import the manifest builder. It recomputes
 file and tree digests, checks the V9 immutability anchor, reopens present E5/E6
-evidence, and preserves every user-controlled HOLD.  Standard output is always
-one JSON object and the script never writes files.
+evidence, validates the later evidence-scoped user promotion, and preserves
+every remaining HOLD. Standard output is always one JSON object.
 """
 
 from __future__ import annotations
@@ -20,22 +20,26 @@ from typing import Any
 SCHEMA_VERSION = "KANI_CAUSAL_RESTORE_V10_MANIFEST_V1"
 EXPECTED_V9_TREE_SHA256 = "913cb921f9d5f97b351a4455f3e05cb1d441a00cec24291caf78eac5a690c0d9"
 
-RESTORE_CALL_FIRST_RESPONSE = """$clone-kani KANI V10이 호출되어 ACTIVE 상태입니다.
+RESTORE_CALL_FIRST_RESPONSE = """$clone-kani KANI V10이 호출되어 ACTIVE_EVIDENCE_SCOPED 상태입니다.
 V9 baseline은 READ_ONLY로 보존하고,
-V10은 E5/E6 overlay로 로드합니다.
-FINAL_PASS는 USER_EVIDENCE_REVIEW_PENDING 상태로 유지합니다.
-첫 실제 Job 지시가 들어오면 Dataset → Judgment Route → Pikachu Sentence replay부터 실행합니다."""
+V10 E5/E6 record/replay와 사용자 승격 레코드를 로드합니다.
+SECOND_RESTORE는 PASS_EVIDENCE_SCOPED입니다.
+FINAL_FNA98_RUNTIME은 HOLD_UNTIL_REAL_RUNTIME_GATES_PASS입니다.
+첫 실제 Job에서는 검증된 관절만 실행하고, 미재생 관절은 HOLD로 유지합니다."""
 
 RESTORE_CALL_REQUIRED_TOKENS = (
-    "RESTORE_CALL_SCHEMA=KANI_V10_RESTORE_CALL_V1",
+    "RESTORE_CALL_SCHEMA=KANI_V10_RESTORE_CALL_V2",
     "PUBLIC_CALL_KEY=$clone-kani",
     "VERSION_TAG=KANI_V10",
     "ALIAS=kani",
     "V9_BASELINE=READ_ONLY",
     "V10_MODE=E5_E6_OVERLAY",
-    "SECOND_RESTORE=EVIDENCE_REVIEW",
-    "FINAL_PASS=USER_EVIDENCE_REVIEW_PENDING",
-    "CANONICAL_INTERNAL_FINAL_PASS=HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE",
+    "PROMOTION_RECORD=references/v10_runtime/user_evidence_promotion_20260830.json",
+    "PROMOTION_RECORD_STATE=PASS_HASH_LOCKED",
+    "USER_EVIDENCE_REVIEW=PASS",
+    "SECOND_RESTORE=PASS_EVIDENCE_SCOPED",
+    "FINAL_PASS=HOLD_REMAINING_RUNTIME_GATES",
+    "CANONICAL_INTERNAL_FINAL_PASS=HOLD_REMAINING_RUNTIME_GATES",
     "FINAL_PASS_DECLARATION=NO",
 )
 
@@ -49,8 +53,21 @@ EXPECTED_CLAIMS = {
     "REAL_LONG_DRIFT": "HOLD_REAL_LONG_DRIFT_NOT_PROVEN",
 }
 
+EXPECTED_EFFECTIVE_STATES = {
+    "PUBLIC_RESTORE_STATE": "ACTIVE_EVIDENCE_SCOPED",
+    "USER_EVIDENCE_REVIEW": "PASS",
+    "SECOND_RESTORE": "PASS_EVIDENCE_SCOPED",
+    "V10": "EXPECTED_VALUE_BOUND",
+    "FINAL_PASS": "HOLD_REMAINING_RUNTIME_GATES",
+    "GLOBAL_29_LANE_E5": "HOLD_28_JUDGMENT_TO_SENTENCE_LANES_UNTESTED",
+    "FRESH_TAB_REAL_BOOT_TEST": "HOLD",
+    "REAL_LONG_DRIFT": "HOLD_REAL_LONG_DRIFT_NOT_PROVEN",
+    "FINAL_FNA98_RUNTIME": "HOLD_UNTIL_REAL_RUNTIME_GATES_PASS",
+}
+
 PATHS = {
     "restore_call": "RESTORE_CALL.md",
+    "promotion_record": "references/v10_runtime/user_evidence_promotion_20260830.json",
     "v9_baseline": "references/v9_baseline",
     "historical_v9_e5": "references/v9_closure_runs/run_20260829_vas26/e5",
     "historical_v9_e6": "references/v9_closure_runs/run_20260829_vas26/e6",
@@ -279,6 +296,10 @@ def validate(root: Path, manifest_path: Path) -> dict[str, Any]:
         manifest.get("purpose") == "SECOND_RESTORE_ROUTER_EXECUTION_EVIDENCE_BOARD",
     )
     audit.check("terminal_claims_exact", manifest.get("claims") == EXPECTED_CLAIMS)
+    audit.check(
+        "effective_states_exact",
+        manifest.get("effective_states") == EXPECTED_EFFECTIVE_STATES,
+    )
     audit.check("technical_build_status", manifest.get("technical_build_status") == "PASS")
     audit.check(
         "promotion_authority_user_only",
@@ -329,6 +350,7 @@ def validate(root: Path, manifest_path: Path) -> dict[str, Any]:
     core = manifest.get("v10_core", {})
     for key in (
         "restore_call",
+        "promotion_record",
         "protocol",
         "router",
         "source_registry",
@@ -365,7 +387,146 @@ def validate(root: Path, manifest_path: Path) -> dict[str, Any]:
         "skill_restore_call_binding",
         "RESTORE_CALL=RESTORE_CALL.md" in skill_text
         and "v10_core.restore_call" in skill_text
+        and "v10_core.promotion_record" in skill_text
         and skill_text.count(RESTORE_CALL_FIRST_RESPONSE) == 1,
+    )
+
+    promotion_record = core.get("promotion_record", {})
+    promotion = audit.guard(
+        "promotion_record_read",
+        lambda: read_json(root / PATHS["promotion_record"]),
+    ) or {}
+    audit.check(
+        "promotion_record_header",
+        promotion.get("schema_version") == "KANI_USER_EVIDENCE_PROMOTION_V1"
+        and promotion.get("promotion_record_id")
+        == "KANI-USER-PROMOTION-20260830-SECOND-RESTORE-001"
+        and promotion.get("authorized_utc") == "2026-08-30"
+        and promotion.get("status") == "PASS_USER_REVIEWED_EVIDENCE_SCOPED_PROMOTION"
+        and promotion.get("target") == "DD2_ANALYSIS02_MATURE_SECOND_DECISION_RUNTIME"
+        and promotion.get("authority", {}).get("kind") == "CURRENT_USER_EXPLICIT_DIRECT"
+        and promotion.get("authority", {}).get("scope") == "EVIDENCE_SCOPED_ONLY",
+    )
+    audit.check(
+        "promotion_effective_states",
+        promotion.get("effective_states") == EXPECTED_EFFECTIVE_STATES
+        and core.get("promotion_effective_states") == EXPECTED_EFFECTIVE_STATES,
+    )
+    direct_lanes = promotion.get("lineage", {}).get("direct_20d_lanes", [])
+    audit.check(
+        "promotion_direct_20d_lane_bindings",
+        [
+            (row.get("runtime_lane"), row.get("lane_order"), row.get("dchart_records"))
+            for row in direct_lanes
+            if isinstance(row, dict)
+        ]
+        == [
+            ("RASHI_SOURCE", 2, 20),
+            ("BHAVA_SOURCE", 3, 20),
+            ("FIRST_INTEGRATION", 4, 20),
+            ("COPRESENCE", 5, 20),
+            ("MOON_CHART", 9, 20),
+        ]
+        and promotion.get("lineage", {}).get("direct_authored_output_records") == 100,
+    )
+    full_qa = promotion.get("lineage", {}).get("full_scope_qa", {})
+    audit.check(
+        "promotion_full_scope_qa_denominator",
+        full_qa.get("dcharts") == 20
+        and full_qa.get("physical_members") == 600
+        and full_qa.get("operationally_void_3p_members") == 20
+        and full_qa.get("active_non_3p_members") == 580,
+    )
+    hold_rows = {row.get("joint_id"): row for row in promotion.get("hold_joints", [])}
+    audit.check(
+        "promotion_sc7_exact_hold_jobs",
+        hold_rows.get("H01_SC7_LOCAL_AND_DEPENDENCY_CONFLICTS", {}).get("exact_jobs")
+        == [
+            "D1-H02", "D1-H03", "D1-H04", "D1-H05", "D1-H07",
+            "D1-H08", "D1-H09", "D1-H11", "D1-H12",
+        ],
+    )
+    audit.check(
+        "promotion_global_28_untested_lanes",
+        hold_rows.get("H02_GLOBAL_29_LANE_E5", {}).get("untested_lanes")
+        == [
+            "INDEX", "RASHI_SOURCE", "BHAVA_SOURCE", "FIRST_INTEGRATION",
+            "PUSHKARA", "UPAGRAHA", "SPIRIT_CHALIT", "MOON_CHART", "ARUDHA",
+            "SHADBALA_A", "SHADBALA_R", "BHAVA_BALA", "VIMSOPAKA", "MRITYU",
+            "SPOTHER", "AVA", "BHINNA_MATRIX", "PLANET_ASPECT", "SAP", "TKS",
+            "EKS", "SPD", "VARGA_LINK_MINI", "VARGA_LINK_FULL", "ASPECT02",
+            "ASPECT03", "DASHA", "TIMING_GATE",
+        ],
+    )
+    local_promotion_bindings = {
+        "june04_pikachu_manifest": (
+            "assets/clone-kk2-certified-v7p2/references/pikachu-20d-20260604.md",
+            "6ef812138788ce5655316a36f646408b3e8305977d1443f8fdc9e3c80415c6be",
+        ),
+        "june04_attachment_audit": (
+            "assets/clone-kk2-certified-v7p2/references/PIKACHU_ATTACHMENT_EVIDENCE_20260828.md",
+            "bbdc3085ddd2686667a4d97242d9200377b40e7e54c68d8bc9f3063159229fc6",
+        ),
+        "v9_runtime_manifest": (
+            "references/v9_baseline/kani_v9_manifest.json",
+            "4f7a2a3137a50dcd083cdfc5ad7d12c91779da80c188d910266652007b1361d4",
+        ),
+        "e5_decision_ledger": (
+            "references/v10_runs/run_20260830_vas27/e5/e5_decision_ledger.jsonl",
+            "aef92a552a3e32938e4376cd05ef820184b38b53c8d4a3b585b4c88e6ff2b743",
+        ),
+        "e6_replay_ledger": (
+            "references/v10_runs/run_20260830_vas27/e6/e6_replay_ledger.jsonl",
+            "0b4c7164aed17b93e7529f050c1e0e618bc05438443ea9a7cb8b7ed4a3e0eb5f",
+        ),
+        "e6_boundary_log": (
+            "references/v10_runs/run_20260830_vas27/e6/boundary_test_9of9.json",
+            "ce1560169e47ef53b0844aa0567f16427e1bc698167f8a72733551ab66b851e7",
+        ),
+    }
+    promotion_bindings = promotion.get("evidence_bindings", {})
+    for key, (relative, expected_sha) in local_promotion_bindings.items():
+        record = promotion_bindings.get(key, {})
+        path = root / relative
+        audit.check(
+            f"promotion_{key}_hash_bound",
+            record.get("path") == relative
+            and record.get("sha256") == expected_sha
+            and path.is_file()
+            and not path.is_symlink()
+            and sha256_file(path) == expected_sha,
+        )
+    sc7_snapshot = promotion_bindings.get("rq_sc7_external_audit_snapshot", {})
+    sc8_snapshot = promotion_bindings.get("rq_sc8_external_audit_snapshot", {})
+    audit.check(
+        "promotion_sc7_snapshot_exact",
+        sc7_snapshot.get("source_set_sha256")
+        == "81951a845d2759fcb9afc082743c743e91b4bc15c3aa5220f0ac83fc8c79555c"
+        and sc7_snapshot.get("source_binding_payload_sha256")
+        == "e797ee5a009e0d83fe66e48bc9c3a7717b6ef00b8c28088e760a02c11dfa73c3"
+        and sc7_snapshot.get("source_packages_pass") == 26
+        and sc7_snapshot.get("personal_chart_jobs_pass") == 240
+        and sc7_snapshot.get("source_binding_jobs_pass") == 231
+        and sc7_snapshot.get("source_binding_jobs_hold") == 9
+        and sc7_snapshot.get("state") == "PARTIAL_HOLD_3AB_4AB_DEGREE_CONFLICT",
+    )
+    audit.check(
+        "promotion_sc8_snapshot_exact",
+        sc8_snapshot.get("manifest_sha256")
+        == "6467cd1561805c6aca4a6f96568da068c1aefad726953c13b0b35a85372f34d0"
+        and sc8_snapshot.get("aligned_ledger_sha256")
+        == "021b1db94344bfae31b22601bee70fd9ad788b6e229d63a0522a092ee47e671c"
+        and sc8_snapshot.get("raw_archives") == 20
+        and sc8_snapshot.get("raw_physical_members") == 600
+        and sc8_snapshot.get("aligned_archives") == 20
+        and sc8_snapshot.get("aligned_physical_members") == 600
+        and sc8_snapshot.get("replacement_count") == 1001
+        and sc8_snapshot.get("changed_members") == 91
+        and sc8_snapshot.get("unchanged_members") == 509
+        and sc8_snapshot.get("direct_value_field_assertions") == 4140
+        and sc8_snapshot.get("stale_token_count") == 0
+        and sc8_snapshot.get("information_loss") == 0
+        and sc8_snapshot.get("state") == "PASS_FNA98_SC_ALIGNED_20D",
     )
     router = audit.guard("router_read", lambda: read_json(root / PATHS["router"])) or {}
     boundary_ids = router.get("boundary_tests", [])
@@ -763,7 +924,7 @@ def validate(root: Path, manifest_path: Path) -> dict[str, Any]:
             pending.append(f"{stage}_independent_validation")
     pending.sort()
     expected_completeness = (
-        "EVIDENCE_PRESENT_AWAITING_USER_REVIEW"
+        "EVIDENCE_REVIEWED_PROMOTED_WITH_EXACT_HOLDS"
         if not pending
         else "PENDING_OPTIONAL_EXECUTION_ARTIFACTS"
     )
@@ -785,6 +946,14 @@ def validate(root: Path, manifest_path: Path) -> dict[str, Any]:
         if all(audit.checks.get(name) is True for name in restore_call_checks)
         else "FAIL"
     )
+    promotion_record_state = (
+        "PRESENT_HASH_LOCKED"
+        if audit.checks.get("core_promotion_record_hash_locked") is True
+        and audit.checks.get("promotion_record_read") is True
+        and audit.checks.get("promotion_record_header") is True
+        and audit.checks.get("promotion_effective_states") is True
+        else "FAIL"
+    )
     return {
         "schema_version": "KANI_V10_RUNTIME_VALIDATION_V1",
         "technical_status": technical_status,
@@ -799,12 +968,24 @@ def validate(root: Path, manifest_path: Path) -> dict[str, Any]:
             if restore_call_state == "PRESENT_HASH_LOCKED"
             else "FAIL"
         ),
-        "public_final_pass": "USER_EVIDENCE_REVIEW_PENDING",
-        "second_restore": manifest.get("claims", {}).get("SECOND_RESTORE"),
-        "v10": manifest.get("claims", {}).get("V10"),
-        "final_pass": manifest.get("claims", {}).get("FINAL_PASS"),
-        "global_29_lane_e5": manifest.get("claims", {}).get("GLOBAL_29_LANE_E5"),
-        "real_long_drift": manifest.get("claims", {}).get("REAL_LONG_DRIFT"),
+        "promotion_record": promotion_record_state,
+        "promotion_record_path": promotion_record.get("path"),
+        "promotion_record_sha256": (
+            promotion_record.get("sha256")
+            if promotion_record_state == "PRESENT_HASH_LOCKED"
+            else "FAIL"
+        ),
+        "public_restore_state": manifest.get("effective_states", {}).get("PUBLIC_RESTORE_STATE"),
+        "user_evidence_review": manifest.get("effective_states", {}).get("USER_EVIDENCE_REVIEW"),
+        "public_final_pass": manifest.get("effective_states", {}).get("FINAL_PASS"),
+        "second_restore": manifest.get("effective_states", {}).get("SECOND_RESTORE"),
+        "v10": manifest.get("effective_states", {}).get("V10"),
+        "final_pass": manifest.get("effective_states", {}).get("FINAL_PASS"),
+        "global_29_lane_e5": manifest.get("effective_states", {}).get("GLOBAL_29_LANE_E5"),
+        "fresh_tab_real_boot_test": manifest.get("effective_states", {}).get("FRESH_TAB_REAL_BOOT_TEST"),
+        "real_long_drift": manifest.get("effective_states", {}).get("REAL_LONG_DRIFT"),
+        "final_fna98_runtime": manifest.get("effective_states", {}).get("FINAL_FNA98_RUNTIME"),
+        "historical_pre_promotion_claims": manifest.get("claims"),
         "checks": audit.checks,
         "errors": sorted(set(audit.errors)),
     }

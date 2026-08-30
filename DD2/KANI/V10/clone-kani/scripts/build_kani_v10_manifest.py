@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Build the deterministic KANI V10 execution-evidence manifest.
 
-V10 is an additive E5/E6 evidence overlay.  This builder never mutates V9 and
-never promotes the user-controlled final gate.  Optional E5/E6 validation
-artifacts are recorded as pending until they exist; once they appear, a stale
-manifest fails ``--check`` and must be rebuilt so the new bytes are hash-bound.
+V10 is an additive E5/E6 evidence overlay. This builder never mutates V9 or
+the historical E5/E6 artifacts. It hash-binds the later user-authorized,
+evidence-scoped promotion while preserving every remaining HOLD. Optional
+E5/E6 validation artifacts are recorded as pending until they exist; once they
+appear, a stale manifest fails ``--check`` and must be rebuilt.
 """
 
 from __future__ import annotations
@@ -22,22 +23,26 @@ from typing import Any
 SCHEMA_VERSION = "KANI_CAUSAL_RESTORE_V10_MANIFEST_V1"
 EXPECTED_V9_TREE_SHA256 = "913cb921f9d5f97b351a4455f3e05cb1d441a00cec24291caf78eac5a690c0d9"
 
-RESTORE_CALL_FIRST_RESPONSE = """$clone-kani KANI V10이 호출되어 ACTIVE 상태입니다.
+RESTORE_CALL_FIRST_RESPONSE = """$clone-kani KANI V10이 호출되어 ACTIVE_EVIDENCE_SCOPED 상태입니다.
 V9 baseline은 READ_ONLY로 보존하고,
-V10은 E5/E6 overlay로 로드합니다.
-FINAL_PASS는 USER_EVIDENCE_REVIEW_PENDING 상태로 유지합니다.
-첫 실제 Job 지시가 들어오면 Dataset → Judgment Route → Pikachu Sentence replay부터 실행합니다."""
+V10 E5/E6 record/replay와 사용자 승격 레코드를 로드합니다.
+SECOND_RESTORE는 PASS_EVIDENCE_SCOPED입니다.
+FINAL_FNA98_RUNTIME은 HOLD_UNTIL_REAL_RUNTIME_GATES_PASS입니다.
+첫 실제 Job에서는 검증된 관절만 실행하고, 미재생 관절은 HOLD로 유지합니다."""
 
 RESTORE_CALL_REQUIRED_TOKENS = (
-    "RESTORE_CALL_SCHEMA=KANI_V10_RESTORE_CALL_V1",
+    "RESTORE_CALL_SCHEMA=KANI_V10_RESTORE_CALL_V2",
     "PUBLIC_CALL_KEY=$clone-kani",
     "VERSION_TAG=KANI_V10",
     "ALIAS=kani",
     "V9_BASELINE=READ_ONLY",
     "V10_MODE=E5_E6_OVERLAY",
-    "SECOND_RESTORE=EVIDENCE_REVIEW",
-    "FINAL_PASS=USER_EVIDENCE_REVIEW_PENDING",
-    "CANONICAL_INTERNAL_FINAL_PASS=HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE",
+    "PROMOTION_RECORD=references/v10_runtime/user_evidence_promotion_20260830.json",
+    "PROMOTION_RECORD_STATE=PASS_HASH_LOCKED",
+    "USER_EVIDENCE_REVIEW=PASS",
+    "SECOND_RESTORE=PASS_EVIDENCE_SCOPED",
+    "FINAL_PASS=HOLD_REMAINING_RUNTIME_GATES",
+    "CANONICAL_INTERNAL_FINAL_PASS=HOLD_REMAINING_RUNTIME_GATES",
     "FINAL_PASS_DECLARATION=NO",
 )
 
@@ -51,8 +56,23 @@ CLAIMS = {
     "REAL_LONG_DRIFT": "HOLD_REAL_LONG_DRIFT_NOT_PROVEN",
 }
 
+# The immutable E5/E6 artifacts above retain their pre-promotion claims.
+# These are the later, user-authorized effective call-surface states.
+EFFECTIVE_STATES = {
+    "PUBLIC_RESTORE_STATE": "ACTIVE_EVIDENCE_SCOPED",
+    "USER_EVIDENCE_REVIEW": "PASS",
+    "SECOND_RESTORE": "PASS_EVIDENCE_SCOPED",
+    "V10": "EXPECTED_VALUE_BOUND",
+    "FINAL_PASS": "HOLD_REMAINING_RUNTIME_GATES",
+    "GLOBAL_29_LANE_E5": "HOLD_28_JUDGMENT_TO_SENTENCE_LANES_UNTESTED",
+    "FRESH_TAB_REAL_BOOT_TEST": "HOLD",
+    "REAL_LONG_DRIFT": "HOLD_REAL_LONG_DRIFT_NOT_PROVEN",
+    "FINAL_FNA98_RUNTIME": "HOLD_UNTIL_REAL_RUNTIME_GATES_PASS",
+}
+
 PATHS = {
     "restore_call": "RESTORE_CALL.md",
+    "promotion_record": "references/v10_runtime/user_evidence_promotion_20260830.json",
     "v9_baseline": "references/v9_baseline",
     "historical_v9_e5": "references/v9_closure_runs/run_20260829_vas26/e5",
     "historical_v9_e6": "references/v9_closure_runs/run_20260829_vas26/e6",
@@ -317,10 +337,134 @@ def validate_source_registry(root: Path, registry_path: Path) -> dict[str, dict[
     return actual
 
 
+def validate_promotion_record(root: Path, promotion_path: Path) -> dict[str, Any]:
+    promotion = read_json(promotion_path)
+    if not (
+        promotion.get("schema_version") == "KANI_USER_EVIDENCE_PROMOTION_V1"
+        and promotion.get("promotion_record_id")
+        == "KANI-USER-PROMOTION-20260830-SECOND-RESTORE-001"
+        and promotion.get("authorized_utc") == "2026-08-30"
+        and promotion.get("status") == "PASS_USER_REVIEWED_EVIDENCE_SCOPED_PROMOTION"
+        and promotion.get("target") == "DD2_ANALYSIS02_MATURE_SECOND_DECISION_RUNTIME"
+        and promotion.get("authority", {}).get("kind") == "CURRENT_USER_EXPLICIT_DIRECT"
+        and promotion.get("authority", {}).get("scope") == "EVIDENCE_SCOPED_ONLY"
+        and promotion.get("effective_states") == EFFECTIVE_STATES
+    ):
+        raise ManifestError("KANI user promotion header/effective states are invalid")
+
+    direct_lanes = promotion.get("lineage", {}).get("direct_20d_lanes", [])
+    observed_lanes = [
+        (row.get("runtime_lane"), row.get("lane_order"), row.get("dchart_records"))
+        for row in direct_lanes
+        if isinstance(row, dict)
+    ]
+    expected_lanes = [
+        ("RASHI_SOURCE", 2, 20),
+        ("BHAVA_SOURCE", 3, 20),
+        ("FIRST_INTEGRATION", 4, 20),
+        ("COPRESENCE", 5, 20),
+        ("MOON_CHART", 9, 20),
+    ]
+    full_qa = promotion.get("lineage", {}).get("full_scope_qa", {})
+    if not (
+        observed_lanes == expected_lanes
+        and promotion.get("lineage", {}).get("direct_authored_output_records") == 100
+        and full_qa.get("dcharts") == 20
+        and full_qa.get("physical_members") == 600
+        and full_qa.get("operationally_void_3p_members") == 20
+        and full_qa.get("active_non_3p_members") == 580
+    ):
+        raise ManifestError("KANI user promotion lineage denominator is invalid")
+
+    hold_rows = {row.get("joint_id"): row for row in promotion.get("hold_joints", [])}
+    expected_hold_jobs = [
+        "D1-H02", "D1-H03", "D1-H04", "D1-H05", "D1-H07",
+        "D1-H08", "D1-H09", "D1-H11", "D1-H12",
+    ]
+    expected_untested_lanes = [
+        "INDEX", "RASHI_SOURCE", "BHAVA_SOURCE", "FIRST_INTEGRATION",
+        "PUSHKARA", "UPAGRAHA", "SPIRIT_CHALIT", "MOON_CHART", "ARUDHA",
+        "SHADBALA_A", "SHADBALA_R", "BHAVA_BALA", "VIMSOPAKA", "MRITYU",
+        "SPOTHER", "AVA", "BHINNA_MATRIX", "PLANET_ASPECT", "SAP", "TKS",
+        "EKS", "SPD", "VARGA_LINK_MINI", "VARGA_LINK_FULL", "ASPECT02",
+        "ASPECT03", "DASHA", "TIMING_GATE",
+    ]
+    if not (
+        hold_rows.get("H01_SC7_LOCAL_AND_DEPENDENCY_CONFLICTS", {}).get("exact_jobs")
+        == expected_hold_jobs
+        and hold_rows.get("H02_GLOBAL_29_LANE_E5", {}).get("untested_lanes")
+        == expected_untested_lanes
+    ):
+        raise ManifestError("KANI user promotion exact HOLD joints are invalid")
+
+    bindings = promotion.get("evidence_bindings", {})
+    local_bindings = {
+        "june04_pikachu_manifest": (
+            "assets/clone-kk2-certified-v7p2/references/pikachu-20d-20260604.md",
+            "6ef812138788ce5655316a36f646408b3e8305977d1443f8fdc9e3c80415c6be",
+        ),
+        "june04_attachment_audit": (
+            "assets/clone-kk2-certified-v7p2/references/PIKACHU_ATTACHMENT_EVIDENCE_20260828.md",
+            "bbdc3085ddd2686667a4d97242d9200377b40e7e54c68d8bc9f3063159229fc6",
+        ),
+        "v9_runtime_manifest": (
+            "references/v9_baseline/kani_v9_manifest.json",
+            "4f7a2a3137a50dcd083cdfc5ad7d12c91779da80c188d910266652007b1361d4",
+        ),
+        "e5_decision_ledger": (
+            "references/v10_runs/run_20260830_vas27/e5/e5_decision_ledger.jsonl",
+            "aef92a552a3e32938e4376cd05ef820184b38b53c8d4a3b585b4c88e6ff2b743",
+        ),
+        "e6_replay_ledger": (
+            "references/v10_runs/run_20260830_vas27/e6/e6_replay_ledger.jsonl",
+            "0b4c7164aed17b93e7529f050c1e0e618bc05438443ea9a7cb8b7ed4a3e0eb5f",
+        ),
+        "e6_boundary_log": (
+            "references/v10_runs/run_20260830_vas27/e6/boundary_test_9of9.json",
+            "ce1560169e47ef53b0844aa0567f16427e1bc698167f8a72733551ab66b851e7",
+        ),
+    }
+    for key, (relative, expected_sha) in local_bindings.items():
+        record = bindings.get(key, {})
+        path = root / relative
+        if not (
+            record.get("path") == relative
+            and record.get("sha256") == expected_sha
+            and path.is_file()
+            and not path.is_symlink()
+            and sha256_file(path) == expected_sha
+        ):
+            raise ManifestError(f"KANI user promotion evidence binding is invalid: {key}")
+
+    sc7 = bindings.get("rq_sc7_external_audit_snapshot", {})
+    sc8 = bindings.get("rq_sc8_external_audit_snapshot", {})
+    if not (
+        sc7.get("source_packages_pass") == 26
+        and sc7.get("personal_chart_jobs_pass") == 240
+        and sc7.get("source_binding_jobs_pass") == 231
+        and sc7.get("source_binding_jobs_hold") == 9
+        and sc7.get("state") == "PARTIAL_HOLD_3AB_4AB_DEGREE_CONFLICT"
+        and sc8.get("raw_archives") == 20
+        and sc8.get("raw_physical_members") == 600
+        and sc8.get("aligned_archives") == 20
+        and sc8.get("aligned_physical_members") == 600
+        and sc8.get("replacement_count") == 1001
+        and sc8.get("changed_members") == 91
+        and sc8.get("unchanged_members") == 509
+        and sc8.get("direct_value_field_assertions") == 4140
+        and sc8.get("stale_token_count") == 0
+        and sc8.get("information_loss") == 0
+        and sc8.get("state") == "PASS_FNA98_SC_ALIGNED_20D"
+    ):
+        raise ManifestError("KANI user promotion SC7/SC8 audit snapshot is invalid")
+    return promotion
+
+
 def build_core(root: Path) -> tuple[dict[str, Any], dict[str, Any]]:
     core: dict[str, Any] = {}
     for key in (
         "restore_call",
+        "promotion_record",
         "protocol",
         "router",
         "source_registry",
@@ -334,6 +478,9 @@ def build_core(root: Path) -> tuple[dict[str, Any], dict[str, Any]]:
         raise ManifestError("KANI V10 restore-call contract is incomplete")
     if restore_call_text.count(RESTORE_CALL_FIRST_RESPONSE) != 1:
         raise ManifestError("KANI V10 first response must appear exactly once in RESTORE_CALL.md")
+
+    promotion = validate_promotion_record(root, root / PATHS["promotion_record"])
+    core["promotion_effective_states"] = promotion["effective_states"]
 
     router_path = root / PATHS["router"]
     router = read_json(router_path)
@@ -715,8 +862,9 @@ def build_manifest(root: Path) -> dict[str, Any]:
         "engine": "KANI_CAUSAL_RESTORE_V10",
         "purpose": "SECOND_RESTORE_ROUTER_EXECUTION_EVIDENCE_BOARD",
         "claims": CLAIMS,
+        "effective_states": EFFECTIVE_STATES,
         "bundle_completeness": (
-            "EVIDENCE_PRESENT_AWAITING_USER_REVIEW"
+            "EVIDENCE_REVIEWED_PROMOTED_WITH_EXACT_HOLDS"
             if not pending
             else "PENDING_OPTIONAL_EXECUTION_ARTIFACTS"
         ),

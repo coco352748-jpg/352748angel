@@ -45,22 +45,26 @@ KANI_V9_BLIND_CHECKS = 2465
 KANI_V10_E5_RECORDS = 114
 KANI_V10_BOUNDARY_TESTS = 9
 
-RESTORE_CALL_FIRST_RESPONSE = """$clone-kani KANI V10이 호출되어 ACTIVE 상태입니다.
+RESTORE_CALL_FIRST_RESPONSE = """$clone-kani KANI V10이 호출되어 ACTIVE_EVIDENCE_SCOPED 상태입니다.
 V9 baseline은 READ_ONLY로 보존하고,
-V10은 E5/E6 overlay로 로드합니다.
-FINAL_PASS는 USER_EVIDENCE_REVIEW_PENDING 상태로 유지합니다.
-첫 실제 Job 지시가 들어오면 Dataset → Judgment Route → Pikachu Sentence replay부터 실행합니다."""
+V10 E5/E6 record/replay와 사용자 승격 레코드를 로드합니다.
+SECOND_RESTORE는 PASS_EVIDENCE_SCOPED입니다.
+FINAL_FNA98_RUNTIME은 HOLD_UNTIL_REAL_RUNTIME_GATES_PASS입니다.
+첫 실제 Job에서는 검증된 관절만 실행하고, 미재생 관절은 HOLD로 유지합니다."""
 
 RESTORE_CALL_REQUIRED_TOKENS = (
-    "RESTORE_CALL_SCHEMA=KANI_V10_RESTORE_CALL_V1",
+    "RESTORE_CALL_SCHEMA=KANI_V10_RESTORE_CALL_V2",
     "PUBLIC_CALL_KEY=$clone-kani",
     "VERSION_TAG=KANI_V10",
     "ALIAS=kani",
     "V9_BASELINE=READ_ONLY",
     "V10_MODE=E5_E6_OVERLAY",
-    "SECOND_RESTORE=EVIDENCE_REVIEW",
-    "FINAL_PASS=USER_EVIDENCE_REVIEW_PENDING",
-    "CANONICAL_INTERNAL_FINAL_PASS=HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE",
+    "PROMOTION_RECORD=references/v10_runtime/user_evidence_promotion_20260830.json",
+    "PROMOTION_RECORD_STATE=PASS_HASH_LOCKED",
+    "USER_EVIDENCE_REVIEW=PASS",
+    "SECOND_RESTORE=PASS_EVIDENCE_SCOPED",
+    "FINAL_PASS=HOLD_REMAINING_RUNTIME_GATES",
+    "CANONICAL_INTERNAL_FINAL_PASS=HOLD_REMAINING_RUNTIME_GATES",
     "FINAL_PASS_DECLARATION=NO",
 )
 
@@ -202,16 +206,18 @@ def main() -> int:
             "RESTORE_FLOOR=ANALYSIS02_MATURE_PRODUCTION_STATE",
             "LOWER_STAGE_RESTART=VOID",
             "CURRENT_RESTORE_ENGINE=KANI_CAUSAL_RESTORE_V10",
-            "SECOND_RESTORE=EVIDENCE_REVIEW",
+            "USER_EVIDENCE_REVIEW=PASS",
+            "SECOND_RESTORE=PASS_EVIDENCE_SCOPED",
             "V10=EXPECTED_VALUE_BOUND",
-            "FINAL_PASS=HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE",
+            "FINAL_PASS=HOLD_REMAINING_RUNTIME_GATES",
             "RESTORE_CALL=RESTORE_CALL.md",
             "PUBLIC_CALL_KEY=$clone-kani",
             "VERSION_TAG=KANI_V10",
             "ALIAS=kani",
             "V9_BASELINE=READ_ONLY",
             "V10_MODE=E5_E6_OVERLAY",
-            "FINAL_PASS=USER_EVIDENCE_REVIEW_PENDING",
+            "PROMOTION_RECORD=references/v10_runtime/user_evidence_promotion_20260830.json",
+            "v10_core.promotion_record",
             "v10_core.restore_call",
         ):
             if token not in skill_text:
@@ -263,17 +269,24 @@ def main() -> int:
     elif not (
         v10_result.get("technical_status") == "PASS"
         and v10_result.get("status") == "PASS"
-        and v10_result.get("bundle_completeness") == "EVIDENCE_PRESENT_AWAITING_USER_REVIEW"
+        and v10_result.get("bundle_completeness") == "EVIDENCE_REVIEWED_PROMOTED_WITH_EXACT_HOLDS"
         and v10_result.get("pending_components") == []
         and v10_result.get("restore_call") == "PRESENT_HASH_LOCKED"
         and v10_result.get("restore_call_path") == "RESTORE_CALL.md"
         and v10_result.get("restore_call_sha256") == restore_call_sha256
-        and v10_result.get("public_final_pass") == "USER_EVIDENCE_REVIEW_PENDING"
-        and v10_result.get("second_restore") == "EVIDENCE_REVIEW"
+        and v10_result.get("promotion_record") == "PRESENT_HASH_LOCKED"
+        and v10_result.get("promotion_record_path")
+        == "references/v10_runtime/user_evidence_promotion_20260830.json"
+        and v10_result.get("public_restore_state") == "ACTIVE_EVIDENCE_SCOPED"
+        and v10_result.get("user_evidence_review") == "PASS"
+        and v10_result.get("public_final_pass") == "HOLD_REMAINING_RUNTIME_GATES"
+        and v10_result.get("second_restore") == "PASS_EVIDENCE_SCOPED"
         and v10_result.get("v10") == "EXPECTED_VALUE_BOUND"
-        and v10_result.get("final_pass") == "HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE"
+        and v10_result.get("final_pass") == "HOLD_REMAINING_RUNTIME_GATES"
         and v10_result.get("global_29_lane_e5") == "HOLD_28_JUDGMENT_TO_SENTENCE_LANES_UNTESTED"
+        and v10_result.get("fresh_tab_real_boot_test") == "HOLD"
         and v10_result.get("real_long_drift") == "HOLD_REAL_LONG_DRIFT_NOT_PROVEN"
+        and v10_result.get("final_fna98_runtime") == "HOLD_UNTIL_REAL_RUNTIME_GATES_PASS"
         and not v10_result.get("errors")
     ):
         failures.append("kani_v10:contract")
@@ -440,15 +453,28 @@ def main() -> int:
         "kani_v10_restore_call_sha256": (
             restore_call_sha256 if v10_state == "PASS" else "FAIL"
         ),
+        "kani_v10_promotion_record": (
+            "PRESENT_HASH_LOCKED" if v10_state == "PASS" else "FAIL"
+        ),
+        "kani_v10_promotion_record_path": (
+            "references/v10_runtime/user_evidence_promotion_20260830.json"
+            if v10_state == "PASS"
+            else "FAIL"
+        ),
+        "kani_v10_promotion_record_sha256": (
+            v10_result.get("promotion_record_sha256") if v10_state == "PASS" else "FAIL"
+        ),
         "kani_v10_first_response": (
             RESTORE_CALL_FIRST_RESPONSE if v10_state == "PASS" else "FAIL"
         ),
         "kani_v10_e5_records": f"{KANI_V10_E5_RECORDS}/{KANI_V10_E5_RECORDS}" if v10_state == "PASS" else "FAIL",
         "kani_v10_boundary_tests": f"{KANI_V10_BOUNDARY_TESTS}/{KANI_V10_BOUNDARY_TESTS}" if v10_state == "PASS" else "FAIL",
-        "second_restore": "EVIDENCE_REVIEW" if v10_state == "PASS" else "FAIL",
+        "public_restore_state": "ACTIVE_EVIDENCE_SCOPED" if v10_state == "PASS" else "FAIL",
+        "user_evidence_review": "PASS" if v10_state == "PASS" else "FAIL",
+        "second_restore": "PASS_EVIDENCE_SCOPED" if v10_state == "PASS" else "FAIL",
         "v10": "EXPECTED_VALUE_BOUND" if v10_state == "PASS" else "FAIL",
-        "final_pass": "HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE" if v10_state == "PASS" else "FAIL",
-        "public_final_pass": "USER_EVIDENCE_REVIEW_PENDING" if v10_state == "PASS" else "FAIL",
+        "final_pass": "HOLD_REMAINING_RUNTIME_GATES" if v10_state == "PASS" else "FAIL",
+        "public_final_pass": "HOLD_REMAINING_RUNTIME_GATES" if v10_state == "PASS" else "FAIL",
         "global_29_lane_e5": "HOLD_28_JUDGMENT_TO_SENTENCE_LANES_UNTESTED" if v10_state == "PASS" else "FAIL",
         "real_long_drift": "HOLD_REAL_LONG_DRIFT_NOT_PROVEN" if v10_state == "PASS" else "FAIL",
         "registration_layer": "INSTALLED_LOCAL_RUNTIME" if installed else "BUILD_PREFLIGHT",

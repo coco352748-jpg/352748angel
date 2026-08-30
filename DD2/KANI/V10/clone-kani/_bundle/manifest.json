@@ -1,54 +1,65 @@
 {
+  "schema_version": "KANI_V10_GITHUB_SYNC_BUNDLE_V2",
+  "local_commit": "bd2e5c5104951b8758e04134159fa69ac263e5c6",
   "archive": {
-    "bytes": 2266976,
-    "filename": "KANI_V10_cc85d19.tar.gz",
+    "filename": "KANI_V10_bd2e5c5.tar.gz",
     "format": "git archive tar.gz with clone-kani/ prefix",
-    "sha256": "808ac483869ec45b7485495d899f887adf945525cf1dde24ab0bb08d6fd639be"
+    "bytes": 2276000,
+    "sha256": "1c461eb02a9d18dad22e5e129f3ebddc19f1619d3a6572d9b770737896bb26b3"
   },
-  "local_commit": "cc85d1961f07217062930288bbc381de7a07973f",
   "parts": [
     {
+      "filename": "KANI_V10_bd2e5c5.tar.gz.part00",
       "bytes": 524288,
-      "filename": "KANI_V10_cc85d19.tar.gz.part00",
-      "sha256": "b1e35ce60767aec3f8daf9a54333ab5b0f3979d35f54af8312bd7cbcc4b90f68"
+      "sha256": "d365a145941aec38c06bd6da5dad3d984ce0a53972591588f0bb81a8885f6012"
     },
     {
+      "filename": "KANI_V10_bd2e5c5.tar.gz.part01",
       "bytes": 524288,
-      "filename": "KANI_V10_cc85d19.tar.gz.part01",
-      "sha256": "735e5b5b4310f10cc975d6eddf931bf74e5c63c07503252931ff58e4c7897760"
+      "sha256": "0b8d0e4ff6ab2ce63d65c966cd00bb05e4877850f40a98365cd2abfff5ee297e"
     },
     {
+      "filename": "KANI_V10_bd2e5c5.tar.gz.part02",
       "bytes": 524288,
-      "filename": "KANI_V10_cc85d19.tar.gz.part02",
-      "sha256": "c0c501105ee7e699e407d9db14238d940bbbc08218165cdad1d97b84d12ed55e"
+      "sha256": "b38a8c838b4e0ec86d2f11b3fe0fcb6eb6124cfd86f3c73ca436eaf2f50ff121"
     },
     {
+      "filename": "KANI_V10_bd2e5c5.tar.gz.part03",
       "bytes": 524288,
-      "filename": "KANI_V10_cc85d19.tar.gz.part03",
-      "sha256": "2dfa9bb6943cd9c98bb394eb49a368997c6e852cba4eedb63ce2995916cc5859"
+      "sha256": "059d7e1fcd665cd7b8359a73211b3ea48ab24fc0e2255072132e6bc3a42aa5f3"
     },
     {
-      "bytes": 169824,
-      "filename": "KANI_V10_cc85d19.tar.gz.part04",
-      "sha256": "b16d371b02c84fb44d36e9a8dbcb3d309c11ca2e40089cc3cf09c90233e4591f"
+      "filename": "KANI_V10_bd2e5c5.tar.gz.part04",
+      "bytes": 178848,
+      "sha256": "ed99b7da9b6e3e423403aab17a7ec0c9464a826021bdf93a29dcaa7fb667d3fc"
     }
   ],
-  "remote_authority": "REMOTE_SYNC_ONLY_NO_EXECUTION_AUTHORITY",
   "restore_call": {
     "path": "clone-kani/RESTORE_CALL.md",
-    "sha256": "903a9e2509752ec2e3dc186f37e3a4f3b8d6dd998d89d5796c27d4b8a8979d08"
+    "sha256": "b757221576bf973e6e817646d1b538193c227a966d3435e07a62d35a7699894c"
   },
-  "schema_version": "KANI_V10_GITHUB_SYNC_BUNDLE_V1",
-  "states": {
-    "FINAL_PASS": "HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE",
-    "PUBLIC_FINAL_PASS": "USER_EVIDENCE_REVIEW_PENDING",
-    "SECOND_RESTORE": "EVIDENCE_REVIEW",
+  "promotion_record": {
+    "path": "clone-kani/references/v10_runtime/user_evidence_promotion_20260830.json",
+    "sha256": "354244a626cc9342b751e0d21d1b3564401866e8b506d5eb9304511634c4a1e8"
+  },
+  "v10_manifest": {
+    "sha256": "da2a408f36a53bb9e083fcf835034c64cfa9deac44ffa74161079f6310ccc5a3",
+    "manifest_id": "779e40b620c761dd5cb2e314c1d3c3ba223662135e0ea881a7e925549b8f4989"
+  },
+  "effective_states": {
+    "USER_EVIDENCE_REVIEW": "PASS",
+    "SECOND_RESTORE": "PASS_EVIDENCE_SCOPED",
     "V10": "EXPECTED_VALUE_BOUND",
-    "V9_BASELINE": "PRESERVED_NOT_OVERWRITTEN"
+    "FINAL_PASS": "HOLD_REMAINING_RUNTIME_GATES",
+    "GLOBAL_29_LANE_E5": "HOLD_28_JUDGMENT_TO_SENTENCE_LANES_UNTESTED",
+    "FRESH_TAB_REAL_BOOT_TEST": "HOLD",
+    "REAL_LONG_DRIFT": "HOLD_REAL_LONG_DRIFT_NOT_PROVEN",
+    "FINAL_FNA98_RUNTIME": "HOLD_UNTIL_REAL_RUNTIME_GATES_PASS"
   },
+  "remote_authority": "REMOTE_SYNC_ONLY_NO_EXECUTION_AUTHORITY",
   "target": {
+    "repository": "coco352748-jpg/352748angel",
     "branch": "dd2-remote-sync",
-    "path": "DD2/KANI/V10/clone-kani/_bundle",
-    "repository": "coco352748-jpg/352748angel"
+    "path": "DD2/KANI/V10/clone-kani/_bundle"
   }
 }
