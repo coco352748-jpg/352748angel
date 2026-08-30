@@ -1,0 +1,576 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━
+HYEWON_D4_ARUDHA_FULL_1_17_APPLIED_98
+D4 TARGET D-CHART ARUDHA FULL 1~17 APPLIED FILE
+D4 분할차트 아루다 1번~17번 전체 적용파일 / 17번 하우스별 패킷 포함
+REVISED 98 / TARGET_NATIVE_ARUDHA / SOURCE_LANDING_SEPARATED / UL_INDEPENDENT / NO_D1_IMPORT
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. TARGET D-CHART REGISTRY / DOMAIN AUTO-MAP
+- 《Subject Code》 = HYEWON
+- 《Target D-Chart》 = D4
+- 《Target D-Chart Domain》 = Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정
+- 《Target Lagna Sign》 = Dhanus
+- 《Route》 = 1~16 common rule + 17 house-by-house packets in this same file
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2. SOURCE / TARGET SETTING
+- 《Arudha Source Dataset》 = HYEWON_BHAVA_ARUDHAS_D4_BLUEAPP_COMPLETE_DATASET
+- 《Source Status》 = IMAGE_VERIFIED_MASTER_FINAL_98
+- 《Completion Grade》 = 98% / D4 Arudha table complete from two swiped screenshots; wheel clusters readable; A12 is represented in app as Upapada (UL)
+- 《Source Type》 = SCREENSHOT_ONLY / SOURCE_APPLIED_FROM_HYEWON_ARUDHAS
+- 《Source Confidence》 = VISIBLE_SCOPE_LOCK
+- 《D1 Import Rule》 = D1 Arudha values are not imported into this Target D-chart file.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+3. SOURCE GATE / PRIORITY
+- APP_VISIBLE / IMAGE_VERIFIED 우선
+- USER_TEXT_SUPPLIED는 visible source와 충돌하지 않을 때만 사용
+- DERIVED_UNCHECKED는 HOLD
+- NOT_SHOWN은 자동 생성하지 않음
+- D-UL은 D-A12로 병합하지 않음
+━━━━━━━━━━━━━━━━━━━━━━━━━
+4. 6B-0 TARGET D-CHART ARUDHA D-STRUCTURE SOURCE BOARD / ACTUAL APPLIED
+Purpose = Target D-chart 안의 D-AL / D-A2~D-A12 / D-UL 전체 표면화 point를 먼저 보존한다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Point Name》 = D-AL / Source House = 1H / Arudha (AL) / 3:40:47 / Makara / U.Ashadha P3 / NLord Sun / HouseFromLagna 2H / Status APPLIED
+- 《Point Name》 = D-A2 / Source House = 2H / Dhana (A2) / 23:47:58 / Kataka / Ashlesha P3 / NLord Mercury / HouseFromLagna 8H / Status APPLIED
+- 《Point Name》 = D-A3 / Source House = 3H / Bhratri (A3) / 26:38:57 / Mithuna / Punarvasu P2 / NLord Jupiter / HouseFromLagna 7H / Status APPLIED
+- 《Point Name》 = D-A4 / Source House = 4H / Matri (A4) / 29:38:48 / Thula / Vishakha P3 / NLord Jupiter / HouseFromLagna 11H / Status APPLIED
+- 《Point Name》 = D-A5 / Source House = 5H / Putra (A5) / 13:59:19 / Mesha / Bharani P1 / NLord Venus / HouseFromLagna 5H / Status APPLIED
+- 《Point Name》 = D-A6 / Source House = 6H / Roga (A6) / 24:02:06 / Vrishabha / Mrigashira P1 / NLord Mars / HouseFromLagna 6H / Status APPLIED
+- 《Point Name》 = D-A7 / Source House = 7H / Dara (A7) / 29:38:48 / Kataka / Ashlesha P4 / NLord Mercury / HouseFromLagna 8H / Status APPLIED
+- 《Point Name》 = D-A8 / Source House = 8H / Randhra (A8) / 26:38:57 / Makara / Dhanishta P1 / NLord Mars / HouseFromLagna 2H / Status APPLIED
+- 《Point Name》 = D-A9 / Source House = 9H / Pitru (A9) / 23:47:58 / Meena / Revati P3 / NLord Mercury / HouseFromLagna 4H / Status APPLIED
+- 《Point Name》 = D-A10 / Source House = 10H / Karma (A10) / 3:40:47 / Mesha / Ashwini P2 / NLord Ketu / HouseFromLagna 5H / Status APPLIED
+- 《Point Name》 = D-A11 / Source House = 11H / Labha (A11) / 1:52:06 / Vrishabha / Krittika P2 / NLord Sun / HouseFromLagna 6H / Status APPLIED
+- 《Point Name》 = D-A12 / Source House = 12H / A12_INDEPENDENT_NOT_VISIBLE / NOT_SHOWN / NOT_SHOWN / NOT_SHOWN PNOT_SHOWN / NLord NOT_SHOWN / HouseFromLagna HOLD / Status HOLD_A12_INDEPENDENT_NOT_VISIBLE
+- 《Point Name》 = D-UL / Source House = UL_LINK / Upapada (UL) / 1:52:06 / Mesha / Ashwini P1 / NLord Ketu / HouseFromLagna 5H / Status APPLIED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+5. 6B-0A SOURCE HOUSE / PADA LANDING HOUSE DISTINCTION RULE / APPLIED
+- Source House = 무엇의 표면인가
+- Pada Landing Sign = 어디에 보이는가
+- House From Target Lagna 계산 기준 = D4 Lagna Dhanus
+- Landing House From Bhava = TARGET_BHAVA_LINK_REQUIRED / HOLD unless supplied by Bhava applied source
+- Source House와 Landing House를 섞지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+6. MISSING / PARTIAL DATA RULE / APPLIED
+- Point missing = NOT_USED
+- A12 independent missing = HOLD_A12_INDEPENDENT_NOT_VISIBLE
+- UL visible = APPLY_AS_UL_SURFACE
+- Sign + Degree + Nakshatra/Pada shown = APPLY_AS_SURFACE 가능
+- Bhava Link missing = Rashi surface only; Bhava surface 판단 HOLD
+- Target Rashi Link computed from Rashi source where available; if unavailable HOLD
+━━━━━━━━━━━━━━━━━━━━━━━━━
+7. TARGET HOUSE → ARUDHA POINT EXTRACTION / APPLIED
+- 1H → D-AL
+- 2H → D-A2
+- 3H → D-A3
+- 4H → D-A4
+- 5H → D-A5
+- 6H → D-A6
+- 7H → D-A7
+- 8H → D-A8
+- 9H → D-A9
+- 10H → D-A10
+- 11H → D-A11
+- 12H → D-A12
+- UL → D-UL independent
+━━━━━━━━━━━━━━━━━━━━━━━━━
+8. POINT ROLE AUTO-FILL / APPLIED
+- D-AL = 표면 정체성 / 밖에서 보이는 도메인 입구
+- D-A2 = 자원·말값·보유·금고 표면
+- D-A3 = 말·실행·노력·기술 표면
+- D-A4 = 기반·안정·내부 바닥 표면
+- D-A5 = 판단·창조·투입·선택 표면
+- D-A6 = 문제처리·노동·부담·경쟁 표면
+- D-A7 = 관계·대면·계약·외부 상대 표면
+- D-A8 = 숨은 장부·위기·공유책임·손실 표면
+- D-A9 = 명분·방향·법칙·상위 기준 표면
+- D-A10 = 역할·결과·사회적 출력 표면
+- D-A11 = 회수·성과·보상·귀속·네트워크 표면
+- D-A12 = 소모·누수·배후처리·해소 표면
+- D-UL = 관계 표면 / 동반자 표면 / 관계의 보이는 장부
+━━━━━━━━━━━━━━━━━━━━━━━━━
+9. EXTRACTED ARUDHA POINT INPUT / FULL POINT TABLE
+- D-AL = Arudha (AL) / 3:40:47 / Makara / U.Ashadha P3 / NLord Sun / HouseFromLagna 2H / Status APPLIED
+- D-A2 = Dhana (A2) / 23:47:58 / Kataka / Ashlesha P3 / NLord Mercury / HouseFromLagna 8H / Status APPLIED
+- D-A3 = Bhratri (A3) / 26:38:57 / Mithuna / Punarvasu P2 / NLord Jupiter / HouseFromLagna 7H / Status APPLIED
+- D-A4 = Matri (A4) / 29:38:48 / Thula / Vishakha P3 / NLord Jupiter / HouseFromLagna 11H / Status APPLIED
+- D-A5 = Putra (A5) / 13:59:19 / Mesha / Bharani P1 / NLord Venus / HouseFromLagna 5H / Status APPLIED
+- D-A6 = Roga (A6) / 24:02:06 / Vrishabha / Mrigashira P1 / NLord Mars / HouseFromLagna 6H / Status APPLIED
+- D-A7 = Dara (A7) / 29:38:48 / Kataka / Ashlesha P4 / NLord Mercury / HouseFromLagna 8H / Status APPLIED
+- D-A8 = Randhra (A8) / 26:38:57 / Makara / Dhanishta P1 / NLord Mars / HouseFromLagna 2H / Status APPLIED
+- D-A9 = Pitru (A9) / 23:47:58 / Meena / Revati P3 / NLord Mercury / HouseFromLagna 4H / Status APPLIED
+- D-A10 = Karma (A10) / 3:40:47 / Mesha / Ashwini P2 / NLord Ketu / HouseFromLagna 5H / Status APPLIED
+- D-A11 = Labha (A11) / 1:52:06 / Vrishabha / Krittika P2 / NLord Sun / HouseFromLagna 6H / Status APPLIED
+- D-A12 = A12_INDEPENDENT_NOT_VISIBLE / NOT_SHOWN / NOT_SHOWN / NOT_SHOWN PNOT_SHOWN / NLord NOT_SHOWN / HouseFromLagna HOLD / Status HOLD_A12_INDEPENDENT_NOT_VISIBLE
+- D-UL = Upapada (UL) / 1:52:06 / Mesha / Ashwini P1 / NLord Ketu / HouseFromLagna 5H / Status APPLIED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+10. LINKED TARGET STRUCTURE / APPLIED SOURCE LINKS
+- 1H Target Rashi Link = 1H / Dhanus / Occupants[EMPTY] / Lord Jupiter / BhavaLink HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 2H Target Rashi Link = 2H / Makara / Occupants[Mars] / Lord Saturn / BhavaLink HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 3H Target Rashi Link = 3H / Kumbha / Occupants[Moon] / Lord Saturn / BhavaLink HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 4H Target Rashi Link = 4H / Meena / Occupants[EMPTY] / Lord Jupiter / BhavaLink HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 5H Target Rashi Link = 5H / Mesha / Occupants[Rahu] / Lord Mars / BhavaLink HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 6H Target Rashi Link = 6H / Vrishabha / Occupants[Sun, Jupiter] / Lord Venus / BhavaLink HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 7H Target Rashi Link = 7H / Mithuna / Occupants[Pluto] / Lord Mercury / BhavaLink HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 8H Target Rashi Link = 8H / Kataka / Occupants[Uranus] / Lord Moon / BhavaLink HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 9H Target Rashi Link = 9H / Simha / Occupants[Neptune] / Lord Sun / BhavaLink HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 10H Target Rashi Link = 10H / Kanya / Occupants[Mercury, Saturn] / Lord Mercury / BhavaLink HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 11H Target Rashi Link = 11H / Thula / Occupants[Venus, Ketu] / Lord Venus / BhavaLink HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 12H Target Rashi Link = 12H / Vrischika / Occupants[EMPTY] / Lord Mars / BhavaLink HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- UL Target Structure Link = relation/partner surface independent; compare with Target 7H + D1 anchor only after source link.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+11. ACTUAL-SURFACE CHECK RULE / APPLIED
+- Actual-Surface Status = SAME / DIFFERENT / PARTIAL / SPLIT / NEEDS_RECHECK
+- Source-Landing Status = computed from Source House vs HouseFromLagna where available
+- Surface Distortion = NONE / OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT / HOLD
+- Use Decision never overwrites Target Rashi/Bhava.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+12. SOURCE WEAKNESS STATUS CAP / APPLIED
+- Source complete with Sign+Degree+Nakshatra/Pada = APPLY_AS_SURFACE 가능
+- Source weak = SUPPORT_ONLY / HOLD
+- A12 independent not visible = HOLD
+- D1 Anchor only supplied = Target Arudha 판정 금지
+━━━━━━━━━━━━━━━━━━━━━━━━━
+13. A7 / UL SEPARATION RULE / APPLIED
+- D-A7 = 7H 대면·계약·외부 상대 표면
+- D-UL = 동반자 / 관계 / 결혼 / 파트너 표면
+- D-A7 ≠ D-UL
+- 같은 방향이면 Surface Agreement만 보강하고 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+14. GENERAL MULTI-POINT COLLISION RULE / APPLIED
+- 같은 sign/house에 있어도 Source House가 다르면 Surface Theme은 분리한다.
+- 하나의 A-point가 다른 A-point를 overwrite하지 않는다.
+- Collision 발생 시 별도 surface line으로 보존한다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+15. D1 ANCHOR BOUNDARY / FIELD PACK
+- D1 Rashi Anchor = REFERENCE_ONLY / BODY_PROMISE_CHECK
+- D1 Bhava Anchor = REFERENCE_ONLY / BODY_PROMISE_CHECK
+- D1 Arudha Anchor = SURFACE_COMPARISON_ONLY
+- D1 Anchor는 Target D-chart Arudha point를 생성하지 않는다.
+- D1 Anchor는 Target Rashi/Bhava를 덮지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+16. APPLICATION HANDOFF / FIELD INHERITANCE LOCK
+- 17번 각 하우스는 6B-0 Source Board를 상속한다.
+- 17번 각 하우스는 6B-0A Source/Landing 분리 규칙을 상속한다.
+- 17번 각 하우스는 Source Weakness Cap / Collision Rule / D1 Anchor Boundary를 상속한다.
+- 이 파일은 16번에서 끝나지 않고 아래 17번 적용패킷까지 포함한다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17. HOUSE-BY-HOUSE D-ARUDHA APPLICATION PACKETS / ACTUAL APPLIED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-1H. D4 1H ARUDHA APPLICATION PACKET / D-AL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target D-Chart》 = D4
+- 《Target D-Chart Domain》 = Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정
+- 《Target House》 = 1H
+- 《Relevant Arudha Point》 = D-AL
+- 《Point Source Status》 = APPLIED
+- 《Source House of Pada》 = 1H
+- 《Arudha Sign》 = Makara
+- 《Arudha Degree》 = 3:40:47
+- 《Arudha Nakshatra/Pada》 = U.Ashadha / P3
+- 《Arudha House From Target D-Chart Lagna》 = 2H
+- 《Pada Landing Sign》 = Makara
+- 《Pada Landing House From Lagna》 = 2H
+- 《Surface Theme》 = 표면 정체성 / 밖에서 보이는 도메인 입구
+- 《Linked Target House》 = 1H
+- 《Target Rashi Link》 = 1H / Dhanus / Occupants[EMPTY] / Lord Jupiter
+- 《Target Bhava Link》 = HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 《Target Actual Function》 = 표면 정체성 / 밖에서 보이는 도메인 입구
+- 《Source House Actual Function》 = 표면 정체성 / 밖에서 보이는 도메인 입구
+- 《Landing House Surface Channel》 = Makara / 2H
+- 《D1 Rashi Anchor》 = REFERENCE_ONLY
+- 《D1 Bhava Anchor》 = REFERENCE_ONLY
+- 《D1 Arudha Anchor》 = SURFACE_COMPARISON_ONLY
+- 《D1 Anchor Use Decision》 = SUPPORT_ONLY / DOES_NOT_CREATE_TARGET_POINT
+- 《Actual-Surface Status》 = NEEDS_TARGET_RASHI_BHAVA_COMPARISON
+- 《Source-Landing Status》 = DIFFERENT_HOUSE
+- 《Surface Distortion》 = HOLD_UNTIL_COMPARISON
+- 《Use Decision》 = APPLY_AS_SURFACE
+OUTPUT SENTENCE =
+  《D4 D-AL》는 D4 실제 《1H》 구조를 대체하지 않고, 해당 주제가 Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정 안에서 외부 표면에 《표면 정체성 / 밖에서 보이는 도메인 입구》로 보이는 방식을 확인하는 아루다 표면화 적용 슬롯이다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-2H. D4 2H ARUDHA APPLICATION PACKET / D-A2
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target D-Chart》 = D4
+- 《Target D-Chart Domain》 = Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정
+- 《Target House》 = 2H
+- 《Relevant Arudha Point》 = D-A2
+- 《Point Source Status》 = APPLIED
+- 《Source House of Pada》 = 2H
+- 《Arudha Sign》 = Kataka
+- 《Arudha Degree》 = 23:47:58
+- 《Arudha Nakshatra/Pada》 = Ashlesha / P3
+- 《Arudha House From Target D-Chart Lagna》 = 8H
+- 《Pada Landing Sign》 = Kataka
+- 《Pada Landing House From Lagna》 = 8H
+- 《Surface Theme》 = 자원·말값·보유·금고 표면
+- 《Linked Target House》 = 2H
+- 《Target Rashi Link》 = 2H / Makara / Occupants[Mars] / Lord Saturn
+- 《Target Bhava Link》 = HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 《Target Actual Function》 = 자원·말값·보유·금고 표면
+- 《Source House Actual Function》 = 자원·말값·보유·금고 표면
+- 《Landing House Surface Channel》 = Kataka / 8H
+- 《D1 Rashi Anchor》 = REFERENCE_ONLY
+- 《D1 Bhava Anchor》 = REFERENCE_ONLY
+- 《D1 Arudha Anchor》 = SURFACE_COMPARISON_ONLY
+- 《D1 Anchor Use Decision》 = SUPPORT_ONLY / DOES_NOT_CREATE_TARGET_POINT
+- 《Actual-Surface Status》 = NEEDS_TARGET_RASHI_BHAVA_COMPARISON
+- 《Source-Landing Status》 = DIFFERENT_HOUSE
+- 《Surface Distortion》 = HOLD_UNTIL_COMPARISON
+- 《Use Decision》 = APPLY_AS_SURFACE
+OUTPUT SENTENCE =
+  《D4 D-A2》는 D4 실제 《2H》 구조를 대체하지 않고, 해당 주제가 Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정 안에서 외부 표면에 《자원·말값·보유·금고 표면》로 보이는 방식을 확인하는 아루다 표면화 적용 슬롯이다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-3H. D4 3H ARUDHA APPLICATION PACKET / D-A3
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target D-Chart》 = D4
+- 《Target D-Chart Domain》 = Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정
+- 《Target House》 = 3H
+- 《Relevant Arudha Point》 = D-A3
+- 《Point Source Status》 = APPLIED
+- 《Source House of Pada》 = 3H
+- 《Arudha Sign》 = Mithuna
+- 《Arudha Degree》 = 26:38:57
+- 《Arudha Nakshatra/Pada》 = Punarvasu / P2
+- 《Arudha House From Target D-Chart Lagna》 = 7H
+- 《Pada Landing Sign》 = Mithuna
+- 《Pada Landing House From Lagna》 = 7H
+- 《Surface Theme》 = 말·실행·노력·기술 표면
+- 《Linked Target House》 = 3H
+- 《Target Rashi Link》 = 3H / Kumbha / Occupants[Moon] / Lord Saturn
+- 《Target Bhava Link》 = HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 《Target Actual Function》 = 말·실행·노력·기술 표면
+- 《Source House Actual Function》 = 말·실행·노력·기술 표면
+- 《Landing House Surface Channel》 = Mithuna / 7H
+- 《D1 Rashi Anchor》 = REFERENCE_ONLY
+- 《D1 Bhava Anchor》 = REFERENCE_ONLY
+- 《D1 Arudha Anchor》 = SURFACE_COMPARISON_ONLY
+- 《D1 Anchor Use Decision》 = SUPPORT_ONLY / DOES_NOT_CREATE_TARGET_POINT
+- 《Actual-Surface Status》 = NEEDS_TARGET_RASHI_BHAVA_COMPARISON
+- 《Source-Landing Status》 = DIFFERENT_HOUSE
+- 《Surface Distortion》 = HOLD_UNTIL_COMPARISON
+- 《Use Decision》 = APPLY_AS_SURFACE
+OUTPUT SENTENCE =
+  《D4 D-A3》는 D4 실제 《3H》 구조를 대체하지 않고, 해당 주제가 Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정 안에서 외부 표면에 《말·실행·노력·기술 표면》로 보이는 방식을 확인하는 아루다 표면화 적용 슬롯이다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-4H. D4 4H ARUDHA APPLICATION PACKET / D-A4
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target D-Chart》 = D4
+- 《Target D-Chart Domain》 = Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정
+- 《Target House》 = 4H
+- 《Relevant Arudha Point》 = D-A4
+- 《Point Source Status》 = APPLIED
+- 《Source House of Pada》 = 4H
+- 《Arudha Sign》 = Thula
+- 《Arudha Degree》 = 29:38:48
+- 《Arudha Nakshatra/Pada》 = Vishakha / P3
+- 《Arudha House From Target D-Chart Lagna》 = 11H
+- 《Pada Landing Sign》 = Thula
+- 《Pada Landing House From Lagna》 = 11H
+- 《Surface Theme》 = 기반·안정·내부 바닥 표면
+- 《Linked Target House》 = 4H
+- 《Target Rashi Link》 = 4H / Meena / Occupants[EMPTY] / Lord Jupiter
+- 《Target Bhava Link》 = HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 《Target Actual Function》 = 기반·안정·내부 바닥 표면
+- 《Source House Actual Function》 = 기반·안정·내부 바닥 표면
+- 《Landing House Surface Channel》 = Thula / 11H
+- 《D1 Rashi Anchor》 = REFERENCE_ONLY
+- 《D1 Bhava Anchor》 = REFERENCE_ONLY
+- 《D1 Arudha Anchor》 = SURFACE_COMPARISON_ONLY
+- 《D1 Anchor Use Decision》 = SUPPORT_ONLY / DOES_NOT_CREATE_TARGET_POINT
+- 《Actual-Surface Status》 = NEEDS_TARGET_RASHI_BHAVA_COMPARISON
+- 《Source-Landing Status》 = DIFFERENT_HOUSE
+- 《Surface Distortion》 = HOLD_UNTIL_COMPARISON
+- 《Use Decision》 = APPLY_AS_SURFACE
+OUTPUT SENTENCE =
+  《D4 D-A4》는 D4 실제 《4H》 구조를 대체하지 않고, 해당 주제가 Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정 안에서 외부 표면에 《기반·안정·내부 바닥 표면》로 보이는 방식을 확인하는 아루다 표면화 적용 슬롯이다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-5H. D4 5H ARUDHA APPLICATION PACKET / D-A5
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target D-Chart》 = D4
+- 《Target D-Chart Domain》 = Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정
+- 《Target House》 = 5H
+- 《Relevant Arudha Point》 = D-A5
+- 《Point Source Status》 = APPLIED
+- 《Source House of Pada》 = 5H
+- 《Arudha Sign》 = Mesha
+- 《Arudha Degree》 = 13:59:19
+- 《Arudha Nakshatra/Pada》 = Bharani / P1
+- 《Arudha House From Target D-Chart Lagna》 = 5H
+- 《Pada Landing Sign》 = Mesha
+- 《Pada Landing House From Lagna》 = 5H
+- 《Surface Theme》 = 판단·창조·투입·선택 표면
+- 《Linked Target House》 = 5H
+- 《Target Rashi Link》 = 5H / Mesha / Occupants[Rahu] / Lord Mars
+- 《Target Bhava Link》 = HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 《Target Actual Function》 = 판단·창조·투입·선택 표면
+- 《Source House Actual Function》 = 판단·창조·투입·선택 표면
+- 《Landing House Surface Channel》 = Mesha / 5H
+- 《D1 Rashi Anchor》 = REFERENCE_ONLY
+- 《D1 Bhava Anchor》 = REFERENCE_ONLY
+- 《D1 Arudha Anchor》 = SURFACE_COMPARISON_ONLY
+- 《D1 Anchor Use Decision》 = SUPPORT_ONLY / DOES_NOT_CREATE_TARGET_POINT
+- 《Actual-Surface Status》 = NEEDS_TARGET_RASHI_BHAVA_COMPARISON
+- 《Source-Landing Status》 = SAME_HOUSE
+- 《Surface Distortion》 = HOLD_UNTIL_COMPARISON
+- 《Use Decision》 = APPLY_AS_SURFACE
+OUTPUT SENTENCE =
+  《D4 D-A5》는 D4 실제 《5H》 구조를 대체하지 않고, 해당 주제가 Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정 안에서 외부 표면에 《판단·창조·투입·선택 표면》로 보이는 방식을 확인하는 아루다 표면화 적용 슬롯이다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-6H. D4 6H ARUDHA APPLICATION PACKET / D-A6
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target D-Chart》 = D4
+- 《Target D-Chart Domain》 = Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정
+- 《Target House》 = 6H
+- 《Relevant Arudha Point》 = D-A6
+- 《Point Source Status》 = APPLIED
+- 《Source House of Pada》 = 6H
+- 《Arudha Sign》 = Vrishabha
+- 《Arudha Degree》 = 24:02:06
+- 《Arudha Nakshatra/Pada》 = Mrigashira / P1
+- 《Arudha House From Target D-Chart Lagna》 = 6H
+- 《Pada Landing Sign》 = Vrishabha
+- 《Pada Landing House From Lagna》 = 6H
+- 《Surface Theme》 = 문제처리·노동·부담·경쟁 표면
+- 《Linked Target House》 = 6H
+- 《Target Rashi Link》 = 6H / Vrishabha / Occupants[Sun, Jupiter] / Lord Venus
+- 《Target Bhava Link》 = HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 《Target Actual Function》 = 문제처리·노동·부담·경쟁 표면
+- 《Source House Actual Function》 = 문제처리·노동·부담·경쟁 표면
+- 《Landing House Surface Channel》 = Vrishabha / 6H
+- 《D1 Rashi Anchor》 = REFERENCE_ONLY
+- 《D1 Bhava Anchor》 = REFERENCE_ONLY
+- 《D1 Arudha Anchor》 = SURFACE_COMPARISON_ONLY
+- 《D1 Anchor Use Decision》 = SUPPORT_ONLY / DOES_NOT_CREATE_TARGET_POINT
+- 《Actual-Surface Status》 = NEEDS_TARGET_RASHI_BHAVA_COMPARISON
+- 《Source-Landing Status》 = SAME_HOUSE
+- 《Surface Distortion》 = HOLD_UNTIL_COMPARISON
+- 《Use Decision》 = APPLY_AS_SURFACE
+OUTPUT SENTENCE =
+  《D4 D-A6》는 D4 실제 《6H》 구조를 대체하지 않고, 해당 주제가 Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정 안에서 외부 표면에 《문제처리·노동·부담·경쟁 표면》로 보이는 방식을 확인하는 아루다 표면화 적용 슬롯이다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-7H. D4 7H ARUDHA APPLICATION PACKET / D-A7
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target D-Chart》 = D4
+- 《Target D-Chart Domain》 = Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정
+- 《Target House》 = 7H
+- 《Relevant Arudha Point》 = D-A7
+- 《Point Source Status》 = APPLIED
+- 《Source House of Pada》 = 7H
+- 《Arudha Sign》 = Kataka
+- 《Arudha Degree》 = 29:38:48
+- 《Arudha Nakshatra/Pada》 = Ashlesha / P4
+- 《Arudha House From Target D-Chart Lagna》 = 8H
+- 《Pada Landing Sign》 = Kataka
+- 《Pada Landing House From Lagna》 = 8H
+- 《Surface Theme》 = 관계·대면·계약·외부 상대 표면
+- 《Linked Target House》 = 7H
+- 《Target Rashi Link》 = 7H / Mithuna / Occupants[Pluto] / Lord Mercury
+- 《Target Bhava Link》 = HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 《Target Actual Function》 = 관계·대면·계약·외부 상대 표면
+- 《Source House Actual Function》 = 관계·대면·계약·외부 상대 표면
+- 《Landing House Surface Channel》 = Kataka / 8H
+- 《D1 Rashi Anchor》 = REFERENCE_ONLY
+- 《D1 Bhava Anchor》 = REFERENCE_ONLY
+- 《D1 Arudha Anchor》 = SURFACE_COMPARISON_ONLY
+- 《D1 Anchor Use Decision》 = SUPPORT_ONLY / DOES_NOT_CREATE_TARGET_POINT
+- 《Actual-Surface Status》 = NEEDS_TARGET_RASHI_BHAVA_COMPARISON
+- 《Source-Landing Status》 = DIFFERENT_HOUSE
+- 《Surface Distortion》 = HOLD_UNTIL_COMPARISON
+- 《Use Decision》 = APPLY_AS_SURFACE
+OUTPUT SENTENCE =
+  《D4 D-A7》는 D4 실제 《7H》 구조를 대체하지 않고, 해당 주제가 Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정 안에서 외부 표면에 《관계·대면·계약·외부 상대 표면》로 보이는 방식을 확인하는 아루다 표면화 적용 슬롯이다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-8H. D4 8H ARUDHA APPLICATION PACKET / D-A8
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target D-Chart》 = D4
+- 《Target D-Chart Domain》 = Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정
+- 《Target House》 = 8H
+- 《Relevant Arudha Point》 = D-A8
+- 《Point Source Status》 = APPLIED
+- 《Source House of Pada》 = 8H
+- 《Arudha Sign》 = Makara
+- 《Arudha Degree》 = 26:38:57
+- 《Arudha Nakshatra/Pada》 = Dhanishta / P1
+- 《Arudha House From Target D-Chart Lagna》 = 2H
+- 《Pada Landing Sign》 = Makara
+- 《Pada Landing House From Lagna》 = 2H
+- 《Surface Theme》 = 숨은 장부·위기·공유책임·손실 표면
+- 《Linked Target House》 = 8H
+- 《Target Rashi Link》 = 8H / Kataka / Occupants[Uranus] / Lord Moon
+- 《Target Bhava Link》 = HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 《Target Actual Function》 = 숨은 장부·위기·공유책임·손실 표면
+- 《Source House Actual Function》 = 숨은 장부·위기·공유책임·손실 표면
+- 《Landing House Surface Channel》 = Makara / 2H
+- 《D1 Rashi Anchor》 = REFERENCE_ONLY
+- 《D1 Bhava Anchor》 = REFERENCE_ONLY
+- 《D1 Arudha Anchor》 = SURFACE_COMPARISON_ONLY
+- 《D1 Anchor Use Decision》 = SUPPORT_ONLY / DOES_NOT_CREATE_TARGET_POINT
+- 《Actual-Surface Status》 = NEEDS_TARGET_RASHI_BHAVA_COMPARISON
+- 《Source-Landing Status》 = DIFFERENT_HOUSE
+- 《Surface Distortion》 = HOLD_UNTIL_COMPARISON
+- 《Use Decision》 = APPLY_AS_SURFACE
+OUTPUT SENTENCE =
+  《D4 D-A8》는 D4 실제 《8H》 구조를 대체하지 않고, 해당 주제가 Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정 안에서 외부 표면에 《숨은 장부·위기·공유책임·손실 표면》로 보이는 방식을 확인하는 아루다 표면화 적용 슬롯이다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-9H. D4 9H ARUDHA APPLICATION PACKET / D-A9
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target D-Chart》 = D4
+- 《Target D-Chart Domain》 = Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정
+- 《Target House》 = 9H
+- 《Relevant Arudha Point》 = D-A9
+- 《Point Source Status》 = APPLIED
+- 《Source House of Pada》 = 9H
+- 《Arudha Sign》 = Meena
+- 《Arudha Degree》 = 23:47:58
+- 《Arudha Nakshatra/Pada》 = Revati / P3
+- 《Arudha House From Target D-Chart Lagna》 = 4H
+- 《Pada Landing Sign》 = Meena
+- 《Pada Landing House From Lagna》 = 4H
+- 《Surface Theme》 = 명분·방향·법칙·상위 기준 표면
+- 《Linked Target House》 = 9H
+- 《Target Rashi Link》 = 9H / Simha / Occupants[Neptune] / Lord Sun
+- 《Target Bhava Link》 = HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 《Target Actual Function》 = 명분·방향·법칙·상위 기준 표면
+- 《Source House Actual Function》 = 명분·방향·법칙·상위 기준 표면
+- 《Landing House Surface Channel》 = Meena / 4H
+- 《D1 Rashi Anchor》 = REFERENCE_ONLY
+- 《D1 Bhava Anchor》 = REFERENCE_ONLY
+- 《D1 Arudha Anchor》 = SURFACE_COMPARISON_ONLY
+- 《D1 Anchor Use Decision》 = SUPPORT_ONLY / DOES_NOT_CREATE_TARGET_POINT
+- 《Actual-Surface Status》 = NEEDS_TARGET_RASHI_BHAVA_COMPARISON
+- 《Source-Landing Status》 = DIFFERENT_HOUSE
+- 《Surface Distortion》 = HOLD_UNTIL_COMPARISON
+- 《Use Decision》 = APPLY_AS_SURFACE
+OUTPUT SENTENCE =
+  《D4 D-A9》는 D4 실제 《9H》 구조를 대체하지 않고, 해당 주제가 Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정 안에서 외부 표면에 《명분·방향·법칙·상위 기준 표면》로 보이는 방식을 확인하는 아루다 표면화 적용 슬롯이다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-10H. D4 10H ARUDHA APPLICATION PACKET / D-A10
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target D-Chart》 = D4
+- 《Target D-Chart Domain》 = Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정
+- 《Target House》 = 10H
+- 《Relevant Arudha Point》 = D-A10
+- 《Point Source Status》 = APPLIED
+- 《Source House of Pada》 = 10H
+- 《Arudha Sign》 = Mesha
+- 《Arudha Degree》 = 3:40:47
+- 《Arudha Nakshatra/Pada》 = Ashwini / P2
+- 《Arudha House From Target D-Chart Lagna》 = 5H
+- 《Pada Landing Sign》 = Mesha
+- 《Pada Landing House From Lagna》 = 5H
+- 《Surface Theme》 = 역할·결과·사회적 출력 표면
+- 《Linked Target House》 = 10H
+- 《Target Rashi Link》 = 10H / Kanya / Occupants[Mercury, Saturn] / Lord Mercury
+- 《Target Bhava Link》 = HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 《Target Actual Function》 = 역할·결과·사회적 출력 표면
+- 《Source House Actual Function》 = 역할·결과·사회적 출력 표면
+- 《Landing House Surface Channel》 = Mesha / 5H
+- 《D1 Rashi Anchor》 = REFERENCE_ONLY
+- 《D1 Bhava Anchor》 = REFERENCE_ONLY
+- 《D1 Arudha Anchor》 = SURFACE_COMPARISON_ONLY
+- 《D1 Anchor Use Decision》 = SUPPORT_ONLY / DOES_NOT_CREATE_TARGET_POINT
+- 《Actual-Surface Status》 = NEEDS_TARGET_RASHI_BHAVA_COMPARISON
+- 《Source-Landing Status》 = DIFFERENT_HOUSE
+- 《Surface Distortion》 = HOLD_UNTIL_COMPARISON
+- 《Use Decision》 = APPLY_AS_SURFACE
+OUTPUT SENTENCE =
+  《D4 D-A10》는 D4 실제 《10H》 구조를 대체하지 않고, 해당 주제가 Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정 안에서 외부 표면에 《역할·결과·사회적 출력 표면》로 보이는 방식을 확인하는 아루다 표면화 적용 슬롯이다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-11H. D4 11H ARUDHA APPLICATION PACKET / D-A11
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target D-Chart》 = D4
+- 《Target D-Chart Domain》 = Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정
+- 《Target House》 = 11H
+- 《Relevant Arudha Point》 = D-A11
+- 《Point Source Status》 = APPLIED
+- 《Source House of Pada》 = 11H
+- 《Arudha Sign》 = Vrishabha
+- 《Arudha Degree》 = 1:52:06
+- 《Arudha Nakshatra/Pada》 = Krittika / P2
+- 《Arudha House From Target D-Chart Lagna》 = 6H
+- 《Pada Landing Sign》 = Vrishabha
+- 《Pada Landing House From Lagna》 = 6H
+- 《Surface Theme》 = 회수·성과·보상·귀속·네트워크 표면
+- 《Linked Target House》 = 11H
+- 《Target Rashi Link》 = 11H / Thula / Occupants[Venus, Ketu] / Lord Venus
+- 《Target Bhava Link》 = HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 《Target Actual Function》 = 회수·성과·보상·귀속·네트워크 표면
+- 《Source House Actual Function》 = 회수·성과·보상·귀속·네트워크 표면
+- 《Landing House Surface Channel》 = Vrishabha / 6H
+- 《D1 Rashi Anchor》 = REFERENCE_ONLY
+- 《D1 Bhava Anchor》 = REFERENCE_ONLY
+- 《D1 Arudha Anchor》 = SURFACE_COMPARISON_ONLY
+- 《D1 Anchor Use Decision》 = SUPPORT_ONLY / DOES_NOT_CREATE_TARGET_POINT
+- 《Actual-Surface Status》 = NEEDS_TARGET_RASHI_BHAVA_COMPARISON
+- 《Source-Landing Status》 = DIFFERENT_HOUSE
+- 《Surface Distortion》 = HOLD_UNTIL_COMPARISON
+- 《Use Decision》 = APPLY_AS_SURFACE
+OUTPUT SENTENCE =
+  《D4 D-A11》는 D4 실제 《11H》 구조를 대체하지 않고, 해당 주제가 Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정 안에서 외부 표면에 《회수·성과·보상·귀속·네트워크 표면》로 보이는 방식을 확인하는 아루다 표면화 적용 슬롯이다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-12H. D4 12H ARUDHA APPLICATION PACKET / D-A12
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target D-Chart》 = D4
+- 《Target D-Chart Domain》 = Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정
+- 《Target House》 = 12H
+- 《Relevant Arudha Point》 = D-A12
+- 《Point Source Status》 = HOLD_A12_INDEPENDENT_NOT_VISIBLE
+- 《Source House of Pada》 = 12H
+- 《Arudha Sign》 = NOT_SHOWN
+- 《Arudha Degree》 = NOT_SHOWN
+- 《Arudha Nakshatra/Pada》 = NOT_SHOWN / PNOT_SHOWN
+- 《Arudha House From Target D-Chart Lagna》 = HOLD
+- 《Pada Landing Sign》 = NOT_SHOWN
+- 《Pada Landing House From Lagna》 = HOLD
+- 《Surface Theme》 = 소모·누수·배후처리·해소 표면
+- 《Linked Target House》 = 12H
+- 《Target Rashi Link》 = 12H / Vrischika / Occupants[EMPTY] / Lord Mars
+- 《Target Bhava Link》 = HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 《Target Actual Function》 = 소모·누수·배후처리·해소 표면
+- 《Source House Actual Function》 = 소모·누수·배후처리·해소 표면
+- 《Landing House Surface Channel》 = NOT_SHOWN / HOLD
+- 《D1 Rashi Anchor》 = REFERENCE_ONLY
+- 《D1 Bhava Anchor》 = REFERENCE_ONLY
+- 《D1 Arudha Anchor》 = SURFACE_COMPARISON_ONLY
+- 《D1 Anchor Use Decision》 = SUPPORT_ONLY / DOES_NOT_CREATE_TARGET_POINT
+- 《Actual-Surface Status》 = NEEDS_TARGET_RASHI_BHAVA_COMPARISON
+- 《Source-Landing Status》 = NOT_CHECKED
+- 《Surface Distortion》 = HOLD_UNTIL_COMPARISON
+- 《Use Decision》 = HOLD
+OUTPUT SENTENCE =
+  《D4 D-A12》는 D4 실제 《12H》 구조를 대체하지 않고, 해당 주제가 Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정 안에서 외부 표면에 《소모·누수·배후처리·해소 표면》로 보이는 방식을 확인하는 아루다 표면화 적용 슬롯이다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-UL. D4 UL INDEPENDENT ARUDHA APPLICATION PACKET / D-UL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target D-Chart》 = D4
+- 《Target D-Chart Domain》 = Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정
+- 《Special Point》 = D-UL
+- 《Source House of Pada》 = UL_LINK
+- 《UL Sign》 = Mesha
+- 《UL Degree》 = 1:52:06
+- 《UL Nakshatra/Pada》 = Ashwini / P1
+- 《UL House From Target D-Chart Lagna》 = 5H
+- 《Target 7H Rashi Link》 = 7H / Mithuna / Occupants[Pluto] / Lord Mercury
+- 《Target Bhava Link》 = HOLD_UNTIL_TARGET_BHAVA_APPLIED_LINK
+- 《D1 Anchor Role》 = SURFACE_COMPARISON_ONLY / SUPPORT_ONLY
+- 《A7/UL Separation》 = D-A7 and D-UL are separate; no merge.
+- 《Use Decision》 = APPLY_AS_UL_SURFACE
+OUTPUT SENTENCE =
+  《D4 D-UL》은 D4 도메인 안에서 관계·동반자·결합 표면이 외부에서 어떻게 보이는지 확인하는 독립 표면화 슬롯이며, D-A12 또는 D-A7로 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+FINAL COMPLETION CHECK
+□ 1~16 common rule included = PASS
+□ 17 House-by-House packets included = PASS
+□ 17-1H~17-12H included = PASS
+□ 17-UL independent included = PASS
+□ D-A12 independent HOLD if not visible = PASS
+□ D-UL independent applied = PASS
+□ D1 Arudha import forbidden = PASS
+□ Target Rashi/Bhava overwrite forbidden = PASS
+□ Source/Landing separated = PASS
+□ Surface only / no event promise = PASS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_D4_ARUDHA_FULL_1_17_APPLIED_98
+INDEX=D_ENGINE > TARGET_DCHART > ARUDHA > D4 > FULL_1_17_APPLIED > HYEWON > FINAL_98
+STATUS=TARGET_DCHART_ARUDHA_APPLIED / FULL_1_17_INCLUDED / HOUSEWISE_17_INCLUDED / UL_INDEPENDENT / A12_HOLD_IF_NOT_VISIBLE / NO_D1_IMPORT / NO_OVERWRITE / FINAL_LOCK_READY
+━━━━━━━━━━━━━━━━━━━━━━━━━

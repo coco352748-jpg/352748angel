@@ -1,0 +1,55 @@
+{
+  "schema_version": "HYEWON_SC7_SC8_ARUDHA_EXPORT_V1",
+  "scope": "ARUDHA_ONLY",
+  "active_d_order": [
+    "D1", "D9", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D10",
+    "D11", "D12", "D16", "D20", "D24", "D27", "D30", "D40", "D45", "D60"
+  ],
+  "void_dcharts": ["D50"],
+  "sc7": {
+    "call": "$rq-sc7",
+    "source_role": "DRIVE_ARUDHA_EXTENSION_SOURCE",
+    "path": "SC7/07_6AB_AruDha_Sc.txt",
+    "dchart_count": 20,
+    "house_section_count": 240,
+    "size_bytes": 742874,
+    "sha256": "4ed64718172c0f570371378e3a215f12d9f2f92c40298912ca7205e282a64414"
+  },
+  "sc8": {
+    "call": "$rq-sc8",
+    "layer_call": "$rq-sc8-6ab",
+    "source_role": "PIKACHU_CANONICAL_ARUDHA_MEMBERS",
+    "member_count": 20,
+    "houses_per_member": 12,
+    "total_size_bytes": 721916,
+    "files": [
+      {"dchart":"D1","path":"SC8/06_1A_D1_AruDhA_12H_AppLieD_R.txt","size_bytes":18522,"sha256":"44f93ea35217b96ffe2ecb81998fcc5372f5552c2f5a3df7a4b95e9dc5f7a89d"},
+      {"dchart":"D9","path":"SC8/06_1A_D9_AruDhA_12H_AppLieD_R.txt","size_bytes":36980,"sha256":"8ae641f6f2d20509984be6989eaffea8b9c0b9926575cdea71d49c22041bd4b9"},
+      {"dchart":"D2","path":"SC8/06_1B_D2_AruDhA_12H_AppLieD_R.txt","size_bytes":36946,"sha256":"d102e2988162204a30fe3b2afb9292930c4d199d1521e2fb972ea61501751cc2"},
+      {"dchart":"D3","path":"SC8/06_1B_D3_AruDhA_12H_AppLieD_R.txt","size_bytes":36707,"sha256":"8639b9e91f56b32fe47c52f48c5cbc1ca8a64ce8a5e193c93441ef7bf6c828b4"},
+      {"dchart":"D4","path":"SC8/06_1B_D4_AruDhA_12H_AppLieD_R.txt","size_bytes":36771,"sha256":"42016669f6757697cfdd34fda107035bfecb84ed584a812ef2890937b654cd72"},
+      {"dchart":"D5","path":"SC8/06_1B_D5_AruDhA_12H_AppLieD_R.txt","size_bytes":36920,"sha256":"ccc235ffd6a78ba02a1e641e3b773e1e1cc7b59be670521829aff8a2be1f6447"},
+      {"dchart":"D6","path":"SC8/06_1B_D6_AruDhA_12H_AppLieD_R.txt","size_bytes":37246,"sha256":"e385301515d3346625c2a9357dd472dd216b7f3fe83eb43d15f38403fac9b190"},
+      {"dchart":"D7","path":"SC8/06_1B_D7_AruDhA_12H_AppLieD_R.txt","size_bytes":36933,"sha256":"6b9da3cc8f9f0f9c3c64f829cf8ae2b68c4af2f71625134789bed370b6b23cf3"},
+      {"dchart":"D8","path":"SC8/06_1B_D8_AruDhA_12H_AppLieD_R.txt","size_bytes":37098,"sha256":"40ecf6bc9f4c97dc566b8be957ec202fb2db5be52579f5186846f2a3e57de5bf"},
+      {"dchart":"D10","path":"SC8/06_1B_D10_AruDhA_12H_AppLieD_R.txt","size_bytes":37549,"sha256":"e8c7b069f2f615292719af9af7e30e560a3eb6265324994ea9ed5678006353e0"},
+      {"dchart":"D11","path":"SC8/06_1B_D11_AruDhA_12H_AppLieD_R.txt","size_bytes":37122,"sha256":"28c9cfbd9af16794421a327b8fb94f27e64e9cbd384c8ac51c85b0b9499c0be5"},
+      {"dchart":"D12","path":"SC8/06_1B_D12_AruDhA_12H_AppLieD_R.txt","size_bytes":37456,"sha256":"a6d9a8973c53172a416ef6cb44c6025a880f70e12de1236691e28129927afb53"},
+      {"dchart":"D16","path":"SC8/06_1B_D16_AruDhA_12H_AppLieD_R.txt","size_bytes":36971,"sha256":"dabc9180d0012c0a2f69fef131c5611f23b82655868afb434c7a093274d996ee"},
+      {"dchart":"D20","path":"SC8/06_1B_D20_AruDhA_12H_AppLieD_R.txt","size_bytes":36913,"sha256":"407663f282f4a5650184b0ebfd612ab5d67d512f1b94e2d3b1f1899faeeeb866"},
+      {"dchart":"D24","path":"SC8/06_1B_D24_AruDhA_12H_AppLieD_R.txt","size_bytes":36942,"sha256":"c3c52f49bbb397fc470fd2e3c028ec41294689e2be2b46c09f56a59c2e68acf1"},
+      {"dchart":"D27","path":"SC8/06_1B_D27_AruDhA_12H_AppLieD_R.txt","size_bytes":36946,"sha256":"0f96e1f21a08224308c7944f8779eac0b6800141cc81db41466c4f1087969c2e"},
+      {"dchart":"D30","path":"SC8/06_1B_D30_AruDhA_12H_AppLieD_R.txt","size_bytes":36749,"sha256":"459f7d59850732fcdaaffb0ffe4b487c9e4340bf33f589e67bdcef92eb7fee24"},
+      {"dchart":"D40","path":"SC8/06_1B_D40_AruDhA_12H_AppLieD_R.txt","size_bytes":37040,"sha256":"6e426d9916cd194822faaf5c09cc0140d9ceae6af739bed3be7200da11b887cf"},
+      {"dchart":"D45","path":"SC8/06_1B_D45_AruDhA_12H_AppLieD_R.txt","size_bytes":36958,"sha256":"e91e97b0fcd250ac8fb8ac51e1077653f87617d2c143a2a11bf72b1fe47199b3"},
+      {"dchart":"D60","path":"SC8/06_1B_D60_AruDhA_12H_AppLieD_R.txt","size_bytes":37147,"sha256":"40048d9ea1e62a48405615b011f997f03662564775cba9c9dcf4519f00191651"}
+    ]
+  },
+  "preservation": {
+    "ocr_rerun": false,
+    "value_derivation": false,
+    "interpretation_added": false,
+    "sc7_sc8_overwrite": false,
+    "source_bytes_modified": false
+  }
+}

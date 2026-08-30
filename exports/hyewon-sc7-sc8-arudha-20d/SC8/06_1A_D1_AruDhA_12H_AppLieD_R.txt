@@ -1,0 +1,366 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━
+HYEWON_06A_D1_ARUDHA_12H_SLOT_APPLIED_98_FINAL
+D1 ARUDHA 12H SURFACE SLOT / SOURCE APPLIED
+D1 아루다 12하우스 표면화 적용본 / UL 독립 슬롯 포함 / 17번 없음
+REVISED 98 / D1 ONLY / SURFACE STRUCTURE / NO_TARGET_17 / NO_OVERWRITE
+━━━━━━━━━━━━━━━━━━━━━━━━━
+SOURCE BASIS =
+- Source Dataset = HYEWON_BHAVA_ARUDHAS_D1_BLUEAPP_COMPLETE_DATASET
+- Source Status = PARTIAL_VISIBLE_LOCK
+- Completion Grade = 94%_VISIBLE_SCOPE_LOCK
+- Source Note = D1 Degree column is not visible; degree detail is HOLD.
+- D1 Lagna Sign = Kanya
+- D1 Arudha source is not imported into any divisional D-chart.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+SOURCE FAMILY LOCK =
+- D1 Rashi = 실제 원본 구조 / 사건 약속
+- D1 Bhava = 현실 house-function 적용층
+- D1 Arudha = D1 외부 인식 / 표면 장부 / 보이는 결과
+- UL은 A12와 병합하지 않고 독립 슬롯으로 둔다.
+- D1에는 Target식 17번을 붙이지 않는다.
+- Strength / Aspect / Dasha / AVA / Bhinna / Varga Link 미적용.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. D1 ARUDHA 12H SURFACE SLOTS / ACTUAL SOURCE APPLIED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1H. D1 ARUDHA AL / A1 SURFACE SLOT / APPLIED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 1H
+- 《Arudha Pada》 = AL / A1
+- 《Surface Function》 = 표면 정체성 / 밖에서 보이는 도메인 입구
+- 《Application Status》 = APPLY_AS_D1_ARUDHA_SURFACE
+SOURCE EXTRACTION =
+- 《Source Label》 = AL
+- 《Mapping Alias》 = A1
+- 《Arudha Sign》 = Simha
+- 《Arudha House from D1 Lagna》 = 12H
+- 《Arudha Degree》 = not shown
+- 《Arudha Nakshatra / Pada》 = P.Phalguni / P4
+- 《Nakshatra Lord》 = Venus
+D1 STRUCTURE LINK =
+- 《D1 Rashi Source Link》 = D1_RASHI_1H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Bhava Source Link》 = D1_BHAVA_1H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Actual Structure Function》 = 표면 정체성 / 밖에서 보이는 도메인 입구
+SURFACE COMPARISON =
+- 《Actual Structure》 = D1_RASHI_BHAVA_STRUCTURE_PENDING_IN_THIS_FILE
+- 《Surface Structure》 = Simha / 12H
+- 《Surface Relation》 = HOLD_UNTIL_D1_RASHI_BHAVA_COMPARISON
+- 《Surface Visibility》 = SOURCE_VISIBLE_WITH_DEGREE_HOLD
+- 《Use Decision》 = APPLY_AS_D1_ARUDHA_SURFACE / DEGREE_DETAIL_HOLD
+98 CHECK = PASS_SOURCE_APPLIED / NO_RASHI_BHAVA_OVERWRITE / NO_EVENT_PROMISE_CREATION
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2H. D1 ARUDHA A2 SURFACE SLOT / APPLIED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 2H
+- 《Arudha Pada》 = A2
+- 《Surface Function》 = 자원·말값·보유·금고 표면
+- 《Application Status》 = APPLY_AS_D1_ARUDHA_SURFACE
+SOURCE EXTRACTION =
+- 《Source Label》 = A2
+- 《Mapping Alias》 = A2
+- 《Arudha Sign》 = Makara
+- 《Arudha House from D1 Lagna》 = 5H
+- 《Arudha Degree》 = not shown
+- 《Arudha Nakshatra / Pada》 = U.Ashadha / P2
+- 《Nakshatra Lord》 = Sun
+D1 STRUCTURE LINK =
+- 《D1 Rashi Source Link》 = D1_RASHI_2H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Bhava Source Link》 = D1_BHAVA_2H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Actual Structure Function》 = 자원·말값·보유·금고 표면
+SURFACE COMPARISON =
+- 《Actual Structure》 = D1_RASHI_BHAVA_STRUCTURE_PENDING_IN_THIS_FILE
+- 《Surface Structure》 = Makara / 5H
+- 《Surface Relation》 = HOLD_UNTIL_D1_RASHI_BHAVA_COMPARISON
+- 《Surface Visibility》 = SOURCE_VISIBLE_WITH_DEGREE_HOLD
+- 《Use Decision》 = APPLY_AS_D1_ARUDHA_SURFACE / DEGREE_DETAIL_HOLD
+98 CHECK = PASS_SOURCE_APPLIED / NO_RASHI_BHAVA_OVERWRITE / NO_EVENT_PROMISE_CREATION
+━━━━━━━━━━━━━━━━━━━━━━━━━
+3H. D1 ARUDHA A3 SURFACE SLOT / APPLIED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 3H
+- 《Arudha Pada》 = A3
+- 《Surface Function》 = 말·실행·노력·기술 표면
+- 《Application Status》 = APPLY_AS_D1_ARUDHA_SURFACE
+SOURCE EXTRACTION =
+- 《Source Label》 = A3
+- 《Mapping Alias》 = A3
+- 《Arudha Sign》 = Kanya
+- 《Arudha House from D1 Lagna》 = 1H
+- 《Arudha Degree》 = not shown
+- 《Arudha Nakshatra / Pada》 = Hasta / P1
+- 《Nakshatra Lord》 = Moon
+D1 STRUCTURE LINK =
+- 《D1 Rashi Source Link》 = D1_RASHI_3H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Bhava Source Link》 = D1_BHAVA_3H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Actual Structure Function》 = 말·실행·노력·기술 표면
+SURFACE COMPARISON =
+- 《Actual Structure》 = D1_RASHI_BHAVA_STRUCTURE_PENDING_IN_THIS_FILE
+- 《Surface Structure》 = Kanya / 1H
+- 《Surface Relation》 = HOLD_UNTIL_D1_RASHI_BHAVA_COMPARISON
+- 《Surface Visibility》 = SOURCE_VISIBLE_WITH_DEGREE_HOLD
+- 《Use Decision》 = APPLY_AS_D1_ARUDHA_SURFACE / DEGREE_DETAIL_HOLD
+98 CHECK = PASS_SOURCE_APPLIED / NO_RASHI_BHAVA_OVERWRITE / NO_EVENT_PROMISE_CREATION
+━━━━━━━━━━━━━━━━━━━━━━━━━
+4H. D1 ARUDHA A4 SURFACE SLOT / APPLIED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 4H
+- 《Arudha Pada》 = A4
+- 《Surface Function》 = 기반·안정·내부 바닥 표면
+- 《Application Status》 = APPLY_AS_D1_ARUDHA_SURFACE
+SOURCE EXTRACTION =
+- 《Source Label》 = A4
+- 《Mapping Alias》 = A4
+- 《Arudha Sign》 = Vrishabha
+- 《Arudha House from D1 Lagna》 = 9H
+- 《Arudha Degree》 = not shown
+- 《Arudha Nakshatra / Pada》 = Krittika / P4
+- 《Nakshatra Lord》 = Sun
+D1 STRUCTURE LINK =
+- 《D1 Rashi Source Link》 = D1_RASHI_4H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Bhava Source Link》 = D1_BHAVA_4H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Actual Structure Function》 = 기반·안정·내부 바닥 표면
+SURFACE COMPARISON =
+- 《Actual Structure》 = D1_RASHI_BHAVA_STRUCTURE_PENDING_IN_THIS_FILE
+- 《Surface Structure》 = Vrishabha / 9H
+- 《Surface Relation》 = HOLD_UNTIL_D1_RASHI_BHAVA_COMPARISON
+- 《Surface Visibility》 = SOURCE_VISIBLE_WITH_DEGREE_HOLD
+- 《Use Decision》 = APPLY_AS_D1_ARUDHA_SURFACE / DEGREE_DETAIL_HOLD
+98 CHECK = PASS_SOURCE_APPLIED / NO_RASHI_BHAVA_OVERWRITE / NO_EVENT_PROMISE_CREATION
+━━━━━━━━━━━━━━━━━━━━━━━━━
+5H. D1 ARUDHA A5 SURFACE SLOT / APPLIED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 5H
+- 《Arudha Pada》 = A5
+- 《Surface Function》 = 판단·창조·투입·선택 표면
+- 《Application Status》 = APPLY_AS_D1_ARUDHA_SURFACE
+SOURCE EXTRACTION =
+- 《Source Label》 = A5
+- 《Mapping Alias》 = A5
+- 《Arudha Sign》 = Mesha
+- 《Arudha House from D1 Lagna》 = 8H
+- 《Arudha Degree》 = not shown
+- 《Arudha Nakshatra / Pada》 = Bharani / P4
+- 《Nakshatra Lord》 = Venus
+D1 STRUCTURE LINK =
+- 《D1 Rashi Source Link》 = D1_RASHI_5H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Bhava Source Link》 = D1_BHAVA_5H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Actual Structure Function》 = 판단·창조·투입·선택 표면
+SURFACE COMPARISON =
+- 《Actual Structure》 = D1_RASHI_BHAVA_STRUCTURE_PENDING_IN_THIS_FILE
+- 《Surface Structure》 = Mesha / 8H
+- 《Surface Relation》 = HOLD_UNTIL_D1_RASHI_BHAVA_COMPARISON
+- 《Surface Visibility》 = SOURCE_VISIBLE_WITH_DEGREE_HOLD
+- 《Use Decision》 = APPLY_AS_D1_ARUDHA_SURFACE / DEGREE_DETAIL_HOLD
+98 CHECK = PASS_SOURCE_APPLIED / NO_RASHI_BHAVA_OVERWRITE / NO_EVENT_PROMISE_CREATION
+━━━━━━━━━━━━━━━━━━━━━━━━━
+6H. D1 ARUDHA A6 SURFACE SLOT / APPLIED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 6H
+- 《Arudha Pada》 = A6
+- 《Surface Function》 = 문제처리·노동·부담·경쟁 표면
+- 《Application Status》 = APPLY_AS_D1_ARUDHA_SURFACE
+SOURCE EXTRACTION =
+- 《Source Label》 = A6
+- 《Mapping Alias》 = A6
+- 《Arudha Sign》 = Meena
+- 《Arudha House from D1 Lagna》 = 7H
+- 《Arudha Degree》 = not shown
+- 《Arudha Nakshatra / Pada》 = Revati / P3
+- 《Nakshatra Lord》 = Mercury
+D1 STRUCTURE LINK =
+- 《D1 Rashi Source Link》 = D1_RASHI_6H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Bhava Source Link》 = D1_BHAVA_6H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Actual Structure Function》 = 문제처리·노동·부담·경쟁 표면
+SURFACE COMPARISON =
+- 《Actual Structure》 = D1_RASHI_BHAVA_STRUCTURE_PENDING_IN_THIS_FILE
+- 《Surface Structure》 = Meena / 7H
+- 《Surface Relation》 = HOLD_UNTIL_D1_RASHI_BHAVA_COMPARISON
+- 《Surface Visibility》 = SOURCE_VISIBLE_WITH_DEGREE_HOLD
+- 《Use Decision》 = APPLY_AS_D1_ARUDHA_SURFACE / DEGREE_DETAIL_HOLD
+98 CHECK = PASS_SOURCE_APPLIED / NO_RASHI_BHAVA_OVERWRITE / NO_EVENT_PROMISE_CREATION
+━━━━━━━━━━━━━━━━━━━━━━━━━
+7H. D1 ARUDHA A7 SURFACE SLOT / APPLIED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 7H
+- 《Arudha Pada》 = A7
+- 《Surface Function》 = 관계·대면·계약·외부 상대 표면
+- 《Application Status》 = APPLY_AS_D1_ARUDHA_SURFACE
+SOURCE EXTRACTION =
+- 《Source Label》 = A7
+- 《Mapping Alias》 = A7
+- 《Arudha Sign》 = Kumbha
+- 《Arudha House from D1 Lagna》 = 6H
+- 《Arudha Degree》 = not shown
+- 《Arudha Nakshatra / Pada》 = Shatabhisha / P1
+- 《Nakshatra Lord》 = Rahu
+D1 STRUCTURE LINK =
+- 《D1 Rashi Source Link》 = D1_RASHI_7H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Bhava Source Link》 = D1_BHAVA_7H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Actual Structure Function》 = 관계·대면·계약·외부 상대 표면
+SURFACE COMPARISON =
+- 《Actual Structure》 = D1_RASHI_BHAVA_STRUCTURE_PENDING_IN_THIS_FILE
+- 《Surface Structure》 = Kumbha / 6H
+- 《Surface Relation》 = HOLD_UNTIL_D1_RASHI_BHAVA_COMPARISON
+- 《Surface Visibility》 = SOURCE_VISIBLE_WITH_DEGREE_HOLD
+- 《Use Decision》 = APPLY_AS_D1_ARUDHA_SURFACE / DEGREE_DETAIL_HOLD
+98 CHECK = PASS_SOURCE_APPLIED / NO_RASHI_BHAVA_OVERWRITE / NO_EVENT_PROMISE_CREATION
+━━━━━━━━━━━━━━━━━━━━━━━━━
+8H. D1 ARUDHA A8 SURFACE SLOT / APPLIED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 8H
+- 《Arudha Pada》 = A8
+- 《Surface Function》 = 숨은 장부·위기·공유책임·손실 표면
+- 《Application Status》 = APPLY_AS_D1_ARUDHA_SURFACE
+SOURCE EXTRACTION =
+- 《Source Label》 = A8
+- 《Mapping Alias》 = A8
+- 《Arudha Sign》 = Makara
+- 《Arudha House from D1 Lagna》 = 5H
+- 《Arudha Degree》 = not shown
+- 《Arudha Nakshatra / Pada》 = Shravana / P1
+- 《Nakshatra Lord》 = Moon
+D1 STRUCTURE LINK =
+- 《D1 Rashi Source Link》 = D1_RASHI_8H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Bhava Source Link》 = D1_BHAVA_8H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Actual Structure Function》 = 숨은 장부·위기·공유책임·손실 표면
+SURFACE COMPARISON =
+- 《Actual Structure》 = D1_RASHI_BHAVA_STRUCTURE_PENDING_IN_THIS_FILE
+- 《Surface Structure》 = Makara / 5H
+- 《Surface Relation》 = HOLD_UNTIL_D1_RASHI_BHAVA_COMPARISON
+- 《Surface Visibility》 = SOURCE_VISIBLE_WITH_DEGREE_HOLD
+- 《Use Decision》 = APPLY_AS_D1_ARUDHA_SURFACE / DEGREE_DETAIL_HOLD
+98 CHECK = PASS_SOURCE_APPLIED / NO_RASHI_BHAVA_OVERWRITE / NO_EVENT_PROMISE_CREATION
+━━━━━━━━━━━━━━━━━━━━━━━━━
+9H. D1 ARUDHA A9 SURFACE SLOT / APPLIED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 9H
+- 《Arudha Pada》 = A9
+- 《Surface Function》 = 명분·방향·법칙·상위 기준 표면
+- 《Application Status》 = APPLY_AS_D1_ARUDHA_SURFACE
+SOURCE EXTRACTION =
+- 《Source Label》 = A9
+- 《Mapping Alias》 = A9
+- 《Arudha Sign》 = Kanya
+- 《Arudha House from D1 Lagna》 = 1H
+- 《Arudha Degree》 = not shown
+- 《Arudha Nakshatra / Pada》 = U.Phalguni / P2
+- 《Nakshatra Lord》 = Sun
+D1 STRUCTURE LINK =
+- 《D1 Rashi Source Link》 = D1_RASHI_9H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Bhava Source Link》 = D1_BHAVA_9H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Actual Structure Function》 = 명분·방향·법칙·상위 기준 표면
+SURFACE COMPARISON =
+- 《Actual Structure》 = D1_RASHI_BHAVA_STRUCTURE_PENDING_IN_THIS_FILE
+- 《Surface Structure》 = Kanya / 1H
+- 《Surface Relation》 = HOLD_UNTIL_D1_RASHI_BHAVA_COMPARISON
+- 《Surface Visibility》 = SOURCE_VISIBLE_WITH_DEGREE_HOLD
+- 《Use Decision》 = APPLY_AS_D1_ARUDHA_SURFACE / DEGREE_DETAIL_HOLD
+98 CHECK = PASS_SOURCE_APPLIED / NO_RASHI_BHAVA_OVERWRITE / NO_EVENT_PROMISE_CREATION
+━━━━━━━━━━━━━━━━━━━━━━━━━
+10H. D1 ARUDHA A10 SURFACE SLOT / APPLIED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 10H
+- 《Arudha Pada》 = A10
+- 《Surface Function》 = 역할·결과·사회적 출력 표면
+- 《Application Status》 = APPLY_AS_D1_ARUDHA_SURFACE
+SOURCE EXTRACTION =
+- 《Source Label》 = A10
+- 《Mapping Alias》 = A10
+- 《Arudha Sign》 = Vrischika
+- 《Arudha House from D1 Lagna》 = 3H
+- 《Arudha Degree》 = not shown
+- 《Arudha Nakshatra / Pada》 = Jyeshta / P3
+- 《Nakshatra Lord》 = Mercury
+D1 STRUCTURE LINK =
+- 《D1 Rashi Source Link》 = D1_RASHI_10H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Bhava Source Link》 = D1_BHAVA_10H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Actual Structure Function》 = 역할·결과·사회적 출력 표면
+SURFACE COMPARISON =
+- 《Actual Structure》 = D1_RASHI_BHAVA_STRUCTURE_PENDING_IN_THIS_FILE
+- 《Surface Structure》 = Vrischika / 3H
+- 《Surface Relation》 = HOLD_UNTIL_D1_RASHI_BHAVA_COMPARISON
+- 《Surface Visibility》 = SOURCE_VISIBLE_WITH_DEGREE_HOLD
+- 《Use Decision》 = APPLY_AS_D1_ARUDHA_SURFACE / DEGREE_DETAIL_HOLD
+98 CHECK = PASS_SOURCE_APPLIED / NO_RASHI_BHAVA_OVERWRITE / NO_EVENT_PROMISE_CREATION
+━━━━━━━━━━━━━━━━━━━━━━━━━
+11H. D1 ARUDHA A11 SURFACE SLOT / APPLIED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 11H
+- 《Arudha Pada》 = A11
+- 《Surface Function》 = 회수·성과·보상·귀속·네트워크 표면
+- 《Application Status》 = APPLY_AS_D1_ARUDHA_SURFACE
+SOURCE EXTRACTION =
+- 《Source Label》 = A11
+- 《Mapping Alias》 = A11
+- 《Arudha Sign》 = Kanya
+- 《Arudha House from D1 Lagna》 = 1H
+- 《Arudha Degree》 = not shown
+- 《Arudha Nakshatra / Pada》 = Hasta / P4
+- 《Nakshatra Lord》 = Moon
+D1 STRUCTURE LINK =
+- 《D1 Rashi Source Link》 = D1_RASHI_11H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Bhava Source Link》 = D1_BHAVA_11H_SOURCE / REQUIRED_FOR_COMPARISON
+- 《D1 Actual Structure Function》 = 회수·성과·보상·귀속·네트워크 표면
+SURFACE COMPARISON =
+- 《Actual Structure》 = D1_RASHI_BHAVA_STRUCTURE_PENDING_IN_THIS_FILE
+- 《Surface Structure》 = Kanya / 1H
+- 《Surface Relation》 = HOLD_UNTIL_D1_RASHI_BHAVA_COMPARISON
+- 《Surface Visibility》 = SOURCE_VISIBLE_WITH_DEGREE_HOLD
+- 《Use Decision》 = APPLY_AS_D1_ARUDHA_SURFACE / DEGREE_DETAIL_HOLD
+98 CHECK = PASS_SOURCE_APPLIED / NO_RASHI_BHAVA_OVERWRITE / NO_EVENT_PROMISE_CREATION
+━━━━━━━━━━━━━━━━━━━━━━━━━
+12H. D1 ARUDHA A12 SURFACE SLOT / HOLD
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 12H
+- 《Arudha Pada》 = A12
+- 《Surface Function》 = 소모·누수·배후처리·해소 표면
+- 《Application Status》 = HOLD
+- 《Source Label》 = A12_INDEPENDENT_VALUE_NOT_VISIBLE
+- 《Reason》 = visible Row 12 is UL, not independent A12; UL is preserved only in UL independent slot.
+- 《Use Decision》 = HOLD_A12_INDEPENDENT_NOT_VISIBLE
+98 CHECK = PASS_UL_NOT_MERGED_WITH_A12
+━━━━━━━━━━━━━━━━━━━━━━━━━
+UL. D1 UPAPADA LAGNA INDEPENDENT SLOT / APPLIED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Layer》 = D1 Arudha / Upapada Lagna
+- 《Special Pada》 = UL
+- 《Surface Function》 = 관계 / 배우자 / 결합 / 계약 / 상대와의 사회적 표면화 / 관계 장부가 외부에 보이는 방식
+- 《Application Status》 = APPLY_AS_UL_SURFACE
+- 《Source Label》 = UL
+- 《UL Sign》 = Kanya
+- 《UL House from D1 Lagna》 = 1H
+- 《UL Degree》 = not shown
+- 《UL Nakshatra / Pada》 = U.Phalguni / P2
+- 《UL Nakshatra Lord》 = Sun
+- 《D1 7H Rashi Link》 = D1_RASHI_7H_SOURCE / REQUIRED_FOR_RELATION_COMPARISON
+- 《D1 7H Bhava Link》 = D1_BHAVA_7H_SOURCE / REQUIRED_FOR_RELATION_COMPARISON
+- 《UL Surface Relation》 = HOLD_UNTIL_D1_7H_12H_COMPARISON
+- 《Use Decision》 = APPLY_AS_UL_SURFACE / DEGREE_DETAIL_HOLD
+98 CHECK = PASS_UL_INDEPENDENT / NO_A12_MERGE
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2. D1 ARUDHA FINAL CHECK
+□ D1 Arudha source applied = PASS
+□ AL/A1~A11 source values applied = PASS
+□ A12 independent value not visible = HOLD
+□ UL independent slot applied = PASS
+□ Degree not shown preserved = PASS
+□ D1/Target separation = PASS
+□ D1 has no Target-style 17 = PASS
+□ No Rashi/Bhava overwrite = PASS
+□ No event promise creation = PASS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_06A_D1_ARUDHA_12H_SLOT_APPLIED_98_FINAL
+INDEX=D_ENGINE > D1 > ARUDHA > 06A > 12H_SLOT_APPLIED > HYEWON > FINAL_98
+STATUS=D1_ARUDHA_APPLIED / SOURCE_VISIBLE_SCOPE_94_LOCK / SLOT_READY_98 / A12_HOLD / UL_INDEPENDENT / NO_TARGET_17 / FINAL_LOCK_READY
+━━━━━━━━━━━━━━━━━━━━━━━━━
