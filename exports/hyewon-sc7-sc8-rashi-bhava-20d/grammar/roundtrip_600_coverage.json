@@ -1,0 +1,470 @@
+{
+  "schema_version": "roundtrip-coverage-1.0",
+  "generated_at": "2026-08-30T00:00:00Z",
+  "d_order": [
+    "D1",
+    "D9",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "D10",
+    "D11",
+    "D12",
+    "D16",
+    "D20",
+    "D24",
+    "D27",
+    "D30",
+    "D40",
+    "D45",
+    "D60"
+  ],
+  "d_count": 20,
+  "source_coordinate_count": 480,
+  "requested_coordinate_count": 600,
+  "missing_requested_coordinates": 120,
+  "core_projection": {
+    "tested": 480,
+    "passed": 480,
+    "failed": 0,
+    "status": "PASS"
+  },
+  "core_by_lane": {
+    "rashi": {
+      "tested": 240,
+      "passed": 240,
+      "failed": 0,
+      "status": "PASS"
+    },
+    "bhava": {
+      "tested": 240,
+      "passed": 240,
+      "failed": 0,
+      "status": "PASS"
+    }
+  },
+  "state_counts": {
+    "sc7": {
+      "rashi": {
+        "CO2": 48,
+        "CO3": 16,
+        "CO4": 6,
+        "CO5": 2,
+        "CO8": 1,
+        "EMPTY": 93,
+        "SINGLE": 74
+      },
+      "bhava": {
+        "CO2": 32,
+        "CO3": 11,
+        "CO4": 3,
+        "EMPTY": 105,
+        "SINGLE": 69,
+        "SUPPORT_ONLY": 20
+      }
+    },
+    "sc8": {
+      "rashi": {
+        "CO2": 48,
+        "CO3": 16,
+        "CO4": 6,
+        "CO5": 2,
+        "CO8": 1,
+        "EMPTY": 93,
+        "SINGLE": 74
+      },
+      "bhava": {
+        "CO2": 32,
+        "CO3": 11,
+        "CO4": 3,
+        "EMPTY": 105,
+        "SINGLE": 69,
+        "SUPPORT_ONLY": 20
+      }
+    }
+  },
+  "semantic_roundtrip": {
+    "tested": 480,
+    "passed": 480,
+    "failed": 0,
+    "status": "PASS",
+    "scope": "sign/actor multiset/state core only; not complete text"
+  },
+  "exact_byte_coverage": {
+    "rashi_forward": {
+      "requested": 240,
+      "passed": 0,
+      "held": 240,
+      "status": "HOLD"
+    },
+    "rashi_reverse": {
+      "requested": 240,
+      "passed": 0,
+      "held": 240,
+      "status": "HOLD"
+    },
+    "bhava_forward": {
+      "requested": 240,
+      "passed": 0,
+      "held": 240,
+      "status": "HOLD"
+    },
+    "bhava_reverse": {
+      "requested": 240,
+      "passed": 0,
+      "held": 240,
+      "status": "HOLD"
+    },
+    "roundtrip": {
+      "requested_evidenced": 480,
+      "contract_requested": 600,
+      "passed": 0,
+      "held": 480,
+      "missing_source": 120,
+      "status": "HOLD"
+    },
+    "reason": "No target TXT is emitted until the inverse carrier and profile selectors are source-determined."
+  },
+  "acceptance_checks": {
+    "manual_corrections": {
+      "observed": 0,
+      "required": 0,
+      "status": "PASS"
+    },
+    "chart_id_exception_rules": {
+      "observed": 0,
+      "required": 0,
+      "status": "PASS"
+    },
+    "unexplained_sc8_output_elements": {
+      "observed": "blocking categories remain",
+      "required": 0,
+      "status": "HOLD"
+    },
+    "unrecovered_sc7_input_elements": {
+      "observed": "blocking categories remain",
+      "required": 0,
+      "status": "HOLD"
+    },
+    "overall": "HOLD"
+  },
+  "profiles": {
+    "BHAVA_D1_HISTORICAL": 1,
+    "BHAVA_TARGET_LONG": 13,
+    "BHAVA_TARGET_SHORT": 6,
+    "RASHI_D1_HISTORICAL": 1,
+    "RASHI_TARGET_FULL30": 19
+  },
+  "errors": [],
+  "documents": [
+    {
+      "d": "D1",
+      "sc7_rashi_file": "07_1AB_D1_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D1_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "5ddbf5d2519b3e416b8ab54f806585cf57733554d3b9ae5f6644fa3256fea2cc",
+      "sc7_bhava_sha256": "c702910157e7975a28d0a5cd8c99b894c20e3c28fa0bc32858f1f71c8cb1a254",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_1A_D1_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_1B_D1_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "c202c7c33f7dc6ce1a49727175f5ad58555392d65ea7508c450d5f69680368c8",
+      "sc8_bhava_sha256": "fcc8174bdcd874da5604b3f781e82e05d7075c2e3bccd322918a7246bfa66190",
+      "sc8_rashi_profile": "RASHI_D1_HISTORICAL",
+      "sc8_bhava_profile": "BHAVA_D1_HISTORICAL"
+    },
+    {
+      "d": "D9",
+      "sc7_rashi_file": "07_1AB_D9_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D9_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "22a6d561dd9fbe20a6bc1be56e223f4d7018a3dcbb8c514177b7be7a5b64f445",
+      "sc7_bhava_sha256": "592921c6eba64d4eb4b8b66ea05377bce25b862fb58c2fda14199c8cfc6f874f",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_9A_D9_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_9B_D9_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "d48e849547710dcbce9c1e696360f5b677f42bd123ca27c49ddc22fe57c9f267",
+      "sc8_bhava_sha256": "b344e686e30826a25a6bcacacc1527e726b7dd18e2c2d18329864c01c888b14c",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_SHORT"
+    },
+    {
+      "d": "D2",
+      "sc7_rashi_file": "07_1AB_D2_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D2_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "c03c263a81ed3b584f3c703b58b11c16d69a8a96f64670a71f9a8dee377e248c",
+      "sc7_bhava_sha256": "858cb19826d79c454c3150f6fb3878310cc7c1b694c0598fbf254ef0125d6ea3",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_2A_D2_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_2B_D2_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "da61b394dd73190c9e132369f7b6e99ff7b94b657225ac00ddaac82cc445aefc",
+      "sc8_bhava_sha256": "0df753bdec744bac24fc9611279e28371af4026af7eaf3152c5da78f64e968ba",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_LONG"
+    },
+    {
+      "d": "D3",
+      "sc7_rashi_file": "07_1AB_D3_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D3_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "782faac9b3357d2a91851b218dabab3fa5c19edd93b8e4768ab5612ee414dd37",
+      "sc7_bhava_sha256": "1d7ec87d0bf01e4d0d6b8385959bb8128fdd204021431cf75091af553e6aa4c9",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_3A_D3_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_3B_D3_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "fb2d9f8cef0179f49dff65634a6b8e25dc2457232cc1746e3e2e5db7828a9371",
+      "sc8_bhava_sha256": "91852e66873888f85a74fc3901f9bf48f0d149468fc013ba06afa10874a20e24",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_SHORT"
+    },
+    {
+      "d": "D4",
+      "sc7_rashi_file": "07_1AB_D4_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D4_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "f1ec52d9349a7544d9e3165f477a8c82edde94e759310bd9f092fa6a82d1d26e",
+      "sc7_bhava_sha256": "338043782e9cd0be8692606fde7b7de29f21e52a746b61500c2699eb86549606",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_4A_D4_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_4B_D4_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "dfa2b69d49df86ec4e8ec75cf269d9852513f24bfb6aa62244ae8f8805aaf65c",
+      "sc8_bhava_sha256": "addb8f93c5cfaf51c8a752c8b79bb675635040fb20c1c0bf27ff91b0b6a2d8c0",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_LONG"
+    },
+    {
+      "d": "D5",
+      "sc7_rashi_file": "07_1AB_D5_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D5_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "7f195cce4285c5c1f6e5123dda992e8e5166a6fa0d3bc6f4fd5a9ca452db6e9f",
+      "sc7_bhava_sha256": "254f855a7b3adb1a371e712954e44f64349580466e48d660e7bd4abf6f5cfdce",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_5A_D5_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_5B_D5_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "9b169265b6d1fa86660af3688bfcc555fda28a89e9fa6c18257bac5d4eb6320e",
+      "sc8_bhava_sha256": "9486f580bc2e3c707ed025a7000fc7746a205a78e6d133e78eb7cd7eb4642774",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_LONG"
+    },
+    {
+      "d": "D6",
+      "sc7_rashi_file": "07_1AB_D6_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D6_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "c530ad08a1fac0497689557c6ef65e38ac820450851c291bd943c822d8639849",
+      "sc7_bhava_sha256": "86d755db7981e6bf03ba7bcac80076b864621514d37446d58d2d51b4fea9c221",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_6A_D6_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_6B_D6_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "8da088ccf901b4488879706a920ca8d8ea9424b51d879cfe8ef7d7c9e525ae32",
+      "sc8_bhava_sha256": "20c648955b0aa52e5a98afc6ec64ae04fbf5358f4023efd76228649aabf62a5c",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_LONG"
+    },
+    {
+      "d": "D7",
+      "sc7_rashi_file": "07_1AB_D7_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D7_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "e1668817b1d4105ee40d4bdb1fb2286dc628930970db29cc3191f0fd8289945e",
+      "sc7_bhava_sha256": "25165c5b884e1e531e63b8620ccf1c18e15f40035b24842dfd8f8c2cc442acce",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_7A_D7_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_7B_D7_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "23160a8aff60fc489888e7d7901e601148109ed96ee6a6fcd1e1185b2e6aea77",
+      "sc8_bhava_sha256": "415ed57e78edb316cb6d86aa1fb1d192d6a1c0fcbad2065d3a057ae8c97e50b3",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_SHORT"
+    },
+    {
+      "d": "D8",
+      "sc7_rashi_file": "07_1AB_D8_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D8_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "71029337a7971f226accb7abbe60d935e3d72592bab9aee61f897af4c278fafe",
+      "sc7_bhava_sha256": "27f2260d3ad62250bf3eef8bfd66b420d576c88811a8b62f65738f84b81ab07b",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_8A_D8_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_8B_D8_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "7de69cc1078ca92f137c88959baaf4be3938d139c1366ed1de562d28475dfe81",
+      "sc8_bhava_sha256": "d1fb943119887b3a9cee2e54ef3de990567d69bb36738d78be01f9231517637c",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_SHORT"
+    },
+    {
+      "d": "D10",
+      "sc7_rashi_file": "07_1AB_D10_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D10_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "8a81d7f9dfc24e5a5012785bcf40453679706d1267f0568a7ff814328ea89151",
+      "sc7_bhava_sha256": "e491a7e5085d045d1daabf0b820d2c0ac81e1e79e75e2881851502b2ebc772b5",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_10A_D10_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_10B_D10_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "b12cb223799a4fade5f7c9cdbfb45319a5b53391013ceea9ee2247e9025cb91f",
+      "sc8_bhava_sha256": "ddb6307738f2f0ab84c8466067bf4d4e144c61f74aa312d51b9a1d12bc39c5c7",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_SHORT"
+    },
+    {
+      "d": "D11",
+      "sc7_rashi_file": "07_1AB_D11_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D11_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "a565a28da02981e23e2cf5676789acf17b4d70a2db0be5e8ed2ca89dbec1927b",
+      "sc7_bhava_sha256": "48c80307d13f81ab832c1f3047d55a15dd7c98d46eef34a659b6a5f59ccb234d",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_11A_D11_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_11B_D11_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "da0cde4ad032e0ccccd41558897794167d366ba40326f63290331e03a8406763",
+      "sc8_bhava_sha256": "9c64354c2ee6d786bb0932086ae3795e6c660829bfd93de97765fd8de287d7a4",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_SHORT"
+    },
+    {
+      "d": "D12",
+      "sc7_rashi_file": "07_1AB_D12_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D12_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "c0e719536b29c9be442a3b783e491b35e18d3e088a1b7af1ab7587cb36e79e39",
+      "sc7_bhava_sha256": "8ec76025a5d836a6e734000fe76d4f90b8370d9d2acfeb6b6b44cf3089ae2b29",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_12A_D12_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_12B_D12_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "8d23da2e2a097ce6f2ab4626ae710425fb320c243a30ba25ad990d014f926978",
+      "sc8_bhava_sha256": "77a02ba0237a5023461c998224bbfd21fd94c324c54b8dfcf4bc7bae1eafe1fd",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_LONG"
+    },
+    {
+      "d": "D16",
+      "sc7_rashi_file": "07_1AB_D16_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D16_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "3a8b575908392798d782ac18d4b2b1e4a50afc271ab6abc401b235d6e5756063",
+      "sc7_bhava_sha256": "853c9c307033be2985a98acf4874cba7b7684732bfe393499c35e6c85e2db41e",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_16A_D16_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_16B_D16_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "177a07ccd49e0a6708984acd678ea4aa04d9b6fab3beee94304e26ddeabeb853",
+      "sc8_bhava_sha256": "3029909c87cb8a40510d582c9d5cbae1bb1d83d2c09fc465ae05fe0a7605e507",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_LONG"
+    },
+    {
+      "d": "D20",
+      "sc7_rashi_file": "07_1AB_D20_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D20_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "35499ecd7870457191b1d77446269e177ba241cff8eac042080e40268351d263",
+      "sc7_bhava_sha256": "767e3584424f165d7a4a854b5e7b2b1be781907b6c356f219eb34d157e01ee5c",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_20A_D20_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_20B_D20_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "0870ee9810b8f79a72f6aec7353fe9b67017453a6ef1b67b910cca724970d634",
+      "sc8_bhava_sha256": "d3c349d1c4073d91f8d079683cb5aa54e92b3ef504c8adfef338c213980d897b",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_LONG"
+    },
+    {
+      "d": "D24",
+      "sc7_rashi_file": "07_1AB_D24_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D24_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "7454116ecb5adfad1740b9fee12d4b841d696bcc6ac4a65a27f70211c6cdad03",
+      "sc7_bhava_sha256": "c9b4aa897fa45af65ff6257bcc7090ed119ea2ae51d0f740d55edf177939938d",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_24A_D24_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_24B_D24_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "84e78df3044a77a169aa32618b3f0ceed5411833df0dff05df5bdf0d42870283",
+      "sc8_bhava_sha256": "2f6dc530157838471510f5fd2e169506d1678d2843dd5a8ab016eef79aa1c189",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_LONG"
+    },
+    {
+      "d": "D27",
+      "sc7_rashi_file": "07_1AB_D27_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D27_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "c1d3191905274ee9b381eed00ce37355b3ba77d51ba8897ef778794948c89de7",
+      "sc7_bhava_sha256": "6282039a1d3344962b45e7dae9386cff9adfc3f77a8bf1d81358601cbc02563e",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_27A_D27_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_27B_D27_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "1f40aecd8efe46b0e65526298d5ff5d605021df358d0413d329d5f2b9985dc31",
+      "sc8_bhava_sha256": "e6745e15692336103b7250870703f5afca02200911084156b3e5a71d9154414c",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_LONG"
+    },
+    {
+      "d": "D30",
+      "sc7_rashi_file": "07_1AB_D30_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D30_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "d8df52a135f2f1d848d7601a3c45a34a35ffb331804d195416c0d16c8e16b416",
+      "sc7_bhava_sha256": "9b34e5ecc60cf789627acbd4403aa5d129656b46bb50573affb79a832ef899c3",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_30A_D30_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_30B_D30_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "c41f42ed1fd0db1ca3b0242494bce732477cb05c3912c040956dfcd4548cabe9",
+      "sc8_bhava_sha256": "263e47df2ffd5c47ff5153c845fb544d1be494f0fcc20054417b9ecd4940debc",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_LONG"
+    },
+    {
+      "d": "D40",
+      "sc7_rashi_file": "07_1AB_D40_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D40_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "df82efebdaa82049395e519ae2d6ac8c491c2e8ae6a10ba7a50d497e8dc1bb57",
+      "sc7_bhava_sha256": "a5c45dbe37e07dafaebb2bf5fef342a06b5c2de62b848aeb6de380ecbd4e5148",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_40A_D40_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_40B_D40_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "7bc21aac9506ec137c194a478c619754df9125365f742d49465ce63326616305",
+      "sc8_bhava_sha256": "9ae363d6a28b63d2b06c06ee35677f22f7c29126a36fb4ad5518e58d6c23f775",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_LONG"
+    },
+    {
+      "d": "D45",
+      "sc7_rashi_file": "07_1AB_D45_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D45_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "05641980bda446a18d62b89478e023b158a6eeaa7caa572bfac4af1bd2e03f1c",
+      "sc7_bhava_sha256": "3990953860db1e3ca7c3a09d91a322aad226ec5a865b36b58ef618d50f609a3b",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_45A_D45_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_45B_D45_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "e5c111cd1c0f64336209e92a9fb25d3103d7955a5496905b590f58721d7090f8",
+      "sc8_bhava_sha256": "32e3639e3d31e0b19f1fca07a0442da6c548596059c6a9549ddd9d3ed2d9c82d",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_LONG"
+    },
+    {
+      "d": "D60",
+      "sc7_rashi_file": "07_1AB_D60_RaShi_Sc_.txt",
+      "sc7_bhava_file": "01_2AB_D60_Bhava_Sc_.txt",
+      "sc7_rashi_sha256": "44760d43143a144564b8319cbee8af198ef7e360fa521ff6609676135d6745cc",
+      "sc7_bhava_sha256": "5acda2c153dc06f3fb8d3b8b9edefad481b22d9fcb8892473232794ec65acc72",
+      "rashi_house_count": 12,
+      "bhava_house_count": 12,
+      "sc8_rashi_file": "02_60A_D60_RaShi_12H_AppLieD_R.txt",
+      "sc8_bhava_file": "02_60B_D60_Bha_12H_AppLieD_R.txt",
+      "sc8_rashi_sha256": "a31633bc2e26eca6a99048dc5cde9e81db1379a9643c1cf935be0889ace81c01",
+      "sc8_bhava_sha256": "fd685d359e9a06699582b4192c74d4a2e5d6582a34b285a69606a46f311ab385",
+      "sc8_rashi_profile": "RASHI_TARGET_FULL30",
+      "sc8_bhava_profile": "BHAVA_TARGET_LONG"
+    }
+  ],
+  "coordinate_failures": [],
+  "direction": "SC7_TO_SC8",
+  "exact_renderer_status": "HOLD",
+  "status": "HOLD",
+  "no_output_txt_emitted": true
+}

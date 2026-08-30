@@ -1,0 +1,325 @@
+grammar:
+  name: SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR
+  invocation_key: "$rq-sc7-sc8-grammar"
+  version: "0.1.0-source-audit"
+  status: HOLD
+  status_reason: >-
+    The supplied branch contains 480 D×lane×house coordinates, not the requested
+    600, and the paired texts do not yet determine a byte-exact inverse for all
+    document metadata and historical format profiles.
+  source_repository: coco352748-jpg/352748angel
+  source_branch: exports/sc7-sc8-rashi-bhava-20d
+  source_path: exports/hyewon-sc7-sc8-rashi-bhava-20d
+  source_zip_sha256:
+    sc7_all: b4bf526397aad3443eb7c4a883c866ed5a5ff7367341adf490aedff4ee4f427e
+    sc8_all: 732ac5370fe9703027339db691883825c1be07d118b98342c3e5b1a9255b9f72
+  attached_template_sha256:
+    d1_rashi_empty_v2: fcd97e8afe61fd84ab2529a760d52d7235b5a1eb2de7814b0fabff5840601c59
+    d1_bhava_empty_v2: 06024c59598f96027b1c9fe3575393347d9282a68db63a08f30b0b85c002e423
+
+coordinate_model:
+  decomposition: [D, LANE, HOUSE, SECTION, BLOCK, ROW, FIELD, TOKEN]
+  active_d_order: [D1, D9, D2, D3, D4, D5, D6, D7, D8, D10, D11, D12, D16, D20, D24, D27, D30, D40, D45, D60]
+  lanes: [RASHI, BHAVA]
+  houses: [1H, 2H, 3H, 4H, 5H, 6H, 7H, 8H, 9H, 10H, 11H, 12H]
+  evidenced_coordinates: 480
+  requested_coordinates: 600
+  missing_coordinates: 120
+
+normalization:
+  target_forward_lexicon:
+    P.Phalguni: Purva Phalguni
+    U.Phalguni: Uttara Phalguni
+    P.Ashadha: Purva Ashadha
+    U.Ashadha: Uttara Ashadha
+    P.Bhadrapada: Purva Bhadrapada
+    U.Bhadrapada: Uttara Bhadrapada
+    Aridra: Ardra
+    Jyeshta: Jyeshtha
+    Dhanishta: Dhanishtha
+  d1_bhava_actor_aliases:
+    Lagna: As
+    Rahu: Rahu(R)
+    Ketu: Ketu(R)
+    Maandi/Md_SUPPORT_ONLY: Maandi_visible_as_Md_SUPPORT_ONLY
+  inverse_scope_rule: >-
+    Apply the reverse spelling lexicon only when the serialized profile explicitly
+    identifies the historical non-D1 target family. Never infer an abbreviation
+    from a full name outside that profile.
+
+state_algebra:
+  rashi:
+    EMPTY: "confirmed zero primary occupants"
+    SINGLE: "one primary occupant"
+    CO_PRESENCE: "two or more primary occupants"
+    NOT_SHOWN: "unknown; never coerce to EMPTY"
+  bhava:
+    EMPTY: "zero primary occupants and no support marker"
+    SUPPORT_ONLY: "support marker only; no primary occupant promotion"
+    SINGLE: "one primary occupant"
+    CO_PRESENCE: "two or more primary occupants"
+    SAME: "same primary actor set remains at the same house"
+    MAINTAINED: "same multi-actor core remains"
+    PARTIAL_MAINTAINED: "a strict primary subset remains"
+    MOVED: "source-backed actor appears at another Bhava house"
+    RE_FUNCTIONED: "source explicitly marks a different Bhava reality role"
+    HOLD: "source does not determine the classification"
+
+serialization_profiles:
+  RASHI_D1_HISTORICAL:
+    observed_documents: 1
+    selector: "Chart == D1 RASHI"
+    status: HOLD
+  RASHI_TARGET_FULL30:
+    observed_documents: 19
+    selector: "Chart != D1 and target-lane == RASHI"
+    status: CORE_RULE_IDENTIFIED_EXACT_RENDERER_HOLD
+  BHAVA_D1_HISTORICAL:
+    observed_documents: 1
+    selector: "Chart == D1 BHAVA"
+    status: HOLD
+  BHAVA_TARGET_LONG:
+    observed_documents: 13
+    selector: NOT_IDENTIFIED_FROM_SC7_ATOMS
+    status: HOLD
+  BHAVA_TARGET_SHORT:
+    observed_documents: 6
+    selector: NOT_IDENTIFIED_FROM_SC7_ATOMS
+    status: HOLD
+
+rules:
+  - RULE_ID: COORD-ORDER-001
+    SC7_SOURCE_ANCHOR: "D folder name plus Visible Rashi Chart Snapshot / Visible House Distribution"
+    INPUT_ATOMS: [D_TOKEN, LANE_TOKEN, HOUSE_NUMBER]
+    MATCH_CONDITION: "D is in active_d_order and house is 1..12"
+    FORWARD_RULE: "Emit D in active_d_order; within each D keep Rashi and Bhava independent and houses ascending."
+    OUTPUT_POSITION: "file order, then top-level full board, then 2-1H..2-12H slots"
+    INVERSE_RULE: "Recover the same D/lane/house coordinates; reject duplicates, gaps, or reordering under strict mode."
+    EMPTY_HOLD_VOID_RULE: "A missing coordinate is HOLD, never an empty house."
+    ROUNDTRIP_REQUIREMENT: "Coordinate tuple and order are identical in both directions."
+    APPLICABLE_SCOPE: "all documents"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: META-SOURCE-001
+    SC7_SOURCE_ANCHOR: "top dataset title, Header Data, Lock Status, terminal TITLE/INDEX/STATUS"
+    INPUT_ATOMS: [SUBJECT_CODE, D_TOKEN, DATASET_TITLE, SOURCE_TYPE, VERIFICATION_MODE, SOURCE_STATUS, CONFLICT_STATUS]
+    MATCH_CONDITION: "an atom is explicitly present in SC7"
+    FORWARD_RULE: "Copy or label-transform only the fields explicitly represented by the selected SC8 profile."
+    OUTPUT_POSITION: "SC8 title, SOURCE / TARGET SETTING, and terminal metadata"
+    INVERSE_RULE: "Restore only fields encoded by SC8; all other SC7 metadata requires a reversible carrier."
+    EMPTY_HOLD_VOID_RULE: "Absent metadata remains NOT_SHOWN/HOLD; do not synthesize it."
+    ROUNDTRIP_REQUIREMENT: "Every SC7 metadata row must have a unique inverse anchor before exact PASS."
+    APPLICABLE_SCOPE: "all documents"
+    EXCEPTION_STATUS: HOLD_NO_UNIQUE_INVERSE_FOR_ALL_SC7_ROWS
+
+  - RULE_ID: RASHI-BOARD-001
+    SC7_SOURCE_ANCHOR: "Visible Rashi Chart Snapshot -> '- nH SIGN = VALUE'"
+    INPUT_ATOMS: [HOUSE_NUMBER, SIGN, OCCUPANT_RECORDS, EMPTY_TOKEN]
+    MATCH_CONDITION: "exactly one SC7 Rashi row exists for the house"
+    FORWARD_RULE: "Preserve sign and occupant records; apply only NAK-NAME-001 spelling changes."
+    OUTPUT_POSITION: "TARGET D-CHART RASHI FULL HOUSE SOURCE BOARD"
+    INVERSE_RULE: "Read the full source board or per-house Rashi fields and apply the profile-scoped inverse spelling map."
+    EMPTY_HOLD_VOID_RULE: "EMPTY remains EMPTY; NOT_SHOWN remains HOLD and is not serialized as EMPTY."
+    ROUNDTRIP_REQUIREMENT: "sign, actor multiset, source values, and state are identical after inverse normalization."
+    APPLICABLE_SCOPE: "240 evidenced Rashi houses"
+    EXCEPTION_STATUS: NONE_AT_CORE_IR_LEVEL
+
+  - RULE_ID: NAK-NAME-001
+    SC7_SOURCE_ANCHOR: "Nakshatra token inside chart snapshot and planetary rows"
+    INPUT_ATOMS: [NAKSHATRA_TOKEN]
+    MATCH_CONDITION: "token exactly matches a key in normalization.target_forward_lexicon"
+    FORWARD_RULE: "Replace with the paired canonical SC8 spelling; otherwise preserve byte spelling."
+    OUTPUT_POSITION: "every SC8 field derived from that source token"
+    INVERSE_RULE: "Use the reverse mapping only for the historical non-D1 target profile."
+    EMPTY_HOLD_VOID_RULE: "No token means no replacement; unknown spelling is preserved."
+    ROUNDTRIP_REQUIREMENT: "profile-scoped reverse(forward(token)) == token"
+    APPLICABLE_SCOPE: "non-D1 historical target family; D1 preserves its own profile spelling"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: RASHI-STATE-001
+    SC7_SOURCE_ANCHOR: "house VALUE after '='"
+    INPUT_ATOMS: [OCCUPANT_RECORDS, EMPTY_TOKEN, NOT_SHOWN_TOKEN]
+    MATCH_CONDITION: "visibility state is explicit"
+    FORWARD_RULE: "0 confirmed actors -> EMPTY; 1 -> SINGLE; >=2 -> CO-PRESENCE."
+    OUTPUT_POSITION: "Occupant Status, Co-presence Status, and conditional rule block"
+    INVERSE_RULE: "Recover actor cardinality from preserved records and verify the serialized state."
+    EMPTY_HOLD_VOID_RULE: "NOT_SHOWN/HOLD/VOID are terminal states and never promoted."
+    ROUNDTRIP_REQUIREMENT: "state and every state-block position are preserved."
+    APPLICABLE_SCOPE: "all Rashi houses"
+    EXCEPTION_STATUS: NONE_AT_CORE_IR_LEVEL
+
+  - RULE_ID: DEGREE-ORDER-001
+    SC7_SOURCE_ANCHOR: "explicit hh:mm:ss degree in each occupant/planetary record"
+    INPUT_ATOMS: [ACTOR, DEGREE, SOURCE_RECORD_ORDER]
+    MATCH_CONDITION: "all compared primary actors have explicit degrees"
+    FORWARD_RULE: "Sort ascending by parsed degree; preserve stable source order for exact ties."
+    OUTPUT_POSITION: "Degree Order, co-presence board, per-house extraction board, Seed 18..22"
+    INVERSE_RULE: "Recover the records, while retaining source record order in the reversible IR."
+    EMPTY_HOLD_VOID_RULE: "missing degree => no inferred order/gap; emit HOLD or profile-defined SINGLE/EMPTY."
+    ROUNDTRIP_REQUIREMENT: "degree tokens and stable tie order are lossless."
+    APPLICABLE_SCOPE: "houses with visible degrees"
+    EXCEPTION_STATUS: NONE_AT_CORE_IR_LEVEL
+
+  - RULE_ID: DEGREE-GAP-001
+    SC7_SOURCE_ANCHOR: "adjacent explicit degree tokens selected by DEGREE-ORDER-001"
+    INPUT_ATOMS: [LEFT_ACTOR, LEFT_DEGREE, RIGHT_ACTOR, RIGHT_DEGREE]
+    MATCH_CONDITION: "two adjacent degree records are visible"
+    FORWARD_RULE: "Subtract sexagesimal degree values and format DD°MM′SS″ with the observed '약 ' prefix where the profile requires it."
+    OUTPUT_POSITION: "Degree Gap, co-presence order board, Seed 21..22"
+    INVERSE_RULE: "Treat gaps as checksums only; recover original degrees from the preserved source records, not by solving gaps."
+    EMPTY_HOLD_VOID_RULE: "fewer than two visible degrees => NONE/SINGLE/EMPTY/HOLD by source state."
+    ROUNDTRIP_REQUIREMENT: "recomputed gap equals serialized gap without altering source degrees."
+    APPLICABLE_SCOPE: "degree-visible co-presence houses"
+    EXCEPTION_STATUS: NONE_AT_CORE_IR_LEVEL
+
+  - RULE_ID: CIRCUIT-001
+    SC7_SOURCE_ANCHOR: "explicit RL / NL / SL / SSL values in source records/tables"
+    INPUT_ATOMS: [ACTOR, RL, NL, SL, SSL]
+    MATCH_CONDITION: "all four circuit tokens are explicitly present"
+    FORWARD_RULE: "Preserve actor order selected for the target block; do not calculate a missing circuit."
+    OUTPUT_POSITION: "RL/NL/SL/SSL Flow, source links, Seed 23..26"
+    INVERSE_RULE: "Project identical circuit tokens back to the corresponding SC7 actor record."
+    EMPTY_HOLD_VOID_RULE: "any missing circuit component makes that circuit HOLD/NOT_SHOWN."
+    ROUNDTRIP_REQUIREMENT: "actor-to-circuit association and token spelling are identical."
+    APPLICABLE_SCOPE: "visible circuit records"
+    EXCEPTION_STATUS: NONE_AT_CORE_IR_LEVEL
+
+  - RULE_ID: HOUSE-AUTOMAP-001
+    SC7_SOURCE_ANCHOR: "house number"
+    INPUT_ATOMS: [HOUSE_NUMBER, LANE]
+    MATCH_CONDITION: "house number is 1..12"
+    FORWARD_RULE: "Lookup the lane-specific fixed House Function and Linked Houses rows learned from every paired target."
+    OUTPUT_POSITION: "HOUSE AUTO-MAP and extraction board"
+    INVERSE_RULE: "Verify fixed rows and discard them as grammar constants; they do not overwrite source atoms."
+    EMPTY_HOLD_VOID_RULE: "unknown house number is VOID."
+    ROUNDTRIP_REQUIREMENT: "constant row and its exact position match the selected profile."
+    APPLICABLE_SCOPE: "all house slots"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: RASHI-PLANET-JOINT-001
+    SC7_SOURCE_ANCHOR: "Visible Planetary Positions plus visible house board"
+    INPUT_ATOMS: [ACTOR, HOUSE, SIGN, DEGREE, NAKSHATRA, PADA, DOMAIN]
+    MATCH_CONDITION: "actor placement is explicit"
+    FORWARD_RULE: "Emit one row per observed actor; classical/node/support labels follow source-visible actor class and paired grammar constants."
+    OUTPUT_POSITION: "TARGET D-CHART PLANET JOINT BOARD"
+    INVERSE_RULE: "Use this board as a redundant placement check; restore from preserved source links."
+    EMPTY_HOLD_VOID_RULE: "unseen actor is omitted/HOLD; outer/support actor never becomes a classical primary actor."
+    ROUNDTRIP_REQUIREMENT: "actor inventory and placement agree with the full house board."
+    APPLICABLE_SCOPE: "target Rashi documents"
+    EXCEPTION_STATUS: HOLD_EXACT_WORDING_AND_LORDSHIP_RENDERER_NOT_COMPLETE
+
+  - RULE_ID: RASHI-SEED30-001
+    SC7_SOURCE_ANCHOR: "house sign/records/order/gap/circuit/lord-route atoms"
+    INPUT_ATOMS: [D_TOKEN, DOMAIN, HOUSE_FUNCTION, SIGN, OCCUPANTS, NAK_FLOW, DEGREE_ORDER, DEGREE_GAP, CIRCUIT, LORD_ROUTE]
+    MATCH_CONDITION: "the selected source atoms are visible; each missing atom keeps its state marker"
+    FORWARD_RULE: "Instantiate fixed sentence frames 1-1,1-2,2..30 without interpretation or supplementation."
+    OUTPUT_POSITION: "6-C. nH DEEP OPERATION KEYWORD/SEED BANK 30"
+    INVERSE_RULE: "Treat sentences as redundant serialization; recover atoms only after all repeated occurrences agree."
+    EMPTY_HOLD_VOID_RULE: "use literal EMPTY/HOLD/SUPPORT_ONLY frames; never invent texture values."
+    ROUNDTRIP_REQUIREMENT: "all labels, numbering, repetitions, grammar quirks, and whitespace match."
+    APPLICABLE_SCOPE: "all Rashi house slots"
+    EXCEPTION_STATUS: HOLD_EXACT_SENTENCE_RENDERER_NOT_COMPLETE
+
+  - RULE_ID: BHAVA-BOARD-001
+    SC7_SOURCE_ANCHOR: "Visible House Distribution"
+    INPUT_ATOMS: [HOUSE_NUMBER, BHAVA_OCCUPANT_RECORDS, SUPPORT_MARKERS, EMPTY_TOKEN]
+    MATCH_CONDITION: "exactly one distribution row exists for the house"
+    FORWARD_RULE: "Preserve Bhava occupants independently; enrich only from the explicit Bhava planetary table for the same actor."
+    OUTPUT_POSITION: "TARGET BHAVA FULL HOUSE DISTRIBUTION and each Bhava slot"
+    INVERSE_RULE: "Strip profile aliases/enrichment while retaining the explicit SC7 distribution token form in reversible IR."
+    EMPTY_HOLD_VOID_RULE: "support-only stays support-only; EMPTY and NOT_SHOWN remain distinct."
+    ROUNDTRIP_REQUIREMENT: "primary actor multiset, support set, and state are identical."
+    APPLICABLE_SCOPE: "240 evidenced Bhava houses"
+    EXCEPTION_STATUS: NONE_AT_CORE_IR_LEVEL
+
+  - RULE_ID: BHAVA-STRUCTURE-001
+    SC7_SOURCE_ANCHOR: "Visible Bhava Structure"
+    INPUT_ATOMS: [HOUSE_NUMBER, BEGIN_DEGREE, BEGIN_SIGN, BEGIN_NAKSHATRA, MIDDLE_OR_CUSP_DEGREE, CUSP_SIGN, CUSP_NAKSHATRA]
+    MATCH_CONDITION: "the complete row is explicitly visible"
+    FORWARD_RULE: "Rename Begin/Middle to the selected profile's Bhava Start/Cusp labels; preserve values and spelling normalization only."
+    OUTPUT_POSITION: "Bhava Structure field inside each house slot"
+    INVERSE_RULE: "Apply the exact profile label inverse and restore explicit End not shown when it was carried."
+    EMPTY_HOLD_VOID_RULE: "missing boundary component remains NOT_SHOWN/HOLD."
+    ROUNDTRIP_REQUIREMENT: "all boundary tokens and missing-state positions are identical."
+    APPLICABLE_SCOPE: "Bhava documents"
+    EXCEPTION_STATUS: HOLD_D1_AND_TARGET_LABEL_PROFILES_DIFFER
+
+  - RULE_ID: RASHI-BHAVA-ALIGN-001
+    SC7_SOURCE_ANCHOR: "same D and house across Visible Rashi Chart Snapshot and Visible House Distribution"
+    INPUT_ATOMS: [RASHI_PRIMARY_SET, RASHI_SUPPORT_SET, BHAVA_PRIMARY_SET, BHAVA_SUPPORT_SET, HOUSE_NUMBER]
+    MATCH_CONDITION: "both lane rows are visible and remain separately typed"
+    FORWARD_RULE: "Classify SAME/MAINTAINED/PARTIAL/MOVED/RE-FUNCTIONED/SUPPORT_ONLY by explicit set/location evidence; do not overwrite either lane."
+    OUTPUT_POSITION: "Rashi Source Link, Same/Moved, Co-presence Status, Empty Operation, alignment boards"
+    INVERSE_RULE: "Recover both independent sets from their own blocks; use status only as a consistency check."
+    EMPTY_HOLD_VOID_RULE: "unknown location or absent source link => HOLD; empty Bhava => LORD_ONLY only when explicitly confirmed empty."
+    ROUNDTRIP_REQUIREMENT: "both lane sets survive and the classification recomputes identically."
+    APPLICABLE_SCOPE: "paired Rashi/Bhava coordinates"
+    EXCEPTION_STATUS: NONE_AT_CORE_IR_LEVEL
+
+  - RULE_ID: BHAVA-SEED30-001
+    SC7_SOURCE_ANCHOR: "independent Rashi/Bhava atoms joined by RASHI-BHAVA-ALIGN-001"
+    INPUT_ATOMS: [D_TOKEN, DOMAIN, HOUSE_FUNCTION, RASHI_LINK, BHAVA_OCCUPANTS, SAME_MOVED, CO_PRESENCE, NAK_FLOW, DEGREE_ORDER, DEGREE_GAP, CIRCUIT, LORD_ROUTE]
+    MATCH_CONDITION: "required atoms are explicit or carry an explicit missing state"
+    FORWARD_RULE: "Instantiate the observed 30 fixed Bhava sentence frames without adding interpretation."
+    OUTPUT_POSITION: "6-C. nH BHAVA DEEP OPERATION SEED BANK 30"
+    INVERSE_RULE: "Use repeated atoms as checksums; never substitute Bhava values for Rashi source values."
+    EMPTY_HOLD_VOID_RULE: "preserve EMPTY/SUPPORT_ONLY/HOLD in the same frame positions."
+    ROUNDTRIP_REQUIREMENT: "numbering, wording, source-lane boundary, and every repeated atom match."
+    APPLICABLE_SCOPE: "all Bhava house slots"
+    EXCEPTION_STATUS: HOLD_EXACT_SENTENCE_RENDERER_NOT_COMPLETE
+
+  - RULE_ID: FORMAT-PROFILE-001
+    SC7_SOURCE_ANCHOR: "SC7 explicit source atoms only"
+    INPUT_ATOMS: [CHART_ROLE, LANE, TEMPLATE_VERSION_IF_PRESENT]
+    MATCH_CONDITION: "a non-chart-id profile selector is explicitly encoded"
+    FORWARD_RULE: "Select exactly one historical serialization profile; otherwise stop."
+    OUTPUT_POSITION: "entire document skeleton"
+    INVERSE_RULE: "Read and retain the profile id before removing constant rows."
+    EMPTY_HOLD_VOID_RULE: "missing selector => HOLD, not D-based fallback."
+    ROUNDTRIP_REQUIREMENT: "profile selection is deterministic in both directions."
+    APPLICABLE_SCOPE: "all documents"
+    EXCEPTION_STATUS: HOLD_BHAVA_LONG_SHORT_SELECTOR_ABSENT
+
+  - RULE_ID: INVERSE-SC7-DOCUMENT-001
+    SC7_SOURCE_ANCHOR: "every SC7 line, blank run, delimiter, and terminal metadata row"
+    INPUT_ATOMS: [SC7_COMPLETE_DOCUMENT_TOKEN_STREAM]
+    MATCH_CONDITION: "every token has a unique SC8 carrier or a declared reversible side channel"
+    FORWARD_RULE: "Carry every inverse-required token even when SC8 does not display it semantically."
+    OUTPUT_POSITION: "profile-declared lossless carrier"
+    INVERSE_RULE: "Reassemble byte-identical SC7, including line endings and blank positions."
+    EMPTY_HOLD_VOID_RULE: "no carrier => HOLD; never reconstruct notes from domain knowledge."
+    ROUNDTRIP_REQUIREMENT: "Reverse(Forward(x)) is byte-identical to x."
+    APPLICABLE_SCOPE: "all SC7 documents"
+    EXCEPTION_STATUS: HOLD_CARRIER_ABSENT_IN_HISTORICAL_SC8
+
+  - RULE_ID: EXACT-BYTE-GATE-001
+    SC7_SOURCE_ANCHOR: "complete paired file bytes"
+    INPUT_ATOMS: [EXPECTED_SHA256, GENERATED_BYTES]
+    MATCH_CONDITION: "a complete renderer and inverse are available"
+    FORWARD_RULE: "Compare generated SC8 bytes with paired SC8 bytes."
+    OUTPUT_POSITION: "roundtrip_600_coverage.json"
+    INVERSE_RULE: "Compare generated SC7 bytes with paired SC7 bytes."
+    EMPTY_HOLD_VOID_RULE: "any missing file/profile/rule is HOLD; no manual patching."
+    ROUNDTRIP_REQUIREMENT: "all four invariants pass at byte level for every requested unit."
+    APPLICABLE_SCOPE: "requested 600 units"
+    EXCEPTION_STATUS: HOLD_NOT_RUN_BECAUSE_PREREQUISITES_FAIL
+
+acceptance_gate:
+  required:
+    source_units: "600/600"
+    rashi_forward_exact: "600/600 contract-defined units"
+    rashi_reverse_exact: "600/600 contract-defined units"
+    bhava_forward_exact: "600/600 contract-defined units"
+    bhava_reverse_exact: "600/600 contract-defined units"
+    roundtrip_exact: "600/600"
+    manual_corrections: 0
+    chart_id_exceptions: 0
+    unexplained_sc8_elements: 0
+    unrecovered_sc7_elements: 0
+  observed:
+    source_units: "480/600"
+    core_ir_forward_reverse: "480/480"
+    exact_rendered_units: "0/480; all 480 held, none falsely failed or passed"
+    manual_corrections: 0
+    chart_id_exceptions: 0
+    final_status: HOLD

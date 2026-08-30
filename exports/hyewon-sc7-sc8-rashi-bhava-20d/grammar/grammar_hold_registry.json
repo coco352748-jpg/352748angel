@@ -1,0 +1,134 @@
+{
+  "registry_version": "1.0",
+  "generated_at": "2026-08-30T00:00:00Z",
+  "grammar_status": "HOLD",
+  "policy": {
+    "manual_corrections_allowed": false,
+    "chart_id_exceptions_allowed": false,
+    "unseen_value_inference_allowed": false,
+    "hold_is_failure_override": false
+  },
+  "holds": [
+    {
+      "hold_id": "HOLD-SOURCE-COUNT-001",
+      "severity": "BLOCKING",
+      "scope": "acceptance corpus",
+      "claim_blocked": "600/600 coverage",
+      "observed": {
+        "active_d": 20,
+        "houses_per_d": 12,
+        "lanes": 2,
+        "coordinates": 480,
+        "requested": 600,
+        "missing": 120
+      },
+      "evidence": [
+        "SC7 ALL ZIP contains 20 D folders and 40 TXT members",
+        "SC8 ALL ZIP contains 20 D folders and 40 TXT members",
+        "each lane document contains exactly 1H..12H",
+        "README describes the same 20D Rashi/Bhava bundle"
+      ],
+      "required_to_release": "Supply a 600-unit manifest and the missing 120 paired source/target units, or correct the contract total to 480.",
+      "forbidden_workaround": "Do not duplicate, infer, or recount existing coordinates as the missing 120.",
+      "exception_status": "NO_EXCEPTION_ADDED"
+    },
+    {
+      "hold_id": "HOLD-BHAVA-PROFILE-SELECTOR-001",
+      "severity": "BLOCKING",
+      "scope": "non-D1 Bhava exact forward serialization",
+      "claim_blocked": "SC7 Bhava -> historical SC8 Bhava byte equality",
+      "observed": {
+        "BHAVA_TARGET_LONG_documents": 13,
+        "BHAVA_TARGET_SHORT_documents": 6,
+        "core_schema_shared": true,
+        "explicit_SC7_template_version_field": false
+      },
+      "evidence": [
+        "long slots contain Additional Required Houses/Reason and the long footer",
+        "short slots omit those rows while preserving the same source/state fields",
+        "no non-ID selector for the historical skeleton is present in SC7"
+      ],
+      "required_to_release": "Provide an explicit source-backed template version selector or choose one canonical Bhava serialization profile.",
+      "forbidden_workaround": "Do not map D identifiers to long/short templates.",
+      "exception_status": "NO_CHART_ID_MAP_ADDED"
+    },
+    {
+      "hold_id": "HOLD-INVERSE-SC7-RASHI-001",
+      "severity": "BLOCKING",
+      "scope": "SC8 Rashi -> complete SC7 Rashi document",
+      "claim_blocked": "Reverse(y) = byte-identical SC7 Rashi",
+      "observed": {
+        "house_core_recoverable": true,
+        "all_SC7_document_tokens_carried_by_SC8": false
+      },
+      "un-carried_categories": [
+        "Source App Note rows not selected by SC8",
+        "Header Data rows not selected by SC8",
+        "Visible Note Text",
+        "Prior Control Notes",
+        "some Lock Status wording",
+        "blank-line runs and original line-ending form"
+      ],
+      "required_to_release": "Add a lossless carrier to SC8 or narrow the inverse target to a formally specified canonical SC7 subset.",
+      "forbidden_workaround": "Do not reconstruct source notes from fixed prose, astrology knowledge, or a per-D lookup table.",
+      "exception_status": "NO_SIDE_CHANNEL_INVENTED"
+    },
+    {
+      "hold_id": "HOLD-INVERSE-SC7-BHAVA-001",
+      "severity": "BLOCKING",
+      "scope": "SC8 Bhava -> complete SC7 Bhava document",
+      "claim_blocked": "Reverse(y) = byte-identical SC7 Bhava",
+      "observed": {
+        "house_distribution_core_recoverable": true,
+        "bhava_structure_core_partly_recoverable": true,
+        "all_SC7_document_tokens_carried_by_SC8": false
+      },
+      "un-carried_categories": [
+        "Visible Bhava Snapshot box rows",
+        "source extraction prose",
+        "selected header and lock rows",
+        "visible note/blank-run formatting",
+        "original display spelling where SC8 normalizes it"
+      ],
+      "required_to_release": "Add a lossless SC7 token carrier or formally define a smaller canonical reverse target.",
+      "forbidden_workaround": "Do not use the paired SC7 file as a reverse lookup result.",
+      "exception_status": "NO_REFERENCE_FILE_REPLAY_ADDED"
+    },
+    {
+      "hold_id": "HOLD-D1-TEMPLATE-VERSION-001",
+      "severity": "BLOCKING",
+      "scope": "D1 Rashi and Bhava exact serialization",
+      "claim_blocked": "one deterministic D1 target profile",
+      "observed": {
+        "historical_SC8_Rashi_lines": 1124,
+        "historical_SC8_Bhava_lines": 1228,
+        "new_empty_Rashi_template_lines": 1559,
+        "new_empty_Bhava_template_lines": 1595,
+        "new_templates_are_value_deleted_historical_files": false
+      },
+      "evidence": [
+        "new templates declare NEW TEMPLATE and EMPTY_TYPED_SLOTS",
+        "historical Applied files declare OPTIMAL_2SPLIT/ACTUAL FILLED and have different fixed blocks",
+        "the attached templates explicitly say they are newly written, not numerical deletion copies"
+      ],
+      "required_to_release": "Lock D1 target_version to historical-applied or typed-empty-v2 and provide the corresponding exact acceptance target.",
+      "forbidden_workaround": "Do not treat the new empty templates as historical byte skeletons.",
+      "exception_status": "NO_SILENT_VERSION_SWITCH"
+    },
+    {
+      "hold_id": "HOLD-EXACT-RENDERER-001",
+      "severity": "BLOCKING",
+      "scope": "all four exact invariants",
+      "claim_blocked": "full text forward/reverse/roundtrip PASS",
+      "observed": {
+        "core_coordinates_tested": 480,
+        "core_coordinates_passed": 480,
+        "exact_documents_emitted": 0,
+        "exact_documents_held": 40
+      },
+      "required_to_release": "Resolve all blocking holds, implement each profile renderer/inverse, and pass SHA-256 byte comparison without manual edits.",
+      "forbidden_workaround": "Do not emit target-looking TXT while any input token or profile choice is unresolved.",
+      "exception_status": "FAIL_CLOSED"
+    }
+  ]
+}
