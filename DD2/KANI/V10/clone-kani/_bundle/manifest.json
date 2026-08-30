@@ -1,42 +1,47 @@
 {
   "archive": {
-    "bytes": 2264076,
-    "filename": "KANI_V10_cbd6ea1.tar.gz",
+    "bytes": 2266976,
+    "filename": "KANI_V10_cc85d19.tar.gz",
     "format": "git archive tar.gz with clone-kani/ prefix",
-    "sha256": "d9a7c9692e92baeb375946b155a20f785e0f1f1abbf32be62a3c107bb15b7fbe"
+    "sha256": "808ac483869ec45b7485495d899f887adf945525cf1dde24ab0bb08d6fd639be"
   },
-  "local_commit": "cbd6ea19149378d66e022127027158d0f070706e",
+  "local_commit": "cc85d1961f07217062930288bbc381de7a07973f",
   "parts": [
     {
       "bytes": 524288,
-      "filename": "KANI_V10_cbd6ea1.tar.gz.part00",
-      "sha256": "cb4a5e79f6871dbe581fa46d34b02d1a88fcbfbbbf4bb2909b8a85b85d8c20d7"
+      "filename": "KANI_V10_cc85d19.tar.gz.part00",
+      "sha256": "b1e35ce60767aec3f8daf9a54333ab5b0f3979d35f54af8312bd7cbcc4b90f68"
     },
     {
       "bytes": 524288,
-      "filename": "KANI_V10_cbd6ea1.tar.gz.part01",
-      "sha256": "cbb0af0456160210c0e4ddb24d2f26603453b1bf173ae032518fbde7557725bb"
+      "filename": "KANI_V10_cc85d19.tar.gz.part01",
+      "sha256": "735e5b5b4310f10cc975d6eddf931bf74e5c63c07503252931ff58e4c7897760"
     },
     {
       "bytes": 524288,
-      "filename": "KANI_V10_cbd6ea1.tar.gz.part02",
-      "sha256": "b4342cd19621364bcebbd2894602546a4333a1a91a0b982e1b3a7dc53cbaf1c6"
+      "filename": "KANI_V10_cc85d19.tar.gz.part02",
+      "sha256": "c0c501105ee7e699e407d9db14238d940bbbc08218165cdad1d97b84d12ed55e"
     },
     {
       "bytes": 524288,
-      "filename": "KANI_V10_cbd6ea1.tar.gz.part03",
-      "sha256": "900c02357f85b1720672bd48a9d5e864c9fa75928fa34ae1bb1f467dc380764f"
+      "filename": "KANI_V10_cc85d19.tar.gz.part03",
+      "sha256": "2dfa9bb6943cd9c98bb394eb49a368997c6e852cba4eedb63ce2995916cc5859"
     },
     {
-      "bytes": 166924,
-      "filename": "KANI_V10_cbd6ea1.tar.gz.part04",
-      "sha256": "038b67d94bfec441449f164ac372d7cd30bd4fc0b1692d9bf34e78c1f5d234d2"
+      "bytes": 169824,
+      "filename": "KANI_V10_cc85d19.tar.gz.part04",
+      "sha256": "b16d371b02c84fb44d36e9a8dbcb3d309c11ca2e40089cc3cf09c90233e4591f"
     }
   ],
   "remote_authority": "REMOTE_SYNC_ONLY_NO_EXECUTION_AUTHORITY",
+  "restore_call": {
+    "path": "clone-kani/RESTORE_CALL.md",
+    "sha256": "903a9e2509752ec2e3dc186f37e3a4f3b8d6dd998d89d5796c27d4b8a8979d08"
+  },
   "schema_version": "KANI_V10_GITHUB_SYNC_BUNDLE_V1",
   "states": {
     "FINAL_PASS": "HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE",
+    "PUBLIC_FINAL_PASS": "USER_EVIDENCE_REVIEW_PENDING",
     "SECOND_RESTORE": "EVIDENCE_REVIEW",
     "V10": "EXPECTED_VALUE_BOUND",
     "V9_BASELINE": "PRESERVED_NOT_OVERWRITTEN"

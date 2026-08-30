@@ -1,14 +1,16 @@
 {
-  "base_remote_commit": "9035ffd13e96f1b1b01cb7ffa96e012a8a6cf0fa",
+  "base_remote_commit": "a9fa11e0a8f06d2f417fc1c2e55bfefc272b1f0c",
   "branch": "dd2-remote-sync",
   "expanded_evidence_files": "BROWSABLE_KEY_V9_V10_SOURCE_RUNTIME_AND_CODE_FILES",
-  "full_bundle_archive_sha256": "d9a7c9692e92baeb375946b155a20f785e0f1f1abbf32be62a3c107bb15b7fbe",
-  "local_commit": "cbd6ea19149378d66e022127027158d0f070706e",
+  "full_bundle_archive_sha256": "808ac483869ec45b7485495d899f887adf945525cf1dde24ab0bb08d6fd639be",
+  "local_commit": "cc85d1961f07217062930288bbc381de7a07973f",
   "main_branch_write_count": 0,
   "remote_authority": "REMOTE_SYNC_ONLY_NO_EXECUTION_AUTHORITY",
   "repository": "coco352748-jpg/352748angel",
+  "restore_call_path": "DD2/KANI/V10/clone-kani/RESTORE_CALL.md",
+  "restore_call_sha256": "903a9e2509752ec2e3dc186f37e3a4f3b8d6dd998d89d5796c27d4b8a8979d08",
   "schema_version": "KANI_V10_GITHUB_SYNC_SCOPE_V1",
   "target_path": "DD2/KANI/V10/clone-kani",
-  "v10_manifest_id": "c3d23baa1ed1799a0fa4111ff1e67df430bcd5463ba0dd01a4b5a8e501956ab3",
+  "v10_manifest_id": "28133ce6ceb3e6442a500686a910d85cf0c6e3ed6dc46c81cec843afa7fb80fa",
   "v9_overwrite_count": 0
 }

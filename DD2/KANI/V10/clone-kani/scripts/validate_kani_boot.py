@@ -45,6 +45,25 @@ KANI_V9_BLIND_CHECKS = 2465
 KANI_V10_E5_RECORDS = 114
 KANI_V10_BOUNDARY_TESTS = 9
 
+RESTORE_CALL_FIRST_RESPONSE = """$clone-kani KANI V10이 호출되어 ACTIVE 상태입니다.
+V9 baseline은 READ_ONLY로 보존하고,
+V10은 E5/E6 overlay로 로드합니다.
+FINAL_PASS는 USER_EVIDENCE_REVIEW_PENDING 상태로 유지합니다.
+첫 실제 Job 지시가 들어오면 Dataset → Judgment Route → Pikachu Sentence replay부터 실행합니다."""
+
+RESTORE_CALL_REQUIRED_TOKENS = (
+    "RESTORE_CALL_SCHEMA=KANI_V10_RESTORE_CALL_V1",
+    "PUBLIC_CALL_KEY=$clone-kani",
+    "VERSION_TAG=KANI_V10",
+    "ALIAS=kani",
+    "V9_BASELINE=READ_ONLY",
+    "V10_MODE=E5_E6_OVERLAY",
+    "SECOND_RESTORE=EVIDENCE_REVIEW",
+    "FINAL_PASS=USER_EVIDENCE_REVIEW_PENDING",
+    "CANONICAL_INTERNAL_FINAL_PASS=HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE",
+    "FINAL_PASS_DECLARATION=NO",
+)
+
 KEY_TOKENS = (
     "CALL_KEY=$clone-kani",
     "SOURCE_WINDOW=PRIMARY_ORIGINAL_STORAGE",
@@ -105,6 +124,25 @@ def main() -> int:
     root = Path(__file__).resolve().parent.parent
     references = root / "references"
     failures: list[str] = []
+
+    restore_call_path = root / "RESTORE_CALL.md"
+    restore_call_sha256 = "FAIL"
+    if not restore_call_path.is_file():
+        failures.append("missing_restore_call")
+    elif restore_call_path.is_symlink():
+        failures.append("restore_call_symlink")
+    else:
+        try:
+            restore_call_text = restore_call_path.read_text(encoding="utf-8")
+        except (OSError, UnicodeError) as exc:
+            failures.append(f"restore_call_read:{type(exc).__name__}")
+        else:
+            restore_call_sha256 = sha256_file(restore_call_path)
+            for token in RESTORE_CALL_REQUIRED_TOKENS:
+                if token not in restore_call_text:
+                    failures.append(f"restore_call_token:{token}")
+            if restore_call_text.count(RESTORE_CALL_FIRST_RESPONSE) != 1:
+                failures.append("restore_call_first_response_exact")
 
     for name, (expected_bytes, expected_hash) in CONTROL_FILES.items():
         path = references / name
@@ -167,9 +205,19 @@ def main() -> int:
             "SECOND_RESTORE=EVIDENCE_REVIEW",
             "V10=EXPECTED_VALUE_BOUND",
             "FINAL_PASS=HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE",
+            "RESTORE_CALL=RESTORE_CALL.md",
+            "PUBLIC_CALL_KEY=$clone-kani",
+            "VERSION_TAG=KANI_V10",
+            "ALIAS=kani",
+            "V9_BASELINE=READ_ONLY",
+            "V10_MODE=E5_E6_OVERLAY",
+            "FINAL_PASS=USER_EVIDENCE_REVIEW_PENDING",
+            "v10_core.restore_call",
         ):
             if token not in skill_text:
                 failures.append(f"family_token:{token}")
+        if skill_text.count(RESTORE_CALL_FIRST_RESPONSE) != 1:
+            failures.append("skill_first_response_exact")
 
     v9_state = "FAIL"
     v9_result, v9_error = run_json(
@@ -217,6 +265,10 @@ def main() -> int:
         and v10_result.get("status") == "PASS"
         and v10_result.get("bundle_completeness") == "EVIDENCE_PRESENT_AWAITING_USER_REVIEW"
         and v10_result.get("pending_components") == []
+        and v10_result.get("restore_call") == "PRESENT_HASH_LOCKED"
+        and v10_result.get("restore_call_path") == "RESTORE_CALL.md"
+        and v10_result.get("restore_call_sha256") == restore_call_sha256
+        and v10_result.get("public_final_pass") == "USER_EVIDENCE_REVIEW_PENDING"
         and v10_result.get("second_restore") == "EVIDENCE_REVIEW"
         and v10_result.get("v10") == "EXPECTED_VALUE_BOUND"
         and v10_result.get("final_pass") == "HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE"
@@ -379,11 +431,24 @@ def main() -> int:
         "kani_v9_blind_checks": f"{KANI_V9_BLIND_CHECKS}/{KANI_V9_BLIND_CHECKS}" if v9_state == "PASS" else "FAIL",
         "kani_v9_first_unexecuted_job": "RUN_NEW_DATASET_PRODUCTION" if v9_state == "PASS" else "FAIL",
         "kani_v10_runtime": v10_state,
+        "kani_v10_restore_call": (
+            "PRESENT_HASH_LOCKED" if v10_state == "PASS" else "FAIL"
+        ),
+        "kani_v10_restore_call_path": (
+            "RESTORE_CALL.md" if v10_state == "PASS" else "FAIL"
+        ),
+        "kani_v10_restore_call_sha256": (
+            restore_call_sha256 if v10_state == "PASS" else "FAIL"
+        ),
+        "kani_v10_first_response": (
+            RESTORE_CALL_FIRST_RESPONSE if v10_state == "PASS" else "FAIL"
+        ),
         "kani_v10_e5_records": f"{KANI_V10_E5_RECORDS}/{KANI_V10_E5_RECORDS}" if v10_state == "PASS" else "FAIL",
         "kani_v10_boundary_tests": f"{KANI_V10_BOUNDARY_TESTS}/{KANI_V10_BOUNDARY_TESTS}" if v10_state == "PASS" else "FAIL",
         "second_restore": "EVIDENCE_REVIEW" if v10_state == "PASS" else "FAIL",
         "v10": "EXPECTED_VALUE_BOUND" if v10_state == "PASS" else "FAIL",
         "final_pass": "HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE" if v10_state == "PASS" else "FAIL",
+        "public_final_pass": "USER_EVIDENCE_REVIEW_PENDING" if v10_state == "PASS" else "FAIL",
         "global_29_lane_e5": "HOLD_28_JUDGMENT_TO_SENTENCE_LANES_UNTESTED" if v10_state == "PASS" else "FAIL",
         "real_long_drift": "HOLD_REAL_LONG_DRIFT_NOT_PROVEN" if v10_state == "PASS" else "FAIL",
         "registration_layer": "INSTALLED_LOCAL_RUNTIME" if installed else "BUILD_PREFLIGHT",

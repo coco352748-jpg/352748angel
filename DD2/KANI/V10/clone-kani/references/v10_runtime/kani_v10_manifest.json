@@ -234,9 +234,9 @@
       },
       "boot_validator": {
         "availability": "PRESENT",
-        "bytes": 16947,
+        "bytes": 19913,
         "path": "scripts/validate_kani_boot.py",
-        "sha256": "bde3ff2f7df9b1c898a539437b43d530b395b95f77c1d1b51932b932fecde702"
+        "sha256": "c11b8d6041a1a6043c921bb1d8a2134d1345870626db1e15243e8cd5f0f5edaa"
       },
       "e5_independent_validator": {
         "availability": "PRESENT",
@@ -276,26 +276,26 @@
       },
       "skill_entrypoint": {
         "availability": "PRESENT",
-        "bytes": 15224,
+        "bytes": 16633,
         "path": "SKILL.md",
-        "sha256": "5b5d374b15ec09e674549d338c7a9c269ab042622b527fa032d7c61c27534e45"
+        "sha256": "f6414d73a207d2d46bcec7de6051793e9b4bbf0a2c346bb8a2e02742b7d0c1d1"
       },
       "v10_manifest_builder": {
         "availability": "PRESENT",
-        "bytes": 35565,
+        "bytes": 36879,
         "path": "scripts/build_kani_v10_manifest.py",
-        "sha256": "8965dc147368ec1ae942ab84fd64c0e2a2de8482d2603bee745f9730b7a231c8"
+        "sha256": "ed3d6cd37f06833f91ea9c3a067d3a22f7e4b553dd15e9ff84418fe982f96b3d"
       },
       "v10_runtime_validator": {
         "availability": "PRESENT",
-        "bytes": 35918,
+        "bytes": 38644,
         "path": "scripts/validate_kani_v10_runtime.py",
-        "sha256": "70716ec636dc6473f1875d32c1613c523a26e80541a2cb8fff6eba4ece05f82d"
+        "sha256": "6c2a496a7d98e91d7dfd9802ee5eb14874f2d283316ef73709cd42c65f187304"
       }
     },
     "status": "HASH_LOCKED_EXECUTABLES_AND_ENTRYPOINTS"
   },
-  "manifest_id": "c3d23baa1ed1799a0fa4111ff1e67df430bcd5463ba0dd01a4b5a8e501956ab3",
+  "manifest_id": "28133ce6ceb3e6442a500686a910d85cf0c6e3ed6dc46c81cec843afa7fb80fa",
   "pending_components": [],
   "promotion_authority": "CURRENT_USER_EXPLICIT_ONLY",
   "purpose": "SECOND_RESTORE_ROUTER_EXECUTION_EVIDENCE_BOARD",
@@ -363,6 +363,12 @@
       "bytes": 7984,
       "path": "references/KANI_CAUSAL_RESTORE_V10_PROTOCOL.md",
       "sha256": "f282a99b7371179f3b548eb8ca1ffeb87265411a5c603d2f798069803a3fb438"
+    },
+    "restore_call": {
+      "availability": "PRESENT",
+      "bytes": 2601,
+      "path": "RESTORE_CALL.md",
+      "sha256": "903a9e2509752ec2e3dc186f37e3a4f3b8d6dd998d89d5796c27d4b8a8979d08"
     },
     "router": {
       "availability": "PRESENT",

@@ -20,6 +20,25 @@ from typing import Any
 SCHEMA_VERSION = "KANI_CAUSAL_RESTORE_V10_MANIFEST_V1"
 EXPECTED_V9_TREE_SHA256 = "913cb921f9d5f97b351a4455f3e05cb1d441a00cec24291caf78eac5a690c0d9"
 
+RESTORE_CALL_FIRST_RESPONSE = """$clone-kani KANI V10이 호출되어 ACTIVE 상태입니다.
+V9 baseline은 READ_ONLY로 보존하고,
+V10은 E5/E6 overlay로 로드합니다.
+FINAL_PASS는 USER_EVIDENCE_REVIEW_PENDING 상태로 유지합니다.
+첫 실제 Job 지시가 들어오면 Dataset → Judgment Route → Pikachu Sentence replay부터 실행합니다."""
+
+RESTORE_CALL_REQUIRED_TOKENS = (
+    "RESTORE_CALL_SCHEMA=KANI_V10_RESTORE_CALL_V1",
+    "PUBLIC_CALL_KEY=$clone-kani",
+    "VERSION_TAG=KANI_V10",
+    "ALIAS=kani",
+    "V9_BASELINE=READ_ONLY",
+    "V10_MODE=E5_E6_OVERLAY",
+    "SECOND_RESTORE=EVIDENCE_REVIEW",
+    "FINAL_PASS=USER_EVIDENCE_REVIEW_PENDING",
+    "CANONICAL_INTERNAL_FINAL_PASS=HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE",
+    "FINAL_PASS_DECLARATION=NO",
+)
+
 EXPECTED_CLAIMS = {
     "SECOND_RESTORE": "EVIDENCE_REVIEW",
     "V10": "EXPECTED_VALUE_BOUND",
@@ -31,6 +50,7 @@ EXPECTED_CLAIMS = {
 }
 
 PATHS = {
+    "restore_call": "RESTORE_CALL.md",
     "v9_baseline": "references/v9_baseline",
     "historical_v9_e5": "references/v9_closure_runs/run_20260829_vas26/e5",
     "historical_v9_e6": "references/v9_closure_runs/run_20260829_vas26/e6",
@@ -307,11 +327,46 @@ def validate(root: Path, manifest_path: Path) -> dict[str, Any]:
 
     # Core V10 contracts and exact user source registry.
     core = manifest.get("v10_core", {})
-    for key in ("protocol", "router", "source_registry", "audit_sidecar", "admission"):
+    for key in (
+        "restore_call",
+        "protocol",
+        "router",
+        "source_registry",
+        "audit_sidecar",
+        "admission",
+    ):
         audit.check(
             f"core_{key}_hash_locked",
             file_record_matches(root, core.get(key), PATHS[key]),
         )
+    restore_call_record = core.get("restore_call", {})
+    audit.check(
+        "restore_call_declared_present",
+        isinstance(restore_call_record, dict)
+        and restore_call_record.get("availability") == "PRESENT",
+    )
+    restore_call_text = audit.guard(
+        "restore_call_read",
+        lambda: (root / PATHS["restore_call"]).read_text(encoding="utf-8"),
+    ) or ""
+    audit.check(
+        "restore_call_contract",
+        all(token in restore_call_text for token in RESTORE_CALL_REQUIRED_TOKENS),
+    )
+    audit.check(
+        "restore_call_first_response_exact",
+        restore_call_text.count(RESTORE_CALL_FIRST_RESPONSE) == 1,
+    )
+    skill_text = audit.guard(
+        "skill_entrypoint_read",
+        lambda: (root / "SKILL.md").read_text(encoding="utf-8"),
+    ) or ""
+    audit.check(
+        "skill_restore_call_binding",
+        "RESTORE_CALL=RESTORE_CALL.md" in skill_text
+        and "v10_core.restore_call" in skill_text
+        and skill_text.count(RESTORE_CALL_FIRST_RESPONSE) == 1,
+    )
     router = audit.guard("router_read", lambda: read_json(root / PATHS["router"])) or {}
     boundary_ids = router.get("boundary_tests", [])
     audit.check(
@@ -716,6 +771,20 @@ def validate(root: Path, manifest_path: Path) -> dict[str, Any]:
     audit.check("bundle_completeness_current", manifest.get("bundle_completeness") == expected_completeness)
 
     technical_status = "PASS" if not audit.errors else "FAIL"
+    restore_call_checks = (
+        "core_restore_call_hash_locked",
+        "restore_call_declared_present",
+        "restore_call_read",
+        "restore_call_contract",
+        "restore_call_first_response_exact",
+        "skill_entrypoint_read",
+        "skill_restore_call_binding",
+    )
+    restore_call_state = (
+        "PRESENT_HASH_LOCKED"
+        if all(audit.checks.get(name) is True for name in restore_call_checks)
+        else "FAIL"
+    )
     return {
         "schema_version": "KANI_V10_RUNTIME_VALIDATION_V1",
         "technical_status": technical_status,
@@ -723,6 +792,14 @@ def validate(root: Path, manifest_path: Path) -> dict[str, Any]:
         "manifest_id": manifest.get("manifest_id"),
         "bundle_completeness": manifest.get("bundle_completeness"),
         "pending_components": manifest.get("pending_components"),
+        "restore_call": restore_call_state,
+        "restore_call_path": restore_call_record.get("path"),
+        "restore_call_sha256": (
+            restore_call_record.get("sha256")
+            if restore_call_state == "PRESENT_HASH_LOCKED"
+            else "FAIL"
+        ),
+        "public_final_pass": "USER_EVIDENCE_REVIEW_PENDING",
         "second_restore": manifest.get("claims", {}).get("SECOND_RESTORE"),
         "v10": manifest.get("claims", {}).get("V10"),
         "final_pass": manifest.get("claims", {}).get("FINAL_PASS"),

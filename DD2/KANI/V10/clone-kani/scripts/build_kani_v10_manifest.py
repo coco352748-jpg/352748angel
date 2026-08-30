@@ -22,6 +22,25 @@ from typing import Any
 SCHEMA_VERSION = "KANI_CAUSAL_RESTORE_V10_MANIFEST_V1"
 EXPECTED_V9_TREE_SHA256 = "913cb921f9d5f97b351a4455f3e05cb1d441a00cec24291caf78eac5a690c0d9"
 
+RESTORE_CALL_FIRST_RESPONSE = """$clone-kani KANI V10이 호출되어 ACTIVE 상태입니다.
+V9 baseline은 READ_ONLY로 보존하고,
+V10은 E5/E6 overlay로 로드합니다.
+FINAL_PASS는 USER_EVIDENCE_REVIEW_PENDING 상태로 유지합니다.
+첫 실제 Job 지시가 들어오면 Dataset → Judgment Route → Pikachu Sentence replay부터 실행합니다."""
+
+RESTORE_CALL_REQUIRED_TOKENS = (
+    "RESTORE_CALL_SCHEMA=KANI_V10_RESTORE_CALL_V1",
+    "PUBLIC_CALL_KEY=$clone-kani",
+    "VERSION_TAG=KANI_V10",
+    "ALIAS=kani",
+    "V9_BASELINE=READ_ONLY",
+    "V10_MODE=E5_E6_OVERLAY",
+    "SECOND_RESTORE=EVIDENCE_REVIEW",
+    "FINAL_PASS=USER_EVIDENCE_REVIEW_PENDING",
+    "CANONICAL_INTERNAL_FINAL_PASS=HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE",
+    "FINAL_PASS_DECLARATION=NO",
+)
+
 CLAIMS = {
     "SECOND_RESTORE": "EVIDENCE_REVIEW",
     "V10": "EXPECTED_VALUE_BOUND",
@@ -33,6 +52,7 @@ CLAIMS = {
 }
 
 PATHS = {
+    "restore_call": "RESTORE_CALL.md",
     "v9_baseline": "references/v9_baseline",
     "historical_v9_e5": "references/v9_closure_runs/run_20260829_vas26/e5",
     "historical_v9_e6": "references/v9_closure_runs/run_20260829_vas26/e6",
@@ -299,8 +319,21 @@ def validate_source_registry(root: Path, registry_path: Path) -> dict[str, dict[
 
 def build_core(root: Path) -> tuple[dict[str, Any], dict[str, Any]]:
     core: dict[str, Any] = {}
-    for key in ("protocol", "router", "source_registry", "audit_sidecar", "admission"):
+    for key in (
+        "restore_call",
+        "protocol",
+        "router",
+        "source_registry",
+        "audit_sidecar",
+        "admission",
+    ):
         core[key] = file_record(root, PATHS[key], optional=(key in {"protocol", "admission"}))
+
+    restore_call_text = (root / PATHS["restore_call"]).read_text(encoding="utf-8")
+    if not all(token in restore_call_text for token in RESTORE_CALL_REQUIRED_TOKENS):
+        raise ManifestError("KANI V10 restore-call contract is incomplete")
+    if restore_call_text.count(RESTORE_CALL_FIRST_RESPONSE) != 1:
+        raise ManifestError("KANI V10 first response must appear exactly once in RESTORE_CALL.md")
 
     router_path = root / PATHS["router"]
     router = read_json(router_path)
