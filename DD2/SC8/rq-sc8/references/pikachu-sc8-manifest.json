@@ -28,6 +28,14 @@
     "pushkara_archive": {
       "filename": "07_5AB_Pushkara_Bhaga_Sc.zip",
       "sha256": "7affdf19c638da9f9c218e07518a3a33cd2c112241e993e6f3c5cb187f1f7daf"
+    },
+    "special_others_archive": {
+      "source_layer": "$rq-sc8-8ab",
+      "filename": "07_8AB_SpOther_Sc.zip",
+      "sha256": "f166966e2e2b1defd1374f875d2abba9319f546116fd729e18cba4eaad71254e",
+      "image_count": 42,
+      "dchart_count": 20,
+      "status": "PASS_IMAGE_VERIFIED_SOURCE_LOCK"
     }
   },
   "canonical_d1_values": {
@@ -253,15 +261,15 @@
   "direct_value_registry": "references/pikachu-sc8-direct-values.json",
   "direct_value_registry_sha256": "fbef4d6aff6528b7426ba2d19114a54d8330fd93d50012d03dd939c1b2d2a880",
   "aligned_ledger": "references/pikachu-sc8-aligned-ledger.json",
-  "aligned_ledger_sha256": "58460a0aef9094df7ca484b8d5f1291a6b6b5916ec04fb80d3d9c30ecbdd74d2",
+  "aligned_ledger_sha256": "6c5be0333f27f37ae35dd68dcbcac00dda73aedc320e2c6510e0d3566cf813d7",
   "aligned_totals": {
     "archive_count": 20,
     "member_count": 600,
-    "archive_size_bytes": 6492380,
-    "uncompressed_size_bytes": 58318144,
+    "archive_size_bytes": 6493696,
+    "uncompressed_size_bytes": 58318074,
     "replacement_count": 1001,
-    "changed_member_count": 92,
-    "unchanged_member_count": 508,
+    "changed_member_count": 94,
+    "unchanged_member_count": 506,
     "rashi_actor_records": 260,
     "bhava_actor_records": 200,
     "direct_value_field_assertions": 4140,

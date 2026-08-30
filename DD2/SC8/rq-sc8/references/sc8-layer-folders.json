@@ -1,0 +1,129 @@
+{
+  "schema_version": "RQ_SC8_SOURCE_LAYER_FOLDERS_V1",
+  "parent_skill": "rq-sc8",
+  "validation_policy": "EXPLICIT_USER_REQUEST_ONLY",
+  "filename_policy": "PRESERVE_EXACT_SOURCE_FILENAME",
+  "routing_policy": "ONE_CALLED_LAYER_ONLY_NO_AUTO_MERGE",
+  "layers": [
+    {
+      "call": "$rq-sc8-1ab",
+      "folder": "assets/source-layers/rq-sc8-1ab",
+      "files": ["07_1AB_RaShi_Sc.zip"]
+    },
+    {
+      "call": "$rq-sc8-2ab",
+      "folder": "assets/source-layers/rq-sc8-2ab",
+      "files": ["07_2AB_Bhava_Sc.zip"]
+    },
+    {
+      "call": "$rq-sc8-3ab",
+      "folder": "assets/source-layers/rq-sc8-3ab",
+      "files": ["07_3AB_CO2_First_p_Sc.zip"]
+    },
+    {
+      "call": "$rq-sc8-4ab",
+      "folder": "assets/source-layers/rq-sc8-4ab",
+      "files": ["07_4AB_VeDic_CO2_Sc_.zip"]
+    },
+    {
+      "call": "$rq-sc8-4ak",
+      "folder": "assets/source-layers/rq-sc8-4ak",
+      "files": ["07_4AK_S_Dri_Aspect01_Sc.zip"]
+    },
+    {
+      "call": "$rq-sc8-5a",
+      "folder": "assets/source-layers/rq-sc8-5a",
+      "files": [
+        "07_5A_SpIrIt_ChAlIt_Sc_.zip",
+        "07_5AB_MOON_Sc.zip",
+        "07_5AB_Pushkara_Bhaga_Sc.zip",
+        "07_5AB_upagraha_Sc.zip"
+      ]
+    },
+    {
+      "call": "$rq-sc8-5ab",
+      "folder": "assets/source-layers/rq-sc8-5ab",
+      "files": [
+        "07_5AB_BhaBala_BhaAspect_Sc.zip"
+      ]
+    },
+    {
+      "call": "$rq-sc8-6ab",
+      "folder": "assets/source-layers/rq-sc8-6ab",
+      "files": [
+        "07_6AB_Vimsopaka_D1Aspect_Sc.zip",
+        "07_6AB_AruDha_Sc.txt"
+      ]
+    },
+    {
+      "call": "$rq-sc8-7ab",
+      "folder": "assets/source-layers/rq-sc8-7ab",
+      "files": ["07_7AB_House_Final_Synthesis.zip"]
+    },
+    {
+      "call": "$rq-sc8-8ab",
+      "folder": "assets/source-layers/rq-sc8-8ab",
+      "files": ["07_8AB_SpOther_Sc.zip"]
+    },
+    {
+      "call": "$rq-sc8-9ab",
+      "folder": "assets/source-layers/rq-sc8-9ab",
+      "files": ["07_9AB_AVA_Sc.zip"]
+    },
+    {
+      "call": "$rq-sc8-10ab",
+      "folder": "assets/source-layers/rq-sc8-10ab",
+      "files": ["07_10AB_Binna_M_Sc.zip"]
+    },
+    {
+      "call": "$rq-sc8-12ab",
+      "folder": "assets/source-layers/rq-sc8-12ab",
+      "files": [
+        "07_12AB_Sap_Sc.zip",
+        "07_12AB_TKs_Sc.zip",
+        "07_12AB_EKs_Sc.zip",
+        "07_12AB_SDp_Sc.zip"
+      ]
+    },
+    {
+      "call": "$rq-sc8-13ab",
+      "folder": "assets/source-layers/rq-sc8-13ab",
+      "files": ["07_13AB_MiNi_Varga.zip"]
+    },
+    {
+      "call": "$rq-sc8-14ab",
+      "folder": "assets/source-layers/rq-sc8-14ab",
+      "files": ["07_14AB_F_Varga.zip"]
+    },
+    {
+      "call": "$rq-sc8-16ab",
+      "folder": "assets/source-layers/rq-sc8-16ab",
+      "files": ["016_1AB_D1_Aspect_03_.zip"]
+    },
+    {
+      "call": "$rq-sc8-17ab",
+      "folder": "assets/source-layers/rq-sc8-17ab",
+      "files": ["017_1AB_DaShA__A_Sc.zip"]
+    },
+    {
+      "call": "$rq-sc8-18ab",
+      "folder": "assets/source-layers/rq-sc8-18ab",
+      "files": ["018_1AB_TiMiNg_GaTe__Sc.zip"]
+    },
+    {
+      "call": "$rq-sc8-19ab",
+      "folder": "assets/source-layers/rq-sc8-19ab",
+      "files": ["019_1AB_AVA__A_Sc.zip"]
+    },
+    {
+      "call": "$rq-sc8-20ab",
+      "folder": "assets/source-layers/rq-sc8-20ab",
+      "files": ["07_20AB_YogA_KO_FNa98.zip"]
+    },
+    {
+      "call": "$rq-sc8-21ab",
+      "folder": "assets/source-layers/rq-sc8-21ab",
+      "files": ["021_1AB_Transit__A_Sc.zip"]
+    }
+  ]
+}

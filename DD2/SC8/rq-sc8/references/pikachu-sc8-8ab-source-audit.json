@@ -1,0 +1,91 @@
+{
+  "schema_version": "RQ_SC8_8AB_SOURCE_AUDIT_V1",
+  "status": "PASS_IMAGE_VERIFIED_SOURCE_LOCK",
+  "source_layer": "$rq-sc8-8ab",
+  "source_archive": {
+    "filename": "07_8AB_SpOther_Sc.zip",
+    "sha256": "f166966e2e2b1defd1374f875d2abba9319f546116fd729e18cba4eaad71254e",
+    "image_count": 42,
+    "compressed_size_bytes": 37711505,
+    "uncompressed_size_bytes": 44664259,
+    "crc_status": "PASS"
+  },
+  "dchart_order": [
+    "D1",
+    "D9",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "D10",
+    "D11",
+    "D12",
+    "D16",
+    "D20",
+    "D24",
+    "D27",
+    "D30",
+    "D40",
+    "D45",
+    "D60"
+  ],
+  "audit_summary": {
+    "dchart_count": 20,
+    "matched_without_change": 17,
+    "corrected_dcharts": [
+      "D1",
+      "D9",
+      "D4"
+    ],
+    "corrected_member_count": 3,
+    "information_loss": 0
+  },
+  "corrections": {
+    "D1": {
+      "member": "08_2A_D1_SpOtHeR_12H_AppLieD_.txt",
+      "reason": "PREVIOUS_MEMBER_BELONGED_TO_A_DIFFERENT_D1_SUBJECT_BRANCH",
+      "active_lagna": "Kanya",
+      "source_bhrigu_bindu": "6:19:12 Simha Makha P2 Ketu",
+      "applied_bhrigu_bindu": "7:06:42 Simha Makha P3 Ketu",
+      "applied_derivation": "MIDPOINT_ACTIVE_RAHU_26:33:09_KATAKA_AND_MOON_17:40:15_SIMHA",
+      "source_state_separation": "RAW_8AB_PRESERVED_ACTIVE_NODE_DERIVATION_APPLIED"
+    },
+    "D9": {
+      "member": "08_2A_D9_SpOtHeR_12H_AppLieD_.txt",
+      "reason": "PREVIOUS_MEMBER_BELONGED_TO_A_DIFFERENT_NAVAMSHA_BRANCH",
+      "active_lagna": "Vrishabha",
+      "source_match": "PASS_8AB_MATCH_ACTIVE_D9"
+    },
+    "D4": {
+      "member": "08_2B_D4_SpOtHeR_12H_AppLieD_.txt",
+      "reason": "RESTORE_ACTIVE_8AB_NODE_BRANCH",
+      "active_lagna": "Dhanus",
+      "active_nodes": "Rahu/Ketu 9:52:34",
+      "bhrigu_bindu": "25:16:48 Simha P.Phalguni P4 Venus",
+      "alternate_branch": "83476/83478 Rahu/Ketu 16:12 and Bhrigu 28:26:51",
+      "alternate_branch_status": "ALT_NODE_BRANCH_NOT_APPLIED"
+    }
+  },
+  "unchanged_dcharts": [
+    "D2",
+    "D3",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "D10",
+    "D11",
+    "D12",
+    "D16",
+    "D20",
+    "D24",
+    "D27",
+    "D30",
+    "D40",
+    "D45",
+    "D60"
+  ]
+}

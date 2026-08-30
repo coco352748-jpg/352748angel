@@ -1,8 +1,8 @@
 {
   "aligned_archives": [
     {
-      "aligned_member_body_set_sha256": "beb4f4ea6ed2bf56281fa5f242e224683fc9a69d600621c10698a1d9b5bac868",
-      "changed_member_count": 15,
+      "aligned_member_body_set_sha256": "e61dfbe30379a8945532fe281e4ecdea0ecea83ba260a12c1b693c6871ceac2a",
+      "changed_member_count": 16,
       "changed_members": [
         "02_1A_D1_RaShi_12H_AppLieD_R.txt",
         "02_1B_D1_Bha_12H_AppLieD_R.txt",
@@ -14,6 +14,7 @@
         "05_4A_D1_MOON_CHART_12H_AppLieD_R.txt",
         "07_2A_D1_Bha_BaLa_12H_AppLieD_R.txt",
         "08_1A_D1_MIrtYu_12H_AppLieD_.txt",
+        "08_2A_D1_SpOtHeR_12H_AppLieD_.txt",
         "09_1A_D1_AVA_12H_AppLieD_R.txt",
         "10_1A_D1_BhiNNa_MaTriX_12H_AppLieD_R.txt",
         "11_1A_D1_PLANET_ASPECT_12H_AppLieD_R.txt",
@@ -27,7 +28,7 @@
         "rashi_actor_records": 13
       },
       "filename": "01_AB_D1_PicAcHu_☆.zip",
-      "member_body_set_sha256": "beb4f4ea6ed2bf56281fa5f242e224683fc9a69d600621c10698a1d9b5bac868",
+      "member_body_set_sha256": "e61dfbe30379a8945532fe281e4ecdea0ecea83ba260a12c1b693c6871ceac2a",
       "member_count": 30,
       "raw_comment_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "raw_member_body_set_sha256": "66add5ae325599f0db5239d46af945a3cdffc142ba0f7e1b4f48d7a369a5a1c4",
@@ -56,20 +57,29 @@
         "RAHU_PUSHKARA_OFFSET": 4,
         "VENUS_RAHU_GAP": 22
       },
-      "sha256": "546101d5fb52298df2d5189899388b76f747308b491cf5dd3c3d27df69d54c54",
-      "size_bytes": 315012,
+      "sha256": "e4656484e5ce1b7e97d3dab33e4c760d18da9454bea727a666c850b27806be6e",
+      "size_bytes": 315964,
+      "source_correction_basis": "USER_IMAGE_VERIFIED_8AB_SPECIAL_OTHERS",
+      "source_correction_count": 1,
+      "source_correction_members": [
+        "08_2A_D1_SpOtHeR_12H_AppLieD_.txt"
+      ],
+      "source_correction_scope": "D1_SPECIAL_LAGNAS_OTHERS_ONLY",
+      "source_correction_status": "PASS_SOURCE_APPLIED_98",
+      "source_state_separation": "RAW_8AB_BHRIGU_6:19:12_PRESERVED_ACTIVE_NODE_DERIVED_7:06:42_APPLIED",
       "stale_token_count": 0,
-      "unchanged_member_body_set_sha256": "a2891bc6c2202f28056c14e593ffac4c457bcb3aa84d172a6fd46d41164055aa",
-      "unchanged_member_count": 15,
-      "uncompressed_size_bytes": 2458961
+      "unchanged_member_body_set_sha256": "c687cdc7ac3a392fe423d97ba843549a452243e25b793cc729eae85f8bc8728b",
+      "unchanged_member_count": 14,
+      "uncompressed_size_bytes": 2459411
     },
     {
-      "aligned_member_body_set_sha256": "d09a1b17103354d378f12972fb667546183071846d14daa3ab292c296196da46",
-      "changed_member_count": 4,
+      "aligned_member_body_set_sha256": "4e152a5e2d048760fb3173d2b87dbf4b6dab4acd0618b298787d9b66cd73b80f",
+      "changed_member_count": 5,
       "changed_members": [
         "3P_1AB_o0o0o_D9_AppL.txt",
         "05_1A_PUSHKARA_BHAGA_D1_12H_AppLieD_♤.txt",
         "05_3A_D1_SPIRIT_CHALIT_♤.txt",
+        "08_2A_D9_SpOtHeR_12H_AppLieD_.txt",
         "014_1A_D9_VaRgA_F_AppLieD_R.txt"
       ],
       "dchart": "D9",
@@ -79,7 +89,7 @@
         "rashi_actor_records": 13
       },
       "filename": "01_AB_D9_PicAcHu_☆.zip",
-      "member_body_set_sha256": "d09a1b17103354d378f12972fb667546183071846d14daa3ab292c296196da46",
+      "member_body_set_sha256": "4e152a5e2d048760fb3173d2b87dbf4b6dab4acd0618b298787d9b66cd73b80f",
       "member_count": 30,
       "raw_comment_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "raw_member_body_set_sha256": "c9ffc1d53406ef5a7a363ffae6353817539edf664077f978a1850d9e12ed02d5",
@@ -98,12 +108,19 @@
         "RAHU_PUSHKARA_OFFSET": 4,
         "VENUS_RAHU_GAP": 1
       },
-      "sha256": "27546ec852558045dffe7877f5fb657d02107be53053b437874c6ca1dff01f79",
-      "size_bytes": 325914,
+      "sha256": "246e1c08e41268978a035f80002dbae41453b911b9947155f9acd23abd5b1334",
+      "size_bytes": 326671,
+      "source_correction_basis": "USER_IMAGE_VERIFIED_8AB_SPECIAL_OTHERS",
+      "source_correction_count": 1,
+      "source_correction_members": [
+        "08_2A_D9_SpOtHeR_12H_AppLieD_.txt"
+      ],
+      "source_correction_scope": "D9_SPECIAL_LAGNAS_OTHERS_ONLY",
+      "source_correction_status": "PASS_SOURCE_APPLIED_98",
       "stale_token_count": 0,
-      "unchanged_member_body_set_sha256": "890026be546843892e34107b0454a819b7f05c8ecb2fa3bec18ddd489c773a7e",
-      "unchanged_member_count": 26,
-      "uncompressed_size_bytes": 2946731
+      "unchanged_member_body_set_sha256": "aa6908405c520d5ca6da0ba97a97d196954a176206cb06cef7dc16559bdc1001",
+      "unchanged_member_count": 25,
+      "uncompressed_size_bytes": 2947165
     },
     {
       "aligned_member_body_set_sha256": "5c6d95f50472719bb56887cbaeaec618f3643af9e9555bc9e009fe2194895ef9",
@@ -190,7 +207,8 @@
       "uncompressed_size_bytes": 2926506
     },
     {
-      "aligned_member_body_set_sha256": "3e05ebba4cdedb72e8e89eb1d17aeda759cdb15b7a8248346a8f4e88ea665759",
+      "aligned_member_body_set_sha256": "ddf36302a6d818d511a8f6e4fea486c306537674429c10eaf6288c09a0140df2",
+      "alternate_branch_status": "ALT_83476_83478_NODE_BRANCH_NOT_APPLIED",
       "changed_member_count": 5,
       "changed_members": [
         "3P_1AB_o0o0o_D4_AppL.txt",
@@ -206,7 +224,7 @@
         "rashi_actor_records": 13
       },
       "filename": "01_AB_D4_PicAcHu_☆.zip",
-      "member_body_set_sha256": "3e05ebba4cdedb72e8e89eb1d17aeda759cdb15b7a8248346a8f4e88ea665759",
+      "member_body_set_sha256": "ddf36302a6d818d511a8f6e4fea486c306537674429c10eaf6288c09a0140df2",
       "member_count": 30,
       "raw_comment_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "raw_member_body_set_sha256": "b90ea46d538c1986ae36ef2b29cc7318e654e750f0c08b451648baad9427e8d5",
@@ -225,9 +243,9 @@
         "RAHU_PUSHKARA_OFFSET": 4,
         "VENUS_RAHU_GAP": 1
       },
-      "sha256": "854e976b78a1b311c79391cfebd461ba1c0480bd8561c9d5f9f8f91354484afc",
-      "size_bytes": 329404,
-      "source_correction_basis": "USER_IMAGE_VERIFIED_D4_OTHERS_83476_83478",
+      "sha256": "620bbca29e343a3b082388c057740b8575ca6da9535dd060ff6b66640bbd2898",
+      "size_bytes": 329011,
+      "source_correction_basis": "USER_IMAGE_VERIFIED_8AB_SPECIAL_OTHERS",
       "source_correction_count": 1,
       "source_correction_members": [
         "08_2B_D4_SpOtHeR_12H_AppLieD_.txt"
@@ -237,7 +255,7 @@
       "stale_token_count": 0,
       "unchanged_member_body_set_sha256": "945108ddcde95b525222fd1f8c84c549b9e3cb6cea0bb9002703b97055ec3815",
       "unchanged_member_count": 25,
-      "uncompressed_size_bytes": 2926648
+      "uncompressed_size_bytes": 2925694
     },
     {
       "aligned_member_body_set_sha256": "78d711251cb819b1b2d42927d2e5527c25661669b82476a035d3e865dc44e44d",
@@ -872,7 +890,7 @@
   ],
   "archive_count": 20,
   "archive_set_sha256": "81951a845d2759fcb9afc082743c743e91b4bc15c3aa5220f0ac83fc8c79555c",
-  "changed_member_count": 92,
+  "changed_member_count": 94,
   "dchart_order": [
     "D1",
     "D9",
@@ -908,5 +926,5 @@
   "schema_version": "RQ_SC8_BUILD_REPORT_V1",
   "source_set_id": "RQVEDIC_26_SOURCE_SET_2026-08-12_ASPECT03R_YOGA20_TRANSIT21",
   "status": "PASS_FNA98_SC_ALIGNED_20D",
-  "unchanged_member_count": 508
+  "unchanged_member_count": 506
 }
