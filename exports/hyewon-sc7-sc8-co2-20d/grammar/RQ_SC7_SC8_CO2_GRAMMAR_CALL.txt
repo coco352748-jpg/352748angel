@@ -1,0 +1,21 @@
+$rq-sc7-sc8-co2-grammar
+
+SC7 ↔ SC8 04 Rashi-Bhava Co-presence bidirectional grammar auditor.
+
+Current certified state:
+- common structural grammar: PASS
+- Rashi/Bhava/Comparison packets: 720/720 PASS
+- active SC7 CO_FIELD anchors: 124/124 PASS
+- exact forward/reverse/roundtrip: HOLD
+- manual corrections: 0
+- chart-ID value exceptions: 0
+- target-looking TXT emitted while HOLD: 0
+
+Forward:
+./forward_sc7_to_sc8_co2 --sc7-root ../SC7 --sc8-reference-root ../SC8 --template-dir ../templates
+
+Reverse:
+./reverse_sc8_to_sc7_co2 --sc7-root ../SC7 --sc8-reference-root ../SC8 --template-dir ../templates
+
+Use --allow-hold only to make a verified semantic HOLD return zero in CI.
+Input, membership, D50, or parse failures still return code 2.

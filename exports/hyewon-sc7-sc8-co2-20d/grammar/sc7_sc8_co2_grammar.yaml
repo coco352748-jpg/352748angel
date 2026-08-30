@@ -1,0 +1,331 @@
+grammar:
+  name: SC7_SC8_CO2_BIDIRECTIONAL_GRAMMAR
+  invocation_key: "$rq-sc7-sc8-co2-grammar"
+  version: "0.1.0-source-state-audit"
+  layer_number: "04"
+  overall_status: HOLD
+  structural_grammar_status: PASS
+  exact_bidirectional_status: HOLD
+  status_reason: >-
+    The shared 20D x 12H Rashi/Bhava/comparison grammar passes all 720
+    packets and all 124 active SC7 CO_FIELD anchors. Exact rendering is held
+    because paired SC8 carries historical Bhava CO2 cross-check state and a
+    corrected D1 node state, while omitting SC7-only inverse carriers.
+
+source:
+  repository: coco352748-jpg/352748angel
+  branch: exports/sc7-sc8-co2-20d
+  export_path: exports/hyewon-sc7-sc8-co2-20d
+  source_family: vedic_co2
+  source_family_role: Rashi-Bhava co-presence field
+  source_family_sha256: b1b2a692695763d9f1648ddfd6e993d2f8eaa5290350c191530ad1c977433a91
+  explicit_dependencies: [rashi, bhava]
+  forbidden_merge: "03 Co-presence First"
+  sc7_member_pattern: "07_4AB_D{D}_VeDic_CO2_Sc.txt"
+  sc8_member_pattern: "04_{1A_or_1B}_D{D}_CoPreSeNcE_12H_AppLieD_R.txt"
+
+coordinate_model:
+  decomposition: [D, LANE, HOUSE, SECTION, BLOCK, ROW, FIELD, TOKEN]
+  active_d_order: [D1, D9, D2, D3, D4, D5, D6, D7, D8, D10, D11, D12, D16, D20, D24, D27, D30, D40, D45, D60]
+  d50_status: VOID
+  lane_order: [RASHI, BHAVA, COMPARISON]
+  house_order: [1H, 2H, 3H, 4H, 5H, 6H, 7H, 8H, 9H, 10H, 11H, 12H]
+  rashi_packets: 240
+  bhava_packets: 240
+  comparison_packets: 240
+  total_packets: 720
+
+profiles:
+  D1_04_1A:
+    selector: "D == D1"
+    logical_lines: 1441
+    field_rows: 632
+    comparison_enum:
+      - MAINTAINED
+      - PARTIAL_MAINTAINED_TO_SINGLE
+      - RE-FUNCTIONED_SUPPORT_ONLY
+      - SINGLE_MAINTAINED
+      - NONE / LORD_ONLY
+  TARGET_04_1A_1B:
+    selector: "D != D1; D9 filename family 1A, all remaining target files 1B"
+    logical_lines: 1548
+    field_rows: 717
+    comparison_enum:
+      - PARALLEL_CO_PRESENCE
+      - RASHI_CO_FIELD_BHAVA_SPLIT_OR_SINGLE
+      - BHAVA_CO_FIELD_ONLY
+      - SINGLE_PARALLEL
+      - MIXED_SINGLE_EMPTY
+      - NONE / LORD_ONLY
+
+coverage:
+  coordinate_binding: {requested: 720, passed: 720, failed: 0, status: PASS}
+  rashi_occupant_entity_binding: {requested: 240, passed: 240, failed: 0, status: PASS}
+  bhava_occupant_entity_binding: {requested: 240, passed: 240, failed: 0, status: PASS}
+  rashi_state: {requested: 240, passed: 240, failed: 0, status: PASS}
+  bhava_state: {requested: 240, passed: 240, failed: 0, status: PASS}
+  comparison_state: {requested: 240, passed: 240, failed: 0, status: PASS}
+  active_rashi_cofields: {requested: 73, passed: 73, failed: 0, status: PASS}
+  active_bhava_cofields: {requested: 51, passed: 51, failed: 0, status: PASS}
+  exact_forward: {requested: 720, passed: 0, held: 720, status: HOLD}
+  exact_reverse: {requested: 720, passed: 0, held: 720, status: HOLD}
+  exact_roundtrip_documents: {requested: 20, passed: 0, held: 20, status: HOLD}
+
+state_counts:
+  rashi: {EMPTY: 93, SINGLE: 74, CO-PRESENCE: 73}
+  bhava: {EMPTY: 105, SINGLE: 76, CO-PRESENCE: 59}
+  comparison:
+    BHAVA_CO_FIELD_ONLY: 15
+    MAINTAINED: 3
+    MIXED_SINGLE_EMPTY: 33
+    "NONE / LORD_ONLY": 75
+    PARALLEL_CO_PRESENCE: 41
+    PARTIAL_MAINTAINED_TO_SINGLE: 1
+    RASHI_CO_FIELD_BHAVA_SPLIT_OR_SINGLE: 28
+    RE-FUNCTIONED_SUPPORT_ONLY: 1
+    SINGLE_MAINTAINED: 1
+    SINGLE_PARALLEL: 42
+
+rules:
+  - RULE_ID: CO2-SCOPE-001
+    SC7_SOURCE_ANCHOR: "D split control, D RASHI-BHAVA CO-PRESENCE SET"
+    INPUT_ATOMS: [ACTIVE_D_ORDER, D_TAG, MEMBER_NAME, HOUSE_NUMBER]
+    MATCH_CONDITION: "D is in ACTIVE_D_ORDER and House is 1..12"
+    FORWARD_RULE: "Emit one file per active D and preserve D order; never create D50."
+    OUTPUT_POSITION: "file order"
+    INVERSE_RULE: "Recover exactly one SC7 member for each active D and reject duplicates, gaps, or D50."
+    EMPTY_HOLD_VOID_RULE: "Missing member is HOLD; D50 is VOID, not an empty substitute."
+    ROUNDTRIP_REQUIREMENT: "The ordered 20-member name tuple remains identical."
+    APPLICABLE_SCOPE: "all 20 files"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: CO2-LANE-001
+    SC7_SOURCE_ANCHOR: "Rashi Source -> Rashi Co-field -> Bhava Source -> Bhava Co-field"
+    INPUT_ATOMS: [RASHI_LANE, BHAVA_LANE, HOUSE_NUMBER]
+    MATCH_CONDITION: "both lane tags are explicit"
+    FORWARD_RULE: "Emit R1..R12, then B1..B12, then derived C1..C12."
+    OUTPUT_POSITION: "SC8 section 4-1, 4-2, 4-3"
+    INVERSE_RULE: "Return R rows only to Rashi and B rows only to Bhava; C is a checksum lane."
+    EMPTY_HOLD_VOID_RULE: "Missing lane tag is HOLD; no cross-lane fallback."
+    ROUNDTRIP_REQUIREMENT: "Rashi and Bhava token sets remain separately addressable."
+    APPLICABLE_SCOPE: "720 packets"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: CO2-PROFILE-001
+    SC7_SOURCE_ANCHOR: "D1 split member versus Target D split members"
+    INPUT_ATOMS: [D_TAG, PROFILE_ROLE]
+    MATCH_CONDITION: "D1 is explicit; all other active D are Target-native"
+    FORWARD_RULE: "Use D1 04_1A profile for D1; use Target profile for D9 and D2..D60."
+    OUTPUT_POSITION: "document skeleton and status vocabulary"
+    INVERSE_RULE: "Read explicit D/profile; do not infer profile from planet values."
+    EMPTY_HOLD_VOID_RULE: "Unmarked profile is HOLD."
+    ROUNDTRIP_REQUIREMENT: "D1 never receives Target comparison vocabulary and Target never receives D1 vocabulary."
+    APPLICABLE_SCOPE: "all documents"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: CO2-RASHI-SNAPSHOT-001
+    SC7_SOURCE_ANCHOR: "Visible Rashi Chart Snapshot"
+    INPUT_ATOMS: [HOUSE, SIGN, OCCUPANT_TOKENS, DEGREE, NAKSHATRA_PADA, RL_NL_SL_SSL]
+    MATCH_CONDITION: "one explicit Rashi snapshot row exists for House"
+    FORWARD_RULE: "Copy visible entity identity into the same R-House; normalize As->Lagna and Md->Maandi only as aliases."
+    OUTPUT_POSITION: "R-H. RASHI CO-PRESENCE SLOT / Rashi Sign and Rashi Occupants"
+    INVERSE_RULE: "Recover carried entity identity and visible position only; formatting aliases must be reversible."
+    EMPTY_HOLD_VOID_RULE: "Explicit EMPTY stays EMPTY; absent degree/circuit stays NOT_SHOWN or HOLD."
+    ROUNDTRIP_REQUIREMENT: "Entity set equality at 240/240 coordinates."
+    APPLICABLE_SCOPE: "Rashi 240"
+    EXCEPTION_STATUS: HOLD_EXACT_TOKEN_FORMAT_REQUIRES_PROFILE_STATE
+
+  - RULE_ID: CO2-RASHI-CARDINALITY-001
+    SC7_SOURCE_ANCHOR: "Visible Rashi Chart Snapshot entity list"
+    INPUT_ATOMS: [VISIBLE_ENTITY_COUNT]
+    MATCH_CONDITION: "snapshot row is explicit"
+    FORWARD_RULE: "0->EMPTY; 1->SINGLE; 2+->CO-PRESENCE."
+    OUTPUT_POSITION: "R-H / Co-presence Status and packet fill state"
+    INVERSE_RULE: "Use status as a cardinality checksum; never invent identities from status."
+    EMPTY_HOLD_VOID_RULE: "No recognized entity in a non-EMPTY row is HOLD."
+    ROUNDTRIP_REQUIREMENT: "240/240 statuses equal snapshot cardinality."
+    APPLICABLE_SCOPE: "Rashi 240"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: CO2-RASHI-COFIELD-001
+    SC7_SOURCE_ANCHOR: "D RASHI CO-PRESENCE FIELDS - REVALIDATED"
+    INPUT_ATOMS: [LOCATION_HOUSE, MEMBERS, MEMBER_CLASS, FIELD_TYPE, EXACTNESS, INDEPENDENT_FUNCTIONS, MUTUAL_COLORING]
+    MATCH_CONDITION: "active Rashi CO_FIELD exists at the same D x House"
+    FORWARD_RULE: "Attach CO_FIELD semantics to the Rashi packet without changing snapshot membership."
+    OUTPUT_POSITION: "Rashi planet, degree/gap, independent-function, and mutual-coloring blocks"
+    INVERSE_RULE: "Restore only carried semantics; fixed SC8 paraphrases are not sufficient to recover SC7 wording."
+    EMPTY_HOLD_VOID_RULE: "No active block for SINGLE/EMPTY; do not expand it as a co-field."
+    ROUNDTRIP_REQUIREMENT: "73/73 active Rashi CO_FIELD locations equal SC8 CO-PRESENCE locations."
+    APPLICABLE_SCOPE: "73 active Rashi co-fields"
+    EXCEPTION_STATUS: HOLD_SC7_INTERPRETIVE_CARRIER_NOT_IN_SC8
+
+  - RULE_ID: CO2-BHAVA-SNAPSHOT-001
+    SC7_SOURCE_ANCHOR: "Visible House Distribution"
+    INPUT_ATOMS: [HOUSE, OCCUPANT_TOKENS, SUPPORT_MARKER, DEGREE, NAKSHATRA_PADA, RL_NL_SL_SSL]
+    MATCH_CONDITION: "one explicit Bhava distribution row exists for House"
+    FORWARD_RULE: "Copy visible entities into the same B-House; preserve SUPPORT_ONLY as support."
+    OUTPUT_POSITION: "B-H. BHAVA CO-PRESENCE SLOT / Bhava Occupants"
+    INVERSE_RULE: "Recover carried entity identity to Bhava only; do not move it to Rashi."
+    EMPTY_HOLD_VOID_RULE: "Explicit EMPTY stays EMPTY; support-only never becomes classical core."
+    ROUNDTRIP_REQUIREMENT: "Entity set equality at 240/240 coordinates."
+    APPLICABLE_SCOPE: "Bhava 240"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: CO2-BHAVA-CARDINALITY-001
+    SC7_SOURCE_ANCHOR: "Visible House Distribution entity list"
+    INPUT_ATOMS: [VISIBLE_ENTITY_COUNT, SUPPORT_MARKER]
+    MATCH_CONDITION: "distribution row is explicit"
+    FORWARD_RULE: "0->EMPTY; 1->SINGLE; 2+->CO-PRESENCE; visible support counts for cardinality but retains support class."
+    OUTPUT_POSITION: "B-H / Bhava Cluster Type and packet fill state"
+    INVERSE_RULE: "Use cluster state as checksum; status alone never restores entity identities."
+    EMPTY_HOLD_VOID_RULE: "PARTIAL_ONLY and SUPPORT_ONLY labels remain explicit."
+    ROUNDTRIP_REQUIREMENT: "240/240 effective states equal distribution cardinality."
+    APPLICABLE_SCOPE: "Bhava 240"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: CO2-BHAVA-COFIELD-001
+    SC7_SOURCE_ANCHOR: "D BHAVA CO-PRESENCE FIELDS - RECOMPUTED"
+    INPUT_ATOMS: [ACTIVE_LOCATION_HOUSE, CORE_MEMBERS, SOURCE_GRADE, FIELD_TYPE, EXACTNESS]
+    MATCH_CONDITION: "active Bhava CO_FIELD exists at D x House"
+    FORWARD_RULE: "Attach active core semantics to the B-House; allow explicit distribution support as a separate support token."
+    OUTPUT_POSITION: "Bhava planet placement, degree/gap, function, and coloring blocks"
+    INVERSE_RULE: "Separate active core from support; never infer Chart-Specific Role or Reality Rule from SC8 paraphrase."
+    EMPTY_HOLD_VOID_RULE: "VOID snapshot block is not active and cannot be promoted."
+    ROUNDTRIP_REQUIREMENT: "51/51 active Bhava coordinates are effective SC8 co-presence slots."
+    APPLICABLE_SCOPE: "51 active Bhava co-fields"
+    EXCEPTION_STATUS: HOLD_SC8_CROSSCHECK_USES_HISTORICAL_STATE
+
+  - RULE_ID: CO2-BHAVA-ADDITIONAL-001
+    SC7_SOURCE_ANCHOR: "Bhava House Distribution plus previous snapshot/BOX records"
+    INPUT_ATOMS: [ACTIVE_FIELD_FLAG, VISIBLE_MEMBER_SET, HISTORICAL_REFERENCE_FLAG]
+    MATCH_CONDITION: "effective Bhava co-presence has no active SC7 CO_FIELD at that House"
+    FORWARD_RULE: "Classify as HISTORICAL_REFERENCE when SC8 explicitly names a prior CO2 field, otherwise DISTRIBUTION_DERIVED."
+    OUTPUT_POSITION: "Bhava Source Cross-check and Bhava state"
+    INVERSE_RULE: "Return historical references to VOID/reference state; do not convert them to active fields."
+    EMPTY_HOLD_VOID_RULE: "Historical BOX remains VOID/reference; absent CO2 field is NO_CO2_FIELD."
+    ROUNDTRIP_REQUIREMENT: "Observed split is 7 historical-reference slots plus 1 distribution-derived slot."
+    APPLICABLE_SCOPE: "8 Bhava slots outside active CO_FIELD coordinates"
+    EXCEPTION_STATUS: HOLD_HISTORICAL_BOX_MAPPING_NOT_PRESENT_IN_CURRENT_SC7
+
+  - RULE_ID: CO2-COMPARISON-TARGET-001
+    SC7_SOURCE_ANCHOR: "same-D Rashi and Bhava effective cardinality"
+    INPUT_ATOMS: [RASHI_STATE, BHAVA_STATE]
+    MATCH_CONDITION: "profile is Target"
+    FORWARD_RULE: >-
+      CO/CO->PARALLEL_CO_PRESENCE; CO/SINGLE|EMPTY->RASHI_CO_FIELD_BHAVA_SPLIT_OR_SINGLE;
+      SINGLE|EMPTY/CO->BHAVA_CO_FIELD_ONLY; SINGLE/SINGLE->SINGLE_PARALLEL;
+      SINGLE/EMPTY or EMPTY/SINGLE->MIXED_SINGLE_EMPTY; EMPTY/EMPTY->NONE / LORD_ONLY.
+    OUTPUT_POSITION: "C-H / Bhava Status, comparison sentence, comparison check"
+    INVERSE_RULE: "Treat status as a checksum over both tagged lanes; it cannot restore either member set alone."
+    EMPTY_HOLD_VOID_RULE: "EMPTY/EMPTY is NONE / LORD_ONLY, not a generated co-field."
+    ROUNDTRIP_REQUIREMENT: "228/228 Target comparison statuses pass."
+    APPLICABLE_SCOPE: "Target Comparison 228"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: CO2-COMPARISON-D1-001
+    SC7_SOURCE_ANCHOR: "D1 Rashi and Bhava effective cardinality plus Bhava support class"
+    INPUT_ATOMS: [RASHI_STATE, BHAVA_STATE, BHAVA_SUPPORT_CLASS]
+    MATCH_CONDITION: "profile is D1"
+    FORWARD_RULE: >-
+      CO/CO->MAINTAINED; CO/SINGLE->PARTIAL_MAINTAINED_TO_SINGLE;
+      SINGLE/SINGLE_CORE->SINGLE_MAINTAINED; SINGLE/SUPPORT_ONLY->RE-FUNCTIONED_SUPPORT_ONLY;
+      EMPTY/EMPTY->NONE / LORD_ONLY.
+    OUTPUT_POSITION: "D1 C-H status and comparison sentence"
+    INVERSE_RULE: "Treat status as checksum; preserve support/core distinction."
+    EMPTY_HOLD_VOID_RULE: "Unlisted D1 state pair is HOLD."
+    ROUNDTRIP_REQUIREMENT: "12/12 D1 comparison statuses pass."
+    APPLICABLE_SCOPE: "D1 Comparison 12"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: CO2-PACKET-ORDER-001
+    SC7_SOURCE_ANCHOR: "Members and explicit degree/gap/exactness rows"
+    INPUT_ATOMS: [MEMBER_ORDER, DEGREE_ORDER, GAP, EXACTNESS]
+    MATCH_CONDITION: "tokens are explicitly visible in the selected source state"
+    FORWARD_RULE: "Fill Planet A/B/C then Additional Planet; retain source degree order and explicit gap/exactness."
+    OUTPUT_POSITION: "planet packet and DEGREE / GAP blocks"
+    INVERSE_RULE: "Restore explicit tokens only; degree order is not time order or causal order."
+    EMPTY_HOLD_VOID_RULE: "Missing values remain NOT_SHOWN/NONE/HOLD according to Source; never calculate hidden gaps."
+    ROUNDTRIP_REQUIREMENT: "token order and state labels must be byte-reversible before exact status can pass."
+    APPLICABLE_SCOPE: "Rashi and Bhava packet fields"
+    EXCEPTION_STATUS: HOLD_EXACT_FORMAT_AND_SOURCE_STATE
+
+  - RULE_ID: CO2-DEPENDENCY-001
+    SC7_SOURCE_ANCHOR: "source-family dependencies rashi and bhava"
+    INPUT_ATOMS: [HOUSE_FUNCTION, HOUSE_LORD, LORD_POSITION, RL_NL_SL_SSL, PRIORITY]
+    MATCH_CONDITION: "same-version dependency value is explicit"
+    FORWARD_RULE: "Copy dependency value into its tagged output row; never compute it from Jyotish general theory."
+    OUTPUT_POSITION: "House Function, House Lord, Lord Movement, Priority, cross-check rows"
+    INVERSE_RULE: "Return carried dependency values to dependency lane, not to CO_FIELD interpretation text."
+    EMPTY_HOLD_VOID_RULE: "Missing or version-mismatched dependency is HOLD."
+    ROUNDTRIP_REQUIREMENT: "dependency snapshot version and every emitted value must be carried."
+    APPLICABLE_SCOPE: "dependency-derived SC8 fields"
+    EXCEPTION_STATUS: HOLD_EXACT_DEPENDENCY_SNAPSHOT_NOT_BUNDLED
+
+  - RULE_ID: CO2-D1-NODE-STATE-001
+    SC7_SOURCE_ANCHOR: "D1 Rashi/Bhava Rahu-Ketu rows at 24:58:08"
+    INPUT_ATOMS: [SOURCE_STATE_VERSION, RAHU_DEGREE, KETU_DEGREE, DERIVED_GAPS]
+    MATCH_CONDITION: "paired SC8 canonical state uses 26:33:09"
+    FORWARD_RULE: "Apply a correction only when an explicit global correction manifest selects that source state."
+    OUTPUT_POSITION: "D1 Rashi, Bhava, Comparison node values and gaps"
+    INVERSE_RULE: "Restore the prior degree only from an explicit reversible version carrier, never from D1 lookup."
+    EMPTY_HOLD_VOID_RULE: "No correction manifest or inverse carrier means HOLD."
+    ROUNDTRIP_REQUIREMENT: "both pre-correction and canonical values plus version selector must survive."
+    APPLICABLE_SCOPE: "global node-correction source-state joint"
+    EXCEPTION_STATUS: HOLD_PRIOR_VALUE_NOT_CARRIED_BY_SC8
+
+  - RULE_ID: CO2-VOID-001
+    SC7_SOURCE_ANCHOR: "PREVIOUS BHAVA SNAPSHOT VOID RECORD and VOID VERDICT"
+    INPUT_ATOMS: [VOID_BLOCK, VOID_VERDICT, ACTIVE_REPLACEMENT]
+    MATCH_CONDITION: "block occurs after the explicit VOID boundary"
+    FORWARD_RULE: "Keep it reference-only; never activate or overwrite the current House distribution."
+    OUTPUT_POSITION: "reference/HOLD metadata only when target profile has a carrier"
+    INVERSE_RULE: "SC8 historical reference is insufficient to reconstruct the complete SC7 VOID block."
+    EMPTY_HOLD_VOID_RULE: "VOID remains VOID; not EMPTY, ACTIVE, or N.A."
+    ROUNDTRIP_REQUIREMENT: "header, body, verdict, order, and replacement link must all be carried."
+    APPLICABLE_SCOPE: "9 Bhava CO_FIELD blocks plus all prior-record control rows"
+    EXCEPTION_STATUS: HOLD_SC8_OMITS_VOID_CARRIER
+
+  - RULE_ID: CO2-TEMPLATE-001
+    SC7_SOURCE_ANCHOR: "four attached 04 typed templates"
+    INPUT_ATOMS: [FIELD_DICTIONARY, PLACEHOLDERS, SECTION_ORDER, FIXED_SENTENCES]
+    MATCH_CONDITION: "template is used as a specification"
+    FORWARD_RULE: "Use conditions and row order for validation; do not treat template bytes as the Applied skeleton."
+    OUTPUT_POSITION: "profile grammar"
+    INVERSE_RULE: "A placeholder does not recover a value absent from SC8."
+    EMPTY_HOLD_VOID_RULE: "Unfilled placeholder is unresolved and must not be emitted."
+    ROUNDTRIP_REQUIREMENT: "an exact Applied skeleton and version identifier are required."
+    APPLICABLE_SCOPE: "D1 and Target profiles"
+    EXCEPTION_STATUS: HOLD_TEMPLATES_ARE_NOT_BYTE_SKELETONS
+
+  - RULE_ID: CO2-INVERSE-CARRIER-001
+    SC7_SOURCE_ANCHOR: "Chart-Specific Role, £칸, €칸, Reality Rule, Operating Note, VOID, provenance"
+    INPUT_ATOMS: [SC7_ONLY_ROWS, ROW_ORDER, WHITESPACE, TERMINAL_NEWLINE]
+    MATCH_CONDITION: "row is not carried by paired SC8"
+    FORWARD_RULE: "Exact forward requires an explicit sidecar/carrier; otherwise HOLD and emit no TXT."
+    OUTPUT_POSITION: "lossless carrier separate from Rashi/Bhava values"
+    INVERSE_RULE: "Restore only from the carrier; paired-answer lookup is forbidden."
+    EMPTY_HOLD_VOID_RULE: "Absent carrier is HOLD; never synthesize interpretation or provenance."
+    ROUNDTRIP_REQUIREMENT: "all SC7 bytes, including omitted rows and whitespace, must be restored."
+    APPLICABLE_SCOPE: "all SC7-only rows; 621 conservative witness occurrences"
+    EXCEPTION_STATUS: HOLD_NO_INVERSE_CARRIER
+
+  - RULE_ID: CO2-EXACT-GATE-001
+    SC7_SOURCE_ANCHOR: "all rules and source-state identifiers"
+    INPUT_ATOMS: [STRUCTURAL_PASS, DEPENDENCY_PASS, INVERSE_CARRIER_PASS, BYTE_RENDERER_PASS]
+    MATCH_CONDITION: "all four gates are PASS"
+    FORWARD_RULE: "Emit target TXT only when every gate passes; otherwise emit JSON HOLD only."
+    OUTPUT_POSITION: "executor terminal state"
+    INVERSE_RULE: "Apply the same gate symmetrically."
+    EMPTY_HOLD_VOID_RULE: "Any unresolved gate keeps overall HOLD."
+    ROUNDTRIP_REQUIREMENT: "F(x)=y, R(y)=x, R(F(x))=x, F(R(y))=y byte-for-byte."
+    APPLICABLE_SCOPE: "entire corpus"
+    EXCEPTION_STATUS: HOLD
+
+acceptance:
+  manual_corrections: {observed: 0, required: 0, status: PASS}
+  chart_id_exception_rules: {observed: 0, required: 0, status: PASS}
+  rashi_bhava_overwrites: {observed: 0, required: 0, status: PASS}
+  target_txt_emitted: {observed: 0, required_while_hold: 0, status: PASS}
+  unexplained_sc8_output_elements: {status: HOLD}
+  unrecovered_sc7_input_elements: {status: HOLD}
+  overall: HOLD

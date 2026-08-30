@@ -1,0 +1,838 @@
+{
+  "schema_version": "SC7_SC8_CO2_COVERAGE_V1",
+  "grammar_call": "$rq-sc7-sc8-co2-grammar",
+  "status": "HOLD",
+  "structural_grammar_status": "PASS",
+  "exact_bidirectional_status": "HOLD",
+  "status_reason": "All 720 SC8 Rashi/Bhava/comparison packets and all 124 active SC7 CO_FIELD anchors satisfy the shared grammar. Exact rendering remains source-underdetermined because SC8 carries historical Bhava CO2 cross-check rows and corrected D1 node values, while it omits SC7-only control/VOID/provenance carriers.",
+  "source_snapshot": {
+    "active_d_order": [
+      "D1",
+      "D9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D10",
+      "D11",
+      "D12",
+      "D16",
+      "D20",
+      "D24",
+      "D27",
+      "D30",
+      "D40",
+      "D45",
+      "D60"
+    ],
+    "d50_status": "VOID",
+    "sc7_files": [
+      {
+        "dchart": "D1",
+        "filename": "07_4AB_D1_VeDic_CO2_Sc.txt",
+        "sha256": "9806b9383645211a7a8453a338d815943c4979e2cb6bac18733e0706b5bcfa99",
+        "size_bytes": 19122,
+        "logical_line_count": 338,
+        "newline_count": 338,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D9",
+        "filename": "07_4AB_D9_VeDic_CO2_Sc.txt",
+        "sha256": "059ad8deb6ae0da928f21d4a27f3853cc464a167cdf3d0471fd8f21bd48a3d63",
+        "size_bytes": 16748,
+        "logical_line_count": 274,
+        "newline_count": 274,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D2",
+        "filename": "07_4AB_D2_VeDic_CO2_Sc.txt",
+        "sha256": "2ace17a7380c80c5e9175c19a663747d8c8ee426e224e09de240b5717cbc9d97",
+        "size_bytes": 22322,
+        "logical_line_count": 355,
+        "newline_count": 355,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D3",
+        "filename": "07_4AB_D3_VeDic_CO2_Sc.txt",
+        "sha256": "2d1737e22df6b7173a8ba1295db7fcdd01955ad39a8fb69c59b24f4974579651",
+        "size_bytes": 17509,
+        "logical_line_count": 291,
+        "newline_count": 291,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D4",
+        "filename": "07_4AB_D4_VeDic_CO2_Sc.txt",
+        "sha256": "e066d80c5f6f0d70cb38eac4b6e5711398a702573e8d507022bcf51a15558078",
+        "size_bytes": 18520,
+        "logical_line_count": 316,
+        "newline_count": 316,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D5",
+        "filename": "07_4AB_D5_VeDic_CO2_Sc.txt",
+        "sha256": "520d48f9d50f2ca4496f39cb15835c5b6249f3cadcb907b011f2accd3fa93421",
+        "size_bytes": 20549,
+        "logical_line_count": 348,
+        "newline_count": 348,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D6",
+        "filename": "07_4AB_D6_VeDic_CO2_Sc.txt",
+        "sha256": "a60034086b696d6f267a1a9a641665a61c7fbf0587f789fa7adf0e8d42becf0a",
+        "size_bytes": 20115,
+        "logical_line_count": 343,
+        "newline_count": 343,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D7",
+        "filename": "07_4AB_D7_VeDic_CO2_Sc.txt",
+        "sha256": "c5b824b74734ee0dec6526b6b327ffd0bcdca7e7bb3b74180a474432b0858b47",
+        "size_bytes": 20387,
+        "logical_line_count": 349,
+        "newline_count": 349,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D8",
+        "filename": "07_4AB_D8_VeDic_CO2_Sc.txt",
+        "sha256": "325385ed62fd6f6247f2e9467bd619bfda48927dba3b20d770dade30fce42258",
+        "size_bytes": 20683,
+        "logical_line_count": 351,
+        "newline_count": 351,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D10",
+        "filename": "07_4AB_D10_VeDic_CO2_Sc.txt",
+        "sha256": "1e329bd606d4f80f758c43736ddbc34ae6f5d0f0ec00963196ffb1b5331ba562",
+        "size_bytes": 20046,
+        "logical_line_count": 344,
+        "newline_count": 344,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D11",
+        "filename": "07_4AB_D11_VeDic_CO2_Sc.txt",
+        "sha256": "5548cf3a02d56f18425aa529add2b9eef4edd32e9322f2382cea1fddadbf809a",
+        "size_bytes": 20125,
+        "logical_line_count": 345,
+        "newline_count": 345,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D12",
+        "filename": "07_4AB_D12_VeDic_CO2_Sc.txt",
+        "sha256": "a3b26a967bd960926acbbfd99f332a7d16162507f34189e256fcabed0d06165b",
+        "size_bytes": 19001,
+        "logical_line_count": 320,
+        "newline_count": 320,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D16",
+        "filename": "07_4AB_D16_VeDic_CO2_Sc.txt",
+        "sha256": "fd3c374bb7216e963aad38adb703d81c83a04cf1c50f8e348f5f7abf4808d1c4",
+        "size_bytes": 19895,
+        "logical_line_count": 334,
+        "newline_count": 334,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D20",
+        "filename": "07_4AB_D20_VeDic_CO2_Sc.txt",
+        "sha256": "eef677b83f8caea267ba26c0fe58d06849c99a21ce2aae858f234dbcd2588892",
+        "size_bytes": 19907,
+        "logical_line_count": 335,
+        "newline_count": 335,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D24",
+        "filename": "07_4AB_D24_VeDic_CO2_Sc.txt",
+        "sha256": "dafdf8655e1829352f20616e8d196c35729e457d5ce7178096eeb9c323d56f0a",
+        "size_bytes": 20052,
+        "logical_line_count": 340,
+        "newline_count": 340,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D27",
+        "filename": "07_4AB_D27_VeDic_CO2_Sc.txt",
+        "sha256": "2366014f132392adbcd608fb8533845cbe491350a305cad97855c3fbdbaade08",
+        "size_bytes": 17476,
+        "logical_line_count": 290,
+        "newline_count": 290,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D30",
+        "filename": "07_4AB_D30_VeDic_CO2_Sc.txt",
+        "sha256": "99512416105a65512f92532ec2d3bd3d1ad6836fa657ea5942691bae98bd7b97",
+        "size_bytes": 21718,
+        "logical_line_count": 377,
+        "newline_count": 377,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D40",
+        "filename": "07_4AB_D40_VeDic_CO2_Sc.txt",
+        "sha256": "e39cb5564592257519e10723ff45f041511717e5d47e191173d820366df93d07",
+        "size_bytes": 18190,
+        "logical_line_count": 311,
+        "newline_count": 311,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D45",
+        "filename": "07_4AB_D45_VeDic_CO2_Sc.txt",
+        "sha256": "5ced147fe254ac01bca7683e375b05cb1d2c216b99b54e933afafe9108d4b3cd",
+        "size_bytes": 19236,
+        "logical_line_count": 332,
+        "newline_count": 332,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D60",
+        "filename": "07_4AB_D60_VeDic_CO2_Sc.txt",
+        "sha256": "b6604f9af11a7786c26e505d9d564017be4a830d8cc77b6c618b57475ab80281",
+        "size_bytes": 20708,
+        "logical_line_count": 353,
+        "newline_count": 353,
+        "terminal_newline": true
+      }
+    ],
+    "sc8_files": [
+      {
+        "dchart": "D1",
+        "filename": "04_1A_D1_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "aba9617ada9dfa044ba5407f2f839b2bf344eded57e5b443c7ad9fb0c5929a7b",
+        "size_bytes": 69646,
+        "logical_line_count": 1441,
+        "newline_count": 1441,
+        "terminal_newline": true
+      },
+      {
+        "dchart": "D9",
+        "filename": "04_1A_D9_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "ca981745670f2aba5f8bc88c968eed4d850b8071d49c5216c4554ae58492ff8f",
+        "size_bytes": 78988,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      },
+      {
+        "dchart": "D2",
+        "filename": "04_1B_D2_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "af8a2c68c7994a2d9d3cc72c8cbbb1e32f793077f3d2330f710acf6c111fb8b3",
+        "size_bytes": 81278,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      },
+      {
+        "dchart": "D3",
+        "filename": "04_1B_D3_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "ea8c56f16d683866d2894bef02719eb18a94cfd2c860f5b7cbf5928a8d30d15b",
+        "size_bytes": 78530,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      },
+      {
+        "dchart": "D4",
+        "filename": "04_1B_D4_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "41262adca625ac808e836b61f6bacb9fcd4b4096ee66cb04520c373dfe56ab5a",
+        "size_bytes": 79029,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      },
+      {
+        "dchart": "D5",
+        "filename": "04_1B_D5_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "16481ba2af0ab023cee8de835e9d5dba9a31ec3b4a38def375a5ba0fd68fb712",
+        "size_bytes": 80322,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      },
+      {
+        "dchart": "D6",
+        "filename": "04_1B_D6_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "a69e2f003f5d06a46b114aec1d2a5a37645a14b35446f882f18213aed001a8b2",
+        "size_bytes": 79931,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      },
+      {
+        "dchart": "D7",
+        "filename": "04_1B_D7_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "400375e05a913c5aebf407caa678d567329d5dd62055329b5f63fc41a61a2c05",
+        "size_bytes": 80936,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      },
+      {
+        "dchart": "D8",
+        "filename": "04_1B_D8_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "da6d98395666666645e02a7dc7eed454efe87f164c1185eb76519b718a05c7b0",
+        "size_bytes": 80670,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      },
+      {
+        "dchart": "D10",
+        "filename": "04_1B_D10_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "7d9f4448e408328754ebc41fbab01073a034cb3e15ff69e5df9aad7bb062d233",
+        "size_bytes": 79499,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      },
+      {
+        "dchart": "D11",
+        "filename": "04_1B_D11_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "8fcb3aed49c7005116e5c142e30af5b6dd9adb8481915a9cd88e6964222c22fe",
+        "size_bytes": 80545,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      },
+      {
+        "dchart": "D12",
+        "filename": "04_1B_D12_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "222b176f162462085d033d942252ae17bd9222128ecd186ebf425eb544c8bec1",
+        "size_bytes": 80314,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      },
+      {
+        "dchart": "D16",
+        "filename": "04_1B_D16_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "f5ba25e1011a036095195644b2d22bfcddf898fbb1e1c0fbc1fc1fa217667a82",
+        "size_bytes": 78541,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      },
+      {
+        "dchart": "D20",
+        "filename": "04_1B_D20_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "b2e400412e95cec954eaa731ec051b43e3eb04b9e0b8c4c1bd36afd34d4d2761",
+        "size_bytes": 78876,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      },
+      {
+        "dchart": "D24",
+        "filename": "04_1B_D24_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "eb6e9c78a3044853c7c9d5d7aa73aca1c8f6bcbb0c44c46aa0d36b6ee1281efa",
+        "size_bytes": 78343,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      },
+      {
+        "dchart": "D27",
+        "filename": "04_1B_D27_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "f307f9280e84ca5227a5747777f1e17b6e9e4ed3da50e4c880bbb092bac5ac5e",
+        "size_bytes": 77672,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      },
+      {
+        "dchart": "D30",
+        "filename": "04_1B_D30_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "f76a34a24bb2943d700af0ffdfcf85aeaf1915708847c10ad6bbb7ee91c5ed67",
+        "size_bytes": 78233,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      },
+      {
+        "dchart": "D40",
+        "filename": "04_1B_D40_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "8bec0f2984fca16939ff336eff0575a613804959303f0d89a68f62e614d87156",
+        "size_bytes": 77121,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      },
+      {
+        "dchart": "D45",
+        "filename": "04_1B_D45_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "32cd7a99b5d45f230e74498b185829d04f2aa215c88dbbbf462bd454f4d45b08",
+        "size_bytes": 77635,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      },
+      {
+        "dchart": "D60",
+        "filename": "04_1B_D60_CoPreSeNcE_12H_AppLieD_R.txt",
+        "sha256": "47c971f2962afb728e4870b1c126a44667e60b03a963e1af06d10ba6f7f6cbe3",
+        "size_bytes": 78299,
+        "logical_line_count": 1548,
+        "newline_count": 1547,
+        "terminal_newline": false
+      }
+    ],
+    "sc7_member_count": 20,
+    "sc8_member_count": 20
+  },
+  "coordinate_coverage": {
+    "dcharts": 20,
+    "houses_per_dchart": 12,
+    "rashi_packets": {
+      "requested": 240,
+      "bound": 240,
+      "status": "PASS"
+    },
+    "bhava_packets": {
+      "requested": 240,
+      "bound": 240,
+      "status": "PASS"
+    },
+    "comparison_packets": {
+      "requested": 240,
+      "bound": 240,
+      "status": "PASS"
+    },
+    "total_packets": {
+      "requested": 720,
+      "bound": 720,
+      "status": "PASS"
+    }
+  },
+  "sc7_cofield_inventory": {
+    "raw": {
+      "rashi": 73,
+      "bhava": 60,
+      "total": 133
+    },
+    "active": {
+      "rashi": 73,
+      "bhava": 51,
+      "total": 124
+    },
+    "void_bhava_blocks": 9,
+    "status": "PASS"
+  },
+  "recoverable_rule_coverage": {
+    "rashi_occupant_entity_binding": {
+      "requested": 240,
+      "passed": 240,
+      "status": "PASS"
+    },
+    "bhava_occupant_entity_binding": {
+      "requested": 240,
+      "passed": 240,
+      "status": "PASS"
+    },
+    "rashi_empty_single_co_state": {
+      "requested": 240,
+      "passed": 240,
+      "status": "PASS"
+    },
+    "bhava_empty_single_co_state": {
+      "requested": 240,
+      "passed": 240,
+      "status": "PASS"
+    },
+    "comparison_state": {
+      "requested": 240,
+      "passed": 240,
+      "status": "PASS"
+    },
+    "rashi_active_cofield_location_binding": {
+      "requested": 73,
+      "passed": 73,
+      "status": "PASS"
+    },
+    "bhava_active_cofield_location_binding": {
+      "requested": 51,
+      "passed": 51,
+      "status": "PASS"
+    },
+    "sc8_profile_layout": {
+      "d1_logical_lines": 1441,
+      "target_logical_lines_each": 1548,
+      "d1_field_rows": 632,
+      "target_field_rows_each": 717,
+      "all_profiles_passed": true,
+      "status": "PASS"
+    },
+    "status_counts": {
+      "B:CO-PRESENCE": 59,
+      "B:EMPTY": 105,
+      "B:SINGLE": 76,
+      "R:CO-PRESENCE": 73,
+      "R:EMPTY": 93,
+      "R:SINGLE": 74
+    },
+    "comparison_status_counts": {
+      "BHAVA_CO_FIELD_ONLY": 15,
+      "MAINTAINED": 3,
+      "MIXED_SINGLE_EMPTY": 33,
+      "NONE / LORD_ONLY": 75,
+      "PARALLEL_CO_PRESENCE": 41,
+      "PARTIAL_MAINTAINED_TO_SINGLE": 1,
+      "RASHI_CO_FIELD_BHAVA_SPLIT_OR_SINGLE": 28,
+      "RE-FUNCTIONED_SUPPORT_ONLY": 1,
+      "SINGLE_MAINTAINED": 1,
+      "SINGLE_PARALLEL": 42
+    },
+    "total_sc8_field_rows": 14255,
+    "status": "PASS"
+  },
+  "bhava_lane_analysis": {
+    "effective_co_presence_slots": 59,
+    "active_sc7_cofield_slots": 51,
+    "additional_slots": 8,
+    "historical_co2_reference_slots": [
+      {
+        "dchart": "D4",
+        "house": "6H",
+        "match_type": "MEMBER_SET_MATCH",
+        "location": "D4 Bhava / BOX_03",
+        "members": "Jupiter / Maandi"
+      },
+      {
+        "dchart": "D5",
+        "house": "11H",
+        "match_type": "MEMBER_SET_MATCH",
+        "location": "D5 Bhava / BOX_04",
+        "members": "Moon / Maandi"
+      },
+      {
+        "dchart": "D10",
+        "house": "5H",
+        "match_type": "MEMBER_SET_MATCH",
+        "location": "D10 Bhava / BOX_06",
+        "members": "Moon / Maandi"
+      },
+      {
+        "dchart": "D12",
+        "house": "5H",
+        "match_type": "MEMBER_SET_MATCH",
+        "location": "D12 Bhava / BOX_04",
+        "members": "Jupiter / Maandi"
+      },
+      {
+        "dchart": "D20",
+        "house": "9H",
+        "match_type": "MEMBER_SET_MATCH",
+        "location": "D20 Bhava / BOX_03",
+        "members": "Mars / Maandi"
+      },
+      {
+        "dchart": "D24",
+        "house": "6H",
+        "match_type": "MEMBER_SET_MATCH",
+        "location": "D24 Bhava / BOX_07",
+        "members": "Saturn / Maandi"
+      },
+      {
+        "dchart": "D60",
+        "house": "3H",
+        "match_type": "MEMBER_SET_MATCH",
+        "location": "D60 Bhava / BOX_03",
+        "members": "Ketu(R) / Maandi"
+      }
+    ],
+    "house_distribution_derived_slots": [
+      {
+        "dchart": "D3",
+        "house": "7H",
+        "match_type": "NOT_MATCHED_TO_CO2_BHAVA_FIELD",
+        "location": "NO_CO2_FIELD",
+        "members": "NO_CO2_FIELD"
+      }
+    ],
+    "current_active_target_crosscheck": {
+      "coordinates_tested": 48,
+      "location_exact": 0,
+      "member_set_exact": 41,
+      "source_members_subset": 45,
+      "member_conflicts": [
+        {
+          "dchart": "D2",
+          "house": "1H",
+          "sc7_active_members": [
+            "Jupiter",
+            "Lagna",
+            "Sun",
+            "Venus"
+          ],
+          "sc8_crosscheck_members": [
+            "Jupiter",
+            "Lagna",
+            "Mars",
+            "Mercury",
+            "Moon",
+            "Venus"
+          ]
+        },
+        {
+          "dchart": "D2",
+          "house": "2H",
+          "sc7_active_members": [
+            "Ketu",
+            "Mars",
+            "Rahu"
+          ],
+          "sc8_crosscheck_members": [
+            "Ketu",
+            "Maandi",
+            "Rahu",
+            "Sun"
+          ]
+        },
+        {
+          "dchart": "D2",
+          "house": "12H",
+          "sc7_active_members": [
+            "Mercury",
+            "Moon",
+            "Saturn"
+          ],
+          "sc8_crosscheck_members": [
+            "Jupiter",
+            "Lagna",
+            "Mars",
+            "Mercury",
+            "Moon",
+            "Venus"
+          ]
+        }
+      ],
+      "status": "HOLD"
+    }
+  },
+  "templates": [
+    {
+      "filename": "04_1A_D1_12H_CO2_TemPL_.txt",
+      "sha256": "6c6c5c4141fabf73709409c5315f60c8e215741515b9f3a4f48c52636e70cb80",
+      "size_bytes": 90461,
+      "logical_line_count": 1426,
+      "newline_count": 1425,
+      "placeholder_occurrences": 598,
+      "unique_placeholders": 43,
+      "field_rows": 632,
+      "unique_field_labels": 55,
+      "byte_equal_to_any_applied_document": false,
+      "role": "TYPED_GRAMMAR_SPECIFICATION_NOT_BYTE_SKELETON"
+    },
+    {
+      "filename": "04_1A_D1_CO2_12HouSe_TeMpl_♤.txt",
+      "sha256": "ee8faf588ddb32f6c9a32913a5c40760ecba3e334a21a3f59d37bf02b09f5e2b",
+      "size_bytes": 89298,
+      "logical_line_count": 1679,
+      "newline_count": 1679,
+      "placeholder_occurrences": 598,
+      "unique_placeholders": 43,
+      "field_rows": 632,
+      "unique_field_labels": 55,
+      "byte_equal_to_any_applied_document": false,
+      "role": "TYPED_GRAMMAR_SPECIFICATION_NOT_BYTE_SKELETON"
+    },
+    {
+      "filename": "04_1B_CO2_12H_TEMpL_.txt",
+      "sha256": "452285aa7dd98b09992274e0b2b15be9eaf59eb8d86c6f3c5a81cc84228dcd8f",
+      "size_bytes": 89352,
+      "logical_line_count": 1425,
+      "newline_count": 1424,
+      "placeholder_occurrences": 601,
+      "unique_placeholders": 43,
+      "field_rows": 632,
+      "unique_field_labels": 55,
+      "byte_equal_to_any_applied_document": false,
+      "role": "TYPED_GRAMMAR_SPECIFICATION_NOT_BYTE_SKELETON"
+    },
+    {
+      "filename": "04_2B_TaRgEt_CO2_12HouSe_TeMpl_A♤.txt",
+      "sha256": "7a90b950695644e3209acbe6f7fc54611aedf468233c849bd54bd669a8716a68",
+      "size_bytes": 110973,
+      "logical_line_count": 1940,
+      "newline_count": 1940,
+      "placeholder_occurrences": 935,
+      "unique_placeholders": 69,
+      "field_rows": 743,
+      "unique_field_labels": 59,
+      "byte_equal_to_any_applied_document": false,
+      "role": "TYPED_GRAMMAR_SPECIFICATION_NOT_BYTE_SKELETON"
+    }
+  ],
+  "inverse_carrier_witness": {
+    "categories": {
+      "chart_specific_role": {
+        "sc7_occurrences": 133,
+        "not_carried_verbatim_in_paired_sc8": 133,
+        "example": {
+          "dchart": "D1",
+          "value": "- Chart-Specific Role = D1 본체 공동장 / 판단·검수·자기운영·현실 관리 엔진"
+        }
+      },
+      "pound_slot": {
+        "sc7_occurrences": 103,
+        "not_carried_verbatim_in_paired_sc8": 103,
+        "example": {
+          "dchart": "D1",
+          "value": "- £칸 = D1 01 본체 슬롯 / D1 04 Co-presence 공동장 슬롯 / D1 05 1H Mercury/Saturn 본체 운영 슬롯"
+        }
+      },
+      "euro_slot_header": {
+        "sc7_occurrences": 103,
+        "not_carried_verbatim_in_paired_sc8": 103,
+        "example": {
+          "dchart": "D1",
+          "value": "- €칸"
+        }
+      },
+      "reality_rule": {
+        "sc7_occurrences": 133,
+        "not_carried_verbatim_in_paired_sc8": 133,
+        "example": {
+          "dchart": "D1",
+          "value": "- Reality Rule = 느낌이 아니라 기준표와 문장으로 현실을 다루고, 검수 없는 실행은 허용하지 않는다."
+        }
+      },
+      "operating_note_header": {
+        "sc7_occurrences": 20,
+        "not_carried_verbatim_in_paired_sc8": 20,
+        "example": {
+          "dchart": "D1",
+          "value": "D1 OPERATING NOTE"
+        }
+      },
+      "void_record_header": {
+        "sc7_occurrences": 20,
+        "not_carried_verbatim_in_paired_sc8": 20,
+        "example": {
+          "dchart": "D1",
+          "value": "D1 PREVIOUS BHAVA SNAPSHOT VOID RECORD"
+        }
+      },
+      "void_verdict": {
+        "sc7_occurrences": 29,
+        "not_carried_verbatim_in_paired_sc8": 29,
+        "example": {
+          "dchart": "D1",
+          "value": "- VOID VERDICT = BOX/SECTOR INDEX REPLACED BY CANONICAL HOUSE SINGLE-FIELD INDEX"
+        }
+      },
+      "previous_single_index": {
+        "sc7_occurrences": 20,
+        "not_carried_verbatim_in_paired_sc8": 20,
+        "example": {
+          "dchart": "D1",
+          "value": "PREVIOUS SINGLE-FIELD INDEX — VOID REFERENCE"
+        }
+      },
+      "source_modified": {
+        "sc7_occurrences": 40,
+        "not_carried_verbatim_in_paired_sc8": 40,
+        "example": {
+          "dchart": "D1",
+          "value": "- Rashi Source Modified = 2026-07-30T10:52:36.382Z"
+        }
+      },
+      "final_authority": {
+        "sc7_occurrences": 20,
+        "not_carried_verbatim_in_paired_sc8": 20,
+        "example": {
+          "dchart": "D1",
+          "value": "FINAL AUTHORITY"
+        }
+      }
+    },
+    "category_occurrences": 621,
+    "not_carried_verbatim": 621,
+    "interpretation": "These are inverse-carrier witnesses, not a claim that every other SC7 line is recoverable."
+  },
+  "exact_invariants": {
+    "forward_sc7_to_sc8": {
+      "requested_packets": 720,
+      "structurally_explained": 720,
+      "exact_emitted": 0,
+      "held": 720,
+      "status": "HOLD"
+    },
+    "reverse_sc8_to_sc7": {
+      "requested_packets": 720,
+      "structurally_explained": 720,
+      "exact_emitted": 0,
+      "held": 720,
+      "status": "HOLD"
+    },
+    "reverse_forward": {
+      "requested_documents": 20,
+      "passed": 0,
+      "held": 20,
+      "status": "HOLD"
+    },
+    "forward_reverse": {
+      "requested_documents": 20,
+      "passed": 0,
+      "held": 20,
+      "status": "HOLD"
+    },
+    "no_target_txt_emitted": true
+  },
+  "acceptance_checks": {
+    "manual_corrections": {
+      "observed": 0,
+      "required": 0,
+      "status": "PASS"
+    },
+    "chart_id_exception_rules": {
+      "observed": 0,
+      "required": 0,
+      "status": "PASS"
+    },
+    "rashi_bhava_lane_overwrites": {
+      "observed": 0,
+      "required": 0,
+      "status": "PASS"
+    },
+    "unexplained_sc8_output_elements": {
+      "observed": "historical Bhava cross-check state and dependency-derived exact text",
+      "required": 0,
+      "status": "HOLD"
+    },
+    "unrecovered_sc7_input_elements": {
+      "observed": "SC7-only control, VOID, interpretation, and provenance carriers",
+      "required": 0,
+      "status": "HOLD"
+    },
+    "overall": "HOLD"
+  },
+  "blocking_holds": [
+    "HOLD-CO2-D1-NODE-SOURCE-STATE-001",
+    "HOLD-CO2-BHAVA-CROSSCHECK-SOURCE-STATE-001",
+    "HOLD-CO2-RASHI-BHAVA-DEPENDENCY-001",
+    "HOLD-CO2-SC7-INVERSE-CARRIER-001",
+    "HOLD-CO2-TEMPLATE-SKELETON-001",
+    "HOLD-CO2-EXACT-RENDERER-001"
+  ],
+  "layout_failures": [],
+  "no_output_txt_emitted": true,
+  "direction": "SC7_TO_SC8",
+  "exact_renderer_status": "HOLD"
+}

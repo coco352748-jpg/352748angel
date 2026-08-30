@@ -1,5 +1,5 @@
 {
-  "schema_version": "HYEWON_SC7_SC8_CO2_EXPORT_V1",
+  "schema_version": "HYEWON_SC7_SC8_CO2_EXPORT_V2_GRAMMAR",
   "scope": "04_COPRESENCE_ONLY",
   "active_d_order": [
     "D1", "D9", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D10",
@@ -53,6 +53,27 @@
       "size_bytes": 110973
     }
   ],
+  "grammar": {
+    "call": "$rq-sc7-sc8-co2-grammar",
+    "directory": "grammar",
+    "archive": "HYEWON_SC7_SC8_CO2_GRAMMAR_PACK.zip",
+    "archive_sha256": "4fdf6fcedabbcd964a2353414d6b28546dcd9726deb979e8e2b7e08c3786c625",
+    "archive_size_bytes": 29056,
+    "artifact_count": 8,
+    "structural_grammar_status": "PASS",
+    "exact_bidirectional_status": "HOLD",
+    "coverage": {
+      "rashi_packets": "240/240",
+      "bhava_packets": "240/240",
+      "comparison_packets": "240/240",
+      "total_packets": "720/720",
+      "active_rashi_cofields": "73/73",
+      "active_bhava_cofields": "51/51"
+    },
+    "manual_corrections": 0,
+    "chart_id_value_exception_rules": 0,
+    "target_txt_emitted": 0
+  },
   "preservation": {
     "co2_first_03_merged": false,
     "ocr_rerun": false,

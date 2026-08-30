@@ -15,8 +15,13 @@
   - 위 두 ZIP의 펼친 20D 파일
 - `templates/`
   - 사용자 첨부 템플릿 4개를 값 Source와 분리해 원문 그대로 보존
+- `grammar/`
+  - SC7 ↔ SC8 04 공동장 양방향 구조문법·실행기·전수 coverage·HOLD registry
+  - 복원 호출키: `$rq-sc7-sc8-co2-grammar`
+- `HYEWON_SC7_SC8_CO2_GRAMMAR_PACK.zip`
+  - `grammar/` 8개 산출물만 묶은 다운로드팩
 - `HYEWON_SC7_SC8_CO2_20D_BUNDLE.zip`
-  - SC7·SC8·템플릿·manifest 전체 묶음
+  - SC7·SC8·템플릿·문법·manifest 전체 묶음
 
 ## 활성 D 순서
 
@@ -33,4 +38,14 @@
 - 원문 파일명·대소문자·본문 바이트 수정 없음
 - 첨부 템플릿 적용·치환 없음
 
-세부 해시와 크기는 `CO2_EXPORT_MANIFEST.json`에 기록했다.
+## 문법 판정
+
+- 구조 결속: `720/720 PASS`
+- 활성 SC7 CO_FIELD: `124/124 PASS`
+- 수동 보정: `0`
+- 차트 ID 값 예외: `0`
+- exact forward/reverse/roundtrip: `HOLD`
+
+HOLD의 이유는 paired SC8의 과거 Bhava BOX cross-check state와 SC8에서 빠진 SC7 전용 VOID·출처·역할 carrier다. 실행기는 이 관절을 숨기지 않고 TXT 생성 대신 JSON HOLD를 반환한다.
+
+세부 해시와 크기는 `CO2_EXPORT_MANIFEST.json`, 전수 판정은 `grammar/roundtrip_co2_coverage.json`에 기록했다.

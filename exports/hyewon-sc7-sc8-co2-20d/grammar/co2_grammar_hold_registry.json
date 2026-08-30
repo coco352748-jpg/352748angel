@@ -1,0 +1,117 @@
+{
+  "schema_version": "SC7_SC8_CO2_HOLD_REGISTRY_V1",
+  "grammar_call": "$rq-sc7-sc8-co2-grammar",
+  "overall_status": "HOLD",
+  "policy": {
+    "manual_patch_allowed": false,
+    "chart_id_value_exception_allowed": false,
+    "paired_answer_lookup_allowed": false,
+    "target_txt_emission_while_hold": false,
+    "rashi_bhava_overwrite_allowed": false,
+    "void_reactivation_allowed": false
+  },
+  "holds": [
+    {
+      "hold_id": "HOLD-CO2-D1-NODE-SOURCE-STATE-001",
+      "scope": "global source-state version joint",
+      "status": "OPEN",
+      "evidence": {
+        "sc7_d1_rahu_ketu_degree": "24:58:08",
+        "sc8_d1_rahu_ketu_degree": "26:33:09",
+        "derived_gap_changes": true
+      },
+      "why_not_an_exception_rule": "The coordinate is evidence of a source-version transition, not permission to hardcode D1 output.",
+      "release_condition": "Supply the explicit global correction manifest and a reversible carrier containing both prior and canonical node states."
+    },
+    {
+      "hold_id": "HOLD-CO2-BHAVA-CROSSCHECK-SOURCE-STATE-001",
+      "scope": "Target Bhava CO2 Source Cross-check",
+      "status": "OPEN",
+      "evidence": {
+        "current_active_target_bhava_fields_tested": 48,
+        "current_active_location_exact_in_sc8_crosscheck": 0,
+        "current_member_set_exact": 41,
+        "current_member_set_subset": 45,
+        "true_member_conflicts": 3,
+        "sc8_effective_bhava_co_presence": 59,
+        "current_active_bhava_cofields": 51,
+        "historical_reference_additions": 7,
+        "distribution_derived_additions": 1
+      },
+      "why_not_an_exception_rule": "A D/House lookup from the paired answer would replay historical target values instead of compiling from current Source.",
+      "release_condition": "Supply the pre-rewrite Bhava BOX/CO2 Source used by paired SC8, or generate a new SC8 from the current active House Source and version it separately."
+    },
+    {
+      "hold_id": "HOLD-CO2-RASHI-BHAVA-DEPENDENCY-001",
+      "scope": "SC8 dependency-derived fields",
+      "status": "OPEN",
+      "evidence": {
+        "source_family_dependencies": [
+          "rashi",
+          "bhava"
+        ],
+        "affected_field_classes": [
+          "House Function",
+          "House Lord",
+          "Lord Position",
+          "Lord Movement",
+          "RL/NL/SL/SSL",
+          "Priority",
+          "fixed profile wording"
+        ]
+      },
+      "why_not_an_exception_rule": "These values must be copied from an explicit same-version dependency snapshot; Jyotish calculation or hidden supplementation is forbidden.",
+      "release_condition": "Bundle and hash-lock the exact Rashi/Bhava dependency snapshots and profile version used by paired SC8."
+    },
+    {
+      "hold_id": "HOLD-CO2-SC7-INVERSE-CARRIER-001",
+      "scope": "SC8 -> SC7 lossless inverse",
+      "status": "OPEN",
+      "evidence": {
+        "conservative_missing_witness_occurrences": 621,
+        "categories": {
+          "Chart-Specific Role": 133,
+          "£칸": 103,
+          "€칸 header": 103,
+          "Reality Rule": 133,
+          "Operating Note": 20,
+          "Previous Bhava VOID section": 20,
+          "VOID Verdict": 29,
+          "Previous Single-Field Index": 20,
+          "Source Modified timestamp": 40,
+          "Final Authority header": 20
+        }
+      },
+      "why_not_an_exception_rule": "Reattaching these rows from the known SC7 answer is paired-answer replay, not inverse compilation.",
+      "release_condition": "Add a lossless SC8 sidecar/carrier that preserves every SC7-only row, order, whitespace, and terminal newline."
+    },
+    {
+      "hold_id": "HOLD-CO2-TEMPLATE-SKELETON-001",
+      "scope": "four attached 04 templates",
+      "status": "OPEN",
+      "evidence": {
+        "template_count": 4,
+        "byte_equal_to_any_applied_sc8": 0,
+        "role": "TYPED_GRAMMAR_SPECIFICATION_NOT_BYTE_SKELETON"
+      },
+      "why_not_an_exception_rule": "Template placeholders define field conditions but do not contain absent historical values or exact Applied bytes.",
+      "release_condition": "Supply and version-lock the exact renderer skeleton used for the paired SC8 Applied files."
+    },
+    {
+      "hold_id": "HOLD-CO2-EXACT-RENDERER-001",
+      "scope": "forward, reverse, and both roundtrips",
+      "status": "OPEN",
+      "evidence": {
+        "structural_packets_passed": "720/720",
+        "active_cofield_anchors_passed": "124/124",
+        "exact_target_txt_emitted": 0,
+        "forward_status": "HOLD",
+        "reverse_status": "HOLD",
+        "reverse_forward_status": "HOLD",
+        "forward_reverse_status": "HOLD"
+      },
+      "why_not_an_exception_rule": "Every upstream source-state and inverse-carrier hold must close before an exact renderer can be truthful.",
+      "release_condition": "Close all other registry entries, then demonstrate byte-identical forward, reverse, and two-way roundtrip over all 20 members."
+    }
+  ]
+}
