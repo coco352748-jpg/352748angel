@@ -1,0 +1,6 @@
+interface:
+  display_name: "Kook"
+  short_description: "D차트 구조관절02 복원 증거·재현성 검문"
+  default_prompt: "Use $kook to audit the D-chart structural-joint analysis02 restoration evidence and replay path."
+policy:
+  allow_implicit_invocation: false

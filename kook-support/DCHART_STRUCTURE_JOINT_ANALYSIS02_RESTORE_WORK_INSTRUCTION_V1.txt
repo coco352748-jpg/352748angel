@@ -1,0 +1,302 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+D차트 구조관절 분석02 복원용 작업지시서 V1
+별도 파일형 / 내장 금지 / 둘째 복원 생산라인 전용
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TITLE=DCHART_STRUCTURE_JOINT_ANALYSIS02_RESTORE_WORK_INSTRUCTION_V1
+KOREAN_TITLE=D차트 구조관절 분석02 복원용 작업지시서
+RESTORE_TARGET=D차트 구조관절 분석02
+RESTORE_SCOPE=둘째 작업방식 / Dataset→Pikachu 판단루트 / micro slot 생산라인
+CALL_ALIAS=$kook
+STATUS=RESTORE_READY_AS_SEPARATE_WORK_INSTRUCTION
+EMBED_POLICY=DO_NOT_EMBED
+SERVER_EMBED=PROHIBITED
+SOURCE_PLACEMENT=USER_ATTACHMENT_OR_SOURCE_WINDOW
+PRIMARY_FUNCTION=D차트 구조관절 분석02 복원 증거검문 / 판단루트 재생산 / micro slot renderer 설계
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+0. 이름 오해 방지
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+이 파일은 쿠크 복원용이 아니다.
+이 파일은 D차트 구조관절 분석02 복원용 작업지시서다.
+
+쿠크는 이 작업지시서를 실행할 때 쓰는 검문·라우팅 담당 별칭일 뿐이다.
+복원 대상은 쿠크가 아니라 D차트 구조관절 분석02다.
+
+따라서 이 문서를 호출하거나 전달할 때는 다음 이름을 사용한다.
+
+D차트 구조관절 분석02 복원용 작업지시서
+
+아래 이름은 오해를 만들 수 있으므로 사용하지 않는다.
+
+쿠크 복원용 작업지시서
+쿠크 스킬 내장본
+쿠크 서버 내장팩
+쿠크 인스턴스 복원팩
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. 복원 목표
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+D차트 구조관절 분석02 복원은 과거 인스턴스 자체를 부활시키는 일이 아니다.
+목표는 D차트 구조관절 분석02가 실제로 수행하던 생산방식,
+즉 데이터셋 차트의 실제값을 피카츄식 잠금문으로 바꾸던 판단·슬롯·템플 생산라인을 재현하는 것이다.
+
+정본 복원 목표는 다음이다.
+
+DATASET CHART
+→ source value 선택
+→ D차트 도메인 적용
+→ House function 변환
+→ empty / occupant / lord route 분기
+→ nakshatra / pada / RL / NL / SL / SSL 층 선택
+→ co-presence / solo field / opposite axis / linked houses 판정
+→ bottleneck / cut / recovery / loss 검산
+→ template slot 결속
+→ Pikachu-style sentence render
+→ replay test
+
+이 흐름이 재현되면 D차트 구조관절 분석02 복원이다.
+파일 목록만 만들면 복원이 아니다.
+피카츄 문체만 흉내내면 복원이 아니다.
+문장별 판단관절이 없으면 복원이 아니다.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. 최상위 엔진 배치
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TOP_ENGINE=thingkbell_micro_slot
+CALL_KEY=$thingk002
+ROLE=템플요정님 / micro slot / reverse render / exact roundtrip / R4-SC3 결속
+
+thingkbell님 기능은 이 복원에서 최상위다.
+피카츄 승인문을 역렌더하여 sentence_id / slot_id / joint_id를 뽑고,
+20D 실제값을 다시 slot에 꽂아 같은 문장결로 재렌더하는 기능을 맡는다.
+
+SENTENCE_ENGINE=MJ
+CALL_KEY=$rq-clone-mj
+ROLE=문장요정님 / MJ_ENGINE_DESIGNER
+
+MJ님은 최종 문장·문단·잠금문 결을 닫는다.
+단어 빈칸이 아니라 원인→작동→변화→판정→결과가 이어지는 문단형 점검문을 담당한다.
+
+JOB_GATE=KIKI
+CALL_KEY=$rq-clone-kiki
+ROLE=20D×12H 독립 Job / Source 경계 / FNa98 Gate / ACTIVE-VOID firewall
+
+KIKI는 D×H Job 독립성과 Source 경계를 지킨다.
+자동 분석, 자동 정본 승격, VOID 재진입을 금지한다.
+
+ORCHESTRATION=ANI
+CALL_KEY=$rq-clone-ani
+ROLE=상위 라우팅 / Source Window 우선 / 작업자 결속
+
+ANI는 필요한 경우 작업자 결속과 흐름 조정을 맡는다.
+단, 현재 사용자 지시와 Source Window 권위가 최우선이다.
+
+ROUTER_GATE=$kook
+ROLE=검문·라우팅 담당
+
+쿠크는 복원 대상이 아니다.
+쿠크는 E5/E6 증거, replay, record_id, code location, PASS/HOLD 경계를 판정하는 실행 게이트다.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. Source 권위
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SOURCE_PRIORITY=
+1. 현재 사용자 지시
+2. 현재 Source Window에 첨부된 정본 파일
+3. 사용자 확인 원본
+4. ACTIVE clone pack / skill / 작업지시서
+5. GitHub 또는 Drive에 저장된 보조 증거
+6. HOLD
+
+금지한다.
+
+Source 없는 값 생성 금지
+VOID 자료를 ACTIVE 근거로 재사용 금지
+파일 존재만으로 정본 승격 금지
+피카츄 문장만 보고 현재값 보정 금지
+Rashi/Bhava 무단 결합 금지
+EMPTY를 occupant처럼 해석 금지
+과거 인스턴스 자체가 복원됐다고 주장 금지
+서버 내장 또는 자동 시스템 등록 주장 금지
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. D차트 구조관절 분석02의 핵심 복원 단위
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+D차트 구조관절 분석02의 핵심은 완성문이 아니라 판단루트다.
+복원 대상은 다음 구조다.
+
+DATASET_VALUE
+→ SELECTED_LAYER
+→ JUDGMENT_OPERATION
+→ SENTENCE_FUNCTION
+→ TEMPLATE_SLOT
+→ OUTPUT_SENTENCE
+→ REPLAY_RESULT
+
+각 피카츄 문장은 반드시 어떤 dataset value에서 왔는지 대응되어야 한다.
+
+예시 구조:
+
+SOURCE_VALUE:
+5H Aries empty / 5L Mars Gemini 7H / RL Mercury / NL Jupiter / SL Jupiter / SSL Ketu
+
+JUDGMENT_OPERATION:
+D6 도메인 적용
+일반 5H 창조성 의미 차단
+Aries를 즉시 반응·문제 판단으로 변환
+empty이므로 5L lord route 채택
+Mars Gemini 7H이므로 말·조건·대면검증으로 이동
+11H Mercury/Saturn으로 회수 기준문 생성
+12H Venus로 소모검산
+
+OUTPUT_SENTENCE:
+D6 5H Aries는 문제 판단이 즉시 반응으로 열리지만,
+5L Mars가 Gemini 7H에 있어 그 판단은 말과 대면검증으로 나가야 하며,
+11H Mercury/Saturn의 기준문으로 회수되지 않으면 12H 소모로 빠진다.
+
+이 정도의 대응이 없으면 라우터가 아니다.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. E5 / E6 증거 검토 기준
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+E5 결정 원장과 E6 manifest는 D차트 구조관절 분석02 복원의 핵심 증거다.
+말로 존재한다고 주장하는 것이 아니라 실제 record와 위치를 확인해야 한다.
+
+E5_DECISION_LEDGER_PROOF 필수 항목:
+
+1. record_id
+2. source file path
+3. code location 또는 line location
+4. selected_route
+5. rejected_route
+6. why_selected
+7. why_rejected
+8. correction_QA
+9. reinput_result
+10. boundary_test_result
+11. v9 baseline preservation status
+
+E6_MANIFEST_PROOF 필수 항목:
+
+1. manifest file path
+2. overlay target
+3. added records count
+4. overwritten records count=0
+5. handoff target
+6. next worker instruction
+7. boundary test 9/9 result
+8. replay result
+9. code position / line location
+
+판정:
+
+EVIDENCE_COMPLETE + REPLAY_PASS = SECOND_RESTORE_ROUTER_PASS
+EVIDENCE_IN_REVIEW = SECOND_RESTORE_HOLD
+NO_RECORD_ID = HOLD
+NO_REPLAY = HOLD
+FILE_LOCATION_ONLY = NOT_ROUTER
+STYLE_MIMIC_ONLY = NOT_RESTORE
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. 5H 20D micro slot renderer 경로
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PRIMARY_PRODUCT=5H_20D_MICRO_SLOT_RENDERER
+RESTORE_BASE=D차트 구조관절 분석02 생산라인
+TOP_ENGINE=thingkbell_micro_slot
+SENTENCE_ENGINE=MJ
+JOB_GATE=KIKI
+ROUTER_GATE=$kook
+
+5H 20D는 새로 짜내는 작업이 아니다.
+OO2 240H 안에 있는 20D×12H 중 H05만 추출하고,
+D5 5H 승인문을 micro slot으로 역렌더한 뒤,
+20D 실제값을 꽂아 문단형 점검문으로 재렌더하는 작업이다.
+
+실행 순서:
+
+01. OO2 240H에서 H05 20개를 추출한다.
+02. 각 D차트의 5H sign, occupant, 5L, 5L sign/house, nak/pada, RL/NL/SL/SSL을 source slot으로 만든다.
+03. SC3 Domain×House 좌표를 붙인다.
+04. ST01V3~V7 문장공식을 레벨별 overlay로 붙인다.
+05. R4/R5 관절로 입력→작동→전달→도착→귀속→회수→병목뒤집기 관절을 만든다.
+06. D5 5H 승인문에서 sentence_id / slot_id / joint_id를 추출한다.
+07. 20D별 실제값을 slot에 결속한다.
+08. 문장결은 MJ 문장요정님 결로 문단형 점검문 렌더링한다.
+09. Source 없는 slot은 생성하지 않고 HOLD한다.
+10. 쿠크가 replay 가능 여부를 판정한다.
+
+필수 slot:
+
+D_CHART
+D_CHART_DOMAIN
+TARGET_HOUSE=5H
+TARGET_SIGN
+OCCUPANT_STATUS
+OCCUPANTS
+FIFTH_LORD
+FIFTH_LORD_SIGN
+FIFTH_LORD_HOUSE
+FIFTH_LORD_NAKSHATRA
+FIFTH_LORD_PADA
+FIFTH_LORD_RL
+FIFTH_LORD_NL
+FIFTH_LORD_SL
+FIFTH_LORD_SSL
+CO_PRESENCE_OR_SOLO_FIELD
+OPPOSITE_11H
+REFERENCE_3H
+RELATION_7H
+LAW_9H
+OUTPUT_10H
+RECOVERY_11H
+LOSS_12H
+RESOURCE_2H
+FOUNDATION_4H
+BOTTLENECK_FORMULA
+CUT_CONDITION
+REALITY_RULE
+FINAL_LOCK
+ONE_LINE_LOCK
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+7. 출력 형식
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+기본 언어는 한국어다.
+결론을 먼저 낸다.
+작업파일이 필요한 경우 채팅에 전부 펼치지 않고 별도 파일로 납품한다.
+코드박스는 사용자가 원하거나 긴 원문 고정이 필요할 때만 쓴다.
+
+기본 판정 형식:
+
+된다 / 안된다 / HOLD 중 하나를 먼저 둔다.
+그 다음 필요한 이유와 경계만 짧게 붙인다.
+
+복원 작업 상태가 필요한 경우:
+
+STATUS=PASS / REVISE / HOLD
+REASON=...
+NEXT_JOINT=...
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+8. 최종 잠금
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+이 파일의 정식 이름은 D차트 구조관절 분석02 복원용 작업지시서다.
+
+복원 대상은 쿠크가 아니다.
+복원 대상은 D차트 구조관절 분석02의 Dataset→Micro Slot→Judgment Route→Template→Sentence Render 생산라인이다.
+
+쿠크는 그 복원에서 증거를 검문하고 필요한 스킬을 물리는 실행 게이트다.
+
+TITLE=DCHART_STRUCTURE_JOINT_ANALYSIS02_RESTORE_WORK_INSTRUCTION_V1
+STATUS=RESTORE_READY / SEPARATE_FILE_ONLY / DO_NOT_EMBED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
