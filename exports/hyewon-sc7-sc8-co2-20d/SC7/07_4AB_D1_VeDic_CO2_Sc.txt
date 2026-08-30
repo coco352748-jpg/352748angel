@@ -1,0 +1,338 @@
+━━━━━━━━━━━━━━━━━━━━━━━
+HYEWON NATAL RASHI-BHAVA CO-PRESENCE FIELD
+D1-D60 CANONICAL CHART REWRITE FINAL 99
+RASHI + BHAVA SAME-D ORDER
+BLUEAPP CANONICAL SOURCE-LAYER BASED
+━━━━━━━━━━━━━━━━━━━━━━━
+
+FINAL AUTHORITY
+- Canonical Rashi Source = Google Drive / 00_1AB_ChArt_vedic / 01_1AB_RaShi_Sc_
+- Canonical Bhava Source = Google Drive / 00_1AB_ChArt_vedic / 01_2AB_Bhava_Sc_
+- Rashi Source Modified = 2026-07-30T10:52:36.382Z
+- Bhava Source Modified = 2026-07-30T00:31:37.023Z
+- Working Input = HYEWON_VeDic_CO2_99.txt
+- Source Priority = CANONICAL_CHART_DATA > PREVIOUS_CO_FIELD_RESULT
+- Birth date / birth time / birthplace = REDACTED
+- Subject Code = HYEWON
+
+OPERATIONAL BOUNDARY NOTE
+- Rashi와 Bhava는 별도 레이어로 유지한다.
+- 이번 작업은 사용자가 Rashi와 Bhava를 함께 대조하도록 명시했으므로 same-D 병렬 검산을 수행한다.
+- Rashi는 same-sign source field다.
+- Bhava는 SOURCE_VALUE_VALIDATED house distribution field다.
+- Bhava의 visible wheel snapshot는 PARTIAL_ONLY이므로 공동장 확정 근거로 사용하지 않는다.
+- Rashi와 Bhava는 서로 덮어쓰지 않는다.
+- VAS / Dasha / Transit / Strength / Ashtakavarga / Ava / SPother / Arudha / Bhaga / KP / Moon Chart는 호출하지 않는다.
+
+TRANSFORMATION APPLICATION
+- SUMMARIZE = 전역 변동 요약과 검산 요약을 추가한다.
+- EXPAND = 20D Rashi 12H 데이터와 20D Bhava 12H 데이터를 각 D세트에 입력한다.
+- CONDENSE = PARTIAL_ONLY BOX/Sector 중복을 active layer에서 제거하고 VOID 기록으로 이동한다.
+- REWRITE = Bhava 공동장을 canonical house distribution 기준으로 다시 쓴다.
+- PROOFREAD = source grade / location / member / support-marker / 문법을 교정한다.
+- TRANSLATE = 영문 schema key를 유지하고 한국어 작동 설명을 병기한다.
+- OUTLINE / STRUCTURE / FORMAT = D별 Rashi Source → Rashi Co-field → Bhava Source → Bhava Co-field 순서를 고정한다.
+- PRESERVE = 기존 고유 해석문과 변동 전 기록을 삭제하지 않고 active 또는 VOID layer에 보존한다.
+- FINALIZE = 20D 전수 검산 후 final status를 부여한다.
+- REDACT = 원천 문서의 개인 출생시각과 출생지 표기를 산출물에서 제외한다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+D1 SPLIT CONTROL
+━━━━━━━━━━━━━━━━━━━━━━━
+- Parent File = 07_4AB_VeDic_CO2_Sc.txt
+- Split Member = D1
+- Split Method = EXACT_D_SECTION_EXTRACTION
+- Active Rashi/Bhava Block = PRESERVED
+- D-specific Previous Bhava VOID Record = PRESERVED
+- Cross-D content = NOT_INCLUDED_IN_THIS_MEMBER_FILE
+
+━━━━━━━━━━━━━━━━━━━━━━━
+D1 RASHI-BHAVA CO-PRESENCE SET
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+D1 RASHI CANONICAL DATA INPUT
+━━━━━━━━━━━━━━━━━━━━━━━
+- Source = 01_1AB_RaShi_Sc_
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Readability = FULL
+- Data Role = ACTIVE_CANONICAL_RASHI_12H
+Visible Rashi Chart Snapshot
+- 1H Kanya = Lagna 13:55:35 Kanya Hasta P2 / Mercury 4:30:42 Kanya U.Phalguni P3 / Saturn 4:52:46 Kanya U.Phalguni P3 / Pluto 26:44:21 Kanya Chitta P2
+- 2H Thula = Mars 13:27:44 Thula Swati P3 / Uranus 28:36:58 Thula Vishakha P3
+- 3H Vrischika = Neptune 26:20:12 Vrischika Jyeshta P3
+- 4H Dhanus = EMPTY
+- 5H Makara = Ketu 24:58:08 Makara Dhanishta P1
+- 6H Kumbha = EMPTY
+- 7H Meena = EMPTY
+- 8H Mesha = EMPTY
+- 9H Vrishabha = EMPTY
+- 10H Mithuna = EMPTY
+- 11H Kataka = Venus 7:40:57 Kataka Pushyami P2 / Rahu 24:58:08 Kataka Ashlesha P3
+- 12H Simha = Moon 17:40:15 Simha P.Phalguni P2 / Sun 22:50:15 Simha P.Phalguni P3 / Jupiter 26:12:49 Simha P.Phalguni P4
+
+━━━━━━━━━━━━━━━━━━━━━━━
+D1 RASHI CO-PRESENCE FIELDS — REVALIDATED
+━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_D1_RASHI_KANYA_LAGNA_MERCURY_SATURN_PLUTO_CO_FIELD]
+- Location = D1 Rashi / 1H Kanya
+- Members = Lagna 13°55′35″ / Mercury 4°30′42″ / Saturn 4°52′46″ / Pluto 26°44′21″
+- Member Class = Lagna anchor / Classical Core Mercury-Saturn / Outer Support Pluto
+- Field Type = same-sign mixed cluster
+- Exactness = Mercury-Saturn CORE_EXACT 0°22′04″ / cluster = MIXED_CLUSTER
+- Recomputed Closest Pair = Mercury-Saturn CORE_EXACT 0°22′04″ / cluster = MULTI_MEMBER
+- Source Match = CANONICAL_RASHI_FULL_MATCH
+- Result Change = MEMBERSHIP_UNCHANGED / HOUSE_INDEX_ADDED
+Independent Functions
+  • Lagna = 몸 / 정체성 / 현실 진입점 / 본체 입구
+  • Mercury = 판단 / 문장화 / 분류 / 검수 / 조건 구분
+  • Saturn = 반복 / 책임 / 시간 / 검증 / 기준 유지
+  • Pluto = 세부 통제 / 심층 재구성 / 분석 압력 보조
+
+Mutual Coloring
+  • Lagna는 Mercury/Saturn의 판단·검증 구조를 먹은 현실 본체다.
+  • Mercury는 Saturn의 시간·책임·검증을 먹은 Mercury이다.
+  • Saturn은 Mercury의 문장화·분류·판단을 먹은 Saturn이다.
+  • Pluto는 이 장에 세부 통제와 심층 재구성 압력을 보조로 넣는다.
+- Chart-Specific Role = D1 본체 공동장 / 판단·검수·자기운영·현실 관리 엔진
+- £칸 = D1 01 본체 슬롯 / D1 04 Co-presence 공동장 슬롯 / D1 05 1H Mercury/Saturn 본체 운영 슬롯
+- €칸
+  • D3 = ♤ 실행문법 검증층 / Primary
+  • D24 = ♤ 학습잠금층 / Primary
+  • D30 = ▲ 판단오염 검증층 / Secondary
+  • 연결이유 = Mercury/Saturn 본체가 실행문법·학습체화·오염검증으로 반복되기 때문
+- Reality Rule = 느낌이 아니라 기준표와 문장으로 현실을 다루고, 검수 없는 실행은 허용하지 않는다.
+
+[HYEWON_D1_RASHI_THULA_MARS_URANUS_CO_FIELD]
+- Location = D1 Rashi / 2H Thula
+- Members = Mars 13°27′44″ / Uranus 28°36′58″
+- Member Class = Classical Core Mars / Outer Support Uranus
+- Field Type = same-sign resource-response cluster
+- Exactness = WIDE 15°09′14″
+- Recomputed Closest Pair = Mars-Uranus WIDE 15°09′14″ / cluster = PAIR
+- Source Match = CANONICAL_RASHI_FULL_MATCH
+- Result Change = MEMBERSHIP_UNCHANGED / HOUSE_INDEX_ADDED
+Independent Functions
+  • Mars = 행동 / 자원방어 / 말의 칼날 / 손실 대응
+  • Uranus = 급반응 / 변동성 / 돌발 전환 보조
+
+Mutual Coloring
+  • Mars는 Uranus의 급반응과 변동성을 먹은 Mars이다.
+  • Uranus는 Mars의 행동압력과 자원방어 신호를 먹은 Uranus이다.
+  • 따라서 이 공동장은 말·돈·자원에서 빠른 반응을 만들지만, 기준 없이 켜지면 손실 변동성이 커진다.
+- Chart-Specific Role = D1 자원반응 공동장 / 말·돈·자원 방어의 변동성
+- £칸 = D1 04 Co-presence 공동장 슬롯 / D1 07 2H Mars 자원/말 슬롯 / D1 19 위기/손실방어 슬롯
+- €칸
+  • D2 = ◇ 출력장/트레이딩 자본층 / Primary
+  • D8 = ▲ 위기대응층 / Secondary
+  • D27 = ▲ 실전강도층 / Secondary
+  • 연결이유 = 자원 방어와 급반응이 돈 출력·위기 대응·압력 속 행동으로 번역되기 때문
+- Reality Rule = 말과 돈은 반사적으로 움직이지 말고, 기준선과 손절선이 있을 때만 반응한다.
+
+[HYEWON_D1_RASHI_KATAKA_VENUS_RAHU_CO_FIELD]
+- Location = D1 Rashi / 11H Kataka
+- Members = Venus 7°40′57″ / Rahu 24°58′08″
+- Member Class = Classical Core Venus / Node Layer Rahu
+- Field Type = same-sign gain cluster
+- Exactness = WIDE 17°17′11″
+- Recomputed Closest Pair = Venus-Rahu WIDE 17°17′11″ / cluster = PAIR
+- Source Match = CANONICAL_RASHI_FULL_MATCH
+- Result Change = MEMBERSHIP_UNCHANGED / HOUSE_INDEX_ADDED
+Independent Functions
+  • Venus = 가치 / 관계형 수익 / 보상 / 창조 산출
+  • Rahu = 확장 욕망 / 외부망 / 과열 / 보호욕 증폭
+
+Mutual Coloring
+  • Venus는 Rahu의 확장욕과 외부망을 먹은 Venus이다.
+  • Rahu는 Venus의 가치·보상·관계욕을 먹은 Rahu이다.
+  • 따라서 이 공동장은 성과와 보호욕을 키우지만, 회수 전 과열을 함께 만든다.
+- Chart-Specific Role = D1 성과망 공동장 / 보호욕·관계형 수익·외부 확장
+- £칸 = D1 04 Co-presence 공동장 슬롯 / D1 09 11H Venus/Rahu 수익망 슬롯 / D1 15 돈 슬롯
+- €칸
+  • D2 = ◇ 돈그릇/회수층 / Primary
+  • D11 = ◇ gains 회수층 / Primary
+  • D16 = ☆ 생활안락 귀속층 / Secondary
+  • 연결이유 = 성과망과 보호욕이 수익회수와 생활귀속으로 이어지기 때문
+- Reality Rule = 성과욕은 허용하되, 회수 후 금고화하지 않는 확장은 금지한다.
+
+[HYEWON_D1_RASHI_SIMHA_MOON_SUN_JUPITER_CO_FIELD]
+- Location = D1 Rashi / 12H Simha
+- Members = Moon 17°40′15″ / Sun 22°50′15″ / Jupiter 26°12′49″
+- Member Class = Classical Core Moon-Sun-Jupiter
+- Field Type = same-sign authority cluster
+- Exactness = Moon-Sun STRONG_FUNCTIONAL 5°10′00″ / Sun-Jupiter STRONG_FUNCTIONAL 3°22′34″
+- Recomputed Closest Pair = Sun-Jupiter STRONG_FUNCTIONAL 3°22′34″ / cluster = MULTI_MEMBER
+- Source Match = CANONICAL_RASHI_FULL_MATCH
+- Result Change = MEMBERSHIP_UNCHANGED / HOUSE_INDEX_ADDED
+Independent Functions
+  • Moon = 정서 반응 / 체감 현실 / 보호감 / 내면 감정
+  • Sun = 실행권 / 중심성 / 자존 / 공식성
+  • Jupiter = 방향권 / 의미화 / 원리 / 보호 확장
+
+Mutual Coloring
+  • Moon은 Sun의 자존과 Jupiter의 의미를 먹은 Moon이다.
+  • Sun은 Moon의 정서와 Jupiter의 방향성을 먹은 Sun이다.
+  • Jupiter는 Moon의 체감과 Sun의 중심성을 먹은 Jupiter이다.
+  • 따라서 이 공동장은 감정·자존·의미가 배후에서 함께 타는 권한장이다.
+- Chart-Specific Role = D1 배후권한 공동장 / 정서·실행권·방향권의 숨은 중심
+- £칸 = D1 04 Co-presence 공동장 슬롯 / D1 06 12H Simha 군집 슬롯 / D1 21 방향/Karakamsha 슬롯
+- €칸
+  • D9 = ○ 내면관계 성숙층 / Secondary
+  • D20 = ♧ 수행·내면보호층 / Primary
+  • D60 = ▲ 근원 반복 해석층 / Secondary
+  • 연결이유 = Moon/Sun/Jupiter 배후권한이 관계 성숙·수행·근원 의미층으로 이어지기 때문
+- Reality Rule = 배후 소모를 방치하지 말고, 의미 과부하를 루틴·문서·수행 구조로 회수해야 한다.
+
+D1 OPERATING NOTE
+- D1은 본체층이므로 공동장 하나하나가 독립 주제처럼 흩어지지 않게 1H Kanya 본체장을 최상위로 둔다.
+- 12H Simha 군집은 배후권한층, 11H Kataka는 성과망층, 2H Thula는 자원반응층으로 분리해 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+D1 BHAVA CANONICAL DATA INPUT
+━━━━━━━━━━━━━━━━━━━━━━━
+- Source = 01_2AB_Bhava_Sc_
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- House Distribution Status = PASS / SOURCE_VALUE_VALIDATED
+- Wheel Snapshot Status = PARTIAL_ONLY / NON_AUTHORITY_FOR_CO_FIELD
+- Data Role = ACTIVE_CANONICAL_BHAVA_12H
+Visible House Distribution
+- 1H = Lagna / Mercury / Saturn
+- 2H = Mars
+- 3H = Maandi/Md SUPPORT_ONLY
+- 4H = EMPTY
+- 5H = Ketu
+- 6H = EMPTY
+- 7H = EMPTY
+- 8H = EMPTY
+- 9H = EMPTY
+- 10H = EMPTY
+- 11H = Venus / Rahu
+- 12H = Sun / Moon / Jupiter
+
+━━━━━━━━━━━━━━━━━━━━━━━
+D1 BHAVA CO-PRESENCE FIELDS — RECOMPUTED
+━━━━━━━━━━━━━━━━━━━━━━━
+Chart Role = 본체/현실몸통
+Field Source Grade = BHAVA_HOUSE_DISTRIBUTION_FIELD / SOURCE_VALUE_VALIDATED
+
+[HYEWON_D1_BHAVA_1H_LAGNA_MERCURY_SATURN_CO_FIELD]
+- Location = D1 Bhava / 1H
+- Source Grade = BHAVA_HOUSE_DISTRIBUTION_FIELD / SOURCE_VALUE_VALIDATED
+- Members = Lagna 13°55′35″ / Mercury 4°30′42″ / Saturn 4°52′46″
+- Member Class = Point Layer Lagna / Classical Core Mercury-Saturn
+- Field Type = same-house co-presence
+- Exactness = Mercury-Saturn CORE_EXACT 0°22′04″ / cluster = MULTI_MEMBER
+- Source Match = CANONICAL_BHAVA_HOUSE_DISTRIBUTION_MATCH
+- Result Change = MEMBERSHIP_UNCHANGED
+Independent Functions
+  • Lagna = 본체 입구 / 현실 진입점
+  • Mercury = 말 / 문서 / 판단 / 분류
+  • Saturn = 책임 / 시간 / 검증 / 반복
+Mutual Coloring
+  • 이 장의 구성원들은 단독 기능으로만 작동하지 않고, 같은 브하 기능장 안에서 서로의 기능을 먹은 상태로 작동한다.
+  • 이 장은 SOURCE_VALUE_VALIDATED house distribution 기준의 확정 브하 공동장이다.
+- Chart-Specific Role = D1 Bhava 본체/현실몸통 공동장
+- £칸 = D1 Bhava native slot / D1 Bhava Co-presence 공동장 슬롯 / 본체/현실몸통
+- €칸
+  • D1 Rashi co-field / same-D sign-field comparison = Reference
+  • D1 Bhava source layer / house-function validation = Primary
+  • 연결이유 = 브하 공동장은 같은 D차트 라시 원본장을 대체하지 않고 현실 house-function 또는 SOURCE_VALUE_VALIDATED house-function 작동장으로 붙어야 하기 때문
+- Reality Rule = 본체/현실몸통은 브하 현실 작동장 기준으로 운용하되, 라시 원본장을 덮어쓰지 않는다.
+
+[HYEWON_D1_BHAVA_11H_VENUS_RAHU_CO_FIELD]
+- Location = D1 Bhava / 11H
+- Source Grade = BHAVA_HOUSE_DISTRIBUTION_FIELD / SOURCE_VALUE_VALIDATED
+- Members = Venus 7°40′57″ / Rahu 24°58′08″
+- Member Class = Classical Core Venus / Node Layer Rahu
+- Field Type = same-house co-presence
+- Exactness = Venus-Rahu WIDE 17°17′11″ / cluster = PAIR
+- Source Match = CANONICAL_BHAVA_HOUSE_DISTRIBUTION_MATCH
+- Result Change = MEMBERSHIP_UNCHANGED
+Independent Functions
+  • Venus = 가치 / 관계 / 미감 / 산출
+  • Rahu = 증폭 / 욕망 / 비표준 / 과열
+Mutual Coloring
+  • Venus는 Rahu의 장을 먹은 Venus이다.
+  • Rahu는 Venus의 장을 먹은 Rahu이다.
+  • 노드층 Rahu은 증폭·절단·비표준화 압력을 넣는다.
+  • 이 장은 SOURCE_VALUE_VALIDATED house distribution 기준의 확정 브하 공동장이다.
+- Chart-Specific Role = D1 Bhava 본체/현실몸통 공동장
+- £칸 = D1 Bhava native slot / D1 Bhava Co-presence 공동장 슬롯 / 본체/현실몸통
+- €칸
+  • D1 Rashi co-field / same-D sign-field comparison = Reference
+  • D1 Bhava source layer / house-function validation = Primary
+  • 연결이유 = 브하 공동장은 같은 D차트 라시 원본장을 대체하지 않고 현실 house-function 또는 SOURCE_VALUE_VALIDATED house-function 작동장으로 붙어야 하기 때문
+- Reality Rule = 본체/현실몸통은 브하 현실 작동장 기준으로 운용하되, 라시 원본장을 덮어쓰지 않는다.
+
+[HYEWON_D1_BHAVA_12H_SUN_MOON_JUPITER_CO_FIELD]
+- Location = D1 Bhava / 12H
+- Source Grade = BHAVA_HOUSE_DISTRIBUTION_FIELD / SOURCE_VALUE_VALIDATED
+- Members = Sun 22°50′15″ / Moon 17°40′15″ / Jupiter 26°12′49″
+- Member Class = Classical Core Sun-Moon-Jupiter
+- Field Type = same-house co-presence
+- Exactness = Sun-Jupiter STRONG_FUNCTIONAL 3°22′34″ / cluster = MULTI_MEMBER
+- Source Match = CANONICAL_BHAVA_HOUSE_DISTRIBUTION_MATCH
+- Result Change = MEMBERSHIP_UNCHANGED
+Independent Functions
+  • Sun = 실행권 / 권위 / 중심 / 자존
+  • Moon = 감정 / 체감 / 반응 / 보호감
+  • Jupiter = 방향 / 의미 / 원리 / 확장
+Mutual Coloring
+  • 이 장의 구성원들은 단독 기능으로만 작동하지 않고, 같은 브하 기능장 안에서 서로의 기능을 먹은 상태로 작동한다.
+  • 이 장은 SOURCE_VALUE_VALIDATED house distribution 기준의 확정 브하 공동장이다.
+- Chart-Specific Role = D1 Bhava 본체/현실몸통 공동장
+- £칸 = D1 Bhava native slot / D1 Bhava Co-presence 공동장 슬롯 / 본체/현실몸통
+- €칸
+  • D1 Rashi co-field / same-D sign-field comparison = Reference
+  • D1 Bhava source layer / house-function validation = Primary
+  • 연결이유 = 브하 공동장은 같은 D차트 라시 원본장을 대체하지 않고 현실 house-function 또는 SOURCE_VALUE_VALIDATED house-function 작동장으로 붙어야 하기 때문
+- Reality Rule = 본체/현실몸통은 브하 현실 작동장 기준으로 운용하되, 라시 원본장을 덮어쓰지 않는다.
+
+D1 BHAVA SINGLE FIELD / NOT CO-PRESENCE
+- 2H Mars 13°27′44″ Thula = single SOURCE_VALUE_VALIDATED marker / 공동장 생성 대상 아님 / 단독 작동축
+- 5H Ketu 24°58′08″ Makara = single SOURCE_VALUE_VALIDATED marker / 공동장 생성 대상 아님 / 단독 작동축
+D1 BHAVA SUPPORT-ONLY FIELD
+- 3H Maandi/Md = SUPPORT_ONLY / 공동장 핵심 구성원 아님 / 독립 도수·나크·로드 추정 금지
+
+D1 BHAVA OPERATING NOTE
+- Active 공동장 판정은 Visible House Distribution만 사용한다.
+- PARTIAL_ONLY wheel snapshot의 BOX/Sector 위치는 공동장 확정값으로 사용하지 않는다.
+- Maandi/Md는 SUPPORT_ONLY로 유지하며 단독 행성과의 결합만으로 공동장을 만들지 않는다.
+- Rashi 공동장을 덮어쓰지 않고 same-D reference로만 병렬 보관한다.
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━
+VOIDED PREVIOUS BHAVA SNAPSHOT RECORDS
+━━━━━━━━━━━━━━━━━━━━━━━
+- 아래 기록은 삭제하지 않는다.
+- 이전 CO2_99 안의 PARTIAL_ONLY BOX/Sector 기반 기록을 원문 보존한다.
+- Active 공동장 또는 active single-field 판정 권한은 없다.
+- STATUS = VOID_NOT_ACTIVE / HISTORICAL_PRESERVE_ONLY
+
+━━━━━━━━━━━━━━━━━━━━━━━
+D1 PREVIOUS BHAVA SNAPSHOT VOID RECORD
+━━━━━━━━━━━━━━━━━━━━━━━
+PREVIOUS SINGLE-FIELD INDEX — VOID REFERENCE
+D1 SINGLE FIELD / NOT CO-PRESENCE
+- 2H Mars = single visible marker / 공동장 생성 대상 아님 / 필요 시 단독 작동축으로만 사용
+- 5H Ketu = single visible marker / 공동장 생성 대상 아님 / 필요 시 단독 작동축으로만 사용
+- VOID VERDICT = BOX/SECTOR INDEX REPLACED BY CANONICAL HOUSE SINGLE-FIELD INDEX
+
+━━━━━━━━━━━━━━━━━━━━━━━
+D1 SPLIT VALIDATION
+━━━━━━━━━━━━━━━━━━━━━━━
+- D-set member = D1
+- Rashi canonical data section = PASS
+- Bhava canonical data section = PASS
+- D-specific active co-field section = PASS
+- D-specific previous Bhava VOID record = PRESERVED
+- Source text inside extracted blocks = UNCHANGED
+- Final Verdict Check = PASS
+
+CONTENT END
+━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_D1_RASHI_BHAVA_CO_PRESENCE_CANONICAL_SPLIT_FINAL
+INDEX=MASTER_CHARTS > HYEWON > NATAL > CO_PRESENCE_FIELD > RASHI_BHAVA_PAIR > D1 > CANONICAL_SPLIT_FINAL
+STATUS=CANONICAL_D_MEMBER_SPLIT_FINAL_LOCK_READY
+━━━━━━━━━━━━━━━━━━━━━━━

@@ -1,0 +1,1425 @@
+04B.TARGET_DCHART_RASHI_BHAVA_12H_CO_PRESENCE_SLOT_TEMPLATE_98_REVISED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TARGET D-CHART RASHI-BHAVA 12H CO-PRESENCE SLOT
+Target Rashi 12 House + Target Bhava 12 House + Target Rashi↔Bhava Comparison 12 House
+REVISED 98 STRUCTURE-FIRST / CO-PRESENCE ONLY
+━━━━━━━━━━━━━━━━━━━━━━━━━
+SOURCE BASIS
+- Base File = <SUBJECT_CODE>_<D_CHART_TAG>_CO_PRESENCE_SOURCE_TEMPLATE / TARGET_DCHART_NATIVE_RASHI_BHAVA_SOURCE
+- Role = Target D-chart Co-presence Check Slot Template
+- Expansion = Rashi 1H~12H slot + Bhava 1H~12H slot + Rashi↔Bhava comparison slot
+- Purpose = Target D-chart 안의 같은 sign / 같은 house 공동장을 읽고, Target Bhava에서 유지/분리/재기능화 여부를 확인한다.
+- Boundary = Co-presence structure only / no interpretation expansion
+- Not Applied = Strength / Aspect / Dasha / Arudha / AVA / Bhinna / Ashta / Mrityu
+- No Function Words = 유지
+- No Reality Translation = 유지
+━━━━━━━━━━━━━━━━━━━━━━━━━
+0. SOURCE / STATUS SLOT
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Subject Code》 = <SUBJECT_CODE>
+- 《Target D-chart》 = <D_CHART_TAG>
+- 《Target Rashi Source Dataset》 = <SUBJECT_CODE>_<D_CHART_TAG>_RASHI_<SOURCE_TAG>_MASTER_BASELINE_DATASET
+- 《Target Bhava Source Dataset》 = <SUBJECT_CODE>_<D_CHART_TAG>_BHAVA_<BHAVA_SYSTEM>_<SOURCE_TAG>_MASTER_BASELINE_DATASET
+- 《Source Type》 = <USER_TEXT_BLOCK / SCREENSHOT_ONLY / SCREENSHOT_PLUS_TEXT / DERIVED / NOT_SHOWN>
+- 《Source Confidence》 = <VISIBLE / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Target Layer》 = Target Rashi + Target Bhava
+- 《Use Boundary》 = Co-presence structure only / no interpretation expansion
+━━━━━━━━━━━━━━━━━━━━━━━━━
+0-1. CORE RULE
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- Rashi 공동장은 원본 구조다.
+- Bhava 공동장은 현실 house-function 적용층에서 공동장이 유지되는지 확인하는 보정층이다.
+- 공동장은 “같이 있다”로 쓰지 않는다.
+- 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 압축하는지 작성한다.
+- 각 행성의 독립 기능과 상호착색을 분리한다.
+- Bhava에서 공동장이 유지되는지 / 분리되는지 / 부분 유지되는지 / 재기능화되는지 반드시 다시 확인한다.
+- 단일 행성은 공동장으로 쓰지 않는다.
+- 빈 하우스는 공동장 없음 / Lord-only operation으로 넘긴다.
+- 기능어 사용 금지.
+- 현실 언어 번역 금지.
+- 강도층 / Aspect / Dasha 적용 금지
+- Target D-chart 공동장은 D1 본체 공동장을 대체하지 않는다.
+- D1은 이 파일에서 Promise 기준층으로만 연결될 수 있으며, Target Rashi/Bhava source를 덮어쓰지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. RASHI 1H~12H CO-PRESENCE SLOTS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-1H. RASHI CO-PRESENCE SLOT
+1H Rashi 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 1H
+- 《Rashi House Function》 = 본체 입구 / 몸 / 자기작동 / 현실 진입
+- 《Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Co-presence Status》 = <CO-PRESENCE / SINGLE / EMPTY / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+RASHI PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Distance》 = <TIGHT / FUNCTIONAL / LOOSE / NOT_APPLICABLE>
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+HOUSE LORD
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Movement》 = 1H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT / NOT_SHOWN>
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- “같이 있다”로 쓰지 않는다.
+- 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 압축하는지 작성한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-2H. RASHI CO-PRESENCE SLOT
+2H Rashi 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 2H
+- 《Rashi House Function》 = 자원 / 말값 / 보유 / 금고 / 가족 장부
+- 《Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Co-presence Status》 = <CO-PRESENCE / SINGLE / EMPTY / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+RASHI PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Distance》 = <TIGHT / FUNCTIONAL / LOOSE / NOT_APPLICABLE>
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+HOUSE LORD
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Movement》 = 2H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT / NOT_SHOWN>
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- “같이 있다”로 쓰지 않는다.
+- 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 압축하는지 작성한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-3H. RASHI CO-PRESENCE SLOT
+3H Rashi 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 3H
+- 《Rashi House Function》 = 말 / 기록 / 연락 / 손발 / 작은 실행
+- 《Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Co-presence Status》 = <CO-PRESENCE / SINGLE / EMPTY / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+RASHI PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Distance》 = <TIGHT / FUNCTIONAL / LOOSE / NOT_APPLICABLE>
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+HOUSE LORD
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Movement》 = 3H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT / NOT_SHOWN>
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- “같이 있다”로 쓰지 않는다.
+- 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 압축하는지 작성한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-4H. RASHI CO-PRESENCE SLOT
+4H Rashi 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 4H
+- 《Rashi House Function》 = 집 / 기반 / 내면 바닥 / 정착 / 안정
+- 《Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Co-presence Status》 = <CO-PRESENCE / SINGLE / EMPTY / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+RASHI PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Distance》 = <TIGHT / FUNCTIONAL / LOOSE / NOT_APPLICABLE>
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+HOUSE LORD
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Movement》 = 4H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT / NOT_SHOWN>
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- “같이 있다”로 쓰지 않는다.
+- 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 압축하는지 작성한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-5H. RASHI CO-PRESENCE SLOT
+5H Rashi 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 5H
+- 《Rashi House Function》 = 판단 / 창조 / 선택 / 투입 / 전략
+- 《Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Co-presence Status》 = <CO-PRESENCE / SINGLE / EMPTY / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+RASHI PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Distance》 = <TIGHT / FUNCTIONAL / LOOSE / NOT_APPLICABLE>
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+HOUSE LORD
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Movement》 = 5H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT / NOT_SHOWN>
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- “같이 있다”로 쓰지 않는다.
+- 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 압축하는지 작성한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-6H. RASHI CO-PRESENCE SLOT
+6H Rashi 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 6H
+- 《Rashi House Function》 = 문제처리 / 반복부담 / 실무 / 손실방어
+- 《Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Co-presence Status》 = <CO-PRESENCE / SINGLE / EMPTY / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+RASHI PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Distance》 = <TIGHT / FUNCTIONAL / LOOSE / NOT_APPLICABLE>
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+HOUSE LORD
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Movement》 = 6H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT / NOT_SHOWN>
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- “같이 있다”로 쓰지 않는다.
+- 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 압축하는지 작성한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-7H. RASHI CO-PRESENCE SLOT
+7H Rashi 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 7H
+- 《Rashi House Function》 = 대면 / 상대 / 계약 / 외부 반응 / 검증자
+- 《Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Co-presence Status》 = <CO-PRESENCE / SINGLE / EMPTY / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+RASHI PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Distance》 = <TIGHT / FUNCTIONAL / LOOSE / NOT_APPLICABLE>
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+HOUSE LORD
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Movement》 = 7H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT / NOT_SHOWN>
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- “같이 있다”로 쓰지 않는다.
+- 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 압축하는지 작성한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-8H. RASHI CO-PRESENCE SLOT
+8H Rashi 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 8H
+- 《Rashi House Function》 = 숨은 장부 / 위기 / 공유책임 / 손실 / 전환
+- 《Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Co-presence Status》 = <CO-PRESENCE / SINGLE / EMPTY / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+RASHI PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Distance》 = <TIGHT / FUNCTIONAL / LOOSE / NOT_APPLICABLE>
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+HOUSE LORD
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Movement》 = 8H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT / NOT_SHOWN>
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- “같이 있다”로 쓰지 않는다.
+- 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 압축하는지 작성한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-9H. RASHI CO-PRESENCE SLOT
+9H Rashi 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 9H
+- 《Rashi House Function》 = 법전 / 상위 기준 / 명분 / 방향 / 다르마
+- 《Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Co-presence Status》 = <CO-PRESENCE / SINGLE / EMPTY / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+RASHI PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Distance》 = <TIGHT / FUNCTIONAL / LOOSE / NOT_APPLICABLE>
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+HOUSE LORD
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Movement》 = 9H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT / NOT_SHOWN>
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- “같이 있다”로 쓰지 않는다.
+- 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 압축하는지 작성한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-10H. RASHI CO-PRESENCE SLOT
+10H Rashi 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 10H
+- 《Rashi House Function》 = 현실 출력 / 역할 / 결과물 / 공적 작동
+- 《Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Co-presence Status》 = <CO-PRESENCE / SINGLE / EMPTY / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+RASHI PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Distance》 = <TIGHT / FUNCTIONAL / LOOSE / NOT_APPLICABLE>
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+HOUSE LORD
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Movement》 = 10H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT / NOT_SHOWN>
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- “같이 있다”로 쓰지 않는다.
+- 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 압축하는지 작성한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-11H. RASHI CO-PRESENCE SLOT
+11H Rashi 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 11H
+- 《Rashi House Function》 = 회수 / 성과 / 보상 / 귀속 / 네트워크
+- 《Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Co-presence Status》 = <CO-PRESENCE / SINGLE / EMPTY / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+RASHI PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Distance》 = <TIGHT / FUNCTIONAL / LOOSE / NOT_APPLICABLE>
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+HOUSE LORD
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Movement》 = 11H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT / NOT_SHOWN>
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- “같이 있다”로 쓰지 않는다.
+- 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 압축하는지 작성한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-12H. RASHI CO-PRESENCE SLOT
+12H Rashi 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 12H
+- 《Rashi House Function》 = 배후소모 / 누수 / 퇴장 / 해소 / 숨은 비용
+- 《Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Co-presence Status》 = <CO-PRESENCE / SINGLE / EMPTY / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+RASHI PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Distance》 = <TIGHT / FUNCTIONAL / LOOSE / NOT_APPLICABLE>
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION / NOT_SHOWN>
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+HOUSE LORD
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Movement》 = 12H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT / NOT_SHOWN>
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- “같이 있다”로 쓰지 않는다.
+- 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 압축하는지 작성한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2. BHAVA 1H~12H CO-PRESENCE SLOTS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-1H. BHAVA CO-PRESENCE SLOT
+1H Bhava 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 1H
+- 《Bhava House Function》 = 본체 입구 / 몸 / 자기작동 / 현실 진입
+- 《Bhava Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Bhava Placement Source》 = <BHAVA_SCREEN / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet B》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet C》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET → BHAVA_HOUSE / NONE>
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = <RASHI_HOUSE / SIGN / PLANET_CLUSTER / DEGREE_ORDER / GAP / NOT_SHOWN>
+- 《Rashi Cluster Status in Bhava》 = <MAINTAINED / SPLIT / PARTIAL / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+- 《Bhava Gap》 = <A-B GAP / B-C GAP / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet B Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet C Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = <Bhava 적용층에서 앞 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Bhava B → C》 = <Bhava 적용층에서 중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Bhava Final Compression》 = <Bhava 적용층에서 뒤도수 행성이 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+BHAVA OUTPUT NOTE
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- Rashi 공동장이 Bhava에서 유지되는지 / 분리되는지 / 재기능화되는지 확인한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-2H. BHAVA CO-PRESENCE SLOT
+2H Bhava 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 2H
+- 《Bhava House Function》 = 자원 / 말값 / 보유 / 금고 / 가족 장부
+- 《Bhava Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Bhava Placement Source》 = <BHAVA_SCREEN / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet B》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet C》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET → BHAVA_HOUSE / NONE>
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = <RASHI_HOUSE / SIGN / PLANET_CLUSTER / DEGREE_ORDER / GAP / NOT_SHOWN>
+- 《Rashi Cluster Status in Bhava》 = <MAINTAINED / SPLIT / PARTIAL / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+- 《Bhava Gap》 = <A-B GAP / B-C GAP / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet B Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet C Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = <Bhava 적용층에서 앞 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Bhava B → C》 = <Bhava 적용층에서 중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Bhava Final Compression》 = <Bhava 적용층에서 뒤도수 행성이 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+BHAVA OUTPUT NOTE
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- Rashi 공동장이 Bhava에서 유지되는지 / 분리되는지 / 재기능화되는지 확인한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-3H. BHAVA CO-PRESENCE SLOT
+3H Bhava 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 3H
+- 《Bhava House Function》 = 말 / 기록 / 연락 / 손발 / 작은 실행
+- 《Bhava Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Bhava Placement Source》 = <BHAVA_SCREEN / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet B》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet C》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET → BHAVA_HOUSE / NONE>
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = <RASHI_HOUSE / SIGN / PLANET_CLUSTER / DEGREE_ORDER / GAP / NOT_SHOWN>
+- 《Rashi Cluster Status in Bhava》 = <MAINTAINED / SPLIT / PARTIAL / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+- 《Bhava Gap》 = <A-B GAP / B-C GAP / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet B Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet C Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = <Bhava 적용층에서 앞 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Bhava B → C》 = <Bhava 적용층에서 중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Bhava Final Compression》 = <Bhava 적용층에서 뒤도수 행성이 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+BHAVA OUTPUT NOTE
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- Rashi 공동장이 Bhava에서 유지되는지 / 분리되는지 / 재기능화되는지 확인한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-4H. BHAVA CO-PRESENCE SLOT
+4H Bhava 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 4H
+- 《Bhava House Function》 = 집 / 기반 / 내면 바닥 / 정착 / 안정
+- 《Bhava Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Bhava Placement Source》 = <BHAVA_SCREEN / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet B》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet C》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET → BHAVA_HOUSE / NONE>
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = <RASHI_HOUSE / SIGN / PLANET_CLUSTER / DEGREE_ORDER / GAP / NOT_SHOWN>
+- 《Rashi Cluster Status in Bhava》 = <MAINTAINED / SPLIT / PARTIAL / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+- 《Bhava Gap》 = <A-B GAP / B-C GAP / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet B Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet C Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = <Bhava 적용층에서 앞 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Bhava B → C》 = <Bhava 적용층에서 중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Bhava Final Compression》 = <Bhava 적용층에서 뒤도수 행성이 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+BHAVA OUTPUT NOTE
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- Rashi 공동장이 Bhava에서 유지되는지 / 분리되는지 / 재기능화되는지 확인한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-5H. BHAVA CO-PRESENCE SLOT
+5H Bhava 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 5H
+- 《Bhava House Function》 = 판단 / 창조 / 선택 / 투입 / 전략
+- 《Bhava Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Bhava Placement Source》 = <BHAVA_SCREEN / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet B》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet C》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET → BHAVA_HOUSE / NONE>
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = <RASHI_HOUSE / SIGN / PLANET_CLUSTER / DEGREE_ORDER / GAP / NOT_SHOWN>
+- 《Rashi Cluster Status in Bhava》 = <MAINTAINED / SPLIT / PARTIAL / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+- 《Bhava Gap》 = <A-B GAP / B-C GAP / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet B Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet C Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = <Bhava 적용층에서 앞 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Bhava B → C》 = <Bhava 적용층에서 중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Bhava Final Compression》 = <Bhava 적용층에서 뒤도수 행성이 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+BHAVA OUTPUT NOTE
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- Rashi 공동장이 Bhava에서 유지되는지 / 분리되는지 / 재기능화되는지 확인한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-6H. BHAVA CO-PRESENCE SLOT
+6H Bhava 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 6H
+- 《Bhava House Function》 = 문제처리 / 반복부담 / 실무 / 손실방어
+- 《Bhava Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Bhava Placement Source》 = <BHAVA_SCREEN / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet B》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet C》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET → BHAVA_HOUSE / NONE>
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = <RASHI_HOUSE / SIGN / PLANET_CLUSTER / DEGREE_ORDER / GAP / NOT_SHOWN>
+- 《Rashi Cluster Status in Bhava》 = <MAINTAINED / SPLIT / PARTIAL / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+- 《Bhava Gap》 = <A-B GAP / B-C GAP / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet B Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet C Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = <Bhava 적용층에서 앞 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Bhava B → C》 = <Bhava 적용층에서 중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Bhava Final Compression》 = <Bhava 적용층에서 뒤도수 행성이 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+BHAVA OUTPUT NOTE
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- Rashi 공동장이 Bhava에서 유지되는지 / 분리되는지 / 재기능화되는지 확인한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-7H. BHAVA CO-PRESENCE SLOT
+7H Bhava 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 7H
+- 《Bhava House Function》 = 대면 / 상대 / 계약 / 외부 반응 / 검증자
+- 《Bhava Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Bhava Placement Source》 = <BHAVA_SCREEN / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet B》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet C》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET → BHAVA_HOUSE / NONE>
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = <RASHI_HOUSE / SIGN / PLANET_CLUSTER / DEGREE_ORDER / GAP / NOT_SHOWN>
+- 《Rashi Cluster Status in Bhava》 = <MAINTAINED / SPLIT / PARTIAL / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+- 《Bhava Gap》 = <A-B GAP / B-C GAP / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet B Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet C Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = <Bhava 적용층에서 앞 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Bhava B → C》 = <Bhava 적용층에서 중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Bhava Final Compression》 = <Bhava 적용층에서 뒤도수 행성이 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+BHAVA OUTPUT NOTE
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- Rashi 공동장이 Bhava에서 유지되는지 / 분리되는지 / 재기능화되는지 확인한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-8H. BHAVA CO-PRESENCE SLOT
+8H Bhava 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 8H
+- 《Bhava House Function》 = 숨은 장부 / 위기 / 공유책임 / 손실 / 전환
+- 《Bhava Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Bhava Placement Source》 = <BHAVA_SCREEN / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet B》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet C》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET → BHAVA_HOUSE / NONE>
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = <RASHI_HOUSE / SIGN / PLANET_CLUSTER / DEGREE_ORDER / GAP / NOT_SHOWN>
+- 《Rashi Cluster Status in Bhava》 = <MAINTAINED / SPLIT / PARTIAL / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+- 《Bhava Gap》 = <A-B GAP / B-C GAP / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet B Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet C Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = <Bhava 적용층에서 앞 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Bhava B → C》 = <Bhava 적용층에서 중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Bhava Final Compression》 = <Bhava 적용층에서 뒤도수 행성이 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+BHAVA OUTPUT NOTE
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- Rashi 공동장이 Bhava에서 유지되는지 / 분리되는지 / 재기능화되는지 확인한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-9H. BHAVA CO-PRESENCE SLOT
+9H Bhava 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 9H
+- 《Bhava House Function》 = 법전 / 상위 기준 / 명분 / 방향 / 다르마
+- 《Bhava Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Bhava Placement Source》 = <BHAVA_SCREEN / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet B》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet C》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET → BHAVA_HOUSE / NONE>
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = <RASHI_HOUSE / SIGN / PLANET_CLUSTER / DEGREE_ORDER / GAP / NOT_SHOWN>
+- 《Rashi Cluster Status in Bhava》 = <MAINTAINED / SPLIT / PARTIAL / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+- 《Bhava Gap》 = <A-B GAP / B-C GAP / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet B Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet C Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = <Bhava 적용층에서 앞 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Bhava B → C》 = <Bhava 적용층에서 중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Bhava Final Compression》 = <Bhava 적용층에서 뒤도수 행성이 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+BHAVA OUTPUT NOTE
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- Rashi 공동장이 Bhava에서 유지되는지 / 분리되는지 / 재기능화되는지 확인한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-10H. BHAVA CO-PRESENCE SLOT
+10H Bhava 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 10H
+- 《Bhava House Function》 = 현실 출력 / 역할 / 결과물 / 공적 작동
+- 《Bhava Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Bhava Placement Source》 = <BHAVA_SCREEN / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet B》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet C》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET → BHAVA_HOUSE / NONE>
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = <RASHI_HOUSE / SIGN / PLANET_CLUSTER / DEGREE_ORDER / GAP / NOT_SHOWN>
+- 《Rashi Cluster Status in Bhava》 = <MAINTAINED / SPLIT / PARTIAL / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+- 《Bhava Gap》 = <A-B GAP / B-C GAP / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet B Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet C Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = <Bhava 적용층에서 앞 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Bhava B → C》 = <Bhava 적용층에서 중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Bhava Final Compression》 = <Bhava 적용층에서 뒤도수 행성이 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+BHAVA OUTPUT NOTE
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- Rashi 공동장이 Bhava에서 유지되는지 / 분리되는지 / 재기능화되는지 확인한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-11H. BHAVA CO-PRESENCE SLOT
+11H Bhava 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 11H
+- 《Bhava House Function》 = 회수 / 성과 / 보상 / 귀속 / 네트워크
+- 《Bhava Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Bhava Placement Source》 = <BHAVA_SCREEN / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet B》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet C》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET → BHAVA_HOUSE / NONE>
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = <RASHI_HOUSE / SIGN / PLANET_CLUSTER / DEGREE_ORDER / GAP / NOT_SHOWN>
+- 《Rashi Cluster Status in Bhava》 = <MAINTAINED / SPLIT / PARTIAL / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+- 《Bhava Gap》 = <A-B GAP / B-C GAP / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet B Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet C Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = <Bhava 적용층에서 앞 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Bhava B → C》 = <Bhava 적용층에서 중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Bhava Final Compression》 = <Bhava 적용층에서 뒤도수 행성이 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+BHAVA OUTPUT NOTE
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- Rashi 공동장이 Bhava에서 유지되는지 / 분리되는지 / 재기능화되는지 확인한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-12H. BHAVA CO-PRESENCE SLOT
+12H Bhava 공동장 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 12H
+- 《Bhava House Function》 = 배후소모 / 누수 / 퇴장 / 해소 / 숨은 비용
+- 《Bhava Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Bhava Placement Source》 = <BHAVA_SCREEN / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet B》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Planet C》 = <PLANET → BHAVA_HOUSE / DEGREE_IF_SHOWN / NAKSHATRA_PADA_IF_SHOWN / RL-NL-SL-SSL_IF_SHOWN / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET → BHAVA_HOUSE / NONE>
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = <RASHI_HOUSE / SIGN / PLANET_CLUSTER / DEGREE_ORDER / GAP / NOT_SHOWN>
+- 《Rashi Cluster Status in Bhava》 = <MAINTAINED / SPLIT / PARTIAL / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+- 《Bhava Gap》 = <A-B GAP / B-C GAP / SAME_AS_RASHI / NOT_VISIBLE / NOT_APPLICABLE>
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet B Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+- 《Planet C Bhava Function》 = <BHAVA_HOUSE_FUNCTION / NOT_SHOWN>
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = <Bhava 적용층에서 앞 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Bhava B → C》 = <Bhava 적용층에서 중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Bhava Final Compression》 = <Bhava 적용층에서 뒤도수 행성이 공동장을 어떻게 압축·봉인하는가 / NOT_SHOWN>
+BHAVA OUTPUT NOTE
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- Rashi 공동장이 Bhava에서 유지되는지 / 분리되는지 / 재기능화되는지 확인한다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+3. RASHI ↔ BHAVA 1H~12H CO-PRESENCE COMPARISON SLOTS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-1H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+1H Rashi-Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target House》 = 1H
+- 《House Function》 = 본체 입구 / 몸 / 자기작동 / 현실 진입
+RASHI SUMMARY
+- 《Rashi Co-presence》 = <HOUSE / SIGN / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Rashi Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Rashi Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Rashi Operation》 = <원본 공동장이 무엇을 열고 무엇으로 압축하는가 / NOT_SHOWN>
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = <BHAVA_HOUSE / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Bhava Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Operation》 = <현실 house-function 적용층에서 어떻게 유지·분리·재기능화되는가 / NOT_SHOWN>
+COMPARISON SENTENCE =
+Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인
+□ Bhava Co-presence 확인
+□ Maintained / Split / Partial / Re-functioned 확인
+□ Degree Order 확인
+□ Gap 확인
+□ Nakshatra/Pada 확인
+□ RL-NL-SL-SSL 확인
+□ Independent Function 확인
+□ Mutual Coloring 확인
+□ House Lord / Lord Movement 확인
+□ “같이 있다” 표현 없음
+□ 기능어 미사용
+□ 현실 언어 번역 없음
+□ 강도층 미사용
+□ Aspect 미사용
+□ Dasha 미사용
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-2H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+2H Rashi-Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target House》 = 2H
+- 《House Function》 = 자원 / 말값 / 보유 / 금고 / 가족 장부
+RASHI SUMMARY
+- 《Rashi Co-presence》 = <HOUSE / SIGN / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Rashi Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Rashi Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Rashi Operation》 = <원본 공동장이 무엇을 열고 무엇으로 압축하는가 / NOT_SHOWN>
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = <BHAVA_HOUSE / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Bhava Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Operation》 = <현실 house-function 적용층에서 어떻게 유지·분리·재기능화되는가 / NOT_SHOWN>
+COMPARISON SENTENCE =
+Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인
+□ Bhava Co-presence 확인
+□ Maintained / Split / Partial / Re-functioned 확인
+□ Degree Order 확인
+□ Gap 확인
+□ Nakshatra/Pada 확인
+□ RL-NL-SL-SSL 확인
+□ Independent Function 확인
+□ Mutual Coloring 확인
+□ House Lord / Lord Movement 확인
+□ “같이 있다” 표현 없음
+□ 기능어 미사용
+□ 현실 언어 번역 없음
+□ 강도층 미사용
+□ Aspect 미사용
+□ Dasha 미사용
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-3H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+3H Rashi-Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target House》 = 3H
+- 《House Function》 = 말 / 기록 / 연락 / 손발 / 작은 실행
+RASHI SUMMARY
+- 《Rashi Co-presence》 = <HOUSE / SIGN / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Rashi Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Rashi Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Rashi Operation》 = <원본 공동장이 무엇을 열고 무엇으로 압축하는가 / NOT_SHOWN>
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = <BHAVA_HOUSE / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Bhava Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Operation》 = <현실 house-function 적용층에서 어떻게 유지·분리·재기능화되는가 / NOT_SHOWN>
+COMPARISON SENTENCE =
+Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인
+□ Bhava Co-presence 확인
+□ Maintained / Split / Partial / Re-functioned 확인
+□ Degree Order 확인
+□ Gap 확인
+□ Nakshatra/Pada 확인
+□ RL-NL-SL-SSL 확인
+□ Independent Function 확인
+□ Mutual Coloring 확인
+□ House Lord / Lord Movement 확인
+□ “같이 있다” 표현 없음
+□ 기능어 미사용
+□ 현실 언어 번역 없음
+□ 강도층 미사용
+□ Aspect 미사용
+□ Dasha 미사용
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-4H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+4H Rashi-Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target House》 = 4H
+- 《House Function》 = 집 / 기반 / 내면 바닥 / 정착 / 안정
+RASHI SUMMARY
+- 《Rashi Co-presence》 = <HOUSE / SIGN / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Rashi Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Rashi Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Rashi Operation》 = <원본 공동장이 무엇을 열고 무엇으로 압축하는가 / NOT_SHOWN>
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = <BHAVA_HOUSE / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Bhava Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Operation》 = <현실 house-function 적용층에서 어떻게 유지·분리·재기능화되는가 / NOT_SHOWN>
+COMPARISON SENTENCE =
+Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인
+□ Bhava Co-presence 확인
+□ Maintained / Split / Partial / Re-functioned 확인
+□ Degree Order 확인
+□ Gap 확인
+□ Nakshatra/Pada 확인
+□ RL-NL-SL-SSL 확인
+□ Independent Function 확인
+□ Mutual Coloring 확인
+□ House Lord / Lord Movement 확인
+□ “같이 있다” 표현 없음
+□ 기능어 미사용
+□ 현실 언어 번역 없음
+□ 강도층 미사용
+□ Aspect 미사용
+□ Dasha 미사용
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-5H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+5H Rashi-Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target House》 = 5H
+- 《House Function》 = 판단 / 창조 / 선택 / 투입 / 전략
+RASHI SUMMARY
+- 《Rashi Co-presence》 = <HOUSE / SIGN / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Rashi Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Rashi Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Rashi Operation》 = <원본 공동장이 무엇을 열고 무엇으로 압축하는가 / NOT_SHOWN>
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = <BHAVA_HOUSE / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Bhava Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Operation》 = <현실 house-function 적용층에서 어떻게 유지·분리·재기능화되는가 / NOT_SHOWN>
+COMPARISON SENTENCE =
+Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인
+□ Bhava Co-presence 확인
+□ Maintained / Split / Partial / Re-functioned 확인
+□ Degree Order 확인
+□ Gap 확인
+□ Nakshatra/Pada 확인
+□ RL-NL-SL-SSL 확인
+□ Independent Function 확인
+□ Mutual Coloring 확인
+□ House Lord / Lord Movement 확인
+□ “같이 있다” 표현 없음
+□ 기능어 미사용
+□ 현실 언어 번역 없음
+□ 강도층 미사용
+□ Aspect 미사용
+□ Dasha 미사용
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-6H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+6H Rashi-Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target House》 = 6H
+- 《House Function》 = 문제처리 / 반복부담 / 실무 / 손실방어
+RASHI SUMMARY
+- 《Rashi Co-presence》 = <HOUSE / SIGN / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Rashi Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Rashi Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Rashi Operation》 = <원본 공동장이 무엇을 열고 무엇으로 압축하는가 / NOT_SHOWN>
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = <BHAVA_HOUSE / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Bhava Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Operation》 = <현실 house-function 적용층에서 어떻게 유지·분리·재기능화되는가 / NOT_SHOWN>
+COMPARISON SENTENCE =
+Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인
+□ Bhava Co-presence 확인
+□ Maintained / Split / Partial / Re-functioned 확인
+□ Degree Order 확인
+□ Gap 확인
+□ Nakshatra/Pada 확인
+□ RL-NL-SL-SSL 확인
+□ Independent Function 확인
+□ Mutual Coloring 확인
+□ House Lord / Lord Movement 확인
+□ “같이 있다” 표현 없음
+□ 기능어 미사용
+□ 현실 언어 번역 없음
+□ 강도층 미사용
+□ Aspect 미사용
+□ Dasha 미사용
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-7H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+7H Rashi-Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target House》 = 7H
+- 《House Function》 = 대면 / 상대 / 계약 / 외부 반응 / 검증자
+RASHI SUMMARY
+- 《Rashi Co-presence》 = <HOUSE / SIGN / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Rashi Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Rashi Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Rashi Operation》 = <원본 공동장이 무엇을 열고 무엇으로 압축하는가 / NOT_SHOWN>
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = <BHAVA_HOUSE / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Bhava Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Operation》 = <현실 house-function 적용층에서 어떻게 유지·분리·재기능화되는가 / NOT_SHOWN>
+COMPARISON SENTENCE =
+Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인
+□ Bhava Co-presence 확인
+□ Maintained / Split / Partial / Re-functioned 확인
+□ Degree Order 확인
+□ Gap 확인
+□ Nakshatra/Pada 확인
+□ RL-NL-SL-SSL 확인
+□ Independent Function 확인
+□ Mutual Coloring 확인
+□ House Lord / Lord Movement 확인
+□ “같이 있다” 표현 없음
+□ 기능어 미사용
+□ 현실 언어 번역 없음
+□ 강도층 미사용
+□ Aspect 미사용
+□ Dasha 미사용
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-8H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+8H Rashi-Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target House》 = 8H
+- 《House Function》 = 숨은 장부 / 위기 / 공유책임 / 손실 / 전환
+RASHI SUMMARY
+- 《Rashi Co-presence》 = <HOUSE / SIGN / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Rashi Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Rashi Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Rashi Operation》 = <원본 공동장이 무엇을 열고 무엇으로 압축하는가 / NOT_SHOWN>
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = <BHAVA_HOUSE / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Bhava Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Operation》 = <현실 house-function 적용층에서 어떻게 유지·분리·재기능화되는가 / NOT_SHOWN>
+COMPARISON SENTENCE =
+Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인
+□ Bhava Co-presence 확인
+□ Maintained / Split / Partial / Re-functioned 확인
+□ Degree Order 확인
+□ Gap 확인
+□ Nakshatra/Pada 확인
+□ RL-NL-SL-SSL 확인
+□ Independent Function 확인
+□ Mutual Coloring 확인
+□ House Lord / Lord Movement 확인
+□ “같이 있다” 표현 없음
+□ 기능어 미사용
+□ 현실 언어 번역 없음
+□ 강도층 미사용
+□ Aspect 미사용
+□ Dasha 미사용
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-9H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+9H Rashi-Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target House》 = 9H
+- 《House Function》 = 법전 / 상위 기준 / 명분 / 방향 / 다르마
+RASHI SUMMARY
+- 《Rashi Co-presence》 = <HOUSE / SIGN / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Rashi Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Rashi Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Rashi Operation》 = <원본 공동장이 무엇을 열고 무엇으로 압축하는가 / NOT_SHOWN>
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = <BHAVA_HOUSE / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Bhava Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Operation》 = <현실 house-function 적용층에서 어떻게 유지·분리·재기능화되는가 / NOT_SHOWN>
+COMPARISON SENTENCE =
+Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인
+□ Bhava Co-presence 확인
+□ Maintained / Split / Partial / Re-functioned 확인
+□ Degree Order 확인
+□ Gap 확인
+□ Nakshatra/Pada 확인
+□ RL-NL-SL-SSL 확인
+□ Independent Function 확인
+□ Mutual Coloring 확인
+□ House Lord / Lord Movement 확인
+□ “같이 있다” 표현 없음
+□ 기능어 미사용
+□ 현실 언어 번역 없음
+□ 강도층 미사용
+□ Aspect 미사용
+□ Dasha 미사용
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-10H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+10H Rashi-Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target House》 = 10H
+- 《House Function》 = 현실 출력 / 역할 / 결과물 / 공적 작동
+RASHI SUMMARY
+- 《Rashi Co-presence》 = <HOUSE / SIGN / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Rashi Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Rashi Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Rashi Operation》 = <원본 공동장이 무엇을 열고 무엇으로 압축하는가 / NOT_SHOWN>
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = <BHAVA_HOUSE / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Bhava Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Operation》 = <현실 house-function 적용층에서 어떻게 유지·분리·재기능화되는가 / NOT_SHOWN>
+COMPARISON SENTENCE =
+Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인
+□ Bhava Co-presence 확인
+□ Maintained / Split / Partial / Re-functioned 확인
+□ Degree Order 확인
+□ Gap 확인
+□ Nakshatra/Pada 확인
+□ RL-NL-SL-SSL 확인
+□ Independent Function 확인
+□ Mutual Coloring 확인
+□ House Lord / Lord Movement 확인
+□ “같이 있다” 표현 없음
+□ 기능어 미사용
+□ 현실 언어 번역 없음
+□ 강도층 미사용
+□ Aspect 미사용
+□ Dasha 미사용
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-11H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+11H Rashi-Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target House》 = 11H
+- 《House Function》 = 회수 / 성과 / 보상 / 귀속 / 네트워크
+RASHI SUMMARY
+- 《Rashi Co-presence》 = <HOUSE / SIGN / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Rashi Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Rashi Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Rashi Operation》 = <원본 공동장이 무엇을 열고 무엇으로 압축하는가 / NOT_SHOWN>
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = <BHAVA_HOUSE / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Bhava Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Operation》 = <현실 house-function 적용층에서 어떻게 유지·분리·재기능화되는가 / NOT_SHOWN>
+COMPARISON SENTENCE =
+Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인
+□ Bhava Co-presence 확인
+□ Maintained / Split / Partial / Re-functioned 확인
+□ Degree Order 확인
+□ Gap 확인
+□ Nakshatra/Pada 확인
+□ RL-NL-SL-SSL 확인
+□ Independent Function 확인
+□ Mutual Coloring 확인
+□ House Lord / Lord Movement 확인
+□ “같이 있다” 표현 없음
+□ 기능어 미사용
+□ 현실 언어 번역 없음
+□ 강도층 미사용
+□ Aspect 미사용
+□ Dasha 미사용
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-12H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+12H Rashi-Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Target House》 = 12H
+- 《House Function》 = 배후소모 / 누수 / 퇴장 / 해소 / 숨은 비용
+RASHI SUMMARY
+- 《Rashi Co-presence》 = <HOUSE / SIGN / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Rashi Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Rashi Gap》 = <A-B GAP / B-C GAP / NONE / NOT_SHOWN>
+- 《Rashi Operation》 = <원본 공동장이 무엇을 열고 무엇으로 압축하는가 / NOT_SHOWN>
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = <BHAVA_HOUSE / PLANET_CLUSTER / NONE / NOT_SHOWN>
+- 《Bhava Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Operation》 = <현실 house-function 적용층에서 어떻게 유지·분리·재기능화되는가 / NOT_SHOWN>
+COMPARISON SENTENCE =
+Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인
+□ Bhava Co-presence 확인
+□ Maintained / Split / Partial / Re-functioned 확인
+□ Degree Order 확인
+□ Gap 확인
+□ Nakshatra/Pada 확인
+□ RL-NL-SL-SSL 확인
+□ Independent Function 확인
+□ Mutual Coloring 확인
+□ House Lord / Lord Movement 확인
+□ “같이 있다” 표현 없음
+□ 기능어 미사용
+□ 현실 언어 번역 없음
+□ 강도층 미사용
+□ Aspect 미사용
+□ Dasha 미사용
+━━━━━━━━━━━━━━━━━━━━━━━━━
+4. SINGLE / EMPTY / CO-PRESENCE RULE
+━━━━━━━━━━━━━━━━━━━━━━━━━
+SINGLE =
+- 점유 행성이 1개인 경우 공동장 해석을 만들지 않는다.
+- 단일 행성의 도수 / 파다 / 회로 / 로드 이동만 확인한다.
+- 단일 행성은 공동장으로 부르지 않는다.
+EMPTY =
+- 점유 행성이 없는 경우 공동장 없음으로 처리한다.
+- 해당 하우스는 Lord-only operation으로 후속 단계에서 처리한다.
+CO-PRESENCE =
+- 점유 행성이 2개 이상일 때만 공동장 체크를 수행한다.
+- Degree Order / Gap / Independent Function / Mutual Coloring을 반드시 작성한다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+5. COMMON OUTPUT RULE
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- “같이 있다” 금지.
+- 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 압축하는지 작성.
+- 같은 하우스/별자리 안의 상호착색을 반드시 작성.
+- 공동장 유지/분리 여부를 Bhava에서 다시 확인.
+- 단일 행성은 공동장으로 쓰지 않는다.
+- 빈 하우스는 공동장 없음 / Lord-only operation으로 넘긴다.
+- 기능어 사용 금지.
+- 현실 언어 번역 금지.
+- 강도층 / Aspect / Dasha / Arudha / AVA / Bhinna / Ashta / Mrityu 적용 금지.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+6. COMMON COMPLETION CHECK
+━━━━━━━━━━━━━━━━━━━━━━━━━
+□ Rashi 1H~12H Co-presence Slot 확인
+□ Bhava 1H~12H Co-presence Slot 확인
+□ Rashi↔Bhava 1H~12H Comparison Slot 확인
+□ Co-present planets 확인
+□ Degree order 확인
+□ Gap 확인
+□ 각 행성 Nakshatra/Pada 확인
+□ 각 행성 RL-NL-SL-SSL 확인
+□ Independent Function 작성
+□ Mutual Coloring 작성
+□ House Lord 확인
+□ Lord Movement 확인
+□ Whole-chart Priority 확인
+□ Bhava Placement 확인
+□ Co-presence Maintained/Split/Partial/Re-functioned Status 확인
+□ Single / Empty Rule 적용
+□ “같이 있다” 표현 없음
+□ 기능어 미사용
+□ 현실 언어 번역 없음
+□ 강도층 미사용
+□ Aspect 미사용
+□ Dasha 미사용
+━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTENT END
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=TARGET_DCHART_RASHI_BHAVA_12H_CO_PRESENCE_SLOT_TEMPLATE_98_REVISED
+INDEX=D_ENGINE > TARGET_DCHART > CO_PRESENCE > RASHI_BHAVA > 12H_SLOT > REVISED_98
+STATUS=TARGET_DCHART_ONLY / NATIVE_RASHI_BHAVA / RASHI_BHAVA_12H_COPRESENCE_SLOT_READY / COMPARISON_INCLUDED / SINGLE_EMPTY_RULE_INCLUDED / NO_FUNCTION_WORDS / NO_REALITY_TRANSLATION / NO_STRENGTH_ASPECT_DASHA
+━━━━━━━━━━━━━━━━━━━━━━━━━

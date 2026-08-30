@@ -1,0 +1,65 @@
+{
+  "schema_version": "HYEWON_SC7_SC8_CO2_EXPORT_V1",
+  "scope": "04_COPRESENCE_ONLY",
+  "active_d_order": [
+    "D1", "D9", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D10",
+    "D11", "D12", "D16", "D20", "D24", "D27", "D30", "D40", "D45", "D60"
+  ],
+  "void_dcharts": ["D50"],
+  "sc7": {
+    "call": "$rq-sc7",
+    "family_id": "vedic_co2",
+    "source_role": "RASHI_BHAVA_COPRESENCE_FIELD",
+    "original_archive": "07_4AB_VeDic_CO2_Sc_.zip",
+    "export_archive": "HYEWON_SC7_CO2_20D_SOURCE.zip",
+    "sha256": "b1b2a692695763d9f1648ddfd6e993d2f8eaa5290350c191530ad1c977433a91",
+    "size_bytes": 116781,
+    "member_count": 20,
+    "uncompressed_size_bytes": 392309,
+    "byte_identical_to_source_archive": true
+  },
+  "sc8": {
+    "call": "$rq-sc8",
+    "source_role": "PIKACHU_CANONICAL_04_COPRESENCE_MEMBERS",
+    "export_archive": "HYEWON_SC8_CO2_PIKACHU_20D.zip",
+    "sha256": "b278a6849df88b746f120b337c4548dcc168c31146f564d609f3355adc59ed99",
+    "size_bytes": 168879,
+    "member_count": 20,
+    "uncompressed_size_bytes": 1574408,
+    "member_pattern_d1_d9": "04_1A_D{D}_CoPreSeNcE_12H_AppLieD_R.txt",
+    "member_pattern_target": "04_1B_D{D}_CoPreSeNcE_12H_AppLieD_R.txt",
+    "member_bytes_modified": false,
+    "new_export_carrier": true
+  },
+  "templates": [
+    {
+      "filename": "04_1A_D1_12H_CO2_TemPL_.txt",
+      "sha256": "6c6c5c4141fabf73709409c5315f60c8e215741515b9f3a4f48c52636e70cb80",
+      "size_bytes": 90461
+    },
+    {
+      "filename": "04_1A_D1_CO2_12HouSe_TeMpl_♤.txt",
+      "sha256": "ee8faf588ddb32f6c9a32913a5c40760ecba3e334a21a3f59d37bf02b09f5e2b",
+      "size_bytes": 89298
+    },
+    {
+      "filename": "04_1B_CO2_12H_TEMpL_.txt",
+      "sha256": "452285aa7dd98b09992274e0b2b15be9eaf59eb8d86c6f3c5a81cc84228dcd8f",
+      "size_bytes": 89352
+    },
+    {
+      "filename": "04_2B_TaRgEt_CO2_12HouSe_TeMpl_A♤.txt",
+      "sha256": "7a90b950695644e3209acbe6f7fc54611aedf468233c849bd54bd669a8716a68",
+      "size_bytes": 110973
+    }
+  ],
+  "preservation": {
+    "co2_first_03_merged": false,
+    "ocr_rerun": false,
+    "value_derivation": false,
+    "interpretation_added": false,
+    "sc7_sc8_overwrite": false,
+    "template_application": false,
+    "source_member_bytes_modified": false
+  }
+}

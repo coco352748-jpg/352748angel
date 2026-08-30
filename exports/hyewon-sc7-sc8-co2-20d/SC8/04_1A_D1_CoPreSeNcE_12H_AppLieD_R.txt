@@ -1,0 +1,1441 @@
+04B_D1_RaShi_Bha_12H_CO2_AppLieD_♤
+━━━━━━━━━━━━━━━━━━━━━━━━━
+D1 RASHI-BHAVA 12H CO-PRESENCE SLOT / SOURCE APPLIED
+D1 Rashi 12 House + D1 Bhava 12 House + D1 Rashi↔Bhava Comparison 12 House
+REVISED 98 STRUCTURE-FIRST / CO-PRESENCE ONLY / FAMILY FORMAT / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+SOURCE BASIS
+- Base Template = 04B_D1_RaShi_Bha_12H_CO2_TEMpl_♤.txt
+- Co-presence Source = HYEWON_VeDic_CO2_99.txt / D1 RASHI-BHAVA CO-PRESENCE SET
+- Rashi Source Cross-check = 01B_D1_RaShi_AppLieD_♤.txt
+- Bhava Source Cross-check = 01B_D1_Bha_AppLieD_♤.txt
+- Role = D1 Co-presence Check Slot Applied Board
+- Boundary = Co-presence structure only / no interpretation expansion
+- Not Applied = Strength / Aspect / Dasha / Arudha / AVA / Bhinna / Ashta / Mrityu
+- No Function Words = 유지
+- No Reality Translation = 유지
+━━━━━━━━━━━━━━━━━━━━━━━━━
+4-0. SOURCE / STATUS SLOT
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Subject Code》 = HYEWON
+- 《D1 Chart》 = D1
+- 《D1 Rashi Source Dataset》 = HYEWON_VEDIC_D1_RASHI_2026_04_09_000001_BLUEAPP_MASTER_BASELINE_DATASET
+- 《D1 Bhava Source Dataset》 = HYEWON_RASHI_D1_BHAVA_1980_09_09_074830_BLUEAPP_MASTER_BASELINE_DATASET
+- 《Source Type》 = SCREENSHOT_PLUS_TEXT / USER_TEXT_SUPPLIED / CO_PRESENCE_SOURCE_TEXT
+- 《Source Confidence》 = TEXT_CONSISTENCY_LOCK / SOURCE_VALUE_CROSS_CHECKED
+- 《D1 Layer》 = D1 Rashi + D1 Bhava
+- 《Use Boundary》 = Co-presence structure only / no interpretation expansion
+━━━━━━━━━━━━━━━━━━━━━━━━━
+4-0-1. CORE RULE
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- Rashi 공동장은 원본 구조다.
+- Bhava 공동장은 현실 house-function 적용층에서 공동장이 유지되는지 확인하는 보정층이다.
+- 공동장은 “같이 있다”로 쓰지 않는다.
+- 앞도수 행성과 뒤도수 행성의 순서를 source degree order 기준으로 보존한다.
+- 각 행성의 독립 기능과 상호착색을 source 문장 기준으로 분리한다.
+- Bhava에서 공동장이 유지되는지 / 분리되는지 / 부분 유지되는지 / 재기능화되는지 다시 확인한다.
+- 단일 행성은 공동장으로 쓰지 않는다.
+- 빈 하우스는 공동장 없음 / Lord-only operation으로 넘긴다.
+- 기능어 사용 금지.
+- 현실 언어 번역 금지.
+- 강도층 / Aspect / Dasha 적용 금지.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+4-1. RASHI 1H~12H CO-PRESENCE SLOTS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-1H. RASHI CO-PRESENCE SLOT
+1H Rashi 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 1H
+- 《Rashi House Function》 = 본체 입구 / 몸 / 자기작동 / 현실 진입
+- 《Rashi Sign》 = Kanya
+- 《Rashi Occupants》 = Lagna / Mercury / Saturn / Pluto
+- 《Co-presence Status》 = CO-PRESENCE
+- 《Cluster Type》 = MIXED_CLUSTER / Mercury-Saturn CORE_EXACT
+RASHI PLANET PACKET
+- 《Planet A》 = Lagna 13°55′35″ / Hasta P2 / RL Me / NL Mo / SL Ju / SSL Ju
+- 《Planet B》 = Mercury 4°30′42″ / U.Phalguni P3 / RL Me / NL Su / SL Sa / SSL Ma
+- 《Planet C》 = Saturn 4°52′46″ / U.Phalguni P3 / RL Me / NL Su / SL Sa / SSL Ju
+- 《Additional Planet》 = Pluto 26°44′21″ / Chitta P2 / RL Me / NL Ma / SL Ju / SSL Me
+DEGREE / GAP
+- 《Degree Order》 = Mercury → Saturn → Lagna → Pluto
+- 《Gap》 = Mercury-Saturn 0°22′04″ / Saturn-Lagna 9°02′49″ / Lagna-Pluto 12°48′46″
+- 《Cluster Distance》 = MIXED_CLUSTER
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = Lagna = 몸 / 정체성 / 현실 진입점 / 본체 입구
+- 《Planet B Independent Function》 = Mercury = 판단 / 문장화 / 분류 / 검수 / 조건 구분
+- 《Planet C Independent Function》 = Saturn = 반복 / 책임 / 시간 / 검증 / 기준 유지
+MUTUAL COLORING
+- 《Planet A → Planet B》 = Lagna는 Mercury/Saturn의 판단·검증 구조를 먹은 현실 본체다.
+- 《Planet B → Planet C》 = Mercury는 Saturn의 시간·책임·검증을 먹은 Mercury다.
+- 《Final Compression》 = Saturn은 Mercury의 문장화·분류·판단을 먹은 Saturn이다.
+HOUSE LORD
+- 《House Lord》 = Mercury
+- 《Lord Position》 = 1H Kanya 4°30′42″ / U.Phalguni P3 / RL Me / NL Su / SL Sa / SSL Ma
+- 《Lord Movement》 = 1H 기능이 Mercury를 통해 1H Kanya 4°30′42″ / U.Phalguni P3 / RL Me / NL Su / SL Sa / SSL Ma으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = PRIMARY
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- 단일/빈 하우스는 공동장으로 확장하지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-2H. RASHI CO-PRESENCE SLOT
+2H Rashi 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 2H
+- 《Rashi House Function》 = 자원 / 말값 / 보유 / 금고 / 가족 장부
+- 《Rashi Sign》 = Thula
+- 《Rashi Occupants》 = Mars / Uranus
+- 《Co-presence Status》 = CO-PRESENCE
+- 《Cluster Type》 = LOOSE_CLUSTER / WIDE
+RASHI PLANET PACKET
+- 《Planet A》 = Mars 13°27′44″ / Swati P3 / RL Ve / NL Ra / SL Me / SSL Mo
+- 《Planet B》 = Uranus 28°36′58″ / Vishakha P3 / RL Ve / NL Ju / SL Ve / SSL Me
+- 《Planet C》 = NOT_SHOWN
+- 《Additional Planet》 = NONE
+DEGREE / GAP
+- 《Degree Order》 = Mars → Uranus
+- 《Gap》 = Mars-Uranus 15°09′14″
+- 《Cluster Distance》 = LOOSE
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = Mars = 행동 / 자원방어 / 말의 칼날 / 손실 대응
+- 《Planet B Independent Function》 = Uranus = 급반응 / 변동성 / 돌발 전환 보조
+- 《Planet C Independent Function》 = NOT_SHOWN
+MUTUAL COLORING
+- 《Planet A → Planet B》 = Mars는 Uranus의 급반응과 변동성을 먹은 Mars다.
+- 《Planet B → Planet C》 = Uranus는 Mars의 행동압력과 자원방어 신호를 먹은 Uranus다.
+- 《Final Compression》 = 전체 공동장은 말·돈·자원에서 빠른 반응을 만들지만 기준 없이 켜지면 손실 변동성이 커진다.
+HOUSE LORD
+- 《House Lord》 = Venus
+- 《Lord Position》 = 11H Kataka 7°40′57″ / Pushyami P2 / RL Mo / NL Sa / SL Ke / SSL Ra
+- 《Lord Movement》 = 2H 기능이 Venus를 통해 11H Kataka 7°40′57″ / Pushyami P2 / RL Mo / NL Sa / SL Ke / SSL Ra으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = PRIMARY
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- 단일/빈 하우스는 공동장으로 확장하지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-3H. RASHI CO-PRESENCE SLOT
+3H Rashi 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 3H
+- 《Rashi House Function》 = 말 / 기록 / 연락 / 손발 / 작은 실행
+- 《Rashi Sign》 = Vrischika
+- 《Rashi Occupants》 = Neptune
+- 《Co-presence Status》 = SINGLE
+- 《Cluster Type》 = SINGLE
+RASHI PLANET PACKET
+- 《Planet A》 = Neptune 26°20′12″ / Jyeshta P3 / RL Ma / NL Me / SL Ju / SSL Ju
+- 《Planet B》 = NOT_SHOWN
+- 《Planet C》 = NOT_SHOWN
+- 《Additional Planet》 = NONE
+DEGREE / GAP
+- 《Degree Order》 = SINGLE: Neptune
+- 《Gap》 = NONE
+- 《Cluster Distance》 = NOT_APPLICABLE
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = Neptune = 상징 / 흐림 / 감지 보조
+- 《Planet B Independent Function》 = NOT_SHOWN
+- 《Planet C Independent Function》 = NOT_SHOWN
+MUTUAL COLORING
+- 《Planet A → Planet B》 = SINGLE이라 공동장 상호착색을 만들지 않는다.
+- 《Planet B → Planet C》 = NOT_APPLICABLE
+- 《Final Compression》 = NOT_APPLICABLE
+HOUSE LORD
+- 《House Lord》 = Mars
+- 《Lord Position》 = 2H Thula 13°27′44″ / Swati P3 / RL Ve / NL Ra / SL Me / SSL Mo
+- 《Lord Movement》 = 3H 기능이 Mars를 통해 2H Thula 13°27′44″ / Swati P3 / RL Ve / NL Ra / SL Me / SSL Mo으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = SUPPORT
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- 단일/빈 하우스는 공동장으로 확장하지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-4H. RASHI CO-PRESENCE SLOT
+4H Rashi 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 4H
+- 《Rashi House Function》 = 집 / 기반 / 내면 바닥 / 정착 / 안정
+- 《Rashi Sign》 = Dhanus
+- 《Rashi Occupants》 = EMPTY
+- 《Co-presence Status》 = EMPTY
+- 《Cluster Type》 = EMPTY
+RASHI PLANET PACKET
+- 《Planet A》 = EMPTY
+- 《Planet B》 = NOT_SHOWN
+- 《Planet C》 = NOT_SHOWN
+- 《Additional Planet》 = NONE
+DEGREE / GAP
+- 《Degree Order》 = EMPTY
+- 《Gap》 = NONE
+- 《Cluster Distance》 = NOT_APPLICABLE
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = EMPTY
+- 《Planet B Independent Function》 = NOT_SHOWN
+- 《Planet C Independent Function》 = NOT_SHOWN
+MUTUAL COLORING
+- 《Planet A → Planet B》 = EMPTY / 공동장 없음
+- 《Planet B → Planet C》 = NOT_APPLICABLE
+- 《Final Compression》 = NOT_APPLICABLE
+HOUSE LORD
+- 《House Lord》 = Jupiter
+- 《Lord Position》 = 12H Simha 26°12′49″ / P.Phalguni P4 / RL Su / NL Ve / SL Ke / SSL Ra
+- 《Lord Movement》 = 4H 기능이 Jupiter를 통해 12H Simha 26°12′49″ / P.Phalguni P4 / RL Su / NL Ve / SL Ke / SSL Ra으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = LORD_ONLY
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- 단일/빈 하우스는 공동장으로 확장하지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-5H. RASHI CO-PRESENCE SLOT
+5H Rashi 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 5H
+- 《Rashi House Function》 = 판단 / 창조 / 선택 / 투입 / 전략
+- 《Rashi Sign》 = Makara
+- 《Rashi Occupants》 = Ketu
+- 《Co-presence Status》 = SINGLE
+- 《Cluster Type》 = SINGLE
+RASHI PLANET PACKET
+- 《Planet A》 = Ketu 26°33′09″ / Dhanishta P1 / RL Sa / NL Ma / SL Ju / SSL Sa
+- 《Planet B》 = NOT_SHOWN
+- 《Planet C》 = NOT_SHOWN
+- 《Additional Planet》 = NONE
+DEGREE / GAP
+- 《Degree Order》 = SINGLE: Ketu
+- 《Gap》 = NONE
+- 《Cluster Distance》 = NOT_APPLICABLE
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = Ketu = 절단 / 선별 / 분리 / 축약
+- 《Planet B Independent Function》 = NOT_SHOWN
+- 《Planet C Independent Function》 = NOT_SHOWN
+MUTUAL COLORING
+- 《Planet A → Planet B》 = SINGLE이라 공동장 상호착색을 만들지 않는다.
+- 《Planet B → Planet C》 = NOT_APPLICABLE
+- 《Final Compression》 = NOT_APPLICABLE
+HOUSE LORD
+- 《House Lord》 = Saturn
+- 《Lord Position》 = 1H Kanya 4°52′46″ / U.Phalguni P3 / RL Me / NL Su / SL Sa / SSL Ju
+- 《Lord Movement》 = 5H 기능이 Saturn를 통해 1H Kanya 4°52′46″ / U.Phalguni P3 / RL Me / NL Su / SL Sa / SSL Ju으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = SUPPORT
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- 단일/빈 하우스는 공동장으로 확장하지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-6H. RASHI CO-PRESENCE SLOT
+6H Rashi 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 6H
+- 《Rashi House Function》 = 문제처리 / 반복부담 / 실무 / 손실방어
+- 《Rashi Sign》 = Kumbha
+- 《Rashi Occupants》 = EMPTY
+- 《Co-presence Status》 = EMPTY
+- 《Cluster Type》 = EMPTY
+RASHI PLANET PACKET
+- 《Planet A》 = EMPTY
+- 《Planet B》 = NOT_SHOWN
+- 《Planet C》 = NOT_SHOWN
+- 《Additional Planet》 = NONE
+DEGREE / GAP
+- 《Degree Order》 = EMPTY
+- 《Gap》 = NONE
+- 《Cluster Distance》 = NOT_APPLICABLE
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = EMPTY
+- 《Planet B Independent Function》 = NOT_SHOWN
+- 《Planet C Independent Function》 = NOT_SHOWN
+MUTUAL COLORING
+- 《Planet A → Planet B》 = EMPTY / 공동장 없음
+- 《Planet B → Planet C》 = NOT_APPLICABLE
+- 《Final Compression》 = NOT_APPLICABLE
+HOUSE LORD
+- 《House Lord》 = Saturn
+- 《Lord Position》 = 1H Kanya 4°52′46″ / U.Phalguni P3 / RL Me / NL Su / SL Sa / SSL Ju
+- 《Lord Movement》 = 6H 기능이 Saturn를 통해 1H Kanya 4°52′46″ / U.Phalguni P3 / RL Me / NL Su / SL Sa / SSL Ju으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = LORD_ONLY
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- 단일/빈 하우스는 공동장으로 확장하지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-7H. RASHI CO-PRESENCE SLOT
+7H Rashi 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 7H
+- 《Rashi House Function》 = 대면 / 상대 / 계약 / 외부 반응 / 검증자
+- 《Rashi Sign》 = Meena
+- 《Rashi Occupants》 = EMPTY
+- 《Co-presence Status》 = EMPTY
+- 《Cluster Type》 = EMPTY
+RASHI PLANET PACKET
+- 《Planet A》 = EMPTY
+- 《Planet B》 = NOT_SHOWN
+- 《Planet C》 = NOT_SHOWN
+- 《Additional Planet》 = NONE
+DEGREE / GAP
+- 《Degree Order》 = EMPTY
+- 《Gap》 = NONE
+- 《Cluster Distance》 = NOT_APPLICABLE
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = EMPTY
+- 《Planet B Independent Function》 = NOT_SHOWN
+- 《Planet C Independent Function》 = NOT_SHOWN
+MUTUAL COLORING
+- 《Planet A → Planet B》 = EMPTY / 공동장 없음
+- 《Planet B → Planet C》 = NOT_APPLICABLE
+- 《Final Compression》 = NOT_APPLICABLE
+HOUSE LORD
+- 《House Lord》 = Jupiter
+- 《Lord Position》 = 12H Simha 26°12′49″ / P.Phalguni P4 / RL Su / NL Ve / SL Ke / SSL Ra
+- 《Lord Movement》 = 7H 기능이 Jupiter를 통해 12H Simha 26°12′49″ / P.Phalguni P4 / RL Su / NL Ve / SL Ke / SSL Ra으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = LORD_ONLY
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- 단일/빈 하우스는 공동장으로 확장하지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-8H. RASHI CO-PRESENCE SLOT
+8H Rashi 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 8H
+- 《Rashi House Function》 = 숨은 장부 / 위기 / 공유책임 / 손실 / 전환
+- 《Rashi Sign》 = Mesha
+- 《Rashi Occupants》 = EMPTY
+- 《Co-presence Status》 = EMPTY
+- 《Cluster Type》 = EMPTY
+RASHI PLANET PACKET
+- 《Planet A》 = EMPTY
+- 《Planet B》 = NOT_SHOWN
+- 《Planet C》 = NOT_SHOWN
+- 《Additional Planet》 = NONE
+DEGREE / GAP
+- 《Degree Order》 = EMPTY
+- 《Gap》 = NONE
+- 《Cluster Distance》 = NOT_APPLICABLE
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = EMPTY
+- 《Planet B Independent Function》 = NOT_SHOWN
+- 《Planet C Independent Function》 = NOT_SHOWN
+MUTUAL COLORING
+- 《Planet A → Planet B》 = EMPTY / 공동장 없음
+- 《Planet B → Planet C》 = NOT_APPLICABLE
+- 《Final Compression》 = NOT_APPLICABLE
+HOUSE LORD
+- 《House Lord》 = Mars
+- 《Lord Position》 = 2H Thula 13°27′44″ / Swati P3 / RL Ve / NL Ra / SL Me / SSL Mo
+- 《Lord Movement》 = 8H 기능이 Mars를 통해 2H Thula 13°27′44″ / Swati P3 / RL Ve / NL Ra / SL Me / SSL Mo으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = LORD_ONLY
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- 단일/빈 하우스는 공동장으로 확장하지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-9H. RASHI CO-PRESENCE SLOT
+9H Rashi 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 9H
+- 《Rashi House Function》 = 법전 / 상위 기준 / 명분 / 방향 / 다르마
+- 《Rashi Sign》 = Vrishabha
+- 《Rashi Occupants》 = EMPTY
+- 《Co-presence Status》 = EMPTY
+- 《Cluster Type》 = EMPTY
+RASHI PLANET PACKET
+- 《Planet A》 = EMPTY
+- 《Planet B》 = NOT_SHOWN
+- 《Planet C》 = NOT_SHOWN
+- 《Additional Planet》 = NONE
+DEGREE / GAP
+- 《Degree Order》 = EMPTY
+- 《Gap》 = NONE
+- 《Cluster Distance》 = NOT_APPLICABLE
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = EMPTY
+- 《Planet B Independent Function》 = NOT_SHOWN
+- 《Planet C Independent Function》 = NOT_SHOWN
+MUTUAL COLORING
+- 《Planet A → Planet B》 = EMPTY / 공동장 없음
+- 《Planet B → Planet C》 = NOT_APPLICABLE
+- 《Final Compression》 = NOT_APPLICABLE
+HOUSE LORD
+- 《House Lord》 = Venus
+- 《Lord Position》 = 11H Kataka 7°40′57″ / Pushyami P2 / RL Mo / NL Sa / SL Ke / SSL Ra
+- 《Lord Movement》 = 9H 기능이 Venus를 통해 11H Kataka 7°40′57″ / Pushyami P2 / RL Mo / NL Sa / SL Ke / SSL Ra으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = LORD_ONLY
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- 단일/빈 하우스는 공동장으로 확장하지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-10H. RASHI CO-PRESENCE SLOT
+10H Rashi 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 10H
+- 《Rashi House Function》 = 현실 출력 / 역할 / 결과물 / 공적 작동
+- 《Rashi Sign》 = Mithuna
+- 《Rashi Occupants》 = EMPTY
+- 《Co-presence Status》 = EMPTY
+- 《Cluster Type》 = EMPTY
+RASHI PLANET PACKET
+- 《Planet A》 = EMPTY
+- 《Planet B》 = NOT_SHOWN
+- 《Planet C》 = NOT_SHOWN
+- 《Additional Planet》 = NONE
+DEGREE / GAP
+- 《Degree Order》 = EMPTY
+- 《Gap》 = NONE
+- 《Cluster Distance》 = NOT_APPLICABLE
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = EMPTY
+- 《Planet B Independent Function》 = NOT_SHOWN
+- 《Planet C Independent Function》 = NOT_SHOWN
+MUTUAL COLORING
+- 《Planet A → Planet B》 = EMPTY / 공동장 없음
+- 《Planet B → Planet C》 = NOT_APPLICABLE
+- 《Final Compression》 = NOT_APPLICABLE
+HOUSE LORD
+- 《House Lord》 = Mercury
+- 《Lord Position》 = 1H Kanya 4°30′42″ / U.Phalguni P3 / RL Me / NL Su / SL Sa / SSL Ma
+- 《Lord Movement》 = 10H 기능이 Mercury를 통해 1H Kanya 4°30′42″ / U.Phalguni P3 / RL Me / NL Su / SL Sa / SSL Ma으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = LORD_ONLY
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- 단일/빈 하우스는 공동장으로 확장하지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-11H. RASHI CO-PRESENCE SLOT
+11H Rashi 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 11H
+- 《Rashi House Function》 = 회수 / 성과 / 보상 / 귀속 / 네트워크
+- 《Rashi Sign》 = Kataka
+- 《Rashi Occupants》 = Venus / Rahu
+- 《Co-presence Status》 = CO-PRESENCE
+- 《Cluster Type》 = LOOSE_CLUSTER / WIDE
+RASHI PLANET PACKET
+- 《Planet A》 = Venus 7°40′57″ / Pushyami P2 / RL Mo / NL Sa / SL Ke / SSL Ra
+- 《Planet B》 = Rahu 26°33′09″ / Ashlesha P3 / RL Mo / NL Me / SL Ju / SSL Sa
+- 《Planet C》 = NOT_SHOWN
+- 《Additional Planet》 = NONE
+DEGREE / GAP
+- 《Degree Order》 = Venus → Rahu
+- 《Gap》 = Venus-Rahu 18°52′12″
+- 《Cluster Distance》 = LOOSE
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = Venus = 가치 / 관계형 수익 / 보상 / 창조 산출
+- 《Planet B Independent Function》 = Rahu = 확장 욕망 / 외부망 / 과열 / 보호욕 증폭
+- 《Planet C Independent Function》 = NOT_SHOWN
+MUTUAL COLORING
+- 《Planet A → Planet B》 = Venus는 Rahu의 확장욕과 외부망을 먹은 Venus다.
+- 《Planet B → Planet C》 = Rahu는 Venus의 가치·보상·관계욕을 먹은 Rahu다.
+- 《Final Compression》 = 성과와 보호욕을 키우지만 회수 전 과열을 함께 만든다.
+HOUSE LORD
+- 《House Lord》 = Moon
+- 《Lord Position》 = 12H Simha 17°40′15″ / P.Phalguni P2 / RL Su / NL Ve / SL Ma / SSL Sa
+- 《Lord Movement》 = 11H 기능이 Moon를 통해 12H Simha 17°40′15″ / P.Phalguni P2 / RL Su / NL Ve / SL Ma / SSL Sa으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = PRIMARY
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- 단일/빈 하우스는 공동장으로 확장하지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+R-12H. RASHI CO-PRESENCE SLOT
+12H Rashi 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Rashi House》 = 12H
+- 《Rashi House Function》 = 배후소모 / 누수 / 퇴장 / 해소 / 숨은 비용
+- 《Rashi Sign》 = Simha
+- 《Rashi Occupants》 = Moon / Sun / Jupiter
+- 《Co-presence Status》 = CO-PRESENCE
+- 《Cluster Type》 = FUNCTIONAL_CLUSTER / STRONG_FUNCTIONAL
+RASHI PLANET PACKET
+- 《Planet A》 = Moon 17°40′15″ / P.Phalguni P2 / RL Su / NL Ve / SL Ma / SSL Sa
+- 《Planet B》 = Sun 22°50′15″ / P.Phalguni P3 / RL Su / NL Ve / SL Sa / SSL Ve
+- 《Planet C》 = Jupiter 26°12′49″ / P.Phalguni P4 / RL Su / NL Ve / SL Ke / SSL Ra
+- 《Additional Planet》 = NONE
+DEGREE / GAP
+- 《Degree Order》 = Moon → Sun → Jupiter
+- 《Gap》 = Moon-Sun 5°10′00″ / Sun-Jupiter 3°22′34″
+- 《Cluster Distance》 = FUNCTIONAL
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = Moon = 정서 반응 / 체감 현실 / 보호감 / 내면 감정
+- 《Planet B Independent Function》 = Sun = 실행권 / 중심성 / 자존 / 공식성
+- 《Planet C Independent Function》 = Jupiter = 방향권 / 의미화 / 원리 / 보호 확장
+MUTUAL COLORING
+- 《Planet A → Planet B》 = Moon은 Sun의 자존과 Jupiter의 의미를 먹은 Moon이다.
+- 《Planet B → Planet C》 = Sun은 Moon의 정서와 Jupiter의 방향성을 먹은 Sun이다.
+- 《Final Compression》 = Jupiter는 Moon의 체감과 Sun의 중심성을 먹은 Jupiter다.
+HOUSE LORD
+- 《House Lord》 = Sun
+- 《Lord Position》 = 12H Simha 22°50′15″ / P.Phalguni P3 / RL Su / NL Ve / SL Sa / SSL Ve
+- 《Lord Movement》 = 12H 기능이 Sun를 통해 12H Simha 22°50′15″ / P.Phalguni P3 / RL Su / NL Ve / SL Sa / SSL Ve으로 이동한다.
+WHOLE-CHART PRIORITY
+- 《Priority》 = PRIMARY
+RASHI OUTPUT NOTE
+- Rashi 공동장은 원본 구조다.
+- 단일/빈 하우스는 공동장으로 확장하지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+4-2. BHAVA 1H~12H CO-PRESENCE SLOTS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-1H. BHAVA CO-PRESENCE SLOT
+1H Bhava 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 1H
+- 《Bhava House Function》 = 본체 입구 / 몸 / 자기작동 / 현실 진입
+- 《Bhava Occupants》 = Lagna / Mercury / Saturn
+- 《Bhava Placement Source》 = BHAVA_HOUSE_DISTRIBUTION_FIELD
+- 《Co-presence Status》 = MAINTAINED_CORE_VISIBLE
+- 《Bhava Cluster Type》 = MAINTAINED_CLUSTER
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = Lagna → 1H / 13°55′35″ / Hasta P2 / RL Me / NL Mo / SL Ju / SSL Ju
+- 《Planet B》 = Mercury → 1H / 4°30′42″ / U.Phalguni P3 / RL Me / NL Su / SL Sa / SSL Ma
+- 《Planet C》 = Saturn → 1H / 4°52′46″ / U.Phalguni P3 / RL Me / NL Su / SL Sa / SSL Ju
+- 《Additional Planet》 = NONE
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = 1H Kanya / Mercury → Saturn → Lagna → Pluto / Pluto as Rashi outer support
+- 《Rashi Cluster Status in Bhava》 = PARTIAL_MAINTAINED
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = Mercury → Saturn → Lagna
+- 《Bhava Gap》 = Mercury-Saturn 0°22′04″ / Saturn-Lagna 9°02′49″
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = Lagna 1H function
+- 《Planet B Bhava Function》 = Mercury 1H function
+- 《Planet C Bhava Function》 = Saturn 1H function
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = Mercury-Saturn core maintained in Bhava 1H.
+- 《Bhava B → C》 = Pluto remains Rashi outer support, not primary Bhava occupant.
+- 《Bhava Final Compression》 = Final compression = Mercury/Saturn/Lagna core maintained
+BHAVA OUTPUT NOTE
+- Rashi 1H mixed cluster is partially maintained in Bhava 1H.
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-2H. BHAVA CO-PRESENCE SLOT
+2H Bhava 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 2H
+- 《Bhava House Function》 = 자원 / 말값 / 보유 / 금고 / 가족 장부
+- 《Bhava Occupants》 = Mars
+- 《Bhava Placement Source》 = BHAVA_HOUSE_DISTRIBUTION_FIELD
+- 《Co-presence Status》 = SINGLE_CORE_VISIBLE
+- 《Bhava Cluster Type》 = NO_CLUSTER / SINGLE
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = Mars → 2H / 13°27′44″ / Swati P3 / RL Ve / NL Ra / SL Me / SSL Mo
+- 《Planet B》 = NONE
+- 《Planet C》 = NONE
+- 《Additional Planet》 = NONE
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = 2H Thula / Mars → Uranus
+- 《Rashi Cluster Status in Bhava》 = PARTIAL_MAINTAINED_TO_SINGLE
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = SINGLE: Mars
+- 《Bhava Gap》 = NOT_APPLICABLE
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = Mars 2H function
+- 《Planet B Bhava Function》 = NOT_SHOWN
+- 《Planet C Bhava Function》 = NOT_SHOWN
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = Mars core maintained as single Bhava marker.
+- 《Bhava B → C》 = Uranus remains Rashi outer support, not primary Bhava occupant.
+- 《Bhava Final Compression》 = Final compression = single core only
+BHAVA OUTPUT NOTE
+- Rashi 2H Mars/Uranus co-field becomes Bhava 2H Mars single marker.
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-3H. BHAVA CO-PRESENCE SLOT
+3H Bhava 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 3H
+- 《Bhava House Function》 = 말 / 기록 / 연락 / 손발 / 작은 실행
+- 《Bhava Occupants》 = Maandi visible as Md / SUPPORT_ONLY
+- 《Bhava Placement Source》 = BHAVA_HOUSE_DISTRIBUTION_FIELD
+- 《Co-presence Status》 = SUPPORT_ONLY / RASHI-BHAVA_CORE_HOLD
+- 《Bhava Cluster Type》 = SUPPORT_ONLY
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = Maandi/Md → 3H / SUPPORT_ONLY / exact degree not independently locked
+- 《Planet B》 = NONE
+- 《Planet C》 = NONE
+- 《Additional Planet》 = NONE
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = 3H Vrischika / Neptune single Rashi support
+- 《Rashi Cluster Status in Bhava》 = RE-FUNCTIONED_SUPPORT_ONLY
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = SUPPORT_ONLY
+- 《Bhava Gap》 = NOT_VISIBLE
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = Maandi support marker
+- 《Planet B Bhava Function》 = NOT_SHOWN
+- 《Planet C Bhava Function》 = NOT_SHOWN
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = Support-only marker, not promoted to primary graha co-presence.
+- 《Bhava B → C》 = Rashi Neptune remains source-visible support.
+- 《Bhava Final Compression》 = Final compression = HOLD
+BHAVA OUTPUT NOTE
+- Support-only, no co-presence.
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-4H. BHAVA CO-PRESENCE SLOT
+4H Bhava 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 4H
+- 《Bhava House Function》 = 집 / 기반 / 내면 바닥 / 정착 / 안정
+- 《Bhava Occupants》 = EMPTY
+- 《Bhava Placement Source》 = BHAVA_HOUSE_DISTRIBUTION_FIELD
+- 《Co-presence Status》 = NONE
+- 《Bhava Cluster Type》 = NO_CLUSTER
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = EMPTY
+- 《Planet B》 = NONE
+- 《Planet C》 = NONE
+- 《Additional Planet》 = NONE
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = 4H Dhanus / EMPTY / 4L Jupiter
+- 《Rashi Cluster Status in Bhava》 = NONE
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = EMPTY
+- 《Bhava Gap》 = NOT_APPLICABLE
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = EMPTY
+- 《Planet B Bhava Function》 = NOT_SHOWN
+- 《Planet C Bhava Function》 = NOT_SHOWN
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = EMPTY / 공동장 없음
+- 《Bhava B → C》 = LORD_ONLY_OPERATION
+- 《Bhava Final Compression》 = Final compression = NOT_APPLICABLE
+BHAVA OUTPUT NOTE
+- EMPTY / LORD_ONLY_OPERATION.
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-5H. BHAVA CO-PRESENCE SLOT
+5H Bhava 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 5H
+- 《Bhava House Function》 = 판단 / 창조 / 선택 / 투입 / 전략
+- 《Bhava Occupants》 = Ketu
+- 《Bhava Placement Source》 = BHAVA_HOUSE_DISTRIBUTION_FIELD
+- 《Co-presence Status》 = SINGLE_CORE_VISIBLE
+- 《Bhava Cluster Type》 = NO_CLUSTER / SINGLE
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = Ketu → 5H / 26°33′09″ / Dhanishta P1 / RL Sa / NL Ma / SL Ju / SSL Sa
+- 《Planet B》 = NONE
+- 《Planet C》 = NONE
+- 《Additional Planet》 = NONE
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = 5H Makara / Ketu
+- 《Rashi Cluster Status in Bhava》 = SAME_SINGLE
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = SINGLE: Ketu
+- 《Bhava Gap》 = NOT_APPLICABLE
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = Ketu 5H function
+- 《Planet B Bhava Function》 = NOT_SHOWN
+- 《Planet C Bhava Function》 = NOT_SHOWN
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = Single marker only, not co-presence.
+- 《Bhava B → C》 = NOT_APPLICABLE
+- 《Bhava Final Compression》 = Final compression = single Ketu
+BHAVA OUTPUT NOTE
+- Single field, no co-presence.
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-6H. BHAVA CO-PRESENCE SLOT
+6H Bhava 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 6H
+- 《Bhava House Function》 = 문제처리 / 반복부담 / 실무 / 손실방어
+- 《Bhava Occupants》 = EMPTY
+- 《Bhava Placement Source》 = BHAVA_HOUSE_DISTRIBUTION_FIELD
+- 《Co-presence Status》 = NONE
+- 《Bhava Cluster Type》 = NO_CLUSTER
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = EMPTY
+- 《Planet B》 = NONE
+- 《Planet C》 = NONE
+- 《Additional Planet》 = NONE
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = 6H Kumbha / EMPTY / 6L Saturn
+- 《Rashi Cluster Status in Bhava》 = NONE
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = EMPTY
+- 《Bhava Gap》 = NOT_APPLICABLE
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = EMPTY
+- 《Planet B Bhava Function》 = NOT_SHOWN
+- 《Planet C Bhava Function》 = NOT_SHOWN
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = EMPTY / 공동장 없음
+- 《Bhava B → C》 = LORD_ONLY_OPERATION
+- 《Bhava Final Compression》 = Final compression = NOT_APPLICABLE
+BHAVA OUTPUT NOTE
+- EMPTY / LORD_ONLY_OPERATION.
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-7H. BHAVA CO-PRESENCE SLOT
+7H Bhava 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 7H
+- 《Bhava House Function》 = 대면 / 상대 / 계약 / 외부 반응 / 검증자
+- 《Bhava Occupants》 = EMPTY
+- 《Bhava Placement Source》 = BHAVA_HOUSE_DISTRIBUTION_FIELD
+- 《Co-presence Status》 = NONE
+- 《Bhava Cluster Type》 = NO_CLUSTER
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = EMPTY
+- 《Planet B》 = NONE
+- 《Planet C》 = NONE
+- 《Additional Planet》 = NONE
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = 7H Meena / EMPTY / 7L Jupiter
+- 《Rashi Cluster Status in Bhava》 = NONE
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = EMPTY
+- 《Bhava Gap》 = NOT_APPLICABLE
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = EMPTY
+- 《Planet B Bhava Function》 = NOT_SHOWN
+- 《Planet C Bhava Function》 = NOT_SHOWN
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = EMPTY / 공동장 없음
+- 《Bhava B → C》 = LORD_ONLY_OPERATION
+- 《Bhava Final Compression》 = Final compression = NOT_APPLICABLE
+BHAVA OUTPUT NOTE
+- EMPTY / LORD_ONLY_OPERATION.
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-8H. BHAVA CO-PRESENCE SLOT
+8H Bhava 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 8H
+- 《Bhava House Function》 = 숨은 장부 / 위기 / 공유책임 / 손실 / 전환
+- 《Bhava Occupants》 = EMPTY
+- 《Bhava Placement Source》 = BHAVA_HOUSE_DISTRIBUTION_FIELD
+- 《Co-presence Status》 = NONE
+- 《Bhava Cluster Type》 = NO_CLUSTER
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = EMPTY
+- 《Planet B》 = NONE
+- 《Planet C》 = NONE
+- 《Additional Planet》 = NONE
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = 8H Mesha / EMPTY / 8L Mars
+- 《Rashi Cluster Status in Bhava》 = NONE
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = EMPTY
+- 《Bhava Gap》 = NOT_APPLICABLE
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = EMPTY
+- 《Planet B Bhava Function》 = NOT_SHOWN
+- 《Planet C Bhava Function》 = NOT_SHOWN
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = EMPTY / 공동장 없음
+- 《Bhava B → C》 = LORD_ONLY_OPERATION
+- 《Bhava Final Compression》 = Final compression = NOT_APPLICABLE
+BHAVA OUTPUT NOTE
+- EMPTY / LORD_ONLY_OPERATION.
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-9H. BHAVA CO-PRESENCE SLOT
+9H Bhava 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 9H
+- 《Bhava House Function》 = 법전 / 상위 기준 / 명분 / 방향 / 다르마
+- 《Bhava Occupants》 = EMPTY
+- 《Bhava Placement Source》 = BHAVA_HOUSE_DISTRIBUTION_FIELD
+- 《Co-presence Status》 = NONE
+- 《Bhava Cluster Type》 = NO_CLUSTER
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = EMPTY
+- 《Planet B》 = NONE
+- 《Planet C》 = NONE
+- 《Additional Planet》 = NONE
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = 9H Vrishabha / EMPTY / 9L Venus
+- 《Rashi Cluster Status in Bhava》 = NONE
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = EMPTY
+- 《Bhava Gap》 = NOT_APPLICABLE
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = EMPTY
+- 《Planet B Bhava Function》 = NOT_SHOWN
+- 《Planet C Bhava Function》 = NOT_SHOWN
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = EMPTY / 공동장 없음
+- 《Bhava B → C》 = LORD_ONLY_OPERATION
+- 《Bhava Final Compression》 = Final compression = NOT_APPLICABLE
+BHAVA OUTPUT NOTE
+- EMPTY / LORD_ONLY_OPERATION.
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-10H. BHAVA CO-PRESENCE SLOT
+10H Bhava 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 10H
+- 《Bhava House Function》 = 현실 출력 / 역할 / 결과물 / 공적 작동
+- 《Bhava Occupants》 = EMPTY
+- 《Bhava Placement Source》 = BHAVA_HOUSE_DISTRIBUTION_FIELD
+- 《Co-presence Status》 = NONE
+- 《Bhava Cluster Type》 = NO_CLUSTER
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = EMPTY
+- 《Planet B》 = NONE
+- 《Planet C》 = NONE
+- 《Additional Planet》 = NONE
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = 10H Mithuna / EMPTY / 10L Mercury
+- 《Rashi Cluster Status in Bhava》 = NONE
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = EMPTY
+- 《Bhava Gap》 = NOT_APPLICABLE
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = EMPTY
+- 《Planet B Bhava Function》 = NOT_SHOWN
+- 《Planet C Bhava Function》 = NOT_SHOWN
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = EMPTY / 공동장 없음
+- 《Bhava B → C》 = LORD_ONLY_OPERATION
+- 《Bhava Final Compression》 = Final compression = NOT_APPLICABLE
+BHAVA OUTPUT NOTE
+- EMPTY / LORD_ONLY_OPERATION.
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-11H. BHAVA CO-PRESENCE SLOT
+11H Bhava 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 11H
+- 《Bhava House Function》 = 회수 / 성과 / 보상 / 귀속 / 네트워크
+- 《Bhava Occupants》 = Venus / Rahu
+- 《Bhava Placement Source》 = BHAVA_HOUSE_DISTRIBUTION_FIELD
+- 《Co-presence Status》 = MAINTAINED
+- 《Bhava Cluster Type》 = MAINTAINED_CLUSTER
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = Venus → 11H / 7°40′57″ / Pushyami P2 / RL Mo / NL Sa / SL Ke / SSL Ra
+- 《Planet B》 = Rahu → 11H / 26°33′09″ / Ashlesha P3 / RL Mo / NL Me / SL Ju / SSL Sa
+- 《Planet C》 = NONE
+- 《Additional Planet》 = NONE
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = 11H Kataka / Venus → Rahu
+- 《Rashi Cluster Status in Bhava》 = MAINTAINED
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = Venus → Rahu
+- 《Bhava Gap》 = Venus-Rahu 18°52′12″
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = Venus 11H function
+- 《Planet B Bhava Function》 = Rahu 11H function
+- 《Planet C Bhava Function》 = NOT_SHOWN
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = Venus is maintained in Bhava 11H with Rahu.
+- 《Bhava B → C》 = Rahu is maintained in Bhava 11H with Venus.
+- 《Bhava Final Compression》 = Final compression = maintained Venus/Rahu co-field
+BHAVA OUTPUT NOTE
+- Rashi 11H co-field maintained in Bhava 11H.
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+B-12H. BHAVA CO-PRESENCE SLOT
+12H Bhava 공동장 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Bhava House》 = 12H
+- 《Bhava House Function》 = 배후소모 / 누수 / 퇴장 / 해소 / 숨은 비용
+- 《Bhava Occupants》 = Sun / Moon / Jupiter
+- 《Bhava Placement Source》 = BHAVA_HOUSE_DISTRIBUTION_FIELD
+- 《Co-presence Status》 = MAINTAINED
+- 《Bhava Cluster Type》 = MAINTAINED_CLUSTER
+BHAVA PLANET PLACEMENT
+- 《Planet A》 = Moon → 12H / 17°40′15″ / P.Phalguni P2 / RL Su / NL Ve / SL Ma / SSL Sa
+- 《Planet B》 = Sun → 12H / 22°50′15″ / P.Phalguni P3 / RL Su / NL Ve / SL Sa / SSL Ve
+- 《Planet C》 = Jupiter → 12H / 26°12′49″ / P.Phalguni P4 / RL Su / NL Ve / SL Ke / SSL Ra
+- 《Additional Planet》 = NONE
+RASHI SOURCE LINK
+- 《Linked Rashi Co-presence》 = 12H Simha / Moon → Sun → Jupiter
+- 《Rashi Cluster Status in Bhava》 = MAINTAINED
+BHAVA DEGREE / GAP
+- 《Bhava Degree Order》 = Moon → Sun → Jupiter
+- 《Bhava Gap》 = Moon-Sun 5°10′00″ / Sun-Jupiter 3°22′34″
+BHAVA INDEPENDENT FUNCTION
+- 《Planet A Bhava Function》 = Moon 12H function
+- 《Planet B Bhava Function》 = Sun 12H function
+- 《Planet C Bhava Function》 = Jupiter 12H function
+BHAVA MUTUAL COLORING
+- 《Bhava A → B》 = Moon/Sun/Jupiter are maintained in Bhava 12H.
+- 《Bhava B → C》 = The Bhava source lists Sun/Moon/Jupiter but degree operation is preserved as Moon → Sun → Jupiter.
+- 《Bhava Final Compression》 = Final compression = maintained 12H co-field
+BHAVA OUTPUT NOTE
+- Rashi 12H co-field maintained in Bhava 12H.
+- Bhava 공동장은 현실 house-function 적용층이다.
+- Rashi 공동장을 덮어쓰지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha는 이 단계에서 사용하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+4-3. RASHI ↔ BHAVA 1H~12H CO-PRESENCE COMPARISON SLOTS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-1H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+1H Rashi-Bhava 공동장 비교 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《D1 House》 = 1H
+- 《House Function》 = 본체 입구 / 몸 / 자기작동 / 현실 진입
+RASHI SUMMARY
+- 《Rashi Co-presence》 = 1H / Kanya / Lagna / Mercury / Saturn / Pluto / CO-PRESENCE
+- 《Rashi Degree Order》 = Mercury → Saturn → Lagna → Pluto
+- 《Rashi Gap》 = Mercury-Saturn 0°22′04″ / Saturn-Lagna 9°02′49″ / Lagna-Pluto 12°48′46″
+- 《Rashi Operation》 = MIXED_CLUSTER / Mercury-Saturn CORE_EXACT / MIXED_CLUSTER
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = 1H / Lagna / Mercury / Saturn / MAINTAINED_CORE_VISIBLE
+- 《Bhava Status》 = MAINTAINED
+- 《Bhava Operation》 = PARTIAL_MAINTAINED / Mercury → Saturn → Lagna
+COMPARISON SENTENCE =
+Rashi 공동장은 CO-PRESENCE / Lagna / Mercury / Saturn / Pluto로 보존되고,
+Bhava에서는 MAINTAINED_CORE_VISIBLE / Lagna / Mercury / Saturn로 현실 적용된다.
+이 하우스의 Rashi-Bhava 공동장 비교 상태는 MAINTAINED이다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인 = PASS
+□ Bhava Co-presence 확인 = PASS
+□ Maintained / Split / Partial / Re-functioned 확인 = MAINTAINED
+□ Degree Order 확인 = PASS
+□ Gap 확인 = PASS
+□ Nakshatra/Pada 확인 = PASS
+□ RL-NL-SL-SSL 확인 = PASS
+□ Independent Function 확인 = PASS
+□ Mutual Coloring 확인 = PASS
+□ House Lord / Lord Movement 확인 = PASS
+□ “같이 있다” 표현 없음 = PASS
+□ 기능어 미사용 = PASS
+□ 현실 언어 번역 없음 = PASS
+□ 강도층 미사용 = PASS
+□ Aspect 미사용 = PASS
+□ Dasha 미사용 = PASS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-2H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+2H Rashi-Bhava 공동장 비교 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《D1 House》 = 2H
+- 《House Function》 = 자원 / 말값 / 보유 / 금고 / 가족 장부
+RASHI SUMMARY
+- 《Rashi Co-presence》 = 2H / Thula / Mars / Uranus / CO-PRESENCE
+- 《Rashi Degree Order》 = Mars → Uranus
+- 《Rashi Gap》 = Mars-Uranus 15°09′14″
+- 《Rashi Operation》 = LOOSE_CLUSTER / WIDE / LOOSE
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = 2H / Mars / SINGLE_CORE_VISIBLE
+- 《Bhava Status》 = PARTIAL_MAINTAINED_TO_SINGLE
+- 《Bhava Operation》 = PARTIAL_MAINTAINED_TO_SINGLE / SINGLE: Mars
+COMPARISON SENTENCE =
+Rashi 공동장은 CO-PRESENCE / Mars / Uranus로 보존되고,
+Bhava에서는 SINGLE_CORE_VISIBLE / Mars로 현실 적용된다.
+이 하우스의 Rashi-Bhava 공동장 비교 상태는 PARTIAL_MAINTAINED_TO_SINGLE이다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인 = PASS
+□ Bhava Co-presence 확인 = PASS
+□ Maintained / Split / Partial / Re-functioned 확인 = PARTIAL_MAINTAINED_TO_SINGLE
+□ Degree Order 확인 = PASS
+□ Gap 확인 = PASS
+□ Nakshatra/Pada 확인 = PASS
+□ RL-NL-SL-SSL 확인 = PASS
+□ Independent Function 확인 = PASS
+□ Mutual Coloring 확인 = PASS
+□ House Lord / Lord Movement 확인 = PASS
+□ “같이 있다” 표현 없음 = PASS
+□ 기능어 미사용 = PASS
+□ 현실 언어 번역 없음 = PASS
+□ 강도층 미사용 = PASS
+□ Aspect 미사용 = PASS
+□ Dasha 미사용 = PASS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-3H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+3H Rashi-Bhava 공동장 비교 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《D1 House》 = 3H
+- 《House Function》 = 말 / 기록 / 연락 / 손발 / 작은 실행
+RASHI SUMMARY
+- 《Rashi Co-presence》 = 3H / Vrischika / Neptune / SINGLE
+- 《Rashi Degree Order》 = SINGLE: Neptune
+- 《Rashi Gap》 = NONE
+- 《Rashi Operation》 = SINGLE / NOT_APPLICABLE
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = 3H / Maandi visible as Md / SUPPORT_ONLY / SUPPORT_ONLY / RASHI-BHAVA_CORE_HOLD
+- 《Bhava Status》 = RE-FUNCTIONED_SUPPORT_ONLY
+- 《Bhava Operation》 = RE-FUNCTIONED_SUPPORT_ONLY / SUPPORT_ONLY
+COMPARISON SENTENCE =
+Rashi 공동장은 SINGLE / Neptune로 보존되고,
+Bhava에서는 SUPPORT_ONLY / RASHI-BHAVA_CORE_HOLD / Maandi visible as Md / SUPPORT_ONLY로 현실 적용된다.
+이 하우스의 Rashi-Bhava 공동장 비교 상태는 RE-FUNCTIONED_SUPPORT_ONLY이다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인 = PASS
+□ Bhava Co-presence 확인 = PASS
+□ Maintained / Split / Partial / Re-functioned 확인 = RE-FUNCTIONED_SUPPORT_ONLY
+□ Degree Order 확인 = PASS
+□ Gap 확인 = PASS
+□ Nakshatra/Pada 확인 = PASS
+□ RL-NL-SL-SSL 확인 = PASS
+□ Independent Function 확인 = PASS
+□ Mutual Coloring 확인 = PASS
+□ House Lord / Lord Movement 확인 = PASS
+□ “같이 있다” 표현 없음 = PASS
+□ 기능어 미사용 = PASS
+□ 현실 언어 번역 없음 = PASS
+□ 강도층 미사용 = PASS
+□ Aspect 미사용 = PASS
+□ Dasha 미사용 = PASS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-4H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+4H Rashi-Bhava 공동장 비교 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《D1 House》 = 4H
+- 《House Function》 = 집 / 기반 / 내면 바닥 / 정착 / 안정
+RASHI SUMMARY
+- 《Rashi Co-presence》 = 4H / Dhanus / EMPTY / EMPTY
+- 《Rashi Degree Order》 = EMPTY
+- 《Rashi Gap》 = NONE
+- 《Rashi Operation》 = EMPTY / NOT_APPLICABLE
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = 4H / EMPTY / NONE
+- 《Bhava Status》 = NONE / LORD_ONLY
+- 《Bhava Operation》 = NONE / EMPTY
+COMPARISON SENTENCE =
+Rashi 공동장은 EMPTY / EMPTY로 보존되고,
+Bhava에서는 NONE / EMPTY로 현실 적용된다.
+이 하우스의 Rashi-Bhava 공동장 비교 상태는 NONE / LORD_ONLY이다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인 = PASS
+□ Bhava Co-presence 확인 = PASS
+□ Maintained / Split / Partial / Re-functioned 확인 = NONE / LORD_ONLY
+□ Degree Order 확인 = PASS
+□ Gap 확인 = PASS
+□ Nakshatra/Pada 확인 = PASS
+□ RL-NL-SL-SSL 확인 = PASS
+□ Independent Function 확인 = PASS
+□ Mutual Coloring 확인 = PASS
+□ House Lord / Lord Movement 확인 = PASS
+□ “같이 있다” 표현 없음 = PASS
+□ 기능어 미사용 = PASS
+□ 현실 언어 번역 없음 = PASS
+□ 강도층 미사용 = PASS
+□ Aspect 미사용 = PASS
+□ Dasha 미사용 = PASS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-5H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+5H Rashi-Bhava 공동장 비교 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《D1 House》 = 5H
+- 《House Function》 = 판단 / 창조 / 선택 / 투입 / 전략
+RASHI SUMMARY
+- 《Rashi Co-presence》 = 5H / Makara / Ketu / SINGLE
+- 《Rashi Degree Order》 = SINGLE: Ketu
+- 《Rashi Gap》 = NONE
+- 《Rashi Operation》 = SINGLE / NOT_APPLICABLE
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = 5H / Ketu / SINGLE_CORE_VISIBLE
+- 《Bhava Status》 = SINGLE_MAINTAINED
+- 《Bhava Operation》 = SAME_SINGLE / SINGLE: Ketu
+COMPARISON SENTENCE =
+Rashi 공동장은 SINGLE / Ketu로 보존되고,
+Bhava에서는 SINGLE_CORE_VISIBLE / Ketu로 현실 적용된다.
+이 하우스의 Rashi-Bhava 공동장 비교 상태는 SINGLE_MAINTAINED이다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인 = PASS
+□ Bhava Co-presence 확인 = PASS
+□ Maintained / Split / Partial / Re-functioned 확인 = SINGLE_MAINTAINED
+□ Degree Order 확인 = PASS
+□ Gap 확인 = PASS
+□ Nakshatra/Pada 확인 = PASS
+□ RL-NL-SL-SSL 확인 = PASS
+□ Independent Function 확인 = PASS
+□ Mutual Coloring 확인 = PASS
+□ House Lord / Lord Movement 확인 = PASS
+□ “같이 있다” 표현 없음 = PASS
+□ 기능어 미사용 = PASS
+□ 현실 언어 번역 없음 = PASS
+□ 강도층 미사용 = PASS
+□ Aspect 미사용 = PASS
+□ Dasha 미사용 = PASS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-6H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+6H Rashi-Bhava 공동장 비교 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《D1 House》 = 6H
+- 《House Function》 = 문제처리 / 반복부담 / 실무 / 손실방어
+RASHI SUMMARY
+- 《Rashi Co-presence》 = 6H / Kumbha / EMPTY / EMPTY
+- 《Rashi Degree Order》 = EMPTY
+- 《Rashi Gap》 = NONE
+- 《Rashi Operation》 = EMPTY / NOT_APPLICABLE
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = 6H / EMPTY / NONE
+- 《Bhava Status》 = NONE / LORD_ONLY
+- 《Bhava Operation》 = NONE / EMPTY
+COMPARISON SENTENCE =
+Rashi 공동장은 EMPTY / EMPTY로 보존되고,
+Bhava에서는 NONE / EMPTY로 현실 적용된다.
+이 하우스의 Rashi-Bhava 공동장 비교 상태는 NONE / LORD_ONLY이다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인 = PASS
+□ Bhava Co-presence 확인 = PASS
+□ Maintained / Split / Partial / Re-functioned 확인 = NONE / LORD_ONLY
+□ Degree Order 확인 = PASS
+□ Gap 확인 = PASS
+□ Nakshatra/Pada 확인 = PASS
+□ RL-NL-SL-SSL 확인 = PASS
+□ Independent Function 확인 = PASS
+□ Mutual Coloring 확인 = PASS
+□ House Lord / Lord Movement 확인 = PASS
+□ “같이 있다” 표현 없음 = PASS
+□ 기능어 미사용 = PASS
+□ 현실 언어 번역 없음 = PASS
+□ 강도층 미사용 = PASS
+□ Aspect 미사용 = PASS
+□ Dasha 미사용 = PASS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-7H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+7H Rashi-Bhava 공동장 비교 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《D1 House》 = 7H
+- 《House Function》 = 대면 / 상대 / 계약 / 외부 반응 / 검증자
+RASHI SUMMARY
+- 《Rashi Co-presence》 = 7H / Meena / EMPTY / EMPTY
+- 《Rashi Degree Order》 = EMPTY
+- 《Rashi Gap》 = NONE
+- 《Rashi Operation》 = EMPTY / NOT_APPLICABLE
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = 7H / EMPTY / NONE
+- 《Bhava Status》 = NONE / LORD_ONLY
+- 《Bhava Operation》 = NONE / EMPTY
+COMPARISON SENTENCE =
+Rashi 공동장은 EMPTY / EMPTY로 보존되고,
+Bhava에서는 NONE / EMPTY로 현실 적용된다.
+이 하우스의 Rashi-Bhava 공동장 비교 상태는 NONE / LORD_ONLY이다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인 = PASS
+□ Bhava Co-presence 확인 = PASS
+□ Maintained / Split / Partial / Re-functioned 확인 = NONE / LORD_ONLY
+□ Degree Order 확인 = PASS
+□ Gap 확인 = PASS
+□ Nakshatra/Pada 확인 = PASS
+□ RL-NL-SL-SSL 확인 = PASS
+□ Independent Function 확인 = PASS
+□ Mutual Coloring 확인 = PASS
+□ House Lord / Lord Movement 확인 = PASS
+□ “같이 있다” 표현 없음 = PASS
+□ 기능어 미사용 = PASS
+□ 현실 언어 번역 없음 = PASS
+□ 강도층 미사용 = PASS
+□ Aspect 미사용 = PASS
+□ Dasha 미사용 = PASS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-8H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+8H Rashi-Bhava 공동장 비교 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《D1 House》 = 8H
+- 《House Function》 = 숨은 장부 / 위기 / 공유책임 / 손실 / 전환
+RASHI SUMMARY
+- 《Rashi Co-presence》 = 8H / Mesha / EMPTY / EMPTY
+- 《Rashi Degree Order》 = EMPTY
+- 《Rashi Gap》 = NONE
+- 《Rashi Operation》 = EMPTY / NOT_APPLICABLE
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = 8H / EMPTY / NONE
+- 《Bhava Status》 = NONE / LORD_ONLY
+- 《Bhava Operation》 = NONE / EMPTY
+COMPARISON SENTENCE =
+Rashi 공동장은 EMPTY / EMPTY로 보존되고,
+Bhava에서는 NONE / EMPTY로 현실 적용된다.
+이 하우스의 Rashi-Bhava 공동장 비교 상태는 NONE / LORD_ONLY이다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인 = PASS
+□ Bhava Co-presence 확인 = PASS
+□ Maintained / Split / Partial / Re-functioned 확인 = NONE / LORD_ONLY
+□ Degree Order 확인 = PASS
+□ Gap 확인 = PASS
+□ Nakshatra/Pada 확인 = PASS
+□ RL-NL-SL-SSL 확인 = PASS
+□ Independent Function 확인 = PASS
+□ Mutual Coloring 확인 = PASS
+□ House Lord / Lord Movement 확인 = PASS
+□ “같이 있다” 표현 없음 = PASS
+□ 기능어 미사용 = PASS
+□ 현실 언어 번역 없음 = PASS
+□ 강도층 미사용 = PASS
+□ Aspect 미사용 = PASS
+□ Dasha 미사용 = PASS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-9H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+9H Rashi-Bhava 공동장 비교 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《D1 House》 = 9H
+- 《House Function》 = 법전 / 상위 기준 / 명분 / 방향 / 다르마
+RASHI SUMMARY
+- 《Rashi Co-presence》 = 9H / Vrishabha / EMPTY / EMPTY
+- 《Rashi Degree Order》 = EMPTY
+- 《Rashi Gap》 = NONE
+- 《Rashi Operation》 = EMPTY / NOT_APPLICABLE
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = 9H / EMPTY / NONE
+- 《Bhava Status》 = NONE / LORD_ONLY
+- 《Bhava Operation》 = NONE / EMPTY
+COMPARISON SENTENCE =
+Rashi 공동장은 EMPTY / EMPTY로 보존되고,
+Bhava에서는 NONE / EMPTY로 현실 적용된다.
+이 하우스의 Rashi-Bhava 공동장 비교 상태는 NONE / LORD_ONLY이다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인 = PASS
+□ Bhava Co-presence 확인 = PASS
+□ Maintained / Split / Partial / Re-functioned 확인 = NONE / LORD_ONLY
+□ Degree Order 확인 = PASS
+□ Gap 확인 = PASS
+□ Nakshatra/Pada 확인 = PASS
+□ RL-NL-SL-SSL 확인 = PASS
+□ Independent Function 확인 = PASS
+□ Mutual Coloring 확인 = PASS
+□ House Lord / Lord Movement 확인 = PASS
+□ “같이 있다” 표현 없음 = PASS
+□ 기능어 미사용 = PASS
+□ 현실 언어 번역 없음 = PASS
+□ 강도층 미사용 = PASS
+□ Aspect 미사용 = PASS
+□ Dasha 미사용 = PASS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-10H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+10H Rashi-Bhava 공동장 비교 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《D1 House》 = 10H
+- 《House Function》 = 현실 출력 / 역할 / 결과물 / 공적 작동
+RASHI SUMMARY
+- 《Rashi Co-presence》 = 10H / Mithuna / EMPTY / EMPTY
+- 《Rashi Degree Order》 = EMPTY
+- 《Rashi Gap》 = NONE
+- 《Rashi Operation》 = EMPTY / NOT_APPLICABLE
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = 10H / EMPTY / NONE
+- 《Bhava Status》 = NONE / LORD_ONLY
+- 《Bhava Operation》 = NONE / EMPTY
+COMPARISON SENTENCE =
+Rashi 공동장은 EMPTY / EMPTY로 보존되고,
+Bhava에서는 NONE / EMPTY로 현실 적용된다.
+이 하우스의 Rashi-Bhava 공동장 비교 상태는 NONE / LORD_ONLY이다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인 = PASS
+□ Bhava Co-presence 확인 = PASS
+□ Maintained / Split / Partial / Re-functioned 확인 = NONE / LORD_ONLY
+□ Degree Order 확인 = PASS
+□ Gap 확인 = PASS
+□ Nakshatra/Pada 확인 = PASS
+□ RL-NL-SL-SSL 확인 = PASS
+□ Independent Function 확인 = PASS
+□ Mutual Coloring 확인 = PASS
+□ House Lord / Lord Movement 확인 = PASS
+□ “같이 있다” 표현 없음 = PASS
+□ 기능어 미사용 = PASS
+□ 현실 언어 번역 없음 = PASS
+□ 강도층 미사용 = PASS
+□ Aspect 미사용 = PASS
+□ Dasha 미사용 = PASS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-11H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+11H Rashi-Bhava 공동장 비교 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《D1 House》 = 11H
+- 《House Function》 = 회수 / 성과 / 보상 / 귀속 / 네트워크
+RASHI SUMMARY
+- 《Rashi Co-presence》 = 11H / Kataka / Venus / Rahu / CO-PRESENCE
+- 《Rashi Degree Order》 = Venus → Rahu
+- 《Rashi Gap》 = Venus-Rahu 18°52′12″
+- 《Rashi Operation》 = LOOSE_CLUSTER / WIDE / LOOSE
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = 11H / Venus / Rahu / MAINTAINED
+- 《Bhava Status》 = MAINTAINED
+- 《Bhava Operation》 = MAINTAINED / Venus → Rahu
+COMPARISON SENTENCE =
+Rashi 공동장은 CO-PRESENCE / Venus / Rahu로 보존되고,
+Bhava에서는 MAINTAINED / Venus / Rahu로 현실 적용된다.
+이 하우스의 Rashi-Bhava 공동장 비교 상태는 MAINTAINED이다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인 = PASS
+□ Bhava Co-presence 확인 = PASS
+□ Maintained / Split / Partial / Re-functioned 확인 = MAINTAINED
+□ Degree Order 확인 = PASS
+□ Gap 확인 = PASS
+□ Nakshatra/Pada 확인 = PASS
+□ RL-NL-SL-SSL 확인 = PASS
+□ Independent Function 확인 = PASS
+□ Mutual Coloring 확인 = PASS
+□ House Lord / Lord Movement 확인 = PASS
+□ “같이 있다” 표현 없음 = PASS
+□ 기능어 미사용 = PASS
+□ 현실 언어 번역 없음 = PASS
+□ 강도층 미사용 = PASS
+□ Aspect 미사용 = PASS
+□ Dasha 미사용 = PASS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+C-12H. RASHI ↔ BHAVA CO-PRESENCE COMPARISON
+12H Rashi-Bhava 공동장 비교 슬롯 / ACTUAL FILLED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《D1 House》 = 12H
+- 《House Function》 = 배후소모 / 누수 / 퇴장 / 해소 / 숨은 비용
+RASHI SUMMARY
+- 《Rashi Co-presence》 = 12H / Simha / Moon / Sun / Jupiter / CO-PRESENCE
+- 《Rashi Degree Order》 = Moon → Sun → Jupiter
+- 《Rashi Gap》 = Moon-Sun 5°10′00″ / Sun-Jupiter 3°22′34″
+- 《Rashi Operation》 = FUNCTIONAL_CLUSTER / STRONG_FUNCTIONAL / FUNCTIONAL
+BHAVA SUMMARY
+- 《Bhava Co-presence》 = 12H / Sun / Moon / Jupiter / MAINTAINED
+- 《Bhava Status》 = MAINTAINED
+- 《Bhava Operation》 = MAINTAINED / Moon → Sun → Jupiter
+COMPARISON SENTENCE =
+Rashi 공동장은 CO-PRESENCE / Moon / Sun / Jupiter로 보존되고,
+Bhava에서는 MAINTAINED / Sun / Moon / Jupiter로 현실 적용된다.
+이 하우스의 Rashi-Bhava 공동장 비교 상태는 MAINTAINED이다.
+공동장이 유지되면 원본 공동장과 현실 적용장이 같은 무대에 있고,
+분리되면 각 행성이 별도 house-function으로 내려간다.
+재기능화되면 원본 구조는 유지되지만 현실 house-function에서 작동 의미가 바뀐다.
+COMPARISON CHECK
+□ Rashi Co-presence 확인 = PASS
+□ Bhava Co-presence 확인 = PASS
+□ Maintained / Split / Partial / Re-functioned 확인 = MAINTAINED
+□ Degree Order 확인 = PASS
+□ Gap 확인 = PASS
+□ Nakshatra/Pada 확인 = PASS
+□ RL-NL-SL-SSL 확인 = PASS
+□ Independent Function 확인 = PASS
+□ Mutual Coloring 확인 = PASS
+□ House Lord / Lord Movement 확인 = PASS
+□ “같이 있다” 표현 없음 = PASS
+□ 기능어 미사용 = PASS
+□ 현실 언어 번역 없음 = PASS
+□ 강도층 미사용 = PASS
+□ Aspect 미사용 = PASS
+□ Dasha 미사용 = PASS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+4-90. COMMON SINGLE / EMPTY / CO-PRESENCE RULE
+패밀리 후미 공통 규칙층
+━━━━━━━━━━━━━━━━━━━━━━━━━
+SINGLE =
+- 점유 행성이 1개인 경우 공동장 해석을 만들지 않는다.
+- 단일 행성의 도수 / 파다 / 회로 / 로드 이동만 확인한다.
+- 단일 행성은 공동장으로 부르지 않는다.
+EMPTY =
+- 점유 행성이 없는 경우 공동장 없음으로 처리한다.
+- 해당 하우스는 Lord-only operation으로 후속 단계에서 처리한다.
+CO-PRESENCE =
+- 점유 행성이 2개 이상일 때만 공동장 체크를 수행한다.
+- Degree Order / Gap / Independent Function / Mutual Coloring을 반드시 작성한다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+4-91. COMMON OUTPUT RULE
+패밀리 후미 공통 출력 형식층
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- “같이 있다” 금지.
+- 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 압축하는지 작성.
+- 같은 하우스/별자리 안의 상호착색을 반드시 작성.
+- 공동장 유지/분리 여부를 Bhava에서 다시 확인.
+- 단일 행성은 공동장으로 쓰지 않는다.
+- 빈 하우스는 공동장 없음 / Lord-only operation으로 넘긴다.
+- 기능어 사용 금지.
+- 현실 언어 번역 금지.
+- 강도층 / Aspect / Dasha / Arudha / AVA / Bhinna / Ashta / Mrityu 적용 금지.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+4-92. COMMON FAMILY FORMAT LOCK
+패밀리 후미 형식 잠금층
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- Rashi 1H~12H block → Bhava 1H~12H block → Rashi↔Bhava Comparison 1H~12H block 순서를 유지한다.
+- 공통 규칙 / 공통 출력 / 공통 검산은 중간 삽입하지 않고 파일 맨뒤에 둔다.
+- D1 Co-presence는 D1 First Integration 이후, Strength / Aspect / Dasha 이전의 구조 점검층으로 사용한다.
+- Source 없는 공동장 값은 자동 생성하지 않는다.
+- NOT_SHOWN은 EMPTY가 아니다.
+- EMPTY는 점유행성 없음이 확인된 경우에만 쓴다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+4-93. COMMON COMPLETION CHECK
+패밀리 후미 공통 검산층
+━━━━━━━━━━━━━━━━━━━━━━━━━
+□ Rashi 1H~12H Co-presence Slot 확인 = PASS
+□ Bhava 1H~12H Co-presence Slot 확인 = PASS
+□ Rashi↔Bhava 1H~12H Comparison Slot 확인 = PASS
+□ Co-present planets 확인 = PASS
+□ Degree order 확인 = PASS
+□ Gap 확인 = PASS
+□ 각 행성 Nakshatra/Pada 확인 = PASS
+□ 각 행성 RL-NL-SL-SSL 확인 = PASS
+□ Independent Function 작성 = PASS
+□ Mutual Coloring 작성 = PASS
+□ House Lord 확인 = PASS
+□ Lord Movement 확인 = PASS
+□ Whole-chart Priority 확인 = PASS
+□ Bhava Placement 확인 = PASS
+□ Co-presence Maintained/Split/Partial/Re-functioned Status 확인 = PASS
+□ Single / Empty Rule 적용 = PASS
+□ “같이 있다” 표현 없음 = PASS
+□ 기능어 미사용 = PASS
+□ 현실 언어 번역 없음 = PASS
+□ 강도층 미사용 = PASS
+□ Aspect 미사용 = PASS
+□ Dasha 미사용 = PASS
+□ 공통층이 파일 맨뒤에 위치함 = PASS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTENT END
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=04B_D1_RASHI_BHAVA_12H_CO_PRESENCE_SLOT_APPLIED_98
+INDEX=D_ENGINE > D1 > CO_PRESENCE > RASHI_BHAVA > 12H_SLOT > 04B > APPLIED_98
+STATUS=D1_ONLY / RASHI_BHAVA_12H_COPRESENCE_SLOT_APPLIED / SOURCE_VALUES_FILLED / COMPARISON_INCLUDED / SINGLE_EMPTY_RULE_INCLUDED / FAMILY_COMMON_LAYERS_AT_END / NO_FUNCTION_WORDS / NO_REALITY_TRANSLATION / NO_STRENGTH_ASPECT_DASHA / 98_READY
+━━━━━━━━━━━━━━━━━━━━━━━━━

@@ -1,0 +1,1940 @@
+HYEWON_TaRgEt_CO2_HouSe_TeMpl_A♤
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TARGET D-CHART 12H CO-PRESENCE CHECK SLOT TEMPLATE_98A
+분할차트 12하우스 공동장 구조 체크 슬롯
+RASHI-FIRST / BHAVA-OPTIONAL / SINGLE_EMPTY_RULE_INCLUDED / NO_FUNCTION_WORDS
+98 SUPPLEMENT INCLUDED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Purpose =
+Target D-chart 안에서 1H~12H 각각의 같은 sign / 같은 house 안의 공동장을 확인한다.
+
+Core Rule =
+- Target D-chart Rashi 공동장은 해당 D차트의 원본 구조다.
+- Target D-chart Bhava 공동장은 현실 house-function 적용층에서 공동장이 유지되는지 / 분리되는지 / 재기능화되는지 확인하는 보정층이다.
+- RASHI_ONLY판에서는 Bhava 공동장을 적용하지 않는다.
+- BHAVA_ONLY 또는 RASHI_BHAVA_INTEGRATED판에서만 Bhava 공동장 비교를 수행한다.
+- 공동장은 “같이 있다”로 쓰지 않는다.
+- 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 압축하는지 쓴다.
+- 각 행성의 독립 기능과 상호착색을 분리한다.
+- Bhava에서 공동장이 유지되는지 / 분리되는지 반드시 다시 확인한다.
+- 단일 행성은 공동장으로 쓰지 않는다.
+- 빈 하우스는 Lord-only operation으로 넘긴다.
+- 기능어 사용 금지.
+- 현실 언어 번역 금지.
+- 강도층 / Aspect / Dasha 적용 금지.
+- 해석 확장 금지.
+- 이 슬롯은 공동장 구조만 확인한다.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+0. SOURCE / STATUS SLOT
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- 《Subject Code》 = <SUBJECT_CODE>
+- 《D-chart》 = <D_CHART_TAG>
+- 《Rashi Source Dataset》 =
+  <SUBJECT_CODE>_<D_CHART_TAG>_RASHI_<SOURCE_TAG>_MASTER_BASELINE_DATASET
+- 《Bhava Source Dataset》 =
+  <SUBJECT_CODE>_<D_CHART_TAG>_BHAVA_<SOURCE_TAG>_MASTER_BASELINE_DATASET / not used
+- 《Source Type》 =
+  <USER_TEXT_BLOCK / SCREENSHOT_ONLY / SCREENSHOT_PLUS_TEXT / DERIVED / NOT_SHOWN>
+- 《Source Confidence》 =
+  <VISIBLE / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Use Boundary》 =
+  12 House co-presence only / no interpretation expansion
+- 《Panel Type》 =
+  <RASHI_ONLY / BHAVA_ONLY / RASHI_BHAVA_INTEGRATED>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+0-1. PANEL TYPE APPLICATION RULE
+패널 타입 적용 분기 규칙
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+RASHI_ONLY =
+- Rashi 1H~12H Co-presence Packet만 사용한다.
+- Bhava Co-presence Comparison Slot은 사용하지 않는다.
+- Bhava 유지/분리/재기능화 문장을 만들지 않는다.
+
+BHAVA_ONLY =
+- Bhava 1H~12H Co-presence Slot만 사용한다.
+- Rashi Source Link가 없으면 Rashi 원본 구조를 추정하지 않는다.
+- Rashi 비교문은 SUPPORT_ONLY 또는 NOT_USED로 둔다.
+
+RASHI_BHAVA_INTEGRATED =
+- Rashi Co-presence Packet을 먼저 작성한다.
+- 그다음 Bhava Co-presence Comparison Slot을 작성한다.
+- Rashi 원본 공동장을 Bhava로 덮어쓰지 않는다.
+- Bhava 현실 적용층이 Rashi 원본 공동장을 대체하지 않는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+0-2. MISSING / NOT VISIBLE RULE
+미확인값 처리 규칙
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- Bhava placement가 보이지 않으면 NOT_VISIBLE로 둔다.
+- Bhava comparison sentence를 만들지 않는다.
+- Rashi co-presence만 보이는 경우 RASHI_ONLY로 처리한다.
+- Degree가 보이지 않으면 Degree Order / Gap을 추정하지 않는다.
+- Nakshatra / Pada가 보이지 않으면 NOT_SHOWN으로 둔다.
+- RL/NL/SL/SSL이 보이지 않으면 회로를 만들지 않는다.
+- Source 없는 값은 SUPPORT_ONLY도 아니고 NOT_USED로 둔다.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+0-3. D-CHART DOMAIN BOUNDARY
+D차트 도메인 경계
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Rule =
+- 공동장은 해당 D차트 도메인 안에서만 읽는다.
+- D4 공동장은 기반·거처·땅·정착 도메인 안에서 읽는다.
+- D5 공동장은 권위·공덕·명예·자격 도메인 안에서 읽는다.
+- D6 공동장은 부담·문제관리·손실방어·몸 신호 도메인 안에서 읽는다.
+- D7 공동장은 관계행복·후속자원·창조자원 도메인 안에서 읽는다.
+- D8 공동장은 위기·전환·급변 도메인 안에서 읽는다.
+- D9 공동장은 다르마·관계성숙·내적 방향 도메인 안에서 읽는다.
+- D10 공동장은 직업역할·현실출력·사회적 기능 도메인 안에서 읽는다.
+- D11 공동장은 회수·성과·보상·귀속 도메인 안에서 읽는다.
+- D12 공동장은 가족장·부모장·혈통장 도메인 안에서 읽는다.
+- D16 공동장은 편안함·이동수단·생활 쾌적성·소유 체감 도메인 안에서 읽는다.
+- D20 공동장은 수행·정성·내면 신앙·복덕 수행 도메인 안에서 읽는다.
+- D24 공동장은 공부·지식·기술 습득·문서화 도메인 안에서 읽는다.
+- D27 공동장은 내구력·약점·방어력·보호구조 도메인 안에서 읽는다.
+- D30 공동장은 손상·오염·판단 왜곡 도메인 안에서 읽는다.
+- D40 공동장은 모계·가족 복덕·보호법전·가족장 정화 도메인 안에서 읽는다.
+- D45 공동장은 품성·선택결·미세성향 도메인 안에서 읽는다.
+- D60 공동장은 근원 반복·깊은 카르마·원인층 도메인 안에서 읽는다.
+
+금지 =
+- D차트 도메인을 무시하고 D1 일반 의미로 환원하지 않는다.
+- 공동장을 현실 언어로 번역하지 않는다.
+- 기능어로 포장하지 않는다.
+- 강도층, Aspect, Dasha를 이 슬롯 안에 넣지 않는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+0-4. POST CO-PRESENCE DEEP OPERATION KEYWORD CALL
+공동장 체크 후 심층작동결 ChArT 키워드 호출
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Rule =
+- 이 블록은 Co-presence structure check 본문이 아니다.
+- Rashi / Bhava 공동장 구조 확인이 끝난 뒤 후속 잠금문 작성용으로 호출한다.
+- 공동장 구조체크 안에서는 기능어를 쓰지 않는다.
+- 그러나 심층작동결 잠금문으로 넘어갈 때는 ChArT Keyword Addendum을 호출한다.
+
+Call =
+- TARGET_DCHART_DEEP_OPERATION_CHART_KEYWORD_ADDENDUM_98_LOCK
+- Target D-chart의 도메인에 맞는 기록 / 감지 / 번역 / 책임잠금 / 회수·소모 ChArT 키워드를 선택한다.
+- 선택된 ChArT 키워드는 후속 Deep Operation Keyword Bank 30 또는 잠금문 본문에만 사용한다.
+
+Use Boundary =
+- Source check 단계 = 기능어 금지
+- Deep operation 단계 = ChArT 키워드 사용 가능
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. 12H RASHI CO-PRESENCE PACKETS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CO2_RASHI_1H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1-1H. TARGET D-CHART RASHI CO-PRESENCE PACKET
+1H Rashi 공동장 구조 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Rashi House》 = 1H
+- 《Target House Function》 = 본체 입구 / 몸 / 자기작동 / 도메인 진입 방식
+- 《Target Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《House Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《House Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Opposite House》 = <OPPOSITE_HOUSE / NOT_SHOWN>
+- 《Linked Houses》 = <LINKED_HOUSE_LIST / NOT_SHOWN>
+- 《D-chart Domain Boundary》 = <D_CHART_DOMAIN>
+
+OCCUPANT COUNT =
+- 《Occupant Count》 = <EMPTY / SINGLE / CO-PRESENCE / NOT_SHOWN>
+- 《Use Rule》 = <LORD_ONLY_OPERATION / SINGLE_PLANET_OPERATION / CO_PRESENCE_CHECK / HOLD>
+
+PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / A-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축하거나 봉인하는가 / NOT_SHOWN>
+
+LORD MOVEMENT
+- 《House Lord》 = <HOUSE_LORD>
+- 《Lord Movement》 = 1H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+
+D-CHART DOMAIN ROLE
+- 《Domain Role》 = <THIS_CO_PRESENCE_ROLE_INSIDE_TARGET_D_CHART_DOMAIN>
+- 《Whole-chart Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT>
+
+USE DECISION =
+- 《Rashi Use Decision》 = <APPLY_AS_RASHI_CO_PRESENCE / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Rashi Decision Reason》 = <SOURCE_COMPLETE / SINGLE_ONLY / EMPTY_LORD_ONLY / DEGREE_MISSING / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+RASHI OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《1H》 《<SIGN>》은 해당 D차트 도메인 안에서 《1H》 기능이 원본 구조상 어디서 열리는지 확인하는 자리다.
+점유 행성이 있으면 해당 행성의 도수·파다·회로를 먼저 확인하고, 점유 행성이 없으면 《<HOUSE_LORD>》의 이동처와 정면축, 연결 하우스로 넘긴다.
+이 단계에서는 Bhava 적용, 기능어, 현실 언어, 강도층, Aspect, Dasha를 넣지 않는다.
+
+CO-PRESENCE OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《1H》 《<SIGN>》의 공동장은 해당 D차트 도메인 안에서 《<PLANET_A>》, 《<PLANET_B>》, 《<PLANET_C>》가 하나의 원본 하우스 구조 안에 놓인 상태다.
+이 구조는 “같이 있다”로 쓰지 않고, 도수 순서에 따라 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 조정·압축·봉인하는지로 확인한다.
+각 행성의 독립 기능과 상호착색을 분리하고, 《<HOUSE_LORD>》가 이 하우스 기능을 어디로 운반하는지 확인한다.
+
+CO2_RASHI_2H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1-2H. TARGET D-CHART RASHI CO-PRESENCE PACKET
+2H Rashi 공동장 구조 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Rashi House》 = 2H
+- 《Target House Function》 = 자원 / 보유 / 말값 / 금고화 / 가족·도메인 내부 장부
+- 《Target Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《House Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《House Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Opposite House》 = <OPPOSITE_HOUSE / NOT_SHOWN>
+- 《Linked Houses》 = <LINKED_HOUSE_LIST / NOT_SHOWN>
+- 《D-chart Domain Boundary》 = <D_CHART_DOMAIN>
+
+OCCUPANT COUNT =
+- 《Occupant Count》 = <EMPTY / SINGLE / CO-PRESENCE / NOT_SHOWN>
+- 《Use Rule》 = <LORD_ONLY_OPERATION / SINGLE_PLANET_OPERATION / CO_PRESENCE_CHECK / HOLD>
+
+PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / A-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축하거나 봉인하는가 / NOT_SHOWN>
+
+LORD MOVEMENT
+- 《House Lord》 = <HOUSE_LORD>
+- 《Lord Movement》 = 2H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+
+D-CHART DOMAIN ROLE
+- 《Domain Role》 = <THIS_CO_PRESENCE_ROLE_INSIDE_TARGET_D_CHART_DOMAIN>
+- 《Whole-chart Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT>
+
+USE DECISION =
+- 《Rashi Use Decision》 = <APPLY_AS_RASHI_CO_PRESENCE / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Rashi Decision Reason》 = <SOURCE_COMPLETE / SINGLE_ONLY / EMPTY_LORD_ONLY / DEGREE_MISSING / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+RASHI OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《2H》 《<SIGN>》은 해당 D차트 도메인 안에서 《2H》 기능이 원본 구조상 어디서 열리는지 확인하는 자리다.
+점유 행성이 있으면 해당 행성의 도수·파다·회로를 먼저 확인하고, 점유 행성이 없으면 《<HOUSE_LORD>》의 이동처와 정면축, 연결 하우스로 넘긴다.
+이 단계에서는 Bhava 적용, 기능어, 현실 언어, 강도층, Aspect, Dasha를 넣지 않는다.
+
+CO-PRESENCE OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《2H》 《<SIGN>》의 공동장은 해당 D차트 도메인 안에서 《<PLANET_A>》, 《<PLANET_B>》, 《<PLANET_C>》가 하나의 원본 하우스 구조 안에 놓인 상태다.
+이 구조는 “같이 있다”로 쓰지 않고, 도수 순서에 따라 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 조정·압축·봉인하는지로 확인한다.
+각 행성의 독립 기능과 상호착색을 분리하고, 《<HOUSE_LORD>》가 이 하우스 기능을 어디로 운반하는지 확인한다.
+
+CO2_RASHI_3H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1-3H. TARGET D-CHART RASHI CO-PRESENCE PACKET
+3H Rashi 공동장 구조 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Rashi House》 = 3H
+- 《Target House Function》 = 말 / 기록 / 기술 / 반복검증 / 작은 실행
+- 《Target Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《House Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《House Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Opposite House》 = <OPPOSITE_HOUSE / NOT_SHOWN>
+- 《Linked Houses》 = <LINKED_HOUSE_LIST / NOT_SHOWN>
+- 《D-chart Domain Boundary》 = <D_CHART_DOMAIN>
+
+OCCUPANT COUNT =
+- 《Occupant Count》 = <EMPTY / SINGLE / CO-PRESENCE / NOT_SHOWN>
+- 《Use Rule》 = <LORD_ONLY_OPERATION / SINGLE_PLANET_OPERATION / CO_PRESENCE_CHECK / HOLD>
+
+PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / A-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축하거나 봉인하는가 / NOT_SHOWN>
+
+LORD MOVEMENT
+- 《House Lord》 = <HOUSE_LORD>
+- 《Lord Movement》 = 3H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+
+D-CHART DOMAIN ROLE
+- 《Domain Role》 = <THIS_CO_PRESENCE_ROLE_INSIDE_TARGET_D_CHART_DOMAIN>
+- 《Whole-chart Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT>
+
+USE DECISION =
+- 《Rashi Use Decision》 = <APPLY_AS_RASHI_CO_PRESENCE / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Rashi Decision Reason》 = <SOURCE_COMPLETE / SINGLE_ONLY / EMPTY_LORD_ONLY / DEGREE_MISSING / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+RASHI OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《3H》 《<SIGN>》은 해당 D차트 도메인 안에서 《3H》 기능이 원본 구조상 어디서 열리는지 확인하는 자리다.
+점유 행성이 있으면 해당 행성의 도수·파다·회로를 먼저 확인하고, 점유 행성이 없으면 《<HOUSE_LORD>》의 이동처와 정면축, 연결 하우스로 넘긴다.
+이 단계에서는 Bhava 적용, 기능어, 현실 언어, 강도층, Aspect, Dasha를 넣지 않는다.
+
+CO-PRESENCE OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《3H》 《<SIGN>》의 공동장은 해당 D차트 도메인 안에서 《<PLANET_A>》, 《<PLANET_B>》, 《<PLANET_C>》가 하나의 원본 하우스 구조 안에 놓인 상태다.
+이 구조는 “같이 있다”로 쓰지 않고, 도수 순서에 따라 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 조정·압축·봉인하는지로 확인한다.
+각 행성의 독립 기능과 상호착색을 분리하고, 《<HOUSE_LORD>》가 이 하우스 기능을 어디로 운반하는지 확인한다.
+
+CO2_RASHI_4H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1-4H. TARGET D-CHART RASHI CO-PRESENCE PACKET
+4H Rashi 공동장 구조 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Rashi House》 = 4H
+- 《Target House Function》 = 집 / 기반 / 내면 바닥 / 정착 / 안정 구조
+- 《Target Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《House Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《House Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Opposite House》 = <OPPOSITE_HOUSE / NOT_SHOWN>
+- 《Linked Houses》 = <LINKED_HOUSE_LIST / NOT_SHOWN>
+- 《D-chart Domain Boundary》 = <D_CHART_DOMAIN>
+
+OCCUPANT COUNT =
+- 《Occupant Count》 = <EMPTY / SINGLE / CO-PRESENCE / NOT_SHOWN>
+- 《Use Rule》 = <LORD_ONLY_OPERATION / SINGLE_PLANET_OPERATION / CO_PRESENCE_CHECK / HOLD>
+
+PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / A-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축하거나 봉인하는가 / NOT_SHOWN>
+
+LORD MOVEMENT
+- 《House Lord》 = <HOUSE_LORD>
+- 《Lord Movement》 = 4H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+
+D-CHART DOMAIN ROLE
+- 《Domain Role》 = <THIS_CO_PRESENCE_ROLE_INSIDE_TARGET_D_CHART_DOMAIN>
+- 《Whole-chart Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT>
+
+USE DECISION =
+- 《Rashi Use Decision》 = <APPLY_AS_RASHI_CO_PRESENCE / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Rashi Decision Reason》 = <SOURCE_COMPLETE / SINGLE_ONLY / EMPTY_LORD_ONLY / DEGREE_MISSING / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+RASHI OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《4H》 《<SIGN>》은 해당 D차트 도메인 안에서 《4H》 기능이 원본 구조상 어디서 열리는지 확인하는 자리다.
+점유 행성이 있으면 해당 행성의 도수·파다·회로를 먼저 확인하고, 점유 행성이 없으면 《<HOUSE_LORD>》의 이동처와 정면축, 연결 하우스로 넘긴다.
+이 단계에서는 Bhava 적용, 기능어, 현실 언어, 강도층, Aspect, Dasha를 넣지 않는다.
+
+CO-PRESENCE OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《4H》 《<SIGN>》의 공동장은 해당 D차트 도메인 안에서 《<PLANET_A>》, 《<PLANET_B>》, 《<PLANET_C>》가 하나의 원본 하우스 구조 안에 놓인 상태다.
+이 구조는 “같이 있다”로 쓰지 않고, 도수 순서에 따라 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 조정·압축·봉인하는지로 확인한다.
+각 행성의 독립 기능과 상호착색을 분리하고, 《<HOUSE_LORD>》가 이 하우스 기능을 어디로 운반하는지 확인한다.
+
+CO2_RASHI_5H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1-5H. TARGET D-CHART RASHI CO-PRESENCE PACKET
+5H Rashi 공동장 구조 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Rashi House》 = 5H
+- 《Target House Function》 = 판단 / 창조 / 선택 / 투입 / 자원화
+- 《Target Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《House Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《House Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Opposite House》 = <OPPOSITE_HOUSE / NOT_SHOWN>
+- 《Linked Houses》 = <LINKED_HOUSE_LIST / NOT_SHOWN>
+- 《D-chart Domain Boundary》 = <D_CHART_DOMAIN>
+
+OCCUPANT COUNT =
+- 《Occupant Count》 = <EMPTY / SINGLE / CO-PRESENCE / NOT_SHOWN>
+- 《Use Rule》 = <LORD_ONLY_OPERATION / SINGLE_PLANET_OPERATION / CO_PRESENCE_CHECK / HOLD>
+
+PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / A-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축하거나 봉인하는가 / NOT_SHOWN>
+
+LORD MOVEMENT
+- 《House Lord》 = <HOUSE_LORD>
+- 《Lord Movement》 = 5H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+
+D-CHART DOMAIN ROLE
+- 《Domain Role》 = <THIS_CO_PRESENCE_ROLE_INSIDE_TARGET_D_CHART_DOMAIN>
+- 《Whole-chart Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT>
+
+USE DECISION =
+- 《Rashi Use Decision》 = <APPLY_AS_RASHI_CO_PRESENCE / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Rashi Decision Reason》 = <SOURCE_COMPLETE / SINGLE_ONLY / EMPTY_LORD_ONLY / DEGREE_MISSING / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+RASHI OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《5H》 《<SIGN>》은 해당 D차트 도메인 안에서 《5H》 기능이 원본 구조상 어디서 열리는지 확인하는 자리다.
+점유 행성이 있으면 해당 행성의 도수·파다·회로를 먼저 확인하고, 점유 행성이 없으면 《<HOUSE_LORD>》의 이동처와 정면축, 연결 하우스로 넘긴다.
+이 단계에서는 Bhava 적용, 기능어, 현실 언어, 강도층, Aspect, Dasha를 넣지 않는다.
+
+CO-PRESENCE OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《5H》 《<SIGN>》의 공동장은 해당 D차트 도메인 안에서 《<PLANET_A>》, 《<PLANET_B>》, 《<PLANET_C>》가 하나의 원본 하우스 구조 안에 놓인 상태다.
+이 구조는 “같이 있다”로 쓰지 않고, 도수 순서에 따라 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 조정·압축·봉인하는지로 확인한다.
+각 행성의 독립 기능과 상호착색을 분리하고, 《<HOUSE_LORD>》가 이 하우스 기능을 어디로 운반하는지 확인한다.
+
+CO2_RASHI_6H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1-6H. TARGET D-CHART RASHI CO-PRESENCE PACKET
+6H Rashi 공동장 구조 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Rashi House》 = 6H
+- 《Target House Function》 = 문제관리 / 부담 / 반복노동 / 적대축 / 손실방어
+- 《Target Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《House Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《House Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Opposite House》 = <OPPOSITE_HOUSE / NOT_SHOWN>
+- 《Linked Houses》 = <LINKED_HOUSE_LIST / NOT_SHOWN>
+- 《D-chart Domain Boundary》 = <D_CHART_DOMAIN>
+
+OCCUPANT COUNT =
+- 《Occupant Count》 = <EMPTY / SINGLE / CO-PRESENCE / NOT_SHOWN>
+- 《Use Rule》 = <LORD_ONLY_OPERATION / SINGLE_PLANET_OPERATION / CO_PRESENCE_CHECK / HOLD>
+
+PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / A-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축하거나 봉인하는가 / NOT_SHOWN>
+
+LORD MOVEMENT
+- 《House Lord》 = <HOUSE_LORD>
+- 《Lord Movement》 = 6H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+
+D-CHART DOMAIN ROLE
+- 《Domain Role》 = <THIS_CO_PRESENCE_ROLE_INSIDE_TARGET_D_CHART_DOMAIN>
+- 《Whole-chart Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT>
+
+USE DECISION =
+- 《Rashi Use Decision》 = <APPLY_AS_RASHI_CO_PRESENCE / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Rashi Decision Reason》 = <SOURCE_COMPLETE / SINGLE_ONLY / EMPTY_LORD_ONLY / DEGREE_MISSING / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+RASHI OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《6H》 《<SIGN>》은 해당 D차트 도메인 안에서 《6H》 기능이 원본 구조상 어디서 열리는지 확인하는 자리다.
+점유 행성이 있으면 해당 행성의 도수·파다·회로를 먼저 확인하고, 점유 행성이 없으면 《<HOUSE_LORD>》의 이동처와 정면축, 연결 하우스로 넘긴다.
+이 단계에서는 Bhava 적용, 기능어, 현실 언어, 강도층, Aspect, Dasha를 넣지 않는다.
+
+CO-PRESENCE OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《6H》 《<SIGN>》의 공동장은 해당 D차트 도메인 안에서 《<PLANET_A>》, 《<PLANET_B>》, 《<PLANET_C>》가 하나의 원본 하우스 구조 안에 놓인 상태다.
+이 구조는 “같이 있다”로 쓰지 않고, 도수 순서에 따라 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 조정·압축·봉인하는지로 확인한다.
+각 행성의 독립 기능과 상호착색을 분리하고, 《<HOUSE_LORD>》가 이 하우스 기능을 어디로 운반하는지 확인한다.
+
+CO2_RASHI_7H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1-7H. TARGET D-CHART RASHI CO-PRESENCE PACKET
+7H Rashi 공동장 구조 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Rashi House》 = 7H
+- 《Target House Function》 = 대면 / 상대 / 계약 / 외부 피드백 / 검증자
+- 《Target Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《House Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《House Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Opposite House》 = <OPPOSITE_HOUSE / NOT_SHOWN>
+- 《Linked Houses》 = <LINKED_HOUSE_LIST / NOT_SHOWN>
+- 《D-chart Domain Boundary》 = <D_CHART_DOMAIN>
+
+OCCUPANT COUNT =
+- 《Occupant Count》 = <EMPTY / SINGLE / CO-PRESENCE / NOT_SHOWN>
+- 《Use Rule》 = <LORD_ONLY_OPERATION / SINGLE_PLANET_OPERATION / CO_PRESENCE_CHECK / HOLD>
+
+PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / A-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축하거나 봉인하는가 / NOT_SHOWN>
+
+LORD MOVEMENT
+- 《House Lord》 = <HOUSE_LORD>
+- 《Lord Movement》 = 7H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+
+D-CHART DOMAIN ROLE
+- 《Domain Role》 = <THIS_CO_PRESENCE_ROLE_INSIDE_TARGET_D_CHART_DOMAIN>
+- 《Whole-chart Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT>
+
+USE DECISION =
+- 《Rashi Use Decision》 = <APPLY_AS_RASHI_CO_PRESENCE / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Rashi Decision Reason》 = <SOURCE_COMPLETE / SINGLE_ONLY / EMPTY_LORD_ONLY / DEGREE_MISSING / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+RASHI OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《7H》 《<SIGN>》은 해당 D차트 도메인 안에서 《7H》 기능이 원본 구조상 어디서 열리는지 확인하는 자리다.
+점유 행성이 있으면 해당 행성의 도수·파다·회로를 먼저 확인하고, 점유 행성이 없으면 《<HOUSE_LORD>》의 이동처와 정면축, 연결 하우스로 넘긴다.
+이 단계에서는 Bhava 적용, 기능어, 현실 언어, 강도층, Aspect, Dasha를 넣지 않는다.
+
+CO-PRESENCE OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《7H》 《<SIGN>》의 공동장은 해당 D차트 도메인 안에서 《<PLANET_A>》, 《<PLANET_B>》, 《<PLANET_C>》가 하나의 원본 하우스 구조 안에 놓인 상태다.
+이 구조는 “같이 있다”로 쓰지 않고, 도수 순서에 따라 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 조정·압축·봉인하는지로 확인한다.
+각 행성의 독립 기능과 상호착색을 분리하고, 《<HOUSE_LORD>》가 이 하우스 기능을 어디로 운반하는지 확인한다.
+
+CO2_RASHI_8H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1-8H. TARGET D-CHART RASHI CO-PRESENCE PACKET
+8H Rashi 공동장 구조 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Rashi House》 = 8H
+- 《Target House Function》 = 숨은 장부 / 위기 / 공유책임 / 전환 / 손실
+- 《Target Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《House Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《House Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Opposite House》 = <OPPOSITE_HOUSE / NOT_SHOWN>
+- 《Linked Houses》 = <LINKED_HOUSE_LIST / NOT_SHOWN>
+- 《D-chart Domain Boundary》 = <D_CHART_DOMAIN>
+
+OCCUPANT COUNT =
+- 《Occupant Count》 = <EMPTY / SINGLE / CO-PRESENCE / NOT_SHOWN>
+- 《Use Rule》 = <LORD_ONLY_OPERATION / SINGLE_PLANET_OPERATION / CO_PRESENCE_CHECK / HOLD>
+
+PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / A-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축하거나 봉인하는가 / NOT_SHOWN>
+
+LORD MOVEMENT
+- 《House Lord》 = <HOUSE_LORD>
+- 《Lord Movement》 = 8H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+
+D-CHART DOMAIN ROLE
+- 《Domain Role》 = <THIS_CO_PRESENCE_ROLE_INSIDE_TARGET_D_CHART_DOMAIN>
+- 《Whole-chart Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT>
+
+USE DECISION =
+- 《Rashi Use Decision》 = <APPLY_AS_RASHI_CO_PRESENCE / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Rashi Decision Reason》 = <SOURCE_COMPLETE / SINGLE_ONLY / EMPTY_LORD_ONLY / DEGREE_MISSING / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+RASHI OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《8H》 《<SIGN>》은 해당 D차트 도메인 안에서 《8H》 기능이 원본 구조상 어디서 열리는지 확인하는 자리다.
+점유 행성이 있으면 해당 행성의 도수·파다·회로를 먼저 확인하고, 점유 행성이 없으면 《<HOUSE_LORD>》의 이동처와 정면축, 연결 하우스로 넘긴다.
+이 단계에서는 Bhava 적용, 기능어, 현실 언어, 강도층, Aspect, Dasha를 넣지 않는다.
+
+CO-PRESENCE OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《8H》 《<SIGN>》의 공동장은 해당 D차트 도메인 안에서 《<PLANET_A>》, 《<PLANET_B>》, 《<PLANET_C>》가 하나의 원본 하우스 구조 안에 놓인 상태다.
+이 구조는 “같이 있다”로 쓰지 않고, 도수 순서에 따라 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 조정·압축·봉인하는지로 확인한다.
+각 행성의 독립 기능과 상호착색을 분리하고, 《<HOUSE_LORD>》가 이 하우스 기능을 어디로 운반하는지 확인한다.
+
+CO2_RASHI_9H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1-9H. TARGET D-CHART RASHI CO-PRESENCE PACKET
+9H Rashi 공동장 구조 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Rashi House》 = 9H
+- 《Target House Function》 = 법전 / 상위 기준 / 명분 / 방향 / 다르마
+- 《Target Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《House Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《House Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Opposite House》 = <OPPOSITE_HOUSE / NOT_SHOWN>
+- 《Linked Houses》 = <LINKED_HOUSE_LIST / NOT_SHOWN>
+- 《D-chart Domain Boundary》 = <D_CHART_DOMAIN>
+
+OCCUPANT COUNT =
+- 《Occupant Count》 = <EMPTY / SINGLE / CO-PRESENCE / NOT_SHOWN>
+- 《Use Rule》 = <LORD_ONLY_OPERATION / SINGLE_PLANET_OPERATION / CO_PRESENCE_CHECK / HOLD>
+
+PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / A-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축하거나 봉인하는가 / NOT_SHOWN>
+
+LORD MOVEMENT
+- 《House Lord》 = <HOUSE_LORD>
+- 《Lord Movement》 = 9H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+
+D-CHART DOMAIN ROLE
+- 《Domain Role》 = <THIS_CO_PRESENCE_ROLE_INSIDE_TARGET_D_CHART_DOMAIN>
+- 《Whole-chart Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT>
+
+USE DECISION =
+- 《Rashi Use Decision》 = <APPLY_AS_RASHI_CO_PRESENCE / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Rashi Decision Reason》 = <SOURCE_COMPLETE / SINGLE_ONLY / EMPTY_LORD_ONLY / DEGREE_MISSING / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+RASHI OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《9H》 《<SIGN>》은 해당 D차트 도메인 안에서 《9H》 기능이 원본 구조상 어디서 열리는지 확인하는 자리다.
+점유 행성이 있으면 해당 행성의 도수·파다·회로를 먼저 확인하고, 점유 행성이 없으면 《<HOUSE_LORD>》의 이동처와 정면축, 연결 하우스로 넘긴다.
+이 단계에서는 Bhava 적용, 기능어, 현실 언어, 강도층, Aspect, Dasha를 넣지 않는다.
+
+CO-PRESENCE OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《9H》 《<SIGN>》의 공동장은 해당 D차트 도메인 안에서 《<PLANET_A>》, 《<PLANET_B>》, 《<PLANET_C>》가 하나의 원본 하우스 구조 안에 놓인 상태다.
+이 구조는 “같이 있다”로 쓰지 않고, 도수 순서에 따라 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 조정·압축·봉인하는지로 확인한다.
+각 행성의 독립 기능과 상호착색을 분리하고, 《<HOUSE_LORD>》가 이 하우스 기능을 어디로 운반하는지 확인한다.
+
+CO2_RASHI_10H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1-10H. TARGET D-CHART RASHI CO-PRESENCE PACKET
+10H Rashi 공동장 구조 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Rashi House》 = 10H
+- 《Target House Function》 = 현실 출력 / 역할 / 결과물 / 직업기능 / 공적 작동
+- 《Target Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《House Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《House Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Opposite House》 = <OPPOSITE_HOUSE / NOT_SHOWN>
+- 《Linked Houses》 = <LINKED_HOUSE_LIST / NOT_SHOWN>
+- 《D-chart Domain Boundary》 = <D_CHART_DOMAIN>
+
+OCCUPANT COUNT =
+- 《Occupant Count》 = <EMPTY / SINGLE / CO-PRESENCE / NOT_SHOWN>
+- 《Use Rule》 = <LORD_ONLY_OPERATION / SINGLE_PLANET_OPERATION / CO_PRESENCE_CHECK / HOLD>
+
+PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / A-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축하거나 봉인하는가 / NOT_SHOWN>
+
+LORD MOVEMENT
+- 《House Lord》 = <HOUSE_LORD>
+- 《Lord Movement》 = 10H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+
+D-CHART DOMAIN ROLE
+- 《Domain Role》 = <THIS_CO_PRESENCE_ROLE_INSIDE_TARGET_D_CHART_DOMAIN>
+- 《Whole-chart Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT>
+
+USE DECISION =
+- 《Rashi Use Decision》 = <APPLY_AS_RASHI_CO_PRESENCE / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Rashi Decision Reason》 = <SOURCE_COMPLETE / SINGLE_ONLY / EMPTY_LORD_ONLY / DEGREE_MISSING / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+RASHI OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《10H》 《<SIGN>》은 해당 D차트 도메인 안에서 《10H》 기능이 원본 구조상 어디서 열리는지 확인하는 자리다.
+점유 행성이 있으면 해당 행성의 도수·파다·회로를 먼저 확인하고, 점유 행성이 없으면 《<HOUSE_LORD>》의 이동처와 정면축, 연결 하우스로 넘긴다.
+이 단계에서는 Bhava 적용, 기능어, 현실 언어, 강도층, Aspect, Dasha를 넣지 않는다.
+
+CO-PRESENCE OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《10H》 《<SIGN>》의 공동장은 해당 D차트 도메인 안에서 《<PLANET_A>》, 《<PLANET_B>》, 《<PLANET_C>》가 하나의 원본 하우스 구조 안에 놓인 상태다.
+이 구조는 “같이 있다”로 쓰지 않고, 도수 순서에 따라 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 조정·압축·봉인하는지로 확인한다.
+각 행성의 독립 기능과 상호착색을 분리하고, 《<HOUSE_LORD>》가 이 하우스 기능을 어디로 운반하는지 확인한다.
+
+CO2_RASHI_11H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1-11H. TARGET D-CHART RASHI CO-PRESENCE PACKET
+11H Rashi 공동장 구조 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Rashi House》 = 11H
+- 《Target House Function》 = 회수 / 성과 / 보상 / 귀속 / 네트워크
+- 《Target Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《House Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《House Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Opposite House》 = <OPPOSITE_HOUSE / NOT_SHOWN>
+- 《Linked Houses》 = <LINKED_HOUSE_LIST / NOT_SHOWN>
+- 《D-chart Domain Boundary》 = <D_CHART_DOMAIN>
+
+OCCUPANT COUNT =
+- 《Occupant Count》 = <EMPTY / SINGLE / CO-PRESENCE / NOT_SHOWN>
+- 《Use Rule》 = <LORD_ONLY_OPERATION / SINGLE_PLANET_OPERATION / CO_PRESENCE_CHECK / HOLD>
+
+PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / A-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축하거나 봉인하는가 / NOT_SHOWN>
+
+LORD MOVEMENT
+- 《House Lord》 = <HOUSE_LORD>
+- 《Lord Movement》 = 11H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+
+D-CHART DOMAIN ROLE
+- 《Domain Role》 = <THIS_CO_PRESENCE_ROLE_INSIDE_TARGET_D_CHART_DOMAIN>
+- 《Whole-chart Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT>
+
+USE DECISION =
+- 《Rashi Use Decision》 = <APPLY_AS_RASHI_CO_PRESENCE / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Rashi Decision Reason》 = <SOURCE_COMPLETE / SINGLE_ONLY / EMPTY_LORD_ONLY / DEGREE_MISSING / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+RASHI OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《11H》 《<SIGN>》은 해당 D차트 도메인 안에서 《11H》 기능이 원본 구조상 어디서 열리는지 확인하는 자리다.
+점유 행성이 있으면 해당 행성의 도수·파다·회로를 먼저 확인하고, 점유 행성이 없으면 《<HOUSE_LORD>》의 이동처와 정면축, 연결 하우스로 넘긴다.
+이 단계에서는 Bhava 적용, 기능어, 현실 언어, 강도층, Aspect, Dasha를 넣지 않는다.
+
+CO-PRESENCE OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《11H》 《<SIGN>》의 공동장은 해당 D차트 도메인 안에서 《<PLANET_A>》, 《<PLANET_B>》, 《<PLANET_C>》가 하나의 원본 하우스 구조 안에 놓인 상태다.
+이 구조는 “같이 있다”로 쓰지 않고, 도수 순서에 따라 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 조정·압축·봉인하는지로 확인한다.
+각 행성의 독립 기능과 상호착색을 분리하고, 《<HOUSE_LORD>》가 이 하우스 기능을 어디로 운반하는지 확인한다.
+
+CO2_RASHI_12H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1-12H. TARGET D-CHART RASHI CO-PRESENCE PACKET
+12H Rashi 공동장 구조 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Rashi House》 = 12H
+- 《Target House Function》 = 배후소모 / 누수 / 퇴장 / 해소 / 숨은 비용
+- 《Target Rashi Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <PLANET_A + PLANET_B + PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《House Lord》 = <HOUSE_LORD / NOT_SHOWN>
+- 《House Lord Position》 = <HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《House Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Opposite House》 = <OPPOSITE_HOUSE / NOT_SHOWN>
+- 《Linked Houses》 = <LINKED_HOUSE_LIST / NOT_SHOWN>
+- 《D-chart Domain Boundary》 = <D_CHART_DOMAIN>
+
+OCCUPANT COUNT =
+- 《Occupant Count》 = <EMPTY / SINGLE / CO-PRESENCE / NOT_SHOWN>
+- 《Use Rule》 = <LORD_ONLY_OPERATION / SINGLE_PLANET_OPERATION / CO_PRESENCE_CHECK / HOLD>
+
+PLANET PACKET
+- 《Planet A》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet B》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Planet C》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NONE>
+
+DEGREE / GAP
+- 《Degree Order》 = <PLANET_A → PLANET_B → PLANET_C / SINGLE / EMPTY / NOT_SHOWN>
+- 《Gap》 = <A-B GAP / B-C GAP / A-C GAP / NONE / NOT_SHOWN>
+- 《Cluster Type》 = <TIGHT_CLUSTER / FUNCTIONAL_CLUSTER / LOOSE_CLUSTER / SINGLE / EMPTY / NOT_SHOWN>
+
+INDEPENDENT FUNCTION
+- 《Planet A Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet B Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+- 《Planet C Independent Function》 = <INDEPENDENT_FUNCTION_IN_THIS_D_CHART / NOT_SHOWN>
+
+MUTUAL COLORING
+- 《Planet A → Planet B》 = <앞도수 행성이 뒤 행성을 어떻게 물들이는가 / NOT_SHOWN>
+- 《Planet B → Planet C》 = <중간 행성이 뒤 행성을 어떻게 조정하는가 / NOT_SHOWN>
+- 《Final Compression》 = <뒤도수 행성이 전체 공동장을 어떻게 압축하거나 봉인하는가 / NOT_SHOWN>
+
+LORD MOVEMENT
+- 《House Lord》 = <HOUSE_LORD>
+- 《Lord Movement》 = 12H 기능이 <HOUSE_LORD>를 통해 <LORD_POSITION>으로 이동한다.
+
+D-CHART DOMAIN ROLE
+- 《Domain Role》 = <THIS_CO_PRESENCE_ROLE_INSIDE_TARGET_D_CHART_DOMAIN>
+- 《Whole-chart Priority》 = <PRIMARY / SECONDARY / SUPPORT / DISTORTION / RECOVERY / OUTPUT>
+
+USE DECISION =
+- 《Rashi Use Decision》 = <APPLY_AS_RASHI_CO_PRESENCE / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Rashi Decision Reason》 = <SOURCE_COMPLETE / SINGLE_ONLY / EMPTY_LORD_ONLY / DEGREE_MISSING / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+RASHI OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《12H》 《<SIGN>》은 해당 D차트 도메인 안에서 《12H》 기능이 원본 구조상 어디서 열리는지 확인하는 자리다.
+점유 행성이 있으면 해당 행성의 도수·파다·회로를 먼저 확인하고, 점유 행성이 없으면 《<HOUSE_LORD>》의 이동처와 정면축, 연결 하우스로 넘긴다.
+이 단계에서는 Bhava 적용, 기능어, 현실 언어, 강도층, Aspect, Dasha를 넣지 않는다.
+
+CO-PRESENCE OUTPUT SENTENCE =
+《<D_CHART_TAG>》 Rashi 《12H》 《<SIGN>》의 공동장은 해당 D차트 도메인 안에서 《<PLANET_A>》, 《<PLANET_B>》, 《<PLANET_C>》가 하나의 원본 하우스 구조 안에 놓인 상태다.
+이 구조는 “같이 있다”로 쓰지 않고, 도수 순서에 따라 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 조정·압축·봉인하는지로 확인한다.
+각 행성의 독립 기능과 상호착색을 분리하고, 《<HOUSE_LORD>》가 이 하우스 기능을 어디로 운반하는지 확인한다.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2. 12H BHAVA CO-PRESENCE COMPARISON SLOTS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CO2_BHAVA_1H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2-1H. TARGET D-CHART BHAVA CO-PRESENCE COMPARISON
+1H Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- RASHI_ONLY판에서는 사용 금지.
+- BHAVA_ONLY 또는 RASHI_BHAVA_INTEGRATED판에서만 사용한다.
+- Bhava placement가 NOT_VISIBLE이면 이 블록은 HOLD 또는 NOT_USED로 둔다.
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Bhava House》 = 1H
+- 《Bhava House Function》 = 본체 입구 / 몸 / 자기작동 / 도메인 진입 방식
+- 《Rashi Target House》 = <RASHI_HOUSE / SIGN / OCCUPANTS / NOT_SHOWN>
+- 《Bhava Target House》 = <BHAVA_HOUSE / BHAVA_MIDDLE_SIGN / OCCUPANTS / NOT_SHOWN>
+
+BHAVA PLACEMENT
+- 《Planet A》 = <PLANET_A> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet B》 = <PLANET_B> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet C》 = <PLANET_C> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET> → <BHAVA_HOUSE / NONE>
+
+CO-PRESENCE STATUS
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+- 《Rashi-to-Bhava Status》 = <SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_VISIBLE>
+
+BHAVA FUNCTION
+- 《Bhava House Function》 = <BHAVA_HOUSE_FUNCTION>
+- 《Rashi-to-Bhava Comparison》 =
+  Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+  Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+
+USE DECISION =
+- 《Bhava Use Decision》 = <APPLY_AS_BHAVA_COMPARISON / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Bhava Decision Reason》 = <BHAVA_PLACEMENT_VISIBLE / MAINTAINED / SPLIT / REFUNCTIONED / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+COMPARISON SENTENCE =
+《<D_CHART_TAG>》 Rashi 《<RASHI_HOUSE>》 공동장은 원본 구조에서 《<RASHI_CO_PRESENCE_FUNCTION>》으로 확인된다.
+Bhava에서 공동장이 유지되면, 원본 공동장과 현실 적용장이 같은 무대에 남아 있는 것으로 본다.
+Bhava에서 공동장이 분리되면, 각 행성은 별도 house-function으로 내려가며, Rashi의 상호착색은 원본 구조로 보존하되 현실 적용은 분리된 하우스 기능으로 판정한다.
+Bhava에서 재기능화되면, Rashi 원본 공동장은 그대로 보존하고, 현실 체감층에서 어떤 기능으로 바뀌는지만 따로 기록한다.
+
+CO2_BHAVA_2H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2-2H. TARGET D-CHART BHAVA CO-PRESENCE COMPARISON
+2H Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- RASHI_ONLY판에서는 사용 금지.
+- BHAVA_ONLY 또는 RASHI_BHAVA_INTEGRATED판에서만 사용한다.
+- Bhava placement가 NOT_VISIBLE이면 이 블록은 HOLD 또는 NOT_USED로 둔다.
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Bhava House》 = 2H
+- 《Bhava House Function》 = 자원 / 보유 / 말값 / 금고화 / 가족·도메인 내부 장부
+- 《Rashi Target House》 = <RASHI_HOUSE / SIGN / OCCUPANTS / NOT_SHOWN>
+- 《Bhava Target House》 = <BHAVA_HOUSE / BHAVA_MIDDLE_SIGN / OCCUPANTS / NOT_SHOWN>
+
+BHAVA PLACEMENT
+- 《Planet A》 = <PLANET_A> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet B》 = <PLANET_B> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet C》 = <PLANET_C> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET> → <BHAVA_HOUSE / NONE>
+
+CO-PRESENCE STATUS
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+- 《Rashi-to-Bhava Status》 = <SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_VISIBLE>
+
+BHAVA FUNCTION
+- 《Bhava House Function》 = <BHAVA_HOUSE_FUNCTION>
+- 《Rashi-to-Bhava Comparison》 =
+  Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+  Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+
+USE DECISION =
+- 《Bhava Use Decision》 = <APPLY_AS_BHAVA_COMPARISON / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Bhava Decision Reason》 = <BHAVA_PLACEMENT_VISIBLE / MAINTAINED / SPLIT / REFUNCTIONED / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+COMPARISON SENTENCE =
+《<D_CHART_TAG>》 Rashi 《<RASHI_HOUSE>》 공동장은 원본 구조에서 《<RASHI_CO_PRESENCE_FUNCTION>》으로 확인된다.
+Bhava에서 공동장이 유지되면, 원본 공동장과 현실 적용장이 같은 무대에 남아 있는 것으로 본다.
+Bhava에서 공동장이 분리되면, 각 행성은 별도 house-function으로 내려가며, Rashi의 상호착색은 원본 구조로 보존하되 현실 적용은 분리된 하우스 기능으로 판정한다.
+Bhava에서 재기능화되면, Rashi 원본 공동장은 그대로 보존하고, 현실 체감층에서 어떤 기능으로 바뀌는지만 따로 기록한다.
+
+CO2_BHAVA_3H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2-3H. TARGET D-CHART BHAVA CO-PRESENCE COMPARISON
+3H Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- RASHI_ONLY판에서는 사용 금지.
+- BHAVA_ONLY 또는 RASHI_BHAVA_INTEGRATED판에서만 사용한다.
+- Bhava placement가 NOT_VISIBLE이면 이 블록은 HOLD 또는 NOT_USED로 둔다.
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Bhava House》 = 3H
+- 《Bhava House Function》 = 말 / 기록 / 기술 / 반복검증 / 작은 실행
+- 《Rashi Target House》 = <RASHI_HOUSE / SIGN / OCCUPANTS / NOT_SHOWN>
+- 《Bhava Target House》 = <BHAVA_HOUSE / BHAVA_MIDDLE_SIGN / OCCUPANTS / NOT_SHOWN>
+
+BHAVA PLACEMENT
+- 《Planet A》 = <PLANET_A> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet B》 = <PLANET_B> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet C》 = <PLANET_C> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET> → <BHAVA_HOUSE / NONE>
+
+CO-PRESENCE STATUS
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+- 《Rashi-to-Bhava Status》 = <SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_VISIBLE>
+
+BHAVA FUNCTION
+- 《Bhava House Function》 = <BHAVA_HOUSE_FUNCTION>
+- 《Rashi-to-Bhava Comparison》 =
+  Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+  Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+
+USE DECISION =
+- 《Bhava Use Decision》 = <APPLY_AS_BHAVA_COMPARISON / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Bhava Decision Reason》 = <BHAVA_PLACEMENT_VISIBLE / MAINTAINED / SPLIT / REFUNCTIONED / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+COMPARISON SENTENCE =
+《<D_CHART_TAG>》 Rashi 《<RASHI_HOUSE>》 공동장은 원본 구조에서 《<RASHI_CO_PRESENCE_FUNCTION>》으로 확인된다.
+Bhava에서 공동장이 유지되면, 원본 공동장과 현실 적용장이 같은 무대에 남아 있는 것으로 본다.
+Bhava에서 공동장이 분리되면, 각 행성은 별도 house-function으로 내려가며, Rashi의 상호착색은 원본 구조로 보존하되 현실 적용은 분리된 하우스 기능으로 판정한다.
+Bhava에서 재기능화되면, Rashi 원본 공동장은 그대로 보존하고, 현실 체감층에서 어떤 기능으로 바뀌는지만 따로 기록한다.
+
+CO2_BHAVA_4H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2-4H. TARGET D-CHART BHAVA CO-PRESENCE COMPARISON
+4H Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- RASHI_ONLY판에서는 사용 금지.
+- BHAVA_ONLY 또는 RASHI_BHAVA_INTEGRATED판에서만 사용한다.
+- Bhava placement가 NOT_VISIBLE이면 이 블록은 HOLD 또는 NOT_USED로 둔다.
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Bhava House》 = 4H
+- 《Bhava House Function》 = 집 / 기반 / 내면 바닥 / 정착 / 안정 구조
+- 《Rashi Target House》 = <RASHI_HOUSE / SIGN / OCCUPANTS / NOT_SHOWN>
+- 《Bhava Target House》 = <BHAVA_HOUSE / BHAVA_MIDDLE_SIGN / OCCUPANTS / NOT_SHOWN>
+
+BHAVA PLACEMENT
+- 《Planet A》 = <PLANET_A> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet B》 = <PLANET_B> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet C》 = <PLANET_C> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET> → <BHAVA_HOUSE / NONE>
+
+CO-PRESENCE STATUS
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+- 《Rashi-to-Bhava Status》 = <SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_VISIBLE>
+
+BHAVA FUNCTION
+- 《Bhava House Function》 = <BHAVA_HOUSE_FUNCTION>
+- 《Rashi-to-Bhava Comparison》 =
+  Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+  Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+
+USE DECISION =
+- 《Bhava Use Decision》 = <APPLY_AS_BHAVA_COMPARISON / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Bhava Decision Reason》 = <BHAVA_PLACEMENT_VISIBLE / MAINTAINED / SPLIT / REFUNCTIONED / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+COMPARISON SENTENCE =
+《<D_CHART_TAG>》 Rashi 《<RASHI_HOUSE>》 공동장은 원본 구조에서 《<RASHI_CO_PRESENCE_FUNCTION>》으로 확인된다.
+Bhava에서 공동장이 유지되면, 원본 공동장과 현실 적용장이 같은 무대에 남아 있는 것으로 본다.
+Bhava에서 공동장이 분리되면, 각 행성은 별도 house-function으로 내려가며, Rashi의 상호착색은 원본 구조로 보존하되 현실 적용은 분리된 하우스 기능으로 판정한다.
+Bhava에서 재기능화되면, Rashi 원본 공동장은 그대로 보존하고, 현실 체감층에서 어떤 기능으로 바뀌는지만 따로 기록한다.
+
+CO2_BHAVA_5H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2-5H. TARGET D-CHART BHAVA CO-PRESENCE COMPARISON
+5H Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- RASHI_ONLY판에서는 사용 금지.
+- BHAVA_ONLY 또는 RASHI_BHAVA_INTEGRATED판에서만 사용한다.
+- Bhava placement가 NOT_VISIBLE이면 이 블록은 HOLD 또는 NOT_USED로 둔다.
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Bhava House》 = 5H
+- 《Bhava House Function》 = 판단 / 창조 / 선택 / 투입 / 자원화
+- 《Rashi Target House》 = <RASHI_HOUSE / SIGN / OCCUPANTS / NOT_SHOWN>
+- 《Bhava Target House》 = <BHAVA_HOUSE / BHAVA_MIDDLE_SIGN / OCCUPANTS / NOT_SHOWN>
+
+BHAVA PLACEMENT
+- 《Planet A》 = <PLANET_A> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet B》 = <PLANET_B> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet C》 = <PLANET_C> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET> → <BHAVA_HOUSE / NONE>
+
+CO-PRESENCE STATUS
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+- 《Rashi-to-Bhava Status》 = <SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_VISIBLE>
+
+BHAVA FUNCTION
+- 《Bhava House Function》 = <BHAVA_HOUSE_FUNCTION>
+- 《Rashi-to-Bhava Comparison》 =
+  Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+  Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+
+USE DECISION =
+- 《Bhava Use Decision》 = <APPLY_AS_BHAVA_COMPARISON / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Bhava Decision Reason》 = <BHAVA_PLACEMENT_VISIBLE / MAINTAINED / SPLIT / REFUNCTIONED / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+COMPARISON SENTENCE =
+《<D_CHART_TAG>》 Rashi 《<RASHI_HOUSE>》 공동장은 원본 구조에서 《<RASHI_CO_PRESENCE_FUNCTION>》으로 확인된다.
+Bhava에서 공동장이 유지되면, 원본 공동장과 현실 적용장이 같은 무대에 남아 있는 것으로 본다.
+Bhava에서 공동장이 분리되면, 각 행성은 별도 house-function으로 내려가며, Rashi의 상호착색은 원본 구조로 보존하되 현실 적용은 분리된 하우스 기능으로 판정한다.
+Bhava에서 재기능화되면, Rashi 원본 공동장은 그대로 보존하고, 현실 체감층에서 어떤 기능으로 바뀌는지만 따로 기록한다.
+
+CO2_BHAVA_6H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2-6H. TARGET D-CHART BHAVA CO-PRESENCE COMPARISON
+6H Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- RASHI_ONLY판에서는 사용 금지.
+- BHAVA_ONLY 또는 RASHI_BHAVA_INTEGRATED판에서만 사용한다.
+- Bhava placement가 NOT_VISIBLE이면 이 블록은 HOLD 또는 NOT_USED로 둔다.
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Bhava House》 = 6H
+- 《Bhava House Function》 = 문제관리 / 부담 / 반복노동 / 적대축 / 손실방어
+- 《Rashi Target House》 = <RASHI_HOUSE / SIGN / OCCUPANTS / NOT_SHOWN>
+- 《Bhava Target House》 = <BHAVA_HOUSE / BHAVA_MIDDLE_SIGN / OCCUPANTS / NOT_SHOWN>
+
+BHAVA PLACEMENT
+- 《Planet A》 = <PLANET_A> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet B》 = <PLANET_B> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet C》 = <PLANET_C> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET> → <BHAVA_HOUSE / NONE>
+
+CO-PRESENCE STATUS
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+- 《Rashi-to-Bhava Status》 = <SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_VISIBLE>
+
+BHAVA FUNCTION
+- 《Bhava House Function》 = <BHAVA_HOUSE_FUNCTION>
+- 《Rashi-to-Bhava Comparison》 =
+  Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+  Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+
+USE DECISION =
+- 《Bhava Use Decision》 = <APPLY_AS_BHAVA_COMPARISON / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Bhava Decision Reason》 = <BHAVA_PLACEMENT_VISIBLE / MAINTAINED / SPLIT / REFUNCTIONED / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+COMPARISON SENTENCE =
+《<D_CHART_TAG>》 Rashi 《<RASHI_HOUSE>》 공동장은 원본 구조에서 《<RASHI_CO_PRESENCE_FUNCTION>》으로 확인된다.
+Bhava에서 공동장이 유지되면, 원본 공동장과 현실 적용장이 같은 무대에 남아 있는 것으로 본다.
+Bhava에서 공동장이 분리되면, 각 행성은 별도 house-function으로 내려가며, Rashi의 상호착색은 원본 구조로 보존하되 현실 적용은 분리된 하우스 기능으로 판정한다.
+Bhava에서 재기능화되면, Rashi 원본 공동장은 그대로 보존하고, 현실 체감층에서 어떤 기능으로 바뀌는지만 따로 기록한다.
+
+CO2_BHAVA_7H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2-7H. TARGET D-CHART BHAVA CO-PRESENCE COMPARISON
+7H Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- RASHI_ONLY판에서는 사용 금지.
+- BHAVA_ONLY 또는 RASHI_BHAVA_INTEGRATED판에서만 사용한다.
+- Bhava placement가 NOT_VISIBLE이면 이 블록은 HOLD 또는 NOT_USED로 둔다.
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Bhava House》 = 7H
+- 《Bhava House Function》 = 대면 / 상대 / 계약 / 외부 피드백 / 검증자
+- 《Rashi Target House》 = <RASHI_HOUSE / SIGN / OCCUPANTS / NOT_SHOWN>
+- 《Bhava Target House》 = <BHAVA_HOUSE / BHAVA_MIDDLE_SIGN / OCCUPANTS / NOT_SHOWN>
+
+BHAVA PLACEMENT
+- 《Planet A》 = <PLANET_A> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet B》 = <PLANET_B> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet C》 = <PLANET_C> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET> → <BHAVA_HOUSE / NONE>
+
+CO-PRESENCE STATUS
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+- 《Rashi-to-Bhava Status》 = <SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_VISIBLE>
+
+BHAVA FUNCTION
+- 《Bhava House Function》 = <BHAVA_HOUSE_FUNCTION>
+- 《Rashi-to-Bhava Comparison》 =
+  Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+  Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+
+USE DECISION =
+- 《Bhava Use Decision》 = <APPLY_AS_BHAVA_COMPARISON / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Bhava Decision Reason》 = <BHAVA_PLACEMENT_VISIBLE / MAINTAINED / SPLIT / REFUNCTIONED / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+COMPARISON SENTENCE =
+《<D_CHART_TAG>》 Rashi 《<RASHI_HOUSE>》 공동장은 원본 구조에서 《<RASHI_CO_PRESENCE_FUNCTION>》으로 확인된다.
+Bhava에서 공동장이 유지되면, 원본 공동장과 현실 적용장이 같은 무대에 남아 있는 것으로 본다.
+Bhava에서 공동장이 분리되면, 각 행성은 별도 house-function으로 내려가며, Rashi의 상호착색은 원본 구조로 보존하되 현실 적용은 분리된 하우스 기능으로 판정한다.
+Bhava에서 재기능화되면, Rashi 원본 공동장은 그대로 보존하고, 현실 체감층에서 어떤 기능으로 바뀌는지만 따로 기록한다.
+
+CO2_BHAVA_8H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2-8H. TARGET D-CHART BHAVA CO-PRESENCE COMPARISON
+8H Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- RASHI_ONLY판에서는 사용 금지.
+- BHAVA_ONLY 또는 RASHI_BHAVA_INTEGRATED판에서만 사용한다.
+- Bhava placement가 NOT_VISIBLE이면 이 블록은 HOLD 또는 NOT_USED로 둔다.
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Bhava House》 = 8H
+- 《Bhava House Function》 = 숨은 장부 / 위기 / 공유책임 / 전환 / 손실
+- 《Rashi Target House》 = <RASHI_HOUSE / SIGN / OCCUPANTS / NOT_SHOWN>
+- 《Bhava Target House》 = <BHAVA_HOUSE / BHAVA_MIDDLE_SIGN / OCCUPANTS / NOT_SHOWN>
+
+BHAVA PLACEMENT
+- 《Planet A》 = <PLANET_A> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet B》 = <PLANET_B> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet C》 = <PLANET_C> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET> → <BHAVA_HOUSE / NONE>
+
+CO-PRESENCE STATUS
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+- 《Rashi-to-Bhava Status》 = <SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_VISIBLE>
+
+BHAVA FUNCTION
+- 《Bhava House Function》 = <BHAVA_HOUSE_FUNCTION>
+- 《Rashi-to-Bhava Comparison》 =
+  Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+  Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+
+USE DECISION =
+- 《Bhava Use Decision》 = <APPLY_AS_BHAVA_COMPARISON / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Bhava Decision Reason》 = <BHAVA_PLACEMENT_VISIBLE / MAINTAINED / SPLIT / REFUNCTIONED / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+COMPARISON SENTENCE =
+《<D_CHART_TAG>》 Rashi 《<RASHI_HOUSE>》 공동장은 원본 구조에서 《<RASHI_CO_PRESENCE_FUNCTION>》으로 확인된다.
+Bhava에서 공동장이 유지되면, 원본 공동장과 현실 적용장이 같은 무대에 남아 있는 것으로 본다.
+Bhava에서 공동장이 분리되면, 각 행성은 별도 house-function으로 내려가며, Rashi의 상호착색은 원본 구조로 보존하되 현실 적용은 분리된 하우스 기능으로 판정한다.
+Bhava에서 재기능화되면, Rashi 원본 공동장은 그대로 보존하고, 현실 체감층에서 어떤 기능으로 바뀌는지만 따로 기록한다.
+
+CO2_BHAVA_9H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2-9H. TARGET D-CHART BHAVA CO-PRESENCE COMPARISON
+9H Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- RASHI_ONLY판에서는 사용 금지.
+- BHAVA_ONLY 또는 RASHI_BHAVA_INTEGRATED판에서만 사용한다.
+- Bhava placement가 NOT_VISIBLE이면 이 블록은 HOLD 또는 NOT_USED로 둔다.
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Bhava House》 = 9H
+- 《Bhava House Function》 = 법전 / 상위 기준 / 명분 / 방향 / 다르마
+- 《Rashi Target House》 = <RASHI_HOUSE / SIGN / OCCUPANTS / NOT_SHOWN>
+- 《Bhava Target House》 = <BHAVA_HOUSE / BHAVA_MIDDLE_SIGN / OCCUPANTS / NOT_SHOWN>
+
+BHAVA PLACEMENT
+- 《Planet A》 = <PLANET_A> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet B》 = <PLANET_B> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet C》 = <PLANET_C> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET> → <BHAVA_HOUSE / NONE>
+
+CO-PRESENCE STATUS
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+- 《Rashi-to-Bhava Status》 = <SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_VISIBLE>
+
+BHAVA FUNCTION
+- 《Bhava House Function》 = <BHAVA_HOUSE_FUNCTION>
+- 《Rashi-to-Bhava Comparison》 =
+  Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+  Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+
+USE DECISION =
+- 《Bhava Use Decision》 = <APPLY_AS_BHAVA_COMPARISON / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Bhava Decision Reason》 = <BHAVA_PLACEMENT_VISIBLE / MAINTAINED / SPLIT / REFUNCTIONED / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+COMPARISON SENTENCE =
+《<D_CHART_TAG>》 Rashi 《<RASHI_HOUSE>》 공동장은 원본 구조에서 《<RASHI_CO_PRESENCE_FUNCTION>》으로 확인된다.
+Bhava에서 공동장이 유지되면, 원본 공동장과 현실 적용장이 같은 무대에 남아 있는 것으로 본다.
+Bhava에서 공동장이 분리되면, 각 행성은 별도 house-function으로 내려가며, Rashi의 상호착색은 원본 구조로 보존하되 현실 적용은 분리된 하우스 기능으로 판정한다.
+Bhava에서 재기능화되면, Rashi 원본 공동장은 그대로 보존하고, 현실 체감층에서 어떤 기능으로 바뀌는지만 따로 기록한다.
+
+CO2_BHAVA_10H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2-10H. TARGET D-CHART BHAVA CO-PRESENCE COMPARISON
+10H Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- RASHI_ONLY판에서는 사용 금지.
+- BHAVA_ONLY 또는 RASHI_BHAVA_INTEGRATED판에서만 사용한다.
+- Bhava placement가 NOT_VISIBLE이면 이 블록은 HOLD 또는 NOT_USED로 둔다.
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Bhava House》 = 10H
+- 《Bhava House Function》 = 현실 출력 / 역할 / 결과물 / 직업기능 / 공적 작동
+- 《Rashi Target House》 = <RASHI_HOUSE / SIGN / OCCUPANTS / NOT_SHOWN>
+- 《Bhava Target House》 = <BHAVA_HOUSE / BHAVA_MIDDLE_SIGN / OCCUPANTS / NOT_SHOWN>
+
+BHAVA PLACEMENT
+- 《Planet A》 = <PLANET_A> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet B》 = <PLANET_B> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet C》 = <PLANET_C> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET> → <BHAVA_HOUSE / NONE>
+
+CO-PRESENCE STATUS
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+- 《Rashi-to-Bhava Status》 = <SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_VISIBLE>
+
+BHAVA FUNCTION
+- 《Bhava House Function》 = <BHAVA_HOUSE_FUNCTION>
+- 《Rashi-to-Bhava Comparison》 =
+  Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+  Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+
+USE DECISION =
+- 《Bhava Use Decision》 = <APPLY_AS_BHAVA_COMPARISON / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Bhava Decision Reason》 = <BHAVA_PLACEMENT_VISIBLE / MAINTAINED / SPLIT / REFUNCTIONED / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+COMPARISON SENTENCE =
+《<D_CHART_TAG>》 Rashi 《<RASHI_HOUSE>》 공동장은 원본 구조에서 《<RASHI_CO_PRESENCE_FUNCTION>》으로 확인된다.
+Bhava에서 공동장이 유지되면, 원본 공동장과 현실 적용장이 같은 무대에 남아 있는 것으로 본다.
+Bhava에서 공동장이 분리되면, 각 행성은 별도 house-function으로 내려가며, Rashi의 상호착색은 원본 구조로 보존하되 현실 적용은 분리된 하우스 기능으로 판정한다.
+Bhava에서 재기능화되면, Rashi 원본 공동장은 그대로 보존하고, 현실 체감층에서 어떤 기능으로 바뀌는지만 따로 기록한다.
+
+CO2_BHAVA_11H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2-11H. TARGET D-CHART BHAVA CO-PRESENCE COMPARISON
+11H Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- RASHI_ONLY판에서는 사용 금지.
+- BHAVA_ONLY 또는 RASHI_BHAVA_INTEGRATED판에서만 사용한다.
+- Bhava placement가 NOT_VISIBLE이면 이 블록은 HOLD 또는 NOT_USED로 둔다.
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Bhava House》 = 11H
+- 《Bhava House Function》 = 회수 / 성과 / 보상 / 귀속 / 네트워크
+- 《Rashi Target House》 = <RASHI_HOUSE / SIGN / OCCUPANTS / NOT_SHOWN>
+- 《Bhava Target House》 = <BHAVA_HOUSE / BHAVA_MIDDLE_SIGN / OCCUPANTS / NOT_SHOWN>
+
+BHAVA PLACEMENT
+- 《Planet A》 = <PLANET_A> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet B》 = <PLANET_B> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet C》 = <PLANET_C> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET> → <BHAVA_HOUSE / NONE>
+
+CO-PRESENCE STATUS
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+- 《Rashi-to-Bhava Status》 = <SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_VISIBLE>
+
+BHAVA FUNCTION
+- 《Bhava House Function》 = <BHAVA_HOUSE_FUNCTION>
+- 《Rashi-to-Bhava Comparison》 =
+  Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+  Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+
+USE DECISION =
+- 《Bhava Use Decision》 = <APPLY_AS_BHAVA_COMPARISON / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Bhava Decision Reason》 = <BHAVA_PLACEMENT_VISIBLE / MAINTAINED / SPLIT / REFUNCTIONED / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+COMPARISON SENTENCE =
+《<D_CHART_TAG>》 Rashi 《<RASHI_HOUSE>》 공동장은 원본 구조에서 《<RASHI_CO_PRESENCE_FUNCTION>》으로 확인된다.
+Bhava에서 공동장이 유지되면, 원본 공동장과 현실 적용장이 같은 무대에 남아 있는 것으로 본다.
+Bhava에서 공동장이 분리되면, 각 행성은 별도 house-function으로 내려가며, Rashi의 상호착색은 원본 구조로 보존하되 현실 적용은 분리된 하우스 기능으로 판정한다.
+Bhava에서 재기능화되면, Rashi 원본 공동장은 그대로 보존하고, 현실 체감층에서 어떤 기능으로 바뀌는지만 따로 기록한다.
+
+CO2_BHAVA_12H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2-12H. TARGET D-CHART BHAVA CO-PRESENCE COMPARISON
+12H Bhava 공동장 비교 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- RASHI_ONLY판에서는 사용 금지.
+- BHAVA_ONLY 또는 RASHI_BHAVA_INTEGRATED판에서만 사용한다.
+- Bhava placement가 NOT_VISIBLE이면 이 블록은 HOLD 또는 NOT_USED로 둔다.
+
+- 《D-chart》 = <D_CHART_TAG>
+- 《Target Bhava House》 = 12H
+- 《Bhava House Function》 = 배후소모 / 누수 / 퇴장 / 해소 / 숨은 비용
+- 《Rashi Target House》 = <RASHI_HOUSE / SIGN / OCCUPANTS / NOT_SHOWN>
+- 《Bhava Target House》 = <BHAVA_HOUSE / BHAVA_MIDDLE_SIGN / OCCUPANTS / NOT_SHOWN>
+
+BHAVA PLACEMENT
+- 《Planet A》 = <PLANET_A> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet B》 = <PLANET_B> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Planet C》 = <PLANET_C> → <BHAVA_HOUSE / NOT_SHOWN>
+- 《Additional Planet》 = <PLANET> → <BHAVA_HOUSE / NONE>
+
+CO-PRESENCE STATUS
+- 《Co-presence Status》 = <MAINTAINED / SPLIT / PARTIAL_MAINTAINED / RE-FUNCTIONED / NOT_VISIBLE / NONE>
+- 《Bhava Cluster Type》 = <MAINTAINED_CLUSTER / SPLIT_CLUSTER / PARTIAL_CLUSTER / NO_CLUSTER / NOT_SHOWN>
+- 《Rashi-to-Bhava Status》 = <SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_VISIBLE>
+
+BHAVA FUNCTION
+- 《Bhava House Function》 = <BHAVA_HOUSE_FUNCTION>
+- 《Rashi-to-Bhava Comparison》 =
+  Rashi 공동장은 <RASHI_CO_PRESENCE_FUNCTION>으로 작동하고,
+  Bhava에서는 <BHAVA_CO_PRESENCE_FUNCTION>으로 현실 적용된다.
+
+USE DECISION =
+- 《Bhava Use Decision》 = <APPLY_AS_BHAVA_COMPARISON / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+- 《Bhava Decision Reason》 = <BHAVA_PLACEMENT_VISIBLE / MAINTAINED / SPLIT / REFUNCTIONED / NOT_VISIBLE / SOURCE_CONFLICT / NONE>
+
+COMPARISON SENTENCE =
+《<D_CHART_TAG>》 Rashi 《<RASHI_HOUSE>》 공동장은 원본 구조에서 《<RASHI_CO_PRESENCE_FUNCTION>》으로 확인된다.
+Bhava에서 공동장이 유지되면, 원본 공동장과 현실 적용장이 같은 무대에 남아 있는 것으로 본다.
+Bhava에서 공동장이 분리되면, 각 행성은 별도 house-function으로 내려가며, Rashi의 상호착색은 원본 구조로 보존하되 현실 적용은 분리된 하우스 기능으로 판정한다.
+Bhava에서 재기능화되면, Rashi 원본 공동장은 그대로 보존하고, 현실 체감층에서 어떤 기능으로 바뀌는지만 따로 기록한다.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+3. 12H LORD-ONLY / SINGLE OPERATION SLOTS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CO2_LORD_ONLY_1H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+3-1H. TARGET HOUSE LORD-ONLY / SINGLE OPERATION SLOT
+1H 빈 하우스·단일 행성·로드 중심 처리 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- Target house가 EMPTY일 때
+- Target house가 SINGLE occupant일 때
+- 공동장보다 lord 이동이 핵심일 때
+
+- 《Target House》 = 1H
+- 《Target Function》 = 본체 입구 / 몸 / 자기작동 / 도메인 진입 방식
+- 《Target Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <EMPTY / SINGLE / NOT_SHOWN>
+- 《House Lord》 = <PLANET / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / NOT_SHOWN>
+- 《Lord Degree》 = <DEGREE / NOT_SHOWN>
+- 《Lord Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Co-presence》 = <PLANET_LIST / NONE / NOT_SHOWN>
+- 《Lord Movement Meaning》 = <1H_FUNCTION>이 <LORD_POSITION>으로 이동한다.
+
+USE DECISION =
+- 《Lord-only Use Decision》 = <APPLY_AS_LORD_ONLY / SUPPORT_ONLY / HOLD / NOT_USED>
+- 《Lord-only Decision Reason》 = <EMPTY_HOUSE / SINGLE_OCCUPANT / LORD_POSITION_VISIBLE / LORD_MISSING / NOT_SHOWN>
+
+OUTPUT SENTENCE =
+《1H》가 비어 있거나 공동장이 없으면, 이 하우스의 작동은 《<HOUSE_LORD>》를 통해 확인한다.
+《<HOUSE_LORD>》가 《<LORD_POSITION>》으로 이동하므로, 《1H》의 기능은 해당 이동처 하우스의 구조 안에서 열리고, 도수·파다·회로·동거 행성을 통해 작동 순서를 확인한다.
+
+CO2_LORD_ONLY_2H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+3-2H. TARGET HOUSE LORD-ONLY / SINGLE OPERATION SLOT
+2H 빈 하우스·단일 행성·로드 중심 처리 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- Target house가 EMPTY일 때
+- Target house가 SINGLE occupant일 때
+- 공동장보다 lord 이동이 핵심일 때
+
+- 《Target House》 = 2H
+- 《Target Function》 = 자원 / 보유 / 말값 / 금고화 / 가족·도메인 내부 장부
+- 《Target Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <EMPTY / SINGLE / NOT_SHOWN>
+- 《House Lord》 = <PLANET / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / NOT_SHOWN>
+- 《Lord Degree》 = <DEGREE / NOT_SHOWN>
+- 《Lord Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Co-presence》 = <PLANET_LIST / NONE / NOT_SHOWN>
+- 《Lord Movement Meaning》 = <2H_FUNCTION>이 <LORD_POSITION>으로 이동한다.
+
+USE DECISION =
+- 《Lord-only Use Decision》 = <APPLY_AS_LORD_ONLY / SUPPORT_ONLY / HOLD / NOT_USED>
+- 《Lord-only Decision Reason》 = <EMPTY_HOUSE / SINGLE_OCCUPANT / LORD_POSITION_VISIBLE / LORD_MISSING / NOT_SHOWN>
+
+OUTPUT SENTENCE =
+《2H》가 비어 있거나 공동장이 없으면, 이 하우스의 작동은 《<HOUSE_LORD>》를 통해 확인한다.
+《<HOUSE_LORD>》가 《<LORD_POSITION>》으로 이동하므로, 《2H》의 기능은 해당 이동처 하우스의 구조 안에서 열리고, 도수·파다·회로·동거 행성을 통해 작동 순서를 확인한다.
+
+CO2_LORD_ONLY_3H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+3-3H. TARGET HOUSE LORD-ONLY / SINGLE OPERATION SLOT
+3H 빈 하우스·단일 행성·로드 중심 처리 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- Target house가 EMPTY일 때
+- Target house가 SINGLE occupant일 때
+- 공동장보다 lord 이동이 핵심일 때
+
+- 《Target House》 = 3H
+- 《Target Function》 = 말 / 기록 / 기술 / 반복검증 / 작은 실행
+- 《Target Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <EMPTY / SINGLE / NOT_SHOWN>
+- 《House Lord》 = <PLANET / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / NOT_SHOWN>
+- 《Lord Degree》 = <DEGREE / NOT_SHOWN>
+- 《Lord Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Co-presence》 = <PLANET_LIST / NONE / NOT_SHOWN>
+- 《Lord Movement Meaning》 = <3H_FUNCTION>이 <LORD_POSITION>으로 이동한다.
+
+USE DECISION =
+- 《Lord-only Use Decision》 = <APPLY_AS_LORD_ONLY / SUPPORT_ONLY / HOLD / NOT_USED>
+- 《Lord-only Decision Reason》 = <EMPTY_HOUSE / SINGLE_OCCUPANT / LORD_POSITION_VISIBLE / LORD_MISSING / NOT_SHOWN>
+
+OUTPUT SENTENCE =
+《3H》가 비어 있거나 공동장이 없으면, 이 하우스의 작동은 《<HOUSE_LORD>》를 통해 확인한다.
+《<HOUSE_LORD>》가 《<LORD_POSITION>》으로 이동하므로, 《3H》의 기능은 해당 이동처 하우스의 구조 안에서 열리고, 도수·파다·회로·동거 행성을 통해 작동 순서를 확인한다.
+
+CO2_LORD_ONLY_4H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+3-4H. TARGET HOUSE LORD-ONLY / SINGLE OPERATION SLOT
+4H 빈 하우스·단일 행성·로드 중심 처리 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- Target house가 EMPTY일 때
+- Target house가 SINGLE occupant일 때
+- 공동장보다 lord 이동이 핵심일 때
+
+- 《Target House》 = 4H
+- 《Target Function》 = 집 / 기반 / 내면 바닥 / 정착 / 안정 구조
+- 《Target Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <EMPTY / SINGLE / NOT_SHOWN>
+- 《House Lord》 = <PLANET / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / NOT_SHOWN>
+- 《Lord Degree》 = <DEGREE / NOT_SHOWN>
+- 《Lord Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Co-presence》 = <PLANET_LIST / NONE / NOT_SHOWN>
+- 《Lord Movement Meaning》 = <4H_FUNCTION>이 <LORD_POSITION>으로 이동한다.
+
+USE DECISION =
+- 《Lord-only Use Decision》 = <APPLY_AS_LORD_ONLY / SUPPORT_ONLY / HOLD / NOT_USED>
+- 《Lord-only Decision Reason》 = <EMPTY_HOUSE / SINGLE_OCCUPANT / LORD_POSITION_VISIBLE / LORD_MISSING / NOT_SHOWN>
+
+OUTPUT SENTENCE =
+《4H》가 비어 있거나 공동장이 없으면, 이 하우스의 작동은 《<HOUSE_LORD>》를 통해 확인한다.
+《<HOUSE_LORD>》가 《<LORD_POSITION>》으로 이동하므로, 《4H》의 기능은 해당 이동처 하우스의 구조 안에서 열리고, 도수·파다·회로·동거 행성을 통해 작동 순서를 확인한다.
+
+CO2_LORD_ONLY_5H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+3-5H. TARGET HOUSE LORD-ONLY / SINGLE OPERATION SLOT
+5H 빈 하우스·단일 행성·로드 중심 처리 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- Target house가 EMPTY일 때
+- Target house가 SINGLE occupant일 때
+- 공동장보다 lord 이동이 핵심일 때
+
+- 《Target House》 = 5H
+- 《Target Function》 = 판단 / 창조 / 선택 / 투입 / 자원화
+- 《Target Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <EMPTY / SINGLE / NOT_SHOWN>
+- 《House Lord》 = <PLANET / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / NOT_SHOWN>
+- 《Lord Degree》 = <DEGREE / NOT_SHOWN>
+- 《Lord Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Co-presence》 = <PLANET_LIST / NONE / NOT_SHOWN>
+- 《Lord Movement Meaning》 = <5H_FUNCTION>이 <LORD_POSITION>으로 이동한다.
+
+USE DECISION =
+- 《Lord-only Use Decision》 = <APPLY_AS_LORD_ONLY / SUPPORT_ONLY / HOLD / NOT_USED>
+- 《Lord-only Decision Reason》 = <EMPTY_HOUSE / SINGLE_OCCUPANT / LORD_POSITION_VISIBLE / LORD_MISSING / NOT_SHOWN>
+
+OUTPUT SENTENCE =
+《5H》가 비어 있거나 공동장이 없으면, 이 하우스의 작동은 《<HOUSE_LORD>》를 통해 확인한다.
+《<HOUSE_LORD>》가 《<LORD_POSITION>》으로 이동하므로, 《5H》의 기능은 해당 이동처 하우스의 구조 안에서 열리고, 도수·파다·회로·동거 행성을 통해 작동 순서를 확인한다.
+
+CO2_LORD_ONLY_6H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+3-6H. TARGET HOUSE LORD-ONLY / SINGLE OPERATION SLOT
+6H 빈 하우스·단일 행성·로드 중심 처리 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- Target house가 EMPTY일 때
+- Target house가 SINGLE occupant일 때
+- 공동장보다 lord 이동이 핵심일 때
+
+- 《Target House》 = 6H
+- 《Target Function》 = 문제관리 / 부담 / 반복노동 / 적대축 / 손실방어
+- 《Target Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <EMPTY / SINGLE / NOT_SHOWN>
+- 《House Lord》 = <PLANET / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / NOT_SHOWN>
+- 《Lord Degree》 = <DEGREE / NOT_SHOWN>
+- 《Lord Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Co-presence》 = <PLANET_LIST / NONE / NOT_SHOWN>
+- 《Lord Movement Meaning》 = <6H_FUNCTION>이 <LORD_POSITION>으로 이동한다.
+
+USE DECISION =
+- 《Lord-only Use Decision》 = <APPLY_AS_LORD_ONLY / SUPPORT_ONLY / HOLD / NOT_USED>
+- 《Lord-only Decision Reason》 = <EMPTY_HOUSE / SINGLE_OCCUPANT / LORD_POSITION_VISIBLE / LORD_MISSING / NOT_SHOWN>
+
+OUTPUT SENTENCE =
+《6H》가 비어 있거나 공동장이 없으면, 이 하우스의 작동은 《<HOUSE_LORD>》를 통해 확인한다.
+《<HOUSE_LORD>》가 《<LORD_POSITION>》으로 이동하므로, 《6H》의 기능은 해당 이동처 하우스의 구조 안에서 열리고, 도수·파다·회로·동거 행성을 통해 작동 순서를 확인한다.
+
+CO2_LORD_ONLY_7H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+3-7H. TARGET HOUSE LORD-ONLY / SINGLE OPERATION SLOT
+7H 빈 하우스·단일 행성·로드 중심 처리 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- Target house가 EMPTY일 때
+- Target house가 SINGLE occupant일 때
+- 공동장보다 lord 이동이 핵심일 때
+
+- 《Target House》 = 7H
+- 《Target Function》 = 대면 / 상대 / 계약 / 외부 피드백 / 검증자
+- 《Target Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <EMPTY / SINGLE / NOT_SHOWN>
+- 《House Lord》 = <PLANET / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / NOT_SHOWN>
+- 《Lord Degree》 = <DEGREE / NOT_SHOWN>
+- 《Lord Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Co-presence》 = <PLANET_LIST / NONE / NOT_SHOWN>
+- 《Lord Movement Meaning》 = <7H_FUNCTION>이 <LORD_POSITION>으로 이동한다.
+
+USE DECISION =
+- 《Lord-only Use Decision》 = <APPLY_AS_LORD_ONLY / SUPPORT_ONLY / HOLD / NOT_USED>
+- 《Lord-only Decision Reason》 = <EMPTY_HOUSE / SINGLE_OCCUPANT / LORD_POSITION_VISIBLE / LORD_MISSING / NOT_SHOWN>
+
+OUTPUT SENTENCE =
+《7H》가 비어 있거나 공동장이 없으면, 이 하우스의 작동은 《<HOUSE_LORD>》를 통해 확인한다.
+《<HOUSE_LORD>》가 《<LORD_POSITION>》으로 이동하므로, 《7H》의 기능은 해당 이동처 하우스의 구조 안에서 열리고, 도수·파다·회로·동거 행성을 통해 작동 순서를 확인한다.
+
+CO2_LORD_ONLY_8H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+3-8H. TARGET HOUSE LORD-ONLY / SINGLE OPERATION SLOT
+8H 빈 하우스·단일 행성·로드 중심 처리 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- Target house가 EMPTY일 때
+- Target house가 SINGLE occupant일 때
+- 공동장보다 lord 이동이 핵심일 때
+
+- 《Target House》 = 8H
+- 《Target Function》 = 숨은 장부 / 위기 / 공유책임 / 전환 / 손실
+- 《Target Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <EMPTY / SINGLE / NOT_SHOWN>
+- 《House Lord》 = <PLANET / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / NOT_SHOWN>
+- 《Lord Degree》 = <DEGREE / NOT_SHOWN>
+- 《Lord Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Co-presence》 = <PLANET_LIST / NONE / NOT_SHOWN>
+- 《Lord Movement Meaning》 = <8H_FUNCTION>이 <LORD_POSITION>으로 이동한다.
+
+USE DECISION =
+- 《Lord-only Use Decision》 = <APPLY_AS_LORD_ONLY / SUPPORT_ONLY / HOLD / NOT_USED>
+- 《Lord-only Decision Reason》 = <EMPTY_HOUSE / SINGLE_OCCUPANT / LORD_POSITION_VISIBLE / LORD_MISSING / NOT_SHOWN>
+
+OUTPUT SENTENCE =
+《8H》가 비어 있거나 공동장이 없으면, 이 하우스의 작동은 《<HOUSE_LORD>》를 통해 확인한다.
+《<HOUSE_LORD>》가 《<LORD_POSITION>》으로 이동하므로, 《8H》의 기능은 해당 이동처 하우스의 구조 안에서 열리고, 도수·파다·회로·동거 행성을 통해 작동 순서를 확인한다.
+
+CO2_LORD_ONLY_9H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+3-9H. TARGET HOUSE LORD-ONLY / SINGLE OPERATION SLOT
+9H 빈 하우스·단일 행성·로드 중심 처리 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- Target house가 EMPTY일 때
+- Target house가 SINGLE occupant일 때
+- 공동장보다 lord 이동이 핵심일 때
+
+- 《Target House》 = 9H
+- 《Target Function》 = 법전 / 상위 기준 / 명분 / 방향 / 다르마
+- 《Target Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <EMPTY / SINGLE / NOT_SHOWN>
+- 《House Lord》 = <PLANET / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / NOT_SHOWN>
+- 《Lord Degree》 = <DEGREE / NOT_SHOWN>
+- 《Lord Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Co-presence》 = <PLANET_LIST / NONE / NOT_SHOWN>
+- 《Lord Movement Meaning》 = <9H_FUNCTION>이 <LORD_POSITION>으로 이동한다.
+
+USE DECISION =
+- 《Lord-only Use Decision》 = <APPLY_AS_LORD_ONLY / SUPPORT_ONLY / HOLD / NOT_USED>
+- 《Lord-only Decision Reason》 = <EMPTY_HOUSE / SINGLE_OCCUPANT / LORD_POSITION_VISIBLE / LORD_MISSING / NOT_SHOWN>
+
+OUTPUT SENTENCE =
+《9H》가 비어 있거나 공동장이 없으면, 이 하우스의 작동은 《<HOUSE_LORD>》를 통해 확인한다.
+《<HOUSE_LORD>》가 《<LORD_POSITION>》으로 이동하므로, 《9H》의 기능은 해당 이동처 하우스의 구조 안에서 열리고, 도수·파다·회로·동거 행성을 통해 작동 순서를 확인한다.
+
+CO2_LORD_ONLY_10H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+3-10H. TARGET HOUSE LORD-ONLY / SINGLE OPERATION SLOT
+10H 빈 하우스·단일 행성·로드 중심 처리 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- Target house가 EMPTY일 때
+- Target house가 SINGLE occupant일 때
+- 공동장보다 lord 이동이 핵심일 때
+
+- 《Target House》 = 10H
+- 《Target Function》 = 현실 출력 / 역할 / 결과물 / 직업기능 / 공적 작동
+- 《Target Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <EMPTY / SINGLE / NOT_SHOWN>
+- 《House Lord》 = <PLANET / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / NOT_SHOWN>
+- 《Lord Degree》 = <DEGREE / NOT_SHOWN>
+- 《Lord Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Co-presence》 = <PLANET_LIST / NONE / NOT_SHOWN>
+- 《Lord Movement Meaning》 = <10H_FUNCTION>이 <LORD_POSITION>으로 이동한다.
+
+USE DECISION =
+- 《Lord-only Use Decision》 = <APPLY_AS_LORD_ONLY / SUPPORT_ONLY / HOLD / NOT_USED>
+- 《Lord-only Decision Reason》 = <EMPTY_HOUSE / SINGLE_OCCUPANT / LORD_POSITION_VISIBLE / LORD_MISSING / NOT_SHOWN>
+
+OUTPUT SENTENCE =
+《10H》가 비어 있거나 공동장이 없으면, 이 하우스의 작동은 《<HOUSE_LORD>》를 통해 확인한다.
+《<HOUSE_LORD>》가 《<LORD_POSITION>》으로 이동하므로, 《10H》의 기능은 해당 이동처 하우스의 구조 안에서 열리고, 도수·파다·회로·동거 행성을 통해 작동 순서를 확인한다.
+
+CO2_LORD_ONLY_11H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+3-11H. TARGET HOUSE LORD-ONLY / SINGLE OPERATION SLOT
+11H 빈 하우스·단일 행성·로드 중심 처리 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- Target house가 EMPTY일 때
+- Target house가 SINGLE occupant일 때
+- 공동장보다 lord 이동이 핵심일 때
+
+- 《Target House》 = 11H
+- 《Target Function》 = 회수 / 성과 / 보상 / 귀속 / 네트워크
+- 《Target Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <EMPTY / SINGLE / NOT_SHOWN>
+- 《House Lord》 = <PLANET / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / NOT_SHOWN>
+- 《Lord Degree》 = <DEGREE / NOT_SHOWN>
+- 《Lord Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Co-presence》 = <PLANET_LIST / NONE / NOT_SHOWN>
+- 《Lord Movement Meaning》 = <11H_FUNCTION>이 <LORD_POSITION>으로 이동한다.
+
+USE DECISION =
+- 《Lord-only Use Decision》 = <APPLY_AS_LORD_ONLY / SUPPORT_ONLY / HOLD / NOT_USED>
+- 《Lord-only Decision Reason》 = <EMPTY_HOUSE / SINGLE_OCCUPANT / LORD_POSITION_VISIBLE / LORD_MISSING / NOT_SHOWN>
+
+OUTPUT SENTENCE =
+《11H》가 비어 있거나 공동장이 없으면, 이 하우스의 작동은 《<HOUSE_LORD>》를 통해 확인한다.
+《<HOUSE_LORD>》가 《<LORD_POSITION>》으로 이동하므로, 《11H》의 기능은 해당 이동처 하우스의 구조 안에서 열리고, 도수·파다·회로·동거 행성을 통해 작동 순서를 확인한다.
+
+CO2_LORD_ONLY_12H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+3-12H. TARGET HOUSE LORD-ONLY / SINGLE OPERATION SLOT
+12H 빈 하우스·단일 행성·로드 중심 처리 슬롯
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+사용 조건 =
+- Target house가 EMPTY일 때
+- Target house가 SINGLE occupant일 때
+- 공동장보다 lord 이동이 핵심일 때
+
+- 《Target House》 = 12H
+- 《Target Function》 = 배후소모 / 누수 / 퇴장 / 해소 / 숨은 비용
+- 《Target Sign》 = <SIGN / NOT_SHOWN>
+- 《Rashi Occupants》 = <EMPTY / SINGLE / NOT_SHOWN>
+- 《House Lord》 = <PLANET / NOT_SHOWN>
+- 《Lord Position》 = <HOUSE / SIGN / NOT_SHOWN>
+- 《Lord Degree》 = <DEGREE / NOT_SHOWN>
+- 《Lord Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+- 《Lord Co-presence》 = <PLANET_LIST / NONE / NOT_SHOWN>
+- 《Lord Movement Meaning》 = <12H_FUNCTION>이 <LORD_POSITION>으로 이동한다.
+
+USE DECISION =
+- 《Lord-only Use Decision》 = <APPLY_AS_LORD_ONLY / SUPPORT_ONLY / HOLD / NOT_USED>
+- 《Lord-only Decision Reason》 = <EMPTY_HOUSE / SINGLE_OCCUPANT / LORD_POSITION_VISIBLE / LORD_MISSING / NOT_SHOWN>
+
+OUTPUT SENTENCE =
+《12H》가 비어 있거나 공동장이 없으면, 이 하우스의 작동은 《<HOUSE_LORD>》를 통해 확인한다.
+《<HOUSE_LORD>》가 《<LORD_POSITION>》으로 이동하므로, 《12H》의 기능은 해당 이동처 하우스의 구조 안에서 열리고, 도수·파다·회로·동거 행성을 통해 작동 순서를 확인한다.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+4. SINGLE / EMPTY / CO-PRESENCE RULE
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+EMPTY =
+- 《Rashi Occupants》 = empty
+- 공동장 없음으로 처리한다.
+- Target house는 Lord-only operation으로 넘긴다.
+- House Lord / Lord Position / Lord Circuit / Lord Movement만 확인한다.
+- 임의 공동장 의미를 만들지 않는다.
+
+SINGLE =
+- 《Rashi Occupants》 = one planet
+- 공동장 해석을 만들지 않는다.
+- 단일 행성의 도수 / 나크샤트라 / 파다 / RL-NL-SL-SSL / lord 이동만 확인한다.
+- 단일 행성은 “공동장”으로 부르지 않는다.
+
+CO-PRESENCE =
+- 《Rashi Occupants》 = two or more planets
+- Degree Order / Gap / Independent Function / Mutual Coloring을 반드시 작성한다.
+- 공동장은 “같이 있다”로 쓰지 않는다.
+- 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 압축·조정·봉인하는지 확인한다.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+5. OUTPUT RULE
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- “같이 있다” 표현 금지.
+- 앞도수 행성이 무엇을 열고, 뒤도수 행성이 무엇을 압축하는지 작성.
+- 같은 하우스/별자리 안의 상호착색을 반드시 작성.
+- 단일 행성은 공동장으로 쓰지 않는다.
+- 빈 하우스는 공동장 없음 / Lord-only operation으로 넘긴다.
+- RASHI_ONLY판에서는 Bhava 비교 금지.
+- BHAVA_ONLY 또는 RASHI_BHAVA_INTEGRATED판에서만 Bhava 유지/분리/재기능화 확인.
+- 기능어 사용 금지.
+- 현실 언어 번역 금지.
+- 강도층 미적용.
+- Aspect 미적용.
+- Dasha 미적용.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+6. 98 LOCK JUDGEMENT
+98 잠금 판정
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+98% 판정 가능 =
+- 1H~12H Rashi Co-presence Packet이 모두 존재한다.
+- BHAVA_ONLY 또는 RASHI_BHAVA_INTEGRATED판에서는 1H~12H Bhava Comparison Slot이 모두 존재한다.
+- Empty / Single / Co-presence가 각 하우스마다 분리되어 있다.
+- Co-presence인 하우스는 Degree Order / Gap / Independent Function / Mutual Coloring을 포함한다.
+- RASHI_ONLY판에서는 Bhava 비교를 만들지 않는다.
+- Bhava 미확인값을 임의 추정하지 않는다.
+- 기능어 / 현실 언어 / 강도층 / Aspect / Dasha를 넣지 않는다.
+- 공동장 체크 후 심층작동결로 넘어갈 때만 ChArT Keyword Addendum을 호출한다.
+
+98% 표기 금지 =
+- “같이 있다”로 공동장을 끝낸 경우
+- Degree Order 없이 공동장을 쓴 경우
+- Gap 없이 상호착색을 쓴 경우
+- Single occupant를 공동장으로 부른 경우
+- Empty house에 임의 공동장 의미를 만든 경우
+- RASHI_ONLY 자료에 Bhava 비교를 붙인 경우
+- 기능어 또는 현실 언어로 번역한 경우
+- ChArT 키워드를 공동장 source check 본문에 직접 삽입한 경우
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+7. COMMON COMPLETION CHECK
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+□ Target D-chart 확인
+□ Panel Type 확인
+□ 1H~12H Rashi House / Sign 확인
+□ 1H~12H Rashi Occupants 확인
+□ Empty / Single / Co-presence 구분
+□ Co-presence일 경우 Degree Order 확인
+□ Co-presence일 경우 Gap 확인
+□ 각 행성 Nakshatra/Pada 확인
+□ 각 행성 RL-NL-SL-SSL 확인
+□ Independent Function 작성
+□ Mutual Coloring 작성
+□ House Lord 확인
+□ Lord Position 확인
+□ Lord Movement 확인
+□ D-chart Domain Boundary 확인
+□ RASHI_ONLY판이면 Bhava 미적용 확인
+□ BHAVA_ONLY 또는 RASHI_BHAVA_INTEGRATED판이면 Bhava Placement 확인
+□ BHAVA_ONLY 또는 RASHI_BHAVA_INTEGRATED판이면 Co-presence Maintained/Split/Re-functioned 확인
+□ Missing / Not Visible Rule 적용
+□ Use Decision 확인
+□ Single / Empty Rule 적용
+□ “같이 있다” 표현 없음
+□ 기능어 미사용
+□ 현실 언어 번역 없음
+□ 강도층 미적용
+□ Aspect 미적용
+□ Dasha 미적용
+□ Post Co-presence ChArT Keyword Call은 후속 심층작동결 단계에서만 호출
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+FINAL LOCK
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HYEWON_TaRgEt_CO2_HouSe_TeMpl_A♤는
+분할차트 전체 1H~12H의 Rashi 공동장을 먼저 확인하고,
+필요할 경우 Bhava 현실 적용층에서 각 공동장이 유지·분리·재기능화되는지 확인하는 12하우스 공동장 구조 슬롯이다.
+
+이 슬롯은 해석 확장, 기능어, 현실 언어, 강도층, Aspect, Dasha를 넣지 않는다.
+오직 점유 행성 수, 도수 순서, gap, 독립 기능, 상호착색, lord 이동, Bhava 유지/분리 여부만 확인한다.
+단, 공동장 source check가 끝난 뒤 후속 심층작동결 잠금문으로 넘어갈 때는 ChArT Keyword Addendum을 호출할 수 있다.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_TaRgEt_CO2_HouSe_TeMpl_A♤
+INDEX=D_ENGINE > TARGET_DCHART > CO_PRESENCE > 12H_SLOT > 98A
+STATUS=D_CHART_12H_COPRESENCE_CHECK / RASHI_FIRST / BHAVA_OPTIONAL / SINGLE_EMPTY_RULE_INCLUDED / PANEL_TYPE_RULE_INCLUDED / MISSING_RULE_INCLUDED / USE_DECISION_INCLUDED / POST_CHART_KEYWORD_CALL_INCLUDED / NO_FUNCTION_WORDS_IN_SOURCE_CHECK
+━━━━━━━━━━━━━━━━━━━━━━━━━

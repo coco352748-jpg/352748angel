@@ -1,0 +1,274 @@
+━━━━━━━━━━━━━━━━━━━━━━━
+HYEWON NATAL RASHI-BHAVA CO-PRESENCE FIELD
+D1-D60 CANONICAL CHART REWRITE FINAL 99
+RASHI + BHAVA SAME-D ORDER
+BLUEAPP CANONICAL SOURCE-LAYER BASED
+━━━━━━━━━━━━━━━━━━━━━━━
+
+FINAL AUTHORITY
+- Canonical Rashi Source = Google Drive / 00_1AB_ChArt_vedic / 01_1AB_RaShi_Sc_
+- Canonical Bhava Source = Google Drive / 00_1AB_ChArt_vedic / 01_2AB_Bhava_Sc_
+- Rashi Source Modified = 2026-07-30T10:52:36.382Z
+- Bhava Source Modified = 2026-07-30T00:31:37.023Z
+- Working Input = HYEWON_VeDic_CO2_99.txt
+- Source Priority = CANONICAL_CHART_DATA > PREVIOUS_CO_FIELD_RESULT
+- Birth date / birth time / birthplace = REDACTED
+- Subject Code = HYEWON
+
+OPERATIONAL BOUNDARY NOTE
+- Rashi와 Bhava는 별도 레이어로 유지한다.
+- 이번 작업은 사용자가 Rashi와 Bhava를 함께 대조하도록 명시했으므로 same-D 병렬 검산을 수행한다.
+- Rashi는 same-sign source field다.
+- Bhava는 SOURCE_VALUE_VALIDATED house distribution field다.
+- Bhava의 visible wheel snapshot는 PARTIAL_ONLY이므로 공동장 확정 근거로 사용하지 않는다.
+- Rashi와 Bhava는 서로 덮어쓰지 않는다.
+- VAS / Dasha / Transit / Strength / Ashtakavarga / Ava / SPother / Arudha / Bhaga / KP / Moon Chart는 호출하지 않는다.
+
+TRANSFORMATION APPLICATION
+- SUMMARIZE = 전역 변동 요약과 검산 요약을 추가한다.
+- EXPAND = 20D Rashi 12H 데이터와 20D Bhava 12H 데이터를 각 D세트에 입력한다.
+- CONDENSE = PARTIAL_ONLY BOX/Sector 중복을 active layer에서 제거하고 VOID 기록으로 이동한다.
+- REWRITE = Bhava 공동장을 canonical house distribution 기준으로 다시 쓴다.
+- PROOFREAD = source grade / location / member / support-marker / 문법을 교정한다.
+- TRANSLATE = 영문 schema key를 유지하고 한국어 작동 설명을 병기한다.
+- OUTLINE / STRUCTURE / FORMAT = D별 Rashi Source → Rashi Co-field → Bhava Source → Bhava Co-field 순서를 고정한다.
+- PRESERVE = 기존 고유 해석문과 변동 전 기록을 삭제하지 않고 active 또는 VOID layer에 보존한다.
+- FINALIZE = 20D 전수 검산 후 final status를 부여한다.
+- REDACT = 원천 문서의 개인 출생시각과 출생지 표기를 산출물에서 제외한다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+D9 SPLIT CONTROL
+━━━━━━━━━━━━━━━━━━━━━━━
+- Parent File = 07_4AB_VeDic_CO2_Sc.txt
+- Split Member = D9
+- Split Method = EXACT_D_SECTION_EXTRACTION
+- Active Rashi/Bhava Block = PRESERVED
+- D-specific Previous Bhava VOID Record = PRESERVED
+- Cross-D content = NOT_INCLUDED_IN_THIS_MEMBER_FILE
+
+━━━━━━━━━━━━━━━━━━━━━━━
+D9 RASHI-BHAVA CO-PRESENCE SET
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+D9 RASHI CANONICAL DATA INPUT
+━━━━━━━━━━━━━━━━━━━━━━━
+- Source = 01_1AB_RaShi_Sc_
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Readability = FULL
+- Data Role = ACTIVE_CANONICAL_RASHI_12H
+Visible Rashi Chart Snapshot
+- 1H Vrishabha = Lagna 5:20:15 Vrishabha Krittika P3 / RL Ve / NL Su / SL Me / SSL Me
+- 2H Mithuna = Uranus 17:32:44 Mithuna Aridra P4 / RL Me / NL Ra / SL Su / SSL Ma
+- 3H Kataka = EMPTY
+- 4H Simha = Ketu 14:43:17 Simha P.Phalguni P1 / RL Su / NL Ve / SL Ve / SSL Ju
+- 5H Kanya = Pluto 0:39:14 Kanya U.Phalguni P2 / RL Me / NL Su / SL Ra / SSL Ve / Moon 9:02:22 Kanya U.Phalguni P4 / RL Me / NL Su / SL Ve / SSL Ju / Venus 9:08:40 Kanya U.Phalguni P4 / RL Me / NL Su / SL Ve / SSL Ju
+- 6H Thula = Sun 25:32:23 Thula Vishakha P2 / RL Ve / NL Ju / SL Me / SSL Sa
+- 7H Vrischika = Jupiter 25:55:22 Vrischika Jyeshta P3 / RL Ma / NL Me / SL Ra / SSL Mo
+- 8H Dhanus = EMPTY
+- 9H Makara = EMPTY
+- 10H Kumbha = Mars 1:09:41 Kumbha Dhanishta P3 / RL Sa / NL Ma / SL Me / SSL Ra / Mercury 10:36:26 Kumbha Shatabhisha P2 / RL Sa / NL Ra / SL Sa / SSL Sa / Saturn 13:54:55 Kumbha Shatabhisha P3 / RL Sa / NL Ra / SL Me / SSL Ju / Rahu 14:43:17 Kumbha Shatabhisha P3 / RL Sa / NL Ra / SL Ke / SSL Mo / Neptune 27:01:53 Kumbha P.Bhadrapada P3 / RL Sa / NL Ju / SL Ve / SSL Su
+- 11H Meena = EMPTY
+- 12H Mesha = EMPTY
+
+━━━━━━━━━━━━━━━━━━━━━━━
+D9 RASHI CO-PRESENCE FIELDS — REVALIDATED
+━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_D9_RASHI_KANYA_MOON_VENUS_PLUTO_CO_FIELD]
+- Location = D9 Rashi / 5H Kanya
+- Members = Pluto 0°39′14″ / Moon 9°02′22″ / Venus 9°08′40″
+- Member Class = Classical Core Moon-Venus / Outer Support Pluto
+- Field Type = same-sign intimate cluster
+- Exactness = Moon-Venus CORE_EXACT 0°06′18″
+- Recomputed Closest Pair = Moon-Venus CORE_EXACT 0°06′18″ / cluster = MULTI_MEMBER
+- Source Match = CANONICAL_RASHI_FULL_MATCH
+- Result Change = MEMBERSHIP_UNCHANGED / HOUSE_INDEX_ADDED
+Independent Functions
+  • Moon = 관계 감정 / 체감 친밀성 / 보호 반응
+  • Venus = 사랑 / 가치 / 창조 / 친밀성의 미감
+  • Pluto = 심층 압력 / 깊은 변형 보조
+
+Mutual Coloring
+  • Moon은 Venus의 사랑과 가치감을 먹은 관계 감정이다.
+  • Venus는 Moon의 정서와 보호 반응을 먹은 사랑이다.
+  • Pluto는 이 장에 깊은 압력과 변형성을 보조로 넣는다.
+  • 따라서 이 공동장은 친밀성과 가치판단을 깊게 묶지만, 검증된 안정감으로 닫아야 한다.
+- Chart-Specific Role = D9 관계/내면 공동장
+- £칸 = D9 04 Co-presence 공동장 / D9 5H Virgo Moon/Venus 사랑·창조 공동장
+- €칸
+  • D7 = ○ 관계양육층 / Secondary
+  • D12 = ○ 가족정서 패턴층 / Secondary
+  • D16 = ☆ 생활미감/관계안락층 / Reference
+  • 연결이유 = 친밀성·애정·가치 구조가 양육·가족정서·생활안락과 쉽게 연결되기 때문
+- Reality Rule = 관계 감정과 가치판단을 섞어 과열하지 말고, 친밀성은 검증된 안정감으로 닫아야 한다.
+
+[HYEWON_D9_RASHI_KUMBHA_MARS_MERCURY_SATURN_RAHU_NEPTUNE_CO_FIELD]
+- Location = D9 Rashi / 10H Kumbha
+- Members = Mars 1°09′41″ / Mercury 10°36′26″ / Saturn 13°54′55″ / Rahu 14°43′17″ / Neptune 27°01′53″
+- Member Class = Classical Core Mars-Mercury-Saturn / Node Layer Rahu / Outer Support Neptune
+- Field Type = same-sign major structural cluster
+- Exactness = Mercury-Saturn STRONG_FUNCTIONAL 3°18′29″ / Saturn-Rahu CORE_EXACT 0°48′22″
+- Recomputed Closest Pair = Saturn-Rahu CORE_EXACT 0°48′22″ / cluster = MULTI_MEMBER
+- Source Match = CANONICAL_RASHI_FULL_MATCH
+- Result Change = MEMBERSHIP_UNCHANGED / HOUSE_INDEX_ADDED
+Independent Functions
+  • Mars = 사회적 다르마 실행 / 관계축 행동 / 미래 구조 추진
+  • Mercury = 관계권 / 계약 / 문장 / 시스템 판단
+  • Saturn = 책임 / 검증 / 장기 수행 / 현실 구조
+  • Rahu = 비표준 확장 / 외부망 / 미래 욕망 증폭
+  • Neptune = 이상화 / 의미 흐림 보조
+
+Mutual Coloring
+  • Mars는 Mercury/Saturn/Rahu의 계약·책임·확장을 먹은 실행권이다.
+  • Mercury는 Mars의 행동성, Saturn의 검증, Rahu의 외부망을 먹은 관계권이다.
+  • Saturn은 Mercury/Mars/Rahu를 장기 책임과 현실 구조로 묶는다.
+  • Rahu는 Mars/Mercury/Saturn을 통해 기술·계약·책임·사회 확장으로 사건화된다.
+  • Neptune은 이 장에 소명 이상화와 흐림을 보조로 넣는다.
+- Chart-Specific Role = D9 내면구조 공동장
+- £칸 = D9 10H Aquarius Mars/Mercury/Saturn/Rahu 사회적 다르마 공동장
+- €칸
+  • D3 = ♤ 실행문법층 / Secondary
+  • D10 = ♤ 역할 구조층 / Secondary
+  • D20 = ♧ 수행·다르마 연결층 / Primary
+  • 연결이유 = 구조·검증·비표준 확장이 실행문법·역할구조·수행 방향과 이어지기 때문
+- Reality Rule = 관계와 내면 방향은 비전만으로 밀지 말고, 구조와 검증이 붙은 문법으로 유지해야 한다.
+
+D9 OPERATING NOTE
+- D9는 관계/다르마 심층층이므로 Kanya 친밀성 공동장과 Kumbha 구조 공동장을 양대 축으로 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+D9 BHAVA CANONICAL DATA INPUT
+━━━━━━━━━━━━━━━━━━━━━━━
+- Source = 01_2AB_Bhava_Sc_
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- House Distribution Status = PASS / SOURCE_VALUE_VALIDATED
+- Wheel Snapshot Status = PARTIAL_ONLY / NON_AUTHORITY_FOR_CO_FIELD
+- Data Role = ACTIVE_CANONICAL_BHAVA_12H
+Visible House Distribution
+- 1H = Lagna 5:20:15 Vrishabha Krittika P3 / RL Ve / NL Su / SL Me / SSL Me
+- 2H = EMPTY
+- 3H = EMPTY
+- 4H = Ketu 14:43:17 Simha Purva Phalguni P1 / RL Su / NL Ve / SL Ve / SSL Ju
+- 5H = Moon 9:02:22 Kanya Uttara Phalguni P4 / RL Me / NL Su / SL Ve / SSL Ju / Venus 9:08:40 Kanya Uttara Phalguni P4 / RL Me / NL Su / SL Ve / SSL Ju
+- 6H = EMPTY
+- 7H = Sun 25:32:23 Thula Vishakha P2 / RL Ve / NL Ju / SL Me / SSL Sa
+- 8H = Jupiter 25:55:22 Vrischika Jyeshtha P3 / RL Ma / NL Me / SL Ra / SSL Mo
+- 9H = Maandi/Md SUPPORT_ONLY
+- 10H = Mars 1:09:41 Kumbha Dhanishtha P3 / RL Sa / NL Ma / SL Me / SSL Ra / Mercury 10:36:26 Kumbha Shatabhisha P2 / RL Sa / NL Ra / SL Sa / SSL Sa / Saturn 13:54:55 Kumbha Shatabhisha P3 / RL Sa / NL Ra / SL Me / SSL Ju / Rahu 14:43:17 Kumbha Shatabhisha P3 / RL Sa / NL Ra / SL Ke / SSL Mo
+- 11H = EMPTY
+- 12H = EMPTY
+
+━━━━━━━━━━━━━━━━━━━━━━━
+D9 BHAVA CO-PRESENCE FIELDS — RECOMPUTED
+━━━━━━━━━━━━━━━━━━━━━━━
+Chart Role = 관계/다르마/내면성숙
+Field Source Grade = BHAVA_HOUSE_DISTRIBUTION_FIELD / SOURCE_VALUE_VALIDATED
+
+[HYEWON_D9_BHAVA_5H_MOON_VENUS_CO_FIELD]
+- Location = D9 Bhava / 5H
+- Source Grade = BHAVA_HOUSE_DISTRIBUTION_FIELD / SOURCE_VALUE_VALIDATED
+- Members = Moon 9°02′22″ / Venus 9°08′40″
+- Member Class = Classical Core Moon-Venus
+- Field Type = same-house co-presence
+- Exactness = Moon-Venus CORE_EXACT 0°06′18″ / cluster = PAIR
+- Source Match = CANONICAL_BHAVA_HOUSE_DISTRIBUTION_MATCH
+- Result Change = MEMBERSHIP_UNCHANGED / LOCATION_REWRITTEN_BOX_TO_HOUSE
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감
+  • Venus = 가치 / 관계 / 미감 / 산출
+Mutual Coloring
+  • Moon은 Venus의 장을 먹은 Moon이다.
+  • Venus는 Moon의 장을 먹은 Venus이다.
+  • 이 장은 SOURCE_VALUE_VALIDATED house distribution 기준의 확정 브하 공동장이다.
+- Chart-Specific Role = D9 Bhava 관계/다르마/내면성숙 공동장
+- £칸 = D9 Bhava native slot / D9 Bhava Co-presence 공동장 슬롯 / 관계/다르마/내면성숙
+- €칸
+  • D9 Rashi co-field / same-D sign-field comparison = Reference
+  • D9 Bhava source layer / house-function validation = Primary
+  • 연결이유 = 브하 공동장은 같은 D차트 라시 원본장을 대체하지 않고 현실 house-function 또는 SOURCE_VALUE_VALIDATED house-function 작동장으로 붙어야 하기 때문
+- Reality Rule = 관계/다르마/내면성숙은 브하 현실 작동장 기준으로 운용하되, 라시 원본장을 덮어쓰지 않는다.
+
+[HYEWON_D9_BHAVA_10H_MARS_MERCURY_SATURN_RAHU_CO_FIELD]
+- Location = D9 Bhava / 10H
+- Source Grade = BHAVA_HOUSE_DISTRIBUTION_FIELD / SOURCE_VALUE_VALIDATED
+- Members = Mars 1°09′41″ / Mercury 10°36′26″ / Saturn 13°54′55″ / Rahu 14°43′17″
+- Member Class = Classical Core Mars-Mercury-Saturn / Node Layer Rahu
+- Field Type = same-house co-presence
+- Exactness = Saturn-Rahu CORE_EXACT 0°48′22″ / cluster = MULTI_MEMBER
+- Source Match = CANONICAL_BHAVA_HOUSE_DISTRIBUTION_MATCH
+- Result Change = MEMBERSHIP_UNCHANGED / LOCATION_REWRITTEN_BOX_TO_HOUSE
+Independent Functions
+  • Mars = 행동 / 결단 / 방어 / 실행압력
+  • Mercury = 말 / 문서 / 판단 / 분류
+  • Saturn = 책임 / 시간 / 검증 / 반복
+  • Rahu = 증폭 / 욕망 / 비표준 / 과열 / retrograde visible
+Mutual Coloring
+  • 이 장의 구성원들은 단독 기능으로만 작동하지 않고, 같은 브하 기능장 안에서 서로의 기능을 먹은 상태로 작동한다.
+  • 노드층(Rahu(R))은 증폭·절단·비표준화 압력을 넣는다.
+  • 노드층 Rahu은 증폭·절단·비표준화 압력을 넣는다.
+  • 이 장은 SOURCE_VALUE_VALIDATED house distribution 기준의 확정 브하 공동장이다.
+- Chart-Specific Role = D9 Bhava 관계/다르마/내면성숙 공동장
+- £칸 = D9 Bhava native slot / D9 Bhava Co-presence 공동장 슬롯 / 관계/다르마/내면성숙
+- €칸
+  • D9 Rashi co-field / same-D sign-field comparison = Reference
+  • D9 Bhava source layer / house-function validation = Primary
+  • 연결이유 = 브하 공동장은 같은 D차트 라시 원본장을 대체하지 않고 현실 house-function 또는 SOURCE_VALUE_VALIDATED house-function 작동장으로 붙어야 하기 때문
+- Reality Rule = 관계/다르마/내면성숙은 브하 현실 작동장 기준으로 운용하되, 라시 원본장을 덮어쓰지 않는다.
+
+D9 BHAVA SINGLE FIELD / NOT CO-PRESENCE
+- 1H Lagna 5°20′15″ Vrishabha = single SOURCE_VALUE_VALIDATED marker / 공동장 생성 대상 아님 / 단독 작동축
+- 4H Ketu 14°43′17″ Simha = single SOURCE_VALUE_VALIDATED marker / 공동장 생성 대상 아님 / 단독 작동축
+- 7H Sun 25°32′23″ Thula = single SOURCE_VALUE_VALIDATED marker / 공동장 생성 대상 아님 / 단독 작동축
+- 8H Jupiter 25°55′22″ Vrischika = single SOURCE_VALUE_VALIDATED marker / 공동장 생성 대상 아님 / 단독 작동축
+D9 BHAVA SUPPORT-ONLY FIELD
+- 9H Maandi/Md = SUPPORT_ONLY / 공동장 핵심 구성원 아님 / 독립 도수·나크·로드 추정 금지
+
+D9 BHAVA OPERATING NOTE
+- Active 공동장 판정은 Visible House Distribution만 사용한다.
+- PARTIAL_ONLY wheel snapshot의 BOX/Sector 위치는 공동장 확정값으로 사용하지 않는다.
+- Maandi/Md는 SUPPORT_ONLY로 유지하며 단독 행성과의 결합만으로 공동장을 만들지 않는다.
+- Rashi 공동장을 덮어쓰지 않고 same-D reference로만 병렬 보관한다.
+
+D9 BHAVA CHANGE LOG
+- LOCATION_REWRITE = D9 Bhava / BOX_02 → D9 Bhava / 10H / Mars / Mercury / Saturn / Rahu
+- LOCATION_REWRITE = D9 Bhava / BOX_07 → D9 Bhava / 5H / Moon / Venus
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━
+VOIDED PREVIOUS BHAVA SNAPSHOT RECORDS
+━━━━━━━━━━━━━━━━━━━━━━━
+- 아래 기록은 삭제하지 않는다.
+- 이전 CO2_99 안의 PARTIAL_ONLY BOX/Sector 기반 기록을 원문 보존한다.
+- Active 공동장 또는 active single-field 판정 권한은 없다.
+- STATUS = VOID_NOT_ACTIVE / HISTORICAL_PRESERVE_ONLY
+
+━━━━━━━━━━━━━━━━━━━━━━━
+D9 PREVIOUS BHAVA SNAPSHOT VOID RECORD
+━━━━━━━━━━━━━━━━━━━━━━━
+PREVIOUS SINGLE-FIELD INDEX — VOID REFERENCE
+D9 SINGLE FIELD / NOT CO-PRESENCE
+- BOX_01 As = single visible marker / 공동장 생성 대상 아님 / 필요 시 단독 작동축으로만 사용
+- BOX_03 Maandi = single visible marker / 공동장 생성 대상 아님 / 필요 시 단독 작동축으로만 사용
+- BOX_04 Ketu(R) = single visible marker / 공동장 생성 대상 아님 / 필요 시 단독 작동축으로만 사용
+- BOX_05 Jupiter = single visible marker / 공동장 생성 대상 아님 / 필요 시 단독 작동축으로만 사용
+- BOX_06 Sun = single visible marker / 공동장 생성 대상 아님 / 필요 시 단독 작동축으로만 사용
+- VOID VERDICT = BOX/SECTOR INDEX REPLACED BY CANONICAL HOUSE SINGLE-FIELD INDEX
+
+━━━━━━━━━━━━━━━━━━━━━━━
+D9 SPLIT VALIDATION
+━━━━━━━━━━━━━━━━━━━━━━━
+- D-set member = D9
+- Rashi canonical data section = PASS
+- Bhava canonical data section = PASS
+- D-specific active co-field section = PASS
+- D-specific previous Bhava VOID record = PRESERVED
+- Source text inside extracted blocks = UNCHANGED
+- Final Verdict Check = PASS
+
+CONTENT END
+━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_D9_RASHI_BHAVA_CO_PRESENCE_CANONICAL_SPLIT_FINAL
+INDEX=MASTER_CHARTS > HYEWON > NATAL > CO_PRESENCE_FIELD > RASHI_BHAVA_PAIR > D9 > CANONICAL_SPLIT_FINAL
+STATUS=CANONICAL_D_MEMBER_SPLIT_FINAL_LOCK_READY
+━━━━━━━━━━━━━━━━━━━━━━━
