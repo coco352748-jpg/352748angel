@@ -1,0 +1,271 @@
+{
+  "schema_version": "RQ_SC8_PIKACHU_CANONICAL_MANIFEST_V1",
+  "status": "PASS_FNA98_SC_ALIGNED_20D",
+  "authority": {
+    "current_value_canonical": "rq-sc",
+    "plain_source_provider": "rq-sc7",
+    "controlling_rule": "RASHI_1AB_OVERRIDES_STALE_DEPENDENT_FAMILY_VALUES",
+    "target_scope": "PIKACHU_20_ZIP_ONLY",
+    "external_lineage": "VOID_EXCLUDED_NOT_IMPORTED_NOT_MUTATED",
+    "historical_raw": "IMMUTABLE_PROVENANCE_INPUT",
+    "non_pikachu_mutation": "PROHIBITED",
+    "information_loss": 0
+  },
+  "source_snapshot": {
+    "source_set_id": "RQVEDIC_26_SOURCE_SET_2026-08-12_ASPECT03R_YOGA20_TRANSIT21",
+    "archive_set_sha256": "81951a845d2759fcb9afc082743c743e91b4bc15c3aa5220f0ac83fc8c79555c",
+    "source_family_manifest_sha256": "0da3d46f56ec9af2bd4807f4c3a5a089320547bd758f2a3afb74514fb0c4c6ff",
+    "source_binding_index_sha256": "c256826519993d37ab39afa33e67f5d2706ead7e0d323a40f1c547f810fd5e75",
+    "source_binding_payload_sha256": "e797ee5a009e0d83fe66e48bc9c3a7717b6ef00b8c28088e760a02c11dfa73c3",
+    "rashi_archive": {
+      "filename": "07_1AB_RaShi_Sc.zip",
+      "sha256": "ae3461835d6c16d331352a6be614347b033c893c59324414fb69fb7d77bac5f6"
+    },
+    "bhava_archive": {
+      "filename": "07_2AB_Bhava_Sc.zip",
+      "sha256": "db7fb5f94e6671681b0eb9c0468bee10a6fe8b2c859b1afeec9be33705da8325"
+    },
+    "pushkara_archive": {
+      "filename": "07_5AB_Pushkara_Bhaga_Sc.zip",
+      "sha256": "7affdf19c638da9f9c218e07518a3a33cd2c112241e993e6f3c5cb187f1f7daf"
+    }
+  },
+  "canonical_d1_values": {
+    "Venus": {
+      "degree": "07:40:57"
+    },
+    "Rahu": {
+      "degree": "26:33:09",
+      "rashi": "Kataka",
+      "house": "H11",
+      "nakshatra": "Ashlesha",
+      "pada": 3,
+      "RL": "Mo",
+      "NL": "Me",
+      "SL": "Ju",
+      "SSL": "Sa"
+    },
+    "Ketu": {
+      "degree": "26:33:09",
+      "rashi": "Makara",
+      "house": "H05",
+      "nakshatra": "Dhanishta",
+      "pada": 1,
+      "RL": "Sa",
+      "NL": "Ma",
+      "SL": "Ju",
+      "SSL": "Sa"
+    }
+  },
+  "derived_values": {
+    "venus_to_rahu_gap": {
+      "formula": "26:33:09 - 07:40:57",
+      "result": "18:52:12",
+      "rendered": "18°52′12″"
+    },
+    "rahu_pushkara_offset": {
+      "formula": "26:33:09 - 08:00:00",
+      "result": "18:33:09"
+    },
+    "ketu_pushkara_offset": {
+      "formula": "26:33:09 - 14:00:00",
+      "result": "12:33:09"
+    }
+  },
+  "replacement_rules": [
+    {
+      "rule_id": "NODE_DEGREE_COLON_SECONDS",
+      "old": "24:58:08",
+      "new": "26:33:09",
+      "scope": "ALL_20_ARCHIVES_EXACT_LITERAL"
+    },
+    {
+      "rule_id": "NODE_DEGREE_DMS",
+      "old": "24°58′08″",
+      "new": "26°33′09″",
+      "scope": "ALL_20_ARCHIVES_EXACT_LITERAL"
+    },
+    {
+      "rule_id": "VENUS_RAHU_GAP",
+      "old": "17°17′11″",
+      "new": "18°52′12″",
+      "scope": "ALL_20_ARCHIVES_DERIVED_EXACT_LITERAL"
+    },
+    {
+      "rule_id": "RAHU_PUSHKARA_OFFSET",
+      "old": "16:58:08",
+      "new": "18:33:09",
+      "scope": "ALL_20_ARCHIVES_DERIVED_EXACT_LITERAL"
+    },
+    {
+      "rule_id": "KETU_PUSHKARA_OFFSET",
+      "old": "10:58:08",
+      "new": "12:33:09",
+      "scope": "ALL_20_ARCHIVES_DERIVED_EXACT_LITERAL"
+    },
+    {
+      "rule_id": "D1_VARGA_RAHU_MINUTE",
+      "old": "D1 4(24:58)",
+      "new": "D1 4(26:33)",
+      "scope": "ALL_20_ARCHIVES_D1_EXPLICIT_LITERAL"
+    },
+    {
+      "rule_id": "D1_VARGA_KETU_MINUTE",
+      "old": "D1 10(24:58)",
+      "new": "D1 10(26:33)",
+      "scope": "ALL_20_ARCHIVES_D1_EXPLICIT_LITERAL"
+    },
+    {
+      "rule_id": "D1_VALUE_RAHU_MINUTE",
+      "old": "《D1 Value》 = 4(24:58)",
+      "new": "《D1 Value》 = 4(26:33)",
+      "scope": "ALL_20_ARCHIVES_D1_EXPLICIT_LITERAL"
+    },
+    {
+      "rule_id": "D1_VALUE_KETU_MINUTE",
+      "old": "《D1 Value》 = 10(24:58)",
+      "new": "《D1 Value》 = 10(26:33)",
+      "scope": "ALL_20_ARCHIVES_D1_EXPLICIT_LITERAL"
+    },
+    {
+      "rule_id": "D1_RAHU_CODE_SLASH",
+      "old": "RL Mo / NL Me / SL Ra / SSL Sa",
+      "new": "RL Mo / NL Me / SL Ju / SSL Sa",
+      "scope": "D1_ARCHIVE_ONLY"
+    },
+    {
+      "rule_id": "D1_RAHU_CODE_HYPHEN",
+      "old": "RL Mo-NL Me-SL Ra-SSL Sa",
+      "new": "RL Mo-NL Me-SL Ju-SSL Sa",
+      "scope": "D1_ARCHIVE_ONLY"
+    },
+    {
+      "rule_id": "D1_KETU_CODE_SLASH",
+      "old": "RL Sa / NL Ma / SL Ra / SSL Sa",
+      "new": "RL Sa / NL Ma / SL Ju / SSL Sa",
+      "scope": "D1_ARCHIVE_ONLY"
+    },
+    {
+      "rule_id": "D1_KETU_CODE_HYPHEN",
+      "old": "RL Sa-NL Ma-SL Ra-SSL Sa",
+      "new": "RL Sa-NL Ma-SL Ju-SSL Sa",
+      "scope": "D1_ARCHIVE_ONLY"
+    },
+    {
+      "rule_id": "D1_SHORT_RAHU_LABEL",
+      "old": "Ra(R) 24:58",
+      "new": "Ra(R) 26:33",
+      "scope": "D1_ARCHIVE_ONLY"
+    },
+    {
+      "rule_id": "D1_SHORT_KETU_LABEL",
+      "old": "Ke(R) 24:58",
+      "new": "Ke(R) 26:33",
+      "scope": "D1_ARCHIVE_ONLY"
+    },
+    {
+      "rule_id": "D1_SHORT_KETU_JOINED",
+      "old": "KetuMakara 24:58",
+      "new": "KetuMakara 26:33",
+      "scope": "D1_ARCHIVE_ONLY"
+    },
+    {
+      "rule_id": "D1_SHORT_RAHU_JOINED",
+      "old": "RahuKataka 24:58",
+      "new": "RahuKataka 26:33",
+      "scope": "D1_ARCHIVE_ONLY"
+    },
+    {
+      "rule_id": "D1_APPLIED_RAHU_MINUTE",
+      "old": "《Applied Chart Value》 = 4(24:58)",
+      "new": "《Applied Chart Value》 = 4(26:33)",
+      "scope": "D1_ARCHIVE_ONLY"
+    },
+    {
+      "rule_id": "D1_APPLIED_KETU_MINUTE",
+      "old": "《Applied Chart Value》 = 10(24:58)",
+      "new": "《Applied Chart Value》 = 10(26:33)",
+      "scope": "D1_ARCHIVE_ONLY"
+    }
+  ],
+  "expected_rule_profiles": {
+    "D1": {
+      "NODE_DEGREE_COLON_SECONDS": 179,
+      "NODE_DEGREE_DMS": 21,
+      "VENUS_RAHU_GAP": 22,
+      "RAHU_PUSHKARA_OFFSET": 4,
+      "KETU_PUSHKARA_OFFSET": 4,
+      "D1_VARGA_RAHU_MINUTE": 4,
+      "D1_VARGA_KETU_MINUTE": 4,
+      "D1_VALUE_RAHU_MINUTE": 1,
+      "D1_VALUE_KETU_MINUTE": 1,
+      "D1_RAHU_CODE_SLASH": 75,
+      "D1_RAHU_CODE_HYPHEN": 6,
+      "D1_KETU_CODE_SLASH": 21,
+      "D1_KETU_CODE_HYPHEN": 6,
+      "D1_SHORT_RAHU_LABEL": 1,
+      "D1_SHORT_KETU_LABEL": 2,
+      "D1_SHORT_KETU_JOINED": 1,
+      "D1_SHORT_RAHU_JOINED": 1,
+      "D1_APPLIED_RAHU_MINUTE": 1,
+      "D1_APPLIED_KETU_MINUTE": 1
+    },
+    "COMMON_D2_D60": {
+      "NODE_DEGREE_COLON_SECONDS": 20,
+      "NODE_DEGREE_DMS": 1,
+      "VENUS_RAHU_GAP": 1,
+      "RAHU_PUSHKARA_OFFSET": 4,
+      "KETU_PUSHKARA_OFFSET": 4,
+      "D1_VARGA_RAHU_MINUTE": 1,
+      "D1_VARGA_KETU_MINUTE": 1,
+      "D1_VALUE_RAHU_MINUTE": 1,
+      "D1_VALUE_KETU_MINUTE": 1
+    }
+  },
+  "raw_totals": {
+    "archive_count": 20,
+    "member_count": 600,
+    "archive_size_bytes": 6461617,
+    "uncompressed_size_bytes": 58317878
+  },
+  "raw_archives": [
+    {"dchart":"D1","filename":"01_AB_D1_PicAcHu_☆.zip","sha256":"b48a4236f993c83f4154847170f5864cf54ab8b642a263c21adf6ce6faa98ed0","size_bytes":312922,"uncompressed_size_bytes":2458961,"member_count":30,"expected_replacement_count":355,"expected_changed_member_count":15},
+    {"dchart":"D9","filename":"01_AB_D9_PicAcHu_☆.zip","sha256":"e60dbc871dfa21a65cec418b94ed778a1a6c85db7827eefbba09a920392cdb0f","size_bytes":324481,"uncompressed_size_bytes":2946731,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4},
+    {"dchart":"D2","filename":"01_AB_D2_PicAcHu_☆.zip","sha256":"3ee6d9581fc694f811670014f883a6c0c8a3cb559c7c35a1bca9d212e299be92","size_bytes":320395,"uncompressed_size_bytes":2986665,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4},
+    {"dchart":"D3","filename":"01_AB_D3_PicAcHu_☆.zip","sha256":"eb27eb9453df717dbd29187ed9c9ab2d9e3bc43634203b256b263753620cb076","size_bytes":325544,"uncompressed_size_bytes":2926506,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4},
+    {"dchart":"D4","filename":"01_AB_D4_PicAcHu_☆.zip","sha256":"289130ad388328428eb86316958960d1c4476d6a8a40aa724a3a524aef5489f1","size_bytes":326545,"uncompressed_size_bytes":2926382,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4},
+    {"dchart":"D5","filename":"01_AB_D5_PicAcHu_☆.zip","sha256":"a26c0a512b5fa459b64f60c00d5ab8232ed2619e67dc27cfe7792c0f9b4c6688","size_bytes":324212,"uncompressed_size_bytes":2937174,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4},
+    {"dchart":"D6","filename":"01_AB_D6_PicAcHu_☆.zip","sha256":"993bc3081d3f86e141e9db1139b837999795f2ad74ef510d5bb0c5d69c6d2d1d","size_bytes":323947,"uncompressed_size_bytes":2946731,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4},
+    {"dchart":"D7","filename":"01_AB_D7_PicAcHu_☆.zip","sha256":"c300a8c882de36d647c28bb089bbecfc084003909d5709b9f378a4d91e206968","size_bytes":325894,"uncompressed_size_bytes":2961964,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4},
+    {"dchart":"D8","filename":"01_AB_D8_PicAcHu_☆.zip","sha256":"fc88c9b09a20c33d09753cdaf0bc39160b10609664c94e16ebb2974712fa40d6","size_bytes":323808,"uncompressed_size_bytes":2926444,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4},
+    {"dchart":"D10","filename":"01_AB_D10_PicAcHu_☆.zip","sha256":"82bfea0b158e143aff639731de4d003971214754fb3fb00d5b4e1120e7c74190","size_bytes":325673,"uncompressed_size_bytes":2930657,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4},
+    {"dchart":"D11","filename":"01_AB_D11_PicAcHu_☆.zip","sha256":"25f3276c400dac62c9cda1b7804d4290ca2cc8ebbbbe46c42a4e711ce62a68eb","size_bytes":327326,"uncompressed_size_bytes":2946503,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4},
+    {"dchart":"D12","filename":"01_AB_D12_PicAcHu_☆.zip","sha256":"d781fc20a560d29c26812892b3f8778fa84c63c0f3feb33dcdf4603c2f7056a1","size_bytes":320890,"uncompressed_size_bytes":2938081,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4},
+    {"dchart":"D16","filename":"01_AB_D16_PicAcHu_☆.zip","sha256":"1abd3fabb89d9ee8ade6bf33d94dfa4b7f78af92a3697362b254257046faa8a0","size_bytes":319933,"uncompressed_size_bytes":2946124,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4},
+    {"dchart":"D20","filename":"01_AB_D20_PicAcHu_☆.zip","sha256":"67dc156dabf75a55429b325d08d71a392bd95d4963070ae9daea9f70360111be","size_bytes":320632,"uncompressed_size_bytes":2942053,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4},
+    {"dchart":"D24","filename":"01_AB_D24_PicAcHu_☆.zip","sha256":"3e23d584e2a36247f0732c75118df978479a946eb8c9048c42d64a70c0b31f3b","size_bytes":324290,"uncompressed_size_bytes":2946041,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4},
+    {"dchart":"D27","filename":"01_AB_D27_PicAcHu_☆.zip","sha256":"f68ad1967026871c0f7e3c5ec0e8ca2a8cfe4061be95ca1c94d4cb0fb4646fad","size_bytes":322375,"uncompressed_size_bytes":2944990,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4},
+    {"dchart":"D30","filename":"01_AB_D30_PicAcHu_☆.zip","sha256":"9a9fdf712a20a3e7229b46f3bff51ef430bb8ac9984ebbe9a812435f519ebcfb","size_bytes":325262,"uncompressed_size_bytes":2949306,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4},
+    {"dchart":"D40","filename":"01_AB_D40_PicAcHu_☆.zip","sha256":"14e317d794a57d1168f6dc77ddc08671b237a505fdec4b11141351ed4b087ca7","size_bytes":321970,"uncompressed_size_bytes":2924699,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4},
+    {"dchart":"D45","filename":"01_AB_D45_PicAcHu_☆.zip","sha256":"22ba1f8763868a8212fc3cd4d7bacc0001fbc5f5e3d4c5678347d25554502e29","size_bytes":323673,"uncompressed_size_bytes":2932243,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4},
+    {"dchart":"D60","filename":"01_AB_D60_PicAcHu_☆.zip","sha256":"ddcb893135df03452321e7eba9e4db377141343733e8b890cc09ca1f4126f6b5","size_bytes":321845,"uncompressed_size_bytes":2899623,"member_count":30,"expected_replacement_count":34,"expected_changed_member_count":4}
+  ],
+  "direct_value_registry": "references/pikachu-sc8-direct-values.json",
+  "direct_value_registry_sha256": "fbef4d6aff6528b7426ba2d19114a54d8330fd93d50012d03dd939c1b2d2a880",
+  "aligned_ledger": "references/pikachu-sc8-aligned-ledger.json",
+  "aligned_ledger_sha256": "58460a0aef9094df7ca484b8d5f1291a6b6b5916ec04fb80d3d9c30ecbdd74d2",
+  "aligned_totals": {
+    "archive_count": 20,
+    "member_count": 600,
+    "archive_size_bytes": 6492380,
+    "uncompressed_size_bytes": 58318144,
+    "replacement_count": 1001,
+    "changed_member_count": 92,
+    "unchanged_member_count": 508,
+    "rashi_actor_records": 260,
+    "bhava_actor_records": 200,
+    "direct_value_field_assertions": 4140,
+    "stale_token_count": 0,
+    "information_loss": 0
+  }
+}
