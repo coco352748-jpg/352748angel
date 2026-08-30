@@ -1,0 +1,4 @@
+interface:
+  display_name: "OO2A3 · SC8 03"
+  short_description: "SC8 03번 이동·공동장 변화 Source 즉시조회"
+  default_prompt: "Use $oo2a3 to load the exact SC8 03 source without merging adjacent layers."
