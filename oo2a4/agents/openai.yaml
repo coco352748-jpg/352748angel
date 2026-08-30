@@ -1,0 +1,4 @@
+interface:
+  display_name: "OO2A4 · SC8 04"
+  short_description: "SC8 04번 Rashi–Bhava 공동장 Source 즉시조회"
+  default_prompt: "Use $oo2a4 to load the exact SC8 04 Vedic CO2 source without merging adjacent layers."

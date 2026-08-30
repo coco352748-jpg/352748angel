@@ -1,0 +1,42 @@
+{
+  "schema_version": "OO2A4_SC8_04_DIRECT_COPY_V1",
+  "call_key": "$oo2a4",
+  "source_skill": "$rq-sc8",
+  "source_layer": "$rq-sc8-4ab",
+  "source_scope": "SC8 04 Vedic CO2 Rashi-Bhava co-presence canonical source",
+  "source_file": "07_4AB_VeDic_CO2_Sc_.zip",
+  "source_path": "rq-sc8/assets/source-layers/rq-sc8-4ab/07_4AB_VeDic_CO2_Sc_.zip",
+  "embedded_path": "assets/sc8-04/07_4AB_VeDic_CO2_Sc_.zip",
+  "sha256": "b1b2a692695763d9f1648ddfd6e993d2f8eaa5290350c191530ad1c977433a91",
+  "archive_size_bytes": 116781,
+  "uncompressed_size_bytes": 392309,
+  "member_count": 20,
+  "d_order": [
+    "D1", "D9", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D10",
+    "D11", "D12", "D16", "D20", "D24", "D27", "D30", "D40", "D45", "D60"
+  ],
+  "d50_status": "VOID",
+  "copy_policy": "BYTE_EXACT_NO_FILENAME_OR_BODY_MUTATION",
+  "member_files": [
+    "07_4AB_D1_VeDic_CO2_Sc.txt",
+    "07_4AB_D9_VeDic_CO2_Sc.txt",
+    "07_4AB_D2_VeDic_CO2_Sc.txt",
+    "07_4AB_D3_VeDic_CO2_Sc.txt",
+    "07_4AB_D4_VeDic_CO2_Sc.txt",
+    "07_4AB_D5_VeDic_CO2_Sc.txt",
+    "07_4AB_D6_VeDic_CO2_Sc.txt",
+    "07_4AB_D7_VeDic_CO2_Sc.txt",
+    "07_4AB_D8_VeDic_CO2_Sc.txt",
+    "07_4AB_D10_VeDic_CO2_Sc.txt",
+    "07_4AB_D11_VeDic_CO2_Sc.txt",
+    "07_4AB_D12_VeDic_CO2_Sc.txt",
+    "07_4AB_D16_VeDic_CO2_Sc.txt",
+    "07_4AB_D20_VeDic_CO2_Sc.txt",
+    "07_4AB_D24_VeDic_CO2_Sc.txt",
+    "07_4AB_D27_VeDic_CO2_Sc.txt",
+    "07_4AB_D30_VeDic_CO2_Sc.txt",
+    "07_4AB_D40_VeDic_CO2_Sc.txt",
+    "07_4AB_D45_VeDic_CO2_Sc.txt",
+    "07_4AB_D60_VeDic_CO2_Sc.txt"
+  ]
+}
