@@ -1,0 +1,40 @@
+{
+  "counts": {
+    "conflict_hold_point_non_none": 118,
+    "empty_house_lord_route": 102,
+    "exact_sentence_replay": 240,
+    "occupied_route": 138,
+    "records": 240,
+    "summary_4ak_equalities": 2400
+  },
+  "e5_new_dataset_production": "HOLD_NOT_A_NEW_DATASET",
+  "evidence_level": "CALIBRATION_REPLAY_CURRENT_SOURCE_NOT_E5_NEW_DATASET",
+  "first_unresolved_data_job": "SUPPLY_MISSING_VAS26_DIRECT_LAYER_SOURCES",
+  "judgment_operation": "LOCK_07_4AK_TARGET_BODY_THEN_BIND_07_5AB_07_6AB_AS_NON_OVERWRITING_REFERENCES",
+  "records": {
+    "bytes": 1399857,
+    "path": "router_records.jsonl",
+    "sha256": "696decfbfd2e6e0bc38dccfe89b70708c9ae8b81c90933f0d6c868e993327416"
+  },
+  "retained_v9_manifest": {
+    "path": "references/v9_baseline/kani_v9_manifest.json",
+    "sha256": "4f7a2a3137a50dcd083cdfc5ad7d12c91779da80c188d910266652007b1361d4"
+  },
+  "router": {
+    "id": "KANI_SECOND_ACTION_ROUTER_V2",
+    "path": "references/KANI_SECOND_ACTION_ROUTER_V2.json",
+    "sha256": "75dcfc3366a07c8bd298e33b869ee2b2501a5ea46a3a179a7240fa0cb6e467fe",
+    "template_id": "KANI_V10_FINAL_HOUSE_DEEP_OPERATION_V1",
+    "template_sha256": "13a389830befa4c66c15bcb645c7487943afa0cd973afe9e9cd0406f3be99f6b"
+  },
+  "run_id": "c027291ea17772a366e82264d637c4d3728173e1f1318766511e6bf1f671c329",
+  "schema_version": "KANI_V10_ROUTER_RUN_V1",
+  "sentence_function": "FINAL_HOUSE_DEEP_OPERATION_SENTENCE",
+  "source_index": {
+    "bytes": 132519,
+    "path": "source_index.json",
+    "sha256": "44a2af84cdb0f1b610c1bd9c5f46f360d375ec5ded39c9f526fe4076d978a8ff"
+  },
+  "status": "PASS_TESTED_SCOPE_240",
+  "terminal_version_boundary": "LOCKED_NO_AUTOMATIC_V11"
+}

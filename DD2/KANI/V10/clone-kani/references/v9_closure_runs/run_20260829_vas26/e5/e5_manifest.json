@@ -1,0 +1,932 @@
+{
+  "artifacts": {
+    "e5_3p_void.jsonl": {
+      "bytes": 2942,
+      "sha256": "8c66458e402dfdb7e944efe1712f7f13597d6436794eb8ab4f6e45e6402b83f9"
+    },
+    "e5_checkpoint.json": {
+      "bytes": 790,
+      "sha256": "d81c9c08feadd72b55154233e047c5851f03508d0fdb0b1c4f87663c398e8a54"
+    },
+    "e5_decision_ledger.jsonl": {
+      "bytes": 2473791,
+      "sha256": "f319f44cf3004c7285ebf0ad019b78e7e5e978ba62fcf16a06e1983b871e10a3"
+    },
+    "e5_fna98.json": {
+      "bytes": 772,
+      "sha256": "56f50c84f2b26f9e778ecfe6aa200c3f2598b4b597a96e16b63554bc1f8c80c9"
+    },
+    "e5_source_admission.json": {
+      "bytes": 746,
+      "sha256": "63e4c054c87e2275a57e42d8f671f0670a8d624953c6a621347d2dd3f63a6e96"
+    },
+    "e5_source_novelty.json": {
+      "bytes": 879,
+      "sha256": "9122fb02da827308267727432e0b1da6b9b22393f29a01d44e2e83eb948380b4"
+    },
+    "e5_transcript.txt": {
+      "bytes": 549,
+      "sha256": "69dcae44fa94a6758e34b000262ad5e5525019510f2520127f8a0feb2f33505c"
+    },
+    "lanes/01_INDEX.json": {
+      "bytes": 144781,
+      "sha256": "7f8d1736117e7815247762533a3a9ae791811c891282a26d119b42162b61bac0"
+    },
+    "lanes/02_RASHI_SOURCE.json": {
+      "bytes": 318282,
+      "sha256": "ac58f170853d8744db936b8d5f72c6ee6e252333b6e95c035c9da3e101e70e81"
+    },
+    "lanes/03_BHAVA_SOURCE.json": {
+      "bytes": 311828,
+      "sha256": "044db507b473b1d04eae4209bb5837f977492961c37bca02a9763be0aa108345"
+    },
+    "lanes/04_FIRST_INTEGRATION.json": {
+      "bytes": 124572,
+      "sha256": "3c58fa8b5b65943e3ea4947a46bd34a95c0d75281a25fab307cf5d3060539cac"
+    },
+    "lanes/05_COPRESENCE.json": {
+      "bytes": 123785,
+      "sha256": "dfe3076b8ed56b96f0559c72881738e2b861b936b00f251912608b6bc3de324f"
+    },
+    "lanes/06_PUSHKARA.json": {
+      "bytes": 123583,
+      "sha256": "93e897acad3a31d2292d9614c973a288b9dc2806f3bea0190c7ff1a79d3eed25"
+    },
+    "lanes/07_UPAGRAHA.json": {
+      "bytes": 123783,
+      "sha256": "ee249810c73bbe2fde0a35fcba737e3f51f4f503a87dc4037acbe0d64f455344"
+    },
+    "lanes/08_SPIRIT_CHALIT.json": {
+      "bytes": 124168,
+      "sha256": "baf0d572461bebd9e026bfb47367f06591e49e0f03e0130c7444157939c42781"
+    },
+    "lanes/09_MOON_CHART.json": {
+      "bytes": 123705,
+      "sha256": "9584e1656e0879e1435525a4b6bb3977a82eed552beec880ce5bb8cabef08c58"
+    },
+    "lanes/10_ARUDHA.json": {
+      "bytes": 123482,
+      "sha256": "8b5847b1a6644ba3f5c21a2f0a7d6d36b0aa76a1cf3e587891e187115ddd5192"
+    },
+    "lanes/11_SHADBALA_A.json": {
+      "bytes": 123886,
+      "sha256": "d3488974bf9957836e1ed0815f93d07a66d350eb083ed31bde9ff4f727907dd5"
+    },
+    "lanes/12_SHADBALA_R.json": {
+      "bytes": 123886,
+      "sha256": "2609a0247c55303fb818d37e212498def180e93bfa68c232bb8b1c9c919d298c"
+    },
+    "lanes/13_BHAVA_BALA.json": {
+      "bytes": 123846,
+      "sha256": "ee0b03623106ba8419db625c73d654f2c7aa8cd7cb740e6865c0dbe3ecbe96a7"
+    },
+    "lanes/14_VIMSOPAKA.json": {
+      "bytes": 123625,
+      "sha256": "50befc051d2390bab1152fcb966e563517b4f08c9b70f7bc06ed7081a20b735e"
+    },
+    "lanes/15_MRITYU.json": {
+      "bytes": 123362,
+      "sha256": "3d7e5e1724638dbaf70c0e1b6d5d59e9e19eb4e2d0a325328a932c69def710d4"
+    },
+    "lanes/16_SPOTHER.json": {
+      "bytes": 123303,
+      "sha256": "bc96d7bcd722480bfec2b8aee6afc4d8228fb43a08be5e8ae1db1d8d243b2a8a"
+    },
+    "lanes/17_AVA.json": {
+      "bytes": 123299,
+      "sha256": "c09a3d45ed0f797820539017d0594780e98287eb8b69e5baa1f628b2c9ec6f59"
+    },
+    "lanes/18_BHINNA_MATRIX.json": {
+      "bytes": 124309,
+      "sha256": "972a1da0d5042a8563f2dc9ff4db0a32c1dd29ad4a047dad60da490026f62988"
+    },
+    "lanes/19_PLANET_ASPECT.json": {
+      "bytes": 123909,
+      "sha256": "92503398900bcf972141828b51b346645446c2e3b72b37e2879f34dba58cbcad"
+    },
+    "lanes/20_SAP.json": {
+      "bytes": 122899,
+      "sha256": "0862b63b94a50c81ab069125d3a0f581cd9546b91235bac0c22a19deebfab2a5"
+    },
+    "lanes/21_TKS.json": {
+      "bytes": 122899,
+      "sha256": "9625ff801f4d43ba5d4aa56a619af6c4d2965b4cefc563ca2ee450c9ea7d3403"
+    },
+    "lanes/22_EKS.json": {
+      "bytes": 122899,
+      "sha256": "82ad0c9981e55121a0298f935c08b7877de9a3ed1198f3b346eb33cb5a9000ed"
+    },
+    "lanes/23_SPD.json": {
+      "bytes": 123379,
+      "sha256": "536117d656252be41db513df0ba45ed581423f7fef9e39cebf959a328a72da8c"
+    },
+    "lanes/24_VARGA_LINK_MINI.json": {
+      "bytes": 124591,
+      "sha256": "1af0754e7e9cfce481e4ca882ef1494377c142a981c099c9e44942839ab3df57"
+    },
+    "lanes/25_VARGA_LINK_FULL.json": {
+      "bytes": 124311,
+      "sha256": "8df8c3b0806aa62bbeba88d9c16ecf4a5b1e4698675ff3d1e9e2d6a52c7883ca"
+    },
+    "lanes/26_ASPECT02.json": {
+      "bytes": 123604,
+      "sha256": "e377bcf551fe7aea954bfd5f3eeb110159a2d5d53ec47c2e37ebf204da39c03c"
+    },
+    "lanes/27_ASPECT03.json": {
+      "bytes": 123484,
+      "sha256": "67abad952d8ea5a66da7ad1f3d6e661789906b4a03f50780b5034ae4e391dbec"
+    },
+    "lanes/28_DASHA.json": {
+      "bytes": 177548,
+      "sha256": "f42dc39cdc36e36b9815cfa3de1302502c5670373607ef0fe50d69cf966ac4d9"
+    },
+    "lanes/29_TIMING_GATE.json": {
+      "bytes": 124333,
+      "sha256": "678c3dedb4b00d552f210b6056f71e541ada314c5951c31330cc614bb99d5c08"
+    },
+    "source_snapshot.txt": {
+      "bytes": 201915,
+      "sha256": "3e716d8435801e77872697798ae45456b4533c110821c6c77b02003b6fa745ef"
+    }
+  },
+  "baseline": {
+    "overwrite_count": 0,
+    "path": "/root/.codex/skills/clone-kani/references/v9_baseline",
+    "post_files": {
+      "DD2_FINAL_CLOSURE_WORK_INSTRUCTION_FNA98.txt": {
+        "bytes": 9148,
+        "sha256": "6ff973bc6a8bbd6b399470e73f0e1539f640b45f4f6f13b37bbeb6544b985530"
+      },
+      "KANI_JUDGMENT_PROTOCOL_V3.md": {
+        "bytes": 5144,
+        "sha256": "a2d0032848df479f5fa41834a150769f28eb5f699e44b96c2b3780b836565612"
+      },
+      "decision_runtime.json": {
+        "bytes": 375669,
+        "sha256": "97ed611a6955a6a357959445baf27bdf4f3d2f839eeca98683e49b646349bf48"
+      },
+      "judgment_protocol_v3.json": {
+        "bytes": 3483,
+        "sha256": "d5379ac8049a2de6e2a9ddd79e6e997764fb642801325af0fdab8fa9a3609252"
+      },
+      "kani_v9_manifest.json": {
+        "bytes": 5032,
+        "sha256": "4f7a2a3137a50dcd083cdfc5ad7d12c91779da80c188d910266652007b1361d4"
+      },
+      "monotonic_checkpoint.json": {
+        "bytes": 4058,
+        "sha256": "c453bc38e1790859d6c8394e943ede2773e1d0989a9cc42170e707d92ba4dd4f"
+      }
+    },
+    "post_tree_sha256": "913cb921f9d5f97b351a4455f3e05cb1d441a00cec24291caf78eac5a690c0d9",
+    "pre_files": {
+      "DD2_FINAL_CLOSURE_WORK_INSTRUCTION_FNA98.txt": {
+        "bytes": 9148,
+        "sha256": "6ff973bc6a8bbd6b399470e73f0e1539f640b45f4f6f13b37bbeb6544b985530"
+      },
+      "KANI_JUDGMENT_PROTOCOL_V3.md": {
+        "bytes": 5144,
+        "sha256": "a2d0032848df479f5fa41834a150769f28eb5f699e44b96c2b3780b836565612"
+      },
+      "decision_runtime.json": {
+        "bytes": 375669,
+        "sha256": "97ed611a6955a6a357959445baf27bdf4f3d2f839eeca98683e49b646349bf48"
+      },
+      "judgment_protocol_v3.json": {
+        "bytes": 3483,
+        "sha256": "d5379ac8049a2de6e2a9ddd79e6e997764fb642801325af0fdab8fa9a3609252"
+      },
+      "kani_v9_manifest.json": {
+        "bytes": 5032,
+        "sha256": "4f7a2a3137a50dcd083cdfc5ad7d12c91779da80c188d910266652007b1361d4"
+      },
+      "monotonic_checkpoint.json": {
+        "bytes": 4058,
+        "sha256": "c453bc38e1790859d6c8394e943ede2773e1d0989a9cc42170e707d92ba4dd4f"
+      }
+    },
+    "pre_tree_sha256": "913cb921f9d5f97b351a4455f3e05cb1d441a00cec24291caf78eac5a690c0d9",
+    "unchanged": true
+  },
+  "checkpoint": {
+    "LONG_DRIFT": "READY_TO_RUN",
+    "NEW_DATASET_PRODUCTION": "PASS_WITH_LOCAL_HOLDS",
+    "baseline_tree_sha256": "913cb921f9d5f97b351a4455f3e05cb1d441a00cec24291caf78eac5a690c0d9",
+    "first_unexecuted_job": "RUN_LONG_DRIFT_REOPEN",
+    "local_hold_global_reset": "FORBIDDEN",
+    "lower_stage_restart": "VOID",
+    "production_started": true,
+    "restore_floor": "ANALYSIS02_MATURE_PRODUCTION_STATE",
+    "retained_passes": [
+      "REPLAY_BUNDLE",
+      "TAB_GENEALOGY",
+      "OUTPUT_CORPUS",
+      "INPUT_OUTPUT_BINDING",
+      "STRUCTURAL_LANE_RUNTIME",
+      "DIRECT_03_INSTRUCTION_BODY",
+      "CAUSAL_DECISION_RULES",
+      "BLIND_REPLAY"
+    ],
+    "run_id": "91b877555ed7c2b190429e1534b74e059cd35f4e039d2ae4c1efef2361472d68",
+    "schema_version": "KANI_V9_E5_OVERLAY_V1",
+    "user_promotion": "NOT_AUTHORIZED"
+  },
+  "counts": {
+    "active_3p_lanes": 0,
+    "active_lane_artifacts": 29,
+    "bhava_blocks": 20,
+    "dcharts": 20,
+    "direct_source_lanes": 4,
+    "fabricated_source_values": 0,
+    "lane_records": 580,
+    "local_hold_lanes": 25,
+    "mudda_dasha_pairs": 20,
+    "physical_3p_members": 20,
+    "rashi_blocks": 20,
+    "total_physical_members": 600
+  },
+  "decision_fields": [
+    "TRIGGER",
+    "SELECTED_ROUTE",
+    "REJECTED_ROUTE",
+    "WHY_JOINT",
+    "OUTPUT_EFFECT",
+    "CORRECTION",
+    "QA_GATE",
+    "HANDOFF"
+  ],
+  "e5_status": "PASS_WITH_LOCAL_HOLDS",
+  "e6_status": "READY_TO_RUN",
+  "fna98": {
+    "e5_status": "PASS_WITH_LOCAL_HOLDS",
+    "gates": {
+      "CONDITION_EXCEPTION_CHECK": "PASS",
+      "FACTCHECK": "PASS",
+      "FORMAT_CHECK": "PASS",
+      "HASH_READBACK_CHECK": "PENDING_INDEPENDENT_VALIDATOR",
+      "LOGIC_CHECK": "PASS",
+      "PRACTICAL_USABILITY": "PASS_LOCAL_HOLDS_EXPLICIT",
+      "SOURCE_CHECK": "PASS",
+      "SOURCE_GAP_FILL_CHECK": "PASS_ZERO_FABRICATED_VALUES",
+      "TARGET_CHECK": "PASS",
+      "VOID_REUSE_CHECK": "PASS_3P_NOT_ACTIVE",
+      "WHY_CHECK": "PASS"
+    },
+    "hard_fail_count": 0,
+    "hard_failures": [],
+    "materialization_subgate": "PASS",
+    "run_id": "91b877555ed7c2b190429e1534b74e059cd35f4e039d2ae4c1efef2361472d68",
+    "schema_version": "KANI_V9_E5_OVERLAY_V1",
+    "status": "PASS",
+    "value_completeness": "HOLD_LOCAL_25_UNSUPPORTED_LANES"
+  },
+  "lane_artifacts": [
+    {
+      "bytes": 144781,
+      "lane": "INDEX",
+      "lane_order": 1,
+      "path": "lanes/01_INDEX.json",
+      "sha256": "7f8d1736117e7815247762533a3a9ae791811c891282a26d119b42162b61bac0",
+      "status": "PASS_DIRECT_SOURCE"
+    },
+    {
+      "bytes": 318282,
+      "lane": "RASHI_SOURCE",
+      "lane_order": 2,
+      "path": "lanes/02_RASHI_SOURCE.json",
+      "sha256": "ac58f170853d8744db936b8d5f72c6ee6e252333b6e95c035c9da3e101e70e81",
+      "status": "PASS_DIRECT_SOURCE"
+    },
+    {
+      "bytes": 311828,
+      "lane": "BHAVA_SOURCE",
+      "lane_order": 3,
+      "path": "lanes/03_BHAVA_SOURCE.json",
+      "sha256": "044db507b473b1d04eae4209bb5837f977492961c37bca02a9763be0aa108345",
+      "status": "PASS_DIRECT_SOURCE"
+    },
+    {
+      "bytes": 124572,
+      "lane": "FIRST_INTEGRATION",
+      "lane_order": 4,
+      "path": "lanes/04_FIRST_INTEGRATION.json",
+      "sha256": "3c58fa8b5b65943e3ea4947a46bd34a95c0d75281a25fab307cf5d3060539cac",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 123785,
+      "lane": "COPRESENCE",
+      "lane_order": 5,
+      "path": "lanes/05_COPRESENCE.json",
+      "sha256": "dfe3076b8ed56b96f0559c72881738e2b861b936b00f251912608b6bc3de324f",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 123583,
+      "lane": "PUSHKARA",
+      "lane_order": 6,
+      "path": "lanes/06_PUSHKARA.json",
+      "sha256": "93e897acad3a31d2292d9614c973a288b9dc2806f3bea0190c7ff1a79d3eed25",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 123783,
+      "lane": "UPAGRAHA",
+      "lane_order": 7,
+      "path": "lanes/07_UPAGRAHA.json",
+      "sha256": "ee249810c73bbe2fde0a35fcba737e3f51f4f503a87dc4037acbe0d64f455344",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 124168,
+      "lane": "SPIRIT_CHALIT",
+      "lane_order": 8,
+      "path": "lanes/08_SPIRIT_CHALIT.json",
+      "sha256": "baf0d572461bebd9e026bfb47367f06591e49e0f03e0130c7444157939c42781",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 123705,
+      "lane": "MOON_CHART",
+      "lane_order": 9,
+      "path": "lanes/09_MOON_CHART.json",
+      "sha256": "9584e1656e0879e1435525a4b6bb3977a82eed552beec880ce5bb8cabef08c58",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 123482,
+      "lane": "ARUDHA",
+      "lane_order": 10,
+      "path": "lanes/10_ARUDHA.json",
+      "sha256": "8b5847b1a6644ba3f5c21a2f0a7d6d36b0aa76a1cf3e587891e187115ddd5192",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 123886,
+      "lane": "SHADBALA_A",
+      "lane_order": 11,
+      "path": "lanes/11_SHADBALA_A.json",
+      "sha256": "d3488974bf9957836e1ed0815f93d07a66d350eb083ed31bde9ff4f727907dd5",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 123886,
+      "lane": "SHADBALA_R",
+      "lane_order": 12,
+      "path": "lanes/12_SHADBALA_R.json",
+      "sha256": "2609a0247c55303fb818d37e212498def180e93bfa68c232bb8b1c9c919d298c",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 123846,
+      "lane": "BHAVA_BALA",
+      "lane_order": 13,
+      "path": "lanes/13_BHAVA_BALA.json",
+      "sha256": "ee0b03623106ba8419db625c73d654f2c7aa8cd7cb740e6865c0dbe3ecbe96a7",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 123625,
+      "lane": "VIMSOPAKA",
+      "lane_order": 14,
+      "path": "lanes/14_VIMSOPAKA.json",
+      "sha256": "50befc051d2390bab1152fcb966e563517b4f08c9b70f7bc06ed7081a20b735e",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 123362,
+      "lane": "MRITYU",
+      "lane_order": 15,
+      "path": "lanes/15_MRITYU.json",
+      "sha256": "3d7e5e1724638dbaf70c0e1b6d5d59e9e19eb4e2d0a325328a932c69def710d4",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 123303,
+      "lane": "SPOTHER",
+      "lane_order": 16,
+      "path": "lanes/16_SPOTHER.json",
+      "sha256": "bc96d7bcd722480bfec2b8aee6afc4d8228fb43a08be5e8ae1db1d8d243b2a8a",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 123299,
+      "lane": "AVA",
+      "lane_order": 17,
+      "path": "lanes/17_AVA.json",
+      "sha256": "c09a3d45ed0f797820539017d0594780e98287eb8b69e5baa1f628b2c9ec6f59",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 124309,
+      "lane": "BHINNA_MATRIX",
+      "lane_order": 18,
+      "path": "lanes/18_BHINNA_MATRIX.json",
+      "sha256": "972a1da0d5042a8563f2dc9ff4db0a32c1dd29ad4a047dad60da490026f62988",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 123909,
+      "lane": "PLANET_ASPECT",
+      "lane_order": 19,
+      "path": "lanes/19_PLANET_ASPECT.json",
+      "sha256": "92503398900bcf972141828b51b346645446c2e3b72b37e2879f34dba58cbcad",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 122899,
+      "lane": "SAP",
+      "lane_order": 20,
+      "path": "lanes/20_SAP.json",
+      "sha256": "0862b63b94a50c81ab069125d3a0f581cd9546b91235bac0c22a19deebfab2a5",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 122899,
+      "lane": "TKS",
+      "lane_order": 21,
+      "path": "lanes/21_TKS.json",
+      "sha256": "9625ff801f4d43ba5d4aa56a619af6c4d2965b4cefc563ca2ee450c9ea7d3403",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 122899,
+      "lane": "EKS",
+      "lane_order": 22,
+      "path": "lanes/22_EKS.json",
+      "sha256": "82ad0c9981e55121a0298f935c08b7877de9a3ed1198f3b346eb33cb5a9000ed",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 123379,
+      "lane": "SPD",
+      "lane_order": 23,
+      "path": "lanes/23_SPD.json",
+      "sha256": "536117d656252be41db513df0ba45ed581423f7fef9e39cebf959a328a72da8c",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 124591,
+      "lane": "VARGA_LINK_MINI",
+      "lane_order": 24,
+      "path": "lanes/24_VARGA_LINK_MINI.json",
+      "sha256": "1af0754e7e9cfce481e4ca882ef1494377c142a981c099c9e44942839ab3df57",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 124311,
+      "lane": "VARGA_LINK_FULL",
+      "lane_order": 25,
+      "path": "lanes/25_VARGA_LINK_FULL.json",
+      "sha256": "8df8c3b0806aa62bbeba88d9c16ecf4a5b1e4698675ff3d1e9e2d6a52c7883ca",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 123604,
+      "lane": "ASPECT02",
+      "lane_order": 26,
+      "path": "lanes/26_ASPECT02.json",
+      "sha256": "e377bcf551fe7aea954bfd5f3eeb110159a2d5d53ec47c2e37ebf204da39c03c",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 123484,
+      "lane": "ASPECT03",
+      "lane_order": 27,
+      "path": "lanes/27_ASPECT03.json",
+      "sha256": "67abad952d8ea5a66da7ad1f3d6e661789906b4a03f50780b5034ae4e391dbec",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    },
+    {
+      "bytes": 177548,
+      "lane": "DASHA",
+      "lane_order": 28,
+      "path": "lanes/28_DASHA.json",
+      "sha256": "f42dc39cdc36e36b9815cfa3de1302502c5670373607ef0fe50d69cf966ac4d9",
+      "status": "PASS_DIRECT_SOURCE"
+    },
+    {
+      "bytes": 124333,
+      "lane": "TIMING_GATE",
+      "lane_order": 29,
+      "path": "lanes/29_TIMING_GATE.json",
+      "sha256": "678c3dedb4b00d552f210b6056f71e541ada314c5951c31330cc614bb99d5c08",
+      "status": "LOCAL_HOLD_NO_DIRECT_LAYER_SOURCE"
+    }
+  ],
+  "lane_order": [
+    "INDEX",
+    "RASHI_SOURCE",
+    "BHAVA_SOURCE",
+    "FIRST_INTEGRATION",
+    "COPRESENCE",
+    "PUSHKARA",
+    "UPAGRAHA",
+    "SPIRIT_CHALIT",
+    "MOON_CHART",
+    "ARUDHA",
+    "SHADBALA_A",
+    "SHADBALA_R",
+    "BHAVA_BALA",
+    "VIMSOPAKA",
+    "MRITYU",
+    "SPOTHER",
+    "AVA",
+    "BHINNA_MATRIX",
+    "PLANET_ASPECT",
+    "SAP",
+    "TKS",
+    "EKS",
+    "SPD",
+    "VARGA_LINK_MINI",
+    "VARGA_LINK_FULL",
+    "ASPECT02",
+    "ASPECT03",
+    "DASHA",
+    "TIMING_GATE"
+  ],
+  "physical_3p": {
+    "active_lane": false,
+    "artifact": "e5_3p_void.jsonl",
+    "count": 20,
+    "members": [
+      {
+        "active_lane": false,
+        "dchart": "D1",
+        "member_id": "D1-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D9",
+        "member_id": "D9-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D2",
+        "member_id": "D2-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D3",
+        "member_id": "D3-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D4",
+        "member_id": "D4-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D5",
+        "member_id": "D5-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D6",
+        "member_id": "D6-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D7",
+        "member_id": "D7-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D8",
+        "member_id": "D8-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D10",
+        "member_id": "D10-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D11",
+        "member_id": "D11-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D12",
+        "member_id": "D12-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D16",
+        "member_id": "D16-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D20",
+        "member_id": "D20-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D24",
+        "member_id": "D24-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D27",
+        "member_id": "D27-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D30",
+        "member_id": "D30-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D40",
+        "member_id": "D40-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D45",
+        "member_id": "D45-3P",
+        "state": "VOID"
+      },
+      {
+        "active_lane": false,
+        "dchart": "D60",
+        "member_id": "D60-3P",
+        "state": "VOID"
+      }
+    ],
+    "policy": "PRESERVE_AS_VOID_NEVER_COUNT_AS_LANE_30",
+    "state": "VOID"
+  },
+  "production_started": true,
+  "run_id": "91b877555ed7c2b190429e1534b74e059cd35f4e039d2ae4c1efef2361472d68",
+  "schema_version": "KANI_V9_E5_OVERLAY_V1",
+  "source": {
+    "admission": {
+      "errors": [],
+      "policy": {
+        "cutoff_inclusive": true,
+        "cutoff_kst": "2026-08-09T00:00:00+09:00",
+        "cutoff_utc": "2026-08-08T15:00:00Z",
+        "logic": "SC_VERIFIED_OR_CREATED_AT_CUTOFF",
+        "modified_at_fallback": "FORBIDDEN"
+      },
+      "source_fields": {
+        "admission_basis": "CREATED_ON_OR_AFTER_2026_08_09_KST",
+        "created_at": "2026-08-29T23:31:09.383283Z",
+        "created_at_source": "ChatGPT Library provider-native file metadata; library_file_id=libfile_b1be31327dc08191ab77fe887bae2d25; field=created_at",
+        "name_or_path": "/workspace/scratch/89b1d7d63d40/library_sources/e5_admitted/HYEWON_VAS26_D1-D60_E5_SOURCE_20260829.txt",
+        "sc_verification_basis": "NOT_SC",
+        "sc_verified": false
+      },
+      "status": "ADMITTED"
+    },
+    "authority": "USER_SELECTED_DIRECT_SOURCE_WINDOW",
+    "bytes": 201915,
+    "expected_sha256": "3e716d8435801e77872697798ae45456b4533c110821c6c77b02003b6fa745ef",
+    "input_ingest_path": "/workspace/scratch/89b1d7d63d40/library_sources/e5_admitted/HYEWON_VAS26_D1-D60_E5_SOURCE_20260829.txt",
+    "novelty_vs_pikachu_e4": {
+      "boundary": "NEW_LIBRARY_ID_OR_CREATED_AT_ALONE_IS_NOT_CONTENT_NOVELTY_EVIDENCE",
+      "conclusion": "UNUSED_IN_PRIOR_PIKACHU20D_AND_E4_EXACT_EVIDENCE_SCOPE",
+      "exact_body_matches": [],
+      "exact_hash_matches": [],
+      "hash_token_matches": [],
+      "scanned_files": 47,
+      "scanned_zip_members": 39,
+      "scope": "EXACT_DATASET_SHA_BODY_TITLE_VS_LOCKED_PRIOR_KANI_PIKACHU_E4_EVIDENCE",
+      "searched_roots": [
+        "/root/.codex/skills/clone-kani/references/v9_baseline",
+        "/root/.codex/skills/clone-kani/references/v9_blind_replay",
+        "/root/.codex/skills/clone-kani/references/source_window_originals",
+        "/root/.codex/skills/clone-kani/assets/clone-kk2-certified-v7p2/references"
+      ],
+      "source_sha256": "3e716d8435801e77872697798ae45456b4533c110821c6c77b02003b6fa745ef",
+      "stable_title_token": "HYEWON_2026_VAS_RASHI_BHAVA_D1-D60",
+      "status": "PASS",
+      "title_matches": []
+    },
+    "path": "/workspace/scratch/89b1d7d63d40/library_sources/e5_admitted/HYEWON_VAS26_D1-D60_E5_SOURCE_20260829.txt",
+    "provenance": {
+      "admitted_carrier_source_id": "libfile_b1be31327dc08191ab77fe887bae2d25",
+      "carrier_source_sha256": "3e716d8435801e77872697798ae45456b4533c110821c6c77b02003b6fa745ef",
+      "copy_relation": "BYTE_IDENTICAL_COPY",
+      "evidence_dedupe": "ORIGINAL_AND_CARRIER_ARE_ONE_BYTE_IDENTICAL_CONTENT_EVIDENCE",
+      "freshness_boundary": "CARRIER_CREATED_AT_IS_ADMISSION_METADATA_NOT_CONTENT_FRESHNESS_EVIDENCE",
+      "library_file_id": "libfile_b1be31327dc08191ab77fe887bae2d25",
+      "model_generated_provider_copy": true,
+      "parent_copy_byte_identical": true,
+      "parent_source_path": "/workspace/scratch/89b1d7d63d40/library_sources/e5_candidates/HYEWON_VAS26_D1-D60_♤(3).txt",
+      "parent_source_sha256": "3e716d8435801e77872697798ae45456b4533c110821c6c77b02003b6fa745ef",
+      "provider_file_id": "file_000000004208820693721dc258f9eff0",
+      "provider_metadata_note": "Byte-identical carrier object; created_at proves carrier admission only, not content freshness",
+      "provider_native_created_at": "2026-08-29T23:31:09.383283Z",
+      "selected_original_created_at": "2026-07-05T04:47:56.596423Z",
+      "selected_original_source_id": "libfile_4d1ad8f229788191851b75e64f3dd9fa"
+    },
+    "sha256": "3e716d8435801e77872697798ae45456b4533c110821c6c77b02003b6fa745ef",
+    "source_id": "CHATGPT_LIBRARY:libfile_b1be31327dc08191ab77fe887bae2d25",
+    "source_window_snapshot": {
+      "bytes": 201915,
+      "execution_authority": "SOURCE_WINDOW_PRIMARY_REOPEN",
+      "path": "source_snapshot.txt",
+      "sha256": "3e716d8435801e77872697798ae45456b4533c110821c6c77b02003b6fa745ef"
+    }
+  },
+  "source_parse": {
+    "bhava_blocks": 20,
+    "block_hashes": {
+      "D1": {
+        "BHAVA": "ffec6752ee29b9bd53f44752d544dd867109f38122d63133b2437be73c9e73d6",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "f4494055f325707b4325124c753e5a8e6363554c8b5c9d5577b3260f0e4b48d3"
+      },
+      "D10": {
+        "BHAVA": "a17a9a7a1dee0695681ec790299d8a16098314f79b85c5a03e7a206a2445ba15",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "141eafe78ebe703c66cec1cf37f8429d369001cfe9412cbe17ce34f3562526d1"
+      },
+      "D11": {
+        "BHAVA": "3141ea4a64d734f68ce81aa8efaf2ce6787fb2c7762a2a1b570ac7a5c17cd2f3",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "efc758769c5daed8905847cb2e3df9010411277904a2def577339a992750d597"
+      },
+      "D12": {
+        "BHAVA": "347ac417b355844e4ddb3648092fea6ff8a4d6f11e529a5dcc0bdee1d6b60406",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "f3ce8405b27ba46405667863517b6af757dd270b7935381e76cd51e64deecbe4"
+      },
+      "D16": {
+        "BHAVA": "1e555c567e0e5d3ebfa6a648646db5b03768cfb3005f37eba1fdb41057412377",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "d84cd29f765597e36ebdfb3c780e1289ac3458e45aee8a2bb1348400b970d548"
+      },
+      "D2": {
+        "BHAVA": "138835670712236b62f30cb746e0341c3a811e45fd8e8c548a8486d0121937be",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "6f052c41e82907125f059e161e6a825b6b0dced2b556304022321b4bc8b1d244"
+      },
+      "D20": {
+        "BHAVA": "b2806eb2f0a4931053feecf8bf7a973e106f6eb6b729e6d5d2a9a8a20905b288",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "78c7e368f3e9c621ef228983b490357903049e3163ba988bb0910fd4705c9913"
+      },
+      "D24": {
+        "BHAVA": "07d7da6ba6e82cff78d38f6340d5969dad994a0a1e1cf037b6299ceba8879d3b",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "f1504bc5618f318b3cb48840fc7dc9c75232a9f70f1c3df580b98c3aa5716d6a"
+      },
+      "D27": {
+        "BHAVA": "2050728504095265d28f9238d97cf9d61814d36c1ad80dbdaf000870fb44301b",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "9393c1422c2eef5044f6388b751117931baec95801b1b7146bede5a803606f4c"
+      },
+      "D3": {
+        "BHAVA": "2d20aac781f488098034ca2cd547b016edbf212bcaaa54783016451464e3621e",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "cada03b757d20d27d27639f3f512d98c53aa8eaab6b4b7122ce2cf4a2ad15642"
+      },
+      "D30": {
+        "BHAVA": "e2edea739d8565f6dfec68ef1803e624604c44a06c504270ffaf9b4eec179e65",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "d1aed15229624d040de8c03f784848160fb1d4846701eb814bc9f57befef69dc"
+      },
+      "D4": {
+        "BHAVA": "3958e08e24208ac8d1c138957a06edb41595756c7b532f6fb24061a57afb8d2e",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "4883023cb2a2bf9bc82cd9c701c56127893e6250faf9df474dcdf6aed9ba8529"
+      },
+      "D40": {
+        "BHAVA": "b131c5669c6974575b7a6051215fe14f6a9dcd46374167a0e3dd6834d18c5fbd",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "f2773e775b38db60af2b66039852978d13bddaa624b59ae7cec458591743b8bb"
+      },
+      "D45": {
+        "BHAVA": "d296327e5c535de239e27421082cc576348c63317389efe20cc04eefe53fcdc1",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "74b22eecbade80ae70a77a66074df24e5655245f8965d88ac58080733be12a79"
+      },
+      "D5": {
+        "BHAVA": "4f0b868367225a0c4e84f44ef70b859e244723873f99586bbc57eeacdd7f1d7d",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "8c21eb59393e55da11680641b63c768fe083a501dbd4ea4d7967e24feecfd294"
+      },
+      "D6": {
+        "BHAVA": "447167c9c252d46bb427528778aab748e6f5d972061ad6a1f09d46c19d74c35d",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "dd64002120e8e92e35ba8209ea4bd5e45f62728bf2945c807bef6d4ec34e1760"
+      },
+      "D60": {
+        "BHAVA": "87edff0668d81efafd369d6c8ea66a3e096151a19f62e428beb6d9c09d132648",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "f3b81c2d448bddd9391e7d29451186a4a5934d95a25f3b43710b37754144fd62"
+      },
+      "D7": {
+        "BHAVA": "ea3a142eb0dbbc8a83aace3f618d81425c9d3ed5df6e541a0d37b2296dce5c39",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "fc5018d1536d22a076042816398e6167bb0f028095a20ce989fd11dbf3c0431a"
+      },
+      "D8": {
+        "BHAVA": "a6431efdc53f59a1ef592382f6503e6cf0d93f1b6fa3581c5c988b353650b87b",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "ab605a93f66ea89d3b838ad3902e7af5591d8a3aa907015274109723ed5ae1e4"
+      },
+      "D9": {
+        "BHAVA": "e38725b4ca216dcbe9f297b09afea46eacc2c93027782d588b7b82eec55b668e",
+        "DASHA": "ed08c11ed4a3f5fb91190a6d24f7802a3313375752248b447432cb92351b12d9",
+        "RASHI": "7db6f3ce7ed1f0d1ef67f66bf8eadd04affe044227ca58c457a68489549cc5da"
+      }
+    },
+    "dcharts": [
+      "D1",
+      "D9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D10",
+      "D11",
+      "D12",
+      "D16",
+      "D20",
+      "D24",
+      "D27",
+      "D30",
+      "D40",
+      "D45",
+      "D60"
+    ],
+    "mudda_dasha_pairs": 20,
+    "pair_count": 20,
+    "rashi_blocks": 20,
+    "runtime_record_order": [
+      "D1",
+      "D9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D10",
+      "D11",
+      "D12",
+      "D16",
+      "D20",
+      "D24",
+      "D27",
+      "D30",
+      "D40",
+      "D45",
+      "D60"
+    ],
+    "source_section_order": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12",
+      "D16",
+      "D20",
+      "D24",
+      "D27",
+      "D30",
+      "D40",
+      "D45",
+      "D60"
+    ],
+    "status": "PASS"
+  },
+  "status": "PASS",
+  "subgates": {
+    "MATERIALIZATION": "PASS",
+    "SOURCE_NOVELTY": "PASS",
+    "VALUE_COMPLETENESS": "HOLD_LOCAL_25_UNSUPPORTED_LANES"
+  }
+}

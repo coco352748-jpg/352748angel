@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "conflict_hold_point_non_none": 118,
+    "empty_house_lord_route": 102,
+    "exact_replay": 240,
+    "occupied_route": 138,
+    "records": 240
+  },
+  "failures": [],
+  "golden_D6_H05": "PASS",
+  "independent_ledger": {
+    "bytes": 79536,
+    "records": 240,
+    "sha256": "508613c4cf3fbf8641782a1c8885d0f8d576228c4e192c2a2fa0085c2666f023"
+  },
+  "live_source_readback": "PASS",
+  "producer_imported": false,
+  "schema_version": "KANI_V10_INDEPENDENT_REPLAY_REPORT_V1",
+  "status": "PASS",
+  "template_sha256": "13a389830befa4c66c15bcb645c7487943afa0cd973afe9e9cd0406f3be99f6b"
+}

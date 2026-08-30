@@ -1,0 +1,144 @@
+{
+  "pass_count": 9,
+  "schema_version": "KANI_V10_E6_REOPEN_OVERLAY_V1",
+  "status": "PASS_9_OF_9",
+  "test_count": 9,
+  "tests": [
+    {
+      "evidence": [
+        "V10-E5-VAS27-0001",
+        "V10-E5-VAS27-0002",
+        "V10-E5-VAS27-0003",
+        "V10-E5-VAS27-0004",
+        "V10-E5-VAS27-0005"
+      ],
+      "expected": "ALL_D1_RECORDS_SELECT_D1_ROOT_REJECT_TARGET_DCHART",
+      "observed": {
+        "records": 5,
+        "rejected": "TARGET_DCHART",
+        "selected": "D1_ROOT"
+      },
+      "status": "PASS",
+      "test_id": "DIRECT_D1_ROOT_DISPATCH"
+    },
+    {
+      "evidence": [
+        "V10-E5-VAS27-0044",
+        "V10-E5-VAS27-0045",
+        "V10-E5-VAS27-0046",
+        "V10-E5-VAS27-0047",
+        "V10-E5-VAS27-0048",
+        "V10-E5-VAS27-0049",
+        "V10-E5-VAS27-0050",
+        "V10-E5-VAS27-0051",
+        "V10-E5-VAS27-0052"
+      ],
+      "expected": "ALL_NON_D1_RECORDS_SELECT_TARGET_DCHART_REJECT_D1_ROOT_SINGLE_GRAMMAR",
+      "observed": {
+        "records": 109,
+        "rejected": "D1_ROOT_SINGLE_GRAMMAR",
+        "selected": "TARGET_DCHART"
+      },
+      "status": "PASS",
+      "test_id": "DIRECT_TARGET_DCHART_DISPATCH"
+    },
+    {
+      "evidence": [
+        "V10-E5-VAS27-0109",
+        "V10-E5-VAS27-0110",
+        "V10-E5-VAS27-0111",
+        "V10-E5-VAS27-0112",
+        "V10-E5-VAS27-0113",
+        "V10-E5-VAS27-0114"
+      ],
+      "expected": "D60_RETAINS_TARGET_DCHART_BOUNDARY",
+      "observed": {
+        "records": 6,
+        "selected": "TARGET_DCHART"
+      },
+      "status": "PASS",
+      "test_id": "BOUNDARY_TARGET_DCHART_D60"
+    },
+    {
+      "evidence": [
+        "e5_decision_ledger.jsonl#dataset.view",
+        "e5_decision_ledger.jsonl#judgment_route"
+      ],
+      "expected": "64_RASHI_PLUS_50_BHAVA_DISTINCT_ROUTE_KEYS_NO_VIEW_OVERWRITE",
+      "observed": {
+        "bhava_records": 50,
+        "rashi_records": 64,
+        "unique_route_keys": 114
+      },
+      "status": "PASS",
+      "test_id": "RASHI_BHAVA_SEPARATION"
+    },
+    {
+      "evidence": [
+        "references/v10_runtime/router_run/router_records.jsonl",
+        "references/v10_runtime/independent_router_report.json"
+      ],
+      "expected": "240_CALIBRATION_RECORDS_KEEP_OCCUPANT_AND_HOUSE_LORD_AS_DISTINCT_FIELDS",
+      "observed": {
+        "independent_report": "PASS",
+        "records": 240
+      },
+      "status": "PASS",
+      "test_id": "OCCUPANT_LORD_FIELD_BOUNDARY"
+    },
+    {
+      "evidence": [
+        "KANI-V10-D6-H05",
+        "references/v10_runtime/independent_router_report.json#golden_D6_H05"
+      ],
+      "expected": "D6_H05_EMPTY_SELECTS_HOUSE_LORD_MARS_AND_REJECTS_OCCUPANT_ROUTE",
+      "observed": {
+        "house_lord": "Mars",
+        "occupants": "EMPTY",
+        "rejected": "OCCUPANT_ROUTE",
+        "selected": "HOUSE_LORD_ROUTE"
+      },
+      "status": "PASS",
+      "test_id": "EMPTY_HOUSE_LORD_ROUTE"
+    },
+    {
+      "evidence": [
+        "e5_decision_ledger.jsonl#dataset.member_display",
+        "e5_decision_ledger.jsonl#judgment_route.degree_policy"
+      ],
+      "expected": "RASHI_ASCENDING_VISIBLE_DEGREES__BHAVA_VISIBLE_ORDER_WITHOUT_DEGREE_INFERENCE",
+      "observed": {
+        "bhava_no_degree_order": 50,
+        "rashi_degree_order": 64
+      },
+      "status": "PASS",
+      "test_id": "RASHI_DEGREE_ORDER_BHAVA_NO_DEGREE_ORDER"
+    },
+    {
+      "evidence": [
+        "HYEWON_VAS27_D1-D60_♤.txt#40_SOURCE_WRAPPERS",
+        "e5_manifest.json#counts.single_fields_excluded"
+      ],
+      "expected": "165_SINGLE_FIELDS_EXCLUDED_AND_ZERO_SINGLETON_COPRESENCE_RECORDS",
+      "observed": {
+        "copresence_records": 114,
+        "single_fields_excluded": 165
+      },
+      "status": "PASS",
+      "test_id": "SINGLE_FIELD_NOT_PROMOTED_TO_COPRESENCE"
+    },
+    {
+      "evidence": [
+        "e6_replay_ledger.jsonl",
+        "HEAWON_VAS27_CO2_99_♤.txt#114_CO_FIELD_2.5_STAGE_SENTENCES"
+      ],
+      "expected": "114_OF_114_DATASET_TO_JUDGMENT_ROUTE_TO_PIKACHU_SENTENCE_EXACT_REPLAY",
+      "observed": {
+        "exact_replay": 114,
+        "records": 114
+      },
+      "status": "PASS",
+      "test_id": "DATASET_TO_JUDGMENT_TO_PIKACHU_EXACT_REPLAY"
+    }
+  ]
+}

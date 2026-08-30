@@ -1,0 +1,55 @@
+{
+  "checks": {
+    "code_and_source_line_locations": "PASS",
+    "dataset_to_judgment_to_pikachu_exact_replay": "PASS",
+    "handoff_target": "PASS",
+    "manifest_and_hashes": "PASS",
+    "record_id_and_required_fields": "PASS",
+    "reinput_result": "PASS",
+    "selected_and_rejected_route": "PASS",
+    "why_revision_qa": "PASS"
+  },
+  "counts": {
+    "bhava_records": 50,
+    "expected_exact_sentence_replays": 114,
+    "rashi_records": 64,
+    "stored_records": 114,
+    "total_derived_records": 114
+  },
+  "e5_status": "PASS_EXECUTION_EVIDENCE_114_OF_114",
+  "errors": [],
+  "final_pass": "HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE",
+  "ledger_sha256": "aef92a552a3e32938e4376cd05ef820184b38b53c8d4a3b585b4c88e6ff2b743",
+  "oracle_policy": {
+    "expected_file_role": "HASH_LOCKED_REPLAY_ORACLE_NOT_RENDER_INPUT",
+    "expected_opened_after_independent_render": true,
+    "producer_imported": false,
+    "rendered_before_oracle_sha256": "0509c1b63cb1b58550292d823d580283b525c047e6d9b6f7f5751f3e00ca51ac",
+    "trace": [
+      "ROUTER_LOCKED",
+      "INDEPENDENT_114_SENTENCE_RENDER_COMPLETE",
+      "EXPECTED_CO2_ORACLE_OPENED_POST_RENDER",
+      "SIX_FILE_SOURCE_REGISTRY_REOPENED_AND_HASH_VERIFIED",
+      "DATASET_JUDGMENT_PIKACHU_REPLAY_114_OF_114",
+      "STORED_LEDGER_AND_MANIFEST_COMPARED"
+    ]
+  },
+  "required_evidence": [
+    "record_id",
+    "code_location",
+    "source_line_locations",
+    "selected_route",
+    "rejected_route",
+    "why_revision_qa",
+    "reinput_result",
+    "handoff_target",
+    "pikachu_sentence"
+  ],
+  "router_sha256": "6fb9e2c7440efe5ef2457d66b982a7e28eec1bd2c35043d39fb3cb6eaaf8e156",
+  "schema_version": "KANI_V10_E5_INDEPENDENT_VALIDATION_V1",
+  "second_restore": "EVIDENCE_REVIEW",
+  "source_dataset_sha256": "7cc9446f74d6130eec2c32e9ea723849d84a6a2070a1556d7954b69d06e0cddb",
+  "status": "PASS",
+  "v10": "EXPECTED_VALUE_BOUND",
+  "validated_run_id": "d70b2cce52c31011d5bb12f1a7fbeb9452a33a4357e57c941c8abe7ce0fa8948"
+}

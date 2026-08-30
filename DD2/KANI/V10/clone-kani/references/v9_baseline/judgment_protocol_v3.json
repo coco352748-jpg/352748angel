@@ -1,0 +1,105 @@
+{
+  "authority": {
+    "direct_decision_edges": 5,
+    "replay_bundle_id": "cdcbaadf163c3696992354c0d77657b570cd17ceeac7fde235ff83cff18ed1dc",
+    "source_roles": [
+      "USER_CURRENT",
+      "TAB03_DIRECT",
+      "PIKACHU_580"
+    ]
+  },
+  "correction_policy": {
+    "failed_scope": "LOCAL_ONLY",
+    "global_reset": "FORBIDDEN",
+    "lower_stage_restart": "VOID",
+    "passed_artifact_retention": "REQUIRED"
+  },
+  "decision_edges": [
+    {
+      "edge_id": "E4-ROUTE-FAMILY",
+      "qa_gate": "FAMILY_SPECIFIC_SOURCE_BOARD_AND_LAYER_GRAMMAR",
+      "rejected_route": "ONE_TARGET_D_GRAMMAR_FOR_ALL_DCHARTS",
+      "selected_route": "D1_ROOT_OR_TARGET_DCHART",
+      "trigger": "DCHART_SELECTED"
+    },
+    {
+      "edge_id": "E4-FIELD-SEPARATION",
+      "qa_gate": "DIRECT_OBJECT_TO_HOUSE_MAP",
+      "rejected_route": "APPEND_HOUSE_LORD_TO_OCCUPANTS",
+      "selected_route": "PARSE_OCCUPANT_AND_HOUSE_LORD_FIELDS_SEPARATELY",
+      "trigger": "SOURCE_BOARD_FIELD_PARSE"
+    },
+    {
+      "edge_id": "TAB03-R-TO-A",
+      "qa_gate": "FIFTEEN_POINT_FILE_QA",
+      "rejected_route": "TREAT_R_AS_FINAL",
+      "selected_route": "APPLY_WORK_INSTRUCTION_AND_VALIDATE_TO_A",
+      "trigger": "R_STAGE_SOURCE_APPLIED_OR_PREPARED"
+    },
+    {
+      "edge_id": "TAB03-LAYER-BOUNDARY",
+      "qa_gate": "NO_OVERWRITE_AND_DIRECT_FILENAME_LOCK",
+      "rejected_route": "RECALCULATE_OR_OVERWRITE_PRIOR_LAYER",
+      "selected_route": "REFERENCE_PRIOR_A_AND_RUN_CURRENT_ROLE_ONLY",
+      "trigger": "NEXT_LAYER_EXECUTION"
+    },
+    {
+      "edge_id": "TAB03-SOURCE-HOLD",
+      "qa_gate": "NO_SOURCELESS_VALUE_AND_EMPTY_CHECK",
+      "rejected_route": "INFER_HIDDEN_VALUE_OR_TREAT_EMPTY_AS_OCCUPANT",
+      "selected_route": "NOT_SHOWN_HOLD_NOT_APPLICABLE_OR_LORD_PRIMARY",
+      "trigger": "SOURCE_HIDDEN_MISSING_OR_EMPTY"
+    },
+    {
+      "edge_id": "TAB03-WORK-INSTRUCTION-BUILD",
+      "qa_gate": "MANDATORY_FIELD_COMPLETENESS",
+      "rejected_route": "VAGUE_PRIOR_LAYER_REFERENCE_OR_INTERPRETIVE_PROSE",
+      "selected_route": "BUILD_EXECUTABLE_BLUEPRINT_WITH_DIRECT_HANDOFF",
+      "trigger": "WORK_INSTRUCTION_BUILD"
+    },
+    {
+      "edge_id": "TAB03-TIMING-GATE",
+      "qa_gate": "DIRECT_SOURCE_MATCH_AND_NO_EVENT_CLAIM",
+      "rejected_route": "WRITE_EVENT_CONCLUSION",
+      "selected_route": "CHECK_ASPECT_ACTIVATION_AGAINST_DASHA_TIME_WINDOW",
+      "trigger": "ASPECT03_A_AND_DASHA_A_AVAILABLE"
+    }
+  ],
+  "production_topology": {
+    "active_lanes_per_dchart": 29,
+    "active_pairs": 580,
+    "dcharts": 20,
+    "physical_members": 600,
+    "void_3p": 20
+  },
+  "replay_acceptance": {
+    "active_bodies_hash_verified": 145,
+    "candidate_sha256": "a0791f8cc2bc8fbcb2b406f61834e16b6437e848eff85c6cccce4da8c327ec50",
+    "check_ledger_sha256": "3947ba3775479d19fd6e730775a9ae75a1317dde9ebdd03396ad595512675311",
+    "checks_failed": 0,
+    "checks_passed": 2465,
+    "evidence_level": "E4_HELD_OUT_BLIND_REPLAY",
+    "replay_cases": [
+      "D1",
+      "D27",
+      "D16",
+      "D24",
+      "D45"
+    ],
+    "state": "PASS"
+  },
+  "route_dispatch": {
+    "D1": "D1_ROOT",
+    "D2_TO_D60": "TARGET_DCHART"
+  },
+  "schema_version": "KANI_JUDGMENT_PROTOCOL_V3",
+  "state_axes": {
+    "blind_replay": "PASS",
+    "causal_decision_rules": "PASS",
+    "final_user_promotion": "HOLD",
+    "first_unexecuted_job": "RUN_NEW_DATASET_PRODUCTION",
+    "long_drift": "HOLD_UNEXECUTED",
+    "new_dataset_production": "HOLD_UNEXECUTED",
+    "structural_runtime": "PASS"
+  }
+}

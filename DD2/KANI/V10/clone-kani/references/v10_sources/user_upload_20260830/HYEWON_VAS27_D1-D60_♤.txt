@@ -1,0 +1,4414 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_2027_VAS_RASHI_BHAVA_D1-D60_♤ – CHART_PLAIN_SOURCE_PAIR_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source Family Note
+- File Type = VARSHAPHALA_TAJAKA_2027_RASHI_BHAVA_CHART_PLAIN_SOURCE_PAIR_FILE
+- Subject Code = HYEWON
+- Source App = Blue app
+- Source Year = 2027
+- Source Basis = HYEWON_VAS27_RASHI_D1-D60.txt + HYEWON_VAS27_BHAVA_D1-D60.txt
+- Scope = VAS 2027 annual Rashi source blocks + Bhava Equal Houses source blocks
+- Included Layers = Rashi source block / Bhava source block
+- Pairing Rule = same D-chart number Rashi then Bhava
+- Co-presence Field = NOT INCLUDED
+- Interpretation Layer = NOT INCLUDED
+- Derived Layer = NOT INCLUDED
+- Aspect / Drishti = NOT INCLUDED
+- Bala / Ashtakavarga / Bhinna = NOT INCLUDED
+- Arudha / SPother / Ava / KP / Moon Chart / Transit = NOT INCLUDED
+- Source Layer Separation = PRESERVED
+- Original Dataset Bodies = PRESERVED UNCHANGED
+
+Operational Boundary Note
+- 이 파일은 원본차트 플레인 세트 파일이다.
+- Rashi와 Bhava가 같은 D번호 아래에 붙어 있어도, 해석 자동 혼합을 의미하지 않는다.
+- 별도 요청이 없는 한, 해석은 사용자가 지시한 해당 차트·해당 레이어·해당 연도 내부로만 제한한다.
+- Rashi-only 해석은 Rashi 원본 내부에서 완성할 수 있고, Bhava는 사용자가 요청할 때만 선택 검산층으로 붙인다.
+- Bhava-only 해석은 Bhava 원본 내부에서 수행하고, Rashi는 사용자가 요청할 때만 선택 검산층으로 붙인다.
+
+Working D-list
+- D1 / D2 / D3 / D4 / D5 / D6 / D7 / D8 / D9 / D10 / D11 / D12 / D16 / D20 / D24 / D27 / D30 / D40 / D45 / D60
+
+Search Tags
+- [D1 SET] [D2 SET] [D3 SET] [D4 SET] [D5 SET] [D6 SET] [D7 SET] [D8 SET] [D9 SET] [D10 SET] [D11 SET] [D12 SET] [D16 SET] [D20 SET] [D24 SET] [D27 SET] [D30 SET] [D40 SET] [D45 SET] [D60 SET]
+- [D1 RASHI SOURCE] [D1 BHAVA SOURCE]
+- [D2 RASHI SOURCE] [D2 BHAVA SOURCE]
+- [D3 RASHI SOURCE] [D3 BHAVA SOURCE]
+- [D4 RASHI SOURCE] [D4 BHAVA SOURCE]
+- [D5 RASHI SOURCE] [D5 BHAVA SOURCE]
+- [D6 RASHI SOURCE] [D6 BHAVA SOURCE]
+- [D7 RASHI SOURCE] [D7 BHAVA SOURCE]
+- [D8 RASHI SOURCE] [D8 BHAVA SOURCE]
+- [D9 RASHI SOURCE] [D9 BHAVA SOURCE]
+- [D10 RASHI SOURCE] [D10 BHAVA SOURCE]
+- [D11 RASHI SOURCE] [D11 BHAVA SOURCE]
+- [D12 RASHI SOURCE] [D12 BHAVA SOURCE]
+- [D16 RASHI SOURCE] [D16 BHAVA SOURCE]
+- [D20 RASHI SOURCE] [D20 BHAVA SOURCE]
+- [D24 RASHI SOURCE] [D24 BHAVA SOURCE]
+- [D27 RASHI SOURCE] [D27 BHAVA SOURCE]
+- [D30 RASHI SOURCE] [D30 BHAVA SOURCE]
+- [D40 RASHI SOURCE] [D40 BHAVA SOURCE]
+- [D45 RASHI SOURCE] [D45 BHAVA SOURCE]
+- [D60 RASHI SOURCE] [D60 BHAVA SOURCE]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTENT START
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D1 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D1 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_D1_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Rashi
+- Select Chart Type = Rashi (D-1)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi D1 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal D1 and transit layers
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Rashi (D-1)
+
+Dataset Scope
+- Visible annual Rashi D1 wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = Sa(R) 2:48
+- Upper-Center Sector = empty / no visible planet
+- Upper-Right Sector = empty / no visible planet
+- Left-Middle Sector = Ra(R) 15:15
+- Right-Middle Sector = Ke(R) 15:15
+- Right-Lower-Middle Sector = Mu 13:55 / Ju(C) 15:33 / Su 22:50
+- Lower-Left Sector = Mo 17:31
+- Lower-Middle Sector = Ma 10:58
+- Lower-Right Sector = Ve(C) 0:46 / Me 15:23 / As 26:34
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Rashi (D-1)
+- Lagna — Degree 26:34:25 / Rashi Kanya / Nakshatra Chitta / Paada 1 / RL Me / NL Ma / SL Ju / SSL Sa
+- Sun (AK) — Degree 22:50:09 / Rashi Simha / Nakshatra P.Phalguni / Paada 3 / RL Su / NL Ve / SL Sa / SSL Ve
+- Moon (AmK) — Degree 17:31:59 / Rashi Dhanus / Nakshatra P.Ashadha / Paada 2 / RL Ju / NL Ve / SL Ma / SSL Ju
+- Mars (PK) — Degree 10:58:37 / Rashi Thula / Nakshatra Swati / Paada 2 / RL Ve / NL Ra / SL Sa / SSL Me
+- Mercury (MK) — Degree 15:23:10 / Rashi Kanya / Nakshatra Hasta / Paada 2 / RL Me / NL Mo / SL Ju / SSL Ma
+- Jupiter (C)(BK) — Degree 15:33:16 / Rashi Simha / Nakshatra P.Phalguni / Paada 1 / RL Su / NL Ve / SL Ve / SSL Ke
+- Venus (C)(DK) — Degree 0:46:11 / Rashi Kanya / Nakshatra U.Phalguni / Paada 2 / RL Me / NL Su / SL Ra / SSL Ve
+- Saturn (R)(GK) — Degree 2:48:35 / Rashi Mesha / Nakshatra Ashwini / Paada 1 / RL Ma / NL Ke / SL Ve / SSL Me
+- Rahu (R) — Degree 15:15:10 / Rashi Makara / Nakshatra Shravana / Paada 2 / RL Sa / NL Mo / SL Ju / SSL Mo
+- Ketu (R) — Degree 15:15:10 / Rashi Kataka / Nakshatra Pushyami / Paada 4 / RL Mo / NL Sa / SL Ju / SSL Sa
+- Uranus — Degree 15:41:43 / Rashi Vrishabha / Nakshatra Rohini / Paada 2 / RL Ve / NL Mo / SL Sa / SSL Sa
+- Neptune (R) — Degree 11:29:32 / Rashi Meena / Nakshatra U.Bhadrapada / Paada 3 / RL Ju / NL Sa / SL Mo / SSL Sa
+- Pluto (R) — Degree 10:49:33 / Rashi Makara / Nakshatra Shravana / Paada 1 / RL Sa / NL Mo / SL Mo / SSL Ke
+- Muntha (Mu) — Degree 13:55:35 / Rashi Simha / Nakshatra P.Phalguni / Paada 1 / RL Su / NL Ve / SL Ve / SSL Mo
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_D1_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI_D1 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D1 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_D1_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Rashi (D-1)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / D1 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Rashi and natal Bhava layers
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Rashi (D-1)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = Sa(R)
+- Upper-Center Sector = empty / no visible planet
+- Upper-Right Sector = Ke(R)
+- Left-Middle Sector = Ra(R)
+- Right-Middle Sector = Su Ju Ve Mu
+- Lower-Left Sector = Mo
+- Lower-Center Sector = empty / no visible planet
+- Lower-Right Sector = As Ma Me
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 11:34:25 (Kanya - Hasta) / Bhava Cusp 26:34:25 (Kanya - Chitta)
+- 2H — Bhava Start 11:34:25 (Thula - Swati) / Bhava Cusp 26:34:25 (Thula - Vishakha)
+- 3H — Bhava Start 11:34:25 (Vrischika - Anuradha) / Bhava Cusp 26:34:25 (Vrischika - Jyeshta)
+- 4H — Bhava Start 11:34:25 (Dhanus - Moola) / Bhava Cusp 26:34:25 (Dhanus - P.Ashadha)
+- 5H — Bhava Start 11:34:25 (Makara - Shravana) / Bhava Cusp 26:34:25 (Makara - Dhanishta)
+- 6H — Bhava Start 11:34:25 (Kumbha - Shatabhisha) / Bhava Cusp 26:34:25 (Kumbha - P.Bhadrapada)
+- 7H — Bhava Start 11:34:25 (Meena - U.Bhadrapada) / Bhava Cusp 26:34:25 (Meena - Revati)
+- 8H — Bhava Start 11:34:25 (Mesha - Ashwini) / Bhava Cusp 26:34:25 (Mesha - Bharani)
+- 9H — Bhava Start 11:34:25 (Vrishabha - Rohini) / Bhava Cusp 26:34:25 (Vrishabha - Mrigashira)
+- 10H — Bhava Start 11:34:25 (Mithuna - Aridra) / Bhava Cusp 26:34:25 (Mithuna - Punarvasu)
+- 11H — Bhava Start 11:34:25 (Kataka - Pushyami) / Bhava Cusp 26:34:25 (Kataka - Ashlesha)
+- 12H — Bhava Start 11:34:25 (Simha - Makha) / Bhava Cusp 26:34:25 (Simha - P.Phalguni)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_D1_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES_D1 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D2 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D2 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_HORA_D2_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Others
+- Select Chart Type = Hora (D-2)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Hora_D2 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Hora_D2 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Hora (D-2)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = empty / no visible planet
+- Upper-Center Sector = empty / no visible planet
+- Upper-Right Sector = empty / no visible planet
+- Left-Middle Sector = empty / no visible planet
+- Right-Middle Sector = Su Mo Ju Ve
+- Right-Lower-Middle Sector = As Ma Me Sa(R) Ra(R) Ke(R)
+- Lower-Left Sector = empty / no visible planet
+- Lower-Middle Sector = empty / no visible planet
+- Lower-Right Sector = empty / no visible planet
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Hora (D-2)
+- Lagna — Degree 23:08:50 / Rashi Simha / Nakshatra P.Phalguni / Paada 3 / RL Su / NL Ve / SL Sa / SSL Mo
+- Sun — Degree 15:40:19 / Rashi Kataka / Nakshatra Pushyami / Paada 4 / RL Mo / NL Sa / SL Ju / SSL Ke
+- Moon — Degree 5:03:58 / Rashi Kataka / Nakshatra Pushyami / Paada 1 / RL Mo / NL Sa / SL Sa / SSL Ra
+- Mars — Degree 21:57:15 / Rashi Simha / Nakshatra P.Phalguni / Paada 3 / RL Su / NL Ve / SL Sa / SSL Sa
+- Mercury — Degree 0:46:21 / Rashi Simha / Nakshatra Makha / Paada 1 / RL Su / NL Ke / SL Ke / SSL Me
+- Jupiter — Degree 1:06:33 / Rashi Kataka / Nakshatra Punarvasu / Paada 4 / RL Mo / NL Ju / SL Ma / SSL Ve
+- Venus — Degree 1:32:22 / Rashi Kataka / Nakshatra Punarvasu / Paada 4 / RL Mo / NL Ju / SL Ra / SSL Ra
+- Saturn (R) — Degree 5:37:11 / Rashi Simha / Nakshatra Makha / Paada 2 / RL Su / NL Ke / SL Ra / SSL Ra
+- Rahu (R) — Degree 0:30:21 / Rashi Simha / Nakshatra Makha / Paada 1 / RL Su / NL Ke / SL Ke / SSL Ju
+- Ketu (R) — Degree 0:30:21 / Rashi Simha / Nakshatra Makha / Paada 1 / RL Su / NL Ke / SL Ke / SSL Ju
+- Uranus — Degree 1:23:27 / Rashi Simha / Nakshatra Makha / Paada 1 / RL Su / NL Ke / SL Ve / SSL Mo
+- Neptune (R) — Degree 22:59:04 / Rashi Kataka / Nakshatra Ashlesha / Paada 2 / RL Mo / NL Me / SL Mo / SSL Me
+- Pluto (R) — Degree 21:39:07 / Rashi Kataka / Nakshatra Ashlesha / Paada 2 / RL Mo / NL Me / SL Su / SSL Ma
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_HORA_D2_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > HORA_D2 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D2 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_HORA_D2_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Hora (D-2)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Hora_D2 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Hora_D2 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Hora (D-2)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = empty / no visible planet
+- Upper-Middle-Left Sector = empty / no visible planet
+- Upper-Right Sector = Mo Ju Ve
+- Left-Middle Sector = empty / no visible planet
+- Right-Middle Sector = Su Me Sa(R) Ra(R) Ke(R)
+- Lower-Left Sector = empty / no visible planet
+- Lower-Middle Sector = empty / no visible planet
+- Lower-Right Sector = As Ma
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 8:08:50 (Simha - Makha) / Bhava Cusp 23:08:50 (Simha - P.Phalguni)
+- 2H — Bhava Start 8:08:50 (Kanya - U.Phalguni) / Bhava Cusp 23:08:50 (Kanya - Hasta)
+- 3H — Bhava Start 8:08:50 (Thula - Swati) / Bhava Cusp 23:08:50 (Thula - Vishakha)
+- 4H — Bhava Start 8:08:50 (Vrischika - Anuradha) / Bhava Cusp 23:08:50 (Vrischika - Jyeshta)
+- 5H — Bhava Start 8:08:50 (Dhanus - Moola) / Bhava Cusp 23:08:50 (Dhanus - P.Ashadha)
+- 6H — Bhava Start 8:08:50 (Makara - U.Ashadha) / Bhava Cusp 23:08:50 (Makara - Shravana)
+- 7H — Bhava Start 8:08:50 (Kumbha - Shatabhisha) / Bhava Cusp 23:08:50 (Kumbha - P.Bhadrapada)
+- 8H — Bhava Start 8:08:50 (Meena - U.Bhadrapada) / Bhava Cusp 23:08:50 (Meena - Revati)
+- 9H — Bhava Start 8:08:50 (Mesha - Ashwini) / Bhava Cusp 23:08:50 (Mesha - Bharani)
+- 10H — Bhava Start 8:08:50 (Vrishabha - Krittika) / Bhava Cusp 23:08:50 (Vrishabha - Rohini)
+- 11H — Bhava Start 8:08:50 (Mithuna - Aridra) / Bhava Cusp 23:08:50 (Mithuna - Punarvasu)
+- 12H — Bhava Start 8:08:50 (Kataka - Pushyami) / Bhava Cusp 23:08:50 (Kataka - Ashlesha)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_HORA_D2_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > HORA_D2 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D3 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D3 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_DREKKANA_D3_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Others
+- Select Chart Type = Drekkana (D-3)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Drekkana_D3 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Drekkana_D3 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Drekkana (D-3)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = Su 8:30 / Mo 22:35 / Sa(R) 8:25
+- Upper-Center Sector = As 19:43 / Ra(R) 15:45
+- Upper-Right Sector = empty / no visible planet
+- Left-Middle Sector = Ma 2:55 / Me 16:09
+- Right-Middle Sector = empty / no visible planet
+- Right-Lower-Middle Sector = empty / no visible planet
+- Lower-Left Sector = Ju 16:39
+- Lower-Middle Sector = Ke(R) 15:45
+- Lower-Right Sector = Ve 2:18
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Drekkana (D-3)
+- Lagna — Degree 19:43:15 / Rashi Vrishabha / Nakshatra Rohini / Paada 3 / RL Ve / NL Mo / SL Ke / SSL Ve
+- Sun — Degree 8:30:28 / Rashi Mesha / Nakshatra Ashwini / Paada 3 / RL Ma / NL Ke / SL Ju / SSL Ve
+- Moon — Degree 22:35:58 / Rashi Mesha / Nakshatra Bharani / Paada 3 / RL Ma / NL Ve / SL Sa / SSL Ke
+- Mars — Degree 2:55:52 / Rashi Kumbha / Nakshatra Dhanishta / Paada 3 / RL Sa / NL Ma / SL Ve / SSL Ve
+- Mercury — Degree 16:09:31 / Rashi Makara / Nakshatra Shravana / Paada 2 / RL Sa / NL Mo / SL Sa / SSL Me
+- Jupiter — Degree 16:39:49 / Rashi Dhanus / Nakshatra P.Ashadha / Paada 1 / RL Ju / NL Ve / SL Mo / SSL Ju
+- Venus — Degree 2:18:33 / Rashi Kanya / Nakshatra U.Phalguni / Paada 2 / RL Me / NL Su / SL Ju / SSL Ve
+- Saturn (R) — Degree 8:25:47 / Rashi Mesha / Nakshatra Ashwini / Paada 3 / RL Ma / NL Ke / SL Ju / SSL Ve
+- Rahu (R) — Degree 15:45:32 / Rashi Vrishabha / Nakshatra Rohini / Paada 2 / RL Ve / NL Mo / SL Sa / SSL Sa
+- Ketu (R) — Degree 15:45:32 / Rashi Vrischika / Nakshatra Anuradha / Paada 4 / RL Ma / NL Sa / SL Ju / SSL Ke
+- Uranus — Degree 17:05:10 / Rashi Kanya / Nakshatra Hasta / Paada 3 / RL Me / NL Mo / SL Sa / SSL Ma
+- Neptune (R) — Degree 4:28:36 / Rashi Kataka / Nakshatra Pushyami / Paada 1 / RL Mo / NL Sa / SL Sa / SSL Su
+- Pluto (R) — Degree 2:28:40 / Rashi Vrishabha / Nakshatra Krittika / Paada 2 / RL Ve / NL Su / SL Ju / SSL Su
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_DREKKANA_D3_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > DREKKANA_D3 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D3 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_DREKKANA_D3_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Drekkana (D-3)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Drekkana_D3 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Drekkana_D3 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Drekkana (D-3)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = empty / no visible planet
+- Upper-Middle-Left Sector = Su Mo Sa(R)
+- Upper-Right Sector = As Ra(R)
+- Left-Middle Sector = Ma Me
+- Right-Middle Sector = Ve
+- Lower-Left Sector = Ju
+- Lower-Middle Sector = Ke(R)
+- Lower-Right Sector = empty / no visible planet
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 4:43:15 (Vrishabha - Krittika) / Bhava Cusp 19:43:15 (Vrishabha - Rohini)
+- 2H — Bhava Start 4:43:15 (Mithuna - Mrigashira) / Bhava Cusp 19:43:15 (Mithuna - Aridra)
+- 3H — Bhava Start 4:43:15 (Kataka - Pushyami) / Bhava Cusp 19:43:15 (Kataka - Ashlesha)
+- 4H — Bhava Start 4:43:15 (Simha - Makha) / Bhava Cusp 19:43:15 (Simha - P.Phalguni)
+- 5H — Bhava Start 4:43:15 (Kanya - U.Phalguni) / Bhava Cusp 19:43:15 (Kanya - Hasta)
+- 6H — Bhava Start 4:43:15 (Thula - Chitta) / Bhava Cusp 19:43:15 (Thula - Swati)
+- 7H — Bhava Start 4:43:15 (Vrischika - Anuradha) / Bhava Cusp 19:43:15 (Vrischika - Jyeshta)
+- 8H — Bhava Start 4:43:15 (Dhanus - Moola) / Bhava Cusp 19:43:15 (Dhanus - P.Ashadha)
+- 9H — Bhava Start 4:43:15 (Makara - U.Ashadha) / Bhava Cusp 19:43:15 (Makara - Shravana)
+- 10H — Bhava Start 4:43:15 (Kumbha - Dhanishta) / Bhava Cusp 19:43:15 (Kumbha - Shatabhisha)
+- 11H — Bhava Start 4:43:15 (Meena - U.Bhadrapada) / Bhava Cusp 19:43:15 (Meena - Revati)
+- 12H — Bhava Start 4:43:15 (Mesha - Ashwini) / Bhava Cusp 19:43:15 (Mesha - Bharani)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_DREKKANA_D3_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > DREKKANA_D3 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D4 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D4 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_CHATURTHAMSHA_D4_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Others
+- Select Chart Type = Chaturthamsha (D-4)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Chaturthamsha_D4 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Chaturthamsha_D4 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Chaturthamsha (D-4)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = Me 1:32
+- Upper-Center Sector = Sa(R) 11:14 / Su 1:20
+- Upper-Right Sector = As 16:17 / Mo 10:07
+- Left-Middle Sector = Ju 2:13
+- Right-Middle Sector = Ra(R) 1:00
+- Right-Lower-Middle Sector = empty / no visible planet
+- Lower-Left Sector = Ma 13:54 / Ke(R) 1:00
+- Lower-Middle Sector = empty / no visible planet
+- Lower-Right Sector = Ve 3:04
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Chaturthamsha (D-4)
+- Lagna — Degree 16:17:40 / Rashi Mithuna / Nakshatra Aridra / Paada 3 / RL Me / NL Ra / SL Ve / SSL Ra
+- Sun — Degree 1:20:38 / Rashi Vrishabha / Nakshatra Krittika / Paada 2 / RL Ve / NL Su / SL Ju / SSL Ju
+- Moon — Degree 10:07:57 / Rashi Mithuna / Nakshatra Aridra / Paada 2 / RL Me / NL Ra / SL Ju / SSL Ma
+- Mars — Degree 13:54:30 / Rashi Makara / Nakshatra Shravana / Paada 2 / RL Sa / NL Mo / SL Ju / SSL Ju
+- Mercury — Degree 1:32:42 / Rashi Meena / Nakshatra P.Bhadrapada / Paada 4 / RL Ju / NL Ju / SL Ra / SSL Ra
+- Jupiter — Degree 2:13:06 / Rashi Kumbha / Nakshatra Dhanishta / Paada 3 / RL Sa / NL Ma / SL Ke / SSL Ra
+- Venus — Degree 3:04:45 / Rashi Kanya / Nakshatra U.Phalguni / Paada 2 / RL Me / NL Su / SL Sa / SSL Sa
+- Saturn (R) — Degree 11:14:22 / Rashi Mesha / Nakshatra Ashwini / Paada 4 / RL Ma / NL Ke / SL Sa / SSL Ju
+- Rahu (R) — Degree 1:00:43 / Rashi Kataka / Nakshatra Punarvasu / Paada 4 / RL Mo / NL Ju / SL Ma / SSL Me
+- Ketu (R) — Degree 1:00:43 / Rashi Makara / Nakshatra U.Ashadha / Paada 2 / RL Sa / NL Su / SL Ra / SSL Mo
+- Uranus — Degree 2:46:54 / Rashi Vrischika / Nakshatra Vishakha / Paada 4 / RL Ma / NL Ju / SL Ra / SSL Ve
+- Neptune (R) — Degree 15:58:09 / Rashi Mithuna / Nakshatra Aridra / Paada 3 / RL Me / NL Ra / SL Ve / SSL Ma
+- Pluto (R) — Degree 13:18:14 / Rashi Mesha / Nakshatra Ashwini / Paada 4 / RL Ma / NL Ke / SL Me / SSL Sa
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_CHATURTHAMSHA_D4_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > CHATURTHAMSHA_D4 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D4 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_CHATURTHAMSHA_D4_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Chaturthamsha (D-4)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Chaturthamsha_D4 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Chaturthamsha_D4 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Chaturthamsha (D-4)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = Me
+- Upper-Middle-Left Sector = Sa(R)
+- Upper-Right Sector = Su / As Mo Ra(R)
+- Left-Middle Sector = Ju
+- Right-Middle Sector = empty / no visible planet
+- Lower-Left Sector = Ma / Ke(R)
+- Lower-Middle Sector = empty / no visible planet
+- Lower-Right Sector = Ve
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 1:17:40 (Mithuna - Mrigashira) / Bhava Cusp 16:17:40 (Mithuna - Aridra)
+- 2H — Bhava Start 1:17:40 (Kataka - Punarvasu) / Bhava Cusp 16:17:40 (Kataka - Pushyami)
+- 3H — Bhava Start 1:17:40 (Simha - Makha) / Bhava Cusp 16:17:40 (Simha - P.Phalguni)
+- 4H — Bhava Start 1:17:40 (Kanya - U.Phalguni) / Bhava Cusp 16:17:40 (Kanya - Hasta)
+- 5H — Bhava Start 1:17:40 (Thula - Chitta) / Bhava Cusp 16:17:40 (Thula - Swati)
+- 6H — Bhava Start 1:17:40 (Vrischika - Vishakha) / Bhava Cusp 16:17:40 (Vrischika - Anuradha)
+- 7H — Bhava Start 1:17:40 (Dhanus - Moola) / Bhava Cusp 16:17:40 (Dhanus - P.Ashadha)
+- 8H — Bhava Start 1:17:40 (Makara - U.Ashadha) / Bhava Cusp 16:17:40 (Makara - Shravana)
+- 9H — Bhava Start 1:17:40 (Kumbha - Dhanishta) / Bhava Cusp 16:17:40 (Kumbha - Shatabhisha)
+- 10H — Bhava Start 1:17:40 (Meena - P.Bhadrapada) / Bhava Cusp 16:17:40 (Meena - U.Bhadrapada)
+- 11H — Bhava Start 1:17:40 (Mesha - Ashwini) / Bhava Cusp 16:17:40 (Mesha - Bharani)
+- 12H — Bhava Start 1:17:40 (Vrishabha - Krittika) / Bhava Cusp 16:17:40 (Vrishabha - Rohini)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_CHATURTHAMSHA_D4_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > CHATURTHAMSHA_D4 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D5 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D5 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_PANCHAMSHA_D5_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Others
+- Select Chart Type = Panchamsha (D-5)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Panchamsha_D5 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Panchamsha_D5 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Panchamsha (D-5)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = Me 16:55 / Ra(R) 16:15 / Ke(R) 16:15
+- Upper-Center Sector = Sa(R) 14:02 / Ve 3:50
+- Upper-Right Sector = Su 24:10
+- Left-Middle Sector = Ma 24:53
+- Right-Middle Sector = empty / no visible planet
+- Right-Lower-Middle Sector = empty / no visible planet
+- Lower-Left Sector = Mo 27:39 / Ju 17:46
+- Lower-Middle Sector = As 12:52
+- Lower-Right Sector = empty / no visible planet
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Panchamsha (D-5)
+- Lagna — Degree 12:52:05 / Rashi Vrischika / Nakshatra Anuradha / Paada 3 / RL Ma / NL Sa / SL Ma / SSL Mo
+- Sun — Degree 24:10:48 / Rashi Mithuna / Nakshatra Punarvasu / Paada 2 / RL Me / NL Ju / SL Me / SSL Ke
+- Moon — Degree 27:39:57 / Rashi Dhanus / Nakshatra U.Ashadha / Paada 1 / RL Ju / NL Su / SL Mo / SSL Ju
+- Mars — Degree 24:53:08 / Rashi Kumbha / Nakshatra P.Bhadrapada / Paada 2 / RL Sa / NL Ju / SL Me / SSL Ma
+- Mercury — Degree 16:55:52 / Rashi Meena / Nakshatra Revati / Paada 1 / RL Ju / NL Me / SL Me / SSL Me
+- Jupiter — Degree 17:46:22 / Rashi Dhanus / Nakshatra P.Ashadha / Paada 2 / RL Ju / NL Ve / SL Ma / SSL Me
+- Venus — Degree 3:50:56 / Rashi Vrishabha / Nakshatra Krittika / Paada 3 / RL Ve / NL Su / SL Sa / SSL Ve
+- Saturn (R) — Degree 14:02:58 / Rashi Mesha / Nakshatra Bharani / Paada 1 / RL Ma / NL Ve / SL Ve / SSL Ma
+- Rahu (R) — Degree 16:15:54 / Rashi Meena / Nakshatra U.Bhadrapada / Paada 4 / RL Ju / NL Sa / SL Ju / SSL Mo
+- Ketu (R) — Degree 16:15:54 / Rashi Meena / Nakshatra U.Bhadrapada / Paada 4 / RL Ju / NL Sa / SL Ju / SSL Mo
+- Uranus — Degree 18:28:38 / Rashi Meena / Nakshatra Revati / Paada 1 / RL Ju / NL Me / SL Me / SSL Sa
+- Neptune (R) — Degree 27:27:41 / Rashi Kanya / Nakshatra Chitta / Paada 2 / RL Me / NL Ma / SL Ju / SSL Mo
+- Pluto (R) — Degree 24:07:47 / Rashi Kanya / Nakshatra Chitta / Paada 1 / RL Me / NL Ma / SL Ra / SSL Ra
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_PANCHAMSHA_D5_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > PANCHAMSHA_D5 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D5 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_PANCHAMSHA_D5_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Panchamsha (D-5)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Panchamsha_D5 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Panchamsha_D5 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Panchamsha (D-5)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = Me Ra(R) Ke(R)
+- Upper-Middle-Left Sector = Sa(R)
+- Upper-Right Sector = Ve / Su
+- Left-Middle Sector = Ma
+- Right-Middle Sector = empty / no visible planet
+- Lower-Left Sector = Mo Ju
+- Lower-Middle Sector = As
+- Lower-Right Sector = empty / no visible planet
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 27:52:05 (Thula - Vishakha) / Bhava Cusp 12:52:05 (Vrischika - Anuradha)
+- 2H — Bhava Start 27:52:05 (Vrischika - Jyeshta) / Bhava Cusp 12:52:05 (Dhanus - Moola)
+- 3H — Bhava Start 27:52:05 (Dhanus - U.Ashadha) / Bhava Cusp 12:52:05 (Makara - Shravana)
+- 4H — Bhava Start 27:52:05 (Makara - Dhanishta) / Bhava Cusp 12:52:05 (Kumbha - Shatabhisha)
+- 5H — Bhava Start 27:52:05 (Kumbha - P.Bhadrapada) / Bhava Cusp 12:52:05 (Meena - U.Bhadrapada)
+- 6H — Bhava Start 27:52:05 (Meena - Revati) / Bhava Cusp 12:52:05 (Mesha - Ashwini)
+- 7H — Bhava Start 27:52:05 (Mesha - Krittika) / Bhava Cusp 12:52:05 (Vrishabha - Rohini)
+- 8H — Bhava Start 27:52:05 (Vrishabha - Mrigashira) / Bhava Cusp 12:52:05 (Mithuna - Aridra)
+- 9H — Bhava Start 27:52:05 (Mithuna - Punarvasu) / Bhava Cusp 12:52:05 (Kataka - Pushyami)
+- 10H — Bhava Start 27:52:05 (Kataka - Ashlesha) / Bhava Cusp 12:52:05 (Simha - Makha)
+- 11H — Bhava Start 27:52:05 (Simha - U.Phalguni) / Bhava Cusp 12:52:05 (Kanya - Hasta)
+- 12H — Bhava Start 27:52:05 (Kanya - Chitta) / Bhava Cusp 12:52:05 (Thula - Swati)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_PANCHAMSHA_D5_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > PANCHAMSHA_D5 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D6 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D6 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_SHASHTAMSHA_D6_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Others
+- Select Chart Type = Shashthamsha (D-6)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Shashtamsha_D6 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Shashtamsha_D6 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Shashthamsha (D-6)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = As 9:26
+- Upper-Center Sector = Sa(R) 16:51
+- Upper-Right Sector = Ma 5:51
+- Left-Middle Sector = Me 2:19 / Ra(R) 1:31 / Ke(R) 1:31
+- Right-Middle Sector = Mo 15:11 / Ju 3:19
+- Right-Lower-Middle Sector = Su 17:00
+- Lower-Left Sector = empty / no visible planet
+- Lower-Middle Sector = Ve 4:37
+- Lower-Right Sector = empty / no visible planet
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Shashthamsha (D-6)
+- Lagna — Degree 9:26:30 / Rashi Meena / Nakshatra U.Bhadrapada / Paada 2 / RL Ju / NL Sa / SL Ve / SSL Ju
+- Sun — Degree 17:00:57 / Rashi Simha / Nakshatra P.Phalguni / Paada 2 / RL Su / NL Ve / SL Mo / SSL Me
+- Moon — Degree 15:11:56 / Rashi Kataka / Nakshatra Pushyami / Paada 4 / RL Mo / NL Sa / SL Ju / SSL Sa
+- Mars — Degree 5:51:45 / Rashi Mithuna / Nakshatra Mrigashira / Paada 4 / RL Me / NL Ma / SL Mo / SSL Ra
+- Mercury — Degree 2:19:03 / Rashi Makara / Nakshatra U.Ashadha / Paada 2 / RL Sa / NL Su / SL Ju / SSL Ve
+- Jupiter — Degree 3:19:39 / Rashi Kataka / Nakshatra Punarvasu / Paada 4 / RL Mo / NL Ju / SL Ra / SSL Ma
+- Venus — Degree 4:37:07 / Rashi Thula / Nakshatra Chitta / Paada 4 / RL Ve / NL Ma / SL Ve / SSL Me
+- Saturn (R) — Degree 16:51:34 / Rashi Mesha / Nakshatra Bharani / Paada 2 / RL Ma / NL Ve / SL Mo / SSL Sa
+- Rahu (R) — Degree 1:31:05 / Rashi Makara / Nakshatra U.Ashadha / Paada 2 / RL Sa / NL Su / SL Ju / SSL Sa
+- Ketu (R) — Degree 1:31:05 / Rashi Makara / Nakshatra U.Ashadha / Paada 2 / RL Sa / NL Su / SL Ju / SSL Sa
+- Uranus — Degree 4:10:21 / Rashi Makara / Nakshatra U.Ashadha / Paada 3 / RL Sa / NL Su / SL Sa / SSL Su
+- Neptune (R) — Degree 8:57:13 / Rashi Dhanus / Nakshatra Moola / Paada 3 / RL Ju / NL Ke / SL Ju / SSL Mo
+- Pluto (R) — Degree 4:57:21 / Rashi Dhanus / Nakshatra Moola / Paada 2 / RL Ju / NL Ke / SL Ma / SSL Ju
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_SHASHTAMSHA_D6_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > SHASHTAMSHA_D6 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D6 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_SHASHTAMSHA_D6_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Shashthamsha (D-6)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Shashthamsha_D6 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Shashthamsha_D6 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Shashthamsha (D-6)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = As
+- Upper-Middle-Left Sector = Sa(R)
+- Upper-Right Sector = Ma
+- Left-Middle Sector = Me Ra(R) Ke(R)
+- Right-Middle Sector = Mo Ju
+- Lower-Left Sector = empty / no visible planet
+- Lower-Middle Sector = Ve
+- Lower-Right Sector = Su
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 24:26:30 (Kumbha - P.Bhadrapada) / Bhava Cusp 9:26:30 (Meena - U.Bhadrapada)
+- 2H — Bhava Start 24:26:30 (Meena - Revati) / Bhava Cusp 9:26:30 (Mesha - Ashwini)
+- 3H — Bhava Start 24:26:30 (Mesha - Bharani) / Bhava Cusp 9:26:30 (Vrishabha - Krittika)
+- 4H — Bhava Start 24:26:30 (Vrishabha - Mrigashira) / Bhava Cusp 9:26:30 (Mithuna - Aridra)
+- 5H — Bhava Start 24:26:30 (Mithuna - Punarvasu) / Bhava Cusp 9:26:30 (Kataka - Pushyami)
+- 6H — Bhava Start 24:26:30 (Kataka - Ashlesha) / Bhava Cusp 9:26:30 (Simha - Makha)
+- 7H — Bhava Start 24:26:30 (Simha - P.Phalguni) / Bhava Cusp 9:26:30 (Kanya - U.Phalguni)
+- 8H — Bhava Start 24:26:30 (Kanya - Chitta) / Bhava Cusp 9:26:30 (Thula - Swati)
+- 9H — Bhava Start 24:26:30 (Thula - Vishakha) / Bhava Cusp 9:26:30 (Vrischika - Anuradha)
+- 10H — Bhava Start 24:26:30 (Vrischika - Jyeshta) / Bhava Cusp 9:26:30 (Dhanus - Moola)
+- 11H — Bhava Start 24:26:30 (Dhanus - P.Ashadha) / Bhava Cusp 9:26:30 (Makara - U.Ashadha)
+- 12H — Bhava Start 24:26:30 (Makara - Dhanishta) / Bhava Cusp 9:26:30 (Kumbha - Shatabhisha)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_SHASHTAMSHA_D6_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > SHASHTAMSHA_D6 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D7 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D7 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_SAPTAMSHA_D7_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Others
+- Select Chart Type = Saptamsha (D-7)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Saptamsha_D7 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Saptamsha_D7 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Saptamsha (D-7)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = Ve 5:23
+- Upper-Center Sector = Mo 2:43 / Sa(R) 19:40 / Ke(R) 16:46
+- Upper-Right Sector = Me 17:42
+- Left-Middle Sector = Su 9:51
+- Right-Middle Sector = empty / no visible planet
+- Right-Lower-Middle Sector = Ra(R) 16:46
+- Lower-Left Sector = Ma 16:50
+- Lower-Middle Sector = Ju 18:52
+- Lower-Right Sector = As 6:00
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Saptamsha (D-7)
+- Lagna — Degree 6:00:55 / Rashi Kanya / Nakshatra U.Phalguni / Paada 3 / RL Me / NL Su / SL Me / SSL Mo
+- Sun — Degree 9:51:07 / Rashi Makara / Nakshatra U.Ashadha / Paada 4 / RL Sa / NL Su / SL Ve / SSL Me
+- Moon — Degree 2:43:56 / Rashi Mesha / Nakshatra Ashwini / Paada 1 / RL Ma / NL Ke / SL Ve / SSL Me
+- Mars — Degree 16:50:23 / Rashi Dhanus / Nakshatra P.Ashadha / Paada 2 / RL Ju / NL Ve / SL Mo / SSL Sa
+- Mercury — Degree 17:42:13 / Rashi Mithuna / Nakshatra Aridra / Paada 4 / RL Me / NL Ra / SL Su / SSL Ju
+- Jupiter — Degree 18:52:55 / Rashi Vrischika / Nakshatra Jyeshta / Paada 1 / RL Ma / NL Me / SL Ke / SSL Ra
+- Venus — Degree 5:23:19 / Rashi Meena / Nakshatra U.Bhadrapada / Paada 1 / RL Ju / NL Sa / SL Sa / SSL Ju
+- Saturn (R) — Degree 19:40:09 / Rashi Mesha / Nakshatra Bharani / Paada 2 / RL Ma / NL Ve / SL Ra / SSL Ve
+- Rahu (R) — Degree 16:46:16 / Rashi Thula / Nakshatra Swati / Paada 4 / RL Ve / NL Ra / SL Ve / SSL Sa
+- Ketu (R) — Degree 16:46:16 / Rashi Mesha / Nakshatra Bharani / Paada 2 / RL Ma / NL Ve / SL Mo / SSL Sa
+- Uranus — Degree 19:52:05 / Rashi Kumbha / Nakshatra Shatabhisha / Paada 4 / RL Sa / NL Ra / SL Ma / SSL Ve
+- Neptune (R) — Degree 20:26:46 / Rashi Vrischika / Nakshatra Jyeshta / Paada 2 / RL Ma / NL Me / SL Ve / SSL Ra
+- Pluto (R) — Degree 15:46:54 / Rashi Kanya / Nakshatra Hasta / Paada 2 / RL Me / NL Mo / SL Sa / SSL Sa
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_SAPTAMSHA_D7_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > SAPTAMSHA_D7 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D7 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_SAPTAMSHA_D7_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Saptamsha (D-7)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Saptamsha_D7 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Saptamsha_D7 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Saptamsha (D-7)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = Ve
+- Upper-Middle-Left Sector = Mo Sa(R) Ke(R)
+- Upper-Right Sector = Me
+- Left-Middle Sector = Su
+- Right-Middle Sector = empty / no visible planet
+- Lower-Left Sector = Ma
+- Lower-Middle Sector = Ju
+- Lower-Right Sector = Ra(R) / As
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 21:00:55 (Simha - P.Phalguni) / Bhava Cusp 6:00:55 (Kanya - U.Phalguni)
+- 2H — Bhava Start 21:00:55 (Kanya - Hasta) / Bhava Cusp 6:00:55 (Thula - Chitta)
+- 3H — Bhava Start 21:00:55 (Thula - Vishakha) / Bhava Cusp 6:00:55 (Vrischika - Anuradha)
+- 4H — Bhava Start 21:00:55 (Vrischika - Jyeshta) / Bhava Cusp 6:00:55 (Dhanus - Moola)
+- 5H — Bhava Start 21:00:55 (Dhanus - P.Ashadha) / Bhava Cusp 6:00:55 (Makara - U.Ashadha)
+- 6H — Bhava Start 21:00:55 (Makara - Shravana) / Bhava Cusp 6:00:55 (Kumbha - Dhanishta)
+- 7H — Bhava Start 21:00:55 (Kumbha - P.Bhadrapada) / Bhava Cusp 6:00:55 (Meena - U.Bhadrapada)
+- 8H — Bhava Start 21:00:55 (Meena - Revati) / Bhava Cusp 6:00:55 (Mesha - Ashwini)
+- 9H — Bhava Start 21:00:55 (Mesha - Bharani) / Bhava Cusp 6:00:55 (Vrishabha - Krittika)
+- 10H — Bhava Start 21:00:55 (Vrishabha - Rohini) / Bhava Cusp 6:00:55 (Mithuna - Mrigashira)
+- 11H — Bhava Start 21:00:55 (Mithuna - Punarvasu) / Bhava Cusp 6:00:55 (Kataka - Pushyami)
+- 12H — Bhava Start 21:00:55 (Kataka - Ashlesha) / Bhava Cusp 6:00:55 (Simha - Makha)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_SAPTAMSHA_D7_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > SAPTAMSHA_D7 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D8 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D8 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_ASHTAMSHA_D8_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Others
+- Select Chart Type = Ashtamsha (D-8)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Ashtamsha_D8 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Ashtamsha_D8 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Ashtamsha (D-8)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = As 2:35
+- Upper-Center Sector = Ju 4:26 / Sa(R) 22:28
+- Upper-Right Sector = Su 2:41 / Ma 27:49
+- Left-Middle Sector = empty / no visible planet
+- Right-Middle Sector = Ve 6:09 / Ra(R) 2:01 / Ke(R) 2:01
+- Right-Lower-Middle Sector = empty / no visible planet
+- Lower-Left Sector = Mo 20:15 / Me 3:05
+- Lower-Middle Sector = empty / no visible planet
+- Lower-Right Sector = empty / no visible planet
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Ashtamsha (D-8)
+- Lagna — Degree 2:35:20 / Rashi Meena / Nakshatra P.Bhadrapada / Paada 4 / RL Ju / NL Ju / SL Ra / SSL Ke
+- Sun — Degree 2:41:17 / Rashi Mithuna / Nakshatra Mrigashira / Paada 3 / RL Me / NL Ma / SL Ve / SSL Ve
+- Moon — Degree 20:15:55 / Rashi Dhanus / Nakshatra P.Ashadha / Paada 3 / RL Ju / NL Ve / SL Ju / SSL Ju
+- Mars — Degree 27:49:00 / Rashi Mithuna / Nakshatra Punarvasu / Paada 3 / RL Me / NL Ju / SL Ve / SSL Ju
+- Mercury — Degree 3:05:24 / Rashi Dhanus / Nakshatra Moola / Paada 1 / RL Ju / NL Ke / SL Su / SSL Ma
+- Jupiter — Degree 4:26:12 / Rashi Mesha / Nakshatra Ashwini / Paada 2 / RL Ma / NL Ke / SL Mo / SSL Me
+- Venus — Degree 6:09:30 / Rashi Simha / Nakshatra Makha / Paada 2 / RL Su / NL Ke / SL Ra / SSL Sa
+- Saturn (R) — Degree 22:28:45 / Rashi Mesha / Nakshatra Bharani / Paada 3 / RL Ma / NL Ve / SL Sa / SSL Me
+- Rahu (R) — Degree 2:01:27 / Rashi Simha / Nakshatra Makha / Paada 1 / RL Su / NL Ke / SL Ve / SSL Ju
+- Ketu (R) — Degree 2:01:27 / Rashi Simha / Nakshatra Makha / Paada 1 / RL Su / NL Ke / SL Ve / SSL Ju
+- Uranus — Degree 5:33:49 / Rashi Mesha / Nakshatra Ashwini / Paada 2 / RL Ma / NL Ke / SL Ra / SSL Ra
+- Neptune (R) — Degree 1:56:18 / Rashi Vrischika / Nakshatra Vishakha / Paada 4 / RL Ma / NL Ju / SL Ra / SSL Sa
+- Pluto (R) — Degree 26:36:28 / Rashi Mithuna / Nakshatra Punarvasu / Paada 2 / RL Me / NL Ju / SL Ve / SSL Ve
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_ASHTAMSHA_D8_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > ASHTAMSHA_D8 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D8 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_ASHTAMSHA_D8_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Ashtamsha (D-8)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Ashtamsha_D8 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Ashtamsha_D8 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Ashtamsha (D-8)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = As
+- Upper-Middle-Left Sector = Ju
+- Upper-Right Sector = Sa(R) / Su
+- Left-Middle Sector = Mo
+- Right-Middle Sector = Ma
+- Lower-Left Sector = Me
+- Lower-Middle Sector = empty / no visible planet
+- Lower-Right Sector = Ve Ra(R) Ke(R)
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 17:35:20 (Kumbha - Shatabhisha) / Bhava Cusp 2:35:20 (Meena - P.Bhadrapada)
+- 2H — Bhava Start 17:35:20 (Meena - Revati) / Bhava Cusp 2:35:20 (Mesha - Ashwini)
+- 3H — Bhava Start 17:35:20 (Mesha - Bharani) / Bhava Cusp 2:35:20 (Vrishabha - Krittika)
+- 4H — Bhava Start 17:35:20 (Vrishabha - Rohini) / Bhava Cusp 2:35:20 (Mithuna - Mrigashira)
+- 5H — Bhava Start 17:35:20 (Mithuna - Aridra) / Bhava Cusp 2:35:20 (Kataka - Punarvasu)
+- 6H — Bhava Start 17:35:20 (Kataka - Ashlesha) / Bhava Cusp 2:35:20 (Simha - Makha)
+- 7H — Bhava Start 17:35:20 (Simha - P.Phalguni) / Bhava Cusp 2:35:20 (Kanya - U.Phalguni)
+- 8H — Bhava Start 17:35:20 (Kanya - Hasta) / Bhava Cusp 2:35:20 (Thula - Chitta)
+- 9H — Bhava Start 17:35:20 (Thula - Swati) / Bhava Cusp 2:35:20 (Vrischika - Vishakha)
+- 10H — Bhava Start 17:35:20 (Vrischika - Jyeshta) / Bhava Cusp 2:35:20 (Dhanus - Moola)
+- 11H — Bhava Start 17:35:20 (Dhanus - P.Ashadha) / Bhava Cusp 2:35:20 (Makara - U.Ashadha)
+- 12H — Bhava Start 17:35:20 (Makara - Shravana) / Bhava Cusp 2:35:20 (Kumbha - Dhanishta)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_ASHTAMSHA_D8_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > ASHTAMSHA_D8 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D9 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D9 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_NAVAMSA_D9_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Navamsa
+- Select Chart Type = Navamsa (D-9)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Navamsa_D9 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Navamsa_D9 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Navamsa (D-9)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = Sa(R) 25:17
+- Upper-Center Sector = Me 18:28 / Ra(R) 17:16
+- Upper-Right Sector = empty / no visible planet
+- Left-Middle Sector = Ma 8:47 / Ve 6:55
+- Right-Middle Sector = As 29:09 / Ju 19:59
+- Right-Lower-Middle Sector = Mo 7:47
+- Lower-Left Sector = Ke(R) 17:16
+- Lower-Middle Sector = Su 25:31
+- Lower-Right Sector = empty / no visible planet
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Navamsa (D-9)
+- Lagna — Degree 29:09:45 / Rashi Simha / Nakshatra U.Phalguni / Paada 1 / RL Su / NL Su / SL Ma / SSL Mo
+- Sun — Degree 25:31:26 / Rashi Thula / Nakshatra Vishakha / Paada 2 / RL Ve / NL Ju / SL Me / SSL Sa
+- Moon — Degree 7:47:55 / Rashi Kanya / Nakshatra U.Phalguni / Paada 4 / RL Me / NL Su / SL Ve / SSL Ve
+- Mars — Degree 8:47:38 / Rashi Makara / Nakshatra U.Ashadha / Paada 4 / RL Sa / NL Su / SL Ve / SSL Ra
+- Mercury — Degree 18:28:35 / Rashi Vrishabha / Nakshatra Rohini / Paada 3 / RL Ve / NL Mo / SL Me / SSL Su
+- Jupiter — Degree 19:59:28 / Rashi Simha / Nakshatra P.Phalguni / Paada 2 / RL Su / NL Ve / SL Ra / SSL Mo
+- Venus — Degree 6:55:41 / Rashi Makara / Nakshatra U.Ashadha / Paada 4 / RL Sa / NL Su / SL Me / SSL Sa
+- Saturn (R) — Degree 25:17:21 / Rashi Mesha / Nakshatra Bharani / Paada 4 / RL Ma / NL Ve / SL Me / SSL Ra
+- Rahu (R) — Degree 17:16:38 / Rashi Vrishabha / Nakshatra Rohini / Paada 3 / RL Ve / NL Mo / SL Sa / SSL Ra
+- Ketu (R) — Degree 17:16:38 / Rashi Vrischika / Nakshatra Jyeshta / Paada 1 / RL Ma / NL Me / SL Me / SSL Ve
+- Uranus — Degree 21:15:32 / Rashi Vrishabha / Nakshatra Rohini / Paada 4 / RL Ve / NL Mo / SL Ve / SSL Ra
+- Neptune (R) — Degree 13:25:50 / Rashi Thula / Nakshatra Swati / Paada 3 / RL Ve / NL Ra / SL Me / SSL Mo
+- Pluto (R) — Degree 7:26:01 / Rashi Mesha / Nakshatra Ashwini / Paada 3 / RL Ma / NL Ke / SL Ra / SSL Mo
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_NAVAMSA_D9_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > NAVAMSA_D9 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D9 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_NAVAMSA_D9_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Navamsha (D-9)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Navamsha_D9 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Navamsha_D9 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Navamsha (D-9)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = empty / no visible planet
+- Upper-Middle-Left Sector = Sa(R)
+- Upper-Right Sector = Me Ra(R)
+- Left-Middle Sector = empty / no visible planet
+- Right-Middle Sector = As Mo Ju
+- Lower-Left Sector = Ma Ve
+- Lower-Middle Sector = Ke(R) / Su
+- Lower-Right Sector = empty / no visible planet
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 14:09:45 (Simha - P.Phalguni) / Bhava Cusp 29:09:45 (Simha - U.Phalguni)
+- 2H — Bhava Start 14:09:45 (Kanya - Hasta) / Bhava Cusp 29:09:45 (Kanya - Chitta)
+- 3H — Bhava Start 14:09:45 (Thula - Swati) / Bhava Cusp 29:09:45 (Thula - Vishakha)
+- 4H — Bhava Start 14:09:45 (Vrischika - Anuradha) / Bhava Cusp 29:09:45 (Vrischika - Jyeshta)
+- 5H — Bhava Start 14:09:45 (Dhanus - P.Ashadha) / Bhava Cusp 29:09:45 (Dhanus - U.Ashadha)
+- 6H — Bhava Start 14:09:45 (Makara - Shravana) / Bhava Cusp 29:09:45 (Makara - Dhanishta)
+- 7H — Bhava Start 14:09:45 (Kumbha - Shatabhisha) / Bhava Cusp 29:09:45 (Kumbha - P.Bhadrapada)
+- 8H — Bhava Start 14:09:45 (Meena - U.Bhadrapada) / Bhava Cusp 29:09:45 (Meena - Revati)
+- 9H — Bhava Start 14:09:45 (Mesha - Bharani) / Bhava Cusp 29:09:45 (Mesha - Krittika)
+- 10H — Bhava Start 14:09:45 (Vrishabha - Rohini) / Bhava Cusp 29:09:45 (Vrishabha - Mrigashira)
+- 11H — Bhava Start 14:09:45 (Mithuna - Aridra) / Bhava Cusp 29:09:45 (Mithuna - Punarvasu)
+- 12H — Bhava Start 14:09:45 (Kataka - Pushyami) / Bhava Cusp 29:09:45 (Kataka - Ashlesha)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_NAVAMSA_D9_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > NAVAMSA_D9 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D10 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D10 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_DASHAMSHA_D10_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Others
+- Select Chart Type = Dashamsha (D-10)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Dashamsha_D10 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Dashamsha_D10 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Dashamsha (D-10)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = Su 18:21
+- Upper-Center Sector = Sa(R) 28:05
+- Upper-Right Sector = Mo 25:19 / Ve 7:41
+- Left-Middle Sector = Ra(R) 2:31
+- Right-Middle Sector = Ke(R) 2:31
+- Right-Lower-Middle Sector = empty / no visible planet
+- Lower-Left Sector = As 25:44 / Ma 19:46 / Ju 5:32
+- Lower-Middle Sector = Me 3:51
+- Lower-Right Sector = empty / no visible planet
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Dashamsha (D-10)
+- Lagna — Degree 25:44:10 / Rashi Makara / Nakshatra Dhanishta / Paada 1 / RL Sa / NL Ma / SL Ra / SSL Su
+- Sun — Degree 18:21:36 / Rashi Meena / Nakshatra Revati / Paada 1 / RL Ju / NL Me / SL Me / SSL Sa
+- Moon — Degree 25:19:54 / Rashi Vrishabha / Nakshatra Mrigashira / Paada 1 / RL Ve / NL Ma / SL Ra / SSL Ke
+- Mars — Degree 19:46:16 / Rashi Makara / Nakshatra Shravana / Paada 3 / RL Sa / NL Mo / SL Ke / SSL Ve
+- Mercury — Degree 3:51:45 / Rashi Thula / Nakshatra Chitta / Paada 4 / RL Ve / NL Ma / SL Ve / SSL Ju
+- Jupiter — Degree 5:32:45 / Rashi Makara / Nakshatra U.Ashadha / Paada 3 / RL Sa / NL Su / SL Me / SSL Ve
+- Venus — Degree 7:41:53 / Rashi Vrishabha / Nakshatra Krittika / Paada 4 / RL Ve / NL Su / SL Ke / SSL Me
+- Saturn (R) — Degree 28:05:56 / Rashi Mesha / Nakshatra Krittika / Paada 1 / RL Ma / NL Su / SL Mo / SSL Me
+- Rahu (R) — Degree 2:31:48 / Rashi Kumbha / Nakshatra Dhanishta / Paada 3 / RL Sa / NL Ma / SL Ke / SSL Sa
+- Ketu (R) — Degree 2:31:48 / Rashi Simha / Nakshatra Makha / Paada 1 / RL Su / NL Ke / SL Ve / SSL Sa
+- Uranus — Degree 6:57:16 / Rashi Mithuna / Nakshatra Aridra / Paada 1 / RL Me / NL Ra / SL Ra / SSL Ra
+- Neptune (R) — Degree 24:55:23 / Rashi Kumbha / Nakshatra P.Bhadrapada / Paada 2 / RL Sa / NL Ju / SL Me / SSL Ma
+- Pluto (R) — Degree 18:15:35 / Rashi Dhanus / Nakshatra P.Ashadha / Paada 2 / RL Ju / NL Ve / SL Ra / SSL Ra
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_DASHAMSHA_D10_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > DASHAMSHA_D10 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D10 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_DASHAMSHA_D10_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Dashamsha (D-10)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Dashamsha_D10 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Dashamsha_D10 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Dashamsha (D-10)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = Su
+- Upper-Middle-Left Sector = Ve Sa(R)
+- Upper-Right Sector = Mo
+- Left-Middle Sector = As Ma Ra(R)
+- Right-Middle Sector = Ke(R)
+- Lower-Left Sector = Ju
+- Lower-Middle Sector = empty / no visible planet
+- Lower-Right Sector = Me
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 10:44:10 (Makara - Shravana) / Bhava Cusp 25:44:10 (Makara - Dhanishta)
+- 2H — Bhava Start 10:44:10 (Kumbha - Shatabhisha) / Bhava Cusp 25:44:10 (Kumbha - P.Bhadrapada)
+- 3H — Bhava Start 10:44:10 (Meena - U.Bhadrapada) / Bhava Cusp 25:44:10 (Meena - Revati)
+- 4H — Bhava Start 10:44:10 (Mesha - Ashwini) / Bhava Cusp 25:44:10 (Mesha - Bharani)
+- 5H — Bhava Start 10:44:10 (Vrishabha - Rohini) / Bhava Cusp 25:44:10 (Vrishabha - Mrigashira)
+- 6H — Bhava Start 10:44:10 (Mithuna - Aridra) / Bhava Cusp 25:44:10 (Mithuna - Punarvasu)
+- 7H — Bhava Start 10:44:10 (Kataka - Pushyami) / Bhava Cusp 25:44:10 (Kataka - Ashlesha)
+- 8H — Bhava Start 10:44:10 (Simha - Makha) / Bhava Cusp 25:44:10 (Simha - P.Phalguni)
+- 9H — Bhava Start 10:44:10 (Kanya - Hasta) / Bhava Cusp 25:44:10 (Kanya - Chitta)
+- 10H — Bhava Start 10:44:10 (Thula - Swati) / Bhava Cusp 25:44:10 (Thula - Vishakha)
+- 11H — Bhava Start 10:44:10 (Vrischika - Anuradha) / Bhava Cusp 25:44:10 (Vrischika - Jyeshta)
+- 12H — Bhava Start 10:44:10 (Dhanus - Moola) / Bhava Cusp 25:44:10 (Dhanus - P.Ashadha)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_DASHAMSHA_D10_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > DASHAMSHA_D10 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D11 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D11 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_EKADASHAMSHA_D11_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Others
+- Select Chart Type = Ekadashamsha (D-11)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Ekadashamsha_D11 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Ekadashamsha_D11 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Ekadashamsha (D-11)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = empty / no visible planet
+- Upper-Center Sector = Me 19:14
+- Upper-Right Sector = Ju 21:06 / Sa(R) 0:54 / Ke(R) 17:46
+- Left-Middle Sector = Mo 12:51 / Ma 0:44
+- Right-Middle Sector = As 22:18 / Su 11:11
+- Right-Lower-Middle Sector = empty / no visible planet
+- Lower-Left Sector = Ra(R) 17:46
+- Lower-Middle Sector = Ve 8:28
+- Lower-Right Sector = empty / no visible planet
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Ekadashamsha (D-11)
+- Lagna — Degree 22:18:36 / Rashi Simha / Nakshatra P.Phalguni / Paada 3 / RL Su / NL Ve / SL Sa / SSL Me
+- Sun — Degree 11:11:45 / Rashi Simha / Nakshatra Makha / Paada 4 / RL Su / NL Ke / SL Sa / SSL Ju
+- Moon — Degree 12:51:54 / Rashi Kumbha / Nakshatra Shatabhisha / Paada 2 / RL Sa / NL Ra / SL Me / SSL Ke
+- Mars — Degree 0:44:53 / Rashi Kumbha / Nakshatra Dhanishta / Paada 3 / RL Sa / NL Ma / SL Me / SSL Su
+- Mercury — Degree 19:14:56 / Rashi Mesha / Nakshatra Bharani / Paada 2 / RL Ma / NL Ve / SL Ra / SSL Me
+- Jupiter — Degree 21:06:02 / Rashi Vrishabha / Nakshatra Rohini / Paada 4 / RL Ve / NL Mo / SL Ve / SSL Mo
+- Venus — Degree 8:28:04 / Rashi Vrischika / Nakshatra Anuradha / Paada 2 / RL Ma / NL Sa / SL Ve / SSL Ve
+- Saturn (R) — Degree 0:54:32 / Rashi Vrishabha / Nakshatra Krittika / Paada 2 / RL Ve / NL Su / SL Ra / SSL Su
+- Rahu (R) — Degree 17:46:59 / Rashi Dhanus / Nakshatra P.Ashadha / Paada 2 / RL Ju / NL Ve / SL Ma / SSL Me
+- Ketu (R) — Degree 17:46:59 / Rashi Mithuna / Nakshatra Aridra / Paada 4 / RL Me / NL Ra / SL Su / SSL Sa
+- Uranus — Degree 22:38:59 / Rashi Simha / Nakshatra P.Phalguni / Paada 3 / RL Su / NL Ve / SL Sa / SSL Ve
+- Neptune (R) — Degree 6:24:55 / Rashi Kanya / Nakshatra U.Phalguni / Paada 3 / RL Me / NL Su / SL Me / SSL Ra
+- Pluto (R) — Degree 29:05:08 / Rashi Thula / Nakshatra Vishakha / Paada 3 / RL Ve / NL Ju / SL Su / SSL Ju
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_EKADASHAMSHA_D11_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > EKADASHAMSHA_D11 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D11 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_EKADASHAMSHA_D11_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Ekadashamsha (D-11)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Ekadashamsha_D11 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Ekadashamsha_D11 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Ekadashamsha (D-11)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = empty / no visible planet
+- Upper-Middle-Left Sector = Me Sa(R)
+- Upper-Right Sector = Ju / Ke(R)
+- Left-Middle Sector = Mo / Ma
+- Right-Middle Sector = As Su
+- Lower-Left Sector = Ra(R)
+- Lower-Middle Sector = Ve
+- Lower-Right Sector = empty / no visible planet
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 7:18:36 (Simha - Makha) / Bhava Cusp 22:18:36 (Simha - P.Phalguni)
+- 2H — Bhava Start 7:18:36 (Kanya - U.Phalguni) / Bhava Cusp 22:18:36 (Kanya - Hasta)
+- 3H — Bhava Start 7:18:36 (Thula - Swati) / Bhava Cusp 22:18:36 (Thula - Vishakha)
+- 4H — Bhava Start 7:18:36 (Vrischika - Anuradha) / Bhava Cusp 22:18:36 (Vrischika - Jyeshta)
+- 5H — Bhava Start 7:18:36 (Dhanus - Moola) / Bhava Cusp 22:18:36 (Dhanus - P.Ashadha)
+- 6H — Bhava Start 7:18:36 (Makara - U.Ashadha) / Bhava Cusp 22:18:36 (Makara - Shravana)
+- 7H — Bhava Start 7:18:36 (Kumbha - Shatabhisha) / Bhava Cusp 22:18:36 (Kumbha - P.Bhadrapada)
+- 8H — Bhava Start 7:18:36 (Meena - U.Bhadrapada) / Bhava Cusp 22:18:36 (Meena - Revati)
+- 9H — Bhava Start 7:18:36 (Mesha - Ashwini) / Bhava Cusp 22:18:36 (Mesha - Bharani)
+- 10H — Bhava Start 7:18:36 (Vrishabha - Krittika) / Bhava Cusp 22:18:36 (Vrishabha - Rohini)
+- 11H — Bhava Start 7:18:36 (Mithuna - Aridra) / Bhava Cusp 22:18:36 (Mithuna - Punarvasu)
+- 12H — Bhava Start 7:18:36 (Kataka - Pushyami) / Bhava Cusp 22:18:36 (Kataka - Ashlesha)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_EKADASHAMSHA_D11_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > EKADASHAMSHA_D11 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D12 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D12 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_DWADASHAMSHA_D12_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Others
+- Select Chart Type = Dwadashamsha (D-12)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Dwadashamsha_D12 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Dwadashamsha_D12 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Dwadashamsha (D-12)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = Me 4:38
+- Upper-Center Sector = Su 4:01 / Sa(R) 3:43
+- Upper-Right Sector = empty / no visible planet
+- Left-Middle Sector = Ma 11:43 / Ju 6:39
+- Right-Middle Sector = As 18:53 / Mo 0:23 / Ra(R) 3:02
+- Right-Lower-Middle Sector = empty / no visible planet
+- Lower-Left Sector = Ke(R) 3:02
+- Lower-Middle Sector = empty / no visible planet
+- Lower-Right Sector = Ve 9:14
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Dwadashamsha (D-12)
+- Lagna — Degree 18:53:01 / Rashi Kataka / Nakshatra Ashlesha / Paada 1 / RL Mo / NL Me / SL Ke / SSL Ra
+- Sun — Degree 4:01:55 / Rashi Vrishabha / Nakshatra Krittika / Paada 3 / RL Ve / NL Su / SL Sa / SSL Ve
+- Moon — Degree 0:23:53 / Rashi Kataka / Nakshatra Punarvasu / Paada 4 / RL Mo / NL Ju / SL Mo / SSL Ve
+- Mars — Degree 11:43:31 / Rashi Kumbha / Nakshatra Shatabhisha / Paada 2 / RL Sa / NL Ra / SL Sa / SSL Mo
+- Mercury — Degree 4:38:06 / Rashi Meena / Nakshatra U.Bhadrapada / Paada 1 / RL Ju / NL Sa / SL Sa / SSL Mo
+- Jupiter — Degree 6:39:18 / Rashi Kumbha / Nakshatra Dhanishta / Paada 4 / RL Sa / NL Ma / SL Mo / SSL Su
+- Venus — Degree 9:14:15 / Rashi Kanya / Nakshatra U.Phalguni / Paada 4 / RL Me / NL Su / SL Ve / SSL Sa
+- Saturn (R) — Degree 3:43:08 / Rashi Vrishabha / Nakshatra Krittika / Paada 3 / RL Ve / NL Su / SL Sa / SSL Ke
+- Rahu (R) — Degree 3:02:10 / Rashi Kataka / Nakshatra Punarvasu / Paada 4 / RL Mo / NL Ju / SL Ra / SSL Su
+- Ketu (R) — Degree 3:02:10 / Rashi Makara / Nakshatra U.Ashadha / Paada 2 / RL Sa / NL Su / SL Sa / SSL Sa
+- Uranus — Degree 8:20:43 / Rashi Vrischika / Nakshatra Anuradha / Paada 2 / RL Ma / NL Sa / SL Ve / SSL Ve
+- Neptune (R) — Degree 17:54:27 / Rashi Kataka / Nakshatra Ashlesha / Paada 1 / RL Mo / NL Me / SL Me / SSL Ra
+- Pluto (R) — Degree 9:54:42 / Rashi Vrishabha / Nakshatra Krittika / Paada 4 / RL Ve / NL Su / SL Ve / SSL Ke
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_DWADASHAMSHA_D12_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > DWADASHAMSHA_D12 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+COLLECTION_END
+TITLE=HYEWON_2027_VAS_RASHI_D1-D12
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI_COLLECTION > D1-D12 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+COMBINED FILE CONTINUATION: D16-D60
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D12 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_DWADASHAMSHA_D12_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Dwadashamsha (D-12)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Dwadashamsha_D12 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Dwadashamsha_D12 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Dwadashamsha (D-12)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = Me
+- Upper-Middle-Left Sector = Sa(R)
+- Upper-Right Sector = Su / Mo Ra(R)
+- Left-Middle Sector = Ma Ju
+- Right-Middle Sector = As
+- Lower-Left Sector = Ke(R)
+- Lower-Middle Sector = empty / no visible planet
+- Lower-Right Sector = Ve
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 3:53:01 (Kataka - Pushyami) / Bhava Cusp 18:53:01 (Kataka - Ashlesha)
+- 2H — Bhava Start 3:53:01 (Simha - Makha) / Bhava Cusp 18:53:01 (Simha - P.Phalguni)
+- 3H — Bhava Start 3:53:01 (Kanya - U.Phalguni) / Bhava Cusp 18:53:01 (Kanya - Hasta)
+- 4H — Bhava Start 3:53:01 (Thula - Chitta) / Bhava Cusp 18:53:01 (Thula - Swati)
+- 5H — Bhava Start 3:53:01 (Vrischika - Anuradha) / Bhava Cusp 18:53:01 (Vrischika - Jyeshta)
+- 6H — Bhava Start 3:53:01 (Dhanus - Moola) / Bhava Cusp 18:53:01 (Dhanus - P.Ashadha)
+- 7H — Bhava Start 3:53:01 (Makara - U.Ashadha) / Bhava Cusp 18:53:01 (Makara - Shravana)
+- 8H — Bhava Start 3:53:01 (Kumbha - Dhanishta) / Bhava Cusp 18:53:01 (Kumbha - Shatabhisha)
+- 9H — Bhava Start 3:53:01 (Meena - U.Bhadrapada) / Bhava Cusp 18:53:01 (Meena - Revati)
+- 10H — Bhava Start 3:53:01 (Mesha - Ashwini) / Bhava Cusp 18:53:01 (Mesha - Bharani)
+- 11H — Bhava Start 3:53:01 (Vrishabha - Krittika) / Bhava Cusp 18:53:01 (Vrishabha - Rohini)
+- 12H — Bhava Start 3:53:01 (Mithuna - Mrigashira) / Bhava Cusp 18:53:01 (Mithuna - Aridra)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_DWADASHAMSHA_D12_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > DWADASHAMSHA_D12 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+COMBINED FILE CONTINUATION: D16-D60
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D16 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D16 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_SHODASHAMSHA_D16_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Others
+- Select Chart Type = Shodashamsha (D-16)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Shodashamsha_D16 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Shodashamsha_D16 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Shodashamsha (D-16)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = empty / no visible planet
+- Upper-Center Sector = Ju 8:52 / Sa(R) 14:57
+- Upper-Right Sector = empty / no visible planet
+- Left-Middle Sector = As 5:10
+- Right-Middle Sector = Su 5:22 / Me 6:10
+- Right-Lower-Middle Sector = Mo 10:31 / Ma 25:38
+- Lower-Left Sector = Ve 12:19 / Ra(R) 4:02 / Ke(R) 4:02
+- Lower-Middle Sector = empty / no visible planet
+- Lower-Right Sector = empty / no visible planet
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Shodashamsha (D-16)
+- Lagna — Degree 5:10:41 / Rashi Kumbha / Nakshatra Dhanishta / Paada 4 / RL Sa / NL Ma / SL Su / SSL Ju
+- Sun — Degree 5:22:34 / Rashi Simha / Nakshatra Makha / Paada 2 / RL Su / NL Ke / SL Ma / SSL Ve
+- Moon — Degree 10:31:51 / Rashi Kanya / Nakshatra Hasta / Paada 1 / RL Me / NL Mo / SL Mo / SSL Sa
+- Mars — Degree 25:38:01 / Rashi Kanya / Nakshatra Chitta / Paada 1 / RL Me / NL Ma / SL Ra / SSL Ve
+- Mercury — Degree 6:10:49 / Rashi Simha / Nakshatra Makha / Paada 2 / RL Su / NL Ke / SL Ra / SSL Sa
+- Jupiter — Degree 8:52:24 / Rashi Mesha / Nakshatra Ashwini / Paada 3 / RL Ma / NL Ke / SL Ju / SSL Mo
+- Venus — Degree 12:19:01 / Rashi Dhanus / Nakshatra Moola / Paada 4 / RL Ju / NL Ke / SL Me / SSL Mo
+- Saturn (R) — Degree 14:57:31 / Rashi Vrishabha / Nakshatra Rohini / Paada 2 / RL Ve / NL Mo / SL Ju / SSL Ve
+- Rahu (R) — Degree 4:02:54 / Rashi Dhanus / Nakshatra Moola / Paada 2 / RL Ju / NL Ke / SL Mo / SSL Ju
+- Ketu (R) — Degree 4:02:54 / Rashi Dhanus / Nakshatra Moola / Paada 2 / RL Ju / NL Ke / SL Mo / SSL Ju
+- Uranus — Degree 11:07:38 / Rashi Mesha / Nakshatra Ashwini / Paada 4 / RL Ma / NL Ke / SL Sa / SSL Ra
+- Neptune (R) — Degree 3:52:37 / Rashi Mithuna / Nakshatra Mrigashira / Paada 4 / RL Me / NL Ma / SL Ve / SSL Ju
+- Pluto (R) — Degree 23:12:56 / Rashi Kanya / Nakshatra Hasta / Paada 4 / RL Me / NL Mo / SL Su / SSL Ke
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_SHODASHAMSHA_D16_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > SHODASHAMSHA_D16 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D16 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_SHODASHAMSHA_D16_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Shodashamsha (D-16)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Shodashamsha_D16 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Shodashamsha_D16 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Shodashamsha (D-16)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = empty / no visible planet
+- Upper-Middle-Left Sector = Ju
+- Upper-Right Sector = Sa(R)
+- Left-Middle Sector = As
+- Right-Middle Sector = Su Me
+- Lower-Left Sector = Ve Ra(R) Ke(R)
+- Lower-Middle Sector = Ma
+- Lower-Right Sector = Mo
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 20:10:41 (Makara - Shravana) / Bhava Cusp 5:10:41 (Kumbha - Dhanishta)
+- 2H — Bhava Start 20:10:41 (Kumbha - P.Bhadrapada) / Bhava Cusp 5:10:41 (Meena - U.Bhadrapada)
+- 3H — Bhava Start 20:10:41 (Meena - Revati) / Bhava Cusp 5:10:41 (Mesha - Ashwini)
+- 4H — Bhava Start 20:10:41 (Mesha - Bharani) / Bhava Cusp 5:10:41 (Vrishabha - Krittika)
+- 5H — Bhava Start 20:10:41 (Vrishabha - Rohini) / Bhava Cusp 5:10:41 (Mithuna - Mrigashira)
+- 6H — Bhava Start 20:10:41 (Mithuna - Punarvasu) / Bhava Cusp 5:10:41 (Kataka - Pushyami)
+- 7H — Bhava Start 20:10:41 (Kataka - Ashlesha) / Bhava Cusp 5:10:41 (Simha - Makha)
+- 8H — Bhava Start 20:10:41 (Simha - P.Phalguni) / Bhava Cusp 5:10:41 (Kanya - U.Phalguni)
+- 9H — Bhava Start 20:10:41 (Kanya - Hasta) / Bhava Cusp 5:10:41 (Thula - Chitta)
+- 10H — Bhava Start 20:10:41 (Thula - Vishakha) / Bhava Cusp 5:10:41 (Vrischika - Anuradha)
+- 11H — Bhava Start 20:10:41 (Vrischika - Jyeshta) / Bhava Cusp 5:10:41 (Dhanus - Moola)
+- 12H — Bhava Start 20:10:41 (Dhanus - P.Ashadha) / Bhava Cusp 5:10:41 (Makara - U.Ashadha)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_SHODASHAMSHA_D16_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > SHODASHAMSHA_D16 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D20 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D20 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_VIMSHAMSHA_D20_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Others
+- Select Chart Type = Vimshamsha (D-20)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Vimshamsha_D20 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Vimshamsha_D20 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Vimshamsha (D-20)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = Su 6:43
+- Upper-Center Sector = Sa(R) 26:11
+- Upper-Right Sector = Me 7:43
+- Left-Middle Sector = Ra(R) 5:03 / Ke(R) 5:03
+- Right-Middle Sector = Mo 20:39
+- Right-Lower-Middle Sector = Ve 15:23
+- Lower-Left Sector = As 21:28
+- Lower-Middle Sector = Ma 9:32
+- Lower-Right Sector = Ju 11:05
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Vimshamsha (D-20)
+- Lagna — Degree 21:28:21 / Rashi Makara / Nakshatra Shravana / Paada 4 / RL Sa / NL Mo / SL Ve / SSL Ra
+- Sun — Degree 6:43:12 / Rashi Meena / Nakshatra U.Bhadrapada / Paada 2 / RL Ju / NL Sa / SL Me / SSL Ra
+- Moon — Degree 20:39:49 / Rashi Kataka / Nakshatra Ashlesha / Paada 2 / RL Mo / NL Me / SL Ve / SSL Ju
+- Mars — Degree 9:32:32 / Rashi Vrischika / Nakshatra Anuradha / Paada 2 / RL Ma / NL Sa / SL Ve / SSL Sa
+- Mercury — Degree 7:43:31 / Rashi Mithuna / Nakshatra Aridra / Paada 1 / RL Me / NL Ra / SL Ra / SSL Me
+- Jupiter — Degree 11:05:30 / Rashi Thula / Nakshatra Swati / Paada 2 / RL Ve / NL Ra / SL Sa / SSL Ke
+- Venus — Degree 15:23:46 / Rashi Simha / Nakshatra P.Phalguni / Paada 1 / RL Su / NL Ve / SL Ve / SSL Me
+- Saturn (R) — Degree 26:11:53 / Rashi Vrishabha / Nakshatra Mrigashira / Paada 1 / RL Ve / NL Ma / SL Ju / SSL Ju
+- Rahu (R) — Degree 5:03:37 / Rashi Kumbha / Nakshatra Dhanishta / Paada 4 / RL Sa / NL Ma / SL Su / SSL Ra
+- Ketu (R) — Degree 5:03:37 / Rashi Kumbha / Nakshatra Dhanishta / Paada 4 / RL Sa / NL Ma / SL Su / SSL Ra
+- Uranus — Degree 13:54:32 / Rashi Thula / Nakshatra Swati / Paada 3 / RL Ve / NL Ra / SL Me / SSL Ju
+- Neptune (R) — Degree 19:50:46 / Rashi Meena / Nakshatra Revati / Paada 1 / RL Ju / NL Me / SL Ve / SSL Mo
+- Pluto (R) — Degree 6:31:10 / Rashi Vrischika / Nakshatra Anuradha / Paada 1 / RL Ma / NL Sa / SL Me / SSL Ra
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_VIMSHAMSHA_D20_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > VIMSHAMSHA_D20 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D20 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_VIMSHAMSHA_D20_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Vimshamsha (D-20)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Vimshamsha_D20 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Vimshamsha_D20 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Vimshamsha (D-20)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = Su
+- Upper-Middle-Left Sector = Sa(R)
+- Upper-Right Sector = Me
+- Left-Middle Sector = As Ra(R) Ke(R)
+- Right-Middle Sector = Mo
+- Lower-Left Sector = empty / no visible planet
+- Lower-Middle Sector = Ma / Ju
+- Lower-Right Sector = Ve
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 6:28:21 (Makara - U.Ashadha) / Bhava Cusp 21:28:21 (Makara - Shravana)
+- 2H — Bhava Start 6:28:21 (Kumbha - Dhanishta) / Bhava Cusp 21:28:21 (Kumbha - P.Bhadrapada)
+- 3H — Bhava Start 6:28:21 (Meena - U.Bhadrapada) / Bhava Cusp 21:28:21 (Meena - Revati)
+- 4H — Bhava Start 6:28:21 (Mesha - Ashwini) / Bhava Cusp 21:28:21 (Mesha - Bharani)
+- 5H — Bhava Start 6:28:21 (Vrishabha - Krittika) / Bhava Cusp 21:28:21 (Vrishabha - Rohini)
+- 6H — Bhava Start 6:28:21 (Mithuna - Mrigashira) / Bhava Cusp 21:28:21 (Mithuna - Punarvasu)
+- 7H — Bhava Start 6:28:21 (Kataka - Pushyami) / Bhava Cusp 21:28:21 (Kataka - Ashlesha)
+- 8H — Bhava Start 6:28:21 (Simha - Makha) / Bhava Cusp 21:28:21 (Simha - P.Phalguni)
+- 9H — Bhava Start 6:28:21 (Kanya - U.Phalguni) / Bhava Cusp 21:28:21 (Kanya - Hasta)
+- 10H — Bhava Start 6:28:21 (Thula - Chitta) / Bhava Cusp 21:28:21 (Thula - Vishakha)
+- 11H — Bhava Start 6:28:21 (Vrischika - Anuradha) / Bhava Cusp 21:28:21 (Vrischika - Jyeshta)
+- 12H — Bhava Start 6:28:21 (Dhanus - Moola) / Bhava Cusp 21:28:21 (Dhanus - P.Ashadha)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_VIMSHAMSHA_D20_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > VIMSHAMSHA_D20 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D24 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D24 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_CHATURVIMSHAMSHA_D24_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Others
+- Select Chart Type = Chaturvimshamsha (D-24)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Chaturvimshamsha_D24 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Chaturvimshamsha_D24 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Chaturvimshamsha (D-24)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = empty / no visible planet
+- Upper-Center Sector = As 7:46 / Ma 23:27
+- Upper-Right Sector = empty / no visible planet
+- Left-Middle Sector = Su 8:03
+- Right-Middle Sector = Me 9:16 / Ve 18:28 / Ra(R) 6:04 / Ke(R) 6:04
+- Right-Lower-Middle Sector = Ju 13:18
+- Lower-Left Sector = empty / no visible planet
+- Lower-Middle Sector = Mo 0:47 / Sa(R) 7:26
+- Lower-Right Sector = empty / no visible planet
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Chaturvimshamsha (D-24)
+- Lagna — Degree 7:46:02 / Rashi Mesha / Nakshatra Ashwini / Paada 3 / RL Ma / NL Ke / SL Ju / SSL Ju
+- Sun — Degree 8:03:51 / Rashi Kumbha / Nakshatra Shatabhisha / Paada 1 / RL Sa / NL Ra / SL Ra / SSL Ve
+- Moon — Degree 0:47:47 / Rashi Thula / Nakshatra Chitta / Paada 3 / RL Ve / NL Ma / SL Me / SSL Mo
+- Mars — Degree 23:27:02 / Rashi Mesha / Nakshatra Bharani / Paada 4 / RL Ma / NL Ve / SL Sa / SSL Ra
+- Mercury — Degree 9:16:13 / Rashi Kataka / Nakshatra Pushyami / Paada 2 / RL Mo / NL Sa / SL Ve / SSL Ju
+- Jupiter — Degree 13:18:37 / Rashi Simha / Nakshatra Makha / Paada 4 / RL Su / NL Ke / SL Me / SSL Sa
+- Venus — Degree 18:28:31 / Rashi Kataka / Nakshatra Ashlesha / Paada 1 / RL Mo / NL Me / SL Me / SSL Sa
+- Saturn (R) — Degree 7:26:16 / Rashi Thula / Nakshatra Swati / Paada 1 / RL Ve / NL Ra / SL Ra / SSL Sa
+- Rahu (R) — Degree 6:04:21 / Rashi Kataka / Nakshatra Pushyami / Paada 1 / RL Mo / NL Sa / SL Me / SSL Ve
+- Ketu (R) — Degree 6:04:21 / Rashi Kataka / Nakshatra Pushyami / Paada 1 / RL Mo / NL Sa / SL Me / SSL Ve
+- Uranus — Degree 16:41:27 / Rashi Kataka / Nakshatra Ashlesha / Paada 1 / RL Mo / NL Me / SL Me / SSL Me
+- Neptune (R) — Degree 5:48:55 / Rashi Mesha / Nakshatra Ashwini / Paada 2 / RL Ma / NL Ke / SL Ra / SSL Ra
+- Pluto (R) — Degree 19:49:24 / Rashi Meena / Nakshatra Revati / Paada 1 / RL Ju / NL Me / SL Ve / SSL Mo
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_CHATURVIMSHAMSHA_D24_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > CHATURVIMSHAMSHA_D24 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D24 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_CHATURVIMSHAMSHA_D24_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Chaturvimshamsha (D-24)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Chaturvimshamsha_D24 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Chaturvimshamsha_D24 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Chaturvimshamsha (D-24)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = empty / no visible planet
+- Upper-Middle-Left Sector = As
+- Upper-Right Sector = Ma
+- Left-Middle Sector = Su
+- Right-Middle Sector = Me Ve Ra(R) Ke(R)
+- Lower-Left Sector = empty / no visible planet
+- Lower-Middle Sector = Mo Sa(R)
+- Lower-Right Sector = Ju
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 22:46:02 (Meena - Revati) / Bhava Cusp 7:46:02 (Mesha - Ashwini)
+- 2H — Bhava Start 22:46:02 (Mesha - Bharani) / Bhava Cusp 7:46:02 (Vrishabha - Krittika)
+- 3H — Bhava Start 22:46:02 (Vrishabha - Rohini) / Bhava Cusp 7:46:02 (Mithuna - Aridra)
+- 4H — Bhava Start 22:46:02 (Mithuna - Punarvasu) / Bhava Cusp 7:46:02 (Kataka - Pushyami)
+- 5H — Bhava Start 22:46:02 (Kataka - Ashlesha) / Bhava Cusp 7:46:02 (Simha - Makha)
+- 6H — Bhava Start 22:46:02 (Simha - P.Phalguni) / Bhava Cusp 7:46:02 (Kanya - U.Phalguni)
+- 7H — Bhava Start 22:46:02 (Kanya - Hasta) / Bhava Cusp 7:46:02 (Thula - Swati)
+- 8H — Bhava Start 22:46:02 (Thula - Vishakha) / Bhava Cusp 7:46:02 (Vrischika - Anuradha)
+- 9H — Bhava Start 22:46:02 (Vrischika - Jyeshta) / Bhava Cusp 7:46:02 (Dhanus - Moola)
+- 10H — Bhava Start 22:46:02 (Dhanus - P.Ashadha) / Bhava Cusp 7:46:02 (Makara - U.Ashadha)
+- 11H — Bhava Start 22:46:02 (Makara - Shravana) / Bhava Cusp 7:46:02 (Kumbha - Shatabhisha)
+- 12H — Bhava Start 22:46:02 (Kumbha - P.Bhadrapada) / Bhava Cusp 7:46:02 (Meena - U.Bhadrapada)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_CHATURVIMSHAMSHA_D24_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > CHATURVIMSHAMSHA_D24 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D27 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D27 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_SAPTAVIMSHAMSHA_D27_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Others
+- Select Chart Type = Saptavimshamsha (D-27)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Saptavimshamsha_D27 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Saptavimshamsha_D27 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Saptavimshamsha (D-27)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = empty / no visible planet
+- Upper-Center Sector = Ju 29:58
+- Upper-Right Sector = As 27:29 / Sa(R) 15:52
+- Left-Middle Sector = Ke(R) 21:49
+- Right-Middle Sector = Mo 23:23 / Ma 26:22 / Ve 20:47
+- Right-Lower-Middle Sector = Me 25:25 / Ra(R) 21:49
+- Lower-Left Sector = Su 16:34
+- Lower-Middle Sector = empty / no visible planet
+- Lower-Right Sector = empty / no visible planet
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Saptavimshamsha (D-27)
+- Lagna — Degree 27:29:17 / Rashi Mithuna / Nakshatra Punarvasu / Paada 3 / RL Me / NL Ju / SL Ve / SSL Ra
+- Sun — Degree 16:34:19 / Rashi Dhanus / Nakshatra P.Ashadha / Paada 1 / RL Ju / NL Ve / SL Mo / SSL Ju
+- Moon — Degree 23:23:45 / Rashi Kataka / Nakshatra Ashlesha / Paada 3 / RL Mo / NL Me / SL Ma / SSL Ra
+- Mars — Degree 26:22:55 / Rashi Kataka / Nakshatra Ashlesha / Paada 3 / RL Mo / NL Me / SL Ju / SSL Sa
+- Mercury — Degree 25:25:45 / Rashi Simha / Nakshatra P.Phalguni / Paada 4 / RL Su / NL Ve / SL Me / SSL Ju
+- Jupiter — Degree 29:58:26 / Rashi Vrishabha / Nakshatra Mrigashira / Paada 2 / RL Ve / NL Ma / SL Sa / SSL Ju
+- Venus — Degree 20:47:05 / Rashi Kataka / Nakshatra Ashlesha / Paada 2 / RL Mo / NL Me / SL Ve / SSL Sa
+- Saturn (R) — Degree 15:52:03 / Rashi Mithuna / Nakshatra Aridra / Paada 3 / RL Me / NL Ra / SL Ve / SSL Mo
+- Rahu (R) — Degree 21:49:54 / Rashi Simha / Nakshatra P.Phalguni / Paada 3 / RL Su / NL Ve / SL Ju / SSL Ra
+- Ketu (R) — Degree 21:49:54 / Rashi Kumbha / Nakshatra P.Bhadrapada / Paada 1 / RL Sa / NL Ju / SL Sa / SSL Sa
+- Uranus — Degree 3:46:38 / Rashi Kanya / Nakshatra U.Phalguni / Paada 3 / RL Me / NL Su / SL Sa / SSL Ve
+- Neptune (R) — Degree 10:17:32 / Rashi Vrischika / Nakshatra Anuradha / Paada 3 / RL Ma / NL Sa / SL Ve / SSL Ke
+- Pluto (R) — Degree 22:18:04 / Rashi Mesha / Nakshatra Bharani / Paada 3 / RL Ma / NL Ve / SL Sa / SSL Me
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_SAPTAVIMSHAMSHA_D27_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > SAPTAVIMSHAMSHA_D27 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D27 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_SAPTAVIMSHAMSHA_D27_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Saptavimshamsha (D-27)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Saptavimshamsha_D27 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Saptavimshamsha_D27 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Saptavimshamsha (D-27)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = empty / no visible planet
+- Upper-Middle-Left Sector = Ju
+- Upper-Right Sector = As Sa(R)
+- Left-Middle Sector = Ke(R)
+- Right-Middle Sector = Mo Ma Ve
+- Lower-Left Sector = Su
+- Lower-Middle Sector = empty / no visible planet
+- Lower-Right Sector = Me Ra(R)
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 12:29:17 (Mithuna - Aridra) / Bhava Cusp 27:29:17 (Mithuna - Punarvasu)
+- 2H — Bhava Start 12:29:17 (Kataka - Pushyami) / Bhava Cusp 27:29:17 (Kataka - Ashlesha)
+- 3H — Bhava Start 12:29:17 (Simha - Makha) / Bhava Cusp 27:29:17 (Simha - U.Phalguni)
+- 4H — Bhava Start 12:29:17 (Kanya - Hasta) / Bhava Cusp 27:29:17 (Kanya - Chitta)
+- 5H — Bhava Start 12:29:17 (Thula - Swati) / Bhava Cusp 27:29:17 (Thula - Vishakha)
+- 6H — Bhava Start 12:29:17 (Vrischika - Anuradha) / Bhava Cusp 27:29:17 (Vrischika - Jyeshta)
+- 7H — Bhava Start 12:29:17 (Dhanus - Moola) / Bhava Cusp 27:29:17 (Dhanus - U.Ashadha)
+- 8H — Bhava Start 12:29:17 (Makara - Shravana) / Bhava Cusp 27:29:17 (Makara - Dhanishta)
+- 9H — Bhava Start 12:29:17 (Kumbha - Shatabhisha) / Bhava Cusp 27:29:17 (Kumbha - P.Bhadrapada)
+- 10H — Bhava Start 12:29:17 (Meena - U.Bhadrapada) / Bhava Cusp 27:29:17 (Meena - Revati)
+- 11H — Bhava Start 12:29:17 (Mesha - Ashwini) / Bhava Cusp 27:29:17 (Mesha - Krittika)
+- 12H — Bhava Start 12:29:17 (Vrishabha - Rohini) / Bhava Cusp 27:29:17 (Vrishabha - Mrigashira)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_SAPTAVIMSHAMSHA_D27_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > SAPTAVIMSHAMSHA_D27 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D30 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D30 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_TRIMSHAMSHA_D30_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Others
+- Select Chart Type = Trimshamsha (D-30)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Trimshamsha_D30 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Trimshamsha_D30 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Trimshamsha (D-30)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = Me 11:35 / Ra(R) 7:35 / Ke(R) 7:35
+- Upper-Center Sector = Sa(R) 24:17 / Ve 23:05
+- Upper-Right Sector = Su 25:04
+- Left-Middle Sector = empty / no visible planet
+- Right-Middle Sector = empty / no visible planet
+- Right-Lower-Middle Sector = empty / no visible planet
+- Lower-Left Sector = Mo 15:59 / Ma 29:18 / Ju 16:38
+- Lower-Middle Sector = As 17:12
+- Lower-Right Sector = empty / no visible planet
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Trimshamsha (D-30)
+- Lagna — Degree 17:12:32 / Rashi Vrischika / Nakshatra Jyeshta / Paada 1 / RL Ma / NL Me / SL Me / SSL Ve
+- Sun — Degree 25:04:48 / Rashi Mithuna / Nakshatra Punarvasu / Paada 2 / RL Me / NL Ju / SL Me / SSL Ra
+- Moon — Degree 15:59:43 / Rashi Dhanus / Nakshatra P.Ashadha / Paada 1 / RL Ju / NL Ve / SL Su / SSL Me
+- Mars — Degree 29:18:48 / Rashi Dhanus / Nakshatra U.Ashadha / Paada 1 / RL Ju / NL Su / SL Ra / SSL Ra
+- Mercury — Degree 11:35:16 / Rashi Meena / Nakshatra U.Bhadrapada / Paada 3 / RL Ju / NL Sa / SL Mo / SSL Sa
+- Jupiter — Degree 16:38:16 / Rashi Dhanus / Nakshatra P.Ashadha / Paada 1 / RL Ju / NL Ve / SL Mo / SSL Ju
+- Venus — Degree 23:05:39 / Rashi Vrishabha / Nakshatra Rohini / Paada 4 / RL Ve / NL Mo / SL Su / SSL Me
+- Saturn (R) — Degree 24:17:50 / Rashi Mesha / Nakshatra Bharani / Paada 4 / RL Ma / NL Ve / SL Me / SSL Ke
+- Rahu (R) — Degree 7:35:26 / Rashi Meena / Nakshatra U.Bhadrapada / Paada 2 / RL Ju / NL Sa / SL Ke / SSL Mo
+- Ketu (R) — Degree 7:35:26 / Rashi Meena / Nakshatra U.Bhadrapada / Paada 2 / RL Ju / NL Sa / SL Ke / SSL Mo
+- Uranus — Degree 20:51:48 / Rashi Meena / Nakshatra Revati / Paada 2 / RL Ju / NL Me / SL Ve / SSL Sa
+- Neptune (R) — Degree 14:46:09 / Rashi Kanya / Nakshatra Hasta / Paada 2 / RL Me / NL Mo / SL Ju / SSL Ve
+- Pluto (R) — Degree 24:46:45 / Rashi Kanya / Nakshatra Chitta / Paada 1 / RL Me / NL Ma / SL Ra / SSL Sa
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_TRIMSHAMSHA_D30_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > TRIMSHAMSHA_D30 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D30 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_TRIMSHAMSHA_D30_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Trimshamsha (D-30)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Trimshamsha_D30 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Trimshamsha_D30 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Trimshamsha (D-30)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = Me Ra(R) Ke(R)
+- Upper-Middle-Left Sector = Sa(R)
+- Upper-Right Sector = Ve / Su
+- Left-Middle Sector = empty / no visible planet
+- Right-Middle Sector = empty / no visible planet
+- Lower-Left Sector = Mo Ma Ju
+- Lower-Middle Sector = As
+- Lower-Right Sector = empty / no visible planet
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 2:12:32 (Vrischika - Vishakha) / Bhava Cusp 17:12:32 (Vrischika - Jyeshta)
+- 2H — Bhava Start 2:12:32 (Dhanus - Moola) / Bhava Cusp 17:12:32 (Dhanus - P.Ashadha)
+- 3H — Bhava Start 2:12:32 (Makara - U.Ashadha) / Bhava Cusp 17:12:32 (Makara - Shravana)
+- 4H — Bhava Start 2:12:32 (Kumbha - Dhanishta) / Bhava Cusp 17:12:32 (Kumbha - Shatabhisha)
+- 5H — Bhava Start 2:12:32 (Meena - P.Bhadrapada) / Bhava Cusp 17:12:32 (Meena - Revati)
+- 6H — Bhava Start 2:12:32 (Mesha - Ashwini) / Bhava Cusp 17:12:32 (Mesha - Bharani)
+- 7H — Bhava Start 2:12:32 (Vrishabha - Krittika) / Bhava Cusp 17:12:32 (Vrishabha - Rohini)
+- 8H — Bhava Start 2:12:32 (Mithuna - Mrigashira) / Bhava Cusp 17:12:32 (Mithuna - Aridra)
+- 9H — Bhava Start 2:12:32 (Kataka - Punarvasu) / Bhava Cusp 17:12:32 (Kataka - Ashlesha)
+- 10H — Bhava Start 2:12:32 (Simha - Makha) / Bhava Cusp 17:12:32 (Simha - P.Phalguni)
+- 11H — Bhava Start 2:12:32 (Kanya - U.Phalguni) / Bhava Cusp 17:12:32 (Kanya - Hasta)
+- 12H — Bhava Start 2:12:32 (Thula - Chitta) / Bhava Cusp 17:12:32 (Thula - Swati)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_TRIMSHAMSHA_D30_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > TRIMSHAMSHA_D30 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D40 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D40 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_KHAVEDAMSHA_D40_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Others
+- Select Chart Type = Khavedamsha (D-40)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Khavedamsha_D40 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Khavedamsha_D40 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Khavedamsha (D-40)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = Mo 11:19
+- Upper-Center Sector = empty / no visible planet
+- Upper-Right Sector = Ma 19:05 / Me 15:27 / Ra(R) 10:07 / Ke(R) 10:07
+- Left-Middle Sector = empty / no visible planet
+- Right-Middle Sector = Sa(R) 22:23
+- Right-Lower-Middle Sector = As 12:56
+- Lower-Left Sector = Ju 22:11
+- Lower-Middle Sector = Ve 0:47 / Su 13:26
+- Lower-Right Sector = empty / no visible planet
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Khavedamsha (D-40)
+- Lagna — Degree 12:56:43 / Rashi Kanya / Nakshatra Hasta / Paada 1 / RL Me / NL Mo / SL Ra / SSL Me
+- Sun — Degree 13:26:25 / Rashi Thula / Nakshatra Swati / Paada 3 / RL Ve / NL Ra / SL Me / SSL Mo
+- Moon — Degree 11:19:38 / Rashi Meena / Nakshatra U.Bhadrapada / Paada 3 / RL Ju / NL Sa / SL Mo / SSL Ju
+- Mars — Degree 19:05:04 / Rashi Mithuna / Nakshatra Aridra / Paada 4 / RL Me / NL Ra / SL Mo / SSL Ve
+- Mercury — Degree 15:27:02 / Rashi Mithuna / Nakshatra Aridra / Paada 3 / RL Me / NL Ra / SL Ve / SSL Ve
+- Jupiter — Degree 22:11:01 / Rashi Dhanus / Nakshatra P.Ashadha / Paada 3 / RL Ju / NL Ve / SL Sa / SSL Sa
+- Venus — Degree 0:47:32 / Rashi Vrischika / Nakshatra Vishakha / Paada 4 / RL Ma / NL Ju / SL Ma / SSL Ju
+- Saturn (R) — Degree 22:23:47 / Rashi Kataka / Nakshatra Ashlesha / Paada 2 / RL Mo / NL Me / SL Mo / SSL Ra
+- Rahu (R) — Degree 10:07:15 / Rashi Mithuna / Nakshatra Aridra / Paada 2 / RL Me / NL Ra / SL Ju / SSL Ma
+- Ketu (R) — Degree 10:07:15 / Rashi Mithuna / Nakshatra Aridra / Paada 2 / RL Me / NL Ra / SL Ju / SSL Ma
+- Uranus — Degree 27:49:05 / Rashi Mithuna / Nakshatra Punarvasu / Paada 3 / RL Me / NL Ju / SL Ve / SSL Ju
+- Neptune (R) — Degree 9:41:33 / Rashi Makara / Nakshatra U.Ashadha / Paada 4 / RL Sa / NL Su / SL Ve / SSL Me
+- Pluto (R) — Degree 13:02:20 / Rashi Dhanus / Nakshatra Moola / Paada 4 / RL Ju / NL Ke / SL Me / SSL Sa
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_KHAVEDAMSHA_D40_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > KHAVEDAMSHA_D40 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D40 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_KHAVEDAMSHA_D40_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Khavedamsha (D-40)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Khavedamsha_D40 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Khavedamsha_D40 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Khavedamsha (D-40)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = Mo
+- Upper-Middle-Left Sector = empty / no visible planet
+- Upper-Right Sector = Ma Me Ra(R) Ke(R)
+- Left-Middle Sector = empty / no visible planet
+- Right-Middle Sector = Sa(R)
+- Lower-Left Sector = Ju
+- Lower-Middle Sector = Ve / Su
+- Lower-Right Sector = As
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 27:56:43 (Simha - U.Phalguni) / Bhava Cusp 12:56:43 (Kanya - Hasta)
+- 2H — Bhava Start 27:56:43 (Kanya - Chitta) / Bhava Cusp 12:56:43 (Thula - Swati)
+- 3H — Bhava Start 27:56:43 (Thula - Vishakha) / Bhava Cusp 12:56:43 (Vrischika - Anuradha)
+- 4H — Bhava Start 27:56:43 (Vrischika - Jyeshta) / Bhava Cusp 12:56:43 (Dhanus - Moola)
+- 5H — Bhava Start 27:56:43 (Dhanus - U.Ashadha) / Bhava Cusp 12:56:43 (Makara - Shravana)
+- 6H — Bhava Start 27:56:43 (Makara - Dhanishta) / Bhava Cusp 12:56:43 (Kumbha - Shatabhisha)
+- 7H — Bhava Start 27:56:43 (Kumbha - P.Bhadrapada) / Bhava Cusp 12:56:43 (Meena - U.Bhadrapada)
+- 8H — Bhava Start 27:56:43 (Meena - Revati) / Bhava Cusp 12:56:43 (Mesha - Ashwini)
+- 9H — Bhava Start 27:56:43 (Mesha - Krittika) / Bhava Cusp 12:56:43 (Vrishabha - Rohini)
+- 10H — Bhava Start 27:56:43 (Vrishabha - Mrigashira) / Bhava Cusp 12:56:43 (Mithuna - Aridra)
+- 11H — Bhava Start 27:56:43 (Mithuna - Punarvasu) / Bhava Cusp 12:56:43 (Kataka - Pushyami)
+- 12H — Bhava Start 27:56:43 (Kataka - Ashlesha) / Bhava Cusp 12:56:43 (Simha - Makha)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_KHAVEDAMSHA_D40_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > KHAVEDAMSHA_D40 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D45 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D45 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_AKSHAVEDAMSHA_D45_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Others
+- Select Chart Type = Akshavedamsha (D-45)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Akshavedamsha_D45 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Akshavedamsha_D45 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Akshavedamsha (D-45)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = As 25:48
+- Upper-Center Sector = empty / no visible planet
+- Upper-Right Sector = Su 7:37
+- Left-Middle Sector = Mo 8:59 / Ra(R) 26:23 / Ke(R) 26:23
+- Right-Middle Sector = Ju 9:57
+- Right-Lower-Middle Sector = Ma 13:58 / Sa(R) 6:26
+- Lower-Left Sector = Ve 4:38
+- Lower-Middle Sector = Me 2:22
+- Lower-Right Sector = empty / no visible planet
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Akshavedamsha (D-45)
+- Lagna — Degree 25:48:49 / Rashi Meena / Nakshatra Revati / Paada 3 / RL Ju / NL Me / SL Ra / SSL Su
+- Sun — Degree 7:37:13 / Rashi Mithuna / Nakshatra Aridra / Paada 1 / RL Me / NL Ra / SL Ra / SSL Me
+- Moon — Degree 8:59:35 / Rashi Kumbha / Nakshatra Shatabhisha / Paada 1 / RL Sa / NL Ra / SL Ju / SSL Sa
+- Mars — Degree 13:58:12 / Rashi Simha / Nakshatra P.Phalguni / Paada 1 / RL Su / NL Ve / SL Ve / SSL Mo
+- Mercury — Degree 2:22:55 / Rashi Vrischika / Nakshatra Vishakha / Paada 4 / RL Ma / NL Ju / SL Ra / SSL Me
+- Jupiter — Degree 9:57:24 / Rashi Kataka / Nakshatra Pushyami / Paada 2 / RL Mo / NL Sa / SL Ve / SSL Me
+- Venus — Degree 4:38:29 / Rashi Makara / Nakshatra U.Ashadha / Paada 3 / RL Sa / NL Su / SL Sa / SSL Ra
+- Saturn (R) — Degree 6:26:46 / Rashi Simha / Nakshatra Makha / Paada 2 / RL Su / NL Ke / SL Ra / SSL Me
+- Rahu (R) — Degree 26:23:10 / Rashi Kumbha / Nakshatra P.Bhadrapada / Paada 2 / RL Sa / NL Ju / SL Ke / SSL Sa
+- Ketu (R) — Degree 26:23:10 / Rashi Kumbha / Nakshatra P.Bhadrapada / Paada 2 / RL Sa / NL Ju / SL Ke / SSL Sa
+- Uranus — Degree 16:17:43 / Rashi Kataka / Nakshatra Pushyami / Paada 4 / RL Mo / NL Sa / SL Ju / SSL Mo
+- Neptune (R) — Degree 7:09:14 / Rashi Vrishabha / Nakshatra Krittika / Paada 4 / RL Ve / NL Su / SL Ke / SSL Ve
+- Pluto (R) — Degree 7:10:07 / Rashi Simha / Nakshatra Makha / Paada 3 / RL Su / NL Ke / SL Ra / SSL Ve
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_AKSHAVEDAMSHA_D45_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > AKSHAVEDAMSHA_D45 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D45 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_AKSHAVEDAMSHA_D45_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Akshavedamsha (D-45)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Akshavedamsha_D45 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Akshavedamsha_D45 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Akshavedamsha (D-45)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = As
+- Upper-Middle-Left Sector = empty / no visible planet
+- Upper-Right Sector = Su / Ju
+- Left-Middle Sector = Ra(R) Ke(R)
+- Right-Middle Sector = Sa(R)
+- Lower-Left Sector = Mo / Ve
+- Lower-Middle Sector = Me
+- Lower-Right Sector = Ma
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 10:48:49 (Meena - U.Bhadrapada) / Bhava Cusp 25:48:49 (Meena - Revati)
+- 2H — Bhava Start 10:48:49 (Mesha - Ashwini) / Bhava Cusp 25:48:49 (Mesha - Bharani)
+- 3H — Bhava Start 10:48:49 (Vrishabha - Rohini) / Bhava Cusp 25:48:49 (Vrishabha - Mrigashira)
+- 4H — Bhava Start 10:48:49 (Mithuna - Aridra) / Bhava Cusp 25:48:49 (Mithuna - Punarvasu)
+- 5H — Bhava Start 10:48:49 (Kataka - Pushyami) / Bhava Cusp 25:48:49 (Kataka - Ashlesha)
+- 6H — Bhava Start 10:48:49 (Simha - Makha) / Bhava Cusp 25:48:49 (Simha - P.Phalguni)
+- 7H — Bhava Start 10:48:49 (Kanya - Hasta) / Bhava Cusp 25:48:49 (Kanya - Chitta)
+- 8H — Bhava Start 10:48:49 (Thula - Swati) / Bhava Cusp 25:48:49 (Thula - Vishakha)
+- 9H — Bhava Start 10:48:49 (Vrischika - Anuradha) / Bhava Cusp 25:48:49 (Vrischika - Jyeshta)
+- 10H — Bhava Start 10:48:49 (Dhanus - Moola) / Bhava Cusp 25:48:49 (Dhanus - P.Ashadha)
+- 11H — Bhava Start 10:48:49 (Makara - Shravana) / Bhava Cusp 25:48:49 (Makara - Dhanishta)
+- 12H — Bhava Start 10:48:49 (Kumbha - Shatabhisha) / Bhava Cusp 25:48:49 (Kumbha - P.Bhadrapada)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_AKSHAVEDAMSHA_D45_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > AKSHAVEDAMSHA_D45 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D60 SET]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D60 RASHI SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_RASHI_SHASHTYAMSHA_D60_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Others
+- Select Chart Type = Shashtyamsha (D-60)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Rashi / Shashtyamsha_D60 / Complete Dataset
+- Function = annual-event baseline / yearly activation reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with natal Shashtyamsha_D60 baseline and annual Bhava layer
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Shashtyamsha (D-60)
+
+Dataset Scope
+- Visible annual Rashi divisional wheel snapshot
+- Visible planetary positions table
+- Visible RL / NL / SL / SSL complementary table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Wheel Snapshot
+- Upper-Left Sector = Me 23:10 / Ju 3:16
+- Upper-Center Sector = Su 20:09
+- Upper-Right Sector = empty / no visible planet
+- Left-Middle Sector = As 4:25
+- Right-Middle Sector = Ma 28:37 / Ra(R) 15:10
+- Right-Lower-Middle Sector = Sa(R) 18:35
+- Lower-Left Sector = Ke(R) 15:10
+- Lower-Middle Sector = Mo 1:59 / Ve 16:11
+- Lower-Right Sector = empty / no visible planet
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Planetary Positions for Shashtyamsha (D-60)
+- Lagna — Degree 4:25:05 / Rashi Kumbha / Nakshatra Dhanishta / Paada 4 / RL Sa / NL Ma / SL Ve / SSL Sa
+- Sun — Degree 20:09:37 / Rashi Vrishabha / Nakshatra Rohini / Paada 4 / RL Ve / NL Mo / SL Ke / SSL Ju
+- Moon — Degree 1:59:27 / Rashi Vrischika / Nakshatra Vishakha / Paada 4 / RL Ma / NL Ju / SL Ra / SSL Sa
+- Mars — Degree 28:37:36 / Rashi Kataka / Nakshatra Ashlesha / Paada 4 / RL Mo / NL Me / SL Sa / SSL Ke
+- Mercury — Degree 23:10:33 / Rashi Meena / Nakshatra Revati / Paada 2 / RL Ju / NL Me / SL Mo / SSL Ve
+- Jupiter — Degree 3:16:32 / Rashi Meena / Nakshatra P.Bhadrapada / Paada 4 / RL Ju / NL Ju / SL Ra / SSL Ma
+- Venus — Degree 16:11:19 / Rashi Thula / Nakshatra Swati / Paada 3 / RL Ve / NL Ra / SL Ve / SSL Ra
+- Saturn (R) — Degree 18:35:41 / Rashi Kanya / Nakshatra Hasta / Paada 3 / RL Me / NL Mo / SL Me / SSL Mo
+- Rahu (R) — Degree 15:10:53 / Rashi Kataka / Nakshatra Pushyami / Paada 4 / RL Mo / NL Sa / SL Ju / SSL Sa
+- Ketu (R) — Degree 15:10:53 / Rashi Makara / Nakshatra Shravana / Paada 2 / RL Sa / NL Mo / SL Ju / SSL Mo
+- Uranus — Degree 11:43:37 / Rashi Dhanus / Nakshatra Moola / Paada 4 / RL Ju / NL Ke / SL Me / SSL Ke
+- Neptune (R) — Degree 29:32:19 / Rashi Makara / Nakshatra Dhanishta / Paada 2 / RL Sa / NL Ma / SL Sa / SSL Ra
+- Pluto (R) — Degree 19:33:30 / Rashi Thula / Nakshatra Swati / Paada 4 / RL Ve / NL Ra / SL Ma / SSL Sa
+- Muntha (Mu) — Degree not shown / Rashi not shown / Nakshatra not shown / Paada not shown / RL not shown / NL not shown / SL not shown / SSL not shown
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Wheel Snapshot Status = PASS
+- Position Table Status = PASS
+- Complementary Column Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_RASHI_SHASHTYAMSHA_D60_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > RASHI > SHASHTYAMSHA_D60 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[D60 BHAVA SOURCE]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+[HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_SHASHTYAMSHA_D60_2027_BLUEAPP_COMPLETE_DATASET – USER | IMAGE_VERIFIED_MASTER_FINAL]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Source App Note
+- Source App = Blue app screenshots (2)
+- Screen = Varshaphala (Tajaka)
+- Active Tab = Bhava
+- Bhava System = Equal Houses
+- Select Chart Type = Shashtyamsha (D-60)
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Data Source = SCREENSHOT_ONLY
+- Extraction Basis = visible screenshot values only
+- Hidden / non-visible values are not assumed
+
+Source Classification
+- Category = Vedic Annual Return Chart
+- Subtype = Varshaphala Tajaka / Bhava Equal Houses / Shashtyamsha_D60 / Complete Dataset
+- Function = annual house-activation baseline / yearly bhava reference
+- Usage = annual reading baseline / Mudda Dasha linkage / cross-use with annual Shashtyamsha_D60 Rashi layer and natal divisional baseline
+
+Header Data
+- Subject Code = HYEWON
+- Reference Birth Date = not shown
+- Reference Birth Time = not shown
+- Reference Place = not shown
+- Zodiac / System = not shown
+- Ayanamsa = not shown
+- Node Type = not shown
+- Varshaphala Date-Time = 10-Sep-2027 08:50:00 AM
+- Time Zone = +09:00
+- Place = Korea, busan
+- Chart Type = Shashtyamsha (D-60)
+- Bhava System = Equal Houses
+
+Dataset Scope
+- Visible annual Bhava wheel snapshot
+- Visible Bhava Start / Bhava Cusp table
+- Visible Vimshottari Mudda Dasha (Method 1)
+- Visible note block
+- No interpretation layer included
+
+Visible Bhava Snapshot
+- Upper-Left Sector = Ju
+- Upper-Middle-Left Sector = Me
+- Upper-Right Sector = Su
+- Left-Middle Sector = As
+- Right-Middle Sector = Ra(R)
+- Lower-Left Sector = Ke(R)
+- Lower-Middle Sector = Mo / Ve
+- Lower-Right Sector = Ma / Sa(R)
+- Additional Visible Sectors = not shown
+- Wheel Readability = FULL
+- Wheel Lock Status = LOCKED
+
+Visible Bhava Start / Bhava Cusp Structure
+- 1H — Bhava Start 19:25:05 (Makara - Shravana) / Bhava Cusp 4:25:05 (Kumbha - Dhanishta)
+- 2H — Bhava Start 19:25:05 (Kumbha - Shatabhisha) / Bhava Cusp 4:25:05 (Meena - U.Bhadrapada)
+- 3H — Bhava Start 19:25:05 (Meena - Revati) / Bhava Cusp 4:25:05 (Mesha - Ashwini)
+- 4H — Bhava Start 19:25:05 (Mesha - Bharani) / Bhava Cusp 4:25:05 (Vrishabha - Krittika)
+- 5H — Bhava Start 19:25:05 (Vrishabha - Rohini) / Bhava Cusp 4:25:05 (Mithuna - Mrigashira)
+- 6H — Bhava Start 19:25:05 (Mithuna - Aridra) / Bhava Cusp 4:25:05 (Kataka - Pushyami)
+- 7H — Bhava Start 19:25:05 (Kataka - Ashlesha) / Bhava Cusp 4:25:05 (Simha - Makha)
+- 8H — Bhava Start 19:25:05 (Simha - P.Phalguni) / Bhava Cusp 4:25:05 (Kanya - U.Phalguni)
+- 9H — Bhava Start 19:25:05 (Kanya - Hasta) / Bhava Cusp 4:25:05 (Thula - Chitta)
+- 10H — Bhava Start 19:25:05 (Thula - Swati) / Bhava Cusp 4:25:05 (Vrischika - Anuradha)
+- 11H — Bhava Start 19:25:05 (Vrischika - Jyeshta) / Bhava Cusp 4:25:05 (Dhanus - Moola)
+- 12H — Bhava Start 19:25:05 (Dhanus - P.Ashadha) / Bhava Cusp 4:25:05 (Makara - U.Ashadha)
+
+Visible Vimshottari Mudda Dasha (Method 1)
+- Moon — Start 10-Sep-2027 / End 10-Oct-2027
+- Mars — Start 10-Oct-2027 / End 01-Nov-2027
+- Rahu — Start 01-Nov-2027 / End 25-Dec-2027
+- Jupiter — Start 25-Dec-2027 / End 12-Feb-2028
+- Saturn — Start 12-Feb-2028 / End 10-Apr-2028
+- Mercury — Start 10-Apr-2028 / End 01-Jun-2028
+- Ketu — Start 01-Jun-2028 / End 22-Jun-2028
+- Venus — Start 22-Jun-2028 / End 22-Aug-2028
+- Sun — Start 22-Aug-2028 / End 09-Sep-2028
+
+Visible Note Text
+- Note 1 = Tap on planet or date to view next Dasha level.
+- Note 2 = Long press (tap and hold) on planet or date to view Transit details (Entry chart) for Dasha dates.
+
+Lock Status
+- Source Status = IMAGE_VERIFIED_MASTER_FINAL
+- Bhava Snapshot Status = PASS
+- Bhava Start / Cusp Status = PASS
+- Mudda Dasha Table Status = PASS
+- Conflict Status = NONE
+- Completion Grade = 98% within visible screenshot scope; reference birth metadata and hidden app settings not shown
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_VARSHAPHALA_TAJAKA_BHAVA_EQUAL_HOUSES_SHASHTYAMSHA_D60_2027_BLUEAPP_COMPLETE_DATASET
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > BHAVA_EQUAL_HOUSES > SHASHTYAMSHA_D60 > 2027 > BLUEAPP > IMAGE_VERIFIED_MASTER_FINAL
+STATUS=IMAGE_VERIFIED_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+VALIDATION SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- D-set count = 20/20
+- Rashi source blocks inserted = 20/20
+- Bhava source blocks inserted = 20/20
+- Missing Rashi = NONE
+- Missing Bhava = NONE
+- Source body preservation = PASS
+- Interpretation layer added = NO
+- Co-presence layer added = NO
+- File arrangement = D-number set / Rashi source first / Bhava source second
+
+Content End
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_2027_VAS_RASHI_BHAVA_D1-D60_♤
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > 2027 > CHART_PLAIN > RASHI_BHAVA_SOURCE_PAIR > D1-D60_WORKING_FAMILY > BLUEAPP > HYEWON_2027_VAS_RASHI_BHAVA_D1-D60_♤
+STATUS=CHART_PLAIN_SOURCE_PAIR_MASTER_FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━

@@ -1,0 +1,76 @@
+{
+  "authority": {
+    "archive_set_sha256": "81951a845d2759fcb9afc082743c743e91b4bc15c3aa5220f0ac83fc8c79555c",
+    "personal_chart_240_sha256": "c08b7dfc2216f5cf6b6468fc4c2706d41894811331e700dc0dd0636fdd9b72d5",
+    "reference_authority": "07_5AB_AND_07_6AB",
+    "source_family_authority": "DERIVED_CROSSCHECK_CONTAINER",
+    "source_set_id": "RQVEDIC_26_SOURCE_SET_2026-08-12_ASPECT03R_YOGA20_TRANSIT21",
+    "source_skill": "$rq-sc7",
+    "target_body_authority": "07_4AK_ONLY"
+  },
+  "boundaries": {
+    "empty_is_occupant": false,
+    "house_lord_may_be_appended_to_occupants": false,
+    "reference_layer_may_overwrite_target_body": false,
+    "route_selection_erases_source_fields": false
+  },
+  "dispatch": [
+    {
+      "condition": "OCCUPANT_FIELD == EMPTY",
+      "rejected_route": "OCCUPANT_ROUTE",
+      "selected_route": "HOUSE_LORD_ROUTE",
+      "why_rejected": "EMPTY_IS_NOT_AN_OCCUPANT",
+      "why_selected": "EMPTY_CONFIRMED_SO_HOUSE_LORD_IS_PRIMARY_JUDGMENT_DRIVER"
+    },
+    {
+      "condition": "OCCUPANT_FIELD != EMPTY",
+      "rejected_route": "HOUSE_LORD_ROUTE",
+      "selected_route": "OCCUPANT_ROUTE",
+      "why_rejected": "HOUSE_LORD_MUST_NOT_REPLACE_OR_BE_APPENDED_TO_OCCUPANTS",
+      "why_selected": "VISIBLE_OCCUPANTS_ARE_PRIMARY_JUDGMENT_DRIVERS"
+    }
+  ],
+  "evidence_level": "CALIBRATION_REPLAY_CURRENT_SOURCE_NOT_E5_NEW_DATASET",
+  "field_map": {
+    "ASPECT01_DIRECT_STATUS": "Aspect01 Direct Status",
+    "BHAVA_BALA_RANK": "Bhava Bala Rank",
+    "CONFLICT_HOLD_POINT": "Conflict / HOLD Point",
+    "HOUSE_FUNCTION": "House Function",
+    "HOUSE_ID": "House",
+    "HOUSE_LORD_FIELD": "Rashi House Lord",
+    "HOUSE_LORD_POSITION": "Rashi House Lord Position",
+    "INCOMING_GRAHA_DRISHTI": "Incoming Graha Drishti",
+    "OCCUPANT_FIELD": "Rashi Occupants",
+    "RASHI_SIGN": "Rashi Sign",
+    "SHADBALA_HOUSE_LORD_EXECUTION": "Shadbala House Lord Execution",
+    "SHADBALA_OCCUPANT_EXECUTION": "Shadbala Occupant Execution",
+    "SHADBALA_USE_DECISION": "Shadbala Use Decision",
+    "TARGET_DCHART": "Target D-chart",
+    "TARGET_DOMAIN": "Target Domain"
+  },
+  "golden_case": {
+    "HOUSE_LORD_FIELD": "Mars",
+    "HOUSE_LORD_POSITION": "Mars 20:46:27 Mithuna Punarvasu P1",
+    "OCCUPANT_FIELD": "EMPTY",
+    "RASHI_SIGN": "Mesha",
+    "job_id": "D6-H05",
+    "rejected_route": "OCCUPANT_ROUTE",
+    "selected_route": "HOUSE_LORD_ROUTE"
+  },
+  "judgment_operation": "LOCK_07_4AK_TARGET_BODY_THEN_BIND_07_5AB_07_6AB_AS_NON_OVERWRITING_REFERENCES",
+  "router_id": "KANI_SECOND_ACTION_ROUTER_V2",
+  "schema_version": "KANI_SECOND_ACTION_ROUTER_V2",
+  "scope": {
+    "dcharts": 20,
+    "houses_per_dchart": 12,
+    "records": 240,
+    "state": "TESTED_SCOPE_ONLY_NOT_E5_PROMOTION"
+  },
+  "sentence_function": "FINAL_HOUSE_DEEP_OPERATION_SENTENCE",
+  "template": {
+    "id": "KANI_V10_FINAL_HOUSE_DEEP_OPERATION_V1",
+    "rank_transform": "PREFIX_RANK_AND_REMOVE_SLASH_SEPARATORS",
+    "text": "- {TARGET_DCHART} {HOUSE_DISPLAY}는 {HOUSE_FUNCTION}의 target body를 07_4AK의 {RASHI_SIGN} / occupants {OCCUPANT_FIELD} / lord {HOUSE_LORD_FIELD} / Shadbala {SHADBALA_USE_DECISION} / incoming Drishti {INCOMING_GRAHA_DRISHTI} / Aspect01 {ASPECT01_DIRECT_STATUS}로 고정하고 07_5AB의 D1 동일하우스 Bhava Bala {BHAVA_BALA_DISPLAY} 및 Bhava Middle packet을 참조층으로 결속하며 07_6AB의 D1 Vimsopaka 및 Planets/Bhava Middle aspect packet을 독립 참조층으로 겹쳐 확인한다. 07_5AB와 07_6AB은 target-native body를 덮어쓰지 않으며 최종 귀속은 07_4AK target body에 남고 모든 비가시값과 충돌값은 HOLD로 보존된다."
+  },
+  "terminal_version_boundary": "LOCKED_NO_AUTOMATIC_V11"
+}

@@ -1,0 +1,136 @@
+{
+  "artifacts": {
+    "DD2_FINAL_CLOSURE_WORK_INSTRUCTION_FNA98.txt": {
+      "bytes": 9148,
+      "sha256": "6ff973bc6a8bbd6b399470e73f0e1539f640b45f4f6f13b37bbeb6544b985530"
+    },
+    "KANI_JUDGMENT_PROTOCOL_V3.md": {
+      "bytes": 5144,
+      "sha256": "a2d0032848df479f5fa41834a150769f28eb5f699e44b96c2b3780b836565612"
+    },
+    "decision_runtime.json": {
+      "bytes": 375669,
+      "sha256": "97ed611a6955a6a357959445baf27bdf4f3d2f839eeca98683e49b646349bf48"
+    },
+    "judgment_protocol_v3.json": {
+      "bytes": 3483,
+      "sha256": "d5379ac8049a2de6e2a9ddd79e6e997764fb642801325af0fdab8fa9a3609252"
+    },
+    "monotonic_checkpoint.json": {
+      "bytes": 4058,
+      "sha256": "c453bc38e1790859d6c8394e943ede2773e1d0989a9cc42170e707d92ba4dd4f"
+    }
+  },
+  "closure_contract": {
+    "e5": {
+      "evidence_level": "E5_NEW_DATASET_TO_COMPLETE_SET",
+      "gate": "NEW_DATASET_PRODUCTION",
+      "state": "HOLD_UNEXECUTED"
+    },
+    "e6": {
+      "entry_condition": "E5_PASS",
+      "evidence_level": "E6_REOPENED_CONTINUATION_AFTER_INTERVENING_WORK",
+      "gate": "LONG_DRIFT",
+      "state": "HOLD_UNEXECUTED"
+    },
+    "execution_unit": "FINAL_CLOSURE_RUN",
+    "final_action": "PRESENT_SINGLE_PROMOTION_PACKET_TO_USER",
+    "first_unexecuted_job": "RUN_NEW_DATASET_PRODUCTION",
+    "internal_order": [
+      "E5_NEW_DATASET_PRODUCTION",
+      "E6_LONG_DRIFT_REOPEN"
+    ],
+    "new_technical_stage_after_e6": "FORBIDDEN",
+    "promotion_authority": "CURRENT_USER_EXPLICIT_ONLY",
+    "storage_routing": {
+      "github": "REMOTE_SYNC_ONLY_NO_EXECUTION_AUTHORITY",
+      "google_drive": "BACKUP_ONLY_NO_EXECUTION_AUTHORITY",
+      "remote_override_source_window": "FORBIDDEN",
+      "source_window": "PRIMARY_EXECUTION_AUTHORITY"
+    },
+    "work_instruction": {
+      "artifact": "DD2_FINAL_CLOSURE_WORK_INSTRUCTION_FNA98.txt",
+      "bytes": 9148,
+      "sha256": "6ff973bc6a8bbd6b399470e73f0e1539f640b45f4f6f13b37bbeb6544b985530",
+      "state": "READY_NOT_EXECUTED",
+      "title": "DD2_FINAL_CLOSURE_WORK_INSTRUCTION_FNA98"
+    }
+  },
+  "counts": {
+    "active_pairs": 580,
+    "decision_rules": 9,
+    "direct_instruction_events": 5,
+    "edges": 28,
+    "inputs": 20,
+    "nearest_neighbor_contrasts": 20,
+    "nodes": 29,
+    "replay_discovered_rules": 2
+  },
+  "first_unexecuted_job": "RUN_NEW_DATASET_PRODUCTION",
+  "gates": {
+    "BLIND_REPLAY": "PASS",
+    "CAUSAL_DECISION_RULES": "PASS",
+    "DIRECT_03_INSTRUCTION_BODY": "PASS",
+    "FINAL_KANI_JUDGMENT_RUNTIME": "HOLD_UNTIL_NEW_DATASET_LONG_DRIFT_AND_USER_PROMOTION",
+    "INPUT_OUTPUT_BINDING": "PASS",
+    "LONG_DRIFT": "HOLD_UNEXECUTED",
+    "NEAREST_NEIGHBOR_CONTRASTS": "PASS",
+    "NEW_DATASET_PRODUCTION": "HOLD_UNEXECUTED",
+    "OUTPUT_CORPUS": "PASS",
+    "REPLAY_BUNDLE": "PASS",
+    "STRUCTURAL_LANE_RUNTIME": "PASS",
+    "TAB_GENEALOGY": "PASS"
+  },
+  "judgment_protocol_binding": {
+    "authority": {
+      "direct_decision_edges": 5,
+      "replay_bundle_id": "cdcbaadf163c3696992354c0d77657b570cd17ceeac7fde235ff83cff18ed1dc",
+      "source_roles": [
+        "USER_CURRENT",
+        "TAB03_DIRECT",
+        "PIKACHU_580"
+      ]
+    },
+    "candidate_hash_scope": "STRUCTURAL_PROTOCOL_AND_FRESH_EXECUTION_BOUND_SEPARATELY",
+    "decision_edge_count": 7,
+    "direct_tab03_decision_edge_count": 5,
+    "evidence_level": "E4_HELD_OUT_BLIND_REPLAY",
+    "executable_edges": [
+      {
+        "edge_id": "E4-ROUTE-FAMILY",
+        "qa_gate": "FAMILY_SPECIFIC_SOURCE_BOARD_AND_LAYER_GRAMMAR",
+        "rejected_route": "ONE_TARGET_D_GRAMMAR_FOR_ALL_DCHARTS",
+        "selected_route": "D1_ROOT_OR_TARGET_DCHART",
+        "trigger": "DCHART_SELECTED"
+      },
+      {
+        "edge_id": "E4-FIELD-SEPARATION",
+        "qa_gate": "DIRECT_OBJECT_TO_HOUSE_MAP",
+        "rejected_route": "APPEND_HOUSE_LORD_TO_OCCUPANTS",
+        "selected_route": "PARSE_OCCUPANT_AND_HOUSE_LORD_FIELDS_SEPARATELY",
+        "trigger": "SOURCE_BOARD_FIELD_PARSE"
+      }
+    ],
+    "field_boundary": {
+      "house_lord_field": "HOUSE_LORD_FIELD",
+      "occupant_field": "OCCUPANT_FIELD",
+      "operator": "NOT_EQUAL"
+    },
+    "fresh_execution_candidate_sha256": "995b4f535a816dde0c961e29b53958ff8ef589c4d8876080fff3a49b34f3a46f",
+    "protocol_json_artifact": "judgment_protocol_v3.json",
+    "protocol_json_sha256": "d5379ac8049a2de6e2a9ddd79e6e997764fb642801325af0fdab8fa9a3609252",
+    "protocol_markdown_artifact": "KANI_JUDGMENT_PROTOCOL_V3.md",
+    "protocol_markdown_sha256": "a2d0032848df479f5fa41834a150769f28eb5f699e44b96c2b3780b836565612",
+    "replay_discovered_edge_count": 2,
+    "route_dispatch": {
+      "D1": "D1_ROOT",
+      "D2_TO_D60": "TARGET_DCHART"
+    },
+    "schema_version": "KANI_JUDGMENT_PROTOCOL_V3",
+    "state": "PASS"
+  },
+  "judgment_restore_status": "HOLD_NEW_DATASET_AND_LONG_DRIFT",
+  "replay_bundle_id": "cdcbaadf163c3696992354c0d77657b570cd17ceeac7fde235ff83cff18ed1dc",
+  "runtime_id": "6f68b8c37673e113c3122e784a2a46104a5d562e2e688072b5844b299c415505",
+  "schema_version": "KANI_CAUSAL_RESTORE_V9_BUNDLE_V1"
+}

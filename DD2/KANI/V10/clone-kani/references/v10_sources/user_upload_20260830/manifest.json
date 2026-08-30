@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "bytes": 196922,
+      "citation_id": "file_000000007dcc81f5b3d0308071d3f0b3",
+      "filename": "HYEWON_VAS25_D1-D60_♤.txt",
+      "library_id": "libfile_3681334224448191891321b2253ec87d",
+      "lines": 4338,
+      "role": "CALIBRATION_SOURCE_HISTORY",
+      "sha256": "5973df92ea77b63cf16dc55136b91b6deeec4b591c9fc697b20df9a6bc3e0a76",
+      "year": 2025
+    },
+    {
+      "bytes": 226729,
+      "citation_id": "file_000000007f40820699c25b8d953bf9bb",
+      "filename": "HEAWON_VAS25_CO2_99_♤.txt",
+      "library_id": "libfile_7c00deb637e48191b98f8f54dafe374b",
+      "lines": 3957,
+      "role": "CALIBRATION_EXPECTED_STRUCTURE_HISTORY",
+      "sha256": "bf44a8a5759110fcb72aff74460b99ef7695dbdb2f2219a45eab3bd775bafc03",
+      "year": 2025
+    },
+    {
+      "bytes": 201915,
+      "citation_id": "file_000000005c108211a76e6fa9dfadbf1f",
+      "filename": "HYEWON_VAS26_D1-D60_♤.txt",
+      "library_id": "libfile_75c0532046e881918e335ceceddcdf05",
+      "lines": 4278,
+      "role": "V9_E5_SOURCE_AND_CALIBRATION_HISTORY",
+      "sha256": "3e716d8435801e77872697798ae45456b4533c110821c6c77b02003b6fa745ef",
+      "year": 2026
+    },
+    {
+      "bytes": 238688,
+      "citation_id": "file_00000000ad9c820995c82c7796bc8eba",
+      "filename": "HEAWON_VAS26_CO2_99_♤.txt",
+      "library_id": "libfile_92c5572d19108191833fed48dc6c45d9",
+      "lines": 4191,
+      "role": "CALIBRATION_EXPECTED_STRUCTURE_HISTORY",
+      "sha256": "d054834447e474598fbc2b626cb63c76ff41c8ebdcf21b3ea00bc01509a47d9c",
+      "year": 2026
+    },
+    {
+      "bytes": 206454,
+      "citation_id": "file_00000000445c8206913ae3a7f7935a75",
+      "filename": "HYEWON_VAS27_D1-D60_♤.txt",
+      "library_id": "libfile_d96d6794f5a48191844a4cebcd31688e",
+      "lines": 4414,
+      "role": "V10_E5_EXECUTION_DATASET",
+      "sha256": "7cc9446f74d6130eec2c32e9ea723849d84a6a2070a1556d7954b69d06e0cddb",
+      "year": 2027
+    },
+    {
+      "bytes": 354241,
+      "citation_id": "file_000000006590820684de4b75a70d88f9",
+      "filename": "HEAWON_VAS27_CO2_99_♤.txt",
+      "library_id": "libfile_2a27633c3b608191b58366346d9843e9",
+      "lines": 4607,
+      "role": "V10_E5_HASH_LOCKED_EXPECTED_PIKACHU_SENTENCES",
+      "sha256": "7e3a1bf370bbcbca2bffb826d79229a84183d98dc9181d1793dc7bb427d9e97f",
+      "year": 2027
+    }
+  ],
+  "schema_version": "KANI_V10_USER_SOURCE_REGISTRY_V1",
+  "status": "PASS_EXACT_USER_UPLOAD_BYTES_PRESERVED",
+  "uploaded_scope": "VAS25_26_27_RASHI_BHAVA_SOURCE_PLUS_CO2_99",
+  "user_upload_date": "2026-08-30"
+}

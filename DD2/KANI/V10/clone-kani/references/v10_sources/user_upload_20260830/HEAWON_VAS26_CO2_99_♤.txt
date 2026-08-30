@@ -1,0 +1,4192 @@
+━━━━━━━━━━━━━━━━━━━━━━━
+[HW_VAS26_RASHI_BHAVA_CO2_99_DSET_MASTER_FINAL – FORMAL_99_SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+Source Family Note
+- File Type = HYEWON 2026 VAS Rashi + Bhava CO2_99 D-chart set file
+- Source Year = 2026
+- Source App = Blue app
+- Arrangement = same D-chart number Rashi → Bhava
+- Included Layers = Rashi annual co-presence / Bhava annual visible snapshot co-presence
+- Interpretation Layer = NOT ADDED
+- Natal Replacement = NO
+- Automatic Rashi/Bhava Mixing = NO
+- File Purpose = search / retrieval / D-chart set management / future-year template basis
+
+Operational Boundary Note
+- 별도 요청이 없는 한, 해석은 사용자가 지시한 해당 차트·해당 레이어·해당 연도·해당 하우스 내부로만 제한한다.
+- Rashi와 Bhava가 같은 파일에 있어도, 사용자가 “같이 / 둘 다 / 세트 / 비교 / 병렬 검산”이라고 요청하지 않는 한 자동으로 섞어 해석하지 않는다.
+- 세트형 파일은 검색 편의용 구조이며, 해석 자동 혼합을 의미하지 않는다.
+- 파일 구조와 해석 범위는 별개다.
+- 요청 범위 밖의 Natal / VAS 다른 연도 / Dasha / Transit / Strength / Ashtakavarga / Ava / SPother / Arudha / Bhaga는 자동 호출하지 않는다.
+
+Rashi House Application Rule
+- Rashi 하우스 해석은 Rashi 레이어 내부에서만 완성할 수 있다.
+- Rashi 하우스 해석에서는 Rashi Lagna 기준 whole-sign house, house lord 이동, lord가 들어간 Rashi 공동장, 도수 앞뒤 관절, 현실 규칙을 사용한다.
+- Bhava는 Rashi 해석의 필수 검산층이 아니며, 사용자가 명시적으로 “브하도 같이 / 라시브하 비교 / 병렬 검산”을 요청할 때만 추가한다.
+- 기본 출력 밀도는 2.5차이며, 범위는 좁게 유지하고 밀도는 해당 차트 내부에서 깊게 출력한다.
+
+MASTER QUICK INDEX
+- [D1 SET] = [D1 RASHI CO2] + [D1 BHAVA CO2]
+- [D2 SET] = [D2 RASHI CO2] + [D2 BHAVA CO2]
+- [D3 SET] = [D3 RASHI CO2] + [D3 BHAVA CO2]
+- [D4 SET] = [D4 RASHI CO2] + [D4 BHAVA CO2]
+- [D5 SET] = [D5 RASHI CO2] + [D5 BHAVA CO2]
+- [D6 SET] = [D6 RASHI CO2] + [D6 BHAVA CO2]
+- [D7 SET] = [D7 RASHI CO2] + [D7 BHAVA CO2]
+- [D8 SET] = [D8 RASHI CO2] + [D8 BHAVA CO2]
+- [D9 SET] = [D9 RASHI CO2] + [D9 BHAVA CO2]
+- [D10 SET] = [D10 RASHI CO2] + [D10 BHAVA CO2]
+- [D11 SET] = [D11 RASHI CO2] + [D11 BHAVA CO2]
+- [D12 SET] = [D12 RASHI CO2] + [D12 BHAVA CO2]
+- [D16 SET] = [D16 RASHI CO2] + [D16 BHAVA CO2]
+- [D20 SET] = [D20 RASHI CO2] + [D20 BHAVA CO2]
+- [D24 SET] = [D24 RASHI CO2] + [D24 BHAVA CO2]
+- [D27 SET] = [D27 RASHI CO2] + [D27 BHAVA CO2]
+- [D30 SET] = [D30 RASHI CO2] + [D30 BHAVA CO2]
+- [D40 SET] = [D40 RASHI CO2] + [D40 BHAVA CO2]
+- [D45 SET] = [D45 RASHI CO2] + [D45 BHAVA CO2]
+- [D60 SET] = [D60 RASHI CO2] + [D60 BHAVA CO2]
+
+SEARCH RULE
+- D차트 전체 세트 = [D번호 SET]
+- 라시 공동장만 = [D번호 RASHI CO2]
+- 브하 공동장만 = [D번호 BHAVA CO2]
+- 예: [D20 SET] / [D20 RASHI CO2] / [D20 BHAVA CO2]
+
+━━━━━━━━━━━━━━━━━━━━━━━
+CONTENT START
+━━━━━━━━━━━━━━━━━━━━━━━
+
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D1 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D1 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D1 라시]
+D1 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D1_RASHI_Kataka_Lagna_Jupiter_CO_FIELD]
+- Location = D1 / Kataka
+- Members = Lagna 10:26:49 / Jupiter 21:16:53
+- Member Class = Lagna anchor / Classical Core Jupiter
+- Field Type = same-sign annual co-presence
+- Exactness = WIDE 10.83°
+- Core Pair = Lagna / Jupiter
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 라그나 / 차트 몸통 / 현실 진입점
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+Mutual Coloring
+  • Lagna는 Jupiter의 장을 먹은 Lagna다.
+  • Jupiter는 Lagna의 장을 먹은 Jupiter다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D1 Kataka co-field / annual core stage
+- Support Point Note = Muntha 13:55:35 / support only / not co-field member
+- £칸 = 2026 VAS D1 annual sign-field slot
+- €칸
+  • natal D1 annual body / yearly event frame / 전체 연간 현실 몸통 reference layer = Optional Reference
+  • 2026 VAS D1 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D1 Rashi는 annual body / yearly event frame / 전체 연간 현실 몸통의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 몸통·입구 역할이 강하므로, 다른 공동장보다 우선해서 읽는다.
+
+[HYEWON_2026_VAS_D1_RASHI_Simha_Sun_Moon_Ketu_CO_FIELD]
+- Location = D1 / Simha
+- Members = Sun 22:50:09 / Moon 4:39:33 / Ketu 4:36:31
+- Member Class = Classical Core Sun-Moon / Node Layer Ketu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.05°
+- Core Pair = Moon / Ketu
+Annual Special Note
+- none
+Independent Functions
+  • Sun = 실행권 / 권위 / 중심 / 자존 / 공식성
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Ketu의 장을 먹은 Moon다.
+  • Ketu는 Moon의 장을 먹은 Ketu다.
+  • Sun는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D1 Simha co-field / annual core stage
+- Support Point Note = none
+- £칸 = 2026 VAS D1 annual sign-field slot
+- €칸
+  • natal D1 annual body / yearly event frame / 전체 연간 현실 몸통 reference layer = Optional Reference
+  • 2026 VAS D1 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D1 Rashi는 annual body / yearly event frame / 전체 연간 현실 몸통의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D1_RASHI_Meena_Saturn_Neptune_CO_FIELD]
+- Location = D1 / Meena
+- Members = Saturn 18:54:32 / Neptune 9:12:26
+- Member Class = Classical Core Saturn / Outer Support Neptune
+- Field Type = same-sign annual co-presence
+- Exactness = FUNCTIONAL 9.70°
+- Core Pair = Saturn / Neptune
+Annual Special Note
+- none
+Independent Functions
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+  • Neptune = 이상화 / 안개 / 상징화 / 흐림 보조
+Mutual Coloring
+  • Saturn는 Neptune의 장을 먹은 Saturn다.
+  • Neptune는 Saturn의 장을 먹은 Neptune다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D1 Meena co-field / annual core stage
+- Support Point Note = none
+- £칸 = 2026 VAS D1 annual sign-field slot
+- €칸
+  • natal D1 annual body / yearly event frame / 전체 연간 현실 몸통 reference layer = Optional Reference
+  • 2026 VAS D1 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D1 Rashi는 annual body / yearly event frame / 전체 연간 현실 몸통의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+D1 OPERATING NOTE
+- D1 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D1 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D1 브하]
+D1 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D1_BHAVA_RM_LAGNA_JUPITER_MUNTHA_SUN_MOON_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D1 / Right-Middle Sector
+- Source Raw Field = As / Ju / Mu ; Su / Mo / Ke(R)
+- Members = Lagna / Jupiter / Muntha / Sun / Moon / Ketu
+- Member Class = Lagna anchor / Classical Core Jupiter-Sun-Moon / Node Layer Ketu / Point Layer Muntha
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Lagna / Jupiter
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+  • Muntha = 문타 / 연간 이동 초점 / 한 해의 체감 중심점
+  • Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Lagna는 Jupiter / Muntha / Sun / Moon / Ketu의 장을 먹은 Lagna다.
+  • Jupiter는 Lagna / Muntha / Sun / Moon / Ketu의 장을 먹은 Jupiter다.
+  • Muntha는 Lagna / Jupiter / Sun / Moon / Ketu의 장을 먹은 Muntha다.
+  • Sun는 Lagna / Jupiter / Muntha / Moon / Ketu의 장을 먹은 Sun다.
+  • Moon는 Lagna / Jupiter / Muntha / Sun / Ketu의 장을 먹은 Moon다.
+  • Ketu는 Lagna / Jupiter / Muntha / Sun / Moon의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D1 Bhava visible field / annual body / yearly event frame / 전체 연간 현실 몸통
+- Support Point Note = none
+- £칸 = 2026 VAS D1 Bhava Right-Middle Sector snapshot 슬롯
+- €칸
+  • natal D1 annual body / yearly event frame / 전체 연간 현실 몸통 reference layer = Optional Reference
+  • 2026 VAS D1 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D1 Bhava는 annual body / yearly event frame / 전체 연간 현실 몸통의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 연간 몸통은 보이는 압력장을 먼저 정리하고, 요청된 레이어 안에서만 사건성을 닫는다.
+
+D1 Single Field
+- Upper-Left Sector = Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+- Upper-Right Sector = Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+- Left-Middle Sector = Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+- Lower-Center Sector = Venus = 가치 / 관계 / 미감 / 보상 / 산출
+- Lower-Right Sector = Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D1 OPERATING NOTE
+- D1 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D2 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D2 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D2 라시]
+D2 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D2_RASHI_Kataka_Lagna_Sun_Mars_Mercury_Uranus_Neptune_Pluto_CO_FIELD]
+- Location = D2 / Kataka
+- Members = Lagna 20:53:39 / Sun 15:40:19 / Mars 19:18:17 / Mercury 8:21:01 / Uranus 22:55:37 / Neptune 18:24:52 / Pluto 18:16:08
+- Member Class = Lagna anchor / Classical Core Sun-Mars-Mercury / Outer Support Uranus-Neptune-Pluto
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.15°
+- Core Pair = Neptune / Pluto
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 라그나 / 차트 몸통 / 현실 진입점
+  • Sun = 실행권 / 권위 / 중심 / 자존 / 공식성
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+  • Uranus = 급변 / 돌발 전환 / 비정형 신호 보조
+  • Neptune = 이상화 / 안개 / 상징화 / 흐림 보조
+  • Pluto = 심층 압력 / 강제 재편 / 깊은 통제 보조
+Mutual Coloring
+  • Neptune는 Pluto의 장을 먹은 Neptune다.
+  • Pluto는 Neptune의 장을 먹은 Pluto다.
+  • Lagna / Sun / Mars / Mercury / Uranus는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D2 Kataka co-field / annual resource stage
+- Support Point Note = none
+- £칸 = 2026 VAS D2 annual sign-field slot
+- €칸
+  • natal D2 annual resource / money vessel / 자원 보관과 출력 reference layer = Optional Reference
+  • 2026 VAS D2 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D2 Rashi는 annual resource / money vessel / 자원 보관과 출력의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 몸통·입구 역할이 강하므로, 다른 공동장보다 우선해서 읽는다.
+
+[HYEWON_2026_VAS_D2_RASHI_Simha_Moon_Jupiter_Venus_Saturn_Rahu_Ketu_CO_FIELD]
+- Location = D2 / Simha
+- Members = Moon 9:19:06 / Jupiter 12:33:47 / Venus 10:44:34 / Saturn 7:49:04 / Rahu 9:13:02 / Ketu 9:13:02
+- Member Class = Classical Core Moon-Jupiter-Venus-Saturn / Node Layer Rahu-Ketu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.00°
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Rashi layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Rahu는 Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Rahu의 장을 먹은 Ketu다.
+  • Moon / Jupiter / Venus / Saturn는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D2 Simha co-field / annual resource stage
+- Support Point Note = none
+- Source Note = same-sign Rahu/Ketu source-retained annual field
+- £칸 = 2026 VAS D2 annual sign-field slot
+- €칸
+  • natal D2 annual resource / money vessel / 자원 보관과 출력 reference layer = Optional Reference
+  • 2026 VAS D2 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D2 Rashi는 annual resource / money vessel / 자원 보관과 출력의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 확대와 절단이 동시에 걸린 장이므로, 과열 전에 선별 규칙을 먼저 세워야 한다.
+
+D2 OPERATING NOTE
+- D2 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D2 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D2 브하]
+D2 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D2_BHAVA_RM_LAGNA_SUN_MARS_MERCURY_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D2 / Right-Middle Sector
+- Source Raw Field = As / Su / Ma / Me
+- Members = Lagna / Sun / Mars / Mercury
+- Member Class = Lagna anchor / Classical Core Sun-Mars-Mercury
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Lagna / Sun
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+  • Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+Mutual Coloring
+  • Lagna는 Sun / Mars / Mercury의 장을 먹은 Lagna다.
+  • Sun는 Lagna / Mars / Mercury의 장을 먹은 Sun다.
+  • Mars는 Lagna / Sun / Mercury의 장을 먹은 Mars다.
+  • Mercury는 Lagna / Sun / Mars의 장을 먹은 Mercury다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D2 Bhava visible field / annual resource / money vessel / 자원 보관과 출력
+- Support Point Note = none
+- £칸 = 2026 VAS D2 Bhava Right-Middle Sector snapshot 슬롯
+- €칸
+  • natal D2 annual resource / money vessel / 자원 보관과 출력 reference layer = Optional Reference
+  • 2026 VAS D2 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D2 Bhava는 annual resource / money vessel / 자원 보관과 출력의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 돈그릇은 들어오는 힘보다 보관·분리·회수 규칙을 먼저 세워야 한다.
+
+[HYEWON_2026_VAS_D2_BHAVA_LR_MOON_JUPITER_VENUS_SATURN_RAHU_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D2 / Lower-Right Sector
+- Source Raw Field = Mo / Ju / Ve / Sa(R) / Ra(R) / Ke(R)
+- Members = Moon / Jupiter / Venus / Saturn / Rahu / Ketu
+- Member Class = Classical Core Moon-Jupiter-Venus-Saturn / Node Layer Rahu-Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Bhava layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Jupiter / Venus / Saturn / Rahu / Ketu의 장을 먹은 Moon다.
+  • Jupiter는 Moon / Venus / Saturn / Rahu / Ketu의 장을 먹은 Jupiter다.
+  • Venus는 Moon / Jupiter / Saturn / Rahu / Ketu의 장을 먹은 Venus다.
+  • Saturn는 Moon / Jupiter / Venus / Rahu / Ketu의 장을 먹은 Saturn다.
+  • Rahu는 Moon / Jupiter / Venus / Saturn / Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Moon / Jupiter / Venus / Saturn / Rahu의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D2 Bhava visible field / annual resource / money vessel / 자원 보관과 출력
+- Support Point Note = none
+- £칸 = 2026 VAS D2 Bhava Lower-Right Sector snapshot 슬롯
+- €칸
+  • natal D2 annual resource / money vessel / 자원 보관과 출력 reference layer = Optional Reference
+  • 2026 VAS D2 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D2 Bhava는 annual resource / money vessel / 자원 보관과 출력의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 돈그릇은 들어오는 힘보다 보관·분리·회수 규칙을 먼저 세워야 한다.
+
+D2 OPERATING NOTE
+- D2 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D3 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D3 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D3 라시]
+D3 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D3_RASHI_Simha_Moon_Ketu_CO_FIELD]
+- Location = D3 / Simha
+- Members = Moon 13:58:40 / Ketu 13:49:33
+- Member Class = Classical Core Moon / Node Layer Ketu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.15°
+- Core Pair = Moon / Ketu
+Annual Special Note
+- none
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Ketu의 장을 먹은 Moon다.
+  • Ketu는 Moon의 장을 먹은 Ketu다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D3 Simha co-field / annual execution stage
+- Support Point Note = none
+- £칸 = 2026 VAS D3 annual sign-field slot
+- €칸
+  • natal D3 annual execution / practice / hands-on skill reference layer = Optional Reference
+  • 2026 VAS D3 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D3 Rashi는 annual execution / practice / hands-on skill의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D3_RASHI_Kanya_Mercury_Uranus_CO_FIELD]
+- Location = D3 / Kanya
+- Members = Mercury 12:31:32 / Uranus 4:23:26
+- Member Class = Classical Core Mercury / Outer Support Uranus
+- Field Type = same-sign annual co-presence
+- Exactness = FUNCTIONAL 8.13°
+- Core Pair = Mercury / Uranus
+Annual Special Note
+- none
+Independent Functions
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+  • Uranus = 급변 / 돌발 전환 / 비정형 신호 보조
+Mutual Coloring
+  • Mercury는 Uranus의 장을 먹은 Mercury다.
+  • Uranus는 Mercury의 장을 먹은 Uranus다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D3 Kanya co-field / annual execution stage
+- Support Point Note = none
+- £칸 = 2026 VAS D3 annual sign-field slot
+- €칸
+  • natal D3 annual execution / practice / hands-on skill reference layer = Optional Reference
+  • 2026 VAS D3 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D3 Rashi는 annual execution / practice / hands-on skill의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D3_RASHI_Kumbha_Mars_Rahu_CO_FIELD]
+- Location = D3 / Kumbha
+- Members = Mars 13:57:26 / Rahu 13:49:33
+- Member Class = Classical Core Mars / Node Layer Rahu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.13°
+- Core Pair = Mars / Rahu
+Annual Special Note
+- none
+Independent Functions
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+Mutual Coloring
+  • Mars는 Rahu의 장을 먹은 Mars다.
+  • Rahu는 Mars의 장을 먹은 Rahu다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D3 Kumbha co-field / annual execution stage
+- Support Point Note = none
+- £칸 = 2026 VAS D3 annual sign-field slot
+- €칸
+  • natal D3 annual execution / practice / hands-on skill reference layer = Optional Reference
+  • 2026 VAS D3 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D3 Rashi는 annual execution / practice / hands-on skill의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D3_RASHI_Meena_Jupiter_Neptune_CO_FIELD]
+- Location = D3 / Meena
+- Members = Jupiter 3:50:41 / Neptune 27:37:19
+- Member Class = Classical Core Jupiter / Outer Support Neptune
+- Field Type = same-sign annual co-presence
+- Exactness = FUNCTIONAL 6.22°
+- Core Pair = Jupiter / Neptune
+Annual Special Note
+- none
+Independent Functions
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+  • Neptune = 이상화 / 안개 / 상징화 / 흐림 보조
+Mutual Coloring
+  • Jupiter는 Neptune의 장을 먹은 Jupiter다.
+  • Neptune는 Jupiter의 장을 먹은 Neptune다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D3 Meena co-field / annual execution stage
+- Support Point Note = none
+- £칸 = 2026 VAS D3 annual sign-field slot
+- €칸
+  • natal D3 annual execution / practice / hands-on skill reference layer = Optional Reference
+  • 2026 VAS D3 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D3 Rashi는 annual execution / practice / hands-on skill의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+D3 OPERATING NOTE
+- D3 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D3 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D3 브하]
+D3 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D3_BHAVA_LM_MARS_RAHU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D3 / Left-Middle Sector
+- Source Raw Field = Ma / Ra(R)
+- Members = Mars / Rahu
+- Member Class = Classical Core Mars / Node Layer Rahu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Mars / Rahu
+Annual Special Note
+- none
+Independent Functions
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+Mutual Coloring
+  • Mars는 Rahu의 장을 먹은 Mars다.
+  • Rahu는 Mars의 장을 먹은 Rahu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D3 Bhava visible field / annual execution / practice / hands-on skill
+- Support Point Note = none
+- £칸 = 2026 VAS D3 Bhava Left-Middle Sector snapshot 슬롯
+- €칸
+  • natal D3 annual execution / practice / hands-on skill reference layer = Optional Reference
+  • 2026 VAS D3 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D3 Bhava는 annual execution / practice / hands-on skill의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 실행은 즉흥이 아니라 반복 가능한 손기술·문장·기준으로 내려와야 한다.
+
+[HYEWON_2026_VAS_D3_BHAVA_RM_MOON_SATURN_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D3 / Right-Middle Sector
+- Source Raw Field = Mo / Sa(R) / Ke(R)
+- Members = Moon / Saturn / Ketu
+- Member Class = Classical Core Moon-Saturn / Node Layer Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Moon / Saturn
+Annual Special Note
+- none
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Saturn / Ketu의 장을 먹은 Moon다.
+  • Saturn는 Moon / Ketu의 장을 먹은 Saturn다.
+  • Ketu는 Moon / Saturn의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D3 Bhava visible field / annual execution / practice / hands-on skill
+- Support Point Note = none
+- £칸 = 2026 VAS D3 Bhava Right-Middle Sector snapshot 슬롯
+- €칸
+  • natal D3 annual execution / practice / hands-on skill reference layer = Optional Reference
+  • 2026 VAS D3 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D3 Bhava는 annual execution / practice / hands-on skill의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 실행은 즉흥이 아니라 반복 가능한 손기술·문장·기준으로 내려와야 한다.
+
+[HYEWON_2026_VAS_D3_BHAVA_LC_LAGNA_VENUS_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D3 / Lower-Middle Sector
+- Source Raw Field = As / Ve
+- Members = Lagna / Venus
+- Member Class = Lagna anchor / Classical Core Venus
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Lagna / Venus
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+Mutual Coloring
+  • Lagna는 Venus의 장을 먹은 Lagna다.
+  • Venus는 Lagna의 장을 먹은 Venus다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D3 Bhava visible field / annual execution / practice / hands-on skill
+- Support Point Note = none
+- £칸 = 2026 VAS D3 Bhava Lower-Middle Sector snapshot 슬롯
+- €칸
+  • natal D3 annual execution / practice / hands-on skill reference layer = Optional Reference
+  • 2026 VAS D3 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D3 Bhava는 annual execution / practice / hands-on skill의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 실행은 즉흥이 아니라 반복 가능한 손기술·문장·기준으로 내려와야 한다.
+
+D3 Single Field
+- Upper-Left Sector = Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+- Upper-Middle-Left Sector = Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+- Lower-Right Sector = Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D3 OPERATING NOTE
+- D3 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D4 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D4 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D4 라시]
+D4 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D4_RASHI_Simha_Moon_Ketu_Uranus_CO_FIELD]
+- Location = D4 / Simha
+- Members = Moon 18:38:13 / Ketu 18:26:05 / Uranus 15:51:14
+- Member Class = Classical Core Moon / Node Layer Ketu / Outer Support Uranus
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.20°
+- Core Pair = Moon / Ketu
+Annual Special Note
+- none
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+  • Uranus = 급변 / 돌발 전환 / 비정형 신호 보조
+Mutual Coloring
+  • Moon는 Ketu의 장을 먹은 Moon다.
+  • Ketu는 Moon의 장을 먹은 Ketu다.
+  • Uranus는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D4 Simha co-field / annual foundation stage
+- Support Point Note = none
+- £칸 = 2026 VAS D4 annual sign-field slot
+- €칸
+  • natal D4 annual foundation / home / property / 기반과 정착 reference layer = Optional Reference
+  • 2026 VAS D4 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D4 Rashi는 annual foundation / home / property / 기반과 정착의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D4_RASHI_Kanya_Mercury_Saturn_CO_FIELD]
+- Location = D4 / Kanya
+- Members = Mercury 16:42:03 / Saturn 15:38:09
+- Member Class = Classical Core Mercury-Saturn
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 1.06°
+- Core Pair = Mercury / Saturn
+Annual Special Note
+- none
+Independent Functions
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+Mutual Coloring
+  • Mercury는 Saturn의 장을 먹은 Mercury다.
+  • Saturn는 Mercury의 장을 먹은 Saturn다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D4 Kanya co-field / annual foundation stage
+- Support Point Note = none
+- £칸 = 2026 VAS D4 annual sign-field slot
+- €칸
+  • natal D4 annual foundation / home / property / 기반과 정착 reference layer = Optional Reference
+  • 2026 VAS D4 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D4 Rashi는 annual foundation / home / property / 기반과 정착의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 문장·기준·반복검수 없이는 이 장이 제대로 작동하지 않는다.
+
+[HYEWON_2026_VAS_D4_RASHI_Thula_Lagna_Venus_CO_FIELD]
+- Location = D4 / Thula
+- Members = Lagna 11:47:18 / Venus 21:29:09
+- Member Class = Lagna anchor / Classical Core Venus
+- Field Type = same-sign annual co-presence
+- Exactness = FUNCTIONAL 9.70°
+- Core Pair = Lagna / Venus
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 라그나 / 차트 몸통 / 현실 진입점
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+Mutual Coloring
+  • Lagna는 Venus의 장을 먹은 Lagna다.
+  • Venus는 Lagna의 장을 먹은 Venus다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D4 Thula co-field / annual foundation stage
+- Support Point Note = none
+- £칸 = 2026 VAS D4 annual sign-field slot
+- €칸
+  • natal D4 annual foundation / home / property / 기반과 정착 reference layer = Optional Reference
+  • 2026 VAS D4 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D4 Rashi는 annual foundation / home / property / 기반과 정착의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 몸통·입구 역할이 강하므로, 다른 공동장보다 우선해서 읽는다.
+
+D4 OPERATING NOTE
+- D4 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D4 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D4 브하]
+D4 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D4_BHAVA_LM_RAHU_JUPITER_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D4 / Left-Middle Sector
+- Source Raw Field = Ra(R) / Ju
+- Members = Rahu / Jupiter
+- Member Class = Classical Core Jupiter / Node Layer Rahu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Rahu / Jupiter
+Annual Special Note
+- none
+Independent Functions
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+Mutual Coloring
+  • Rahu는 Jupiter의 장을 먹은 Rahu다.
+  • Jupiter는 Rahu의 장을 먹은 Jupiter다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D4 Bhava visible field / annual foundation / home / property / 기반과 정착
+- Support Point Note = none
+- £칸 = 2026 VAS D4 Bhava Left-Middle Sector snapshot 슬롯
+- €칸
+  • natal D4 annual foundation / home / property / 기반과 정착 reference layer = Optional Reference
+  • 2026 VAS D4 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D4 Bhava는 annual foundation / home / property / 기반과 정착의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 기반은 감정으로만 보지 않고 문서·가치·책임·회수 구조와 함께 닫는다.
+
+[HYEWON_2026_VAS_D4_BHAVA_RM_MOON_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D4 / Right-Middle Sector
+- Source Raw Field = Mo / Ke(R)
+- Members = Moon / Ketu
+- Member Class = Classical Core Moon / Node Layer Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Moon / Ketu
+Annual Special Note
+- none
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Ketu의 장을 먹은 Moon다.
+  • Ketu는 Moon의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D4 Bhava visible field / annual foundation / home / property / 기반과 정착
+- Support Point Note = none
+- £칸 = 2026 VAS D4 Bhava Right-Middle Sector snapshot 슬롯
+- €칸
+  • natal D4 annual foundation / home / property / 기반과 정착 reference layer = Optional Reference
+  • 2026 VAS D4 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D4 Bhava는 annual foundation / home / property / 기반과 정착의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 기반은 감정으로만 보지 않고 문서·가치·책임·회수 구조와 함께 닫는다.
+
+[HYEWON_2026_VAS_D4_BHAVA_LC_LAGNA_VENUS_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D4 / Lower-Middle Sector
+- Source Raw Field = As / Ve
+- Members = Lagna / Venus
+- Member Class = Lagna anchor / Classical Core Venus
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Lagna / Venus
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+Mutual Coloring
+  • Lagna는 Venus의 장을 먹은 Lagna다.
+  • Venus는 Lagna의 장을 먹은 Venus다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D4 Bhava visible field / annual foundation / home / property / 기반과 정착
+- Support Point Note = none
+- £칸 = 2026 VAS D4 Bhava Lower-Middle Sector snapshot 슬롯
+- €칸
+  • natal D4 annual foundation / home / property / 기반과 정착 reference layer = Optional Reference
+  • 2026 VAS D4 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D4 Bhava는 annual foundation / home / property / 기반과 정착의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 기반은 감정으로만 보지 않고 문서·가치·책임·회수 구조와 함께 닫는다.
+
+[HYEWON_2026_VAS_D4_BHAVA_LR_MERCURY_SATURN_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D4 / Lower-Right Sector
+- Source Raw Field = Me / Sa(R)
+- Members = Mercury / Saturn
+- Member Class = Classical Core Mercury-Saturn
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Mercury / Saturn
+Annual Special Note
+- none
+Independent Functions
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+Mutual Coloring
+  • Mercury는 Saturn의 장을 먹은 Mercury다.
+  • Saturn는 Mercury의 장을 먹은 Saturn다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D4 Bhava visible field / annual foundation / home / property / 기반과 정착
+- Support Point Note = none
+- £칸 = 2026 VAS D4 Bhava Lower-Right Sector snapshot 슬롯
+- €칸
+  • natal D4 annual foundation / home / property / 기반과 정착 reference layer = Optional Reference
+  • 2026 VAS D4 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D4 Bhava는 annual foundation / home / property / 기반과 정착의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 기반은 감정으로만 보지 않고 문서·가치·책임·회수 구조와 함께 닫는다.
+
+D4 Single Field
+- Upper-Left Sector = Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+- Upper-Middle-Left Sector = Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D4 OPERATING NOTE
+- D4 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D5 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D5 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D5 라시]
+D5 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D5_RASHI_Mesha_Moon_Venus_Rahu_Ketu_CO_FIELD]
+- Location = D5 / Mesha
+- Members = Moon 23:17:46 / Venus 26:51:27 / Rahu 23:02:36 / Ketu 23:02:36
+- Member Class = Classical Core Moon-Venus / Node Layer Rahu-Ketu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.00°
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Rashi layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Rahu는 Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Rahu의 장을 먹은 Ketu다.
+  • Moon / Venus는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D5 Mesha co-field / annual status stage
+- Support Point Note = none
+- Source Note = same-sign Rahu/Ketu source-retained annual field
+- £칸 = 2026 VAS D5 annual sign-field slot
+- €칸
+  • natal D5 annual authority / honor / recognition / 위상과 인정 reference layer = Optional Reference
+  • 2026 VAS D5 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D5 Rashi는 annual authority / honor / recognition / 위상과 인정의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 확대와 절단이 동시에 걸린 장이므로, 과열 전에 선별 규칙을 먼저 세워야 한다.
+
+[HYEWON_2026_VAS_D5_RASHI_Kanya_Lagna_Uranus_Neptune_Pluto_CO_FIELD]
+- Location = D5 / Kanya
+- Members = Lagna 22:14:07 / Uranus 27:19:03 / Neptune 16:02:12 / Pluto 15:40:20
+- Member Class = Lagna anchor / Outer Support Uranus-Neptune-Pluto
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.36°
+- Core Pair = Neptune / Pluto
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 라그나 / 차트 몸통 / 현실 진입점
+  • Uranus = 급변 / 돌발 전환 / 비정형 신호 보조
+  • Neptune = 이상화 / 안개 / 상징화 / 흐림 보조
+  • Pluto = 심층 압력 / 강제 재편 / 깊은 통제 보조
+Mutual Coloring
+  • Neptune는 Pluto의 장을 먹은 Neptune다.
+  • Pluto는 Neptune의 장을 먹은 Pluto다.
+  • Lagna / Uranus는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D5 Kanya co-field / annual status stage
+- Support Point Note = none
+- £칸 = 2026 VAS D5 annual sign-field slot
+- €칸
+  • natal D5 annual authority / honor / recognition / 위상과 인정 reference layer = Optional Reference
+  • 2026 VAS D5 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D5 Rashi는 annual authority / honor / recognition / 위상과 인정의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 몸통·입구 역할이 강하므로, 다른 공동장보다 우선해서 읽는다.
+
+[HYEWON_2026_VAS_D5_RASHI_Makara_Jupiter_Saturn_CO_FIELD]
+- Location = D5 / Makara
+- Members = Jupiter 16:24:29 / Saturn 4:32:42
+- Member Class = Classical Core Jupiter-Saturn
+- Field Type = same-sign annual co-presence
+- Exactness = WIDE 11.86°
+- Core Pair = Jupiter / Saturn
+Annual Special Note
+- none
+Independent Functions
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+Mutual Coloring
+  • Jupiter는 Saturn의 장을 먹은 Jupiter다.
+  • Saturn는 Jupiter의 장을 먹은 Saturn다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D5 Makara co-field / annual status stage
+- Support Point Note = none
+- £칸 = 2026 VAS D5 annual sign-field slot
+- €칸
+  • natal D5 annual authority / honor / recognition / 위상과 인정 reference layer = Optional Reference
+  • 2026 VAS D5 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D5 Rashi는 annual authority / honor / recognition / 위상과 인정의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+D5 OPERATING NOTE
+- D5 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D5 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D5 브하]
+D5 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D5_BHAVA_UML_MOON_VENUS_RAHU_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D5 / Upper-Middle-Left Sector
+- Source Raw Field = Mo / Ve / Ra(R) / Ke(R)
+- Members = Moon / Venus / Rahu / Ketu
+- Member Class = Classical Core Moon-Venus / Node Layer Rahu-Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Bhava layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Venus / Rahu / Ketu의 장을 먹은 Moon다.
+  • Venus는 Moon / Rahu / Ketu의 장을 먹은 Venus다.
+  • Rahu는 Moon / Venus / Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Moon / Venus / Rahu의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D5 Bhava visible field / annual authority / honor / recognition / 위상과 인정
+- Support Point Note = none
+- £칸 = 2026 VAS D5 Bhava Upper-Middle-Left Sector snapshot 슬롯
+- €칸
+  • natal D5 annual authority / honor / recognition / 위상과 인정 reference layer = Optional Reference
+  • 2026 VAS D5 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D5 Bhava는 annual authority / honor / recognition / 위상과 인정의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 인정은 과시가 아니라 검증된 산출과 공식 권한으로 올라올 때 안정된다.
+
+[HYEWON_2026_VAS_D5_BHAVA_UR_MERCURY_SUN_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D5 / Upper-Right Sector
+- Source Raw Field = Me / Su
+- Members = Mercury / Sun
+- Member Class = Classical Core Mercury-Sun
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Mercury / Sun
+Annual Special Note
+- none
+Independent Functions
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+  • Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+Mutual Coloring
+  • Mercury는 Sun의 장을 먹은 Mercury다.
+  • Sun는 Mercury의 장을 먹은 Sun다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D5 Bhava visible field / annual authority / honor / recognition / 위상과 인정
+- Support Point Note = none
+- £칸 = 2026 VAS D5 Bhava Upper-Right Sector snapshot 슬롯
+- €칸
+  • natal D5 annual authority / honor / recognition / 위상과 인정 reference layer = Optional Reference
+  • 2026 VAS D5 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D5 Bhava는 annual authority / honor / recognition / 위상과 인정의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 인정은 과시가 아니라 검증된 산출과 공식 권한으로 올라올 때 안정된다.
+
+[HYEWON_2026_VAS_D5_BHAVA_LR_LAGNA_MARS_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D5 / Lower-Right Sector
+- Source Raw Field = As / Ma
+- Members = Lagna / Mars
+- Member Class = Lagna anchor / Classical Core Mars
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Lagna / Mars
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+Mutual Coloring
+  • Lagna는 Mars의 장을 먹은 Lagna다.
+  • Mars는 Lagna의 장을 먹은 Mars다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D5 Bhava visible field / annual authority / honor / recognition / 위상과 인정
+- Support Point Note = none
+- £칸 = 2026 VAS D5 Bhava Lower-Right Sector snapshot 슬롯
+- €칸
+  • natal D5 annual authority / honor / recognition / 위상과 인정 reference layer = Optional Reference
+  • 2026 VAS D5 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D5 Bhava는 annual authority / honor / recognition / 위상과 인정의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 인정은 과시가 아니라 검증된 산출과 공식 권한으로 올라올 때 안정된다.
+
+D5 Single Field
+- Left-Middle Sector = Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+- Lower-Left Sector = Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D5 OPERATING NOTE
+- D5 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D6 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D6 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D6 라시]
+D6 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D6_RASHI_Mesha_Moon_Rahu_Ketu_CO_FIELD]
+- Location = D6 / Mesha
+- Members = Moon 27:57:20 / Rahu 27:39:07 / Ketu 27:39:07
+- Member Class = Classical Core Moon / Node Layer Rahu-Ketu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.00°
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Rashi layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Rahu는 Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Rahu의 장을 먹은 Ketu다.
+  • Moon는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D6 Mesha co-field / annual burden/recovery stage
+- Support Point Note = none
+- Source Note = same-sign Rahu/Ketu source-retained annual field
+- £칸 = 2026 VAS D6 annual sign-field slot
+- €칸
+  • natal D6 annual burden / problem management / defense / 문제관리 reference layer = Optional Reference
+  • 2026 VAS D6 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D6 Rashi는 annual burden / problem management / defense / 문제관리의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 확대와 절단이 동시에 걸린 장이므로, 과열 전에 선별 규칙을 먼저 세워야 한다.
+
+[HYEWON_2026_VAS_D6_RASHI_Simha_Sun_Mars_CO_FIELD]
+- Location = D6 / Simha
+- Members = Sun 17:00:57 / Mars 27:54:53
+- Member Class = Classical Core Sun-Mars
+- Field Type = same-sign annual co-presence
+- Exactness = WIDE 10.90°
+- Core Pair = Sun / Mars
+Annual Special Note
+- none
+Independent Functions
+  • Sun = 실행권 / 권위 / 중심 / 자존 / 공식성
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+Mutual Coloring
+  • Sun는 Mars의 장을 먹은 Sun다.
+  • Mars는 Sun의 장을 먹은 Mars다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D6 Simha co-field / annual burden/recovery stage
+- Support Point Note = none
+- £칸 = 2026 VAS D6 annual sign-field slot
+- €칸
+  • natal D6 annual burden / problem management / defense / 문제관리 reference layer = Optional Reference
+  • 2026 VAS D6 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D6 Rashi는 annual burden / problem management / defense / 문제관리의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D6_RASHI_Vrischika_Neptune_Pluto_CO_FIELD]
+- Location = D6 / Vrischika
+- Members = Neptune 25:14:38 / Pluto 24:48:24
+- Member Class = Outer Support Neptune-Pluto
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.44°
+- Core Pair = Neptune / Pluto
+Annual Special Note
+- none
+Independent Functions
+  • Neptune = 이상화 / 안개 / 상징화 / 흐림 보조
+  • Pluto = 심층 압력 / 강제 재편 / 깊은 통제 보조
+Mutual Coloring
+  • Neptune는 Pluto의 장을 먹은 Neptune다.
+  • Pluto는 Neptune의 장을 먹은 Pluto다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D6 Vrischika co-field / annual burden/recovery stage
+- Support Point Note = none
+- £칸 = 2026 VAS D6 annual sign-field slot
+- €칸
+  • natal D6 annual burden / problem management / defense / 문제관리 reference layer = Optional Reference
+  • 2026 VAS D6 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D6 Rashi는 annual burden / problem management / defense / 문제관리의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D6_RASHI_Dhanus_Lagna_Uranus_CO_FIELD]
+- Location = D6 / Dhanus
+- Members = Lagna 2:40:57 / Uranus 8:46:52
+- Member Class = Lagna anchor / Outer Support Uranus
+- Field Type = same-sign annual co-presence
+- Exactness = FUNCTIONAL 6.10°
+- Core Pair = Lagna / Uranus
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 라그나 / 차트 몸통 / 현실 진입점
+  • Uranus = 급변 / 돌발 전환 / 비정형 신호 보조
+Mutual Coloring
+  • Lagna는 Uranus의 장을 먹은 Lagna다.
+  • Uranus는 Lagna의 장을 먹은 Uranus다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D6 Dhanus co-field / annual burden/recovery stage
+- Support Point Note = none
+- £칸 = 2026 VAS D6 annual sign-field slot
+- €칸
+  • natal D6 annual burden / problem management / defense / 문제관리 reference layer = Optional Reference
+  • 2026 VAS D6 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D6 Rashi는 annual burden / problem management / defense / 문제관리의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 몸통·입구 역할이 강하므로, 다른 공동장보다 우선해서 읽는다.
+
+D6 OPERATING NOTE
+- D6 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D6 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D6 브하]
+D6 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D6_BHAVA_UML_MOON_VENUS_RAHU_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D6 / Upper-Middle-Left Sector
+- Source Raw Field = Mo / Ve / Ra(R) / Ke(R)
+- Members = Moon / Venus / Rahu / Ketu
+- Member Class = Classical Core Moon-Venus / Node Layer Rahu-Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Bhava layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Venus / Rahu / Ketu의 장을 먹은 Moon다.
+  • Venus는 Moon / Rahu / Ketu의 장을 먹은 Venus다.
+  • Rahu는 Moon / Venus / Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Moon / Venus / Rahu의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D6 Bhava visible field / annual burden / problem management / defense / 문제관리
+- Support Point Note = none
+- £칸 = 2026 VAS D6 Bhava Upper-Middle-Left Sector snapshot 슬롯
+- €칸
+  • natal D6 annual burden / problem management / defense / 문제관리 reference layer = Optional Reference
+  • 2026 VAS D6 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D6 Bhava는 annual burden / problem management / defense / 문제관리의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 문제는 감정 대응보다 기록·분류·중지선·관리 루틴으로 회수한다.
+
+[HYEWON_2026_VAS_D6_BHAVA_LM_JUPITER_SATURN_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D6 / Left-Middle Sector
+- Source Raw Field = Ju / Sa(R)
+- Members = Jupiter / Saturn
+- Member Class = Classical Core Jupiter-Saturn
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Jupiter / Saturn
+Annual Special Note
+- none
+Independent Functions
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+Mutual Coloring
+  • Jupiter는 Saturn의 장을 먹은 Jupiter다.
+  • Saturn는 Jupiter의 장을 먹은 Saturn다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D6 Bhava visible field / annual burden / problem management / defense / 문제관리
+- Support Point Note = none
+- £칸 = 2026 VAS D6 Bhava Left-Middle Sector snapshot 슬롯
+- €칸
+  • natal D6 annual burden / problem management / defense / 문제관리 reference layer = Optional Reference
+  • 2026 VAS D6 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D6 Bhava는 annual burden / problem management / defense / 문제관리의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 문제는 감정 대응보다 기록·분류·중지선·관리 루틴으로 회수한다.
+
+D6 Single Field
+- Right-Middle Sector = Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+- Lower-Left Sector = Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+- Lower-Middle Sector = Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+- Lower-Right Sector = Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D6 OPERATING NOTE
+- D6 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D7 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D7 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D7 라시]
+D7 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D7_RASHI_Kanya_Moon_Ketu_Pluto_CO_FIELD]
+- Location = D7 / Kanya
+- Members = Moon 2:36:53 / Ketu 2:15:38 / Pluto 3:56:28
+- Member Class = Classical Core Moon / Node Layer Ketu / Outer Support Pluto
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.35°
+- Core Pair = Moon / Ketu
+Annual Special Note
+- none
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+  • Pluto = 심층 압력 / 강제 재편 / 깊은 통제 보조
+Mutual Coloring
+  • Moon는 Ketu의 장을 먹은 Moon다.
+  • Ketu는 Moon의 장을 먹은 Ketu다.
+  • Pluto는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D7 Kanya co-field / annual lineage/legacy stage
+- Support Point Note = none
+- £칸 = 2026 VAS D7 annual sign-field slot
+- €칸
+  • natal D7 annual creation / progeny / transmission / 창조와 전승 reference layer = Optional Reference
+  • 2026 VAS D7 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D7 Rashi는 annual creation / progeny / transmission / 창조와 전승의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D7_RASHI_Vrischika_Mars_Venus_Neptune_CO_FIELD]
+- Location = D7 / Vrischika
+- Members = Mars 22:34:02 / Venus 7:36:02 / Neptune 4:27:05
+- Member Class = Classical Core Mars-Venus / Outer Support Neptune
+- Field Type = same-sign annual co-presence
+- Exactness = STRONG_FUNCTIONAL 3.15°
+- Core Pair = Venus / Neptune
+Annual Special Note
+- none
+Independent Functions
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+  • Neptune = 이상화 / 안개 / 상징화 / 흐림 보조
+Mutual Coloring
+  • Venus는 Neptune의 장을 먹은 Venus다.
+  • Neptune는 Venus의 장을 먹은 Neptune다.
+  • Mars는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D7 Vrischika co-field / annual lineage/legacy stage
+- Support Point Note = none
+- £칸 = 2026 VAS D7 annual sign-field slot
+- €칸
+  • natal D7 annual creation / progeny / transmission / 창조와 전승 reference layer = Optional Reference
+  • 2026 VAS D7 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D7 Rashi는 annual creation / progeny / transmission / 창조와 전승의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D7_RASHI_Makara_Sun_Saturn_Uranus_CO_FIELD]
+- Location = D7 / Makara
+- Members = Sun 9:51:07 / Saturn 12:21:46 / Uranus 20:14:40
+- Member Class = Classical Core Sun-Saturn / Outer Support Uranus
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 2.51°
+- Core Pair = Sun / Saturn
+Annual Special Note
+- none
+Independent Functions
+  • Sun = 실행권 / 권위 / 중심 / 자존 / 공식성
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+  • Uranus = 급변 / 돌발 전환 / 비정형 신호 보조
+Mutual Coloring
+  • Sun는 Saturn의 장을 먹은 Sun다.
+  • Saturn는 Sun의 장을 먹은 Saturn다.
+  • Uranus는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D7 Makara co-field / annual lineage/legacy stage
+- Support Point Note = none
+- £칸 = 2026 VAS D7 annual sign-field slot
+- €칸
+  • natal D7 annual creation / progeny / transmission / 창조와 전승 reference layer = Optional Reference
+  • 2026 VAS D7 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D7 Rashi는 annual creation / progeny / transmission / 창조와 전승의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D7_RASHI_Meena_Lagna_Mercury_Rahu_CO_FIELD]
+- Location = D7 / Meena
+- Members = Lagna 13:07:46 / Mercury 29:13:35 / Rahu 2:15:38
+- Member Class = Lagna anchor / Classical Core Mercury / Node Layer Rahu
+- Field Type = same-sign annual co-presence
+- Exactness = STRONG_FUNCTIONAL 3.03°
+- Core Pair = Mercury / Rahu
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 라그나 / 차트 몸통 / 현실 진입점
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+Mutual Coloring
+  • Mercury는 Rahu의 장을 먹은 Mercury다.
+  • Rahu는 Mercury의 장을 먹은 Rahu다.
+  • Lagna는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D7 Meena co-field / annual lineage/legacy stage
+- Support Point Note = none
+- £칸 = 2026 VAS D7 annual sign-field slot
+- €칸
+  • natal D7 annual creation / progeny / transmission / 창조와 전승 reference layer = Optional Reference
+  • 2026 VAS D7 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D7 Rashi는 annual creation / progeny / transmission / 창조와 전승의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 몸통·입구 역할이 강하므로, 다른 공동장보다 우선해서 읽는다.
+
+D7 OPERATING NOTE
+- D7 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D7 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D7 브하]
+D7 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D7_BHAVA_UL_LAGNA_RAHU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D7 / Upper-Left Sector
+- Source Raw Field = As / Ra(R)
+- Members = Lagna / Rahu
+- Member Class = Lagna anchor / Node Layer Rahu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Lagna / Rahu
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+Mutual Coloring
+  • Lagna는 Rahu의 장을 먹은 Lagna다.
+  • Rahu는 Lagna의 장을 먹은 Rahu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D7 Bhava visible field / annual creation / progeny / transmission / 창조와 전승
+- Support Point Note = none
+- £칸 = 2026 VAS D7 Bhava Upper-Left Sector snapshot 슬롯
+- €칸
+  • natal D7 annual creation / progeny / transmission / 창조와 전승 reference layer = Optional Reference
+  • 2026 VAS D7 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D7 Bhava는 annual creation / progeny / transmission / 창조와 전승의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 창조와 전승은 많이 만드는 것보다 남길 구조와 책임을 기준으로 닫는다.
+
+[HYEWON_2026_VAS_D7_BHAVA_LM_SUN_SATURN_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D7 / Left-Middle Sector
+- Source Raw Field = Su / Sa(R)
+- Members = Sun / Saturn
+- Member Class = Classical Core Sun-Saturn
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Sun / Saturn
+Annual Special Note
+- none
+Independent Functions
+  • Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+Mutual Coloring
+  • Sun는 Saturn의 장을 먹은 Sun다.
+  • Saturn는 Sun의 장을 먹은 Saturn다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D7 Bhava visible field / annual creation / progeny / transmission / 창조와 전승
+- Support Point Note = none
+- £칸 = 2026 VAS D7 Bhava Left-Middle Sector snapshot 슬롯
+- €칸
+  • natal D7 annual creation / progeny / transmission / 창조와 전승 reference layer = Optional Reference
+  • 2026 VAS D7 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D7 Bhava는 annual creation / progeny / transmission / 창조와 전승의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 창조와 전승은 많이 만드는 것보다 남길 구조와 책임을 기준으로 닫는다.
+
+[HYEWON_2026_VAS_D7_BHAVA_LC_MARS_VENUS_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D7 / Lower-Middle Sector
+- Source Raw Field = Ma / Ve
+- Members = Mars / Venus
+- Member Class = Classical Core Mars-Venus
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Mars / Venus
+Annual Special Note
+- none
+Independent Functions
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+Mutual Coloring
+  • Mars는 Venus의 장을 먹은 Mars다.
+  • Venus는 Mars의 장을 먹은 Venus다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D7 Bhava visible field / annual creation / progeny / transmission / 창조와 전승
+- Support Point Note = none
+- £칸 = 2026 VAS D7 Bhava Lower-Middle Sector snapshot 슬롯
+- €칸
+  • natal D7 annual creation / progeny / transmission / 창조와 전승 reference layer = Optional Reference
+  • 2026 VAS D7 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D7 Bhava는 annual creation / progeny / transmission / 창조와 전승의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 창조와 전승은 많이 만드는 것보다 남길 구조와 책임을 기준으로 닫는다.
+
+[HYEWON_2026_VAS_D7_BHAVA_LR_MOON_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D7 / Lower-Right Sector
+- Source Raw Field = Mo / Ke(R)
+- Members = Moon / Ketu
+- Member Class = Classical Core Moon / Node Layer Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Moon / Ketu
+Annual Special Note
+- none
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Ketu의 장을 먹은 Moon다.
+  • Ketu는 Moon의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D7 Bhava visible field / annual creation / progeny / transmission / 창조와 전승
+- Support Point Note = none
+- £칸 = 2026 VAS D7 Bhava Lower-Right Sector snapshot 슬롯
+- €칸
+  • natal D7 annual creation / progeny / transmission / 창조와 전승 reference layer = Optional Reference
+  • 2026 VAS D7 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D7 Bhava는 annual creation / progeny / transmission / 창조와 전승의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 창조와 전승은 많이 만드는 것보다 남길 구조와 책임을 기준으로 닫는다.
+
+D7 Single Field
+- Upper-Middle-Left Sector = Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+- Upper-Right Sector = Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D7 OPERATING NOTE
+- D7 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D8 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D8 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D8 라시]
+D8 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D8_RASHI_Mithuna_Lagna_Sun_Pluto_CO_FIELD]
+- Location = D8 / Mithuna
+- Members = Lagna 23:34:36 / Sun 2:41:17 / Pluto 13:04:32
+- Member Class = Lagna anchor / Classical Core Sun / Outer Support Pluto
+- Field Type = same-sign annual co-presence
+- Exactness = FUNCTIONAL 9.11°
+- Core Pair = Lagna / Sun
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 라그나 / 차트 몸통 / 현실 진입점
+  • Sun = 실행권 / 권위 / 중심 / 자존 / 공식성
+  • Pluto = 심층 압력 / 강제 재편 / 깊은 통제 보조
+Mutual Coloring
+  • Lagna는 Sun의 장을 먹은 Lagna다.
+  • Sun는 Lagna의 장을 먹은 Sun다.
+  • Pluto는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D8 Mithuna co-field / annual rupture/transition stage
+- Support Point Note = none
+- £칸 = 2026 VAS D8 annual sign-field slot
+- €칸
+  • natal D8 annual rupture / crisis / survival reset / 파열과 생존 재설정 reference layer = Optional Reference
+  • 2026 VAS D8 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D8 Rashi는 annual rupture / crisis / survival reset / 파열과 생존 재설정의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 몸통·입구 역할이 강하므로, 다른 공동장보다 우선해서 읽는다.
+
+[HYEWON_2026_VAS_D8_RASHI_Kanya_Mercury_Jupiter_CO_FIELD]
+- Location = D8 / Kanya
+- Members = Mercury 3:24:06 / Jupiter 20:15:11
+- Member Class = Classical Core Mercury-Jupiter
+- Field Type = same-sign annual co-presence
+- Exactness = WIDE 13.15°
+- Core Pair = Mercury / Jupiter
+Annual Special Note
+- none
+Independent Functions
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+Mutual Coloring
+  • Mercury는 Jupiter의 장을 먹은 Mercury다.
+  • Jupiter는 Mercury의 장을 먹은 Jupiter다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D8 Kanya co-field / annual rupture/transition stage
+- Support Point Note = none
+- £칸 = 2026 VAS D8 annual sign-field slot
+- €칸
+  • natal D8 annual rupture / crisis / survival reset / 파열과 생존 재설정 reference layer = Optional Reference
+  • 2026 VAS D8 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D8 Rashi는 annual rupture / crisis / survival reset / 파열과 생존 재설정의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D8_RASHI_Makara_Moon_Saturn_Rahu_Ketu_CO_FIELD]
+- Location = D8 / Makara
+- Members = Moon 7:16:26 / Saturn 1:16:19 / Rahu 6:52:10 / Ketu 6:52:10
+- Member Class = Classical Core Moon-Saturn / Node Layer Rahu-Ketu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.00°
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Rashi layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Rahu는 Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Rahu의 장을 먹은 Ketu다.
+  • Moon / Saturn는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D8 Makara co-field / annual rupture/transition stage
+- Support Point Note = none
+- Source Note = same-sign Rahu/Ketu source-retained annual field
+- £칸 = 2026 VAS D8 annual sign-field slot
+- €칸
+  • natal D8 annual rupture / crisis / survival reset / 파열과 생존 재설정 reference layer = Optional Reference
+  • 2026 VAS D8 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D8 Rashi는 annual rupture / crisis / survival reset / 파열과 생존 재설정의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 확대와 절단이 동시에 걸린 장이므로, 과열 전에 선별 규칙을 먼저 세워야 한다.
+
+D8 OPERATING NOTE
+- D8 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D8 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D8 브하]
+D8 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D8_BHAVA_UML_SUN_VENUS_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D8 / Upper-Middle-Left Sector
+- Source Raw Field = Su / Ve
+- Members = Sun / Venus
+- Member Class = Classical Core Sun-Venus
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Sun / Venus
+Annual Special Note
+- none
+Independent Functions
+  • Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+Mutual Coloring
+  • Sun는 Venus의 장을 먹은 Sun다.
+  • Venus는 Sun의 장을 먹은 Venus다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D8 Bhava visible field / annual rupture / crisis / survival reset / 파열과 생존 재설정
+- Support Point Note = none
+- £칸 = 2026 VAS D8 Bhava Upper-Middle-Left Sector snapshot 슬롯
+- €칸
+  • natal D8 annual rupture / crisis / survival reset / 파열과 생존 재설정 reference layer = Optional Reference
+  • 2026 VAS D8 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D8 Bhava는 annual rupture / crisis / survival reset / 파열과 생존 재설정의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 위기는 공포가 아니라 증폭과 절단을 구분해 손실을 제한하고 구조를 재설정하는 장이다.
+
+[HYEWON_2026_VAS_D8_BHAVA_LL_MOON_SATURN_RAHU_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D8 / Lower-Left Sector
+- Source Raw Field = Mo / Sa(R) / Ra(R) / Ke(R)
+- Members = Moon / Saturn / Rahu / Ketu
+- Member Class = Classical Core Moon-Saturn / Node Layer Rahu-Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Bhava layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Saturn / Rahu / Ketu의 장을 먹은 Moon다.
+  • Saturn는 Moon / Rahu / Ketu의 장을 먹은 Saturn다.
+  • Rahu는 Moon / Saturn / Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Moon / Saturn / Rahu의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D8 Bhava visible field / annual rupture / crisis / survival reset / 파열과 생존 재설정
+- Support Point Note = none
+- £칸 = 2026 VAS D8 Bhava Lower-Left Sector snapshot 슬롯
+- €칸
+  • natal D8 annual rupture / crisis / survival reset / 파열과 생존 재설정 reference layer = Optional Reference
+  • 2026 VAS D8 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D8 Bhava는 annual rupture / crisis / survival reset / 파열과 생존 재설정의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 위기는 공포가 아니라 증폭과 절단을 구분해 손실을 제한하고 구조를 재설정하는 장이다.
+
+D8 Single Field
+- Upper-Right Sector = Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+- Left-Middle Sector = Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+- Right-Middle Sector = Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+- Lower-Right Sector = Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D8 OPERATING NOTE
+- D8 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D9 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D9 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D9 라시]
+D9 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D9_RASHI_Vrishabha_Moon_Mars_Ketu_CO_FIELD]
+- Location = D9 / Vrishabha
+- Members = Moon 11:56:00 / Mars 11:52:19 / Ketu 11:28:41
+- Member Class = Classical Core Moon-Mars / Node Layer Ketu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.06°
+- Core Pair = Moon / Mars
+Annual Special Note
+- none
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Mars의 장을 먹은 Moon다.
+  • Mars는 Moon의 장을 먹은 Mars다.
+  • Ketu는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D9 Vrishabha co-field / annual inner-relationship stage
+- Support Point Note = none
+- £칸 = 2026 VAS D9 annual sign-field slot
+- €칸
+  • natal D9 annual dharma / relationship maturity / inner direction reference layer = Optional Reference
+  • 2026 VAS D9 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D9 Rashi는 annual dharma / relationship maturity / inner direction의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 감정과 행동이 같이 뜨면 속도보다 기준이 먼저다.
+
+[HYEWON_2026_VAS_D9_RASHI_Thula_Lagna_Sun_CO_FIELD]
+- Location = D9 / Thula
+- Members = Lagna 4:01:25 / Sun 25:31:26
+- Member Class = Lagna anchor / Classical Core Sun
+- Field Type = same-sign annual co-presence
+- Exactness = FUNCTIONAL 8.50°
+- Core Pair = Lagna / Sun
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 라그나 / 차트 몸통 / 현실 진입점
+  • Sun = 실행권 / 권위 / 중심 / 자존 / 공식성
+Mutual Coloring
+  • Lagna는 Sun의 장을 먹은 Lagna다.
+  • Sun는 Lagna의 장을 먹은 Sun다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D9 Thula co-field / annual inner-relationship stage
+- Support Point Note = none
+- £칸 = 2026 VAS D9 annual sign-field slot
+- €칸
+  • natal D9 annual dharma / relationship maturity / inner direction reference layer = Optional Reference
+  • 2026 VAS D9 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D9 Rashi는 annual dharma / relationship maturity / inner direction의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 몸통·입구 역할이 강하므로, 다른 공동장보다 우선해서 읽는다.
+
+[HYEWON_2026_VAS_D9_RASHI_Vrischika_Venus_Rahu_CO_FIELD]
+- Location = D9 / Vrischika
+- Members = Venus 18:20:37 / Rahu 11:28:41
+- Member Class = Classical Core Venus / Node Layer Rahu
+- Field Type = same-sign annual co-presence
+- Exactness = FUNCTIONAL 6.87°
+- Core Pair = Venus / Rahu
+Annual Special Note
+- none
+Independent Functions
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+Mutual Coloring
+  • Venus는 Rahu의 장을 먹은 Venus다.
+  • Rahu는 Venus의 장을 먹은 Rahu다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D9 Vrischika co-field / annual inner-relationship stage
+- Support Point Note = none
+- £칸 = 2026 VAS D9 annual sign-field slot
+- €칸
+  • natal D9 annual dharma / relationship maturity / inner direction reference layer = Optional Reference
+  • 2026 VAS D9 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D9 Rashi는 annual dharma / relationship maturity / inner direction의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+D9 OPERATING NOTE
+- D9 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D9 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D9 브하]
+D9 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D9_BHAVA_UML_MOON_MARS_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D9 / Upper-Middle-Left Sector
+- Source Raw Field = Mo / Ma / Ke(R)
+- Members = Moon / Mars / Ketu
+- Member Class = Classical Core Moon-Mars / Node Layer Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Moon / Mars
+Annual Special Note
+- none
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Mars / Ketu의 장을 먹은 Moon다.
+  • Mars는 Moon / Ketu의 장을 먹은 Mars다.
+  • Ketu는 Moon / Mars의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D9 Bhava visible field / annual dharma / relationship maturity / inner direction
+- Support Point Note = none
+- £칸 = 2026 VAS D9 Bhava Upper-Middle-Left Sector snapshot 슬롯
+- €칸
+  • natal D9 annual dharma / relationship maturity / inner direction reference layer = Optional Reference
+  • 2026 VAS D9 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D9 Bhava는 annual dharma / relationship maturity / inner direction의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 관계와 다르마는 감정만으로 닫지 않고 장기 지속성과 현실 역할을 붙여 확인한다.
+
+[HYEWON_2026_VAS_D9_BHAVA_LL_JUPITER_SATURN_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D9 / Lower-Left Sector
+- Source Raw Field = Ju / Sa(R)
+- Members = Jupiter / Saturn
+- Member Class = Classical Core Jupiter-Saturn
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Jupiter / Saturn
+Annual Special Note
+- none
+Independent Functions
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+Mutual Coloring
+  • Jupiter는 Saturn의 장을 먹은 Jupiter다.
+  • Saturn는 Jupiter의 장을 먹은 Saturn다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D9 Bhava visible field / annual dharma / relationship maturity / inner direction
+- Support Point Note = none
+- £칸 = 2026 VAS D9 Bhava Lower-Left Sector snapshot 슬롯
+- €칸
+  • natal D9 annual dharma / relationship maturity / inner direction reference layer = Optional Reference
+  • 2026 VAS D9 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D9 Bhava는 annual dharma / relationship maturity / inner direction의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 관계와 다르마는 감정만으로 닫지 않고 장기 지속성과 현실 역할을 붙여 확인한다.
+
+[HYEWON_2026_VAS_D9_BHAVA_LC_SUN_VENUS_RAHU_LAGNA_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D9 / Lower-Middle Sector
+- Source Raw Field = Su / Ve / Ra(R) / As
+- Members = Sun / Venus / Rahu / Lagna
+- Member Class = Lagna anchor / Classical Core Sun-Venus / Node Layer Rahu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Sun / Venus
+Annual Special Note
+- none
+Independent Functions
+  • Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+Mutual Coloring
+  • Sun는 Venus / Rahu / Lagna의 장을 먹은 Sun다.
+  • Venus는 Sun / Rahu / Lagna의 장을 먹은 Venus다.
+  • Rahu는 Sun / Venus / Lagna의 장을 먹은 Rahu다.
+  • Lagna는 Sun / Venus / Rahu의 장을 먹은 Lagna다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D9 Bhava visible field / annual dharma / relationship maturity / inner direction
+- Support Point Note = none
+- £칸 = 2026 VAS D9 Bhava Lower-Middle Sector snapshot 슬롯
+- €칸
+  • natal D9 annual dharma / relationship maturity / inner direction reference layer = Optional Reference
+  • 2026 VAS D9 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D9 Bhava는 annual dharma / relationship maturity / inner direction의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 관계와 다르마는 감정만으로 닫지 않고 장기 지속성과 현실 역할을 붙여 확인한다.
+
+D9 Single Field
+- Left-Middle Sector = Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D9 OPERATING NOTE
+- D9 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D10 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D10 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D10 라시]
+D10 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D10_RASHI_Mithuna_Lagna_Mercury_CO_FIELD]
+- Location = D10 / Mithuna
+- Members = Lagna 14:28:15 / Mercury 11:45:07
+- Member Class = Lagna anchor / Classical Core Mercury
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 2.72°
+- Core Pair = Lagna / Mercury
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 라그나 / 차트 몸통 / 현실 진입점
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+Mutual Coloring
+  • Lagna는 Mercury의 장을 먹은 Lagna다.
+  • Mercury는 Lagna의 장을 먹은 Mercury다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D10 Mithuna co-field / annual role/work stage
+- Support Point Note = none
+- £칸 = 2026 VAS D10 annual sign-field slot
+- €칸
+  • natal D10 annual career / public role / function / 역할과 직업 출력 reference layer = Optional Reference
+  • 2026 VAS D10 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D10 Rashi는 annual career / public role / function / 역할과 직업 출력의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 몸통·입구 역할이 강하므로, 다른 공동장보다 우선해서 읽는다.
+
+[HYEWON_2026_VAS_D10_RASHI_Kanya_Moon_Ketu_CO_FIELD]
+- Location = D10 / Kanya
+- Members = Moon 16:35:33 / Ketu 16:05:12
+- Member Class = Classical Core Moon / Node Layer Ketu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.51°
+- Core Pair = Moon / Ketu
+Annual Special Note
+- none
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Ketu의 장을 먹은 Moon다.
+  • Ketu는 Moon의 장을 먹은 Ketu다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D10 Kanya co-field / annual role/work stage
+- Support Point Note = none
+- £칸 = 2026 VAS D10 annual sign-field slot
+- €칸
+  • natal D10 annual career / public role / function / 역할과 직업 출력 reference layer = Optional Reference
+  • 2026 VAS D10 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D10 Rashi는 annual career / public role / function / 역할과 직업 출력의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D10_RASHI_Kumbha_Mars_Neptune_CO_FIELD]
+- Location = D10 / Kumbha
+- Members = Mars 6:31:28 / Neptune 2:04:24
+- Member Class = Classical Core Mars / Outer Support Neptune
+- Field Type = same-sign annual co-presence
+- Exactness = STRONG_FUNCTIONAL 4.45°
+- Core Pair = Mars / Neptune
+Annual Special Note
+- none
+Independent Functions
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+  • Neptune = 이상화 / 안개 / 상징화 / 흐림 보조
+Mutual Coloring
+  • Mars는 Neptune의 장을 먹은 Mars다.
+  • Neptune는 Mars의 장을 먹은 Neptune다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D10 Kumbha co-field / annual role/work stage
+- Support Point Note = none
+- £칸 = 2026 VAS D10 annual sign-field slot
+- €칸
+  • natal D10 annual career / public role / function / 역할과 직업 출력 reference layer = Optional Reference
+  • 2026 VAS D10 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D10 Rashi는 annual career / public role / function / 역할과 직업 출력의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D10_RASHI_Meena_Sun_Rahu_CO_FIELD]
+- Location = D10 / Meena
+- Members = Sun 18:21:36 / Rahu 16:05:12
+- Member Class = Classical Core Sun / Node Layer Rahu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 2.27°
+- Core Pair = Sun / Rahu
+Annual Special Note
+- none
+Independent Functions
+  • Sun = 실행권 / 권위 / 중심 / 자존 / 공식성
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+Mutual Coloring
+  • Sun는 Rahu의 장을 먹은 Sun다.
+  • Rahu는 Sun의 장을 먹은 Rahu다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D10 Meena co-field / annual role/work stage
+- Support Point Note = none
+- £칸 = 2026 VAS D10 annual sign-field slot
+- €칸
+  • natal D10 annual career / public role / function / 역할과 직업 출력 reference layer = Optional Reference
+  • 2026 VAS D10 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D10 Rashi는 annual career / public role / function / 역할과 직업 출력의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+D10 OPERATING NOTE
+- D10 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D10 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D10 브하]
+D10 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D10_BHAVA_UL_SUN_RAHU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D10 / Upper-Left Sector
+- Source Raw Field = Su / Ra(R)
+- Members = Sun / Rahu
+- Member Class = Classical Core Sun / Node Layer Rahu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Sun / Rahu
+Annual Special Note
+- none
+Independent Functions
+  • Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+Mutual Coloring
+  • Sun는 Rahu의 장을 먹은 Sun다.
+  • Rahu는 Sun의 장을 먹은 Rahu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D10 Bhava visible field / annual career / public role / function / 역할과 직업 출력
+- Support Point Note = none
+- £칸 = 2026 VAS D10 Bhava Upper-Left Sector snapshot 슬롯
+- €칸
+  • natal D10 annual career / public role / function / 역할과 직업 출력 reference layer = Optional Reference
+  • 2026 VAS D10 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D10 Bhava는 annual career / public role / function / 역할과 직업 출력의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 직업 역할은 말·문서·실행·책임이 현실 역할로 검증될 때 안정된다.
+
+[HYEWON_2026_VAS_D10_BHAVA_UR_LAGNA_MERCURY_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D10 / Upper-Right Sector
+- Source Raw Field = As / Me
+- Members = Lagna / Mercury
+- Member Class = Lagna anchor / Classical Core Mercury
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Lagna / Mercury
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+Mutual Coloring
+  • Lagna는 Mercury의 장을 먹은 Lagna다.
+  • Mercury는 Lagna의 장을 먹은 Mercury다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D10 Bhava visible field / annual career / public role / function / 역할과 직업 출력
+- Support Point Note = none
+- £칸 = 2026 VAS D10 Bhava Upper-Right Sector snapshot 슬롯
+- €칸
+  • natal D10 annual career / public role / function / 역할과 직업 출력 reference layer = Optional Reference
+  • 2026 VAS D10 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D10 Bhava는 annual career / public role / function / 역할과 직업 출력의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 직업 역할은 말·문서·실행·책임이 현실 역할로 검증될 때 안정된다.
+
+[HYEWON_2026_VAS_D10_BHAVA_LC_VENUS_JUPITER_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D10 / Lower-Middle Sector
+- Source Raw Field = Ve / Ju
+- Members = Venus / Jupiter
+- Member Class = Classical Core Venus-Jupiter
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Venus / Jupiter
+Annual Special Note
+- none
+Independent Functions
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+Mutual Coloring
+  • Venus는 Jupiter의 장을 먹은 Venus다.
+  • Jupiter는 Venus의 장을 먹은 Jupiter다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D10 Bhava visible field / annual career / public role / function / 역할과 직업 출력
+- Support Point Note = none
+- £칸 = 2026 VAS D10 Bhava Lower-Middle Sector snapshot 슬롯
+- €칸
+  • natal D10 annual career / public role / function / 역할과 직업 출력 reference layer = Optional Reference
+  • 2026 VAS D10 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D10 Bhava는 annual career / public role / function / 역할과 직업 출력의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 직업 역할은 말·문서·실행·책임이 현실 역할로 검증될 때 안정된다.
+
+[HYEWON_2026_VAS_D10_BHAVA_LR_MOON_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D10 / Lower-Right Sector
+- Source Raw Field = Mo / Ke(R)
+- Members = Moon / Ketu
+- Member Class = Classical Core Moon / Node Layer Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Moon / Ketu
+Annual Special Note
+- none
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Ketu의 장을 먹은 Moon다.
+  • Ketu는 Moon의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D10 Bhava visible field / annual career / public role / function / 역할과 직업 출력
+- Support Point Note = none
+- £칸 = 2026 VAS D10 Bhava Lower-Right Sector snapshot 슬롯
+- €칸
+  • natal D10 annual career / public role / function / 역할과 직업 출력 reference layer = Optional Reference
+  • 2026 VAS D10 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D10 Bhava는 annual career / public role / function / 역할과 직업 출력의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 직업 역할은 말·문서·실행·책임이 현실 역할로 검증될 때 안정된다.
+
+D10 Single Field
+- Upper-Middle-Left Sector = Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+- Left-Middle Sector = Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D10 OPERATING NOTE
+- D10 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D11 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D11 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D11 라시]
+D11 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D11_RASHI_Kataka_Rahu_Uranus_CO_FIELD]
+- Location = D11 / Kataka
+- Members = Rahu 20:41:43 / Uranus 6:05:55
+- Member Class = Node Layer Rahu / Outer Support Uranus
+- Field Type = same-sign annual co-presence
+- Exactness = WIDE 14.60°
+- Core Pair = Rahu / Uranus
+Annual Special Note
+- none
+Independent Functions
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Uranus = 급변 / 돌발 전환 / 비정형 신호 보조
+Mutual Coloring
+  • Rahu는 Uranus의 장을 먹은 Rahu다.
+  • Uranus는 Rahu의 장을 먹은 Uranus다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D11 Kataka co-field / annual gains stage
+- Support Point Note = none
+- £칸 = 2026 VAS D11 annual sign-field slot
+- €칸
+  • natal D11 annual gains / achievement / support structure / 성과와 회수 reference layer = Optional Reference
+  • 2026 VAS D11 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D11 Rashi는 annual gains / achievement / support structure / 성과와 회수의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D11_RASHI_Simha_Sun_Jupiter_Neptune_CO_FIELD]
+- Location = D11 / Simha
+- Members = Sun 11:11:46 / Jupiter 24:05:52 / Neptune 11:16:51
+- Member Class = Classical Core Sun-Jupiter / Outer Support Neptune
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.08°
+- Core Pair = Sun / Neptune
+Annual Special Note
+- none
+Independent Functions
+  • Sun = 실행권 / 권위 / 중심 / 자존 / 공식성
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+  • Neptune = 이상화 / 안개 / 상징화 / 흐림 보조
+Mutual Coloring
+  • Sun는 Neptune의 장을 먹은 Sun다.
+  • Neptune는 Sun의 장을 먹은 Neptune다.
+  • Jupiter는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D11 Simha co-field / annual gains stage
+- Support Point Note = none
+- £칸 = 2026 VAS D11 annual sign-field slot
+- €칸
+  • natal D11 annual gains / achievement / support structure / 성과와 회수 reference layer = Optional Reference
+  • 2026 VAS D11 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D11 Rashi는 annual gains / achievement / support structure / 성과와 회수의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D11_RASHI_Vrischika_Mars_Venus_Saturn_CO_FIELD]
+- Location = D11 / Vrischika
+- Members = Mars 1:10:37 / Venus 29:05:12 / Saturn 27:59:56
+- Member Class = Classical Core Mars-Venus-Saturn
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 1.09°
+- Core Pair = Venus / Saturn
+Annual Special Note
+- none
+Independent Functions
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+Mutual Coloring
+  • Venus는 Saturn의 장을 먹은 Venus다.
+  • Saturn는 Venus의 장을 먹은 Saturn다.
+  • Mars는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D11 Vrischika co-field / annual gains stage
+- Support Point Note = none
+- £칸 = 2026 VAS D11 annual sign-field slot
+- €칸
+  • natal D11 annual gains / achievement / support structure / 성과와 회수 reference layer = Optional Reference
+  • 2026 VAS D11 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D11 Rashi는 annual gains / achievement / support structure / 성과와 회수의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D11_RASHI_Makara_Moon_Ketu_CO_FIELD]
+- Location = D11 / Makara
+- Members = Moon 21:15:06 / Ketu 20:41:43
+- Member Class = Classical Core Moon / Node Layer Ketu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.56°
+- Core Pair = Moon / Ketu
+Annual Special Note
+- none
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Ketu의 장을 먹은 Moon다.
+  • Ketu는 Moon의 장을 먹은 Ketu다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D11 Makara co-field / annual gains stage
+- Support Point Note = none
+- £칸 = 2026 VAS D11 annual sign-field slot
+- €칸
+  • natal D11 annual gains / achievement / support structure / 성과와 회수 reference layer = Optional Reference
+  • 2026 VAS D11 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D11 Rashi는 annual gains / achievement / support structure / 성과와 회수의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+D11 OPERATING NOTE
+- D11 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D11 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D11 브하]
+D11 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D11_BHAVA_LM_MOON_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D11 / Left-Middle Sector
+- Source Raw Field = Mo / Ke(R)
+- Members = Moon / Ketu
+- Member Class = Classical Core Moon / Node Layer Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Moon / Ketu
+Annual Special Note
+- none
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Ketu의 장을 먹은 Moon다.
+  • Ketu는 Moon의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D11 Bhava visible field / annual gains / achievement / support structure / 성과와 회수
+- Support Point Note = none
+- £칸 = 2026 VAS D11 Bhava Left-Middle Sector snapshot 슬롯
+- €칸
+  • natal D11 annual gains / achievement / support structure / 성과와 회수 reference layer = Optional Reference
+  • 2026 VAS D11 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D11 Bhava는 annual gains / achievement / support structure / 성과와 회수의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 성과는 체감보다 실제 회수·기록·분리·귀속으로 닫아야 한다.
+
+[HYEWON_2026_VAS_D11_BHAVA_RM_RAHU_SUN_JUPITER_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D11 / Right-Middle Sector
+- Source Raw Field = Ra(R) / Su / Ju
+- Members = Rahu / Sun / Jupiter
+- Member Class = Classical Core Sun-Jupiter / Node Layer Rahu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Rahu / Sun
+Annual Special Note
+- none
+Independent Functions
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+Mutual Coloring
+  • Rahu는 Sun / Jupiter의 장을 먹은 Rahu다.
+  • Sun는 Rahu / Jupiter의 장을 먹은 Sun다.
+  • Jupiter는 Rahu / Sun의 장을 먹은 Jupiter다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D11 Bhava visible field / annual gains / achievement / support structure / 성과와 회수
+- Support Point Note = none
+- £칸 = 2026 VAS D11 Bhava Right-Middle Sector snapshot 슬롯
+- €칸
+  • natal D11 annual gains / achievement / support structure / 성과와 회수 reference layer = Optional Reference
+  • 2026 VAS D11 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D11 Bhava는 annual gains / achievement / support structure / 성과와 회수의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 성과는 체감보다 실제 회수·기록·분리·귀속으로 닫아야 한다.
+
+[HYEWON_2026_VAS_D11_BHAVA_LC_VENUS_SATURN_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D11 / Lower-Middle Sector
+- Source Raw Field = Ve / Sa(R)
+- Members = Venus / Saturn
+- Member Class = Classical Core Venus-Saturn
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Venus / Saturn
+Annual Special Note
+- none
+Independent Functions
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+Mutual Coloring
+  • Venus는 Saturn의 장을 먹은 Venus다.
+  • Saturn는 Venus의 장을 먹은 Saturn다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D11 Bhava visible field / annual gains / achievement / support structure / 성과와 회수
+- Support Point Note = none
+- £칸 = 2026 VAS D11 Bhava Lower-Middle Sector snapshot 슬롯
+- €칸
+  • natal D11 annual gains / achievement / support structure / 성과와 회수 reference layer = Optional Reference
+  • 2026 VAS D11 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D11 Bhava는 annual gains / achievement / support structure / 성과와 회수의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 성과는 체감보다 실제 회수·기록·분리·귀속으로 닫아야 한다.
+
+D11 Single Field
+- Upper-Middle-Left Sector = Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+- Lower-Left Sector = Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+- Lower-Right Sector = Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D11 OPERATING NOTE
+- D11 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D12 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D12 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D12 라시]
+D12 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D12_RASHI_Kanya_Moon_Ketu_Uranus_CO_FIELD]
+- Location = D12 / Kanya
+- Members = Moon 25:54:40 / Ketu 25:18:15 / Uranus 17:33:44
+- Member Class = Classical Core Moon / Node Layer Ketu / Outer Support Uranus
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.61°
+- Core Pair = Moon / Ketu
+Annual Special Note
+- none
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+  • Uranus = 급변 / 돌발 전환 / 비정형 신호 보조
+Mutual Coloring
+  • Moon는 Ketu의 장을 먹은 Moon다.
+  • Ketu는 Moon의 장을 먹은 Ketu다.
+  • Uranus는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D12 Kanya co-field / annual lineage-pattern stage
+- Support Point Note = none
+- £칸 = 2026 VAS D12 annual sign-field slot
+- €칸
+  • natal D12 annual parents / lineage / family memory / 부모·혈통 기억 reference layer = Optional Reference
+  • 2026 VAS D12 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D12 Rashi는 annual parents / lineage / family memory / 부모·혈통 기억의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D12_RASHI_Thula_Mercury_Saturn_CO_FIELD]
+- Location = D12 / Thula
+- Members = Mercury 20:06:09 / Saturn 16:54:28
+- Member Class = Classical Core Mercury-Saturn
+- Field Type = same-sign annual co-presence
+- Exactness = STRONG_FUNCTIONAL 3.19°
+- Core Pair = Mercury / Saturn
+Annual Special Note
+- none
+Independent Functions
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+Mutual Coloring
+  • Mercury는 Saturn의 장을 먹은 Mercury다.
+  • Saturn는 Mercury의 장을 먹은 Saturn다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D12 Thula co-field / annual lineage-pattern stage
+- Support Point Note = none
+- £칸 = 2026 VAS D12 annual sign-field slot
+- €칸
+  • natal D12 annual parents / lineage / family memory / 부모·혈통 기억 reference layer = Optional Reference
+  • 2026 VAS D12 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D12 Rashi는 annual parents / lineage / family memory / 부모·혈통 기억의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 문장·기준·반복검수 없이는 이 장이 제대로 작동하지 않는다.
+
+[HYEWON_2026_VAS_D12_RASHI_Meena_Mars_Jupiter_Rahu_CO_FIELD]
+- Location = D12 / Meena
+- Members = Mars 25:49:46 / Jupiter 15:22:46 / Rahu 25:18:15
+- Member Class = Classical Core Mars-Jupiter / Node Layer Rahu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.53°
+- Core Pair = Mars / Rahu
+Annual Special Note
+- none
+Independent Functions
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+Mutual Coloring
+  • Mars는 Rahu의 장을 먹은 Mars다.
+  • Rahu는 Mars의 장을 먹은 Rahu다.
+  • Jupiter는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D12 Meena co-field / annual lineage-pattern stage
+- Support Point Note = none
+- £칸 = 2026 VAS D12 annual sign-field slot
+- €칸
+  • natal D12 annual parents / lineage / family memory / 부모·혈통 기억 reference layer = Optional Reference
+  • 2026 VAS D12 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D12 Rashi는 annual parents / lineage / family memory / 부모·혈통 기억의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+D12 OPERATING NOTE
+- D12 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D12 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D12 브하]
+D12 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D12_BHAVA_UML_MARS_RAHU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D12 / Upper-Middle-Left Sector
+- Source Raw Field = Ma / Ra(R)
+- Members = Mars / Rahu
+- Member Class = Classical Core Mars / Node Layer Rahu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Mars / Rahu
+Annual Special Note
+- none
+Independent Functions
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+Mutual Coloring
+  • Mars는 Rahu의 장을 먹은 Mars다.
+  • Rahu는 Mars의 장을 먹은 Rahu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D12 Bhava visible field / annual parents / lineage / family memory / 부모·혈통 기억
+- Support Point Note = none
+- £칸 = 2026 VAS D12 Bhava Upper-Middle-Left Sector snapshot 슬롯
+- €칸
+  • natal D12 annual parents / lineage / family memory / 부모·혈통 기억 reference layer = Optional Reference
+  • 2026 VAS D12 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D12 Bhava는 annual parents / lineage / family memory / 부모·혈통 기억의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 가족·부모 패턴은 감정 재현이 아니라 문서·책임·분리 기준으로 정리한다.
+
+[HYEWON_2026_VAS_D12_BHAVA_LC_LAGNA_MOON_MERCURY_SATURN_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D12 / Lower-Middle Sector
+- Source Raw Field = As / Mo / Me / Sa(R) / Ke(R)
+- Members = Lagna / Moon / Mercury / Saturn / Ketu
+- Member Class = Lagna anchor / Classical Core Moon-Mercury-Saturn / Node Layer Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Lagna / Moon
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Lagna는 Moon / Mercury / Saturn / Ketu의 장을 먹은 Lagna다.
+  • Moon는 Lagna / Mercury / Saturn / Ketu의 장을 먹은 Moon다.
+  • Mercury는 Lagna / Moon / Saturn / Ketu의 장을 먹은 Mercury다.
+  • Saturn는 Lagna / Moon / Mercury / Ketu의 장을 먹은 Saturn다.
+  • Ketu는 Lagna / Moon / Mercury / Saturn의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D12 Bhava visible field / annual parents / lineage / family memory / 부모·혈통 기억
+- Support Point Note = none
+- £칸 = 2026 VAS D12 Bhava Lower-Middle Sector snapshot 슬롯
+- €칸
+  • natal D12 annual parents / lineage / family memory / 부모·혈통 기억 reference layer = Optional Reference
+  • 2026 VAS D12 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D12 Bhava는 annual parents / lineage / family memory / 부모·혈통 기억의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 가족·부모 패턴은 감정 재현이 아니라 문서·책임·분리 기준으로 정리한다.
+
+D12 Single Field
+- Upper-Left Sector = Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+- Upper-Right Sector = Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+- Lower-Left Sector = Venus = 가치 / 관계 / 미감 / 보상 / 산출
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D12 OPERATING NOTE
+- D12 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D16 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D16 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D16 라시]
+D16 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D16_RASHI_Simha_Sun_Pluto_CO_FIELD]
+- Location = D16 / Simha
+- Members = Sun 5:22:34 / Pluto 26:09:05
+- Member Class = Classical Core Sun / Outer Support Pluto
+- Field Type = same-sign annual co-presence
+- Exactness = FUNCTIONAL 9.22°
+- Core Pair = Sun / Pluto
+Annual Special Note
+- none
+Independent Functions
+  • Sun = 실행권 / 권위 / 중심 / 자존 / 공식성
+  • Pluto = 심층 압력 / 강제 재편 / 깊은 통제 보조
+Mutual Coloring
+  • Sun는 Pluto의 장을 먹은 Sun다.
+  • Pluto는 Sun의 장을 먹은 Pluto다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D16 Simha co-field / annual comfort/settlement stage
+- Support Point Note = none
+- £칸 = 2026 VAS D16 annual sign-field slot
+- €칸
+  • natal D16 annual comfort / recovery environment / life quality / 안락과 회복환경 reference layer = Optional Reference
+  • 2026 VAS D16 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D16 Rashi는 annual comfort / recovery environment / life quality / 안락과 회복환경의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D16_RASHI_Thula_Moon_Saturn_Rahu_Ketu_CO_FIELD]
+- Location = D16 / Thula
+- Members = Moon 14:32:53 / Saturn 2:32:38 / Rahu 13:44:20 / Ketu 13:44:20
+- Member Class = Classical Core Moon-Saturn / Node Layer Rahu-Ketu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.00°
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Rashi layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Rahu는 Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Rahu의 장을 먹은 Ketu다.
+  • Moon / Saturn는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D16 Thula co-field / annual comfort/settlement stage
+- Support Point Note = none
+- Source Note = same-sign Rahu/Ketu source-retained annual field
+- £칸 = 2026 VAS D16 annual sign-field slot
+- €칸
+  • natal D16 annual comfort / recovery environment / life quality / 안락과 회복환경 reference layer = Optional Reference
+  • 2026 VAS D16 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D16 Rashi는 annual comfort / recovery environment / life quality / 안락과 회복환경의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 확대와 절단이 동시에 걸린 장이므로, 과열 전에 선별 규칙을 먼저 세워야 한다.
+
+[HYEWON_2026_VAS_D16_RASHI_Kumbha_Mercury_Uranus_CO_FIELD]
+- Location = D16 / Kumbha
+- Members = Mercury 6:48:12 / Uranus 3:24:59
+- Member Class = Classical Core Mercury / Outer Support Uranus
+- Field Type = same-sign annual co-presence
+- Exactness = STRONG_FUNCTIONAL 3.39°
+- Core Pair = Mercury / Uranus
+Annual Special Note
+- none
+Independent Functions
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+  • Uranus = 급변 / 돌발 전환 / 비정형 신호 보조
+Mutual Coloring
+  • Mercury는 Uranus의 장을 먹은 Mercury다.
+  • Uranus는 Mercury의 장을 먹은 Uranus다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D16 Kumbha co-field / annual comfort/settlement stage
+- Support Point Note = none
+- £칸 = 2026 VAS D16 annual sign-field slot
+- €칸
+  • natal D16 annual comfort / recovery environment / life quality / 안락과 회복환경 reference layer = Optional Reference
+  • 2026 VAS D16 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D16 Rashi는 annual comfort / recovery environment / life quality / 안락과 회복환경의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+D16 OPERATING NOTE
+- D16 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D16 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D16 브하]
+D16 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D16_BHAVA_LM_MERCURY_MARS_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D16 / Left-Middle Sector
+- Source Raw Field = Me / Ma
+- Members = Mercury / Mars
+- Member Class = Classical Core Mercury-Mars
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Mercury / Mars
+Annual Special Note
+- none
+Independent Functions
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+Mutual Coloring
+  • Mercury는 Mars의 장을 먹은 Mercury다.
+  • Mars는 Mercury의 장을 먹은 Mars다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D16 Bhava visible field / annual comfort / recovery environment / life quality / 안락과 회복환경
+- Support Point Note = none
+- £칸 = 2026 VAS D16 Bhava Left-Middle Sector snapshot 슬롯
+- €칸
+  • natal D16 annual comfort / recovery environment / life quality / 안락과 회복환경 reference layer = Optional Reference
+  • 2026 VAS D16 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D16 Bhava는 annual comfort / recovery environment / life quality / 안락과 회복환경의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 안락은 소비가 아니라 몸이 회복되는 환경·리듬·정보통제 규칙으로 닫는다.
+
+[HYEWON_2026_VAS_D16_BHAVA_LC_MOON_SATURN_RAHU_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D16 / Lower-Middle Sector
+- Source Raw Field = Mo / Sa(R) / Ra(R) / Ke(R)
+- Members = Moon / Saturn / Rahu / Ketu
+- Member Class = Classical Core Moon-Saturn / Node Layer Rahu-Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Bhava layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Saturn / Rahu / Ketu의 장을 먹은 Moon다.
+  • Saturn는 Moon / Rahu / Ketu의 장을 먹은 Saturn다.
+  • Rahu는 Moon / Saturn / Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Moon / Saturn / Rahu의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D16 Bhava visible field / annual comfort / recovery environment / life quality / 안락과 회복환경
+- Support Point Note = none
+- £칸 = 2026 VAS D16 Bhava Lower-Middle Sector snapshot 슬롯
+- €칸
+  • natal D16 annual comfort / recovery environment / life quality / 안락과 회복환경 reference layer = Optional Reference
+  • 2026 VAS D16 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D16 Bhava는 annual comfort / recovery environment / life quality / 안락과 회복환경의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 안락은 소비가 아니라 몸이 회복되는 환경·리듬·정보통제 규칙으로 닫는다.
+
+D16 Single Field
+- Upper-Left Sector = Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+- Upper-Right Sector = Venus = 가치 / 관계 / 미감 / 보상 / 산출
+- Right-Middle Sector = Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+- Lower-Right Sector = Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D16 OPERATING NOTE
+- D16 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D20 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D20 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D20 라시]
+D20 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D20_RASHI_Kataka_Venus_Uranus_CO_FIELD]
+- Location = D20 / Kataka
+- Members = Venus 17:25:49 / Uranus 19:16:13
+- Member Class = Classical Core Venus / Outer Support Uranus
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 1.84°
+- Core Pair = Venus / Uranus
+Annual Special Note
+- none
+Independent Functions
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+  • Uranus = 급변 / 돌발 전환 / 비정형 신호 보조
+Mutual Coloring
+  • Venus는 Uranus의 장을 먹은 Venus다.
+  • Uranus는 Venus의 장을 먹은 Uranus다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D20 Kataka co-field / annual inner-practice stage
+- Support Point Note = none
+- £칸 = 2026 VAS D20 annual sign-field slot
+- €칸
+  • natal D20 annual practice / inner protection / spiritual routine / 수행과 내면보호 reference layer = Optional Reference
+  • 2026 VAS D20 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D20 Rashi는 annual practice / inner protection / spiritual routine / 수행과 내면보호의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D20_RASHI_Thula_Lagna_Mercury_Pluto_CO_FIELD]
+- Location = D20 / Thula
+- Members = Lagna 28:56:30 / Mercury 23:30:15 / Pluto 2:41:22
+- Member Class = Lagna anchor / Classical Core Mercury / Outer Support Pluto
+- Field Type = same-sign annual co-presence
+- Exactness = STRONG_FUNCTIONAL 3.75°
+- Core Pair = Lagna / Pluto
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 라그나 / 차트 몸통 / 현실 진입점
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+  • Pluto = 심층 압력 / 강제 재편 / 깊은 통제 보조
+Mutual Coloring
+  • Lagna는 Pluto의 장을 먹은 Lagna다.
+  • Pluto는 Lagna의 장을 먹은 Pluto다.
+  • Mercury는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D20 Thula co-field / annual inner-practice stage
+- Support Point Note = none
+- £칸 = 2026 VAS D20 annual sign-field slot
+- €칸
+  • natal D20 annual practice / inner protection / spiritual routine / 수행과 내면보호 reference layer = Optional Reference
+  • 2026 VAS D20 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D20 Rashi는 annual practice / inner protection / spiritual routine / 수행과 내면보호의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 몸통·입구 역할이 강하므로, 다른 공동장보다 우선해서 읽는다.
+
+[HYEWON_2026_VAS_D20_RASHI_Meena_Sun_Moon_Rahu_Ketu_CO_FIELD]
+- Location = D20 / Meena
+- Members = Sun 6:43:13 / Moon 3:11:06 / Rahu 2:10:25 / Ketu 2:10:25
+- Member Class = Classical Core Sun-Moon / Node Layer Rahu-Ketu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.00°
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Rashi layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Sun = 실행권 / 권위 / 중심 / 자존 / 공식성
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Rahu는 Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Rahu의 장을 먹은 Ketu다.
+  • Sun / Moon는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D20 Meena co-field / annual inner-practice stage
+- Support Point Note = none
+- Source Note = same-sign Rahu/Ketu source-retained annual field
+- £칸 = 2026 VAS D20 annual sign-field slot
+- €칸
+  • natal D20 annual practice / inner protection / spiritual routine / 수행과 내면보호 reference layer = Optional Reference
+  • 2026 VAS D20 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D20 Rashi는 annual practice / inner protection / spiritual routine / 수행과 내면보호의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 확대와 절단이 동시에 걸린 장이므로, 과열 전에 선별 규칙을 먼저 세워야 한다.
+
+D20 OPERATING NOTE
+- D20 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D20 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D20 브하]
+D20 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D20_BHAVA_LM_SUN_MOON_RAHU_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D20 / Left-Middle Sector
+- Source Raw Field = Su / Mo / Ra(R) / Ke(R)
+- Members = Sun / Moon / Rahu / Ketu
+- Member Class = Classical Core Sun-Moon / Node Layer Rahu-Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Bhava layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Sun는 Moon / Rahu / Ketu의 장을 먹은 Sun다.
+  • Moon는 Sun / Rahu / Ketu의 장을 먹은 Moon다.
+  • Rahu는 Sun / Moon / Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Sun / Moon / Rahu의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D20 Bhava visible field / annual practice / inner protection / spiritual routine / 수행과 내면보호
+- Support Point Note = none
+- £칸 = 2026 VAS D20 Bhava Left-Middle Sector snapshot 슬롯
+- €칸
+  • natal D20 annual practice / inner protection / spiritual routine / 수행과 내면보호 reference layer = Optional Reference
+  • 2026 VAS D20 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D20 Bhava는 annual practice / inner protection / spiritual routine / 수행과 내면보호의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 수행은 감정 몰입이 아니라 문장·반복·침묵·루틴으로 보호력을 만든다.
+
+[HYEWON_2026_VAS_D20_BHAVA_RM_VENUS_SATURN_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D20 / Right-Middle Sector
+- Source Raw Field = Ve / Sa(R)
+- Members = Venus / Saturn
+- Member Class = Classical Core Venus-Saturn
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Venus / Saturn
+Annual Special Note
+- none
+Independent Functions
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+Mutual Coloring
+  • Venus는 Saturn의 장을 먹은 Venus다.
+  • Saturn는 Venus의 장을 먹은 Saturn다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D20 Bhava visible field / annual practice / inner protection / spiritual routine / 수행과 내면보호
+- Support Point Note = none
+- £칸 = 2026 VAS D20 Bhava Right-Middle Sector snapshot 슬롯
+- €칸
+  • natal D20 annual practice / inner protection / spiritual routine / 수행과 내면보호 reference layer = Optional Reference
+  • 2026 VAS D20 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D20 Bhava는 annual practice / inner protection / spiritual routine / 수행과 내면보호의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 수행은 감정 몰입이 아니라 문장·반복·침묵·루틴으로 보호력을 만든다.
+
+[HYEWON_2026_VAS_D20_BHAVA_LC_MARS_LAGNA_MERCURY_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D20 / Lower-Middle Sector
+- Source Raw Field = Ma / As / Me
+- Members = Mars / Lagna / Mercury
+- Member Class = Lagna anchor / Classical Core Mars-Mercury
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Mars / Lagna
+Annual Special Note
+- none
+Independent Functions
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+  • Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+Mutual Coloring
+  • Mars는 Lagna / Mercury의 장을 먹은 Mars다.
+  • Lagna는 Mars / Mercury의 장을 먹은 Lagna다.
+  • Mercury는 Mars / Lagna의 장을 먹은 Mercury다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D20 Bhava visible field / annual practice / inner protection / spiritual routine / 수행과 내면보호
+- Support Point Note = none
+- £칸 = 2026 VAS D20 Bhava Lower-Middle Sector snapshot 슬롯
+- €칸
+  • natal D20 annual practice / inner protection / spiritual routine / 수행과 내면보호 reference layer = Optional Reference
+  • 2026 VAS D20 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D20 Bhava는 annual practice / inner protection / spiritual routine / 수행과 내면보호의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 수행은 감정 몰입이 아니라 문장·반복·침묵·루틴으로 보호력을 만든다.
+
+D20 Single Field
+- Upper-Middle-Left Sector = Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D20 OPERATING NOTE
+- D20 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D24 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D24 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D24 라시]
+D24 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D24_RASHI_Thula_Mercury_Saturn_CO_FIELD]
+- Location = D24 / Thula
+- Members = Mercury 10:12:18 / Saturn 3:48:57
+- Member Class = Classical Core Mercury-Saturn
+- Field Type = same-sign annual co-presence
+- Exactness = FUNCTIONAL 6.39°
+- Core Pair = Mercury / Saturn
+Annual Special Note
+- none
+Independent Functions
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+Mutual Coloring
+  • Mercury는 Saturn의 장을 먹은 Mercury다.
+  • Saturn는 Mercury의 장을 먹은 Saturn다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D24 Thula co-field / annual study/retention stage
+- Support Point Note = none
+- £칸 = 2026 VAS D24 annual sign-field slot
+- €칸
+  • natal D24 annual study / skill-lock / internalized learning / 학습과 체화 reference layer = Optional Reference
+  • 2026 VAS D24 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D24 Rashi는 annual study / skill-lock / internalized learning / 학습과 체화의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 문장·기준·반복검수 없이는 이 장이 제대로 작동하지 않는다.
+
+[HYEWON_2026_VAS_D24_RASHI_Vrischika_Moon_Rahu_Ketu_CO_FIELD]
+- Location = D24 / Vrischika
+- Members = Moon 21:49:20 / Rahu 20:36:30 / Ketu 20:36:30
+- Member Class = Classical Core Moon / Node Layer Rahu-Ketu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.00°
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Rashi layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Rahu는 Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Rahu의 장을 먹은 Ketu다.
+  • Moon는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D24 Vrischika co-field / annual study/retention stage
+- Support Point Note = none
+- Source Note = same-sign Rahu/Ketu source-retained annual field
+- £칸 = 2026 VAS D24 annual sign-field slot
+- €칸
+  • natal D24 annual study / skill-lock / internalized learning / 학습과 체화 reference layer = Optional Reference
+  • 2026 VAS D24 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D24 Rashi는 annual study / skill-lock / internalized learning / 학습과 체화의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 확대와 절단이 동시에 걸린 장이므로, 과열 전에 선별 규칙을 먼저 세워야 한다.
+
+[HYEWON_2026_VAS_D24_RASHI_Dhanus_Jupiter_Venus_CO_FIELD]
+- Location = D24 / Dhanus
+- Members = Jupiter 0:45:33 / Venus 8:54:59
+- Member Class = Classical Core Jupiter-Venus
+- Field Type = same-sign annual co-presence
+- Exactness = FUNCTIONAL 8.16°
+- Core Pair = Jupiter / Venus
+Annual Special Note
+- none
+Independent Functions
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+Mutual Coloring
+  • Jupiter는 Venus의 장을 먹은 Jupiter다.
+  • Venus는 Jupiter의 장을 먹은 Venus다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D24 Dhanus co-field / annual study/retention stage
+- Support Point Note = none
+- £칸 = 2026 VAS D24 annual sign-field slot
+- €칸
+  • natal D24 annual study / skill-lock / internalized learning / 학습과 체화 reference layer = Optional Reference
+  • 2026 VAS D24 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D24 Rashi는 annual study / skill-lock / internalized learning / 학습과 체화의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D24_RASHI_Kumbha_Sun_Neptune_Pluto_CO_FIELD]
+- Location = D24 / Kumbha
+- Members = Sun 8:03:51 / Neptune 10:58:35 / Pluto 9:13:38
+- Member Class = Classical Core Sun / Outer Support Neptune-Pluto
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 1.16°
+- Core Pair = Sun / Pluto
+Annual Special Note
+- none
+Independent Functions
+  • Sun = 실행권 / 권위 / 중심 / 자존 / 공식성
+  • Neptune = 이상화 / 안개 / 상징화 / 흐림 보조
+  • Pluto = 심층 압력 / 강제 재편 / 깊은 통제 보조
+Mutual Coloring
+  • Sun는 Pluto의 장을 먹은 Sun다.
+  • Pluto는 Sun의 장을 먹은 Pluto다.
+  • Neptune는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D24 Kumbha co-field / annual study/retention stage
+- Support Point Note = none
+- £칸 = 2026 VAS D24 annual sign-field slot
+- €칸
+  • natal D24 annual study / skill-lock / internalized learning / 학습과 체화 reference layer = Optional Reference
+  • 2026 VAS D24 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D24 Rashi는 annual study / skill-lock / internalized learning / 학습과 체화의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D24_RASHI_Meena_Lagna_Mars_CO_FIELD]
+- Location = D24 / Meena
+- Members = Lagna 10:43:48 / Mars 21:39:33
+- Member Class = Lagna anchor / Classical Core Mars
+- Field Type = same-sign annual co-presence
+- Exactness = WIDE 10.93°
+- Core Pair = Lagna / Mars
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 라그나 / 차트 몸통 / 현실 진입점
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+Mutual Coloring
+  • Lagna는 Mars의 장을 먹은 Lagna다.
+  • Mars는 Lagna의 장을 먹은 Mars다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D24 Meena co-field / annual study/retention stage
+- Support Point Note = none
+- £칸 = 2026 VAS D24 annual sign-field slot
+- €칸
+  • natal D24 annual study / skill-lock / internalized learning / 학습과 체화 reference layer = Optional Reference
+  • 2026 VAS D24 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D24 Rashi는 annual study / skill-lock / internalized learning / 학습과 체화의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 몸통·입구 역할이 강하므로, 다른 공동장보다 우선해서 읽는다.
+
+D24 OPERATING NOTE
+- D24 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D24 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D24 브하]
+D24 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D24_BHAVA_UL_LAGNA_MARS_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D24 / Upper-Left Sector
+- Source Raw Field = As / Ma
+- Members = Lagna / Mars
+- Member Class = Lagna anchor / Classical Core Mars
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Lagna / Mars
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+Mutual Coloring
+  • Lagna는 Mars의 장을 먹은 Lagna다.
+  • Mars는 Lagna의 장을 먹은 Mars다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D24 Bhava visible field / annual study / skill-lock / internalized learning / 학습과 체화
+- Support Point Note = none
+- £칸 = 2026 VAS D24 Bhava Upper-Left Sector snapshot 슬롯
+- €칸
+  • natal D24 annual study / skill-lock / internalized learning / 학습과 체화 reference layer = Optional Reference
+  • 2026 VAS D24 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D24 Bhava는 annual study / skill-lock / internalized learning / 학습과 체화의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 학습은 과입력을 줄이고 핵심 원리만 체화해 실전 호출 가능하게 잠가야 한다.
+
+[HYEWON_2026_VAS_D24_BHAVA_LL_JUPITER_VENUS_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D24 / Lower-Left Sector
+- Source Raw Field = Ju / Ve
+- Members = Jupiter / Venus
+- Member Class = Classical Core Jupiter-Venus
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Jupiter / Venus
+Annual Special Note
+- none
+Independent Functions
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+Mutual Coloring
+  • Jupiter는 Venus의 장을 먹은 Jupiter다.
+  • Venus는 Jupiter의 장을 먹은 Venus다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D24 Bhava visible field / annual study / skill-lock / internalized learning / 학습과 체화
+- Support Point Note = none
+- £칸 = 2026 VAS D24 Bhava Lower-Left Sector snapshot 슬롯
+- €칸
+  • natal D24 annual study / skill-lock / internalized learning / 학습과 체화 reference layer = Optional Reference
+  • 2026 VAS D24 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D24 Bhava는 annual study / skill-lock / internalized learning / 학습과 체화의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 학습은 과입력을 줄이고 핵심 원리만 체화해 실전 호출 가능하게 잠가야 한다.
+
+[HYEWON_2026_VAS_D24_BHAVA_LC_MOON_RAHU_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D24 / Lower-Middle Sector
+- Source Raw Field = Mo / Ra(R) / Ke(R)
+- Members = Moon / Rahu / Ketu
+- Member Class = Classical Core Moon / Node Layer Rahu-Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Bhava layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Rahu / Ketu의 장을 먹은 Moon다.
+  • Rahu는 Moon / Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Moon / Rahu의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D24 Bhava visible field / annual study / skill-lock / internalized learning / 학습과 체화
+- Support Point Note = none
+- £칸 = 2026 VAS D24 Bhava Lower-Middle Sector snapshot 슬롯
+- €칸
+  • natal D24 annual study / skill-lock / internalized learning / 학습과 체화 reference layer = Optional Reference
+  • 2026 VAS D24 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D24 Bhava는 annual study / skill-lock / internalized learning / 학습과 체화의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 학습은 과입력을 줄이고 핵심 원리만 체화해 실전 호출 가능하게 잠가야 한다.
+
+[HYEWON_2026_VAS_D24_BHAVA_LR_MERCURY_SATURN_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D24 / Lower-Right Sector
+- Source Raw Field = Me / Sa(R)
+- Members = Mercury / Saturn
+- Member Class = Classical Core Mercury-Saturn
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Mercury / Saturn
+Annual Special Note
+- none
+Independent Functions
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+Mutual Coloring
+  • Mercury는 Saturn의 장을 먹은 Mercury다.
+  • Saturn는 Mercury의 장을 먹은 Saturn다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D24 Bhava visible field / annual study / skill-lock / internalized learning / 학습과 체화
+- Support Point Note = none
+- £칸 = 2026 VAS D24 Bhava Lower-Right Sector snapshot 슬롯
+- €칸
+  • natal D24 annual study / skill-lock / internalized learning / 학습과 체화 reference layer = Optional Reference
+  • 2026 VAS D24 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D24 Bhava는 annual study / skill-lock / internalized learning / 학습과 체화의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 학습은 과입력을 줄이고 핵심 원리만 체화해 실전 호출 가능하게 잠가야 한다.
+
+D24 Single Field
+- Left-Middle Sector = Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D24 OPERATING NOTE
+- D24 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D27 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D27 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D27 라시]
+D27 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D27_RASHI_Simha_Moon_Mars_Jupiter_Ketu_CO_FIELD]
+- Location = D27 / Simha
+- Members = Moon 5:48:00 / Mars 5:36:59 / Jupiter 4:36:14 / Ketu 4:26:03
+- Member Class = Classical Core Moon-Mars-Jupiter / Node Layer Ketu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.17°
+- Core Pair = Jupiter / Ketu
+Annual Special Note
+- none
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Jupiter는 Ketu의 장을 먹은 Jupiter다.
+  • Ketu는 Jupiter의 장을 먹은 Ketu다.
+  • Moon / Mars는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D27 Simha co-field / annual resilience stage
+- Support Point Note = none
+- £칸 = 2026 VAS D27 annual sign-field slot
+- €칸
+  • natal D27 annual strength / resilience / pressure endurance / 압력 버팀 reference layer = Optional Reference
+  • 2026 VAS D27 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D27 Rashi는 annual strength / resilience / pressure endurance / 압력 버팀의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 감정과 행동이 같이 뜨면 속도보다 기준이 먼저다.
+
+[HYEWON_2026_VAS_D27_RASHI_Thula_Lagna_Mercury_CO_FIELD]
+- Location = D27 / Thula
+- Members = Lagna 12:04:16 / Mercury 22:43:51
+- Member Class = Lagna anchor / Classical Core Mercury
+- Field Type = same-sign annual co-presence
+- Exactness = WIDE 10.66°
+- Core Pair = Lagna / Mercury
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 라그나 / 차트 몸통 / 현실 진입점
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+Mutual Coloring
+  • Lagna는 Mercury의 장을 먹은 Lagna다.
+  • Mercury는 Lagna의 장을 먹은 Mercury다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D27 Thula co-field / annual resilience stage
+- Support Point Note = none
+- £칸 = 2026 VAS D27 annual sign-field slot
+- €칸
+  • natal D27 annual strength / resilience / pressure endurance / 압력 버팀 reference layer = Optional Reference
+  • 2026 VAS D27 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D27 Rashi는 annual strength / resilience / pressure endurance / 압력 버팀의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 몸통·입구 역할이 강하므로, 다른 공동장보다 우선해서 읽는다.
+
+[HYEWON_2026_VAS_D27_RASHI_Kumbha_Venus_Rahu_CO_FIELD]
+- Location = D27 / Kumbha
+- Members = Venus 25:01:51 / Rahu 4:26:03
+- Member Class = Classical Core Venus / Node Layer Rahu
+- Field Type = same-sign annual co-presence
+- Exactness = FUNCTIONAL 9.40°
+- Core Pair = Venus / Rahu
+Annual Special Note
+- none
+Independent Functions
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+Mutual Coloring
+  • Venus는 Rahu의 장을 먹은 Venus다.
+  • Rahu는 Venus의 장을 먹은 Rahu다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D27 Kumbha co-field / annual resilience stage
+- Support Point Note = none
+- £칸 = 2026 VAS D27 annual sign-field slot
+- €칸
+  • natal D27 annual strength / resilience / pressure endurance / 압력 버팀 reference layer = Optional Reference
+  • 2026 VAS D27 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D27 Rashi는 annual strength / resilience / pressure endurance / 압력 버팀의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+D27 OPERATING NOTE
+- D27 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D27 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D27 브하]
+D27 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D27_BHAVA_LM_VENUS_RAHU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D27 / Left-Middle Sector
+- Source Raw Field = Ve / Ra(R)
+- Members = Venus / Rahu
+- Member Class = Classical Core Venus / Node Layer Rahu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Venus / Rahu
+Annual Special Note
+- none
+Independent Functions
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+Mutual Coloring
+  • Venus는 Rahu의 장을 먹은 Venus다.
+  • Rahu는 Venus의 장을 먹은 Rahu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D27 Bhava visible field / annual strength / resilience / pressure endurance / 압력 버팀
+- Support Point Note = none
+- £칸 = 2026 VAS D27 Bhava Left-Middle Sector snapshot 슬롯
+- €칸
+  • natal D27 annual strength / resilience / pressure endurance / 압력 버팀 reference layer = Optional Reference
+  • 2026 VAS D27 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D27 Bhava는 annual strength / resilience / pressure endurance / 압력 버팀의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 버팀은 무작정 견디는 것이 아니라 압력 속에서도 규칙과 회복선을 유지하는 것이다.
+
+[HYEWON_2026_VAS_D27_BHAVA_RM_MOON_MARS_JUPITER_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D27 / Right-Middle Sector
+- Source Raw Field = Mo / Ma / Ju / Ke(R)
+- Members = Moon / Mars / Jupiter / Ketu
+- Member Class = Classical Core Moon-Mars-Jupiter / Node Layer Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Moon / Mars
+Annual Special Note
+- none
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Mars / Jupiter / Ketu의 장을 먹은 Moon다.
+  • Mars는 Moon / Jupiter / Ketu의 장을 먹은 Mars다.
+  • Jupiter는 Moon / Mars / Ketu의 장을 먹은 Jupiter다.
+  • Ketu는 Moon / Mars / Jupiter의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D27 Bhava visible field / annual strength / resilience / pressure endurance / 압력 버팀
+- Support Point Note = none
+- £칸 = 2026 VAS D27 Bhava Right-Middle Sector snapshot 슬롯
+- €칸
+  • natal D27 annual strength / resilience / pressure endurance / 압력 버팀 reference layer = Optional Reference
+  • 2026 VAS D27 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D27 Bhava는 annual strength / resilience / pressure endurance / 압력 버팀의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 버팀은 무작정 견디는 것이 아니라 압력 속에서도 규칙과 회복선을 유지하는 것이다.
+
+[HYEWON_2026_VAS_D27_BHAVA_LC_LAGNA_MERCURY_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D27 / Lower-Middle Sector
+- Source Raw Field = As / Me
+- Members = Lagna / Mercury
+- Member Class = Lagna anchor / Classical Core Mercury
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Lagna / Mercury
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+Mutual Coloring
+  • Lagna는 Mercury의 장을 먹은 Lagna다.
+  • Mercury는 Lagna의 장을 먹은 Mercury다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D27 Bhava visible field / annual strength / resilience / pressure endurance / 압력 버팀
+- Support Point Note = none
+- £칸 = 2026 VAS D27 Bhava Lower-Middle Sector snapshot 슬롯
+- €칸
+  • natal D27 annual strength / resilience / pressure endurance / 압력 버팀 reference layer = Optional Reference
+  • 2026 VAS D27 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D27 Bhava는 annual strength / resilience / pressure endurance / 압력 버팀의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 버팀은 무작정 견디는 것이 아니라 압력 속에서도 규칙과 회복선을 유지하는 것이다.
+
+D27 Single Field
+- Upper-Right Sector = Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+- Lower-Left Sector = Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D27 OPERATING NOTE
+- D27 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D30 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D30 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D30 라시]
+D30 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D30_RASHI_Mesha_Moon_Rahu_Ketu_CO_FIELD]
+- Location = D30 / Mesha
+- Members = Moon 19:46:40 / Rahu 18:15:37 / Ketu 18:15:37
+- Member Class = Classical Core Moon / Node Layer Rahu-Ketu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.00°
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Rashi layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Rahu는 Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Rahu의 장을 먹은 Ketu다.
+  • Moon는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D30 Mesha co-field / annual affliction/filter stage
+- Support Point Note = none
+- Source Note = same-sign Rahu/Ketu source-retained annual field
+- £칸 = 2026 VAS D30 annual sign-field slot
+- €칸
+  • natal D30 annual affliction / distortion / damage purification / 손상과 정화 reference layer = Optional Reference
+  • 2026 VAS D30 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D30 Rashi는 annual affliction / distortion / damage purification / 손상과 정화의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 확대와 절단이 동시에 걸린 장이므로, 과열 전에 선별 규칙을 먼저 세워야 한다.
+
+[HYEWON_2026_VAS_D30_RASHI_Mithuna_Sun_Mars_CO_FIELD]
+- Location = D30 / Mithuna
+- Members = Sun 25:04:49 / Mars 19:34:26
+- Member Class = Classical Core Sun-Mars
+- Field Type = same-sign annual co-presence
+- Exactness = STRONG_FUNCTIONAL 5.51°
+- Core Pair = Sun / Mars
+Annual Special Note
+- none
+Independent Functions
+  • Sun = 실행권 / 권위 / 중심 / 자존 / 공식성
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+Mutual Coloring
+  • Sun는 Mars의 장을 먹은 Sun다.
+  • Mars는 Sun의 장을 먹은 Mars다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D30 Mithuna co-field / annual affliction/filter stage
+- Support Point Note = none
+- £칸 = 2026 VAS D30 annual sign-field slot
+- €칸
+  • natal D30 annual affliction / distortion / damage purification / 손상과 정화 reference layer = Optional Reference
+  • 2026 VAS D30 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D30 Rashi는 annual affliction / distortion / damage purification / 손상과 정화의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D30_RASHI_Kanya_Lagna_Uranus_Neptune_Pluto_CO_FIELD]
+- Location = D30 / Kanya
+- Members = Lagna 13:24:45 / Uranus 13:54:20 / Neptune 6:13:14 / Pluto 4:02:03
+- Member Class = Lagna anchor / Outer Support Uranus-Neptune-Pluto
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.49°
+- Core Pair = Lagna / Uranus
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 라그나 / 차트 몸통 / 현실 진입점
+  • Uranus = 급변 / 돌발 전환 / 비정형 신호 보조
+  • Neptune = 이상화 / 안개 / 상징화 / 흐림 보조
+  • Pluto = 심층 압력 / 강제 재편 / 깊은 통제 보조
+Mutual Coloring
+  • Lagna는 Uranus의 장을 먹은 Lagna다.
+  • Uranus는 Lagna의 장을 먹은 Uranus다.
+  • Neptune / Pluto는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D30 Kanya co-field / annual affliction/filter stage
+- Support Point Note = none
+- £칸 = 2026 VAS D30 annual sign-field slot
+- €칸
+  • natal D30 annual affliction / distortion / damage purification / 손상과 정화 reference layer = Optional Reference
+  • 2026 VAS D30 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D30 Rashi는 annual affliction / distortion / damage purification / 손상과 정화의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 몸통·입구 역할이 강하므로, 다른 공동장보다 우선해서 읽는다.
+
+D30 OPERATING NOTE
+- D30 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D30 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D30 브하]
+D30 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D30_BHAVA_UML_MOON_RAHU_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D30 / Upper-Middle-Left Sector
+- Source Raw Field = Mo / Ra(R) / Ke(R)
+- Members = Moon / Rahu / Ketu
+- Member Class = Classical Core Moon / Node Layer Rahu-Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Bhava layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Rahu / Ketu의 장을 먹은 Moon다.
+  • Rahu는 Moon / Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Moon / Rahu의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D30 Bhava visible field / annual affliction / distortion / damage purification / 손상과 정화
+- Support Point Note = none
+- £칸 = 2026 VAS D30 Bhava Upper-Middle-Left Sector snapshot 슬롯
+- €칸
+  • natal D30 annual affliction / distortion / damage purification / 손상과 정화 reference layer = Optional Reference
+  • 2026 VAS D30 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D30 Bhava는 annual affliction / distortion / damage purification / 손상과 정화의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 손상층은 오염 신호를 빠르게 자르고 복구욕망을 시스템으로 제한해야 한다.
+
+[HYEWON_2026_VAS_D30_BHAVA_UR_MERCURY_SUN_MARS_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D30 / Upper-Right Sector
+- Source Raw Field = Me / Su / Ma
+- Members = Mercury / Sun / Mars
+- Member Class = Classical Core Mercury-Sun-Mars
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Mercury / Sun
+Annual Special Note
+- none
+Independent Functions
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+  • Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+Mutual Coloring
+  • Mercury는 Sun / Mars의 장을 먹은 Mercury다.
+  • Sun는 Mercury / Mars의 장을 먹은 Sun다.
+  • Mars는 Mercury / Sun의 장을 먹은 Mars다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D30 Bhava visible field / annual affliction / distortion / damage purification / 손상과 정화
+- Support Point Note = none
+- £칸 = 2026 VAS D30 Bhava Upper-Right Sector snapshot 슬롯
+- €칸
+  • natal D30 annual affliction / distortion / damage purification / 손상과 정화 reference layer = Optional Reference
+  • 2026 VAS D30 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D30 Bhava는 annual affliction / distortion / damage purification / 손상과 정화의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 손상층은 오염 신호를 빠르게 자르고 복구욕망을 시스템으로 제한해야 한다.
+
+[HYEWON_2026_VAS_D30_BHAVA_LM_VENUS_JUPITER_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D30 / Left-Middle Sector
+- Source Raw Field = Ve / Ju
+- Members = Venus / Jupiter
+- Member Class = Classical Core Venus-Jupiter
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Venus / Jupiter
+Annual Special Note
+- none
+Independent Functions
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+Mutual Coloring
+  • Venus는 Jupiter의 장을 먹은 Venus다.
+  • Jupiter는 Venus의 장을 먹은 Jupiter다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D30 Bhava visible field / annual affliction / distortion / damage purification / 손상과 정화
+- Support Point Note = none
+- £칸 = 2026 VAS D30 Bhava Left-Middle Sector snapshot 슬롯
+- €칸
+  • natal D30 annual affliction / distortion / damage purification / 손상과 정화 reference layer = Optional Reference
+  • 2026 VAS D30 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D30 Bhava는 annual affliction / distortion / damage purification / 손상과 정화의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 손상층은 오염 신호를 빠르게 자르고 복구욕망을 시스템으로 제한해야 한다.
+
+D30 Single Field
+- Upper-Left Sector = Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+- Lower-Right Sector = Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D30 OPERATING NOTE
+- D30 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D40 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D40 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D40 라시]
+D40 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D40_RASHI_Thula_Sun_Moon_Rahu_Ketu_Neptune_Pluto_CO_FIELD]
+- Location = D40 / Thula
+- Members = Sun 13:26:26 / Moon 6:22:13 / Rahu 4:20:50 / Ketu 4:20:50 / Neptune 8:17:39 / Pluto 5:22:44
+- Member Class = Classical Core Sun-Moon / Node Layer Rahu-Ketu / Outer Support Neptune-Pluto
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.00°
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Rashi layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Sun = 실행권 / 권위 / 중심 / 자존 / 공식성
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+  • Neptune = 이상화 / 안개 / 상징화 / 흐림 보조
+  • Pluto = 심층 압력 / 강제 재편 / 깊은 통제 보조
+Mutual Coloring
+  • Rahu는 Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Rahu의 장을 먹은 Ketu다.
+  • Sun / Moon / Neptune / Pluto는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D40 Thula co-field / annual maternal-line pattern stage
+- Support Point Note = none
+- Source Note = same-sign Rahu/Ketu source-retained annual field
+- £칸 = 2026 VAS D40 annual sign-field slot
+- €칸
+  • natal D40 annual maternal merit / hidden family support / inner blessing / 모계복과 숨은 보호 reference layer = Optional Reference
+  • 2026 VAS D40 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D40 Rashi는 annual maternal merit / hidden family support / inner blessing / 모계복과 숨은 보호의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 확대와 절단이 동시에 걸린 장이므로, 과열 전에 선별 규칙을 먼저 세워야 한다.
+
+[HYEWON_2026_VAS_D40_RASHI_Vrischika_Lagna_Venus_Saturn_CO_FIELD]
+- Location = D40 / Vrischika
+- Members = Lagna 27:53:00 / Venus 4:51:38 / Saturn 6:21:36
+- Member Class = Lagna anchor / Classical Core Venus-Saturn
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 1.50°
+- Core Pair = Venus / Saturn
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 라그나 / 차트 몸통 / 현실 진입점
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+Mutual Coloring
+  • Venus는 Saturn의 장을 먹은 Venus다.
+  • Saturn는 Venus의 장을 먹은 Saturn다.
+  • Lagna는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D40 Vrischika co-field / annual maternal-line pattern stage
+- Support Point Note = none
+- £칸 = 2026 VAS D40 annual sign-field slot
+- €칸
+  • natal D40 annual maternal merit / hidden family support / inner blessing / 모계복과 숨은 보호 reference layer = Optional Reference
+  • 2026 VAS D40 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D40 Rashi는 annual maternal merit / hidden family support / inner blessing / 모계복과 숨은 보호의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 몸통·입구 역할이 강하므로, 다른 공동장보다 우선해서 읽는다.
+
+D40 OPERATING NOTE
+- D40 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D40 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D40 브하]
+D40 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D40_BHAVA_LM_JUPITER_MARS_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D40 / Left-Middle Sector
+- Source Raw Field = Ju / Ma
+- Members = Jupiter / Mars
+- Member Class = Classical Core Jupiter-Mars
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Jupiter / Mars
+Annual Special Note
+- none
+Independent Functions
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+Mutual Coloring
+  • Jupiter는 Mars의 장을 먹은 Jupiter다.
+  • Mars는 Jupiter의 장을 먹은 Mars다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D40 Bhava visible field / annual maternal merit / hidden family support / inner blessing / 모계복과 숨은 보호
+- Support Point Note = none
+- £칸 = 2026 VAS D40 Bhava Left-Middle Sector snapshot 슬롯
+- €칸
+  • natal D40 annual maternal merit / hidden family support / inner blessing / 모계복과 숨은 보호 reference layer = Optional Reference
+  • 2026 VAS D40 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D40 Bhava는 annual maternal merit / hidden family support / inner blessing / 모계복과 숨은 보호의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 가족복과 보호력은 감정 기대가 아니라 현실 자원·책임·분리로 회수한다.
+
+[HYEWON_2026_VAS_D40_BHAVA_LC_LAGNA_SUN_VENUS_SATURN_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D40 / Lower-Middle Sector
+- Source Raw Field = As / Su / Ve / Sa(R)
+- Members = Lagna / Sun / Venus / Saturn
+- Member Class = Lagna anchor / Classical Core Sun-Venus-Saturn
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Lagna / Sun
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+  • Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+Mutual Coloring
+  • Lagna는 Sun / Venus / Saturn의 장을 먹은 Lagna다.
+  • Sun는 Lagna / Venus / Saturn의 장을 먹은 Sun다.
+  • Venus는 Lagna / Sun / Saturn의 장을 먹은 Venus다.
+  • Saturn는 Lagna / Sun / Venus의 장을 먹은 Saturn다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D40 Bhava visible field / annual maternal merit / hidden family support / inner blessing / 모계복과 숨은 보호
+- Support Point Note = none
+- £칸 = 2026 VAS D40 Bhava Lower-Middle Sector snapshot 슬롯
+- €칸
+  • natal D40 annual maternal merit / hidden family support / inner blessing / 모계복과 숨은 보호 reference layer = Optional Reference
+  • 2026 VAS D40 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D40 Bhava는 annual maternal merit / hidden family support / inner blessing / 모계복과 숨은 보호의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 가족복과 보호력은 감정 기대가 아니라 현실 자원·책임·분리로 회수한다.
+
+[HYEWON_2026_VAS_D40_BHAVA_LR_MOON_RAHU_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D40 / Lower-Right Sector
+- Source Raw Field = Mo / Ra(R) / Ke(R)
+- Members = Moon / Rahu / Ketu
+- Member Class = Classical Core Moon / Node Layer Rahu-Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Bhava layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Rahu / Ketu의 장을 먹은 Moon다.
+  • Rahu는 Moon / Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Moon / Rahu의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D40 Bhava visible field / annual maternal merit / hidden family support / inner blessing / 모계복과 숨은 보호
+- Support Point Note = none
+- £칸 = 2026 VAS D40 Bhava Lower-Right Sector snapshot 슬롯
+- €칸
+  • natal D40 annual maternal merit / hidden family support / inner blessing / 모계복과 숨은 보호 reference layer = Optional Reference
+  • 2026 VAS D40 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D40 Bhava는 annual maternal merit / hidden family support / inner blessing / 모계복과 숨은 보호의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 가족복과 보호력은 감정 기대가 아니라 현실 자원·책임·분리로 회수한다.
+
+D40 Single Field
+- Upper-Left Sector = Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D40 OPERATING NOTE
+- D40 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D45 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D45 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D45 라시]
+D45 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D45_RASHI_Mithuna_Sun_Mercury_CO_FIELD]
+- Location = D45 / Mithuna
+- Members = Sun 7:37:14 / Mercury 7:53:05
+- Member Class = Classical Core Sun-Mercury
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.26°
+- Core Pair = Sun / Mercury
+Annual Special Note
+- none
+Independent Functions
+  • Sun = 실행권 / 권위 / 중심 / 자존 / 공식성
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+Mutual Coloring
+  • Sun는 Mercury의 장을 먹은 Sun다.
+  • Mercury는 Sun의 장을 먹은 Mercury다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D45 Mithuna co-field / annual character-selection stage
+- Support Point Note = none
+- £칸 = 2026 VAS D45 annual sign-field slot
+- €칸
+  • natal D45 annual character fiber / choice pattern / subtle karmic reaction / 품성과 선택결 reference layer = Optional Reference
+  • 2026 VAS D45 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D45 Rashi는 annual character fiber / choice pattern / subtle karmic reaction / 품성과 선택결의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D45_RASHI_Dhanus_Mars_Venus_CO_FIELD]
+- Location = D45 / Dhanus
+- Members = Mars 29:21:39 / Venus 1:43:05
+- Member Class = Classical Core Mars-Venus
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 2.36°
+- Core Pair = Mars / Venus
+Annual Special Note
+- none
+Independent Functions
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+Mutual Coloring
+  • Mars는 Venus의 장을 먹은 Mars다.
+  • Venus는 Mars의 장을 먹은 Venus다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D45 Dhanus co-field / annual character-selection stage
+- Support Point Note = none
+- £칸 = 2026 VAS D45 annual sign-field slot
+- €칸
+  • natal D45 annual character fiber / choice pattern / subtle karmic reaction / 품성과 선택결 reference layer = Optional Reference
+  • 2026 VAS D45 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D45 Rashi는 annual character fiber / choice pattern / subtle karmic reaction / 품성과 선택결의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D45_RASHI_Makara_Uranus_Neptune_CO_FIELD]
+- Location = D45 / Makara
+- Members = Uranus 5:51:31 / Neptune 24:19:51
+- Member Class = Outer Support Uranus-Neptune
+- Field Type = same-sign annual co-presence
+- Exactness = WIDE 11.53°
+- Core Pair = Uranus / Neptune
+Annual Special Note
+- none
+Independent Functions
+  • Uranus = 급변 / 돌발 전환 / 비정형 신호 보조
+  • Neptune = 이상화 / 안개 / 상징화 / 흐림 보조
+Mutual Coloring
+  • Uranus는 Neptune의 장을 먹은 Uranus다.
+  • Neptune는 Uranus의 장을 먹은 Neptune다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D45 Makara co-field / annual character-selection stage
+- Support Point Note = none
+- £칸 = 2026 VAS D45 annual sign-field slot
+- €칸
+  • natal D45 annual character fiber / choice pattern / subtle karmic reaction / 품성과 선택결 reference layer = Optional Reference
+  • 2026 VAS D45 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D45 Rashi는 annual character fiber / choice pattern / subtle karmic reaction / 품성과 선택결의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D45_RASHI_Kumbha_Moon_Rahu_Ketu_CO_FIELD]
+- Location = D45 / Kumbha
+- Members = Moon 29:40:00 / Rahu 27:23:26 / Ketu 27:23:26
+- Member Class = Classical Core Moon / Node Layer Rahu-Ketu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.00°
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Rashi layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Rahu는 Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Rahu의 장을 먹은 Ketu다.
+  • Moon는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D45 Kumbha co-field / annual character-selection stage
+- Support Point Note = none
+- Source Note = same-sign Rahu/Ketu source-retained annual field
+- £칸 = 2026 VAS D45 annual sign-field slot
+- €칸
+  • natal D45 annual character fiber / choice pattern / subtle karmic reaction / 품성과 선택결 reference layer = Optional Reference
+  • 2026 VAS D45 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D45 Rashi는 annual character fiber / choice pattern / subtle karmic reaction / 품성과 선택결의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 확대와 절단이 동시에 걸린 장이므로, 과열 전에 선별 규칙을 먼저 세워야 한다.
+
+D45 OPERATING NOTE
+- D45 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D45 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D45 브하]
+D45 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D45_BHAVA_UR_SUN_MERCURY_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D45 / Upper-Right Sector
+- Source Raw Field = Su / Me
+- Members = Sun / Mercury
+- Member Class = Classical Core Sun-Mercury
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Sun / Mercury
+Annual Special Note
+- none
+Independent Functions
+  • Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+Mutual Coloring
+  • Sun는 Mercury의 장을 먹은 Sun다.
+  • Mercury는 Sun의 장을 먹은 Mercury다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D45 Bhava visible field / annual character fiber / choice pattern / subtle karmic reaction / 품성과 선택결
+- Support Point Note = none
+- £칸 = 2026 VAS D45 Bhava Upper-Right Sector snapshot 슬롯
+- €칸
+  • natal D45 annual character fiber / choice pattern / subtle karmic reaction / 품성과 선택결 reference layer = Optional Reference
+  • 2026 VAS D45 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D45 Bhava는 annual character fiber / choice pattern / subtle karmic reaction / 품성과 선택결의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 품성은 압력 순간의 선택으로 드러나므로 과열과 책임을 분리해 결정한다.
+
+[HYEWON_2026_VAS_D45_BHAVA_LM_MOON_RAHU_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D45 / Left-Middle Sector
+- Source Raw Field = Mo / Ra(R) / Ke(R)
+- Members = Moon / Rahu / Ketu
+- Member Class = Classical Core Moon / Node Layer Rahu-Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Rahu / Ketu
+Annual Special Note
+- Same-field Rahu/Ketu is source-retained in the annual Bhava layer.
+- Do not normalize into opposite-axis unless source correction is requested.
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Rahu / Ketu의 장을 먹은 Moon다.
+  • Rahu는 Moon / Ketu의 장을 먹은 Rahu다.
+  • Ketu는 Moon / Rahu의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D45 Bhava visible field / annual character fiber / choice pattern / subtle karmic reaction / 품성과 선택결
+- Support Point Note = none
+- £칸 = 2026 VAS D45 Bhava Left-Middle Sector snapshot 슬롯
+- €칸
+  • natal D45 annual character fiber / choice pattern / subtle karmic reaction / 품성과 선택결 reference layer = Optional Reference
+  • 2026 VAS D45 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D45 Bhava는 annual character fiber / choice pattern / subtle karmic reaction / 품성과 선택결의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 품성은 압력 순간의 선택으로 드러나므로 과열과 책임을 분리해 결정한다.
+
+[HYEWON_2026_VAS_D45_BHAVA_LC_JUPITER_VENUS_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D45 / Lower-Middle Sector
+- Source Raw Field = Ju / Ve
+- Members = Jupiter / Venus
+- Member Class = Classical Core Jupiter-Venus
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Jupiter / Venus
+Annual Special Note
+- none
+Independent Functions
+  • Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+  • Venus = 가치 / 관계 / 미감 / 보상 / 산출
+Mutual Coloring
+  • Jupiter는 Venus의 장을 먹은 Jupiter다.
+  • Venus는 Jupiter의 장을 먹은 Venus다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D45 Bhava visible field / annual character fiber / choice pattern / subtle karmic reaction / 품성과 선택결
+- Support Point Note = none
+- £칸 = 2026 VAS D45 Bhava Lower-Middle Sector snapshot 슬롯
+- €칸
+  • natal D45 annual character fiber / choice pattern / subtle karmic reaction / 품성과 선택결 reference layer = Optional Reference
+  • 2026 VAS D45 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D45 Bhava는 annual character fiber / choice pattern / subtle karmic reaction / 품성과 선택결의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 품성은 압력 순간의 선택으로 드러나므로 과열과 책임을 분리해 결정한다.
+
+D45 Single Field
+- Upper-Middle-Left Sector = Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+- Right-Middle Sector = Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+- Lower-Left Sector = Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D45 OPERATING NOTE
+- D45 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D60 SET]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D60 RASHI CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D60 라시]
+D60 RASHI CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D60_RASHI_Vrishabha_Sun_Moon_Mercury_Ketu_CO_FIELD]
+- Location = D60 / Vrishabha
+- Members = Sun 20:09:39 / Moon 9:33:20 / Mercury 10:30:47 / Ketu 6:31:15
+- Member Class = Classical Core Sun-Moon-Mercury / Node Layer Ketu
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.96°
+- Core Pair = Moon / Mercury
+Annual Special Note
+- none
+Independent Functions
+  • Sun = 실행권 / 권위 / 중심 / 자존 / 공식성
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Mercury의 장을 먹은 Moon다.
+  • Mercury는 Moon의 장을 먹은 Mercury다.
+  • Sun / Ketu는 이 annual sign-field에 보조 압력 또는 확장·절단·심층 신호를 넣는다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D60 Vrishabha co-field / annual root-pattern stage
+- Support Point Note = none
+- £칸 = 2026 VAS D60 annual sign-field slot
+- €칸
+  • natal D60 annual root karma / deep pattern / causal memory / 근원 반복 reference layer = Optional Reference
+  • 2026 VAS D60 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D60 Rashi는 annual root karma / deep pattern / causal memory / 근원 반복의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D60_RASHI_Kataka_Mars_Pluto_CO_FIELD]
+- Location = D60 / Kataka
+- Members = Mars 9:08:52 / Pluto 8:04:07
+- Member Class = Classical Core Mars / Outer Support Pluto
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 1.08°
+- Core Pair = Mars / Pluto
+Annual Special Note
+- none
+Independent Functions
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+  • Pluto = 심층 압력 / 강제 재편 / 깊은 통제 보조
+Mutual Coloring
+  • Mars는 Pluto의 장을 먹은 Mars다.
+  • Pluto는 Mars의 장을 먹은 Pluto다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D60 Kataka co-field / annual root-pattern stage
+- Support Point Note = none
+- £칸 = 2026 VAS D60 annual sign-field slot
+- €칸
+  • natal D60 annual root karma / deep pattern / causal memory / 근원 반복 reference layer = Optional Reference
+  • 2026 VAS D60 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D60 Rashi는 annual root karma / deep pattern / causal memory / 근원 반복의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 같은 해의 Bhava 공동장과 같이 읽을 때 더 정확해진다.
+
+[HYEWON_2026_VAS_D60_RASHI_Meena_Lagna_Uranus_CO_FIELD]
+- Location = D60 / Meena
+- Members = Lagna 26:49:30 / Uranus 27:48:41
+- Member Class = Lagna anchor / Outer Support Uranus
+- Field Type = same-sign annual co-presence
+- Exactness = CORE_EXACT 0.99°
+- Core Pair = Lagna / Uranus
+Annual Special Note
+- none
+Independent Functions
+  • Lagna = 연간 라그나 / 차트 몸통 / 현실 진입점
+  • Uranus = 급변 / 돌발 전환 / 비정형 신호 보조
+Mutual Coloring
+  • Lagna는 Uranus의 장을 먹은 Lagna다.
+  • Uranus는 Lagna의 장을 먹은 Uranus다.
+  • 따라서 이 annual Rashi 공동장은 단독 행성 의미가 아니라 같은 sign-field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D60 Meena co-field / annual root-pattern stage
+- Support Point Note = none
+- £칸 = 2026 VAS D60 annual sign-field slot
+- €칸
+  • natal D60 annual root karma / deep pattern / causal memory / 근원 반복 reference layer = Optional Reference
+  • 2026 VAS D60 Bhava visible reality-stage = Optional Reference
+  • 연결이유 = annual D60 Rashi는 annual root karma / deep pattern / causal memory / 근원 반복의 sign-field/source structure를 잡고, Bhava는 사용자가 요청할 때만 visible reality-stage를 확인하는 선택 검산층이다.
+- Reality Rule = 이 장은 몸통·입구 역할이 강하므로, 다른 공동장보다 우선해서 읽는다.
+
+D60 OPERATING NOTE
+- D60 annual co-field는 같은 해의 Bhava 공동장과 같이 읽고, natal same-D source를 reference로 붙여 읽는다.
+
+GLOBAL NOTE
+- This file is a formal 99 Rashi-only annual co-presence family for HYEWON 2026 VAS working family.
+- Included charts = D1~D12 + D16 / D20 / D24 / D27 / D30 / D40 / D45 / D60.
+- Bhava Source Field is not included in this file.
+- Independent Functions / Mutual Coloring completion = PASS.
+- Same-sign node source-retained annual fields keep their source note.
+- This document is not a summary and not an interpretation essay.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D60 BHAVA CO2]
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+[D60 브하]
+D60 BHAVA CO-PRESENCE FIELDS
+━━━━━━━━━━━━━━━━━━━━━━━
+
+[HYEWON_2026_VAS_D60_BHAVA_UML_MOON_MERCURY_SATURN_KETU_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D60 / Upper-Middle-Left Sector
+- Source Raw Field = Mo / Me / Sa(R) / Ke(R)
+- Members = Moon / Mercury / Saturn / Ketu
+- Member Class = Classical Core Moon-Mercury-Saturn / Node Layer Ketu
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Moon / Mercury
+Annual Special Note
+- none
+Independent Functions
+  • Moon = 감정 / 체감 / 반응 / 보호감 / 일상감각
+  • Mercury = 말 / 문서 / 판단 / 분류 / 계약 / 해석
+  • Saturn = 책임 / 시간 / 검증 / 반복 / 지연 / 구조
+  • Ketu = 절단 / 비움 / 핵심선별 / 분리 / 정화
+Mutual Coloring
+  • Moon는 Mercury / Saturn / Ketu의 장을 먹은 Moon다.
+  • Mercury는 Moon / Saturn / Ketu의 장을 먹은 Mercury다.
+  • Saturn는 Moon / Mercury / Ketu의 장을 먹은 Saturn다.
+  • Ketu는 Moon / Mercury / Saturn의 장을 먹은 Ketu다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D60 Bhava visible field / annual root karma / deep pattern / causal memory / 근원 반복
+- Support Point Note = none
+- £칸 = 2026 VAS D60 Bhava Upper-Middle-Left Sector snapshot 슬롯
+- €칸
+  • natal D60 annual root karma / deep pattern / causal memory / 근원 반복 reference layer = Optional Reference
+  • 2026 VAS D60 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D60 Bhava는 annual root karma / deep pattern / causal memory / 근원 반복의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 근원 반복은 해석만 하지 말고 어떤 반복을 끊고 어떤 의미를 회수할지 정해야 한다.
+
+[HYEWON_2026_VAS_D60_BHAVA_UR_SUN_MARS_CO_FIELD]
+- Source Grade = VISIBLE_SNAPSHOT_FIELD_REFERENCE
+- Location = D60 / Upper-Right Sector
+- Source Raw Field = Su / Ma
+- Members = Sun / Mars
+- Member Class = Classical Core Sun-Mars
+- Field Type = same-sector visible co-presence
+- Exactness = SNAPSHOT_CLUSTER
+- Core Pair = Sun / Mars
+Annual Special Note
+- none
+Independent Functions
+  • Sun = 실행권 / 중심성 / 자존 / 공식성 / 권위
+  • Mars = 행동 / 결단 / 방어 / 충돌 / 실행압력
+Mutual Coloring
+  • Sun는 Mars의 장을 먹은 Sun다.
+  • Mars는 Sun의 장을 먹은 Mars다.
+  • 따라서 이 annual Bhava 공동장은 단독 행성 의미가 아니라 같은 visible field 안에서 서로 물든 작동장으로 읽는다.
+- Chart-Specific Role = D60 Bhava visible field / annual root karma / deep pattern / causal memory / 근원 반복
+- Support Point Note = none
+- £칸 = 2026 VAS D60 Bhava Upper-Right Sector snapshot 슬롯
+- €칸
+  • natal D60 annual root karma / deep pattern / causal memory / 근원 반복 reference layer = Optional Reference
+  • 2026 VAS D60 Rashi source-structure field = Optional Reference
+  • 연결이유 = annual D60 Bhava는 annual root karma / deep pattern / causal memory / 근원 반복의 visible reality-stage를 보여주고, Rashi는 사용자가 요청할 때만 sign-field/source structure를 확인하는 선택 검산층이다.
+- Reality Rule = 근원 반복은 해석만 하지 말고 어떤 반복을 끊고 어떤 의미를 회수할지 정해야 한다.
+
+D60 Single Field
+- Upper-Left Sector = Lagna = 연간 차트 몸통 / 현실 진입점 / 해당 D차트의 작동 중심점
+- Left-Middle Sector = Jupiter = 방향 / 의미 / 원리 / 보호 / 확장
+- Right-Middle Sector = Venus = 가치 / 관계 / 미감 / 보상 / 산출
+- Lower-Middle Sector = Rahu = 증폭 / 욕망 / 비표준 경로 / 과열 / 외부망
+- Single Field Rule = 단일 visible point는 공동장으로 만들지 않고 보조 점유로만 보존한다.
+
+D60 OPERATING NOTE
+- D60 annual Bhava co-field는 visible snapshot 기반 reference 공동장이며, 사용자가 요청하지 않는 한 Rashi와 자동 병합하지 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━
+VALIDATION SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━
+- D-set count = 20/20
+- Rashi sections inserted = 20/20
+- Bhava sections inserted = 20/20
+- Missing Rashi = NONE
+- Missing Bhava = NONE
+- Rashi Field Blocks = 66
+- Bhava Co-field Blocks = 56
+- Bhava Single Fields separated = 49
+- Independent Functions = PASS
+- Mutual Coloring = PASS
+- Single Field / Co-field separation = PASS
+- Annual Special Note = PASS where same-field Rahu/Ketu appears
+- Operational Boundary Note = PASS
+- Rashi House Application Rule = PASS
+- Bhava Optional Reference wording = PASS
+- Insert Rule placeholders = 0
+- File arrangement = D-number set / Rashi first / Bhava second
+
+D-CHART FIELD COUNT
+- D1: Rashi co-fields=3 / Bhava co-fields=1 / Bhava single-fields=5
+- D2: Rashi co-fields=2 / Bhava co-fields=2 / Bhava single-fields=0
+- D3: Rashi co-fields=4 / Bhava co-fields=3 / Bhava single-fields=3
+- D4: Rashi co-fields=3 / Bhava co-fields=4 / Bhava single-fields=2
+- D5: Rashi co-fields=3 / Bhava co-fields=3 / Bhava single-fields=2
+- D6: Rashi co-fields=4 / Bhava co-fields=2 / Bhava single-fields=4
+- D7: Rashi co-fields=4 / Bhava co-fields=4 / Bhava single-fields=2
+- D8: Rashi co-fields=3 / Bhava co-fields=2 / Bhava single-fields=4
+- D9: Rashi co-fields=3 / Bhava co-fields=3 / Bhava single-fields=1
+- D10: Rashi co-fields=4 / Bhava co-fields=4 / Bhava single-fields=2
+- D11: Rashi co-fields=4 / Bhava co-fields=3 / Bhava single-fields=3
+- D12: Rashi co-fields=3 / Bhava co-fields=2 / Bhava single-fields=3
+- D16: Rashi co-fields=3 / Bhava co-fields=2 / Bhava single-fields=4
+- D20: Rashi co-fields=3 / Bhava co-fields=3 / Bhava single-fields=1
+- D24: Rashi co-fields=5 / Bhava co-fields=4 / Bhava single-fields=1
+- D27: Rashi co-fields=3 / Bhava co-fields=3 / Bhava single-fields=2
+- D30: Rashi co-fields=3 / Bhava co-fields=3 / Bhava single-fields=2
+- D40: Rashi co-fields=2 / Bhava co-fields=3 / Bhava single-fields=1
+- D45: Rashi co-fields=4 / Bhava co-fields=3 / Bhava single-fields=3
+- D60: Rashi co-fields=3 / Bhava co-fields=2 / Bhava single-fields=4
+
+CONTENT END
+━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HW_VAS26_RASHI_BHAVA_CO2_99_DSET_MASTER_FINAL
+INDEX=MASTER_CHARTS > HYEWON > VARSHAPHALA_TAJAKA > 2026 > CO_PRESENCE_FIELD > RASHI_BHAVA_CO2_99_DSET_MASTER_FINAL
+STATUS=CO_PRESENCE_FIELD_DSET_99_LOCK_READY
+━━━━━━━━━━━━━━━━━━━━━━━

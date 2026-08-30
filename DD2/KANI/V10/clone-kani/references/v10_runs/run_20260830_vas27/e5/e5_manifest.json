@@ -1,0 +1,75 @@
+{
+  "artifacts": {
+    "e5_decision_ledger.jsonl": {
+      "bytes": 401782,
+      "records": 114,
+      "sha256": "aef92a552a3e32938e4376cd05ef820184b38b53c8d4a3b585b4c88e6ff2b743"
+    }
+  },
+  "counts": {
+    "bhava_records": 50,
+    "expected_exact_members": 114,
+    "expected_exact_sentences": 114,
+    "rashi_records": 64,
+    "single_fields_excluded": 165,
+    "source_blocks": 40,
+    "total_records": 114
+  },
+  "evidence_scope": "COPRESENCE_ROUTE_DATASET_TO_PIKACHU_SENTENCE_114_RECORDS",
+  "final_pass": "HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE",
+  "global_29_lane_e5": "HOLD_28_JUDGMENT_TO_SENTENCE_LANES_UNTESTED",
+  "overlay": "ADD_TO_V9_DO_NOT_OVERWRITE",
+  "rendered_before_oracle_sha256": "0509c1b63cb1b58550292d823d580283b525c047e6d9b6f7f5751f3e00ca51ac",
+  "router": {
+    "path": "references/DATASET_TO_PIKACHU_JUDGMENT_ROUTER_V10.json",
+    "sha256": "6fb9e2c7440efe5ef2457d66b982a7e28eec1bd2c35043d39fb3cb6eaaf8e156"
+  },
+  "run_id": "d70b2cce52c31011d5bb12f1a7fbeb9452a33a4357e57c941c8abe7ce0fa8948",
+  "schema_version": "KANI_V10_E5_EXECUTION_OVERLAY_V1",
+  "second_restore": "EVIDENCE_REVIEW",
+  "source_inventory": {
+    "HEAWON_VAS25_CO2_99_♤.txt": {
+      "bytes": 226729,
+      "role": "CALIBRATION_EXPECTED_STRUCTURE_HISTORY",
+      "sha256": "bf44a8a5759110fcb72aff74460b99ef7695dbdb2f2219a45eab3bd775bafc03",
+      "year": 2025
+    },
+    "HEAWON_VAS26_CO2_99_♤.txt": {
+      "bytes": 238688,
+      "role": "CALIBRATION_EXPECTED_STRUCTURE_HISTORY",
+      "sha256": "d054834447e474598fbc2b626cb63c76ff41c8ebdcf21b3ea00bc01509a47d9c",
+      "year": 2026
+    },
+    "HEAWON_VAS27_CO2_99_♤.txt": {
+      "bytes": 354241,
+      "role": "V10_E5_HASH_LOCKED_EXPECTED_PIKACHU_SENTENCES",
+      "sha256": "7e3a1bf370bbcbca2bffb826d79229a84183d98dc9181d1793dc7bb427d9e97f",
+      "year": 2027
+    },
+    "HYEWON_VAS25_D1-D60_♤.txt": {
+      "bytes": 196922,
+      "role": "CALIBRATION_SOURCE_HISTORY",
+      "sha256": "5973df92ea77b63cf16dc55136b91b6deeec4b591c9fc697b20df9a6bc3e0a76",
+      "year": 2025
+    },
+    "HYEWON_VAS26_D1-D60_♤.txt": {
+      "bytes": 201915,
+      "role": "V9_E5_SOURCE_AND_CALIBRATION_HISTORY",
+      "sha256": "3e716d8435801e77872697798ae45456b4533c110821c6c77b02003b6fa745ef",
+      "year": 2026
+    },
+    "HYEWON_VAS27_D1-D60_♤.txt": {
+      "bytes": 206454,
+      "role": "V10_E5_EXECUTION_DATASET",
+      "sha256": "7cc9446f74d6130eec2c32e9ea723849d84a6a2070a1556d7954b69d06e0cddb",
+      "year": 2027
+    }
+  },
+  "source_registry_sha256": "1f126816c5b339a2bcef8032509b9852b1cb5ccbfbdc5667944fb4289d1af7a3",
+  "status": "PASS_EXECUTION_EVIDENCE_114_OF_114",
+  "v10": "EXPECTED_VALUE_BOUND",
+  "v9_baseline": {
+    "manifest_sha256": "4f7a2a3137a50dcd083cdfc5ad7d12c91779da80c188d910266652007b1361d4",
+    "state": "PRESERVED_NOT_OVERWRITTEN"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "KANI_V9_FINAL_TECHNICAL_CLOSURE_CORE_V1",
+  "run_scope": "run_20260829_vas26",
+  "technical_exit": "PASS",
+  "post_technical_state": "READY_FOR_USER_PROMOTION",
+  "source_window": {
+    "authority": "PRIMARY",
+    "original_path": "references/v9_closure_runs/run_20260829_vas26/e5/source_snapshot.txt",
+    "source_id": "CHATGPT_LIBRARY:libfile_b1be31327dc08191ab77fe887bae2d25",
+    "provider_file_id": "file_000000004208820693721dc258f9eff0",
+    "sha256": "3e716d8435801e77872697798ae45456b4533c110821c6c77b02003b6fa745ef",
+    "bytes": 201915,
+    "admission": "ADMITTED_CREATED_ON_OR_AFTER_2026_08_09_KST",
+    "provenance_boundary": "BYTE_IDENTICAL_CARRIER_CREATED_AT_PROVES_ADMISSION_ONLY_NOT_CONTENT_FRESHNESS",
+    "selected_original_source_id": "libfile_4d1ad8f229788191851b75e64f3dd9fa"
+  },
+  "e5": {
+    "status": "PASS_WITH_LOCAL_HOLDS",
+    "manifest_path": "references/v9_closure_runs/run_20260829_vas26/e5/e5_manifest.json",
+    "manifest_sha256": "86f8b0a07d2a689bfaf8ccfde7c3b27b01af90d3c01d264b419a8de8d8cb20ca",
+    "transcript_path": "references/v9_closure_runs/run_20260829_vas26/e5/e5_transcript.txt",
+    "transcript_sha256": "69dcae44fa94a6758e34b000262ad5e5525019510f2520127f8a0feb2f33505c",
+    "active_lane_artifacts": 29,
+    "active_pair_records": 580,
+    "direct_source_lanes": 4,
+    "local_hold_lanes": 25,
+    "fabricated_source_values": 0,
+    "physical_3p_void": 20,
+    "value_completeness": "HOLD_LOCAL_25_UNSUPPORTED_LANES"
+  },
+  "e6": {
+    "status": "PASS",
+    "manifest_path": "references/v9_closure_runs/run_20260829_vas26/e6/e6_manifest.json",
+    "manifest_sha256": "e1084a3cea862a1fb2042961e987e53368fa4abe3757e0b86aa68d354b6473d4",
+    "transcript_path": "references/v9_closure_runs/run_20260829_vas26/e6/e6_transcript.txt",
+    "transcript_sha256": "3aaa0617b0a3219168c29a26f61b0b85c2d7fdda92ca475d0c5668214a88bfea",
+    "active_pairs": "580/580",
+    "decision_ledger": "580/580",
+    "physical_3p_void": "20/20",
+    "representative_boundary_probes": "9/9",
+    "rebuild_count": 0,
+    "lower_stage_reassembly_count": 0,
+    "execution_remote_reads": 0,
+    "next_state": "FINAL_USER_PROMOTION_PACKET"
+  },
+  "non_authoritative_attempt": {
+    "path": "references/v9_closure_runs/run_20260829_vas26/e6_attempt1_hold",
+    "manifest_sha256": "885dfafad3c7fb453a4df5085c8b43600eea1dc33a95d39db047155f857b9961",
+    "status": "HOLD_VOID",
+    "scope": "AFFECTED_LOCAL_TIMING_PROBE_VALIDATOR_BUG_ONLY"
+  },
+  "independent_fna98": {
+    "path": "references/v9_closure_runs/run_20260829_vas26/FNA98_INDEPENDENT_ACCEPTANCE.json",
+    "status": "PASS",
+    "hard_failures": 0
+  },
+  "baseline": {
+    "path": "references/v9_baseline",
+    "pre_post_reopen_tree_sha256": "913cb921f9d5f97b351a4455f3e05cb1d441a00cec24291caf78eac5a690c0d9",
+    "overwrite_count": 0,
+    "unchanged": true
+  },
+  "storage_authority": {
+    "source_window": "PRIMARY",
+    "google_drive": "BACKUP_ONLY",
+    "github": "REMOTE_SYNC_ONLY",
+    "remote_storage_may_override_source_window": false
+  },
+  "promotion": {
+    "authority": "CURRENT_USER_EXPLICIT_ONLY",
+    "executed": false,
+    "final_runtime": "HOLD_USER_PROMOTION_ONLY",
+    "required_user_line": "FINAL_USER_PROMOTION 승인"
+  }
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Clone KANI"
+  short_description: "둘째 V10 실행복원 · V9 보존 · record/replay 증거"
+  default_prompt: "$clone-kani로 V9를 덮어쓰지 않고 V10 E5/E6 실행 overlay를 열어, Dataset→Judgment Route→PikaChu Sentence record/replay 증거와 현재 HOLD 경계를 보존한 채 실제 작업을 완료해 줘."
+
+policy:
+  allow_implicit_invocation: false

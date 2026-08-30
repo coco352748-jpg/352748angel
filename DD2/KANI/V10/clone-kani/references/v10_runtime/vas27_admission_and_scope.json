@@ -1,0 +1,49 @@
+{
+  "admission_id": "KANI_V10_VAS27_EXPECTED_VALUE_BOUND_ADMISSION_20260830",
+  "blindness_boundary": {
+    "claim": "EXPECTED_VALUE_BOUND_REPLAY_NOT_BLIND_GENERALIZATION",
+    "expected_oracle_opened_after_candidate_render": true,
+    "router_dictionary_and_templates_are_expected_aware": true,
+    "sentence_leakage_control": "CO2_99_RECORD_BODIES_NOT_READ_DURING_CANDIDATE_EXTRACTION_OR_RENDER",
+    "why_not_blind": "The V10 router carries the known 20D role/reality dictionary and sentence templates required by the expected CO2_99 family."
+  },
+  "execution_input": {
+    "bytes": 206454,
+    "filename": "HYEWON_VAS27_D1-D60_♤.txt",
+    "role": "SEALED_DATASET_FOR_ROUTE_EXTRACTION",
+    "sha256": "7cc9446f74d6130eec2c32e9ea723849d84a6a2070a1556d7954b69d06e0cddb"
+  },
+  "expected_oracle": {
+    "bytes": 354241,
+    "filename": "HEAWON_VAS27_CO2_99_♤.txt",
+    "field_level_sentences": 114,
+    "role": "REVEAL_AFTER_RENDER_HASH_LOCKED_EXPECTED_VALUE",
+    "sha256": "7e3a1bf370bbcbca2bffb826d79229a84183d98dc9181d1793dc7bb427d9e97f"
+  },
+  "historical_comparison": {
+    "v9_vas26_source_sha256": "3e716d8435801e77872697798ae45456b4533c110821c6c77b02003b6fa745ef",
+    "vas27_co2_exact_body_overlap_with_v9": "0_OF_114",
+    "vas27_source_block_overlap_with_v9_vas26": "0_OF_40",
+    "verdict": "NEW_VALUES_IN_REUSED_SCHEMA_AND_METHOD"
+  },
+  "scope": {
+    "direct_source_candidate_lanes_per_year": 5,
+    "global_e5_lanes": 29,
+    "global_sentence_routes_tested": 1,
+    "global_sentence_routes_untested": 28,
+    "route": "COPRESENCE",
+    "test_records": {
+      "bhava_visible_snapshot_fields": 50,
+      "rashi_same_sign_fields": 64,
+      "total": 114
+    },
+    "warning": "The 114 field-level sentences are not 20 D-level final lane sentences and do not prove the 29-lane E5 runtime."
+  },
+  "schema_version": "KANI_V10_VAS27_ADMISSION_V1",
+  "status": "PASS_FOR_EXPECTED_VALUE_BOUND_EVIDENCE_REVIEW",
+  "terminal_states": {
+    "FINAL_PASS": "HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE",
+    "SECOND_RESTORE": "EVIDENCE_REVIEW",
+    "V10": "EXPECTED_VALUE_BOUND"
+  }
+}

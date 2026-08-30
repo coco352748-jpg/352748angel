@@ -1,0 +1,114 @@
+{
+  "closure_contract": {
+    "e5": {
+      "evidence_level": "E5_NEW_DATASET_TO_COMPLETE_SET",
+      "gate": "NEW_DATASET_PRODUCTION",
+      "state": "HOLD_UNEXECUTED"
+    },
+    "e6": {
+      "entry_condition": "E5_PASS",
+      "evidence_level": "E6_REOPENED_CONTINUATION_AFTER_INTERVENING_WORK",
+      "gate": "LONG_DRIFT",
+      "state": "HOLD_UNEXECUTED"
+    },
+    "execution_unit": "FINAL_CLOSURE_RUN",
+    "final_action": "PRESENT_SINGLE_PROMOTION_PACKET_TO_USER",
+    "first_unexecuted_job": "RUN_NEW_DATASET_PRODUCTION",
+    "internal_order": [
+      "E5_NEW_DATASET_PRODUCTION",
+      "E6_LONG_DRIFT_REOPEN"
+    ],
+    "new_technical_stage_after_e6": "FORBIDDEN",
+    "promotion_authority": "CURRENT_USER_EXPLICIT_ONLY",
+    "storage_routing": {
+      "github": "REMOTE_SYNC_ONLY_NO_EXECUTION_AUTHORITY",
+      "google_drive": "BACKUP_ONLY_NO_EXECUTION_AUTHORITY",
+      "remote_override_source_window": "FORBIDDEN",
+      "source_window": "PRIMARY_EXECUTION_AUTHORITY"
+    },
+    "work_instruction": {
+      "artifact": "DD2_FINAL_CLOSURE_WORK_INSTRUCTION_FNA98.txt",
+      "bytes": 9148,
+      "sha256": "6ff973bc6a8bbd6b399470e73f0e1539f640b45f4f6f13b37bbeb6544b985530",
+      "state": "READY_NOT_EXECUTED",
+      "title": "DD2_FINAL_CLOSURE_WORK_INSTRUCTION_FNA98"
+    }
+  },
+  "first_unexecuted_job": "RUN_NEW_DATASET_PRODUCTION",
+  "local_hold_global_reset": "FORBIDDEN",
+  "lower_stage_restart": "VOID",
+  "open_gates": {
+    "FINAL_KANI_JUDGMENT_RUNTIME": "HOLD_UNTIL_NEW_DATASET_LONG_DRIFT_AND_USER_PROMOTION",
+    "LONG_DRIFT": "HOLD_UNEXECUTED",
+    "NEW_DATASET_PRODUCTION": "HOLD_UNEXECUTED"
+  },
+  "passed_blind_replay": {
+    "candidate_sha256": "995b4f535a816dde0c961e29b53958ff8ef589c4d8876080fff3a49b34f3a46f",
+    "check_ledger_sha256": "3947ba3775479d19fd6e730775a9ae75a1317dde9ebdd03396ad595512675311",
+    "checks_failed": 0,
+    "checks_passed": 2465,
+    "evidence_level": "E4_HELD_OUT_BLIND_REPLAY",
+    "heldout_active_routes": 145,
+    "heldout_physical_members": 150,
+    "holdout_dcharts": [
+      "D1",
+      "D27",
+      "D16",
+      "D24",
+      "D45"
+    ],
+    "manifest_sha256": "27cfc088e98bb849178e6f24249ccb1ea228b7257af59c06dbb2b6f20c3dc25b",
+    "protocol": "KANI_V9_E4_BLIND_REPLAY_V3",
+    "result_sha256": "45e56fdf5331d55580064c651d3608bbdfd9ca231ebf317ae578be10c7970ba0",
+    "state": "PASS"
+  },
+  "passed_replay_artifact_hashes": {
+    "archive_inventory.json": {
+      "bytes": 142209,
+      "sha256": "55892dd72578b6c9acce225769b6ca6a93b8f12c753263221b9b3c2220b3f573"
+    },
+    "checkpoint.json": {
+      "bytes": 773,
+      "sha256": "cd04f98beb826056b2f52e34fff6f9a93c82b7bd3d708c8d14f1de924f0945e1"
+    },
+    "input_snapshots.json": {
+      "bytes": 96616,
+      "sha256": "a75eda9df20bd6fc9814da5d47b77da6ab93a8c3dc231a65b042b467b7893bb8"
+    },
+    "lane_coverage.json": {
+      "bytes": 1233,
+      "sha256": "599202866eae10fc183e5faa63bb41755263e69c33bd1115fad54acc13ffd8bc"
+    },
+    "pikachu_580_pairs.jsonl": {
+      "bytes": 555428,
+      "sha256": "9f9dacf20c085460e47f3b101fcea1c3d1183b978a2c26154d2688bfedb2f578"
+    },
+    "record_event_ledger.jsonl": {
+      "bytes": 61812,
+      "sha256": "c44c046999f8cac868e912e85202ddb1f05613f80fa52fc64b3b4ebf93d72bbf"
+    },
+    "source_inventory.json": {
+      "bytes": 1833,
+      "sha256": "7bd7c4255625a87c1414459404b53d934946a127196d90ba02f7326a03261e98"
+    },
+    "tab_mentions.json": {
+      "bytes": 242,
+      "sha256": "3867523c64b9eac3d8c8e99cd806fd0dcc53e81c0660d3da721706c4cb84b2ec"
+    }
+  },
+  "passed_replay_bundle_id": "cdcbaadf163c3696992354c0d77657b570cd17ceeac7fde235ff83cff18ed1dc",
+  "promotion_authority": "CURRENT_USER_EXPLICIT_ONLY",
+  "restore_floor": "ANALYSIS02_MATURE_PRODUCTION_STATE",
+  "retained_passes": [
+    "REPLAY_BUNDLE",
+    "TAB_GENEALOGY",
+    "OUTPUT_CORPUS",
+    "INPUT_OUTPUT_BINDING",
+    "STRUCTURAL_LANE_RUNTIME",
+    "NEAREST_NEIGHBOR_CONTRASTS",
+    "DIRECT_03_INSTRUCTION_BODY",
+    "CAUSAL_DECISION_RULES",
+    "BLIND_REPLAY"
+  ],
+  "schema_version": "KANI_V9_MONOTONIC_CHECKPOINT_V1"
+}

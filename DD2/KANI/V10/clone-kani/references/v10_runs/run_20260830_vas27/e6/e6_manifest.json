@@ -1,0 +1,74 @@
+{
+  "artifacts": {
+    "boundary_test_9of9.json": {
+      "bytes": 4191,
+      "sha256": "ce1560169e47ef53b0844aa0567f16427e1bc698167f8a72733551ab66b851e7"
+    },
+    "e6_reopen_record.json": {
+      "bytes": 26806,
+      "sha256": "0c9ebe0f377090f1dac01949fa5122779fbeb73323a3ba51dcc8f8ff95e1efb5"
+    },
+    "e6_replay_ledger.jsonl": {
+      "bytes": 410293,
+      "records": 114,
+      "sha256": "0b4c7164aed17b93e7529f050c1e0e618bc05438443ea9a7cb8b7ed4a3e0eb5f"
+    },
+    "e6_transcript.txt": {
+      "bytes": 510,
+      "sha256": "eecd6a43f634ac88e75070f51ebc9aa3de27858b8de0fbc9958014f0dad705da"
+    }
+  },
+  "boundary_test": {
+    "pass_count": 9,
+    "status": "PASS_9_OF_9",
+    "test_count": 9
+  },
+  "counts": {
+    "bhava_replay_records": 50,
+    "copresence_replay_records": 114,
+    "rashi_replay_records": 64,
+    "second_action_calibration_records": 240,
+    "single_fields_excluded": 165
+  },
+  "entry_condition": {
+    "e5_manifest_sha256": "56b8673d518f330d68a97c30da74e6df5be57ebf822826b197217175a697eda1",
+    "e5_run_id": "d70b2cce52c31011d5bb12f1a7fbeb9452a33a4357e57c941c8abe7ce0fa8948",
+    "e5_status": "PASS_EXECUTION_EVIDENCE_114_OF_114",
+    "observed": "PASS_TESTED_COPRESENCE_EXECUTION_SCOPE",
+    "required": "V10_E5_EXECUTION_EVIDENCE_114_OF_114"
+  },
+  "evidence_scope": "COPRESENCE_114_RECORD_REOPEN_PLUS_BOUNDARY_9_OF_9",
+  "final_pass": "HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE",
+  "global_29_lane_e5": "HOLD_28_JUDGMENT_TO_SENTENCE_LANES_UNTESTED",
+  "inputs": {
+    "audit_sidecar_sha256": "4a8e361f8d9c53e0f779aba6f9ddb9036c9957ba8071dcc011a0f47a1318e3c4",
+    "calibration_independent_ledger_sha256": "508613c4cf3fbf8641782a1c8885d0f8d576228c4e192c2a2fa0085c2666f023",
+    "calibration_independent_report_sha256": "69d71bb96988fd91c6f289c2e5dcec9dd889a5d915aed181fb1ee1b0b3f8fda9",
+    "calibration_manifest_sha256": "02e214da07e7f86d5cd15dcb83f22c8d2789d5c17a8ff5b8bb6a671d172e78ca",
+    "router_sha256": "6fb9e2c7440efe5ef2457d66b982a7e28eec1bd2c35043d39fb3cb6eaaf8e156",
+    "source_registry_sha256": "1f126816c5b339a2bcef8032509b9852b1cb5ccbfbdc5667944fb4289d1af7a3",
+    "v9_baseline_tree_sha256": "913cb921f9d5f97b351a4455f3e05cb1d441a00cec24291caf78eac5a690c0d9",
+    "v9_e5_manifest_sha256": "86f8b0a07d2a689bfaf8ccfde7c3b27b01af90d3c01d264b419a8de8d8cb20ca",
+    "v9_e6_manifest_sha256": "e1084a3cea862a1fb2042961e987e53368fa4abe3757e0b86aa68d354b6473d4"
+  },
+  "overlay": "ADD_TO_V9_DO_NOT_OVERWRITE",
+  "protected_input_change_count": 0,
+  "real_long_drift": "HOLD_REAL_LONG_DRIFT_NOT_PROVEN",
+  "run_id": "f95b2226e86a3d6a47a7419b55dfea2b33c50bed8059f2df2d301635448023bb",
+  "schema_version": "KANI_V10_E6_REOPEN_OVERLAY_V1",
+  "second_restore": "EVIDENCE_REVIEW",
+  "status": "PASS_REOPEN_EVIDENCE_9_OF_9",
+  "v10": "EXPECTED_VALUE_BOUND",
+  "v9_history": {
+    "e5_original_status": "PASS_WITH_LOCAL_HOLDS",
+    "e5_v10_reclassification": "MATERIALIZATION_PASS__ROUTER_HOLD_NOT_ROUTER",
+    "e6_original_status": "PASS",
+    "e6_v10_reclassification": "HOLD_ENTRY_E5_NOT_PASS",
+    "preservation": "BYTE_PRESERVED_HISTORY_NOT_CURRENT_AUTHORITY"
+  },
+  "validator": {
+    "producer_import_forbidden": true,
+    "report_path": "references/v10_runtime/e6_independent_validation.json",
+    "required_schema": "KANI_V10_E6_INDEPENDENT_VALIDATION_V1"
+  }
+}

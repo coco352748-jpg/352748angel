@@ -1,0 +1,521 @@
+{
+  "bundle_completeness": "EVIDENCE_PRESENT_AWAITING_USER_REVIEW",
+  "claims": {
+    "E5_E6_OVERLAY": "ADD_TO_V9_DO_NOT_OVERWRITE",
+    "FINAL_PASS": "HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE",
+    "GLOBAL_29_LANE_E5": "HOLD_28_JUDGMENT_TO_SENTENCE_LANES_UNTESTED",
+    "REAL_LONG_DRIFT": "HOLD_REAL_LONG_DRIFT_NOT_PROVEN",
+    "SECOND_RESTORE": "EVIDENCE_REVIEW",
+    "V10": "EXPECTED_VALUE_BOUND",
+    "V9_BASELINE": "PRESERVED_NOT_OVERWRITTEN"
+  },
+  "engine": "KANI_CAUSAL_RESTORE_V10",
+  "historical_v9_e5_e6": {
+    "e5": {
+      "availability": "PRESENT",
+      "bytes": 6759332,
+      "file_count": 39,
+      "files": {
+        "e5_3p_void.jsonl": {
+          "bytes": 2942,
+          "sha256": "8c66458e402dfdb7e944efe1712f7f13597d6436794eb8ab4f6e45e6402b83f9"
+        },
+        "e5_checkpoint.json": {
+          "bytes": 790,
+          "sha256": "d81c9c08feadd72b55154233e047c5851f03508d0fdb0b1c4f87663c398e8a54"
+        },
+        "e5_decision_ledger.jsonl": {
+          "bytes": 2473791,
+          "sha256": "f319f44cf3004c7285ebf0ad019b78e7e5e978ba62fcf16a06e1983b871e10a3"
+        },
+        "e5_fna98.json": {
+          "bytes": 772,
+          "sha256": "56f50c84f2b26f9e778ecfe6aa200c3f2598b4b597a96e16b63554bc1f8c80c9"
+        },
+        "e5_manifest.json": {
+          "bytes": 31524,
+          "sha256": "86f8b0a07d2a689bfaf8ccfde7c3b27b01af90d3c01d264b419a8de8d8cb20ca"
+        },
+        "e5_manifest.sha256": {
+          "bytes": 83,
+          "sha256": "78f7720b4b32f844aa63da048f9d17d0f5fb89bb042f9510313cd202fb51e744"
+        },
+        "e5_source_admission.json": {
+          "bytes": 746,
+          "sha256": "63e4c054c87e2275a57e42d8f671f0670a8d624953c6a621347d2dd3f63a6e96"
+        },
+        "e5_source_novelty.json": {
+          "bytes": 879,
+          "sha256": "9122fb02da827308267727432e0b1da6b9b22393f29a01d44e2e83eb948380b4"
+        },
+        "e5_transcript.txt": {
+          "bytes": 549,
+          "sha256": "69dcae44fa94a6758e34b000262ad5e5525019510f2520127f8a0feb2f33505c"
+        },
+        "lanes/01_INDEX.json": {
+          "bytes": 144781,
+          "sha256": "7f8d1736117e7815247762533a3a9ae791811c891282a26d119b42162b61bac0"
+        },
+        "lanes/02_RASHI_SOURCE.json": {
+          "bytes": 318282,
+          "sha256": "ac58f170853d8744db936b8d5f72c6ee6e252333b6e95c035c9da3e101e70e81"
+        },
+        "lanes/03_BHAVA_SOURCE.json": {
+          "bytes": 311828,
+          "sha256": "044db507b473b1d04eae4209bb5837f977492961c37bca02a9763be0aa108345"
+        },
+        "lanes/04_FIRST_INTEGRATION.json": {
+          "bytes": 124572,
+          "sha256": "3c58fa8b5b65943e3ea4947a46bd34a95c0d75281a25fab307cf5d3060539cac"
+        },
+        "lanes/05_COPRESENCE.json": {
+          "bytes": 123785,
+          "sha256": "dfe3076b8ed56b96f0559c72881738e2b861b936b00f251912608b6bc3de324f"
+        },
+        "lanes/06_PUSHKARA.json": {
+          "bytes": 123583,
+          "sha256": "93e897acad3a31d2292d9614c973a288b9dc2806f3bea0190c7ff1a79d3eed25"
+        },
+        "lanes/07_UPAGRAHA.json": {
+          "bytes": 123783,
+          "sha256": "ee249810c73bbe2fde0a35fcba737e3f51f4f503a87dc4037acbe0d64f455344"
+        },
+        "lanes/08_SPIRIT_CHALIT.json": {
+          "bytes": 124168,
+          "sha256": "baf0d572461bebd9e026bfb47367f06591e49e0f03e0130c7444157939c42781"
+        },
+        "lanes/09_MOON_CHART.json": {
+          "bytes": 123705,
+          "sha256": "9584e1656e0879e1435525a4b6bb3977a82eed552beec880ce5bb8cabef08c58"
+        },
+        "lanes/10_ARUDHA.json": {
+          "bytes": 123482,
+          "sha256": "8b5847b1a6644ba3f5c21a2f0a7d6d36b0aa76a1cf3e587891e187115ddd5192"
+        },
+        "lanes/11_SHADBALA_A.json": {
+          "bytes": 123886,
+          "sha256": "d3488974bf9957836e1ed0815f93d07a66d350eb083ed31bde9ff4f727907dd5"
+        },
+        "lanes/12_SHADBALA_R.json": {
+          "bytes": 123886,
+          "sha256": "2609a0247c55303fb818d37e212498def180e93bfa68c232bb8b1c9c919d298c"
+        },
+        "lanes/13_BHAVA_BALA.json": {
+          "bytes": 123846,
+          "sha256": "ee0b03623106ba8419db625c73d654f2c7aa8cd7cb740e6865c0dbe3ecbe96a7"
+        },
+        "lanes/14_VIMSOPAKA.json": {
+          "bytes": 123625,
+          "sha256": "50befc051d2390bab1152fcb966e563517b4f08c9b70f7bc06ed7081a20b735e"
+        },
+        "lanes/15_MRITYU.json": {
+          "bytes": 123362,
+          "sha256": "3d7e5e1724638dbaf70c0e1b6d5d59e9e19eb4e2d0a325328a932c69def710d4"
+        },
+        "lanes/16_SPOTHER.json": {
+          "bytes": 123303,
+          "sha256": "bc96d7bcd722480bfec2b8aee6afc4d8228fb43a08be5e8ae1db1d8d243b2a8a"
+        },
+        "lanes/17_AVA.json": {
+          "bytes": 123299,
+          "sha256": "c09a3d45ed0f797820539017d0594780e98287eb8b69e5baa1f628b2c9ec6f59"
+        },
+        "lanes/18_BHINNA_MATRIX.json": {
+          "bytes": 124309,
+          "sha256": "972a1da0d5042a8563f2dc9ff4db0a32c1dd29ad4a047dad60da490026f62988"
+        },
+        "lanes/19_PLANET_ASPECT.json": {
+          "bytes": 123909,
+          "sha256": "92503398900bcf972141828b51b346645446c2e3b72b37e2879f34dba58cbcad"
+        },
+        "lanes/20_SAP.json": {
+          "bytes": 122899,
+          "sha256": "0862b63b94a50c81ab069125d3a0f581cd9546b91235bac0c22a19deebfab2a5"
+        },
+        "lanes/21_TKS.json": {
+          "bytes": 122899,
+          "sha256": "9625ff801f4d43ba5d4aa56a619af6c4d2965b4cefc563ca2ee450c9ea7d3403"
+        },
+        "lanes/22_EKS.json": {
+          "bytes": 122899,
+          "sha256": "82ad0c9981e55121a0298f935c08b7877de9a3ed1198f3b346eb33cb5a9000ed"
+        },
+        "lanes/23_SPD.json": {
+          "bytes": 123379,
+          "sha256": "536117d656252be41db513df0ba45ed581423f7fef9e39cebf959a328a72da8c"
+        },
+        "lanes/24_VARGA_LINK_MINI.json": {
+          "bytes": 124591,
+          "sha256": "1af0754e7e9cfce481e4ca882ef1494377c142a981c099c9e44942839ab3df57"
+        },
+        "lanes/25_VARGA_LINK_FULL.json": {
+          "bytes": 124311,
+          "sha256": "8df8c3b0806aa62bbeba88d9c16ecf4a5b1e4698675ff3d1e9e2d6a52c7883ca"
+        },
+        "lanes/26_ASPECT02.json": {
+          "bytes": 123604,
+          "sha256": "e377bcf551fe7aea954bfd5f3eeb110159a2d5d53ec47c2e37ebf204da39c03c"
+        },
+        "lanes/27_ASPECT03.json": {
+          "bytes": 123484,
+          "sha256": "67abad952d8ea5a66da7ad1f3d6e661789906b4a03f50780b5034ae4e391dbec"
+        },
+        "lanes/28_DASHA.json": {
+          "bytes": 177548,
+          "sha256": "f42dc39cdc36e36b9815cfa3de1302502c5670373607ef0fe50d69cf966ac4d9"
+        },
+        "lanes/29_TIMING_GATE.json": {
+          "bytes": 124333,
+          "sha256": "678c3dedb4b00d552f210b6056f71e541ada314c5951c31330cc614bb99d5c08"
+        },
+        "source_snapshot.txt": {
+          "bytes": 201915,
+          "sha256": "3e716d8435801e77872697798ae45456b4533c110821c6c77b02003b6fa745ef"
+        }
+      },
+      "manifest_sha256": "86f8b0a07d2a689bfaf8ccfde7c3b27b01af90d3c01d264b419a8de8d8cb20ca",
+      "original_declared_status": "PASS_WITH_LOCAL_HOLDS",
+      "path": "references/v9_closure_runs/run_20260829_vas26/e5",
+      "tree_sha256": "939a2b40f2b5c8b654cb3d3abe32608b2aec8daad4ebafb7ce71e1c7e0fde4d0",
+      "v10_authoritative_status": "MATERIALIZATION_PASS__ROUTER_HOLD_NOT_ROUTER"
+    },
+    "e6": {
+      "availability": "PRESENT",
+      "bytes": 680931,
+      "file_count": 8,
+      "files": {
+        "e6_active_pair_manifest.jsonl": {
+          "bytes": 617236,
+          "sha256": "0f0bfa1becfef381a9b3286c617c0ca45507e4d986f71cf22a9f06300cbaeab0"
+        },
+        "e6_checkpoint.json": {
+          "bytes": 922,
+          "sha256": "70785c0927427bfcea23eb09236ae714ca0bdbf99236fd3600027a2a48c066a1"
+        },
+        "e6_fna98.json": {
+          "bytes": 618,
+          "sha256": "4454a49f9059b894d127666dd544f25f92c30e5166edf2118193bc6967643719"
+        },
+        "e6_manifest.json": {
+          "bytes": 4379,
+          "sha256": "e1084a3cea862a1fb2042961e987e53368fa4abe3757e0b86aa68d354b6473d4"
+        },
+        "e6_manifest.sha256": {
+          "bytes": 83,
+          "sha256": "36b5e040f11af5ac56dd43287eb0847e1ae034f357a745799d7d1fb7fef8d961"
+        },
+        "e6_probe_results.json": {
+          "bytes": 3947,
+          "sha256": "4c961b52b5ab94229085a47b51b3f02069bf02d99af056a8cd5123b17e7ea1f1"
+        },
+        "e6_reopen_record.json": {
+          "bytes": 52692,
+          "sha256": "f7cc4f650d4195748c5fb78ad127a427df5ca2c9547ddda5cb2a7c461418b775"
+        },
+        "e6_transcript.txt": {
+          "bytes": 1054,
+          "sha256": "3aaa0617b0a3219168c29a26f61b0b85c2d7fdda92ca475d0c5668214a88bfea"
+        }
+      },
+      "manifest_sha256": "e1084a3cea862a1fb2042961e987e53368fa4abe3757e0b86aa68d354b6473d4",
+      "original_declared_status": "PASS",
+      "path": "references/v9_closure_runs/run_20260829_vas26/e6",
+      "tree_sha256": "4ea192c78a9478c855e84e43453c1a36f1c0635b7372bc6057c8fb921a8746b8",
+      "v10_authoritative_status": "HOLD_ENTRY_E5_NOT_PASS"
+    }
+  },
+  "implementation_bindings": {
+    "artifacts": {
+      "agent_interface": {
+        "availability": "PRESENT",
+        "bytes": 401,
+        "path": "agents/openai.yaml",
+        "sha256": "305a79ced2eba888c058fe290799e6d0082a36b3f420570084722737292abcdd"
+      },
+      "boot_validator": {
+        "availability": "PRESENT",
+        "bytes": 16947,
+        "path": "scripts/validate_kani_boot.py",
+        "sha256": "bde3ff2f7df9b1c898a539437b43d530b395b95f77c1d1b51932b932fecde702"
+      },
+      "e5_independent_validator": {
+        "availability": "PRESENT",
+        "bytes": 37793,
+        "path": "scripts/validate_kani_v10_e5.py",
+        "sha256": "788ef11a99df96552204569a944be5dc1fb2e02a137e0ca7405a4555e524bfc3"
+      },
+      "e5_producer": {
+        "availability": "PRESENT",
+        "bytes": 23072,
+        "path": "scripts/run_kani_v10_e5.py",
+        "sha256": "7af5e543d56e0b23364ae4e3270388107fd481cd1d30883b012a0371060fc2c8"
+      },
+      "e6_independent_validator": {
+        "availability": "PRESENT",
+        "bytes": 43151,
+        "path": "scripts/validate_kani_v10_e6.py",
+        "sha256": "362f8942cd4a411163d192b7fe5d5270aab41cb6770c7ba30778326d4bbba66c"
+      },
+      "e6_producer": {
+        "availability": "PRESENT",
+        "bytes": 40104,
+        "path": "scripts/run_kani_v10_e6.py",
+        "sha256": "ba2bd33f62c18a9e8888aea439adc60087960495f8d258323f26ad68ba092db1"
+      },
+      "sc7_calibration_producer": {
+        "availability": "PRESENT",
+        "bytes": 21235,
+        "path": "scripts/run_kani_v10_router.py",
+        "sha256": "f263bc06c7bf114d62970afeb1e1a0e00274a9776331f64ef80195ab83e4dd97"
+      },
+      "sc7_calibration_validator": {
+        "availability": "PRESENT",
+        "bytes": 20514,
+        "path": "scripts/validate_kani_v10_router.py",
+        "sha256": "1e44183ffcc56199eb67cf6ce50afc0bdb02ed43b8658be5510b321ce443891f"
+      },
+      "skill_entrypoint": {
+        "availability": "PRESENT",
+        "bytes": 15224,
+        "path": "SKILL.md",
+        "sha256": "5b5d374b15ec09e674549d338c7a9c269ab042622b527fa032d7c61c27534e45"
+      },
+      "v10_manifest_builder": {
+        "availability": "PRESENT",
+        "bytes": 35565,
+        "path": "scripts/build_kani_v10_manifest.py",
+        "sha256": "8965dc147368ec1ae942ab84fd64c0e2a2de8482d2603bee745f9730b7a231c8"
+      },
+      "v10_runtime_validator": {
+        "availability": "PRESENT",
+        "bytes": 35918,
+        "path": "scripts/validate_kani_v10_runtime.py",
+        "sha256": "70716ec636dc6473f1875d32c1613c523a26e80541a2cb8fff6eba4ece05f82d"
+      }
+    },
+    "status": "HASH_LOCKED_EXECUTABLES_AND_ENTRYPOINTS"
+  },
+  "manifest_id": "c3d23baa1ed1799a0fa4111ff1e67df430bcd5463ba0dd01a4b5a8e501956ab3",
+  "pending_components": [],
+  "promotion_authority": "CURRENT_USER_EXPLICIT_ONLY",
+  "purpose": "SECOND_RESTORE_ROUTER_EXECUTION_EVIDENCE_BOARD",
+  "sc7_calibration": {
+    "artifacts": {
+      "sc7_records": {
+        "availability": "PRESENT",
+        "bytes": 1399857,
+        "path": "references/v10_runtime/router_run/router_records.jsonl",
+        "sha256": "696decfbfd2e6e0bc38dccfe89b70708c9ae8b81c90933f0d6c868e993327416"
+      },
+      "sc7_router": {
+        "availability": "PRESENT",
+        "bytes": 3677,
+        "path": "references/KANI_SECOND_ACTION_ROUTER_V2.json",
+        "sha256": "75dcfc3366a07c8bd298e33b869ee2b2501a5ea46a3a179a7240fa0cb6e467fe"
+      },
+      "sc7_run_manifest": {
+        "availability": "PRESENT",
+        "bytes": 1658,
+        "path": "references/v10_runtime/router_run/router_run_manifest.json",
+        "sha256": "02e214da07e7f86d5cd15dcb83f22c8d2789d5c17a8ff5b8bb6a671d172e78ca"
+      },
+      "sc7_source_index": {
+        "availability": "PRESENT",
+        "bytes": 132519,
+        "path": "references/v10_runtime/router_run/source_index.json",
+        "sha256": "44a2af84cdb0f1b610c1bd9c5f46f360d375ec5ded39c9f526fe4076d978a8ff"
+      },
+      "sc7_validation": {
+        "availability": "PRESENT",
+        "bytes": 600,
+        "path": "references/v10_runtime/independent_router_report.json",
+        "sha256": "69d71bb96988fd91c6f289c2e5dcec9dd889a5d915aed181fb1ee1b0b3f8fda9"
+      },
+      "sc7_validation_ledger": {
+        "availability": "PRESENT",
+        "bytes": 79536,
+        "path": "references/v10_runtime/independent_router_replay.jsonl",
+        "sha256": "508613c4cf3fbf8641782a1c8885d0f8d576228c4e192c2a2fa0085c2666f023"
+      }
+    },
+    "exact_replay": 240,
+    "records": 240,
+    "scope": "BOUNDARY_CALIBRATION_NOT_GLOBAL_E5_PROMOTION",
+    "status": "PASS_CALIBRATION_240_OF_240"
+  },
+  "schema_version": "KANI_CAUSAL_RESTORE_V10_MANIFEST_V1",
+  "technical_build_status": "PASS",
+  "v10_core": {
+    "admission": {
+      "availability": "PRESENT",
+      "bytes": 2094,
+      "path": "references/v10_runtime/vas27_admission_and_scope.json",
+      "sha256": "c2fa527e3cb6d68c8ee0e70d2670cb200cef6c23218d75758d283b21d0887574"
+    },
+    "audit_sidecar": {
+      "availability": "PRESENT",
+      "bytes": 2625,
+      "path": "references/v10_runtime/v9_e5_e6_audit_sidecar.json",
+      "sha256": "4a8e361f8d9c53e0f779aba6f9ddb9036c9957ba8071dcc011a0f47a1318e3c4"
+    },
+    "protocol": {
+      "availability": "PRESENT",
+      "bytes": 7984,
+      "path": "references/KANI_CAUSAL_RESTORE_V10_PROTOCOL.md",
+      "sha256": "f282a99b7371179f3b548eb8ca1ffeb87265411a5c603d2f798069803a3fb438"
+    },
+    "router": {
+      "availability": "PRESENT",
+      "bytes": 9007,
+      "path": "references/DATASET_TO_PIKACHU_JUDGMENT_ROUTER_V10.json",
+      "sha256": "6fb9e2c7440efe5ef2457d66b982a7e28eec1bd2c35043d39fb3cb6eaaf8e156"
+    },
+    "source_files": {
+      "HEAWON_VAS25_CO2_99_♤.txt": {
+        "bytes": 226729,
+        "lines": 3957,
+        "sha256": "bf44a8a5759110fcb72aff74460b99ef7695dbdb2f2219a45eab3bd775bafc03"
+      },
+      "HEAWON_VAS26_CO2_99_♤.txt": {
+        "bytes": 238688,
+        "lines": 4191,
+        "sha256": "d054834447e474598fbc2b626cb63c76ff41c8ebdcf21b3ea00bc01509a47d9c"
+      },
+      "HEAWON_VAS27_CO2_99_♤.txt": {
+        "bytes": 354241,
+        "lines": 4607,
+        "sha256": "7e3a1bf370bbcbca2bffb826d79229a84183d98dc9181d1793dc7bb427d9e97f"
+      },
+      "HYEWON_VAS25_D1-D60_♤.txt": {
+        "bytes": 196922,
+        "lines": 4338,
+        "sha256": "5973df92ea77b63cf16dc55136b91b6deeec4b591c9fc697b20df9a6bc3e0a76"
+      },
+      "HYEWON_VAS26_D1-D60_♤.txt": {
+        "bytes": 201915,
+        "lines": 4278,
+        "sha256": "3e716d8435801e77872697798ae45456b4533c110821c6c77b02003b6fa745ef"
+      },
+      "HYEWON_VAS27_D1-D60_♤.txt": {
+        "bytes": 206454,
+        "lines": 4414,
+        "sha256": "7cc9446f74d6130eec2c32e9ea723849d84a6a2070a1556d7954b69d06e0cddb"
+      }
+    },
+    "source_registry": {
+      "availability": "PRESENT",
+      "bytes": 2557,
+      "path": "references/v10_sources/user_upload_20260830/manifest.json",
+      "sha256": "1f126816c5b339a2bcef8032509b9852b1cb5ccbfbdc5667944fb4289d1af7a3"
+    }
+  },
+  "v10_e5_overlay": {
+    "availability": "PRESENT",
+    "bytes": 404602,
+    "file_count": 2,
+    "files": {
+      "e5_decision_ledger.jsonl": {
+        "bytes": 401782,
+        "sha256": "aef92a552a3e32938e4376cd05ef820184b38b53c8d4a3b585b4c88e6ff2b743"
+      },
+      "e5_manifest.json": {
+        "bytes": 2820,
+        "sha256": "56b8673d518f330d68a97c30da74e6df5be57ebf822826b197217175a697eda1"
+      }
+    },
+    "independent_validation": {
+      "availability": "PRESENT",
+      "bytes": 1975,
+      "path": "references/v10_runtime/e5_independent_validation.json",
+      "schema_version": "KANI_V10_E5_INDEPENDENT_VALIDATION_V1",
+      "sha256": "7d5aaccfa72f27007bfae1a1b54b3fdc736130211a7ba569473e44097f5aeecc",
+      "status": "PASS"
+    },
+    "manifest_sha256": "56b8673d518f330d68a97c30da74e6df5be57ebf822826b197217175a697eda1",
+    "path": "references/v10_runs/run_20260830_vas27/e5",
+    "records": 114,
+    "status": "PASS_EXECUTION_EVIDENCE_114_OF_114",
+    "tree_sha256": "74b2f88512e555de224e6ab0a1eb683fd0981bfa459d46a80a789f96a4eaf58d"
+  },
+  "v10_e6_overlay": {
+    "availability": "PRESENT",
+    "boundary_tests": {
+      "passed": 9,
+      "total": 9
+    },
+    "bytes": 445110,
+    "file_count": 5,
+    "files": {
+      "boundary_test_9of9.json": {
+        "bytes": 4191,
+        "sha256": "ce1560169e47ef53b0844aa0567f16427e1bc698167f8a72733551ab66b851e7"
+      },
+      "e6_manifest.json": {
+        "bytes": 3310,
+        "sha256": "7035a4013a1b4eab787245a01b1947e725bfd84bc731158f154d63329a19bb74"
+      },
+      "e6_reopen_record.json": {
+        "bytes": 26806,
+        "sha256": "0c9ebe0f377090f1dac01949fa5122779fbeb73323a3ba51dcc8f8ff95e1efb5"
+      },
+      "e6_replay_ledger.jsonl": {
+        "bytes": 410293,
+        "sha256": "0b4c7164aed17b93e7529f050c1e0e618bc05438443ea9a7cb8b7ed4a3e0eb5f"
+      },
+      "e6_transcript.txt": {
+        "bytes": 510,
+        "sha256": "eecd6a43f634ac88e75070f51ebc9aa3de27858b8de0fbc9958014f0dad705da"
+      }
+    },
+    "independent_validation": {
+      "availability": "PRESENT",
+      "bytes": 940,
+      "path": "references/v10_runtime/e6_independent_validation.json",
+      "schema_version": "KANI_V10_E6_INDEPENDENT_VALIDATION_V1",
+      "sha256": "5dc548fac37a867702fb94f6ce519cb8c993729907648ac573de3bc311937c68",
+      "status": "PASS"
+    },
+    "manifest_sha256": "7035a4013a1b4eab787245a01b1947e725bfd84bc731158f154d63329a19bb74",
+    "path": "references/v10_runs/run_20260830_vas27/e6",
+    "status": "PASS_REOPEN_EVIDENCE_9_OF_9",
+    "tree_sha256": "4a8a75b33d68946c416aaadaedae4954248a464badcd25c2af784113c9bb15f5"
+  },
+  "v9_baseline": {
+    "availability": "PRESENT",
+    "bytes": 402534,
+    "expected_tree_sha256": "913cb921f9d5f97b351a4455f3e05cb1d441a00cec24291caf78eac5a690c0d9",
+    "file_count": 6,
+    "files": {
+      "DD2_FINAL_CLOSURE_WORK_INSTRUCTION_FNA98.txt": {
+        "bytes": 9148,
+        "sha256": "6ff973bc6a8bbd6b399470e73f0e1539f640b45f4f6f13b37bbeb6544b985530"
+      },
+      "KANI_JUDGMENT_PROTOCOL_V3.md": {
+        "bytes": 5144,
+        "sha256": "a2d0032848df479f5fa41834a150769f28eb5f699e44b96c2b3780b836565612"
+      },
+      "decision_runtime.json": {
+        "bytes": 375669,
+        "sha256": "97ed611a6955a6a357959445baf27bdf4f3d2f839eeca98683e49b646349bf48"
+      },
+      "judgment_protocol_v3.json": {
+        "bytes": 3483,
+        "sha256": "d5379ac8049a2de6e2a9ddd79e6e997764fb642801325af0fdab8fa9a3609252"
+      },
+      "kani_v9_manifest.json": {
+        "bytes": 5032,
+        "sha256": "4f7a2a3137a50dcd083cdfc5ad7d12c91779da80c188d910266652007b1361d4"
+      },
+      "monotonic_checkpoint.json": {
+        "bytes": 4058,
+        "sha256": "c453bc38e1790859d6c8394e943ede2773e1d0989a9cc42170e707d92ba4dd4f"
+      }
+    },
+    "judgment_restore_status": "HOLD_NEW_DATASET_AND_LONG_DRIFT",
+    "manifest_sha256": "4f7a2a3137a50dcd083cdfc5ad7d12c91779da80c188d910266652007b1361d4",
+    "overwrite_count": 0,
+    "path": "references/v9_baseline",
+    "tree_sha256": "913cb921f9d5f97b351a4455f3e05cb1d441a00cec24291caf78eac5a690c0d9",
+    "unchanged": true
+  }
+}

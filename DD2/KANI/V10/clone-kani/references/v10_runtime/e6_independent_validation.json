@@ -1,0 +1,27 @@
+{
+  "boundary_9of9_sha256": "ce1560169e47ef53b0844aa0567f16427e1bc698167f8a72733551ab66b851e7",
+  "boundary_tests": {
+    "pass_count": 9,
+    "passed": 9,
+    "test_count": 9,
+    "total": 9
+  },
+  "counts": {
+    "bhava_replay_records": 50,
+    "copresence_replay_records": 114,
+    "rashi_replay_records": 64,
+    "single_fields_excluded": 165
+  },
+  "e6_manifest_sha256": "7035a4013a1b4eab787245a01b1947e725bfd84bc731158f154d63329a19bb74",
+  "errors": [],
+  "failures": [],
+  "final_pass": "HOLD_USER_REVIEW_OF_RECORD_REPLAY_EVIDENCE",
+  "global_29_lane_e5": "HOLD_28_JUDGMENT_TO_SENTENCE_LANES_UNTESTED",
+  "producer_imported": false,
+  "real_long_drift": "HOLD_REAL_LONG_DRIFT_NOT_PROVEN",
+  "schema_version": "KANI_V10_E6_INDEPENDENT_VALIDATION_V1",
+  "second_restore": "EVIDENCE_REVIEW",
+  "status": "PASS",
+  "v10": "EXPECTED_VALUE_BOUND",
+  "validated_run_id": "f95b2226e86a3d6a47a7419b55dfea2b33c50bed8059f2df2d301635448023bb"
+}
