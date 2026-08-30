@@ -1,0 +1,247 @@
+grammar:
+  name: SC7_SC8_ARUDHA_BIDIRECTIONAL_GRAMMAR
+  invocation_key: "$rq-sc7-sc8-arudha-grammar"
+  version: "0.1.0-source-state-audit"
+  overall_status: HOLD
+  structural_grammar_status: PASS
+  exact_bidirectional_status: HOLD
+  status_reason: >-
+    SC7 is a later screenshot-master correction state and SC8 is an earlier
+    PIKACHU serialization state. Their 260 point schemas align, but 122 point
+    values differ and the older SC8 does not carry the corrected SC7 values.
+
+source:
+  repository: coco352748-jpg/352748angel
+  branch: exports/sc7-sc8-arudha-20d
+  export_path: exports/hyewon-sc7-sc8-arudha-20d
+  sc7:
+    filename: 07_6AB_AruDha_Sc.txt
+    sha256: 4ed64718172c0f570371378e3a215f12d9f2f92c40298912ca7205e282a64414
+    structure: "INDEX 1 + D-chart members 20"
+    state: SCREENSHOT_MASTER_SOURCE_VERIFIED
+  sc8:
+    source: PIKACHU_CANONICAL_ARUDHA_MEMBERS
+    member_count: 20
+    state: HISTORICAL_APPLIED_R
+  templates:
+    d1_06a:
+      filename: "06A_D1_ARUDHA_TEMPLATE_♤.txt"
+      sha256: d58f74fc853b670f8c0e23b20a33e02fc036a128b00d6687e45cdb76b0c12c57
+      role: TYPED_GRAMMAR_SPECIFICATION_NOT_BYTE_SKELETON
+    target_06b:
+      filename: "06B_TARGET_ARUDHA_TEMPLATE_♤.txt"
+      sha256: efd3ea70c804af11ae62351add8f3dca69be41942fcb83547a185f3910721ffb
+      role: TYPED_GRAMMAR_SPECIFICATION_NOT_BYTE_SKELETON
+
+coordinate_model:
+  decomposition: [D, ARUDHA_PROFILE, HOUSE_OR_UL, SECTION, BLOCK, ROW, FIELD, TOKEN]
+  active_d_order: [D1, D9, D2, D3, D4, D5, D6, D7, D8, D10, D11, D12, D16, D20, D24, D27, D30, D40, D45, D60]
+  d50_status: VOID
+  house_order: [H01, H02, H03, H04, H05, H06, H07, H08, H09, H10, H11, H12]
+  special_point_order: [UL]
+  house_coordinates: 240
+  ul_coordinates: 20
+  total_points: 260
+
+profiles:
+  D1_06A:
+    selector: "explicit Layer == D1 Arudha / D1 ONLY"
+    sections: "1H AL/A1 through 12H A12, then UL"
+    target_section_17: NOT_APPLICABLE
+    a12: HOLD_A12_INDEPENDENT_NOT_VISIBLE
+    ul: INDEPENDENT
+  TARGET_06B:
+    selector: "explicit Target D-Chart Arudha role"
+    sections: "full D-Structure board, 17-1H through 17-12H, then 17-UL"
+    a12: HOLD_IF_NOT_VISIBLE
+    ul: INDEPENDENT
+
+coverage:
+  coordinate_binding: {requested: 260, passed: 260, failed: 0, status: PASS}
+  point_field_schema: {requested: 260, passed: 260, failed: 0, status: PASS}
+  exact_point_records: {requested: 260, passed: 138, different: 122, status: HOLD}
+  field_occurrences: {compared: 6645, exact: 5971, different: 674, source_only: 0, target_only: 0, status: HOLD}
+  exact_documents: {requested: 20, passed: 0, different: 20, status: HOLD}
+
+rules:
+  - RULE_ID: ARU-SCOPE-001
+    SC7_SOURCE_ANCHOR: "INDEX FILES and FILE NAMING RULE"
+    INPUT_ATOMS: [ACTIVE_D_ORDER, MEMBER_NAME, HOUSE_NUMBER, UL_TOKEN]
+    MATCH_CONDITION: "member is listed in the SC7 index and D is active"
+    FORWARD_RULE: "Emit D in active order; emit H01..H12 and then independent UL."
+    OUTPUT_POSITION: "file order and point-block order"
+    INVERSE_RULE: "Recover the same D/House/UL tuple and reject duplicates or gaps."
+    EMPTY_HOLD_VOID_RULE: "Missing coordinate is HOLD; D50 is VOID; UL is not A12."
+    ROUNDTRIP_REQUIREMENT: "260 coordinate tuples and their order remain identical."
+    APPLICABLE_SCOPE: "all 20 D-chart members"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: ARU-CONTAINER-001
+    SC7_SOURCE_ANCHOR: "SOURCE_FILE_BEGIN, FILE_NAME, SOURCE_FILE_END, and index member"
+    INPUT_ATOMS: [INDEX_BODY, MEMBER_NAME, MEMBER_BODY, MEMBER_ORDER]
+    MATCH_CONDITION: "SC7 monolith contains exactly one index and 20 unique chart members"
+    FORWARD_RULE: "Unwrap chart members without changing body tokens; the index remains an independent SC7 carrier."
+    OUTPUT_POSITION: "one SC8 file per chart member"
+    INVERSE_RULE: "Rewrap only if the exact index state and exact member bodies are available."
+    EMPTY_HOLD_VOID_RULE: "Missing index or member is HOLD, not an empty chart."
+    ROUNDTRIP_REQUIREMENT: "wrapper, index, terminal newline, filenames, and bodies must all be restored."
+    APPLICABLE_SCOPE: "SC7 integrated container"
+    EXCEPTION_STATUS: HOLD_SC8_DOES_NOT_CARRY_CURRENT_INDEX_STATE
+
+  - RULE_ID: ARU-PROFILE-001
+    SC7_SOURCE_ANCHOR: "D1 ONLY / NO_TARGET_17 versus TARGET D-CHART ARUDHA FULL 1~17"
+    INPUT_ATOMS: [LAYER_ROLE, D1_ONLY_FLAG, TARGET_ROLE]
+    MATCH_CONDITION: "explicit profile role is present"
+    FORWARD_RULE: "D1 uses 06A; Target-native Arudha uses 06B."
+    OUTPUT_POSITION: "document skeleton"
+    INVERSE_RULE: "Read the explicit layer role; do not infer profile from a value pattern."
+    EMPTY_HOLD_VOID_RULE: "Unmarked profile is HOLD."
+    ROUNDTRIP_REQUIREMENT: "D1 never receives section 17 and Target never imports D1 Arudha values."
+    APPLICABLE_SCOPE: "all documents"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: ARU-POINT-MAP-001
+    SC7_SOURCE_ANCHOR: "Arudha Pada / Relevant Arudha Point / Source House of Pada"
+    INPUT_ATOMS: [PROFILE, HOUSE_NUMBER]
+    MATCH_CONDITION: "House is 1..12"
+    FORWARD_RULE: "D1 H1->AL/A1, H2..H12->A2..A12; Target H1->D-AL, H2..H12->D-A2..D-A12."
+    OUTPUT_POSITION: "D1 Surface Slot header or Target 17-H packet header"
+    INVERSE_RULE: "Recover House from the unique point name and verify the explicit Source House field."
+    EMPTY_HOLD_VOID_RULE: "Unknown point name is HOLD; never map UL to H12."
+    ROUNDTRIP_REQUIREMENT: "D1 map 24/24 across profiles and Target map 456/456 across profiles."
+    APPLICABLE_SCOPE: "240 House coordinates"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: ARU-POSITION-001
+    SC7_SOURCE_ANCHOR: "explicit Arudha/UL Sign, Degree, Nakshatra/Pada, and House fields"
+    INPUT_ATOMS: [SIGN, DEGREE, NAKSHATRA_PADA, LANDING_HOUSE, SOURCE_STATE]
+    MATCH_CONDITION: "field is explicitly supplied"
+    FORWARD_RULE: "Copy the source-state value into the selected profile; do not calculate a hidden value."
+    OUTPUT_POSITION: "SOURCE EXTRACTION and Target point packet"
+    INVERSE_RULE: "Restore only explicitly carried values; NOT_SHOWN cannot yield a corrected degree."
+    EMPTY_HOLD_VOID_RULE: "NOT_SHOWN and HOLD remain distinct and are never filled."
+    ROUNDTRIP_REQUIREMENT: "all position tokens and their source state must survive."
+    APPLICABLE_SCOPE: "all point position fields"
+    EXCEPTION_STATUS: HOLD_PAIRED_CORPUS_USES_DIFFERENT_SOURCE_STATES
+
+  - RULE_ID: ARU-LANDING-001
+    SC7_SOURCE_ANCHOR: "Arudha Sign and Arudha House From Target D-Chart Lagna"
+    INPUT_ATOMS: [ARUDHA_SIGN, ARUDHA_HOUSE]
+    MATCH_CONDITION: "Target H01..H11 has visible position"
+    FORWARD_RULE: "Duplicate sign to Pada Landing Sign, house to Pada Landing House, and join as 'Sign / House'."
+    OUTPUT_POSITION: "Pada Landing Sign, Pada Landing House From Lagna, Landing House Surface Channel"
+    INVERSE_RULE: "Treat repeated landing rows as checksums; require equality before accepting one source value."
+    EMPTY_HOLD_VOID_RULE: "A12 NOT_SHOWN stays HOLD and has no landing channel."
+    ROUNDTRIP_REQUIREMENT: "SC7 209/209 and SC8 209/209."
+    APPLICABLE_SCOPE: "Target H01..H11"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: ARU-SOURCE-LANDING-001
+    SC7_SOURCE_ANCHOR: "Source House of Pada and Pada Landing House From Lagna"
+    INPUT_ATOMS: [SOURCE_HOUSE, LANDING_HOUSE]
+    MATCH_CONDITION: "both houses are explicit"
+    FORWARD_RULE: "equal -> SAME_HOUSE; unequal -> DIFFERENT_HOUSE."
+    OUTPUT_POSITION: "Source-Landing Status"
+    INVERSE_RULE: "Use status only as a checksum; never infer either house from status alone."
+    EMPTY_HOLD_VOID_RULE: "missing house -> NOT_CHECKED/HOLD."
+    ROUNDTRIP_REQUIREMENT: "SC7 209/209 and SC8 209/209."
+    APPLICABLE_SCOPE: "Target H01..H11"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: ARU-A12-001
+    SC7_SOURCE_ANCHOR: "A12_INDEPENDENT_VALUE_NOT_VISIBLE / HOLD_A12_INDEPENDENT_NOT_VISIBLE"
+    INPUT_ATOMS: [A12_VISIBILITY, UL_VISIBILITY]
+    MATCH_CONDITION: "independent A12 is not visible and visible row is UL"
+    FORWARD_RULE: "Emit A12 HOLD and preserve UL only in the UL slot."
+    OUTPUT_POSITION: "D1 12H or Target 17-12H"
+    INVERSE_RULE: "Restore the explicit A12 HOLD; never replace it with UL."
+    EMPTY_HOLD_VOID_RULE: "HOLD remains HOLD; not EMPTY and not NOT_USED."
+    ROUNDTRIP_REQUIREMENT: "40/40 profile observations pass."
+    APPLICABLE_SCOPE: "A12 in all 20 D charts across both source states"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: ARU-UL-001
+    SC7_SOURCE_ANCHOR: "UL / D-UL independent slot and A7/UL Separation"
+    INPUT_ATOMS: [UL_SIGN, UL_DEGREE, UL_NAKSHATRA_PADA, UL_HOUSE]
+    MATCH_CONDITION: "UL source exists"
+    FORWARD_RULE: "Emit UL after H12 as an independent point."
+    OUTPUT_POSITION: "D1 UL slot or Target 17-UL packet"
+    INVERSE_RULE: "Recover UL only into UL; never into A7 or A12."
+    EMPTY_HOLD_VOID_RULE: "missing UL remains NOT_USED/HOLD according to explicit source state."
+    ROUNDTRIP_REQUIREMENT: "40/40 profile observations pass."
+    APPLICABLE_SCOPE: "20 independent UL points across both source states"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: ARU-RASHI-BHAVA-BOUNDARY-001
+    SC7_SOURCE_ANCHOR: "Rashi/Bhava Link and D1 Anchor fields"
+    INPUT_ATOMS: [RASHI_ANCHOR, BHAVA_ANCHOR, ARUDHA_POINT]
+    MATCH_CONDITION: "comparison anchor is explicitly present"
+    FORWARD_RULE: "Keep Actual Structure anchors separate from Surface Structure; do not overwrite either lane."
+    OUTPUT_POSITION: "STRUCTURE LINK and Actual-Surface comparison blocks"
+    INVERSE_RULE: "Return each anchor to its tagged lane and keep Arudha in the surface lane."
+    EMPTY_HOLD_VOID_RULE: "missing Rashi/Bhava comparison -> HOLD; Arudha point remains preserved."
+    ROUNDTRIP_REQUIREMENT: "lane tags and values remain independent."
+    APPLICABLE_SCOPE: "all 260 points"
+    EXCEPTION_STATUS: NONE
+
+  - RULE_ID: ARU-META-001
+    SC7_SOURCE_ANCHOR: "Source Status, Completion Grade, TITLE, INDEX, STATUS"
+    INPUT_ATOMS: [SOURCE_STATE, COMPLETION_GRADE, TERMINAL_METADATA]
+    MATCH_CONDITION: "metadata is explicit for the selected source state"
+    FORWARD_RULE: "Copy metadata belonging to that state; never downgrade screenshot-master metadata to historical wording."
+    OUTPUT_POSITION: "header and terminal metadata"
+    INVERSE_RULE: "Restore only carried metadata; historical SC8 cannot assert later screenshot verification."
+    EMPTY_HOLD_VOID_RULE: "absent metadata is HOLD/NOT_SHOWN."
+    ROUNDTRIP_REQUIREMENT: "all metadata tokens and order are byte-identical."
+    APPLICABLE_SCOPE: "all documents"
+    EXCEPTION_STATUS: HOLD_SOURCE_STATE_NOT_CARRIED
+
+  - RULE_ID: ARU-TEMPLATE-001
+    SC7_SOURCE_ANCHOR: "06A and 06B typed templates"
+    INPUT_ATOMS: [FIELD_DICTIONARY, CONDITION_ENUMS, SECTION_ORDER, LAYER_BOUNDARIES]
+    MATCH_CONDITION: "template is used as a specification"
+    FORWARD_RULE: "Use template rules to validate field selection and boundaries, not as a historical byte skeleton."
+    OUTPUT_POSITION: "grammar schema"
+    INVERSE_RULE: "Template placeholders do not reconstruct values that are absent from SC8."
+    EMPTY_HOLD_VOID_RULE: "unfilled placeholder is unresolved and must not be emitted."
+    ROUNDTRIP_REQUIREMENT: "a target profile must have a separate exact applied skeleton before byte PASS."
+    APPLICABLE_SCOPE: "D1 06A and Target 06B profiles"
+    EXCEPTION_STATUS: HOLD_NOT_BYTE_EQUAL_TO_APPLIED_CORPUS
+
+  - RULE_ID: ARU-INVERSE-001
+    SC7_SOURCE_ANCHOR: "paired field comparison and SC7 container state"
+    INPUT_ATOMS: [ALL_SC8_FIELDS, SC7_INDEX_STATE, CORRECTED_VALUES]
+    MATCH_CONDITION: "every SC7 atom has a unique SC8 carrier"
+    FORWARD_RULE: "Emit exact target bytes only when the condition is satisfied."
+    OUTPUT_POSITION: "complete document"
+    INVERSE_RULE: "Reject inverse when a corrected atom is absent or replaced by an older value."
+    EMPTY_HOLD_VOID_RULE: "lossy inverse -> HOLD; no reference-file replay."
+    ROUNDTRIP_REQUIREMENT: "all four exact invariants pass by SHA-256."
+    APPLICABLE_SCOPE: "complete corpus"
+    EXCEPTION_STATUS: HOLD_NO_LOSSLESS_CARRIER
+
+  - RULE_ID: ARU-VERSION-STATE-001
+    SC7_SOURCE_ANCHOR: "SCREENSHOT_MASTER_SOURCE_VERIFIED and paired historical SC8 values"
+    INPUT_ATOMS: [SC7_CURRENT_VALUE, SC8_HISTORICAL_VALUE, SOURCE_STATE]
+    MATCH_CONDITION: "same point field has different explicit values across states"
+    FORWARD_RULE: "Do not invent a reverse-correction transform. Require a canonical target-state decision."
+    OUTPUT_POSITION: "HOLD registry"
+    INVERSE_RULE: "Do not use D-chart/point lookup to restore the current value."
+    EMPTY_HOLD_VOID_RULE: "conflicting explicit states remain separately preserved."
+    ROUNDTRIP_REQUIREMENT: "release only with same-state pairs or a new lossless target profile."
+    APPLICABLE_SCOPE: "122 differing points / 674 field occurrences"
+    EXCEPTION_STATUS: BLOCKING_HOLD_NO_CHART_ID_MAP
+
+acceptance:
+  manual_corrections: 0
+  chart_id_value_exceptions: 0
+  missing_coordinates: 0
+  exact_forward: HOLD
+  exact_reverse: HOLD
+  exact_roundtrip: HOLD
+  output_txt_emitted: false
+
+release_conditions:
+  - "Promote a new SC8 profile generated from the current SC7 screenshot-master values."
+  - "Or supply the pre-correction SC7 state paired with the historical SC8 members."
+  - "Or define a new SC8 lossless carrier; this necessarily creates a new target version."

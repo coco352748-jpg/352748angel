@@ -1,0 +1,2789 @@
+﻿ARudhA_TaRgEt_DchArT_FULL_SloT_01
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TARGET_DCHART_ARUDHA_FULL_PLUS_SINGLE_98_LOCK
+분할차트 Arudha 전체 D-Structure Source Board
++ 단일 타깃 하우스 Arudha 적용 슬롯
+REVISED 98 STRUCTURE-FIRST / FINAL BALANCED LOCK / SOURCE-LANDING SEPARATED / UL-INDEPENDENT SLOT ADDED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+DOCUMENT ROLE
+- 이 문서는 분할차트 Arudha 작업을 두 단계로 분리해 잠그는 최종 템플릿이다.
+- 1단계는 Target D-chart 안의 AL / A2~A12 / UL 전체 Arudha point를 먼저 보존하는 전체 D-Structure Source Board다.
+- 2단계는 전체 D-Arudha Source Board에서 특정 Target House에 해당하는 A-point / UL만 추출해 Actual-Surface Status를 판정하는 Single Target House 적용 슬롯이다.
+- 이 문서는 해당 분할차트 Rashi/Bhava를 대체하지 않는다.
+- 이 문서는 D1 Rashi/Bhava를 대체하지 않는다.
+- 이 문서는 사건 약속을 새로 만들지 않는다.
+- 이 문서는 표면화 방식만 보정한다.
+- 이 문서는 강도층, Aspect, Dasha, Transit, Varga Link, Mrityu, AVA, Ashtakavarga, SP를 적용하지 않는다.
+- 이 문서는 Source Gate, Source Priority, Missing Rule, Source House / Pada Landing House Separation, A7/UL Separation, General Multi-Point Collision, Status Cap, D1 Anchor Boundary, Output Level Control, Layer Boundary, Template Lock Rule을 포함한다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+0. TARGET D-CHART REGISTRY / DOMAIN AUTO-MAP
+분할차트 목록 / 도메인 자동 매핑표
+REVISED 98 REQUIRED FRONT BLOCK
+━━━━━━━━━━━━━━━━━━━━━━━━━
+DOCUMENT ROLE
+- 이 블록은 Target D-chart Arudha 작업에서 사용할 분할차트 목록과 도메인 이름을 먼저 잠그는 전면 레지스트리다.
+- 6B-0 D-Structure Source Board와 6B-HOUSE-TARGET Single Target House Slot은 반드시 이 레지스트리의 Target D-Chart / Domain 값을 받아서 작동한다.
+- 이 블록은 해석층이 아니다.
+- 이 블록은 분할차트별 Arudha source를 생성하지 않는다.
+- 이 블록은 Target D-chart tag와 도메인 이름을 고정해, 이후 Arudha 전체 보드와 타깃 하우스 슬롯이 같은 언어로 작동하게 하는 색인층이다.
+TARGET D-CHART LIST
+- D1  = Rashi / 본체 사건 약속 / 현실 몸통 / 모든 분할차트 기준축
+- D2  = Hora / 자원 / 돈그릇 / 식록 / 금고 / 가족재정 / 수입·보유 구조
+- D3  = Drekkana / 실행 / 노력 / 형제·동료 / 손기술 / 반복 시도 / 현장 작동
+- D4  = Chaturthamsha / 집 / 땅 / 거처 / 정착 / 가족 기반 / 물리적 안정
+- D5  = Panchamsha / 권위 / 공덕 / 창조권 / 투사된 자격 / 명예 / 인정 조건
+- D6  = Shashtamsha / 문제관리 / 질병성 부담 / 적대축 / 부채 / 노동 / 반복 스트레스
+- D7  = Saptamsha / 자녀 / 창조적 산출 / 계보 / 전승 / 후대성 / 양육 패턴
+- D8  = Ashtamsha / 위기 / 급변 / 손상 / 끊김 / 생존 전환 / 숨은 파열 / 재구성
+- D9  = Navamsha / 다르마 / 결혼 / 관계법 / 내면 성숙 / 약속의 완성도 / 영혼 방향
+- D10 = Dashamsha / 직업 / 역할 / 사회적 출력 / 업적 / 세상에서 맡는 기능 / karma-in-action
+- D11 = Ekadashamsha / 성취 / 이득 / 목표달성 / 수익회수 / 성과망 / 외부 반응
+- D12 = Dwadashamsha / 부모 / 조상 / 혈통 기억 / 가족 패턴 / 가계 카르마 / 뿌리 구조
+- D16 = Shodashamsha / 이동수단 / 편의 / 안락 / 생활 품질 / 보호 장치 / 운행 안정
+- D20 = Vimshamsha / 수행 / 정성 / 내면 신앙 / 만트라 / 복덕 수행 / 정신적 귀의
+- D24 = Chaturvimshamsha / 공부 / 지식 / 훈련 / 학습 성취 / 스승·교육 / 지적 기반
+- D27 = Bhamsa / 미세 취약성 / 체력 / 방어력 / 버티는 힘 / 손상 전조 / 취약 관절
+- D30 = Trimsamsha / 손상 / 오염 / 분노 / 불운 패턴 / 상처 터짐 / 절단 조건
+- D40 = Khavedamsha / 모계·가족장 / 집안 복덕 / 보호 기억 / 혈통 기반의 미세 장부
+- D45 = Akshavedamsha / 품성 / 미세 선택 / 행위 결 / 태도 / 내면 윤리 / 선악의 습관
+- D60 = Shashtiamsha / 근원 반복 / 깊은 카르마 / 오래된 행위 잔향 / 반복 문제 역산층
+TARGET D-CHART TAG RULE
+- Target D-Chart 값은 위 목록의 D_TAG를 사용한다.
+- D_TAG가 목록에 없으면 OTHER로 두고, Target D-Chart Domain을 USER_DEFINED로 별도 표기한다.
+- D1은 본체 기준축이므로 Target D-chart Arudha에는 포함 가능하지만, D1 전용 Arudha는 6A / 6A-HOUSE를 우선 사용한다.
+- D2~D60은 6B-0 / 6B-HOUSE-TARGET을 사용한다.
+DOMAIN AUTO-FILL RULE
+- 《Target D-Chart》 = D2  → 《Target D-Chart Domain》 = 자원 / 돈그릇 / 식록 / 금고
+- 《Target D-Chart》 = D3  → 《Target D-Chart Domain》 = 실행 / 노력 / 기술 / 동료·형제
+- 《Target D-Chart》 = D4  → 《Target D-Chart Domain》 = 집 / 땅 / 거처 / 정착 / 가족 기반
+- 《Target D-Chart》 = D5  → 《Target D-Chart Domain》 = 권위 / 공덕 / 창조권 / 명예
+- 《Target D-Chart》 = D6  → 《Target D-Chart Domain》 = 문제관리 / 질병성 부담 / 부채 / 노동
+- 《Target D-Chart》 = D7  → 《Target D-Chart Domain》 = 자녀 / 창조적 산출 / 계보 / 전승
+- 《Target D-Chart》 = D8  → 《Target D-Chart Domain》 = 위기 / 손상 / 생존 전환 / 숨은 파열
+- 《Target D-Chart》 = D9  → 《Target D-Chart Domain》 = 다르마 / 결혼 / 관계법 / 내면 성숙
+- 《Target D-Chart》 = D10 → 《Target D-Chart Domain》 = 직업 / 역할 / 사회적 출력 / 업적
+- 《Target D-Chart》 = D11 → 《Target D-Chart Domain》 = 성취 / 이득 / 수익회수 / 성과망
+- 《Target D-Chart》 = D12 → 《Target D-Chart Domain》 = 부모 / 조상 / 혈통 기억 / 가족 패턴
+- 《Target D-Chart》 = D16 → 《Target D-Chart Domain》 = 안락 / 이동수단 / 생활 품질 / 운행 안정
+- 《Target D-Chart》 = D20 → 《Target D-Chart Domain》 = 수행 / 정성 / 신앙 / 만트라 / 복덕
+- 《Target D-Chart》 = D24 → 《Target D-Chart Domain》 = 공부 / 지식 / 훈련 / 학습 성취
+- 《Target D-Chart》 = D27 → 《Target D-Chart Domain》 = 미세 취약성 / 체력 / 방어력 / 버티는 힘
+- 《Target D-Chart》 = D30 → 《Target D-Chart Domain》 = 손상 / 오염 / 분노 / 상처 터짐
+- 《Target D-Chart》 = D40 → 《Target D-Chart Domain》 = 가족장 / 혈통 기반 / 보호 기억 / 집안 복덕
+- 《Target D-Chart》 = D45 → 《Target D-Chart Domain》 = 품성 / 미세 선택 / 행위 결 / 태도
+- 《Target D-Chart》 = D60 → 《Target D-Chart Domain》 = 근원 반복 / 깊은 카르마 / 반복 문제 역산층
+APPLICATION ROUTE
+1) Target D-Chart Registry에서 D_TAG와 DOMAIN을 고른다.
+2) 6B-0 D-Structure Source Board에 해당 D차트의 D-AL / D-A2~D-A12 / D-UL 전체 point를 보존한다.
+3) 6B-0A에서 Source House와 Pada Landing House를 분리한다.
+4) 6B-HOUSE-TARGET에서 Target House에 해당하는 point만 추출한다.
+5) Actual-Surface Status / Surface Distortion / Use Decision을 판정한다.
+6) Target D-chart Rashi/Bhava와 D1 본체 약속을 덮지 않는다.
+REGISTRY COMPLETION CHECK
+□ Target D-Chart List 포함
+□ D2~D12 포함
+□ D16~D60 주요 분할차트 포함
+□ D1 전용 슬롯과 Target D-chart 슬롯 경계 표기
+□ Domain Auto-Fill Rule 포함
+□ Application Route 포함
+□ Source House / Pada Landing House 분리 경로 포함
+□ 이 블록 자체는 해석층이 아님
+□ 이 블록 자체는 Arudha source 생성층이 아님
+TITLE=TARGET_DCHART_REGISTRY_DOMAIN_AUTO_MAP_98
+STATUS=TARGET_DCHART_REGISTRY_READY / DOMAIN_AUTO_MAP_READY / NO_INTERPRETATION / NO_SOURCE_CREATION
+━━━━━━━━━━━━━━━━━━━━━━━━━
+6B-0. TARGET D-CHART ARUDHA D-STRUCTURE SOURCE BOARD
+분할차트 아루다 전체 D-Structure Source Board
+REVISED 98 SOURCE-FIRST / FULL POINT PRESERVATION
+━━━━━━━━━━━━━━━━━━━━━━━━━
+PURPOSE
+- Target D-chart 안의 Arudha / Pada / Surface point 전체를 먼저 보존한다.
+- 이 보드는 특정 Target House 적용판이 아니다.
+- 이 보드는 Target D-chart 안의 AL / A2 / A3 / A4 / A5 / A6 / A7 / A8 / A9 / A10 / A11 / A12 / UL 전체를 수용한다.
+- Target D-chart Rashi/Bhava 구조를 덮어쓰지 않는다.
+- D1 Rashi/Bhava 구조를 덮어쓰지 않는다.
+- 사건 약속을 새로 만들지 않는다.
+- 표면화 전체 원자료를 보존한다.
+- 이후 TARGET_DCHART_SINGLE_TARGET_HOUSE_ARUDHA_SLOT에서 특정 하우스 point만 추출한다.
+SOURCE / TARGET SETTING
+- 《Subject Code》 = <SUBJECT_CODE>
+- 《Target D-Chart》 = <D_CHART_TAG>
+- 《Target D-Chart Domain》 = <D_CHART_DOMAIN_LOCK_SENTENCE>
+- 《Arudha Source Dataset》 = <SUBJECT_CODE>_<D_CHART_TAG>_ARUDHA_<SOURCE_TAG>_COMPLETE_DATASET / <SUBJECT_CODE>_<D_CHART_TAG>_BHAVA_ARUDHAS_<SOURCE_TAG>_COMPLETE_DATASET / <OTHER_TARGET_DCHART_ARUDHA_SOURCE>
+- 《Source Type》 = <USER_TEXT_BLOCK / SCREENSHOT_ONLY / SCREENSHOT_PLUS_TEXT / DERIVED / NOT_SHOWN>
+- 《Source Confidence》 = <VISIBLE / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Verification Mode》 = <TEXT_CONSISTENCY_LOCK / IMAGE_VERIFIED / DERIVED_REFERENCE / NOT_CHECKED>
+SOURCE STATUS RULE
+- APP_VISIBLE = 앱 화면에서 직접 확인된 값
+- USER_TEXT_SUPPLIED = 사용자가 텍스트로 제공한 값
+- SCREENSHOT_PLUS_TEXT = 화면과 텍스트가 함께 제공된 값
+- DERIVED_WITH_RULE = 계산식과 기준값이 함께 제시된 파생값
+- DERIVED_UNCHECKED = 계산은 했지만 검산 미완료
+- NOT_SHOWN = 자료 없음
+SOURCE PRIORITY
+1) APP_VISIBLE / IMAGE_VERIFIED
+2) USER_TEXT_SUPPLIED / TEXT_CONSISTENCY_LOCK
+3) SCREENSHOT_PLUS_TEXT
+4) DERIVED_WITH_RULE
+5) DERIVED_UNCHECKED
+6) NOT_SHOWN
+PRIORITY RULE
+- 상위 Source와 하위 Source가 충돌하면 상위 Source를 기준으로 한다.
+- 하위 Source는 Conflict Note로만 남긴다.
+- Derived 값은 visible/source-supplied 값을 덮어쓰지 않는다.
+- Source 없는 Arudha point는 자동 생성하지 않는다.
+FULL D-ARUDHA POINT INPUT FIELDS
+각 point마다 아래 필드를 반복 입력한다.
+- 《Target D-Chart》 = <D_CHART_TAG>
+- 《Point Name》 = <D-AL / D-A2 / D-A3 / D-A4 / D-A5 / D-A6 / D-A7 / D-A8 / D-A9 / D-A10 / D-A11 / D-A12 / D-UL>
+- 《Source House of Pada》 = <1H~12H / UL_LINK / NOT_SHOWN>
+- 《Point Sign》 = <SIGN / NOT_SHOWN>
+- 《Point Degree》 = <DEGREE / NOT_SHOWN>
+- 《Point Nakshatra/Pada》 = <NAKSHATRA/PADA / NOT_SHOWN>
+- 《Point House From Target D-Chart Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Point House From Target D-Chart Bhava》 = <BHAVA_HOUSE / NOT_SHOWN>
+- 《Pada Landing Sign》 = <SIGN / NOT_SHOWN>
+- 《Pada Landing House From Target D-Chart Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Pada Landing House From Target D-Chart Bhava》 = <BHAVA_HOUSE / NOT_SHOWN>
+- 《Linked Actual House》 = <1H~12H / UL_LINK / NOT_SHOWN>
+- 《Linked Actual Lord》 = <HOUSE_LORD / UL_LORD / NOT_SHOWN>
+- 《Linked Actual Lord Position》 = <SIGN / HOUSE / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Surface Theme》 = <표면 정체성 / 자원 표면 / 말·실행 표면 / 기반 표면 / 창조 표면 / 문제처리 표면 / 관계 표면 / 숨은 장부 표면 / 명분 표면 / 역할 표면 / 회수 표면 / 소모 표면 / 관계·동반자 표면>
+- 《Source House Actual Function》 = <해당 A-point가 원래 표면화하는 실제 하우스 기능 / NOT_SHOWN>
+- 《Landing House Surface Channel》 = <그 표면이 외부에서 보이는 위치와 통로 / NOT_SHOWN>
+- 《Target Rashi Link》 = <TARGET_RASHI_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / CO-PRESENCE / NOT_SHOWN>
+- 《Target Bhava Link》 = <TARGET_BHAVA_HOUSE / SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_SHOWN>
+- 《Source Status》 = <APP_VISIBLE / USER_TEXT_SUPPLIED / SCREENSHOT_PLUS_TEXT / DERIVED_WITH_RULE / DERIVED_UNCHECKED / NOT_SHOWN>
+- 《Use Status》 = <SOURCE_PRESERVED / PARTIAL / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_SUPPLIED / NOT_USED>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+POINT ROLE TABLE
+- D-AL = 해당 분할차트 도메인의 표면 정체성 / 밖에서 보이는 도메인 입구
+- D-A2 = 해당 분할차트 도메인의 자원·말값·보유·금고 표면
+- D-A3 = 해당 분할차트 도메인의 말·실행·노력·기술 표면
+- D-A4 = 해당 분할차트 도메인의 기반·안정·내부 바닥 표면
+- D-A5 = 해당 분할차트 도메인의 판단·창조·투입·선택 표면
+- D-A6 = 해당 분할차트 도메인의 문제처리·노동·부담·경쟁 표면
+- D-A7 = 해당 분할차트 도메인의 관계·대면·계약·외부 상대 표면
+- D-A8 = 해당 분할차트 도메인의 숨은 장부·위기·공유책임·손실 표면
+- D-A9 = 해당 분할차트 도메인의 명분·방향·법칙·상위 기준 표면
+- D-A10 = 해당 분할차트 도메인의 역할·결과·사회적 출력 표면
+- D-A11 = 해당 분할차트 도메인의 회수·성과·보상·귀속·네트워크 표면
+- D-A12 = 해당 분할차트 도메인의 소모·누수·배후처리·해소 표면
+- D-UL = 해당 분할차트 도메인의 관계 표면 / 동반자 표면 / 관계의 보이는 장부
+MISSING / PARTIAL DATA RULE
+- Point missing = NOT_USED
+- No Sign = HOLD or NOT_USED
+- Sign only = SUPPORT_ONLY
+- Sign + House shown / Degree missing = SUPPORT_ONLY 가능
+- Sign + Degree shown / Nakshatra/Pada missing = APPLY_AS_SURFACE 가능하되, Degree-detail은 미적용
+- Sign + Degree + Nakshatra/Pada shown = APPLY_AS_SURFACE 가능
+- Source House of Pada 확인 불가 = HOLD
+- Pada Landing House 확인 불가 = NEEDS_RECHECK
+- Linked Actual House 확인 불가 = HOLD
+- Target Rashi/Bhava Link 불가 = HOLD
+- DERIVED_UNCHECKED = REFERENCE_ONLY or HOLD
+- NOT_SHOWN = NOT_USED
+D-STRUCTURE SOURCE BOARD OUTPUT RULE
+- 전체 D-Arudha point를 먼저 보존한다.
+- 하우스별 해석은 하지 않는다.
+- 특정 Target House 적용은 다음 슬롯에서 한다.
+- SOURCE_PRESERVED는 원자료 보존 상태를 뜻하며, 해석 적용 완료를 뜻하지 않는다.
+- PARTIAL은 source 일부가 보이지만 핵심 필드가 부족한 상태다.
+- NOT_SUPPLIED / NOT_USED는 해당 point를 실제 적용하지 않는다.
+- Source House와 Pada Landing House를 섞지 않는다.
+- 같은 위치에 여러 A-point가 있어도 병합하지 않는다.
+D-STRUCTURE SOURCE BOARD OUTPUT SENTENCE
+《<D_CHART_TAG> Arudha D-Structure Source Board》는 해당 분할차트 안의 《D-AL / D-A2~D-A12 / D-UL》 전체 표면화 point를 먼저 보존하는 원자료 보드다.
+이 보드는 특정 하우스를 해석하지 않고,
+해당 분할차트 Rashi/Bhava 구조를 덮어쓰지 않으며,
+각 point의 Source House와 Pada Landing House를 분리해,
+이후 단일 Target House 슬롯에서 필요한 point만 추출할 수 있도록 Source Status와 Use Status를 잠근다.
+D-STRUCTURE COMPLETION CHECK
+□ Target D-Chart 확인
+□ Target D-Chart Domain 확인
+□ Arudha Source Dataset 확인
+□ Source Type 확인
+□ Source Confidence 확인
+□ Verification Mode 확인
+□ D-AL 확인
+□ D-A2 확인
+□ D-A3 확인
+□ D-A4 확인
+□ D-A5 확인
+□ D-A6 확인
+□ D-A7 확인
+□ D-A8 확인
+□ D-A9 확인
+□ D-A10 확인
+□ D-A11 확인
+□ D-A12 확인
+□ D-UL 확인
+□ 각 Point Source House of Pada 확인
+□ 각 Point Sign 확인
+□ 각 Point Degree 확인
+□ 각 Point Nakshatra/Pada 확인
+□ 각 Point House From Target D-Chart Lagna 확인
+□ 각 Point House From Target D-Chart Bhava 확인
+□ 각 Pada Landing Sign 확인
+□ 각 Pada Landing House From Lagna 확인
+□ 각 Pada Landing House From Bhava 확인
+□ Linked Actual House 확인
+□ Linked Actual Lord 확인
+□ Target Rashi Link 확인
+□ Target Bhava Link 확인
+□ Source Status 확인
+□ Use Status 확인
+□ Conflict Note 확인
+□ 전체 point 보존 완료
+□ 특정 하우스 해석 없음
+□ Source House / Pada Landing House 혼동 없음
+□ Target Rashi/Bhava overwrite 없음
+□ D1 Rashi/Bhava overwrite 없음
+□ 사건 약속 새로 생성 없음
+□ 표면화 원자료 보존만 수행
+TITLE=TARGET_DCHART_ARUDHA_D_STRUCTURE_SOURCE_BOARD_98
+STATUS=TARGET_DCHART_ARUDHA_SOURCE_BOARD / FULL_POINT_PRESERVATION / SOURCE_LANDING_SEPARATED / NO_OVERWRITE / SOURCE_GATED / 98_LOCK_READY
+━━━━━━━━━━━━━━━━━━━━━━━━━
+6B-0A. SOURCE HOUSE / PADA LANDING HOUSE DISTINCTION RULE
+Arudha 원천 하우스 / 표면 착지 하우스 분리 규칙
+REVISED 98 REQUIRED SAFETY BLOCK
+━━━━━━━━━━━━━━━━━━━━━━━━━
+DOCUMENT ROLE
+- 이 블록은 D-Apoint의 원천 하우스와 실제 표면 착지 위치를 분리한다.
+- Arudha point는 “해당 하우스 자체”가 아니라 “해당 하우스 기능이 밖에서 보이는 표면 위치”다.
+- 따라서 D-A2는 2H의 표면 point이고, D-A2가 실제로 떨어진 sign/house는 별도로 읽는다.
+- Source House와 Landing House를 섞지 않는다.
+- Landing House가 Target House와 다르다고 해서 point를 폐기하지 않는다.
+- Landing House가 Target House와 같다고 해서 실제 구조와 표면 구조가 완전히 같다고 단정하지 않는다.
+FIELD DISTINCTION
+- 《Source House of Pada》 = <1H~12H / UL_LINK>
+- 《Relevant Arudha Point》 = <D-AL / D-A2~D-A12 / D-UL>
+- 《Pada Landing Sign》 = <SIGN / NOT_SHOWN>
+- 《Pada Landing House From Target D-Chart Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Pada Landing House From Target D-Chart Bhava》 = <BHAVA_HOUSE / NOT_SHOWN>
+- 《Source House Actual Function》 = <해당 A-point가 원래 표면화하는 실제 하우스 기능>
+- 《Landing House Surface Channel》 = <그 표면이 외부에서 보이는 위치와 통로>
+RULE
+- Source House = 무엇의 표면인가
+- Landing House = 어디에 보이는가
+- Actual Target Structure = 실제 구조가 어디서 작동하는가
+- Surface Channel = 외부 인식이 어디를 통해 형성되는가
+- Source House와 Landing House가 같으면 SAME 후보가 될 수 있으나 자동 SAME은 아니다.
+- Source House와 Landing House가 다르면 DIFFERENT / PARTIAL / SPLIT 후보가 되지만 자동 폐기는 아니다.
+- Arudha는 실제 구조를 바꾸지 않고, 실제 구조가 외부에서 어느 위치로 비쳐 보이는지만 보정한다.
+COMPLETION CHECK
+□ Source House of Pada 확인
+□ Pada Landing Sign 확인
+□ Pada Landing House From Lagna 확인
+□ Pada Landing House From Bhava 확인
+□ Source House Actual Function 확인
+□ Landing House Surface Channel 확인
+□ Source House와 Landing House 혼동 없음
+TITLE=TARGET_DCHART_ARUDHA_SOURCE_HOUSE_LANDING_HOUSE_DISTINCTION_RULE_98
+STATUS=REQUIRED_SAFETY_BLOCK / SOURCE_LANDING_SEPARATED / NO_OVERWRITE
+━━━━━━━━━━━━━━━━━━━━━━━━━
+6B-HOUSE-TARGET. TARGET D-CHART SINGLE TARGET HOUSE ARUDHA SLOT
+분할차트 특정 타깃 하우스 아루다 표면화 적용 슬롯
+REVISED 98 STRUCTURE-FIRST / FINAL BALANCED LOCK
+━━━━━━━━━━━━━━━━━━━━━━━━━
+DOCUMENT ROLE
+- 이 슬롯은 6B-0 Target D-chart Arudha D-Structure Source Board에서 특정 Target House에 해당하는 A-point / UL만 추출해 적용한다.
+- 이 슬롯은 “없는 데서 A-point를 직접 생성하는 구조”가 아니다.
+- 반드시 전체 D-Arudha Source Board에서 해당 point가 SOURCE_PRESERVED / PARTIAL / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED 중 어떤 상태인지 확인한 뒤 사용한다.
+- 이 슬롯은 해당 분할차트 Rashi/Bhava를 대체하지 않는다.
+- 이 슬롯은 D1 Rashi/Bhava를 대체하지 않는다.
+- 이 슬롯은 사건 약속을 새로 만들지 않는다.
+- 이 슬롯은 표면화 방식만 보정한다.
+- 이 슬롯은 강도층, Aspect, Dasha, Transit, Varga Link를 적용하지 않는다.
+- 이 슬롯은 실제 구조와 표면 구조의 SAME / DIFFERENT / PARTIAL / SPLIT 여부만 확인한다.
+- 이 슬롯은 Source House와 Pada Landing House를 분리해 사용한다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. SOURCE / TARGET SETTING
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Subject Code》 = <SUBJECT_CODE>
+- 《Target D-Chart》 = <D_CHART_TAG>
+- 《Target D-Chart Domain》 = <D_CHART_DOMAIN_LOCK_SENTENCE>
+- 《Target House》 = <1H / 2H / 3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / 11H / 12H>
+- 《Source Board》 = TARGET_DCHART_ARUDHA_D_STRUCTURE_SOURCE_BOARD_98
+- 《Source Dataset》 = <SUBJECT_CODE>_<D_CHART_TAG>_ARUDHA_<SOURCE_TAG>_COMPLETE_DATASET / <SUBJECT_CODE>_<D_CHART_TAG>_BHAVA_ARUDHAS_<SOURCE_TAG>_COMPLETE_DATASET / <OTHER_TARGET_DCHART_ARUDHA_SOURCE>
+- 《Source Type》 = <USER_TEXT_BLOCK / SCREENSHOT_ONLY / SCREENSHOT_PLUS_TEXT / DERIVED / NOT_SHOWN>
+- 《Source Confidence》 = <VISIBLE / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Verification Mode》 = <TEXT_CONSISTENCY_LOCK / IMAGE_VERIFIED / DERIVED_REFERENCE / NOT_CHECKED>
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2. TARGET HOUSE → ARUDHA POINT EXTRACTION
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- If 《Target House》 = 1H → Extract 《D-AL》
+- If 《Target House》 = 2H → Extract 《D-A2》
+- If 《Target House》 = 3H → Extract 《D-A3》
+- If 《Target House》 = 4H → Extract 《D-A4》
+- If 《Target House》 = 5H → Extract 《D-A5》
+- If 《Target House》 = 6H → Extract 《D-A6》
+- If 《Target House》 = 7H → Extract 《D-A7》
+- If 《Target House》 = 8H → Extract 《D-A8》
+- If 《Target House》 = 9H → Extract 《D-A9》
+- If 《Target House》 = 10H → Extract 《D-A10》
+- If 《Target House》 = 11H → Extract 《D-A11》
+- If 《Target House》 = 12H → Extract 《D-A12》
+- If 《Target Type》 = Relationship / Partner / Marriage / Contract Surface → Extract 《D-UL》 and/or 《D-A7》
+Extraction Rule =
+- Extract only from 6B-0 Source Board.
+- If point is SOURCE_PRESERVED → proceed to Source House / Landing House Check and Actual-Surface Check.
+- If point is PARTIAL → proceed with Missing / Partial Data Rule.
+- If point is SUPPORT_ONLY / REFERENCE_ONLY → do not upgrade without new source.
+- If point is HOLD → do not apply.
+- If point is NOT_SUPPLIED / NOT_USED → do not apply.
+- Do not generate missing point.
+- Do not merge D-A7 and D-UL.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+3. POINT ROLE AUTO-FILL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《D-AL》 = 해당 분할차트 도메인의 표면 정체성 / 밖에서 보이는 도메인 입구
+- 《D-A2》 = 해당 분할차트 도메인의 자원·말값·보유·금고 표면
+- 《D-A3》 = 해당 분할차트 도메인의 말·실행·노력·기술 표면
+- 《D-A4》 = 해당 분할차트 도메인의 기반·안정·내부 바닥 표면
+- 《D-A5》 = 해당 분할차트 도메인의 판단·창조·투입·선택 표면
+- 《D-A6》 = 해당 분할차트 도메인의 문제처리·노동·부담·경쟁 표면
+- 《D-A7》 = 해당 분할차트 도메인의 관계·대면·계약·외부 상대 표면
+- 《D-A8》 = 해당 분할차트 도메인의 숨은 장부·위기·공유책임·손실 표면
+- 《D-A9》 = 해당 분할차트 도메인의 명분·방향·법칙·상위 기준 표면
+- 《D-A10》 = 해당 분할차트 도메인의 역할·결과·사회적 출력 표면
+- 《D-A11》 = 해당 분할차트 도메인의 회수·성과·보상·귀속·네트워크 표면
+- 《D-A12》 = 해당 분할차트 도메인의 소모·누수·배후처리·해소 표면
+- 《D-UL》 = 해당 분할차트 도메인의 관계 표면 / 동반자 표면 / 관계의 보이는 장부
+━━━━━━━━━━━━━━━━━━━━━━━━━
+4. EXTRACTED ARUDHA POINT INPUT
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Relevant Arudha Point》 = <D-AL / D-A2 / D-A3 / D-A4 / D-A5 / D-A6 / D-A7 / D-A8 / D-A9 / D-A10 / D-A11 / D-A12 / D-UL / OTHER>
+- 《Point Source Status》 = <SOURCE_PRESERVED / PARTIAL / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_SUPPLIED / NOT_USED>
+- 《Source House of Pada》 = <1H~12H / UL_LINK / NOT_SHOWN>
+- 《Arudha Sign》 = <SIGN / NOT_SHOWN>
+- 《Arudha Degree》 = <DEGREE / NOT_SHOWN>
+- 《Arudha Nakshatra/Pada》 = <NAKSHATRA_PADA / NOT_SHOWN>
+- 《Arudha House From Target D-Chart Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Arudha House From Target D-Chart Bhava》 = <BHAVA_HOUSE / NOT_SHOWN>
+- 《Pada Landing Sign》 = <SIGN / NOT_SHOWN>
+- 《Pada Landing House From Target D-Chart Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Pada Landing House From Target D-Chart Bhava》 = <BHAVA_HOUSE / NOT_SHOWN>
+- 《Surface Theme》 = <도메인 표면 정체성 / 자원 표면 / 말·실행 표면 / 기반 표면 / 창조 표면 / 문제처리 표면 / 관계 표면 / 숨은 장부 표면 / 명분 표면 / 역할 표면 / 회수 표면 / 소모 표면>
+━━━━━━━━━━━━━━━━━━━━━━━━━
+5. LINKED TARGET STRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Linked Target House》 = <TARGET_HOUSE>
+- 《Linked Target House Lord》 = <TARGET_HOUSE_LORD / NOT_SHOWN>
+- 《Linked Target Lord Position》 = <SIGN / HOUSE / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Target Rashi Link》 = <TARGET_RASHI_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / CO-PRESENCE / NOT_SHOWN>
+- 《Target Bhava Link》 = <TARGET_BHAVA_HOUSE / SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_SHOWN>
+- 《Target Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《Target Lord Movement Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《Target Actual Function》 = <해당 D차트 도메인 안에서 실제 담당하는 기능>
+- 《Source House Actual Function》 = <해당 A-point가 원래 표면화하는 실제 하우스 기능>
+- 《Landing House Surface Channel》 = <그 표면이 외부에서 보이는 위치와 통로>
+- 《Surface Function》 = <Arudha에서 외부에 보이는 도메인 기능>
+- 《D1 Anchor Link》 = <D1_RASHI/BHAVA_RELEVANT_LINK / D1_ARUDHA_RELEVANT_LINK / NOT_APPLIED / NOT_SHOWN>
+━━━━━━━━━━━━━━━━━━━━━━━━━
+6. ACTUAL-SURFACE CHECK
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《Actual-Surface Status》 = <SAME / DIFFERENT / PARTIAL / SPLIT / NEEDS_RECHECK>
+- 《Source-Landing Status》 = <SAME_HOUSE / DIFFERENT_HOUSE / PARTIAL / SPLIT / NOT_CHECKED>
+- 《Surface Agreement》 = <YES / NO / PARTIAL / NOT_CHECKED>
+- 《Surface Distortion》 = <NONE / OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT>
+- 《Use Decision》 = <APPLY_AS_SURFACE / APPLY_AS_SURFACE_AS_DISTORTION / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+판정 기준 =
+- 《SAME》 = 실제 Target House 구조와 Arudha 표면이 같은 방향으로 보인다.
+- 《DIFFERENT》 = 실제 구조와 표면 인식이 다른 하우스 기능으로 보인다.
+- 《PARTIAL》 = 일부는 일치하지만 핵심 기능이 완전히 같지는 않다.
+- 《SPLIT》 = 실제 구조와 표면 구조가 둘 이상의 기능으로 갈라진다.
+- 《NEEDS_RECHECK》 = Source / Degree / House From Lagna / Bhava Link가 부족하다.
+표면 왜곡 기준 =
+- 《NONE》 = 실제 구조와 표면이 왜곡 없이 보인다.
+- 《OVER-VISIBLE》 = 실제보다 표면에서 과하게 보인다.
+- 《UNDER-VISIBLE》 = 실제보다 표면에서 덜 보인다.
+- 《MISPLACED》 = 실제 기능과 다른 표면 위치로 보인다.
+- 《SPLIT》 = 여러 표면으로 분리되어 보인다.
+Source-Landing 기준 =
+- 《SAME_HOUSE》 = Source House와 Pada Landing House가 같은 하우스 계열로 보인다.
+- 《DIFFERENT_HOUSE》 = Source House와 Pada Landing House가 다른 하우스 기능으로 보인다.
+- 《PARTIAL》 = Source House와 Landing House가 일부 기능만 공유한다.
+- 《SPLIT》 = 하나의 표면 point가 둘 이상의 표면 채널로 갈라진다.
+- 《NOT_CHECKED》 = Source House 또는 Landing House 정보가 부족하다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+7. CHECK QUESTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1) 6B-0 Source Board에 해당 point가 보존되어 있는가?
+2) 이 Arudha point는 해당 분할차트의 어떤 실제 하우스·로드·행성 구조와 연결되는가?
+3) Source House of Pada와 Pada Landing House가 분리되어 있는가?
+4) 해당 분할차트 Rashi 구조와 Arudha 표면이 같은 방향으로 드러나는가?
+5) 해당 분할차트 Bhava 현실 적용과 Arudha 표면이 같은 house-function으로 내려오는가?
+6) 실제 구조와 표면 구조가 같으면 어떤 표면 일치가 생기는가?
+7) 실제 구조와 외부 인식이 다르면 어디서 갈라지는가?
+8) 표면이 실제보다 과하게 보이는가, 실제보다 덜 보이는가, 다른 곳에 보이는가?
+9) 이 Arudha 값은 해당 D차트 도메인 안에서 적용해야 하는가, 보조만 해야 하는가, 보류해야 하는가?
+10) 이 Arudha point가 D1 본체 약속을 덮어쓰고 있지는 않은가?
+11) 이 Arudha point가 Target D-Chart Rashi/Bhava를 덮어쓰고 있지는 않은가?
+12) 이 Arudha point는 표면화 방식만 보정하고 있는가?
+━━━━━━━━━━━━━━━━━━━━━━━━━
+8. OUTPUT SENTENCE FORMAT
+━━━━━━━━━━━━━━━━━━━━━━━━━
+LEVEL 1 SLOT JUDGEMENT SENTENCE =
+《<D_CHART_TAG> <RELEVANT_ARUDHA_POINT>》는 해당 분할차트 실제 《<TARGET_HOUSE> <TARGET_ACTUAL_FUNCTION>》을 대체하지 않고,
+그 구조가 해당 D차트 도메인 안에서 외부 인식과 표면 장부에 《<SURFACE_THEME>》로 어떻게 보이는지 확인하는 표면화 보조층이다.
+이때 《Source House of Pada》는 “무엇의 표면인가”를 뜻하고,
+《Pada Landing House》는 “어디에 보이는가”를 뜻하므로,
+두 값을 섞지 않는다.
+실제 《<TARGET_HOUSE>》 구조와 《<RELEVANT_ARUDHA_POINT>》 표면 구조가 같으면 《SAME》으로 두고,
+갈라지면 《DIFFERENT / PARTIAL / SPLIT》로 표기하며,
+최종 구조판정은 해당 분할차트 Rashi/Bhava와 D1 본체 약속을 기준으로 유지한다.
+LEVEL 2 DEF_BOARD SURFACE NOTE =
+《<D_CHART_TAG> <TARGET_HOUSE>》의 실제 구조는 《<TARGET_RASHI_LINK>》와 《<TARGET_BHAVA_LINK>》를 기준으로 유지하고,
+《<RELEVANT_ARUDHA_POINT>》는 그 구조가 외부에서 《<SURFACE_FUNCTION>》으로 보이는 방식만 보정한다.
+따라서 이 표면값은 사건 약속을 새로 만들지 않고,
+실제 구조가 표면에서 《<OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT / NONE>》로 드러나는지 확인하는 데만 사용한다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+9. USE DECISION
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 《APPLY_AS_SURFACE》 =
+  해당 Arudha point가 해당 타깃 하우스의 외부 인식과 표면 장부를 유효하게 보정할 때 사용한다.
+- 《APPLY_AS_SURFACE_AS_DISTORTION》 =
+  실제 구조와 표면 구조가 다르지만, source가 명확하고 그 차이가 중요한 표면 왜곡 정보일 때 사용한다.
+- 《SUPPORT_ONLY》 =
+  실제 구조를 보조 설명할 수 있으나, 구조판정에 직접 반영하지 않을 때 사용한다.
+- 《REFERENCE_ONLY》 =
+  값은 보존하지만 현재 하우스 판정에는 쓰지 않을 때 사용한다.
+- 《HOLD》 =
+  Source Confidence 부족, Degree/Nakshatra/Pada 누락, Actual-Surface Status 불명확, Target Rashi/Bhava link 미확인일 때 사용한다.
+- 《NOT_USED》 =
+  해당 포인트 자료가 없거나 현재 질문 범위에 포함되지 않을 때 사용한다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+10. ACTUAL-SURFACE STATUS CAP / FLEX RULE
+━━━━━━━━━━━━━━━━━━━━━━━━━
+Grade Cap Rule =
+- SAME + Source Complete → APPLY_AS_SURFACE
+- PARTIAL + Source Complete → APPLY_AS_SURFACE or SUPPORT_ONLY
+- SPLIT + Source Complete → SUPPORT_ONLY / HOLD
+- DIFFERENT + Source Complete → APPLY_AS_SURFACE_AS_DISTORTION
+- DIFFERENT + Source Weak → REFERENCE_ONLY / HOLD
+- NOT_SHOWN → NOT_USED
+Rule =
+- DIFFERENT는 자동 폐기하지 않는다.
+- Arudha는 실제 구조와 다르게 보이는 표면 왜곡을 확인하는 층이므로,
+  source가 명확하면 DIFFERENT도 중요한 Surface Distortion으로 적용한다.
+- 단, DIFFERENT가 실제 구조를 덮어쓰지는 않는다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+10A. SOURCE WEAKNESS STATUS CAP ADDENDUM
+Source 약화 상태별 적용 상한 보강
+REVISED 98 CAP LOCK
+━━━━━━━━━━━━━━━━━━━━━━━━━
+Rule =
+- Source Complete + Sign + Degree + Nakshatra/Pada + House From Lagna 확인 → APPLY_AS_SURFACE 가능
+- Source Complete + Sign + Degree only → APPLY_AS_SURFACE 가능하되 Nakshatra/Pada detail 제한
+- Source Complete + Sign + House only → SUPPORT_ONLY 기본값
+- Sign only → SUPPORT_ONLY 기본값, Actual-Surface Status는 NEEDS_RECHECK 유지
+- Derived With Rule + 검산 완료 → SUPPORT_ONLY or APPLY_AS_SURFACE
+- Derived With Rule + 검산 미완료 → REFERENCE_ONLY or HOLD
+- Derived Unchecked → HOLD 기본값
+- Bhava Link missing → Rashi surface only, Bhava surface 판단 금지
+- Rashi Link missing → HOLD
+- Source Board missing → NOT_USED
+- Point missing → NOT_USED
+- D1 Anchor only supplied → Target D-chart Arudha 판정 금지
+Completion Rule =
+- APPLY_AS_SURFACE는 Source Board / Point / Sign / Degree 또는 House / Target Rashi Link 중 핵심 필드가 확인될 때만 가능하다.
+- APPLY_AS_SURFACE_AS_DISTORTION은 source가 명확할 때만 가능하다.
+- Source가 약한 DIFFERENT는 해석하지 않고 REFERENCE_ONLY / HOLD로 둔다.
+TITLE=TARGET_DCHART_ARUDHA_SOURCE_WEAKNESS_STATUS_CAP_ADDENDUM_98
+STATUS=CAP_REINFORCED / WEAK_SOURCE_LIMITED / NO_AUTO_UPGRADE
+━━━━━━━━━━━━━━━━━━━━━━━━━
+11. A7 / UL / MULTI-POINT COLLISION RULE
+━━━━━━━━━━━━━━━━━━━━━━━━━
+A7 / UL Separation Rule =
+- D-A7 = 해당 타깃 하우스 7H의 대면·계약·외부 상대 표면
+- D-UL = 동반자 / 관계 / 결혼 / 파트너 표면
+- D-A7 ≠ D-UL
+- D-A7 and D-UL may support each other, but do not overwrite each other.
+Collision 처리 =
+- 같은 방향이면 Surface Agreement = YES
+- 일부만 같으면 PARTIAL
+- 서로 다른 표면을 만들면 SPLIT
+- 하나가 다른 하나를 overwrite하지 않는다.
+- 병합하지 않는다.
+- 각각 별도 surface line으로 보존한다.
+- 필요시 Surface Agreement / Distortion에서 관계만 표시한다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+11A. GENERAL MULTI-POINT COLLISION RULE
+전체 D-Arudha point 다중 충돌 처리 규칙
+REVISED 98 REQUIRED COLLISION BLOCK
+━━━━━━━━━━━━━━━━━━━━━━━━━
+DOCUMENT ROLE
+- 이 블록은 D-AL / D-A2~D-A12 / D-UL 중 둘 이상의 point가 같은 sign, 같은 house, 같은 bhava, 또는 같은 surface channel에 겹칠 때 사용한다.
+- 이 블록은 A7/UL 전용 충돌 규칙을 대체하지 않는다.
+- A7/UL Separation Rule은 관계 표면 전용으로 유지하고, 이 블록은 전체 A-point 충돌을 처리한다.
+COLLISION TYPES
+- 《SIGN_COLLISION》 = 둘 이상의 A-point가 같은 sign에 위치한다.
+- 《HOUSE_COLLISION》 = 둘 이상의 A-point가 같은 house from Target D-chart Lagna에 위치한다.
+- 《BHAVA_COLLISION》 = 둘 이상의 A-point가 같은 Bhava house에 위치한다.
+- 《FUNCTION_COLLISION》 = 서로 다른 A-point가 같은 Surface Function처럼 보인다.
+- 《AXIS_COLLISION》 = 서로 마주보는 A-point가 1/7, 2/8, 3/9, 4/10, 5/11, 6/12 축으로 표면 긴장을 만든다.
+- 《UL_COLLISION》 = D-UL이 D-A7 또는 다른 A-point와 같은 sign/house/bhava에 겹친다.
+RULE
+- 같은 위치에 있다고 같은 기능으로 병합하지 않는다.
+- 같은 sign에 있으면 같은 스타일로 보이는 것이고, 같은 house에 있으면 같은 무대에서 보이는 것이다.
+- 같은 sign/house에 있어도 Source House가 다르면 Surface Theme은 분리한다.
+- 충돌 point는 각각 별도 surface line으로 보존한다.
+- 하나의 A-point가 다른 A-point를 overwrite하지 않는다.
+- Surface Agreement는 YES / PARTIAL / NO / SPLIT 중 하나로 표기한다.
+- 실제 구조판정은 Target D-chart Rashi/Bhava를 기준으로 유지한다.
+OUTPUT LINE
+- 《Collision Points》 = <D-AL + D-A10 / D-A2 + D-A11 / D-A8 + D-A12 / D-A7 + D-UL / OTHER>
+- 《Collision Type》 = <SIGN_COLLISION / HOUSE_COLLISION / BHAVA_COLLISION / FUNCTION_COLLISION / AXIS_COLLISION / UL_COLLISION>
+- 《Surface Agreement》 = <YES / PARTIAL / NO / SPLIT>
+- 《Collision Use Decision》 = <SEPARATE_LINES / SUPPORT_ONLY / APPLY_AS_SURFACE_AS_DISTORTION / HOLD>
+COMPLETION CHECK
+□ Collision Points 확인
+□ Collision Type 확인
+□ Source House 분리 확인
+□ Landing House 분리 확인
+□ Surface Theme 병합 없음
+□ Point overwrite 없음
+□ 별도 surface line 보존
+TITLE=TARGET_DCHART_ARUDHA_GENERAL_MULTI_POINT_COLLISION_RULE_98
+STATUS=GENERAL_COLLISION_READY / NO_MERGE / NO_OVERWRITE / SURFACE_LINES_SEPARATED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+12. LAYER BOUNDARY / OUTPUT LEVEL CONTROL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+Layer Boundary =
+- Arudha Slot = Surface only
+- No strength
+- No aspect
+- No dasha
+- No timing
+- No event promise
+- No overwrite
+- No Mrityu
+- No AVA
+- No Ashtakavarga
+- No SP
+- No Varga Link extension
+Output Level =
+- LEVEL 1 = Slot Judgement Sentence
+  - 짧게
+  - 표면화 상태만 기록
+  - Source / Target / Arudha Point / Actual-Surface Status / Use Decision 중심
+- LEVEL 2 = DeF_BoArD Surface Note
+  - 3~5문장 허용
+  - 단, 사건판정 금지
+  - Rashi/Bhava overwrite 금지
+  - 표면 왜곡/과시/덜 보임/분리 여부만 설명
+Forbidden Output =
+- 사건 예측
+- 성격 해석
+- 강도 판정
+- Aspect 판정
+- Dasha 판정
+- Varga 반복 확장
+- Arudha만으로 최종 결론
+━━━━━━━━━━━━━━━━━━━━━━━━━
+12A. D1 ANCHOR LINK BOUNDARY RULE
+D1 본체 기준 링크 경계 규칙
+REVISED 98 NO-OVERWRITE SAFETY / 17-PACKET FIELD BASIS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+DOCUMENT ROLE
+- 이 블록은 Target D-chart Arudha Slot 안에서 D1 Anchor Link를 사용할 때의 경계를 잠근다.
+- D1은 본체 사건 약속 기준축이다.
+- Target D-chart Arudha는 해당 분할차트 도메인의 표면화 보조층이다.
+- D1 Anchor Link는 구조 위계 확인용이지, Target D-chart Arudha 판정을 대신 닫는 근거가 아니다.
+- 이 블록은 17번 House-by-House Application Packets 안의 D1 Anchor 입력칸을 통제하는 공통 규칙이다.
+- 17번 각 하우스 슬롯은 이 12A 규칙을 받아서 D1 Rashi Anchor / D1 Bhava Anchor / D1 Arudha Anchor / D1 Anchor Role / D1 Anchor Use Decision을 입력한다.
+RULE
+- D1 Rashi/Bhava는 본체 약속 확인에만 사용한다.
+- D1 Arudha는 D1 표면층 확인에만 사용한다.
+- Target D-chart Arudha는 Target D-chart Rashi/Bhava를 대체하지 않는다.
+- D1 Anchor가 강해도 Target D-chart Arudha point가 없으면 생성하지 않는다.
+- D1 Anchor가 다르게 보이더라도 Target D-chart Arudha source가 명확하면 source를 보존한다.
+- D1 Anchor는 Target D-chart Arudha의 Actual-Surface Status를 단독으로 SAME / DIFFERENT / PARTIAL / SPLIT로 확정하지 않는다.
+- D1 Anchor는 Target D-chart Arudha의 Use Decision을 APPLY_AS_SURFACE로 자동 승격하지 않는다.
+- D1 Anchor는 Source Weak / Derived Unchecked / NOT_SHOWN 상태의 Target Arudha point를 보정 생성하지 않는다.
+- D1과 Target D-chart Arudha가 같은 방향이면 Surface Agreement 보강값으로만 사용한다.
+- D1과 Target D-chart Arudha가 다르면 Surface Distortion / DIFFERENT / SPLIT 검산값으로만 사용한다.
+- 최종 구조판정은 D1 본체 약속 + Target D-chart Rashi/Bhava 위계로 유지한다.
+- Arudha Slot은 표면화 방식만 보정한다.
+D1 ANCHOR FIELD PACK FOR 17
+- 《D1 Rashi Anchor》 = <D1_RELEVANT_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Bhava Anchor》 = <D1_RELEVANT_BHAVA / SAME / MOVED / SPLIT / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Arudha Anchor》 = <D1_AL / D1_A2~D1_A12 / D1_UL / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Anchor Role》 = <BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED>
+- 《D1 Anchor Use Decision》 = <REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED>
+D1 ANCHOR ROLE RULE
+- BODY_PROMISE_CHECK = D1 Rashi/Bhava 본체 약속과 Target D-chart Arudha 표면이 충돌하지 않는지 확인한다.
+- SURFACE_COMPARISON = D1 Arudha 표면과 Target D-chart Arudha 표면의 같은 방향 / 다른 방향 / 분리 여부만 비교한다.
+- SUPPORT_ONLY = Target D-chart Arudha 판정을 보조하지만 Use Decision을 직접 올리지 않는다.
+- DISTORTION_CHECK = D1 본체 약속과 Target D-chart 표면이 다르게 보일 때 과시 / 덜 보임 / 위치 어긋남 / 분리 여부를 확인한다.
+- NOT_USED = 현재 슬롯에서 D1 Anchor를 적용하지 않는다.
+D1 ANCHOR USE DECISION RULE
+- REFERENCE_ONLY = 값은 보존하지만 현재 Target D-chart Arudha 판정에는 직접 쓰지 않는다.
+- SUPPORT_ONLY = Target D-chart Arudha 표면 설명을 보조하되 구조판정을 바꾸지 않는다.
+- SURFACE_COMPARISON_ONLY = D1 표면과 Target D-chart 표면의 일치/불일치만 비교한다.
+- HOLD = D1 Anchor는 있으나 Target Rashi/Bhava 또는 Arudha source가 부족해 적용을 보류한다.
+- NOT_USED = 현재 질문 범위에서 D1 Anchor를 사용하지 않는다.
+17 APPLICATION RULE
+- 17-1H~17-12H와 17-UL은 기존 《D1 Anchor Link》 한 줄만 쓰지 않고, D1 Anchor Field Pack 5칸을 사용한다.
+- 17번 각 하우스 Completion Check에는 D1 Rashi Anchor / D1 Bhava Anchor / D1 Arudha Anchor / D1 Anchor Role / D1 Anchor Use Decision 확인을 포함한다.
+- 17번 각 하우스 Completion Check에는 “D1 Anchor가 Target D-chart Arudha를 생성하지 않음”과 “D1 Anchor가 Target Rashi/Bhava를 덮지 않음”을 포함한다.
+- 17번은 D1 규칙을 새로 설명하는 곳이 아니라, 12A에서 잠근 D1 Anchor Boundary Rule을 각 하우스별 입력칸으로 받아 적용하는 곳이다.
+COMPLETION CHECK
+□ D1 Anchor Link 사용 여부 확인
+□ D1 Rashi Anchor 확인
+□ D1 Bhava Anchor 확인
+□ D1 Arudha Anchor 확인
+□ D1 Anchor Role 확인
+□ D1 Anchor Use Decision 확인
+□ D1이 Target Arudha point를 생성하지 않음
+□ D1이 Target Rashi/Bhava를 덮지 않음
+□ Target Arudha가 D1 본체 약속을 덮지 않음
+□ D1 Anchor가 Target Arudha Use Decision을 자동 승격하지 않음
+□ 표면화 보정 역할만 유지
+TITLE=TARGET_DCHART_ARUDHA_D1_ANCHOR_LINK_BOUNDARY_RULE_98
+STATUS=D1_BOUNDARY_LOCKED / FIELD_PACK_READY_FOR_17 / NO_OVERWRITE / SURFACE_ONLY
+━━━━━━━━━━━━━━━━━━━━━━━━━
+13. TEMPLATE LOCK RULE
+━━━━━━━━━━━━━━━━━━━━━━━━━
+- 이 슬롯은 구조 템플릿이므로 적용 시 블록명을 바꾸지 않는다.
+- 순서를 바꾸지 않는다.
+- 6B-0 Source Board 없이 적용하지 않는다.
+- 6B-0A Source House / Pada Landing House Distinction Rule 없이 적용하지 않는다.
+- Source Gate 없이 적용하지 않는다.
+- 미확인값을 해석문으로 보정하지 않는다.
+- D1 본체 약속 / Target D-chart Rashi / Target D-chart Bhava / Target D-chart Arudha Surface의 위계를 항상 유지한다.
+- 17번 적용 패킷은 12A D1 Anchor Field Pack 5칸을 사용한다.
+Hierarchy =
+D1 Rashi/Bhava = 본체 사건 약속
+Target D-chart Rashi = 해당 도메인 원본 구조
+Target D-chart Bhava = 해당 도메인 현실 체감장
+Target D-chart Arudha D-Structure Board = 해당 도메인 전체 표면화 원자료 보존층
+Target D-chart Single Target House Arudha Slot = 특정 하우스 표면화 적용층
+Target D-chart UL Slot = 관계·동반자 표면 독립 적용층
+D1 Anchor Field Pack = 본체 약속 / D1 표면 / Target 표면 비교 검산층
+━━━━━━━━━━━━━━━━━━━━━━━━━
+14. COMPLETION CHECK
+━━━━━━━━━━━━━━━━━━━━━━━━━
+□ 6B-0 Source Board 존재 확인
+□ 6B-0A Source House / Pada Landing House Distinction Rule 확인
+□ Target D-Chart 확인
+□ Target D-Chart Domain 확인
+□ Target House 확인
+□ Relevant Arudha Point 추출 확인
+□ Point Source Status 확인
+□ Source Status 확인
+□ Source Priority 확인
+□ Source House of Pada 확인
+□ Arudha Sign 확인
+□ Arudha Degree 확인
+□ Arudha Nakshatra/Pada 확인
+□ Arudha House From Target D-Chart Lagna 확인
+□ Arudha House From Target D-Chart Bhava 확인
+□ Pada Landing Sign 확인
+□ Pada Landing House From Lagna 확인
+□ Pada Landing House From Bhava 확인
+□ Linked Target House 확인
+□ Linked Target House Lord 확인
+□ Linked Target Lord Position 확인
+□ Target Rashi Link 확인
+□ Target Bhava Link 확인
+□ Target Co-presence Link 확인
+□ Target Lord Movement Link 확인
+□ Target Actual Function 확인
+□ Source House Actual Function 확인
+□ Landing House Surface Channel 확인
+□ Surface Function 확인
+□ D1 Anchor Link 필요 여부 확인
+□ D1 Rashi Anchor 확인
+□ D1 Bhava Anchor 확인
+□ D1 Arudha Anchor 확인
+□ D1 Anchor Role 확인
+□ D1 Anchor Use Decision 확인
+□ D1 Anchor가 Target D-chart Arudha를 생성하지 않음
+□ D1 Anchor가 Target Rashi/Bhava를 덮지 않음
+□ Actual-Surface Status 확인
+□ Source-Landing Status 확인
+□ Surface Agreement 확인
+□ Surface Distortion 확인
+□ Use Decision 확인
+□ Missing / Partial Data Rule 적용 확인
+□ Actual-Surface Status Cap 적용 확인
+□ Source Weakness Status Cap 적용 확인
+□ D-A7 / D-UL 분리 확인
+□ General Multi-Point Collision 확인
+□ Output Level 선택 확인
+□ D1 Anchor Boundary 확인
+□ Target Rashi/Bhava overwrite 없음
+□ D1 Rashi/Bhava overwrite 없음
+□ 사건 약속 새로 생성 없음
+□ 강도층 미사용
+□ Aspect/Dasha/Varga Link 확장 없음
+□ Mrityu / AVA / Ashtakavarga / SP 미사용
+□ 표면화 방식만 보정
+━━━━━━━━━━━━━━━━━━━━━━━━━
+15. FINAL LOCK
+━━━━━━━━━━━━━━━━━━━━━━━━━
+이 최종 템플릿은 먼저 Target D-chart 안의 D-AL / D-A2~D-A12 / D-UL 전체를 6B-0 D-Structure Source Board에 보존하고,
+그 다음 6B-0A에서 각 point의 Source House와 Pada Landing House를 분리한 뒤,
+Single Target House Arudha Slot에서 특정 하우스에 해당하는 point만 추출해 표면화 상태를 판정한다.
+이 구조는 “없는 데서 특정 A-point만 바로 뽑는 방식”을 금지하고,
+반드시 전체 D-Arudha Source Board → Source House / Landing House 분리 → 특정 Target House 추출 적용 순서로 운용한다.
+이 템플릿은 실제 구조를 바꾸지 않고,
+D1 본체 약속을 덮어쓰지 않으며,
+사건 약속을 새로 만들지 않고,
+해당 하우스의 표면화 방식만 SAME / DIFFERENT / PARTIAL / SPLIT으로 보정한다.
+Source Gate, Source Priority, Missing Rule, Source House / Pada Landing House Separation, D-A7/D-UL Separation, General Multi-Point Collision, Status Cap, D1 Anchor Boundary, D1 Anchor Field Pack for 17, Output Level Control, Layer Boundary, Template Lock Rule을 포함하므로
+구조 안전성과 실사용 유연성을 모두 갖춘 98_LOCK_READY 상태로 사용한다.
+TITLE=TARGET_DCHART_ARUDHA_FULL_PLUS_SINGLE_98_LOCK
+INDEX=SYSTEM_SCHEMA_LOCK > TARGET_DCHART > ARUDHA > D_STRUCTURE_SOURCE_BOARD_PLUS_SINGLE_TARGET_HOUSE_SLOT > 98_LOCK
+STATUS=TARGET_DCHART_SURFACE_LAYER / D_STRUCTURE_SOURCE_BOARD_READY / SOURCE_LANDING_SEPARATED / D1_ANCHOR_FIELD_PACK_READY / SINGLE_TARGET_HOUSE_ARUDHA_SLOT_READY / UL_SLOT_READY / NO_OVERWRITE / SOURCE_GATED / SURFACE_ONLY / 98_LOCK_READY
+━━━━━━━━━━━━━━━━━━━━━━━━━
+16. 17번 APPLICATION HANDOFF / FIELD INHERITANCE LOCK
+17번 적용패킷 연결 / 필드 상속 잠금
+REVISED 98 REQUIRED BRIDGE BLOCK
+━━━━━━━━━━━━━━━━━━━━━━━━━
+DOCUMENT ROLE
+- 이 블록은 0~15번 공통 규칙 파일과 17번 House-by-House Application Packets 파일을 연결하는 핸드오프 블록이다.
+- 16번은 해석층이 아니다.
+- 16번은 새로운 Arudha point를 생성하지 않는다.
+- 16번은 17번 하우스별 슬롯이 반드시 상속해야 하는 공통 필드와 경계 규칙을 잠근다.
+- 16번이 없으면 15번 FINAL LOCK에서 바로 17번 적용패킷으로 넘어가며 번호 체계와 적용 경로가 비게 된다.
+- 따라서 1번 공통규칙 파일은 15번에서 끝나지 않고, 16번 Application Handoff까지 포함해야 한다.
+HANDOFF POSITION RULE
+- 16번은 15. FINAL LOCK 이후에 둔다.
+- 16번은 17. HOUSE-BY-HOUSE D-ARUDHA APPLICATION PACKETS 이전에 둔다.
+- 17번 파일이 별도 파일로 분리되어 있어도 16번은 1번 공통규칙 파일 끝에 남긴다.
+- 17번 파일 첫머리는 반드시 16번의 Field Inheritance Rule을 받는다는 전제로 시작한다.
+INHERITED COMMON RULES FOR 17
+- 17번 각 하우스 슬롯은 6B-0 Source Board를 상속한다.
+- 17번 각 하우스 슬롯은 6B-0A Source House / Pada Landing House Distinction Rule을 상속한다.
+- 17번 각 하우스 슬롯은 10A Source Weakness Status Cap을 상속한다.
+- 17번 각 하우스 슬롯은 11A General Multi-Point Collision Rule을 상속한다.
+- 17번 각 하우스 슬롯은 12A D1 Anchor Link Boundary Rule을 상속한다.
+- 17번 각 하우스 슬롯은 12B D1 Anchor Field Pack for 17을 상속한다.
+REQUIRED D1 ANCHOR FIELD IN 17
+- 《D1 Rashi Anchor》 = <D1_RELEVANT_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Bhava Anchor》 = <D1_RELEVANT_BHAVA / SAME / MOVED / SPLIT / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Arudha Anchor》 = <D1_AL / D1_A2~D1_A12 / D1_UL / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Anchor Role》 = <BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED>
+- 《D1 Anchor Use Decision》 = <REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED>
+REQUIRED D1 ANCHOR COMPLETION CHECK IN 17
+□ D1 Rashi Anchor 확인
+□ D1 Bhava Anchor 확인
+□ D1 Arudha Anchor 확인
+□ D1 Anchor Role 확인
+□ D1 Anchor Use Decision 확인
+□ D1 Anchor가 Target D-chart Arudha를 생성하지 않음
+□ D1 Anchor가 Target Rashi/Bhava를 덮지 않음
+□ D1 Anchor가 사건 약속을 새로 만들지 않음
+□ D1 Anchor는 검산·비교·보조층으로만 사용
+17번 FILE START RULE
+- 17번 파일은 17. HOUSE-BY-HOUSE D-ARUDHA APPLICATION PACKETS로 시작한다.
+- 17번 파일은 0~16번 공통규칙 파일을 다시 반복하지 않는다.
+- 17번 파일은 16번에서 상속된 공통 필드와 경계 규칙을 하우스별 적용칸으로 구현한다.
+- 17번 파일의 각 하우스는 D1 Anchor Link 한 줄만 쓰지 않고, D1 Rashi Anchor / D1 Bhava Anchor / D1 Arudha Anchor / D1 Anchor Role / D1 Anchor Use Decision으로 분리한다.
+- 17번 파일의 각 Completion Check는 D1 Anchor overwrite 금지 항목을 포함한다.
+NUMBERING LOCK
+- 0번 = Target D-Chart Registry
+- 6B-0 = 전체 D-Arudha Source Board
+- 6B-0A = Source House / Pada Landing House 분리
+- 6B-HOUSE-TARGET = 단일 타깃 하우스 추출 슬롯
+- 10~12B = Cap / Collision / Boundary / D1 Anchor Field Pack
+- 13~15 = Template Lock / Completion / Final Lock
+- 16 = 17번 적용패킷으로 넘기는 Handoff / Field Inheritance Lock
+- 17 = 실제 1H~12H + UL 적용패킷
+16번 OUTPUT SENTENCE
+16번은 0~15번 공통 규칙에서 17번 하우스별 적용패킷으로 넘어가는 연결 잠금층이다.
+이 블록은 새로운 해석이나 사건 약속을 만들지 않고,
+17번 각 하우스 슬롯이 반드시 상속해야 하는 Source Gate, Source-Landing 분리, D1 Anchor Boundary, D1 Anchor Field Pack, Collision Rule, Status Cap을 한 번 더 잠근다.
+따라서 1번 공통규칙 파일은 15번에서 끝나지 않고 16번 Handoff까지 포함하며,
+17번 파일은 이 16번을 받은 적용패킷으로 따로 운용한다.
+COMPLETION CHECK
+□ 16번 위치 = 15번 이후 / 17번 이전 확인
+□ 17번 분리 파일 운용 가능
+□ 17번 상속 필드 확인
+□ D1 Anchor Field Pack 상속 확인
+□ D1 Anchor overwrite 금지 상속 확인
+□ Source House / Pada Landing House 분리 상속 확인
+□ General Collision Rule 상속 확인
+□ Source Weakness Cap 상속 확인
+□ 17번 파일이 공통 규칙을 반복하지 않음
+TITLE=TARGET_DCHART_ARUDHA_APPLICATION_HANDOFF_FIELD_INHERITANCE_LOCK_98
+STATUS=HANDOFF_READY / FIELD_INHERITANCE_LOCKED / 17_APPLICATION_READY / NO_INTERPRETATION / NO_OVERWRITE
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ARudhA_TaRgEt_DchArT_FULL_SloT_02
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17. HOUSE-BY-HOUSE D-ARUDHA APPLICATION PACKETS
+1H~12H 세부 타깃 하우스 적용 슬롯 + UL 독립 슬롯
+REVISED 98 / OTHER TAB READY / D1 ANCHOR APPLICATION FIELDS ADDED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+DOCUMENT ROLE
+- 이 블록은 업로드된 분할+타깃 아루다 템플릿을 다른 탭이 바로 사용할 수 있도록 1H~12H별로 풀어쓴 세부 적용판이다.
+- 각 하우스는 6B-0 Source Board에서 해당 D-Apoint를 먼저 추출한 뒤, Actual-Surface Status를 판정한다.
+- 이 블록은 아루다 표면화만 다룬다.
+- 강도층, Aspect, Dasha, Transit, Varga Link, Mrityu, AVA, Ashtakavarga, SP는 사용하지 않는다.
+- 각 하우스별 슬롯은 블록명과 순서를 유지한다.
+- 실제 구조를 덮어쓰지 않고 표면화 방식만 SAME / DIFFERENT / PARTIAL / SPLIT으로 보정한다.
+- D-UL은 17-UL에서 독립적으로 다루며 D-A7과 병합하지 않는다.
+- 이 블록은 12A D1 Anchor Link Boundary Rule을 실제 하우스별 입력칸으로 받아 적용한다.
+- D1 Anchor는 Target D-chart Arudha를 생성하거나 덮어쓰지 않고, 본체 약속 검산 / 표면 비교 / 보조 / 왜곡 확인으로만 사용한다.
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-0. D1 ANCHOR APPLICATION FIELD RULE
+17번 하우스별 적용 슬롯용 D1 기준축 입력 규칙
+REVISED 98 / RECEIVES 12A BOUNDARY RULE
+━━━━━━━━━━━━━━━━━━━━━━━━━
+DOCUMENT ROLE
+- 이 블록은 12A D1 Anchor Link Boundary Rule을 17번 하우스별 적용 슬롯에 실제 입력칸으로 내리는 공통 규칙이다.
+- 12A는 D1을 어떻게 써야 하는지 잠그는 공통 경계 규칙이고, 17번은 그 규칙을 각 하우스 슬롯 안에서 입력·검수하는 적용판이다.
+- D1은 본체 사건 약속 / 기준축 / 검산층으로만 사용한다.
+- D1은 Target D-chart Arudha point를 생성하지 않는다.
+- D1은 Target D-chart Rashi/Bhava를 덮어쓰지 않는다.
+- Target D-chart Arudha는 D1 본체 약속을 덮어쓰지 않는다.
+- D1 Anchor는 REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED 중 하나로 제한한다.
+FIELD RULE
+- 《D1 Rashi Anchor》 = <D1_RELEVANT_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Bhava Anchor》 = <D1_RELEVANT_BHAVA / SAME / MOVED / SPLIT / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Arudha Anchor》 = <D1_AL / D1_A2~D1_A12 / D1_UL / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Anchor Role》 = <BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED>
+- 《D1 Anchor Use Decision》 = <REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED>
+USE RULE
+- BODY_PROMISE_CHECK = D1 Rashi/Bhava의 본체 사건 약속과 Target D-chart Arudha 표면이 충돌하지 않는지 확인한다.
+- SURFACE_COMPARISON = D1 Arudha 표면과 Target D-chart Arudha 표면이 같은 방향인지, 다르게 보이는지 비교한다.
+- SUPPORT_ONLY = D1이 Target D-chart Arudha 표면을 보조 설명하되 구조판정에는 직접 반영하지 않는다.
+- DISTORTION_CHECK = Target D-chart Arudha 표면이 D1 본체 약속보다 과하게 보이거나 덜 보이거나 다른 위치로 보이는지 확인한다.
+- NOT_USED = D1 Anchor가 현재 Target House 판정에 필요하지 않거나 source가 부족할 때 사용한다.
+COMPLETION RULE
+□ D1 Rashi Anchor 확인
+□ D1 Bhava Anchor 확인
+□ D1 Arudha Anchor 확인
+□ D1 Anchor Role 확인
+□ D1 Anchor Use Decision 확인
+□ D1 Anchor가 Target D-chart Arudha를 생성하지 않음
+□ D1 Anchor가 Target Rashi/Bhava를 덮지 않음
+□ Target D-chart Arudha가 D1 본체 약속을 덮지 않음
+TITLE=TARGET_DCHART_ARUDHA_17_D1_ANCHOR_APPLICATION_FIELD_RULE_98
+STATUS=D1_ANCHOR_FIELDS_READY / RECEIVES_12A / NO_OVERWRITE / SURFACE_COMPARISON_ONLY
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-1H. TARGET D-CHART 1H ARUDHA APPLICATION SLOT
+1H → D-AL 타깃 하우스 아루다 세부 적용 슬롯
+REVISED 98 HOUSE-SPECIFIC DETAIL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. HOUSE / POINT AUTO-MAP
+- 《Target House》 = 1H
+- 《Relevant Arudha Point》 = D-AL
+- 《Surface Theme》 = 표면 정체성 / 밖에서 보이는 도메인 입구 / 본체 입구 표면
+- 《Target House Core Question》 = 해당 D차트 도메인 안에서 내가 어떻게 보이고, 어떤 입구 문법으로 외부에 인식되는가
+- 《Primary Extraction Targets》 = 1H occupant / 1L / Lagna lord / 7H axis / Lagna-related co-presence / body-entry circuit planets
+- 《Linked Houses》 = 7H / 10H / 4H / 11H / 12H
+2. SOURCE EXTRACTION FROM 6B-0
+- 《Source Board》 = TARGET_DCHART_ARUDHA_D_STRUCTURE_SOURCE_BOARD_98
+- 《Extracted Point》 = D-AL
+- 《Point Source Status》 = <SOURCE_PRESERVED / PARTIAL / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_SUPPLIED / NOT_USED>
+- 《Point Sign》 = <SIGN / NOT_SHOWN>
+- 《Point Degree》 = <DEGREE / NOT_SHOWN>
+- 《Point Nakshatra/Pada》 = <NAKSHATRA_PADA / NOT_SHOWN>
+- 《Point House From Target D-Chart Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Point House From Target D-Chart Bhava》 = <BHAVA_HOUSE / NOT_SHOWN>
+- 《Source House of Pada》 = 1H
+- 《Pada Landing House》 = <HOUSE / BHAVA_HOUSE / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+Extraction Rule =
+- D-AL는 반드시 6B-0 Source Board에서 추출한다.
+- Source Board에 D-AL가 없으면 NOT_SUPPLIED 또는 NOT_USED로 둔다.
+- Sign만 있으면 SUPPORT_ONLY.
+- Sign + House만 있으면 SUPPORT_ONLY 가능.
+- Sign + Degree가 있으면 APPLY_AS_SURFACE 가능하되, Pada가 없으면 degree-detail은 제한한다.
+- Sign + Degree + Nakshatra/Pada가 있으면 APPLY_AS_SURFACE 가능.
+- Derived 값은 APP_VISIBLE / USER_TEXT_SUPPLIED 값을 덮어쓰지 않는다.
+- Source House와 Pada Landing House를 섞지 않는다.
+3. LINKED TARGET STRUCTURE
+- 《Target D-Chart》 = <D_CHART_TAG>
+- 《Target D-Chart Domain》 = <D_CHART_DOMAIN_LOCK_SENTENCE>
+- 《Linked Target House》 = 1H
+- 《Linked Target House Function》 = 본체 입구 / 몸 / 자기작동 / 도메인 진입 방식
+- 《Linked Target House Lord》 = <TARGET_HOUSE_LORD / NOT_SHOWN>
+- 《Linked Target Lord Position》 = <SIGN / HOUSE / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Target Rashi Link》 = <TARGET_RASHI_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / CO-PRESENCE / NOT_SHOWN>
+- 《Target Bhava Link》 = <TARGET_BHAVA_HOUSE / SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_SHOWN>
+- 《Target Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《Target Lord Movement Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《Target Actual Function》 = 본체 입구 / 몸 / 자기작동 / 도메인 진입 방식
+- 《Surface Function》 = 외부에서 보이는 나의 도메인 입구 / 표면 정체성 / 첫인상 장부
+- 《D1 Rashi Anchor》 = <D1_RELEVANT_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Bhava Anchor》 = <D1_RELEVANT_BHAVA / SAME / MOVED / SPLIT / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Arudha Anchor》 = <D1_AL / D1_A2~D1_A12 / D1_UL / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Anchor Role》 = <BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED>
+- 《D1 Anchor Use Decision》 = <REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED>
+4. ACTUAL-SURFACE CHECK
+- 《Actual-Surface Status》 = <SAME / DIFFERENT / PARTIAL / SPLIT / NEEDS_RECHECK>
+- 《Source-Landing Status》 = <SAME_HOUSE / DIFFERENT_HOUSE / PARTIAL / SPLIT / NOT_CHECKED>
+- 《Surface Agreement》 = <YES / NO / PARTIAL / NOT_CHECKED>
+- 《Surface Distortion》 = <NONE / OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT>
+- 《Use Decision》 = <APPLY_AS_SURFACE / APPLY_AS_SURFACE_AS_DISTORTION / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+SAME 기준 =
+- 실제 1H 구조와 D-AL 표면이 같은 방향으로 보이면, 안쪽 작동과 밖에서 보이는 입구가 일치한다.
+DIFFERENT 기준 =
+- 실제 1H 구조와 D-AL 표면이 갈라지면, 본인은 다른 방식으로 작동하지만 밖에서는 다른 표면 정체성으로 보인다.
+PARTIAL 기준 =
+- 실제 1H 구조와 D-AL 표면이 일부만 같은 방향을 가리키고, 핵심 기능은 완전히 같지 않을 때 사용한다.
+SPLIT 기준 =
+- 실제 1H 구조가 둘 이상의 표면 기능으로 갈라져 보이거나, D-AL와 다른 point가 동시에 표면을 나눌 때 사용한다.
+NEEDS_RECHECK 기준 =
+- Source / Sign / Degree / House From Lagna / Bhava Link / Linked Target House가 부족할 때 사용한다.
+5. CHECK QUESTIONS
+1) 6B-0 Source Board에 D-AL가 보존되어 있는가?
+2) D-AL의 Sign / Degree / Nakshatra/Pada / House From Lagna가 확인되는가?
+3) D-AL는 Target 1H의 실제 하우스·로드·행성 구조와 연결되는가?
+4) Target Rashi 구조와 D-AL 표면이 같은 방향으로 드러나는가?
+5) Target Bhava 현실 적용과 D-AL 표면이 같은 house-function으로 내려오는가?
+6) 실제 구조와 표면 구조가 같으면 어떤 표면 일치가 생기는가?
+7) 실제 구조와 외부 인식이 다르면 어디서 갈라지는가?
+8) 표면이 실제보다 과하게 보이는가, 실제보다 덜 보이는가, 다른 위치로 보이는가?
+9) D-AL가 D1 본체 약속을 덮어쓰고 있지는 않은가?
+9-A) D1 Anchor Role은 BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED 중 하나로 제한되어 있는가?
+9-B) D1 Anchor Use Decision은 REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED 중 하나로 제한되어 있는가?
+9-C) D1 Anchor가 Target D-chart Arudha point를 생성하거나 덮어쓰고 있지는 않은가?
+10) D-AL가 Target D-Chart Rashi/Bhava를 덮어쓰고 있지는 않은가?
+11) D-AL는 표면화 방식만 보정하고 있는가?
+6. OUTPUT SENTENCE FORMAT
+LEVEL 1 SLOT JUDGEMENT SENTENCE =
+《<D_CHART_TAG> D-AL》는 해당 분할차트 실제 《1H 본체 입구 / 몸 / 자기작동 / 도메인 진입 방식》을 대체하지 않고,
+그 구조가 해당 D차트 도메인 안에서 외부 인식과 표면 장부에 《표면 정체성 / 밖에서 보이는 도메인 입구 / 본체 입구 표면》로 어떻게 보이는지 확인하는 표면화 보조층이다.
+실제 《1H》 구조와 《D-AL》 표면 구조가 같으면 《SAME》으로 두고,
+갈라지면 《DIFFERENT / PARTIAL / SPLIT》로 표기하며,
+최종 구조판정은 해당 분할차트 Rashi/Bhava와 D1 본체 약속을 기준으로 유지한다.
+LEVEL 2 DEF_BOARD SURFACE NOTE =
+《<D_CHART_TAG> 1H》의 실제 구조는 《<TARGET_RASHI_LINK>》와 《<TARGET_BHAVA_LINK>》를 기준으로 유지하고,
+《D-AL》는 그 구조가 외부에서 《외부에서 보이는 나의 도메인 입구 / 표면 정체성 / 첫인상 장부》으로 보이는 방식만 보정한다.
+따라서 이 표면값은 사건 약속을 새로 만들지 않고,
+실제 구조가 표면에서 《<OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT / NONE>》로 드러나는지 확인하는 데만 사용한다.
+7. USE DECISION
+- 《APPLY_AS_SURFACE》 = D-AL가 1H의 외부 인식과 표면 장부를 유효하게 보정할 때 사용한다.
+- 《APPLY_AS_SURFACE_AS_DISTORTION》 = 실제 1H 구조와 D-AL 표면 구조가 다르지만, source가 명확하고 그 차이가 중요한 표면 왜곡 정보일 때 사용한다.
+- 《SUPPORT_ONLY》 = 실제 구조를 보조 설명할 수 있으나, 구조판정에 직접 반영하지 않을 때 사용한다.
+- 《REFERENCE_ONLY》 = 값은 보존하지만 현재 하우스 판정에는 쓰지 않을 때 사용한다.
+- 《HOLD》 = Source Confidence 부족, Degree/Nakshatra/Pada 누락, Actual-Surface Status 불명확, Target Rashi/Bhava link 미확인일 때 사용한다.
+- 《NOT_USED》 = 해당 point 자료가 없거나 현재 질문 범위에 포함되지 않을 때 사용한다.
+8. 1H COMPLETION CHECK
+□ 6B-0 Source Board 존재 확인
+□ Target D-Chart 확인
+□ Target D-Chart Domain 확인
+□ Target House = 1H 확인
+□ Relevant Arudha Point = D-AL 추출 확인
+□ Point Source Status 확인
+□ Source House of Pada = 1H 확인
+□ Arudha Sign 확인
+□ Arudha Degree 확인
+□ Arudha Nakshatra/Pada 확인
+□ Arudha House From Target D-Chart Lagna 확인
+□ Arudha House From Target D-Chart Bhava 확인
+□ Pada Landing House 확인
+□ Linked Target House = 1H 확인
+□ Linked Target House Lord 확인
+□ Linked Target Lord Position 확인
+□ Target Rashi Link 확인
+□ Target Bhava Link 확인
+□ Target Co-presence Link 확인
+□ Target Lord Movement Link 확인
+□ Target Actual Function 확인
+□ Surface Function 확인
+□ D1 Rashi Anchor 확인
+□ D1 Bhava Anchor 확인
+□ D1 Arudha Anchor 확인
+□ D1 Anchor Role 확인
+□ D1 Anchor Use Decision 확인
+□ D1 Anchor가 Target D-chart Arudha를 생성하지 않음
+□ D1 Anchor가 Target Rashi/Bhava를 덮지 않음
+□ Target D-chart Arudha가 D1 본체 약속을 덮지 않음
+□ Actual-Surface Status 확인
+□ Source-Landing Status 확인
+□ Surface Agreement 확인
+□ Surface Distortion 확인
+□ Use Decision 확인
+□ Missing / Partial Data Rule 적용 확인
+□ Actual-Surface Status Cap 적용 확인
+□ Target Rashi/Bhava overwrite 없음
+□ D1 Rashi/Bhava overwrite 없음
+□ 사건 약속 새로 생성 없음
+□ 강도층 미사용
+□ Aspect/Dasha/Varga Link 확장 없음
+□ Mrityu / AVA / Ashtakavarga / SP 미사용
+□ 표면화 방식만 보정
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-2H. TARGET D-CHART 2H ARUDHA APPLICATION SLOT
+2H → D-A2 타깃 하우스 아루다 세부 적용 슬롯
+REVISED 98 HOUSE-SPECIFIC DETAIL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. HOUSE / POINT AUTO-MAP
+- 《Target House》 = 2H
+- 《Relevant Arudha Point》 = D-A2
+- 《Surface Theme》 = 자원 표면 / 말값 표면 / 보유 표면 / 금고 표면
+- 《Target House Core Question》 = 해당 D차트 도메인 안에서 무엇이 실제 자원처럼 보이고, 말값·보유·금고 장부가 외부에 어떻게 인식되는가
+- 《Primary Extraction Targets》 = 2H occupant / 2L / 8H axis / 11H recovery link / 12H leakage link / Venus-Jupiter-Mars if structurally relevant
+- 《Linked Houses》 = 8H / 11H / 12H / 4H / 10H
+2. SOURCE EXTRACTION FROM 6B-0
+- 《Source Board》 = TARGET_DCHART_ARUDHA_D_STRUCTURE_SOURCE_BOARD_98
+- 《Extracted Point》 = D-A2
+- 《Point Source Status》 = <SOURCE_PRESERVED / PARTIAL / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_SUPPLIED / NOT_USED>
+- 《Point Sign》 = <SIGN / NOT_SHOWN>
+- 《Point Degree》 = <DEGREE / NOT_SHOWN>
+- 《Point Nakshatra/Pada》 = <NAKSHATRA_PADA / NOT_SHOWN>
+- 《Point House From Target D-Chart Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Point House From Target D-Chart Bhava》 = <BHAVA_HOUSE / NOT_SHOWN>
+- 《Source House of Pada》 = 2H
+- 《Pada Landing House》 = <HOUSE / BHAVA_HOUSE / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+Extraction Rule =
+- D-A2는 반드시 6B-0 Source Board에서 추출한다.
+- Source Board에 D-A2가 없으면 NOT_SUPPLIED 또는 NOT_USED로 둔다.
+- Sign만 있으면 SUPPORT_ONLY.
+- Sign + House만 있으면 SUPPORT_ONLY 가능.
+- Sign + Degree가 있으면 APPLY_AS_SURFACE 가능하되, Pada가 없으면 degree-detail은 제한한다.
+- Sign + Degree + Nakshatra/Pada가 있으면 APPLY_AS_SURFACE 가능.
+- Derived 값은 APP_VISIBLE / USER_TEXT_SUPPLIED 값을 덮어쓰지 않는다.
+- Source House와 Pada Landing House를 섞지 않는다.
+3. LINKED TARGET STRUCTURE
+- 《Target D-Chart》 = <D_CHART_TAG>
+- 《Target D-Chart Domain》 = <D_CHART_DOMAIN_LOCK_SENTENCE>
+- 《Linked Target House》 = 2H
+- 《Linked Target House Function》 = 자원 / 보유 / 말값 / 금고화 / 가족·도메인 내부 장부
+- 《Linked Target House Lord》 = <TARGET_HOUSE_LORD / NOT_SHOWN>
+- 《Linked Target Lord Position》 = <SIGN / HOUSE / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Target Rashi Link》 = <TARGET_RASHI_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / CO-PRESENCE / NOT_SHOWN>
+- 《Target Bhava Link》 = <TARGET_BHAVA_HOUSE / SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_SHOWN>
+- 《Target Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《Target Lord Movement Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《Target Actual Function》 = 자원 / 보유 / 말값 / 금고화 / 가족·도메인 내부 장부
+- 《Surface Function》 = 밖에서 보이는 자원·금고·말값·보유 능력
+- 《D1 Rashi Anchor》 = <D1_RELEVANT_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Bhava Anchor》 = <D1_RELEVANT_BHAVA / SAME / MOVED / SPLIT / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Arudha Anchor》 = <D1_AL / D1_A2~D1_A12 / D1_UL / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Anchor Role》 = <BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED>
+- 《D1 Anchor Use Decision》 = <REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED>
+4. ACTUAL-SURFACE CHECK
+- 《Actual-Surface Status》 = <SAME / DIFFERENT / PARTIAL / SPLIT / NEEDS_RECHECK>
+- 《Source-Landing Status》 = <SAME_HOUSE / DIFFERENT_HOUSE / PARTIAL / SPLIT / NOT_CHECKED>
+- 《Surface Agreement》 = <YES / NO / PARTIAL / NOT_CHECKED>
+- 《Surface Distortion》 = <NONE / OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT>
+- 《Use Decision》 = <APPLY_AS_SURFACE / APPLY_AS_SURFACE_AS_DISTORTION / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+SAME 기준 =
+- 실제 2H 구조와 D-A2 표면이 같으면, 실제 남는 것과 밖에서 보이는 자원 장부가 일치한다.
+DIFFERENT 기준 =
+- 실제 2H 구조와 D-A2 표면이 다르면, 실제 보유와 표면 보유 이미지가 갈라진다.
+PARTIAL 기준 =
+- 실제 2H 구조와 D-A2 표면이 일부만 같은 방향을 가리키고, 핵심 기능은 완전히 같지 않을 때 사용한다.
+SPLIT 기준 =
+- 실제 2H 구조가 둘 이상의 표면 기능으로 갈라져 보이거나, D-A2와 다른 point가 동시에 표면을 나눌 때 사용한다.
+NEEDS_RECHECK 기준 =
+- Source / Sign / Degree / House From Lagna / Bhava Link / Linked Target House가 부족할 때 사용한다.
+5. CHECK QUESTIONS
+1) 6B-0 Source Board에 D-A2가 보존되어 있는가?
+2) D-A2의 Sign / Degree / Nakshatra/Pada / House From Lagna가 확인되는가?
+3) D-A2는 Target 2H의 실제 하우스·로드·행성 구조와 연결되는가?
+4) Target Rashi 구조와 D-A2 표면이 같은 방향으로 드러나는가?
+5) Target Bhava 현실 적용과 D-A2 표면이 같은 house-function으로 내려오는가?
+6) 실제 구조와 표면 구조가 같으면 어떤 표면 일치가 생기는가?
+7) 실제 구조와 외부 인식이 다르면 어디서 갈라지는가?
+8) 표면이 실제보다 과하게 보이는가, 실제보다 덜 보이는가, 다른 위치로 보이는가?
+9) D-A2가 D1 본체 약속을 덮어쓰고 있지는 않은가?
+9-A) D1 Anchor Role은 BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED 중 하나로 제한되어 있는가?
+9-B) D1 Anchor Use Decision은 REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED 중 하나로 제한되어 있는가?
+9-C) D1 Anchor가 Target D-chart Arudha point를 생성하거나 덮어쓰고 있지는 않은가?
+10) D-A2가 Target D-Chart Rashi/Bhava를 덮어쓰고 있지는 않은가?
+11) D-A2는 표면화 방식만 보정하고 있는가?
+6. OUTPUT SENTENCE FORMAT
+LEVEL 1 SLOT JUDGEMENT SENTENCE =
+《<D_CHART_TAG> D-A2》는 해당 분할차트 실제 《2H 자원 / 보유 / 말값 / 금고화 / 가족·도메인 내부 장부》을 대체하지 않고,
+그 구조가 해당 D차트 도메인 안에서 외부 인식과 표면 장부에 《자원 표면 / 말값 표면 / 보유 표면 / 금고 표면》로 어떻게 보이는지 확인하는 표면화 보조층이다.
+실제 《2H》 구조와 《D-A2》 표면 구조가 같으면 《SAME》으로 두고,
+갈라지면 《DIFFERENT / PARTIAL / SPLIT》로 표기하며,
+최종 구조판정은 해당 분할차트 Rashi/Bhava와 D1 본체 약속을 기준으로 유지한다.
+LEVEL 2 DEF_BOARD SURFACE NOTE =
+《<D_CHART_TAG> 2H》의 실제 구조는 《<TARGET_RASHI_LINK>》와 《<TARGET_BHAVA_LINK>》를 기준으로 유지하고,
+《D-A2》는 그 구조가 외부에서 《밖에서 보이는 자원·금고·말값·보유 능력》으로 보이는 방식만 보정한다.
+따라서 이 표면값은 사건 약속을 새로 만들지 않고,
+실제 구조가 표면에서 《<OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT / NONE>》로 드러나는지 확인하는 데만 사용한다.
+7. USE DECISION
+- 《APPLY_AS_SURFACE》 = D-A2가 2H의 외부 인식과 표면 장부를 유효하게 보정할 때 사용한다.
+- 《APPLY_AS_SURFACE_AS_DISTORTION》 = 실제 2H 구조와 D-A2 표면 구조가 다르지만, source가 명확하고 그 차이가 중요한 표면 왜곡 정보일 때 사용한다.
+- 《SUPPORT_ONLY》 = 실제 구조를 보조 설명할 수 있으나, 구조판정에 직접 반영하지 않을 때 사용한다.
+- 《REFERENCE_ONLY》 = 값은 보존하지만 현재 하우스 판정에는 쓰지 않을 때 사용한다.
+- 《HOLD》 = Source Confidence 부족, Degree/Nakshatra/Pada 누락, Actual-Surface Status 불명확, Target Rashi/Bhava link 미확인일 때 사용한다.
+- 《NOT_USED》 = 해당 point 자료가 없거나 현재 질문 범위에 포함되지 않을 때 사용한다.
+8. 2H COMPLETION CHECK
+□ 6B-0 Source Board 존재 확인
+□ Target D-Chart 확인
+□ Target D-Chart Domain 확인
+□ Target House = 2H 확인
+□ Relevant Arudha Point = D-A2 추출 확인
+□ Point Source Status 확인
+□ Source House of Pada = 2H 확인
+□ Arudha Sign 확인
+□ Arudha Degree 확인
+□ Arudha Nakshatra/Pada 확인
+□ Arudha House From Target D-Chart Lagna 확인
+□ Arudha House From Target D-Chart Bhava 확인
+□ Pada Landing House 확인
+□ Linked Target House = 2H 확인
+□ Linked Target House Lord 확인
+□ Linked Target Lord Position 확인
+□ Target Rashi Link 확인
+□ Target Bhava Link 확인
+□ Target Co-presence Link 확인
+□ Target Lord Movement Link 확인
+□ Target Actual Function 확인
+□ Surface Function 확인
+□ D1 Rashi Anchor 확인
+□ D1 Bhava Anchor 확인
+□ D1 Arudha Anchor 확인
+□ D1 Anchor Role 확인
+□ D1 Anchor Use Decision 확인
+□ D1 Anchor가 Target D-chart Arudha를 생성하지 않음
+□ D1 Anchor가 Target Rashi/Bhava를 덮지 않음
+□ Target D-chart Arudha가 D1 본체 약속을 덮지 않음
+□ Actual-Surface Status 확인
+□ Source-Landing Status 확인
+□ Surface Agreement 확인
+□ Surface Distortion 확인
+□ Use Decision 확인
+□ Missing / Partial Data Rule 적용 확인
+□ Actual-Surface Status Cap 적용 확인
+□ Target Rashi/Bhava overwrite 없음
+□ D1 Rashi/Bhava overwrite 없음
+□ 사건 약속 새로 생성 없음
+□ 강도층 미사용
+□ Aspect/Dasha/Varga Link 확장 없음
+□ Mrityu / AVA / Ashtakavarga / SP 미사용
+□ 표면화 방식만 보정
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-3H. TARGET D-CHART 3H ARUDHA APPLICATION SLOT
+3H → D-A3 타깃 하우스 아루다 세부 적용 슬롯
+REVISED 98 HOUSE-SPECIFIC DETAIL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. HOUSE / POINT AUTO-MAP
+- 《Target House》 = 3H
+- 《Relevant Arudha Point》 = D-A3
+- 《Surface Theme》 = 말·실행 표면 / 노력 표면 / 기술 표면 / 반복 시도 표면
+- 《Target House Core Question》 = 해당 D차트 도메인 안에서 말·기록·작은 실행·기술·반복 시도가 외부에 어떻게 보이는가
+- 《Primary Extraction Targets》 = 3H occupant / 3L / 9H axis / Mercury-Mars-Saturn links / effort-skill circuit planets
+- 《Linked Houses》 = 9H / 10H / 11H / 8H / 12H
+2. SOURCE EXTRACTION FROM 6B-0
+- 《Source Board》 = TARGET_DCHART_ARUDHA_D_STRUCTURE_SOURCE_BOARD_98
+- 《Extracted Point》 = D-A3
+- 《Point Source Status》 = <SOURCE_PRESERVED / PARTIAL / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_SUPPLIED / NOT_USED>
+- 《Point Sign》 = <SIGN / NOT_SHOWN>
+- 《Point Degree》 = <DEGREE / NOT_SHOWN>
+- 《Point Nakshatra/Pada》 = <NAKSHATRA_PADA / NOT_SHOWN>
+- 《Point House From Target D-Chart Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Point House From Target D-Chart Bhava》 = <BHAVA_HOUSE / NOT_SHOWN>
+- 《Source House of Pada》 = 3H
+- 《Pada Landing House》 = <HOUSE / BHAVA_HOUSE / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+Extraction Rule =
+- D-A3는 반드시 6B-0 Source Board에서 추출한다.
+- Source Board에 D-A3가 없으면 NOT_SUPPLIED 또는 NOT_USED로 둔다.
+- Sign만 있으면 SUPPORT_ONLY.
+- Sign + House만 있으면 SUPPORT_ONLY 가능.
+- Sign + Degree가 있으면 APPLY_AS_SURFACE 가능하되, Pada가 없으면 degree-detail은 제한한다.
+- Sign + Degree + Nakshatra/Pada가 있으면 APPLY_AS_SURFACE 가능.
+- Derived 값은 APP_VISIBLE / USER_TEXT_SUPPLIED 값을 덮어쓰지 않는다.
+- Source House와 Pada Landing House를 섞지 않는다.
+3. LINKED TARGET STRUCTURE
+- 《Target D-Chart》 = <D_CHART_TAG>
+- 《Target D-Chart Domain》 = <D_CHART_DOMAIN_LOCK_SENTENCE>
+- 《Linked Target House》 = 3H
+- 《Linked Target House Function》 = 말 / 기록 / 기술 / 반복검증 / 작은 실행
+- 《Linked Target House Lord》 = <TARGET_HOUSE_LORD / NOT_SHOWN>
+- 《Linked Target Lord Position》 = <SIGN / HOUSE / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Target Rashi Link》 = <TARGET_RASHI_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / CO-PRESENCE / NOT_SHOWN>
+- 《Target Bhava Link》 = <TARGET_BHAVA_HOUSE / SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_SHOWN>
+- 《Target Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《Target Lord Movement Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《Target Actual Function》 = 말 / 기록 / 기술 / 반복검증 / 작은 실행
+- 《Surface Function》 = 밖에서 보이는 실행력·기술·말·자료·시도 방식
+- 《D1 Rashi Anchor》 = <D1_RELEVANT_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Bhava Anchor》 = <D1_RELEVANT_BHAVA / SAME / MOVED / SPLIT / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Arudha Anchor》 = <D1_AL / D1_A2~D1_A12 / D1_UL / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Anchor Role》 = <BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED>
+- 《D1 Anchor Use Decision》 = <REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED>
+4. ACTUAL-SURFACE CHECK
+- 《Actual-Surface Status》 = <SAME / DIFFERENT / PARTIAL / SPLIT / NEEDS_RECHECK>
+- 《Source-Landing Status》 = <SAME_HOUSE / DIFFERENT_HOUSE / PARTIAL / SPLIT / NOT_CHECKED>
+- 《Surface Agreement》 = <YES / NO / PARTIAL / NOT_CHECKED>
+- 《Surface Distortion》 = <NONE / OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT>
+- 《Use Decision》 = <APPLY_AS_SURFACE / APPLY_AS_SURFACE_AS_DISTORTION / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+SAME 기준 =
+- 실제 3H 구조와 D-A3 표면이 같으면, 실제 노력과 밖에서 보이는 실행·기술 표면이 일치한다.
+DIFFERENT 기준 =
+- 실제 3H 구조와 D-A3 표면이 다르면, 실제로는 노력 중인데 밖에서는 다르게 보이거나 덜 보일 수 있다.
+PARTIAL 기준 =
+- 실제 3H 구조와 D-A3 표면이 일부만 같은 방향을 가리키고, 핵심 기능은 완전히 같지 않을 때 사용한다.
+SPLIT 기준 =
+- 실제 3H 구조가 둘 이상의 표면 기능으로 갈라져 보이거나, D-A3와 다른 point가 동시에 표면을 나눌 때 사용한다.
+NEEDS_RECHECK 기준 =
+- Source / Sign / Degree / House From Lagna / Bhava Link / Linked Target House가 부족할 때 사용한다.
+5. CHECK QUESTIONS
+1) 6B-0 Source Board에 D-A3가 보존되어 있는가?
+2) D-A3의 Sign / Degree / Nakshatra/Pada / House From Lagna가 확인되는가?
+3) D-A3는 Target 3H의 실제 하우스·로드·행성 구조와 연결되는가?
+4) Target Rashi 구조와 D-A3 표면이 같은 방향으로 드러나는가?
+5) Target Bhava 현실 적용과 D-A3 표면이 같은 house-function으로 내려오는가?
+6) 실제 구조와 표면 구조가 같으면 어떤 표면 일치가 생기는가?
+7) 실제 구조와 외부 인식이 다르면 어디서 갈라지는가?
+8) 표면이 실제보다 과하게 보이는가, 실제보다 덜 보이는가, 다른 위치로 보이는가?
+9) D-A3가 D1 본체 약속을 덮어쓰고 있지는 않은가?
+9-A) D1 Anchor Role은 BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED 중 하나로 제한되어 있는가?
+9-B) D1 Anchor Use Decision은 REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED 중 하나로 제한되어 있는가?
+9-C) D1 Anchor가 Target D-chart Arudha point를 생성하거나 덮어쓰고 있지는 않은가?
+10) D-A3가 Target D-Chart Rashi/Bhava를 덮어쓰고 있지는 않은가?
+11) D-A3는 표면화 방식만 보정하고 있는가?
+6. OUTPUT SENTENCE FORMAT
+LEVEL 1 SLOT JUDGEMENT SENTENCE =
+《<D_CHART_TAG> D-A3》는 해당 분할차트 실제 《3H 말 / 기록 / 기술 / 반복검증 / 작은 실행》을 대체하지 않고,
+그 구조가 해당 D차트 도메인 안에서 외부 인식과 표면 장부에 《말·실행 표면 / 노력 표면 / 기술 표면 / 반복 시도 표면》로 어떻게 보이는지 확인하는 표면화 보조층이다.
+실제 《3H》 구조와 《D-A3》 표면 구조가 같으면 《SAME》으로 두고,
+갈라지면 《DIFFERENT / PARTIAL / SPLIT》로 표기하며,
+최종 구조판정은 해당 분할차트 Rashi/Bhava와 D1 본체 약속을 기준으로 유지한다.
+LEVEL 2 DEF_BOARD SURFACE NOTE =
+《<D_CHART_TAG> 3H》의 실제 구조는 《<TARGET_RASHI_LINK>》와 《<TARGET_BHAVA_LINK>》를 기준으로 유지하고,
+《D-A3》는 그 구조가 외부에서 《밖에서 보이는 실행력·기술·말·자료·시도 방식》으로 보이는 방식만 보정한다.
+따라서 이 표면값은 사건 약속을 새로 만들지 않고,
+실제 구조가 표면에서 《<OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT / NONE>》로 드러나는지 확인하는 데만 사용한다.
+7. USE DECISION
+- 《APPLY_AS_SURFACE》 = D-A3가 3H의 외부 인식과 표면 장부를 유효하게 보정할 때 사용한다.
+- 《APPLY_AS_SURFACE_AS_DISTORTION》 = 실제 3H 구조와 D-A3 표면 구조가 다르지만, source가 명확하고 그 차이가 중요한 표면 왜곡 정보일 때 사용한다.
+- 《SUPPORT_ONLY》 = 실제 구조를 보조 설명할 수 있으나, 구조판정에 직접 반영하지 않을 때 사용한다.
+- 《REFERENCE_ONLY》 = 값은 보존하지만 현재 하우스 판정에는 쓰지 않을 때 사용한다.
+- 《HOLD》 = Source Confidence 부족, Degree/Nakshatra/Pada 누락, Actual-Surface Status 불명확, Target Rashi/Bhava link 미확인일 때 사용한다.
+- 《NOT_USED》 = 해당 point 자료가 없거나 현재 질문 범위에 포함되지 않을 때 사용한다.
+8. 3H COMPLETION CHECK
+□ 6B-0 Source Board 존재 확인
+□ Target D-Chart 확인
+□ Target D-Chart Domain 확인
+□ Target House = 3H 확인
+□ Relevant Arudha Point = D-A3 추출 확인
+□ Point Source Status 확인
+□ Source House of Pada = 3H 확인
+□ Arudha Sign 확인
+□ Arudha Degree 확인
+□ Arudha Nakshatra/Pada 확인
+□ Arudha House From Target D-Chart Lagna 확인
+□ Arudha House From Target D-Chart Bhava 확인
+□ Pada Landing House 확인
+□ Linked Target House = 3H 확인
+□ Linked Target House Lord 확인
+□ Linked Target Lord Position 확인
+□ Target Rashi Link 확인
+□ Target Bhava Link 확인
+□ Target Co-presence Link 확인
+□ Target Lord Movement Link 확인
+□ Target Actual Function 확인
+□ Surface Function 확인
+□ D1 Rashi Anchor 확인
+□ D1 Bhava Anchor 확인
+□ D1 Arudha Anchor 확인
+□ D1 Anchor Role 확인
+□ D1 Anchor Use Decision 확인
+□ D1 Anchor가 Target D-chart Arudha를 생성하지 않음
+□ D1 Anchor가 Target Rashi/Bhava를 덮지 않음
+□ Target D-chart Arudha가 D1 본체 약속을 덮지 않음
+□ Actual-Surface Status 확인
+□ Source-Landing Status 확인
+□ Surface Agreement 확인
+□ Surface Distortion 확인
+□ Use Decision 확인
+□ Missing / Partial Data Rule 적용 확인
+□ Actual-Surface Status Cap 적용 확인
+□ Target Rashi/Bhava overwrite 없음
+□ D1 Rashi/Bhava overwrite 없음
+□ 사건 약속 새로 생성 없음
+□ 강도층 미사용
+□ Aspect/Dasha/Varga Link 확장 없음
+□ Mrityu / AVA / Ashtakavarga / SP 미사용
+□ 표면화 방식만 보정
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-4H. TARGET D-CHART 4H ARUDHA APPLICATION SLOT
+4H → D-A4 타깃 하우스 아루다 세부 적용 슬롯
+REVISED 98 HOUSE-SPECIFIC DETAIL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. HOUSE / POINT AUTO-MAP
+- 《Target House》 = 4H
+- 《Relevant Arudha Point》 = D-A4
+- 《Surface Theme》 = 기반 표면 / 안정 표면 / 내부 바닥 표면 / 거처 표면
+- 《Target House Core Question》 = 해당 D차트 도메인 안에서 집·기반·안정·정착·내부 바닥이 외부에 어떤 표면 장부로 보이는가
+- 《Primary Extraction Targets》 = 4H occupant / 4L / 10H axis / Moon-Venus-Saturn links / base-property circuit planets
+- 《Linked Houses》 = 10H / 2H / 8H / 11H / 12H
+2. SOURCE EXTRACTION FROM 6B-0
+- 《Source Board》 = TARGET_DCHART_ARUDHA_D_STRUCTURE_SOURCE_BOARD_98
+- 《Extracted Point》 = D-A4
+- 《Point Source Status》 = <SOURCE_PRESERVED / PARTIAL / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_SUPPLIED / NOT_USED>
+- 《Point Sign》 = <SIGN / NOT_SHOWN>
+- 《Point Degree》 = <DEGREE / NOT_SHOWN>
+- 《Point Nakshatra/Pada》 = <NAKSHATRA_PADA / NOT_SHOWN>
+- 《Point House From Target D-Chart Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Point House From Target D-Chart Bhava》 = <BHAVA_HOUSE / NOT_SHOWN>
+- 《Source House of Pada》 = 4H
+- 《Pada Landing House》 = <HOUSE / BHAVA_HOUSE / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+Extraction Rule =
+- D-A4는 반드시 6B-0 Source Board에서 추출한다.
+- Source Board에 D-A4가 없으면 NOT_SUPPLIED 또는 NOT_USED로 둔다.
+- Sign만 있으면 SUPPORT_ONLY.
+- Sign + House만 있으면 SUPPORT_ONLY 가능.
+- Sign + Degree가 있으면 APPLY_AS_SURFACE 가능하되, Pada가 없으면 degree-detail은 제한한다.
+- Sign + Degree + Nakshatra/Pada가 있으면 APPLY_AS_SURFACE 가능.
+- Derived 값은 APP_VISIBLE / USER_TEXT_SUPPLIED 값을 덮어쓰지 않는다.
+- Source House와 Pada Landing House를 섞지 않는다.
+3. LINKED TARGET STRUCTURE
+- 《Target D-Chart》 = <D_CHART_TAG>
+- 《Target D-Chart Domain》 = <D_CHART_DOMAIN_LOCK_SENTENCE>
+- 《Linked Target House》 = 4H
+- 《Linked Target House Function》 = 집 / 기반 / 내면 바닥 / 정착 / 안정 구조
+- 《Linked Target House Lord》 = <TARGET_HOUSE_LORD / NOT_SHOWN>
+- 《Linked Target Lord Position》 = <SIGN / HOUSE / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Target Rashi Link》 = <TARGET_RASHI_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / CO-PRESENCE / NOT_SHOWN>
+- 《Target Bhava Link》 = <TARGET_BHAVA_HOUSE / SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_SHOWN>
+- 《Target Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《Target Lord Movement Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《Target Actual Function》 = 집 / 기반 / 내면 바닥 / 정착 / 안정 구조
+- 《Surface Function》 = 밖에서 보이는 기반·안정·집·정착 상태
+- 《D1 Rashi Anchor》 = <D1_RELEVANT_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Bhava Anchor》 = <D1_RELEVANT_BHAVA / SAME / MOVED / SPLIT / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Arudha Anchor》 = <D1_AL / D1_A2~D1_A12 / D1_UL / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Anchor Role》 = <BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED>
+- 《D1 Anchor Use Decision》 = <REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED>
+4. ACTUAL-SURFACE CHECK
+- 《Actual-Surface Status》 = <SAME / DIFFERENT / PARTIAL / SPLIT / NEEDS_RECHECK>
+- 《Source-Landing Status》 = <SAME_HOUSE / DIFFERENT_HOUSE / PARTIAL / SPLIT / NOT_CHECKED>
+- 《Surface Agreement》 = <YES / NO / PARTIAL / NOT_CHECKED>
+- 《Surface Distortion》 = <NONE / OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT>
+- 《Use Decision》 = <APPLY_AS_SURFACE / APPLY_AS_SURFACE_AS_DISTORTION / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+SAME 기준 =
+- 실제 4H 구조와 D-A4 표면이 같으면, 실제 기반과 밖에서 보이는 안정 표면이 일치한다.
+DIFFERENT 기준 =
+- 실제 4H 구조와 D-A4 표면이 다르면, 실제 기반은 흔들리는데 밖에서는 안정처럼 보이거나 반대로 보일 수 있다.
+PARTIAL 기준 =
+- 실제 4H 구조와 D-A4 표면이 일부만 같은 방향을 가리키고, 핵심 기능은 완전히 같지 않을 때 사용한다.
+SPLIT 기준 =
+- 실제 4H 구조가 둘 이상의 표면 기능으로 갈라져 보이거나, D-A4와 다른 point가 동시에 표면을 나눌 때 사용한다.
+NEEDS_RECHECK 기준 =
+- Source / Sign / Degree / House From Lagna / Bhava Link / Linked Target House가 부족할 때 사용한다.
+5. CHECK QUESTIONS
+1) 6B-0 Source Board에 D-A4가 보존되어 있는가?
+2) D-A4의 Sign / Degree / Nakshatra/Pada / House From Lagna가 확인되는가?
+3) D-A4는 Target 4H의 실제 하우스·로드·행성 구조와 연결되는가?
+4) Target Rashi 구조와 D-A4 표면이 같은 방향으로 드러나는가?
+5) Target Bhava 현실 적용과 D-A4 표면이 같은 house-function으로 내려오는가?
+6) 실제 구조와 표면 구조가 같으면 어떤 표면 일치가 생기는가?
+7) 실제 구조와 외부 인식이 다르면 어디서 갈라지는가?
+8) 표면이 실제보다 과하게 보이는가, 실제보다 덜 보이는가, 다른 위치로 보이는가?
+9) D-A4가 D1 본체 약속을 덮어쓰고 있지는 않은가?
+9-A) D1 Anchor Role은 BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED 중 하나로 제한되어 있는가?
+9-B) D1 Anchor Use Decision은 REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED 중 하나로 제한되어 있는가?
+9-C) D1 Anchor가 Target D-chart Arudha point를 생성하거나 덮어쓰고 있지는 않은가?
+10) D-A4가 Target D-Chart Rashi/Bhava를 덮어쓰고 있지는 않은가?
+11) D-A4는 표면화 방식만 보정하고 있는가?
+6. OUTPUT SENTENCE FORMAT
+LEVEL 1 SLOT JUDGEMENT SENTENCE =
+《<D_CHART_TAG> D-A4》는 해당 분할차트 실제 《4H 집 / 기반 / 내면 바닥 / 정착 / 안정 구조》을 대체하지 않고,
+그 구조가 해당 D차트 도메인 안에서 외부 인식과 표면 장부에 《기반 표면 / 안정 표면 / 내부 바닥 표면 / 거처 표면》로 어떻게 보이는지 확인하는 표면화 보조층이다.
+실제 《4H》 구조와 《D-A4》 표면 구조가 같으면 《SAME》으로 두고,
+갈라지면 《DIFFERENT / PARTIAL / SPLIT》로 표기하며,
+최종 구조판정은 해당 분할차트 Rashi/Bhava와 D1 본체 약속을 기준으로 유지한다.
+LEVEL 2 DEF_BOARD SURFACE NOTE =
+《<D_CHART_TAG> 4H》의 실제 구조는 《<TARGET_RASHI_LINK>》와 《<TARGET_BHAVA_LINK>》를 기준으로 유지하고,
+《D-A4》는 그 구조가 외부에서 《밖에서 보이는 기반·안정·집·정착 상태》으로 보이는 방식만 보정한다.
+따라서 이 표면값은 사건 약속을 새로 만들지 않고,
+실제 구조가 표면에서 《<OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT / NONE>》로 드러나는지 확인하는 데만 사용한다.
+7. USE DECISION
+- 《APPLY_AS_SURFACE》 = D-A4가 4H의 외부 인식과 표면 장부를 유효하게 보정할 때 사용한다.
+- 《APPLY_AS_SURFACE_AS_DISTORTION》 = 실제 4H 구조와 D-A4 표면 구조가 다르지만, source가 명확하고 그 차이가 중요한 표면 왜곡 정보일 때 사용한다.
+- 《SUPPORT_ONLY》 = 실제 구조를 보조 설명할 수 있으나, 구조판정에 직접 반영하지 않을 때 사용한다.
+- 《REFERENCE_ONLY》 = 값은 보존하지만 현재 하우스 판정에는 쓰지 않을 때 사용한다.
+- 《HOLD》 = Source Confidence 부족, Degree/Nakshatra/Pada 누락, Actual-Surface Status 불명확, Target Rashi/Bhava link 미확인일 때 사용한다.
+- 《NOT_USED》 = 해당 point 자료가 없거나 현재 질문 범위에 포함되지 않을 때 사용한다.
+8. 4H COMPLETION CHECK
+□ 6B-0 Source Board 존재 확인
+□ Target D-Chart 확인
+□ Target D-Chart Domain 확인
+□ Target House = 4H 확인
+□ Relevant Arudha Point = D-A4 추출 확인
+□ Point Source Status 확인
+□ Source House of Pada = 4H 확인
+□ Arudha Sign 확인
+□ Arudha Degree 확인
+□ Arudha Nakshatra/Pada 확인
+□ Arudha House From Target D-Chart Lagna 확인
+□ Arudha House From Target D-Chart Bhava 확인
+□ Pada Landing House 확인
+□ Linked Target House = 4H 확인
+□ Linked Target House Lord 확인
+□ Linked Target Lord Position 확인
+□ Target Rashi Link 확인
+□ Target Bhava Link 확인
+□ Target Co-presence Link 확인
+□ Target Lord Movement Link 확인
+□ Target Actual Function 확인
+□ Surface Function 확인
+□ D1 Rashi Anchor 확인
+□ D1 Bhava Anchor 확인
+□ D1 Arudha Anchor 확인
+□ D1 Anchor Role 확인
+□ D1 Anchor Use Decision 확인
+□ D1 Anchor가 Target D-chart Arudha를 생성하지 않음
+□ D1 Anchor가 Target Rashi/Bhava를 덮지 않음
+□ Target D-chart Arudha가 D1 본체 약속을 덮지 않음
+□ Actual-Surface Status 확인
+□ Source-Landing Status 확인
+□ Surface Agreement 확인
+□ Surface Distortion 확인
+□ Use Decision 확인
+□ Missing / Partial Data Rule 적용 확인
+□ Actual-Surface Status Cap 적용 확인
+□ Target Rashi/Bhava overwrite 없음
+□ D1 Rashi/Bhava overwrite 없음
+□ 사건 약속 새로 생성 없음
+□ 강도층 미사용
+□ Aspect/Dasha/Varga Link 확장 없음
+□ Mrityu / AVA / Ashtakavarga / SP 미사용
+□ 표면화 방식만 보정
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-5H. TARGET D-CHART 5H ARUDHA APPLICATION SLOT
+5H → D-A5 타깃 하우스 아루다 세부 적용 슬롯
+REVISED 98 HOUSE-SPECIFIC DETAIL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. HOUSE / POINT AUTO-MAP
+- 《Target House》 = 5H
+- 《Relevant Arudha Point》 = D-A5
+- 《Surface Theme》 = 판단 표면 / 창조 표면 / 투입 표면 / 선택 표면
+- 《Target House Core Question》 = 해당 D차트 도메인 안에서 판단·창조·투입·선택·자원화 가능성이 외부에 어떻게 보이는가
+- 《Primary Extraction Targets》 = 5H occupant / 5L / 11H axis / Sun-Jupiter-Venus-Mercury links / judgment-creation circuit planets
+- 《Linked Houses》 = 11H / 2H / 9H / 10H / 12H
+2. SOURCE EXTRACTION FROM 6B-0
+- 《Source Board》 = TARGET_DCHART_ARUDHA_D_STRUCTURE_SOURCE_BOARD_98
+- 《Extracted Point》 = D-A5
+- 《Point Source Status》 = <SOURCE_PRESERVED / PARTIAL / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_SUPPLIED / NOT_USED>
+- 《Point Sign》 = <SIGN / NOT_SHOWN>
+- 《Point Degree》 = <DEGREE / NOT_SHOWN>
+- 《Point Nakshatra/Pada》 = <NAKSHATRA_PADA / NOT_SHOWN>
+- 《Point House From Target D-Chart Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Point House From Target D-Chart Bhava》 = <BHAVA_HOUSE / NOT_SHOWN>
+- 《Source House of Pada》 = 5H
+- 《Pada Landing House》 = <HOUSE / BHAVA_HOUSE / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+Extraction Rule =
+- D-A5는 반드시 6B-0 Source Board에서 추출한다.
+- Source Board에 D-A5가 없으면 NOT_SUPPLIED 또는 NOT_USED로 둔다.
+- Sign만 있으면 SUPPORT_ONLY.
+- Sign + House만 있으면 SUPPORT_ONLY 가능.
+- Sign + Degree가 있으면 APPLY_AS_SURFACE 가능하되, Pada가 없으면 degree-detail은 제한한다.
+- Sign + Degree + Nakshatra/Pada가 있으면 APPLY_AS_SURFACE 가능.
+- Derived 값은 APP_VISIBLE / USER_TEXT_SUPPLIED 값을 덮어쓰지 않는다.
+- Source House와 Pada Landing House를 섞지 않는다.
+3. LINKED TARGET STRUCTURE
+- 《Target D-Chart》 = <D_CHART_TAG>
+- 《Target D-Chart Domain》 = <D_CHART_DOMAIN_LOCK_SENTENCE>
+- 《Linked Target House》 = 5H
+- 《Linked Target House Function》 = 판단 / 창조 / 선택 / 투입 / 자원화
+- 《Linked Target House Lord》 = <TARGET_HOUSE_LORD / NOT_SHOWN>
+- 《Linked Target Lord Position》 = <SIGN / HOUSE / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Target Rashi Link》 = <TARGET_RASHI_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / CO-PRESENCE / NOT_SHOWN>
+- 《Target Bhava Link》 = <TARGET_BHAVA_HOUSE / SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_SHOWN>
+- 《Target Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《Target Lord Movement Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《Target Actual Function》 = 판단 / 창조 / 선택 / 투입 / 자원화
+- 《Surface Function》 = 밖에서 보이는 판단력·창조성·투입 방식·선택 능력
+- 《D1 Rashi Anchor》 = <D1_RELEVANT_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Bhava Anchor》 = <D1_RELEVANT_BHAVA / SAME / MOVED / SPLIT / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Arudha Anchor》 = <D1_AL / D1_A2~D1_A12 / D1_UL / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Anchor Role》 = <BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED>
+- 《D1 Anchor Use Decision》 = <REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED>
+4. ACTUAL-SURFACE CHECK
+- 《Actual-Surface Status》 = <SAME / DIFFERENT / PARTIAL / SPLIT / NEEDS_RECHECK>
+- 《Source-Landing Status》 = <SAME_HOUSE / DIFFERENT_HOUSE / PARTIAL / SPLIT / NOT_CHECKED>
+- 《Surface Agreement》 = <YES / NO / PARTIAL / NOT_CHECKED>
+- 《Surface Distortion》 = <NONE / OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT>
+- 《Use Decision》 = <APPLY_AS_SURFACE / APPLY_AS_SURFACE_AS_DISTORTION / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+SAME 기준 =
+- 실제 5H 구조와 D-A5 표면이 같으면, 실제 판단·창조 기능과 밖에서 보이는 선택 표면이 일치한다.
+DIFFERENT 기준 =
+- 실제 5H 구조와 D-A5 표면이 다르면, 실제 선택 기준과 외부가 보는 창조·투입 이미지가 갈라진다.
+PARTIAL 기준 =
+- 실제 5H 구조와 D-A5 표면이 일부만 같은 방향을 가리키고, 핵심 기능은 완전히 같지 않을 때 사용한다.
+SPLIT 기준 =
+- 실제 5H 구조가 둘 이상의 표면 기능으로 갈라져 보이거나, D-A5와 다른 point가 동시에 표면을 나눌 때 사용한다.
+NEEDS_RECHECK 기준 =
+- Source / Sign / Degree / House From Lagna / Bhava Link / Linked Target House가 부족할 때 사용한다.
+5. CHECK QUESTIONS
+1) 6B-0 Source Board에 D-A5가 보존되어 있는가?
+2) D-A5의 Sign / Degree / Nakshatra/Pada / House From Lagna가 확인되는가?
+3) D-A5는 Target 5H의 실제 하우스·로드·행성 구조와 연결되는가?
+4) Target Rashi 구조와 D-A5 표면이 같은 방향으로 드러나는가?
+5) Target Bhava 현실 적용과 D-A5 표면이 같은 house-function으로 내려오는가?
+6) 실제 구조와 표면 구조가 같으면 어떤 표면 일치가 생기는가?
+7) 실제 구조와 외부 인식이 다르면 어디서 갈라지는가?
+8) 표면이 실제보다 과하게 보이는가, 실제보다 덜 보이는가, 다른 위치로 보이는가?
+9) D-A5가 D1 본체 약속을 덮어쓰고 있지는 않은가?
+9-A) D1 Anchor Role은 BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED 중 하나로 제한되어 있는가?
+9-B) D1 Anchor Use Decision은 REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED 중 하나로 제한되어 있는가?
+9-C) D1 Anchor가 Target D-chart Arudha point를 생성하거나 덮어쓰고 있지는 않은가?
+10) D-A5가 Target D-Chart Rashi/Bhava를 덮어쓰고 있지는 않은가?
+11) D-A5는 표면화 방식만 보정하고 있는가?
+6. OUTPUT SENTENCE FORMAT
+LEVEL 1 SLOT JUDGEMENT SENTENCE =
+《<D_CHART_TAG> D-A5》는 해당 분할차트 실제 《5H 판단 / 창조 / 선택 / 투입 / 자원화》을 대체하지 않고,
+그 구조가 해당 D차트 도메인 안에서 외부 인식과 표면 장부에 《판단 표면 / 창조 표면 / 투입 표면 / 선택 표면》로 어떻게 보이는지 확인하는 표면화 보조층이다.
+실제 《5H》 구조와 《D-A5》 표면 구조가 같으면 《SAME》으로 두고,
+갈라지면 《DIFFERENT / PARTIAL / SPLIT》로 표기하며,
+최종 구조판정은 해당 분할차트 Rashi/Bhava와 D1 본체 약속을 기준으로 유지한다.
+LEVEL 2 DEF_BOARD SURFACE NOTE =
+《<D_CHART_TAG> 5H》의 실제 구조는 《<TARGET_RASHI_LINK>》와 《<TARGET_BHAVA_LINK>》를 기준으로 유지하고,
+《D-A5》는 그 구조가 외부에서 《밖에서 보이는 판단력·창조성·투입 방식·선택 능력》으로 보이는 방식만 보정한다.
+따라서 이 표면값은 사건 약속을 새로 만들지 않고,
+실제 구조가 표면에서 《<OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT / NONE>》로 드러나는지 확인하는 데만 사용한다.
+7. USE DECISION
+- 《APPLY_AS_SURFACE》 = D-A5가 5H의 외부 인식과 표면 장부를 유효하게 보정할 때 사용한다.
+- 《APPLY_AS_SURFACE_AS_DISTORTION》 = 실제 5H 구조와 D-A5 표면 구조가 다르지만, source가 명확하고 그 차이가 중요한 표면 왜곡 정보일 때 사용한다.
+- 《SUPPORT_ONLY》 = 실제 구조를 보조 설명할 수 있으나, 구조판정에 직접 반영하지 않을 때 사용한다.
+- 《REFERENCE_ONLY》 = 값은 보존하지만 현재 하우스 판정에는 쓰지 않을 때 사용한다.
+- 《HOLD》 = Source Confidence 부족, Degree/Nakshatra/Pada 누락, Actual-Surface Status 불명확, Target Rashi/Bhava link 미확인일 때 사용한다.
+- 《NOT_USED》 = 해당 point 자료가 없거나 현재 질문 범위에 포함되지 않을 때 사용한다.
+8. 5H COMPLETION CHECK
+□ 6B-0 Source Board 존재 확인
+□ Target D-Chart 확인
+□ Target D-Chart Domain 확인
+□ Target House = 5H 확인
+□ Relevant Arudha Point = D-A5 추출 확인
+□ Point Source Status 확인
+□ Source House of Pada = 5H 확인
+□ Arudha Sign 확인
+□ Arudha Degree 확인
+□ Arudha Nakshatra/Pada 확인
+□ Arudha House From Target D-Chart Lagna 확인
+□ Arudha House From Target D-Chart Bhava 확인
+□ Pada Landing House 확인
+□ Linked Target House = 5H 확인
+□ Linked Target House Lord 확인
+□ Linked Target Lord Position 확인
+□ Target Rashi Link 확인
+□ Target Bhava Link 확인
+□ Target Co-presence Link 확인
+□ Target Lord Movement Link 확인
+□ Target Actual Function 확인
+□ Surface Function 확인
+□ D1 Rashi Anchor 확인
+□ D1 Bhava Anchor 확인
+□ D1 Arudha Anchor 확인
+□ D1 Anchor Role 확인
+□ D1 Anchor Use Decision 확인
+□ D1 Anchor가 Target D-chart Arudha를 생성하지 않음
+□ D1 Anchor가 Target Rashi/Bhava를 덮지 않음
+□ Target D-chart Arudha가 D1 본체 약속을 덮지 않음
+□ Actual-Surface Status 확인
+□ Source-Landing Status 확인
+□ Surface Agreement 확인
+□ Surface Distortion 확인
+□ Use Decision 확인
+□ Missing / Partial Data Rule 적용 확인
+□ Actual-Surface Status Cap 적용 확인
+□ Target Rashi/Bhava overwrite 없음
+□ D1 Rashi/Bhava overwrite 없음
+□ 사건 약속 새로 생성 없음
+□ 강도층 미사용
+□ Aspect/Dasha/Varga Link 확장 없음
+□ Mrityu / AVA / Ashtakavarga / SP 미사용
+□ 표면화 방식만 보정
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-6H. TARGET D-CHART 6H ARUDHA APPLICATION SLOT
+6H → D-A6 타깃 하우스 아루다 세부 적용 슬롯
+REVISED 98 HOUSE-SPECIFIC DETAIL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. HOUSE / POINT AUTO-MAP
+- 《Target House》 = 6H
+- 《Relevant Arudha Point》 = D-A6
+- 《Surface Theme》 = 문제처리 표면 / 노동 표면 / 부담 표면 / 경쟁 표면
+- 《Target House Core Question》 = 해당 D차트 도메인 안에서 문제관리·부담·노동·경쟁·손실방어가 외부에 어떻게 보이는가
+- 《Primary Extraction Targets》 = 6H occupant / 6L / 12H axis / Saturn-Mars-Mercury links / burden-conflict circuit planets
+- 《Linked Houses》 = 12H / 8H / 3H / 10H / 11H
+2. SOURCE EXTRACTION FROM 6B-0
+- 《Source Board》 = TARGET_DCHART_ARUDHA_D_STRUCTURE_SOURCE_BOARD_98
+- 《Extracted Point》 = D-A6
+- 《Point Source Status》 = <SOURCE_PRESERVED / PARTIAL / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_SUPPLIED / NOT_USED>
+- 《Point Sign》 = <SIGN / NOT_SHOWN>
+- 《Point Degree》 = <DEGREE / NOT_SHOWN>
+- 《Point Nakshatra/Pada》 = <NAKSHATRA_PADA / NOT_SHOWN>
+- 《Point House From Target D-Chart Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Point House From Target D-Chart Bhava》 = <BHAVA_HOUSE / NOT_SHOWN>
+- 《Source House of Pada》 = 6H
+- 《Pada Landing House》 = <HOUSE / BHAVA_HOUSE / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+Extraction Rule =
+- D-A6는 반드시 6B-0 Source Board에서 추출한다.
+- Source Board에 D-A6가 없으면 NOT_SUPPLIED 또는 NOT_USED로 둔다.
+- Sign만 있으면 SUPPORT_ONLY.
+- Sign + House만 있으면 SUPPORT_ONLY 가능.
+- Sign + Degree가 있으면 APPLY_AS_SURFACE 가능하되, Pada가 없으면 degree-detail은 제한한다.
+- Sign + Degree + Nakshatra/Pada가 있으면 APPLY_AS_SURFACE 가능.
+- Derived 값은 APP_VISIBLE / USER_TEXT_SUPPLIED 값을 덮어쓰지 않는다.
+- Source House와 Pada Landing House를 섞지 않는다.
+3. LINKED TARGET STRUCTURE
+- 《Target D-Chart》 = <D_CHART_TAG>
+- 《Target D-Chart Domain》 = <D_CHART_DOMAIN_LOCK_SENTENCE>
+- 《Linked Target House》 = 6H
+- 《Linked Target House Function》 = 문제관리 / 부담 / 반복노동 / 적대축 / 손실방어
+- 《Linked Target House Lord》 = <TARGET_HOUSE_LORD / NOT_SHOWN>
+- 《Linked Target Lord Position》 = <SIGN / HOUSE / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Target Rashi Link》 = <TARGET_RASHI_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / CO-PRESENCE / NOT_SHOWN>
+- 《Target Bhava Link》 = <TARGET_BHAVA_HOUSE / SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_SHOWN>
+- 《Target Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《Target Lord Movement Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《Target Actual Function》 = 문제관리 / 부담 / 반복노동 / 적대축 / 손실방어
+- 《Surface Function》 = 밖에서 보이는 문제처리·노동·부담 감당 표면
+- 《D1 Rashi Anchor》 = <D1_RELEVANT_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Bhava Anchor》 = <D1_RELEVANT_BHAVA / SAME / MOVED / SPLIT / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Arudha Anchor》 = <D1_AL / D1_A2~D1_A12 / D1_UL / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Anchor Role》 = <BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED>
+- 《D1 Anchor Use Decision》 = <REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED>
+4. ACTUAL-SURFACE CHECK
+- 《Actual-Surface Status》 = <SAME / DIFFERENT / PARTIAL / SPLIT / NEEDS_RECHECK>
+- 《Source-Landing Status》 = <SAME_HOUSE / DIFFERENT_HOUSE / PARTIAL / SPLIT / NOT_CHECKED>
+- 《Surface Agreement》 = <YES / NO / PARTIAL / NOT_CHECKED>
+- 《Surface Distortion》 = <NONE / OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT>
+- 《Use Decision》 = <APPLY_AS_SURFACE / APPLY_AS_SURFACE_AS_DISTORTION / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+SAME 기준 =
+- 실제 6H 구조와 D-A6 표면이 같으면, 실제 부담관리와 밖에서 보이는 문제처리 표면이 일치한다.
+DIFFERENT 기준 =
+- 실제 6H 구조와 D-A6 표면이 다르면, 실제 부담은 큰데 밖에서는 감당 가능한 사람처럼 보일 수 있다.
+PARTIAL 기준 =
+- 실제 6H 구조와 D-A6 표면이 일부만 같은 방향을 가리키고, 핵심 기능은 완전히 같지 않을 때 사용한다.
+SPLIT 기준 =
+- 실제 6H 구조가 둘 이상의 표면 기능으로 갈라져 보이거나, D-A6와 다른 point가 동시에 표면을 나눌 때 사용한다.
+NEEDS_RECHECK 기준 =
+- Source / Sign / Degree / House From Lagna / Bhava Link / Linked Target House가 부족할 때 사용한다.
+5. CHECK QUESTIONS
+1) 6B-0 Source Board에 D-A6가 보존되어 있는가?
+2) D-A6의 Sign / Degree / Nakshatra/Pada / House From Lagna가 확인되는가?
+3) D-A6는 Target 6H의 실제 하우스·로드·행성 구조와 연결되는가?
+4) Target Rashi 구조와 D-A6 표면이 같은 방향으로 드러나는가?
+5) Target Bhava 현실 적용과 D-A6 표면이 같은 house-function으로 내려오는가?
+6) 실제 구조와 표면 구조가 같으면 어떤 표면 일치가 생기는가?
+7) 실제 구조와 외부 인식이 다르면 어디서 갈라지는가?
+8) 표면이 실제보다 과하게 보이는가, 실제보다 덜 보이는가, 다른 위치로 보이는가?
+9) D-A6가 D1 본체 약속을 덮어쓰고 있지는 않은가?
+9-A) D1 Anchor Role은 BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED 중 하나로 제한되어 있는가?
+9-B) D1 Anchor Use Decision은 REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED 중 하나로 제한되어 있는가?
+9-C) D1 Anchor가 Target D-chart Arudha point를 생성하거나 덮어쓰고 있지는 않은가?
+10) D-A6가 Target D-Chart Rashi/Bhava를 덮어쓰고 있지는 않은가?
+11) D-A6는 표면화 방식만 보정하고 있는가?
+6. OUTPUT SENTENCE FORMAT
+LEVEL 1 SLOT JUDGEMENT SENTENCE =
+《<D_CHART_TAG> D-A6》는 해당 분할차트 실제 《6H 문제관리 / 부담 / 반복노동 / 적대축 / 손실방어》을 대체하지 않고,
+그 구조가 해당 D차트 도메인 안에서 외부 인식과 표면 장부에 《문제처리 표면 / 노동 표면 / 부담 표면 / 경쟁 표면》로 어떻게 보이는지 확인하는 표면화 보조층이다.
+실제 《6H》 구조와 《D-A6》 표면 구조가 같으면 《SAME》으로 두고,
+갈라지면 《DIFFERENT / PARTIAL / SPLIT》로 표기하며,
+최종 구조판정은 해당 분할차트 Rashi/Bhava와 D1 본체 약속을 기준으로 유지한다.
+LEVEL 2 DEF_BOARD SURFACE NOTE =
+《<D_CHART_TAG> 6H》의 실제 구조는 《<TARGET_RASHI_LINK>》와 《<TARGET_BHAVA_LINK>》를 기준으로 유지하고,
+《D-A6》는 그 구조가 외부에서 《밖에서 보이는 문제처리·노동·부담 감당 표면》으로 보이는 방식만 보정한다.
+따라서 이 표면값은 사건 약속을 새로 만들지 않고,
+실제 구조가 표면에서 《<OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT / NONE>》로 드러나는지 확인하는 데만 사용한다.
+7. USE DECISION
+- 《APPLY_AS_SURFACE》 = D-A6가 6H의 외부 인식과 표면 장부를 유효하게 보정할 때 사용한다.
+- 《APPLY_AS_SURFACE_AS_DISTORTION》 = 실제 6H 구조와 D-A6 표면 구조가 다르지만, source가 명확하고 그 차이가 중요한 표면 왜곡 정보일 때 사용한다.
+- 《SUPPORT_ONLY》 = 실제 구조를 보조 설명할 수 있으나, 구조판정에 직접 반영하지 않을 때 사용한다.
+- 《REFERENCE_ONLY》 = 값은 보존하지만 현재 하우스 판정에는 쓰지 않을 때 사용한다.
+- 《HOLD》 = Source Confidence 부족, Degree/Nakshatra/Pada 누락, Actual-Surface Status 불명확, Target Rashi/Bhava link 미확인일 때 사용한다.
+- 《NOT_USED》 = 해당 point 자료가 없거나 현재 질문 범위에 포함되지 않을 때 사용한다.
+8. 6H COMPLETION CHECK
+□ 6B-0 Source Board 존재 확인
+□ Target D-Chart 확인
+□ Target D-Chart Domain 확인
+□ Target House = 6H 확인
+□ Relevant Arudha Point = D-A6 추출 확인
+□ Point Source Status 확인
+□ Source House of Pada = 6H 확인
+□ Arudha Sign 확인
+□ Arudha Degree 확인
+□ Arudha Nakshatra/Pada 확인
+□ Arudha House From Target D-Chart Lagna 확인
+□ Arudha House From Target D-Chart Bhava 확인
+□ Pada Landing House 확인
+□ Linked Target House = 6H 확인
+□ Linked Target House Lord 확인
+□ Linked Target Lord Position 확인
+□ Target Rashi Link 확인
+□ Target Bhava Link 확인
+□ Target Co-presence Link 확인
+□ Target Lord Movement Link 확인
+□ Target Actual Function 확인
+□ Surface Function 확인
+□ D1 Rashi Anchor 확인
+□ D1 Bhava Anchor 확인
+□ D1 Arudha Anchor 확인
+□ D1 Anchor Role 확인
+□ D1 Anchor Use Decision 확인
+□ D1 Anchor가 Target D-chart Arudha를 생성하지 않음
+□ D1 Anchor가 Target Rashi/Bhava를 덮지 않음
+□ Target D-chart Arudha가 D1 본체 약속을 덮지 않음
+□ Actual-Surface Status 확인
+□ Source-Landing Status 확인
+□ Surface Agreement 확인
+□ Surface Distortion 확인
+□ Use Decision 확인
+□ Missing / Partial Data Rule 적용 확인
+□ Actual-Surface Status Cap 적용 확인
+□ Target Rashi/Bhava overwrite 없음
+□ D1 Rashi/Bhava overwrite 없음
+□ 사건 약속 새로 생성 없음
+□ 강도층 미사용
+□ Aspect/Dasha/Varga Link 확장 없음
+□ Mrityu / AVA / Ashtakavarga / SP 미사용
+□ 표면화 방식만 보정
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-7H. TARGET D-CHART 7H ARUDHA APPLICATION SLOT
+7H → D-A7 타깃 하우스 아루다 세부 적용 슬롯
+REVISED 98 HOUSE-SPECIFIC DETAIL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. HOUSE / POINT AUTO-MAP
+- 《Target House》 = 7H
+- 《Relevant Arudha Point》 = D-A7
+- 《Surface Theme》 = 관계 표면 / 대면 표면 / 계약 표면 / 외부 상대 표면
+- 《Target House Core Question》 = 해당 D차트 도메인 안에서 상대·대면·계약·외부 피드백이 표면에서 어떻게 보이는가
+- 《Primary Extraction Targets》 = 7H occupant / 7L / 1H axis / Venus-DK-if-supplied links / D-UL optional / contract-partner circuit planets
+- 《Linked Houses》 = 1H / 3H / 6H / 10H / 11H / 12H / D-UL
+2. SOURCE EXTRACTION FROM 6B-0
+- 《Source Board》 = TARGET_DCHART_ARUDHA_D_STRUCTURE_SOURCE_BOARD_98
+- 《Extracted Point》 = D-A7
+- 《Point Source Status》 = <SOURCE_PRESERVED / PARTIAL / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_SUPPLIED / NOT_USED>
+- 《Point Sign》 = <SIGN / NOT_SHOWN>
+- 《Point Degree》 = <DEGREE / NOT_SHOWN>
+- 《Point Nakshatra/Pada》 = <NAKSHATRA_PADA / NOT_SHOWN>
+- 《Point House From Target D-Chart Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Point House From Target D-Chart Bhava》 = <BHAVA_HOUSE / NOT_SHOWN>
+- 《Source House of Pada》 = 7H
+- 《Pada Landing House》 = <HOUSE / BHAVA_HOUSE / NOT_SHOWN>
+- 《D-UL Comparison》 = <SAME_DIRECTION / PARTIAL / DIFFERENT / SPLIT / NOT_SUPPLIED / NOT_CHECKED>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+Extraction Rule =
+- D-A7는 반드시 6B-0 Source Board에서 추출한다.
+- Source Board에 D-A7가 없으면 NOT_SUPPLIED 또는 NOT_USED로 둔다.
+- D-A7은 D-UL과 병합하지 않는다.
+- Sign만 있으면 SUPPORT_ONLY.
+- Sign + House만 있으면 SUPPORT_ONLY 가능.
+- Sign + Degree가 있으면 APPLY_AS_SURFACE 가능하되, Pada가 없으면 degree-detail은 제한한다.
+- Sign + Degree + Nakshatra/Pada가 있으면 APPLY_AS_SURFACE 가능.
+- Derived 값은 APP_VISIBLE / USER_TEXT_SUPPLIED 값을 덮어쓰지 않는다.
+- Source House와 Pada Landing House를 섞지 않는다.
+3. LINKED TARGET STRUCTURE
+- 《Target D-Chart》 = <D_CHART_TAG>
+- 《Target D-Chart Domain》 = <D_CHART_DOMAIN_LOCK_SENTENCE>
+- 《Linked Target House》 = 7H
+- 《Linked Target House Function》 = 대면 / 상대 / 계약 / 외부 피드백 / 검증자
+- 《Linked Target House Lord》 = <TARGET_HOUSE_LORD / NOT_SHOWN>
+- 《Linked Target Lord Position》 = <SIGN / HOUSE / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Target Rashi Link》 = <TARGET_RASHI_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / CO-PRESENCE / NOT_SHOWN>
+- 《Target Bhava Link》 = <TARGET_BHAVA_HOUSE / SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_SHOWN>
+- 《Target Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《Target Lord Movement Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《Target Actual Function》 = 대면 / 상대 / 계약 / 외부 피드백 / 검증자
+- 《Surface Function》 = 밖에서 보이는 상대관계·계약·대면장 표면
+- 《D1 Rashi Anchor》 = <D1_RELEVANT_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Bhava Anchor》 = <D1_RELEVANT_BHAVA / SAME / MOVED / SPLIT / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Arudha Anchor》 = <D1_AL / D1_A2~D1_A12 / D1_UL / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Anchor Role》 = <BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED>
+- 《D1 Anchor Use Decision》 = <REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED>
+4. ACTUAL-SURFACE CHECK
+- 《Actual-Surface Status》 = <SAME / DIFFERENT / PARTIAL / SPLIT / NEEDS_RECHECK>
+- 《Source-Landing Status》 = <SAME_HOUSE / DIFFERENT_HOUSE / PARTIAL / SPLIT / NOT_CHECKED>
+- 《Surface Agreement》 = <YES / NO / PARTIAL / NOT_CHECKED>
+- 《Surface Agreement With D-UL》 = <YES / NO / PARTIAL / SPLIT / NOT_SUPPLIED / NOT_CHECKED>
+- 《Surface Distortion》 = <NONE / OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT>
+- 《Use Decision》 = <APPLY_AS_SURFACE / APPLY_AS_SURFACE_AS_DISTORTION / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+SAME 기준 =
+- 실제 7H 구조와 D-A7 표면이 같으면, 실제 대면 조건과 밖에서 보이는 관계 표면이 일치한다.
+DIFFERENT 기준 =
+- 실제 7H 구조와 D-A7 표면이 다르면, 실제 계약·상대 조건과 밖에서 보이는 관계 이미지가 갈라진다.
+PARTIAL 기준 =
+- 실제 7H 구조와 D-A7 표면이 일부만 같은 방향을 가리키고, 핵심 기능은 완전히 같지 않을 때 사용한다.
+SPLIT 기준 =
+- 실제 7H 구조가 둘 이상의 표면 기능으로 갈라져 보이거나, D-A7와 D-UL 또는 다른 point가 동시에 표면을 나눌 때 사용한다.
+NEEDS_RECHECK 기준 =
+- Source / Sign / Degree / House From Lagna / Bhava Link / Linked Target House가 부족할 때 사용한다.
+5. CHECK QUESTIONS
+1) 6B-0 Source Board에 D-A7가 보존되어 있는가?
+2) D-A7의 Sign / Degree / Nakshatra/Pada / House From Lagna가 확인되는가?
+3) D-A7는 Target 7H의 실제 하우스·로드·행성 구조와 연결되는가?
+4) D-A7과 D-UL을 병합하지 않고 분리했는가?
+5) Target Rashi 구조와 D-A7 표면이 같은 방향으로 드러나는가?
+6) Target Bhava 현실 적용과 D-A7 표면이 같은 house-function으로 내려오는가?
+7) 실제 구조와 표면 구조가 같으면 어떤 표면 일치가 생기는가?
+8) 실제 구조와 외부 인식이 다르면 어디서 갈라지는가?
+9) 표면이 실제보다 과하게 보이는가, 실제보다 덜 보이는가, 다른 위치로 보이는가?
+10) D-A7가 D1 본체 약속을 덮어쓰고 있지는 않은가?
+11) D-A7가 Target D-Chart Rashi/Bhava를 덮어쓰고 있지는 않은가?
+12) D-A7는 표면화 방식만 보정하고 있는가?
+6. OUTPUT SENTENCE FORMAT
+LEVEL 1 SLOT JUDGEMENT SENTENCE =
+《<D_CHART_TAG> D-A7》는 해당 분할차트 실제 《7H 대면 / 상대 / 계약 / 외부 피드백 / 검증자》을 대체하지 않고,
+그 구조가 해당 D차트 도메인 안에서 외부 인식과 표면 장부에 《관계 표면 / 대면 표면 / 계약 표면 / 외부 상대 표면》로 어떻게 보이는지 확인하는 표면화 보조층이다.
+《D-A7》은 《D-UL》과 병합하지 않고,
+실제 《7H》 구조와 《D-A7》 표면 구조가 같으면 《SAME》으로 두고,
+갈라지면 《DIFFERENT / PARTIAL / SPLIT》로 표기하며,
+최종 구조판정은 해당 분할차트 Rashi/Bhava와 D1 본체 약속을 기준으로 유지한다.
+LEVEL 2 DEF_BOARD SURFACE NOTE =
+《<D_CHART_TAG> 7H》의 실제 구조는 《<TARGET_RASHI_LINK>》와 《<TARGET_BHAVA_LINK>》를 기준으로 유지하고,
+《D-A7》는 그 구조가 외부에서 《밖에서 보이는 상대관계·계약·대면장 표면》으로 보이는 방식만 보정한다.
+따라서 이 표면값은 사건 약속을 새로 만들지 않고,
+실제 구조가 표면에서 《<OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT / NONE>》로 드러나는지 확인하는 데만 사용한다.
+7. USE DECISION
+- 《APPLY_AS_SURFACE》 = D-A7가 7H의 외부 인식과 표면 장부를 유효하게 보정할 때 사용한다.
+- 《APPLY_AS_SURFACE_AS_DISTORTION》 = 실제 7H 구조와 D-A7 표면 구조가 다르지만, source가 명확하고 그 차이가 중요한 표면 왜곡 정보일 때 사용한다.
+- 《SUPPORT_ONLY》 = 실제 구조를 보조 설명할 수 있으나, 구조판정에 직접 반영하지 않을 때 사용한다.
+- 《REFERENCE_ONLY》 = 값은 보존하지만 현재 하우스 판정에는 쓰지 않을 때 사용한다.
+- 《HOLD》 = Source Confidence 부족, Degree/Nakshatra/Pada 누락, Actual-Surface Status 불명확, Target Rashi/Bhava link 미확인일 때 사용한다.
+- 《NOT_USED》 = 해당 point 자료가 없거나 현재 질문 범위에 포함되지 않을 때 사용한다.
+8. 7H COMPLETION CHECK
+□ 6B-0 Source Board 존재 확인
+□ Target D-Chart 확인
+□ Target D-Chart Domain 확인
+□ Target House = 7H 확인
+□ Relevant Arudha Point = D-A7 추출 확인
+□ Point Source Status 확인
+□ Source House of Pada = 7H 확인
+□ Arudha Sign 확인
+□ Arudha Degree 확인
+□ Arudha Nakshatra/Pada 확인
+□ Arudha House From Target D-Chart Lagna 확인
+□ Arudha House From Target D-Chart Bhava 확인
+□ Pada Landing House 확인
+□ D-A7 / D-UL 분리 확인
+□ D-UL Comparison 확인
+□ Linked Target House = 7H 확인
+□ Linked Target House Lord 확인
+□ Linked Target Lord Position 확인
+□ Target Rashi Link 확인
+□ Target Bhava Link 확인
+□ Target Co-presence Link 확인
+□ Target Lord Movement Link 확인
+□ Target Actual Function 확인
+□ Surface Function 확인
+□ D1 Rashi Anchor 확인
+□ D1 Bhava Anchor 확인
+□ D1 Arudha Anchor 확인
+□ D1 Anchor Role 확인
+□ D1 Anchor Use Decision 확인
+□ D1 Anchor가 Target D-chart Arudha를 생성하지 않음
+□ D1 Anchor가 Target Rashi/Bhava를 덮지 않음
+□ Target D-chart Arudha가 D1 본체 약속을 덮지 않음
+□ Actual-Surface Status 확인
+□ Source-Landing Status 확인
+□ Surface Agreement 확인
+□ Surface Agreement With D-UL 확인
+□ Surface Distortion 확인
+□ Use Decision 확인
+□ Missing / Partial Data Rule 적용 확인
+□ Actual-Surface Status Cap 적용 확인
+□ Target Rashi/Bhava overwrite 없음
+□ D1 Rashi/Bhava overwrite 없음
+□ 사건 약속 새로 생성 없음
+□ 강도층 미사용
+□ Aspect/Dasha/Varga Link 확장 없음
+□ Mrityu / AVA / Ashtakavarga / SP 미사용
+□ 표면화 방식만 보정
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-8H. TARGET D-CHART 8H ARUDHA APPLICATION SLOT
+8H → D-A8 타깃 하우스 아루다 세부 적용 슬롯
+REVISED 98 HOUSE-SPECIFIC DETAIL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. HOUSE / POINT AUTO-MAP
+- 《Target House》 = 8H
+- 《Relevant Arudha Point》 = D-A8
+- 《Surface Theme》 = 숨은 장부 표면 / 위기 표면 / 공유책임 표면 / 손실 표면
+- 《Target House Core Question》 = 해당 D차트 도메인 안에서 숨은 장부·위기·공유책임·상처 왜곡·손실이 외부에 어떻게 보이는가
+- 《Primary Extraction Targets》 = 8H occupant / 8L / 2H axis / Saturn-Mars-Rahu-Ketu links / hidden-ledger crisis circuit planets
+- 《Linked Houses》 = 2H / 7H / 10H / 11H / 12H / 3H
+2. SOURCE EXTRACTION FROM 6B-0
+- 《Source Board》 = TARGET_DCHART_ARUDHA_D_STRUCTURE_SOURCE_BOARD_98
+- 《Extracted Point》 = D-A8
+- 《Point Source Status》 = <SOURCE_PRESERVED / PARTIAL / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_SUPPLIED / NOT_USED>
+- 《Point Sign》 = <SIGN / NOT_SHOWN>
+- 《Point Degree》 = <DEGREE / NOT_SHOWN>
+- 《Point Nakshatra/Pada》 = <NAKSHATRA_PADA / NOT_SHOWN>
+- 《Point House From Target D-Chart Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Point House From Target D-Chart Bhava》 = <BHAVA_HOUSE / NOT_SHOWN>
+- 《Source House of Pada》 = 8H
+- 《Pada Landing House》 = <HOUSE / BHAVA_HOUSE / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+Extraction Rule =
+- D-A8는 반드시 6B-0 Source Board에서 추출한다.
+- Source Board에 D-A8가 없으면 NOT_SUPPLIED 또는 NOT_USED로 둔다.
+- Sign만 있으면 SUPPORT_ONLY.
+- Sign + House만 있으면 SUPPORT_ONLY 가능.
+- Sign + Degree가 있으면 APPLY_AS_SURFACE 가능하되, Pada가 없으면 degree-detail은 제한한다.
+- Sign + Degree + Nakshatra/Pada가 있으면 APPLY_AS_SURFACE 가능.
+- Derived 값은 APP_VISIBLE / USER_TEXT_SUPPLIED 값을 덮어쓰지 않는다.
+- Source House와 Pada Landing House를 섞지 않는다.
+3. LINKED TARGET STRUCTURE
+- 《Target D-Chart》 = <D_CHART_TAG>
+- 《Target D-Chart Domain》 = <D_CHART_DOMAIN_LOCK_SENTENCE>
+- 《Linked Target House》 = 8H
+- 《Linked Target House Function》 = 숨은 장부 / 위기 / 공유책임 / 전환 / 손실
+- 《Linked Target House Lord》 = <TARGET_HOUSE_LORD / NOT_SHOWN>
+- 《Linked Target Lord Position》 = <SIGN / HOUSE / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Target Rashi Link》 = <TARGET_RASHI_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / CO-PRESENCE / NOT_SHOWN>
+- 《Target Bhava Link》 = <TARGET_BHAVA_HOUSE / SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_SHOWN>
+- 《Target Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《Target Lord Movement Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《Target Actual Function》 = 숨은 장부 / 위기 / 공유책임 / 전환 / 손실
+- 《Surface Function》 = 밖에서 보이는 위기·손실·공유책임·숨은 장부 표면
+- 《D1 Rashi Anchor》 = <D1_RELEVANT_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Bhava Anchor》 = <D1_RELEVANT_BHAVA / SAME / MOVED / SPLIT / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Arudha Anchor》 = <D1_AL / D1_A2~D1_A12 / D1_UL / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Anchor Role》 = <BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED>
+- 《D1 Anchor Use Decision》 = <REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED>
+4. ACTUAL-SURFACE CHECK
+- 《Actual-Surface Status》 = <SAME / DIFFERENT / PARTIAL / SPLIT / NEEDS_RECHECK>
+- 《Source-Landing Status》 = <SAME_HOUSE / DIFFERENT_HOUSE / PARTIAL / SPLIT / NOT_CHECKED>
+- 《Surface Agreement》 = <YES / NO / PARTIAL / NOT_CHECKED>
+- 《Surface Distortion》 = <NONE / OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT>
+- 《Use Decision》 = <APPLY_AS_SURFACE / APPLY_AS_SURFACE_AS_DISTORTION / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+SAME 기준 =
+- 실제 8H 구조와 D-A8 표면이 같으면, 실제 숨은 장부와 밖에서 보이는 위기 표면이 일치한다.
+DIFFERENT 기준 =
+- 실제 8H 구조와 D-A8 표면이 다르면, 실제 손상·공유책임은 안쪽에 있는데 밖에서는 다른 장부처럼 보일 수 있다.
+PARTIAL 기준 =
+- 실제 8H 구조와 D-A8 표면이 일부만 같은 방향을 가리키고, 핵심 기능은 완전히 같지 않을 때 사용한다.
+SPLIT 기준 =
+- 실제 8H 구조가 둘 이상의 표면 기능으로 갈라져 보이거나, D-A8와 다른 point가 동시에 표면을 나눌 때 사용한다.
+NEEDS_RECHECK 기준 =
+- Source / Sign / Degree / House From Lagna / Bhava Link / Linked Target House가 부족할 때 사용한다.
+5. CHECK QUESTIONS
+1) 6B-0 Source Board에 D-A8가 보존되어 있는가?
+2) D-A8의 Sign / Degree / Nakshatra/Pada / House From Lagna가 확인되는가?
+3) D-A8는 Target 8H의 실제 하우스·로드·행성 구조와 연결되는가?
+4) Target Rashi 구조와 D-A8 표면이 같은 방향으로 드러나는가?
+5) Target Bhava 현실 적용과 D-A8 표면이 같은 house-function으로 내려오는가?
+6) 실제 구조와 표면 구조가 같으면 어떤 표면 일치가 생기는가?
+7) 실제 구조와 외부 인식이 다르면 어디서 갈라지는가?
+8) 표면이 실제보다 과하게 보이는가, 실제보다 덜 보이는가, 다른 위치로 보이는가?
+9) D-A8가 D1 본체 약속을 덮어쓰고 있지는 않은가?
+9-A) D1 Anchor Role은 BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED 중 하나로 제한되어 있는가?
+9-B) D1 Anchor Use Decision은 REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED 중 하나로 제한되어 있는가?
+9-C) D1 Anchor가 Target D-chart Arudha point를 생성하거나 덮어쓰고 있지는 않은가?
+10) D-A8가 Target D-Chart Rashi/Bhava를 덮어쓰고 있지는 않은가?
+11) D-A8는 표면화 방식만 보정하고 있는가?
+6. OUTPUT SENTENCE FORMAT
+LEVEL 1 SLOT JUDGEMENT SENTENCE =
+《<D_CHART_TAG> D-A8》는 해당 분할차트 실제 《8H 숨은 장부 / 위기 / 공유책임 / 전환 / 손실》을 대체하지 않고,
+그 구조가 해당 D차트 도메인 안에서 외부 인식과 표면 장부에 《숨은 장부 표면 / 위기 표면 / 공유책임 표면 / 손실 표면》로 어떻게 보이는지 확인하는 표면화 보조층이다.
+실제 《8H》 구조와 《D-A8》 표면 구조가 같으면 《SAME》으로 두고,
+갈라지면 《DIFFERENT / PARTIAL / SPLIT》로 표기하며,
+최종 구조판정은 해당 분할차트 Rashi/Bhava와 D1 본체 약속을 기준으로 유지한다.
+LEVEL 2 DEF_BOARD SURFACE NOTE =
+《<D_CHART_TAG> 8H》의 실제 구조는 《<TARGET_RASHI_LINK>》와 《<TARGET_BHAVA_LINK>》를 기준으로 유지하고,
+《D-A8》는 그 구조가 외부에서 《밖에서 보이는 위기·손실·공유책임·숨은 장부 표면》으로 보이는 방식만 보정한다.
+따라서 이 표면값은 사건 약속을 새로 만들지 않고,
+실제 구조가 표면에서 《<OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT / NONE>》로 드러나는지 확인하는 데만 사용한다.
+7. USE DECISION
+- 《APPLY_AS_SURFACE》 = D-A8가 8H의 외부 인식과 표면 장부를 유효하게 보정할 때 사용한다.
+- 《APPLY_AS_SURFACE_AS_DISTORTION》 = 실제 8H 구조와 D-A8 표면 구조가 다르지만, source가 명확하고 그 차이가 중요한 표면 왜곡 정보일 때 사용한다.
+- 《SUPPORT_ONLY》 = 실제 구조를 보조 설명할 수 있으나, 구조판정에 직접 반영하지 않을 때 사용한다.
+- 《REFERENCE_ONLY》 = 값은 보존하지만 현재 하우스 판정에는 쓰지 않을 때 사용한다.
+- 《HOLD》 = Source Confidence 부족, Degree/Nakshatra/Pada 누락, Actual-Surface Status 불명확, Target Rashi/Bhava link 미확인일 때 사용한다.
+- 《NOT_USED》 = 해당 point 자료가 없거나 현재 질문 범위에 포함되지 않을 때 사용한다.
+8. 8H COMPLETION CHECK
+□ 6B-0 Source Board 존재 확인
+□ Target D-Chart 확인
+□ Target D-Chart Domain 확인
+□ Target House = 8H 확인
+□ Relevant Arudha Point = D-A8 추출 확인
+□ Point Source Status 확인
+□ Source House of Pada = 8H 확인
+□ Arudha Sign 확인
+□ Arudha Degree 확인
+□ Arudha Nakshatra/Pada 확인
+□ Arudha House From Target D-Chart Lagna 확인
+□ Arudha House From Target D-Chart Bhava 확인
+□ Pada Landing House 확인
+□ Linked Target House = 8H 확인
+□ Linked Target House Lord 확인
+□ Linked Target Lord Position 확인
+□ Target Rashi Link 확인
+□ Target Bhava Link 확인
+□ Target Co-presence Link 확인
+□ Target Lord Movement Link 확인
+□ Target Actual Function 확인
+□ Surface Function 확인
+□ D1 Rashi Anchor 확인
+□ D1 Bhava Anchor 확인
+□ D1 Arudha Anchor 확인
+□ D1 Anchor Role 확인
+□ D1 Anchor Use Decision 확인
+□ D1 Anchor가 Target D-chart Arudha를 생성하지 않음
+□ D1 Anchor가 Target Rashi/Bhava를 덮지 않음
+□ Target D-chart Arudha가 D1 본체 약속을 덮지 않음
+□ Actual-Surface Status 확인
+□ Source-Landing Status 확인
+□ Surface Agreement 확인
+□ Surface Distortion 확인
+□ Use Decision 확인
+□ Missing / Partial Data Rule 적용 확인
+□ Actual-Surface Status Cap 적용 확인
+□ Target Rashi/Bhava overwrite 없음
+□ D1 Rashi/Bhava overwrite 없음
+□ 사건 약속 새로 생성 없음
+□ 강도층 미사용
+□ Aspect/Dasha/Varga Link 확장 없음
+□ Mrityu / AVA / Ashtakavarga / SP 미사용
+□ 표면화 방식만 보정
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-9H. TARGET D-CHART 9H ARUDHA APPLICATION SLOT
+9H → D-A9 타깃 하우스 아루다 세부 적용 슬롯
+REVISED 98 HOUSE-SPECIFIC DETAIL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. HOUSE / POINT AUTO-MAP
+- 《Target House》 = 9H
+- 《Relevant Arudha Point》 = D-A9
+- 《Surface Theme》 = 명분 표면 / 방향 표면 / 법칙 표면 / 상위 기준 표면
+- 《Target House Core Question》 = 해당 D차트 도메인 안에서 명분·법칙·방향·상위 기준이 외부에 어떻게 보이는가
+- 《Primary Extraction Targets》 = 9H occupant / 9L / 3H axis / Jupiter-Sun-Mercury links / dharma-law circuit planets
+- 《Linked Houses》 = 3H / 10H / 11H / 8H / 12H
+2. SOURCE EXTRACTION FROM 6B-0
+- 《Source Board》 = TARGET_DCHART_ARUDHA_D_STRUCTURE_SOURCE_BOARD_98
+- 《Extracted Point》 = D-A9
+- 《Point Source Status》 = <SOURCE_PRESERVED / PARTIAL / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_SUPPLIED / NOT_USED>
+- 《Point Sign》 = <SIGN / NOT_SHOWN>
+- 《Point Degree》 = <DEGREE / NOT_SHOWN>
+- 《Point Nakshatra/Pada》 = <NAKSHATRA_PADA / NOT_SHOWN>
+- 《Point House From Target D-Chart Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Point House From Target D-Chart Bhava》 = <BHAVA_HOUSE / NOT_SHOWN>
+- 《Source House of Pada》 = 9H
+- 《Pada Landing House》 = <HOUSE / BHAVA_HOUSE / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+Extraction Rule =
+- D-A9는 반드시 6B-0 Source Board에서 추출한다.
+- Source Board에 D-A9가 없으면 NOT_SUPPLIED 또는 NOT_USED로 둔다.
+- Sign만 있으면 SUPPORT_ONLY.
+- Sign + House만 있으면 SUPPORT_ONLY 가능.
+- Sign + Degree가 있으면 APPLY_AS_SURFACE 가능하되, Pada가 없으면 degree-detail은 제한한다.
+- Sign + Degree + Nakshatra/Pada가 있으면 APPLY_AS_SURFACE 가능.
+- Derived 값은 APP_VISIBLE / USER_TEXT_SUPPLIED 값을 덮어쓰지 않는다.
+- Source House와 Pada Landing House를 섞지 않는다.
+3. LINKED TARGET STRUCTURE
+- 《Target D-Chart》 = <D_CHART_TAG>
+- 《Target D-Chart Domain》 = <D_CHART_DOMAIN_LOCK_SENTENCE>
+- 《Linked Target House》 = 9H
+- 《Linked Target House Function》 = 법전 / 상위 기준 / 명분 / 방향 / 다르마
+- 《Linked Target House Lord》 = <TARGET_HOUSE_LORD / NOT_SHOWN>
+- 《Linked Target Lord Position》 = <SIGN / HOUSE / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Target Rashi Link》 = <TARGET_RASHI_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / CO-PRESENCE / NOT_SHOWN>
+- 《Target Bhava Link》 = <TARGET_BHAVA_HOUSE / SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_SHOWN>
+- 《Target Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《Target Lord Movement Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《Target Actual Function》 = 법전 / 상위 기준 / 명분 / 방향 / 다르마
+- 《Surface Function》 = 밖에서 보이는 명분·방향·상위 기준·법칙 표면
+- 《D1 Rashi Anchor》 = <D1_RELEVANT_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Bhava Anchor》 = <D1_RELEVANT_BHAVA / SAME / MOVED / SPLIT / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Arudha Anchor》 = <D1_AL / D1_A2~D1_A12 / D1_UL / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Anchor Role》 = <BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED>
+- 《D1 Anchor Use Decision》 = <REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED>
+4. ACTUAL-SURFACE CHECK
+- 《Actual-Surface Status》 = <SAME / DIFFERENT / PARTIAL / SPLIT / NEEDS_RECHECK>
+- 《Source-Landing Status》 = <SAME_HOUSE / DIFFERENT_HOUSE / PARTIAL / SPLIT / NOT_CHECKED>
+- 《Surface Agreement》 = <YES / NO / PARTIAL / NOT_CHECKED>
+- 《Surface Distortion》 = <NONE / OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT>
+- 《Use Decision》 = <APPLY_AS_SURFACE / APPLY_AS_SURFACE_AS_DISTORTION / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+SAME 기준 =
+- 실제 9H 구조와 D-A9 표면이 같으면, 실제 법전과 밖에서 보이는 명분 표면이 일치한다.
+DIFFERENT 기준 =
+- 실제 9H 구조와 D-A9 표면이 다르면, 실제 기준과 외부가 보는 명분·방향 이미지가 갈라진다.
+PARTIAL 기준 =
+- 실제 9H 구조와 D-A9 표면이 일부만 같은 방향을 가리키고, 핵심 기능은 완전히 같지 않을 때 사용한다.
+SPLIT 기준 =
+- 실제 9H 구조가 둘 이상의 표면 기능으로 갈라져 보이거나, D-A9와 다른 point가 동시에 표면을 나눌 때 사용한다.
+NEEDS_RECHECK 기준 =
+- Source / Sign / Degree / House From Lagna / Bhava Link / Linked Target House가 부족할 때 사용한다.
+5. CHECK QUESTIONS
+1) 6B-0 Source Board에 D-A9가 보존되어 있는가?
+2) D-A9의 Sign / Degree / Nakshatra/Pada / House From Lagna가 확인되는가?
+3) D-A9는 Target 9H의 실제 하우스·로드·행성 구조와 연결되는가?
+4) Target Rashi 구조와 D-A9 표면이 같은 방향으로 드러나는가?
+5) Target Bhava 현실 적용과 D-A9 표면이 같은 house-function으로 내려오는가?
+6) 실제 구조와 표면 구조가 같으면 어떤 표면 일치가 생기는가?
+7) 실제 구조와 외부 인식이 다르면 어디서 갈라지는가?
+8) 표면이 실제보다 과하게 보이는가, 실제보다 덜 보이는가, 다른 위치로 보이는가?
+9) D-A9가 D1 본체 약속을 덮어쓰고 있지는 않은가?
+9-A) D1 Anchor Role은 BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED 중 하나로 제한되어 있는가?
+9-B) D1 Anchor Use Decision은 REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED 중 하나로 제한되어 있는가?
+9-C) D1 Anchor가 Target D-chart Arudha point를 생성하거나 덮어쓰고 있지는 않은가?
+10) D-A9가 Target D-Chart Rashi/Bhava를 덮어쓰고 있지는 않은가?
+11) D-A9는 표면화 방식만 보정하고 있는가?
+6. OUTPUT SENTENCE FORMAT
+LEVEL 1 SLOT JUDGEMENT SENTENCE =
+《<D_CHART_TAG> D-A9》는 해당 분할차트 실제 《9H 법전 / 상위 기준 / 명분 / 방향 / 다르마》을 대체하지 않고,
+그 구조가 해당 D차트 도메인 안에서 외부 인식과 표면 장부에 《명분 표면 / 방향 표면 / 법칙 표면 / 상위 기준 표면》로 어떻게 보이는지 확인하는 표면화 보조층이다.
+실제 《9H》 구조와 《D-A9》 표면 구조가 같으면 《SAME》으로 두고,
+갈라지면 《DIFFERENT / PARTIAL / SPLIT》로 표기하며,
+최종 구조판정은 해당 분할차트 Rashi/Bhava와 D1 본체 약속을 기준으로 유지한다.
+LEVEL 2 DEF_BOARD SURFACE NOTE =
+《<D_CHART_TAG> 9H》의 실제 구조는 《<TARGET_RASHI_LINK>》와 《<TARGET_BHAVA_LINK>》를 기준으로 유지하고,
+《D-A9》는 그 구조가 외부에서 《밖에서 보이는 명분·방향·상위 기준·법칙 표면》으로 보이는 방식만 보정한다.
+따라서 이 표면값은 사건 약속을 새로 만들지 않고,
+실제 구조가 표면에서 《<OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT / NONE>》로 드러나는지 확인하는 데만 사용한다.
+7. USE DECISION
+- 《APPLY_AS_SURFACE》 = D-A9가 9H의 외부 인식과 표면 장부를 유효하게 보정할 때 사용한다.
+- 《APPLY_AS_SURFACE_AS_DISTORTION》 = 실제 9H 구조와 D-A9 표면 구조가 다르지만, source가 명확하고 그 차이가 중요한 표면 왜곡 정보일 때 사용한다.
+- 《SUPPORT_ONLY》 = 실제 구조를 보조 설명할 수 있으나, 구조판정에 직접 반영하지 않을 때 사용한다.
+- 《REFERENCE_ONLY》 = 값은 보존하지만 현재 하우스 판정에는 쓰지 않을 때 사용한다.
+- 《HOLD》 = Source Confidence 부족, Degree/Nakshatra/Pada 누락, Actual-Surface Status 불명확, Target Rashi/Bhava link 미확인일 때 사용한다.
+- 《NOT_USED》 = 해당 point 자료가 없거나 현재 질문 범위에 포함되지 않을 때 사용한다.
+8. 9H COMPLETION CHECK
+□ 6B-0 Source Board 존재 확인
+□ Target D-Chart 확인
+□ Target D-Chart Domain 확인
+□ Target House = 9H 확인
+□ Relevant Arudha Point = D-A9 추출 확인
+□ Point Source Status 확인
+□ Source House of Pada = 9H 확인
+□ Arudha Sign 확인
+□ Arudha Degree 확인
+□ Arudha Nakshatra/Pada 확인
+□ Arudha House From Target D-Chart Lagna 확인
+□ Arudha House From Target D-Chart Bhava 확인
+□ Pada Landing House 확인
+□ Linked Target House = 9H 확인
+□ Linked Target House Lord 확인
+□ Linked Target Lord Position 확인
+□ Target Rashi Link 확인
+□ Target Bhava Link 확인
+□ Target Co-presence Link 확인
+□ Target Lord Movement Link 확인
+□ Target Actual Function 확인
+□ Surface Function 확인
+□ D1 Rashi Anchor 확인
+□ D1 Bhava Anchor 확인
+□ D1 Arudha Anchor 확인
+□ D1 Anchor Role 확인
+□ D1 Anchor Use Decision 확인
+□ D1 Anchor가 Target D-chart Arudha를 생성하지 않음
+□ D1 Anchor가 Target Rashi/Bhava를 덮지 않음
+□ Target D-chart Arudha가 D1 본체 약속을 덮지 않음
+□ Actual-Surface Status 확인
+□ Source-Landing Status 확인
+□ Surface Agreement 확인
+□ Surface Distortion 확인
+□ Use Decision 확인
+□ Missing / Partial Data Rule 적용 확인
+□ Actual-Surface Status Cap 적용 확인
+□ Target Rashi/Bhava overwrite 없음
+□ D1 Rashi/Bhava overwrite 없음
+□ 사건 약속 새로 생성 없음
+□ 강도층 미사용
+□ Aspect/Dasha/Varga Link 확장 없음
+□ Mrityu / AVA / Ashtakavarga / SP 미사용
+□ 표면화 방식만 보정
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-10H. TARGET D-CHART 10H ARUDHA APPLICATION SLOT
+10H → D-A10 타깃 하우스 아루다 세부 적용 슬롯
+REVISED 98 HOUSE-SPECIFIC DETAIL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. HOUSE / POINT AUTO-MAP
+- 《Target House》 = 10H
+- 《Relevant Arudha Point》 = D-A10
+- 《Surface Theme》 = 역할 표면 / 결과 표면 / 사회적 출력 표면 / 공적 기능 표면
+- 《Target House Core Question》 = 해당 D차트 도메인 안에서 역할·결과·사회적 출력·공적 기능이 외부에 어떻게 보이는가
+- 《Primary Extraction Targets》 = 10H occupant / 10L / 4H axis / Sun-Saturn-Mercury-Mars links / output-role circuit planets
+- 《Linked Houses》 = 4H / 2H / 6H / 9H / 11H / 12H
+2. SOURCE EXTRACTION FROM 6B-0
+- 《Source Board》 = TARGET_DCHART_ARUDHA_D_STRUCTURE_SOURCE_BOARD_98
+- 《Extracted Point》 = D-A10
+- 《Point Source Status》 = <SOURCE_PRESERVED / PARTIAL / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_SUPPLIED / NOT_USED>
+- 《Point Sign》 = <SIGN / NOT_SHOWN>
+- 《Point Degree》 = <DEGREE / NOT_SHOWN>
+- 《Point Nakshatra/Pada》 = <NAKSHATRA_PADA / NOT_SHOWN>
+- 《Point House From Target D-Chart Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Point House From Target D-Chart Bhava》 = <BHAVA_HOUSE / NOT_SHOWN>
+- 《Source House of Pada》 = 10H
+- 《Pada Landing House》 = <HOUSE / BHAVA_HOUSE / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+Extraction Rule =
+- D-A10는 반드시 6B-0 Source Board에서 추출한다.
+- Source Board에 D-A10가 없으면 NOT_SUPPLIED 또는 NOT_USED로 둔다.
+- Sign만 있으면 SUPPORT_ONLY.
+- Sign + House만 있으면 SUPPORT_ONLY 가능.
+- Sign + Degree가 있으면 APPLY_AS_SURFACE 가능하되, Pada가 없으면 degree-detail은 제한한다.
+- Sign + Degree + Nakshatra/Pada가 있으면 APPLY_AS_SURFACE 가능.
+- Derived 값은 APP_VISIBLE / USER_TEXT_SUPPLIED 값을 덮어쓰지 않는다.
+- Source House와 Pada Landing House를 섞지 않는다.
+3. LINKED TARGET STRUCTURE
+- 《Target D-Chart》 = <D_CHART_TAG>
+- 《Target D-Chart Domain》 = <D_CHART_DOMAIN_LOCK_SENTENCE>
+- 《Linked Target House》 = 10H
+- 《Linked Target House Function》 = 현실 출력 / 역할 / 결과물 / 직업기능 / 공적 작동
+- 《Linked Target House Lord》 = <TARGET_HOUSE_LORD / NOT_SHOWN>
+- 《Linked Target Lord Position》 = <SIGN / HOUSE / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Target Rashi Link》 = <TARGET_RASHI_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / CO-PRESENCE / NOT_SHOWN>
+- 《Target Bhava Link》 = <TARGET_BHAVA_HOUSE / SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_SHOWN>
+- 《Target Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《Target Lord Movement Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《Target Actual Function》 = 현실 출력 / 역할 / 결과물 / 직업기능 / 공적 작동
+- 《Surface Function》 = 밖에서 보이는 역할·결과·공적 출력 표면
+- 《D1 Rashi Anchor》 = <D1_RELEVANT_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Bhava Anchor》 = <D1_RELEVANT_BHAVA / SAME / MOVED / SPLIT / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Arudha Anchor》 = <D1_AL / D1_A2~D1_A12 / D1_UL / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Anchor Role》 = <BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED>
+- 《D1 Anchor Use Decision》 = <REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED>
+4. ACTUAL-SURFACE CHECK
+- 《Actual-Surface Status》 = <SAME / DIFFERENT / PARTIAL / SPLIT / NEEDS_RECHECK>
+- 《Source-Landing Status》 = <SAME_HOUSE / DIFFERENT_HOUSE / PARTIAL / SPLIT / NOT_CHECKED>
+- 《Surface Agreement》 = <YES / NO / PARTIAL / NOT_CHECKED>
+- 《Surface Distortion》 = <NONE / OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT>
+- 《Use Decision》 = <APPLY_AS_SURFACE / APPLY_AS_SURFACE_AS_DISTORTION / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+SAME 기준 =
+- 실제 10H 구조와 D-A10 표면이 같으면, 실제 출력과 밖에서 보이는 역할 표면이 일치한다.
+DIFFERENT 기준 =
+- 실제 10H 구조와 D-A10 표면이 다르면, 실제 역할과 외부가 보는 결과·공적 이미지가 갈라진다.
+PARTIAL 기준 =
+- 실제 10H 구조와 D-A10 표면이 일부만 같은 방향을 가리키고, 핵심 기능은 완전히 같지 않을 때 사용한다.
+SPLIT 기준 =
+- 실제 10H 구조가 둘 이상의 표면 기능으로 갈라져 보이거나, D-A10와 다른 point가 동시에 표면을 나눌 때 사용한다.
+NEEDS_RECHECK 기준 =
+- Source / Sign / Degree / House From Lagna / Bhava Link / Linked Target House가 부족할 때 사용한다.
+5. CHECK QUESTIONS
+1) 6B-0 Source Board에 D-A10가 보존되어 있는가?
+2) D-A10의 Sign / Degree / Nakshatra/Pada / House From Lagna가 확인되는가?
+3) D-A10는 Target 10H의 실제 하우스·로드·행성 구조와 연결되는가?
+4) Target Rashi 구조와 D-A10 표면이 같은 방향으로 드러나는가?
+5) Target Bhava 현실 적용과 D-A10 표면이 같은 house-function으로 내려오는가?
+6) 실제 구조와 표면 구조가 같으면 어떤 표면 일치가 생기는가?
+7) 실제 구조와 외부 인식이 다르면 어디서 갈라지는가?
+8) 표면이 실제보다 과하게 보이는가, 실제보다 덜 보이는가, 다른 위치로 보이는가?
+9) D-A10가 D1 본체 약속을 덮어쓰고 있지는 않은가?
+9-A) D1 Anchor Role은 BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED 중 하나로 제한되어 있는가?
+9-B) D1 Anchor Use Decision은 REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED 중 하나로 제한되어 있는가?
+9-C) D1 Anchor가 Target D-chart Arudha point를 생성하거나 덮어쓰고 있지는 않은가?
+10) D-A10가 Target D-Chart Rashi/Bhava를 덮어쓰고 있지는 않은가?
+11) D-A10는 표면화 방식만 보정하고 있는가?
+6. OUTPUT SENTENCE FORMAT
+LEVEL 1 SLOT JUDGEMENT SENTENCE =
+《<D_CHART_TAG> D-A10》는 해당 분할차트 실제 《10H 현실 출력 / 역할 / 결과물 / 직업기능 / 공적 작동》을 대체하지 않고,
+그 구조가 해당 D차트 도메인 안에서 외부 인식과 표면 장부에 《역할 표면 / 결과 표면 / 사회적 출력 표면 / 공적 기능 표면》로 어떻게 보이는지 확인하는 표면화 보조층이다.
+실제 《10H》 구조와 《D-A10》 표면 구조가 같으면 《SAME》으로 두고,
+갈라지면 《DIFFERENT / PARTIAL / SPLIT》로 표기하며,
+최종 구조판정은 해당 분할차트 Rashi/Bhava와 D1 본체 약속을 기준으로 유지한다.
+LEVEL 2 DEF_BOARD SURFACE NOTE =
+《<D_CHART_TAG> 10H》의 실제 구조는 《<TARGET_RASHI_LINK>》와 《<TARGET_BHAVA_LINK>》를 기준으로 유지하고,
+《D-A10》는 그 구조가 외부에서 《밖에서 보이는 역할·결과·공적 출력 표면》으로 보이는 방식만 보정한다.
+따라서 이 표면값은 사건 약속을 새로 만들지 않고,
+실제 구조가 표면에서 《<OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT / NONE>》로 드러나는지 확인하는 데만 사용한다.
+7. USE DECISION
+- 《APPLY_AS_SURFACE》 = D-A10가 10H의 외부 인식과 표면 장부를 유효하게 보정할 때 사용한다.
+- 《APPLY_AS_SURFACE_AS_DISTORTION》 = 실제 10H 구조와 D-A10 표면 구조가 다르지만, source가 명확하고 그 차이가 중요한 표면 왜곡 정보일 때 사용한다.
+- 《SUPPORT_ONLY》 = 실제 구조를 보조 설명할 수 있으나, 구조판정에 직접 반영하지 않을 때 사용한다.
+- 《REFERENCE_ONLY》 = 값은 보존하지만 현재 하우스 판정에는 쓰지 않을 때 사용한다.
+- 《HOLD》 = Source Confidence 부족, Degree/Nakshatra/Pada 누락, Actual-Surface Status 불명확, Target Rashi/Bhava link 미확인일 때 사용한다.
+- 《NOT_USED》 = 해당 point 자료가 없거나 현재 질문 범위에 포함되지 않을 때 사용한다.
+8. 10H COMPLETION CHECK
+□ 6B-0 Source Board 존재 확인
+□ Target D-Chart 확인
+□ Target D-Chart Domain 확인
+□ Target House = 10H 확인
+□ Relevant Arudha Point = D-A10 추출 확인
+□ Point Source Status 확인
+□ Source House of Pada = 10H 확인
+□ Arudha Sign 확인
+□ Arudha Degree 확인
+□ Arudha Nakshatra/Pada 확인
+□ Arudha House From Target D-Chart Lagna 확인
+□ Arudha House From Target D-Chart Bhava 확인
+□ Pada Landing House 확인
+□ Linked Target House = 10H 확인
+□ Linked Target House Lord 확인
+□ Linked Target Lord Position 확인
+□ Target Rashi Link 확인
+□ Target Bhava Link 확인
+□ Target Co-presence Link 확인
+□ Target Lord Movement Link 확인
+□ Target Actual Function 확인
+□ Surface Function 확인
+□ D1 Rashi Anchor 확인
+□ D1 Bhava Anchor 확인
+□ D1 Arudha Anchor 확인
+□ D1 Anchor Role 확인
+□ D1 Anchor Use Decision 확인
+□ D1 Anchor가 Target D-chart Arudha를 생성하지 않음
+□ D1 Anchor가 Target Rashi/Bhava를 덮지 않음
+□ Target D-chart Arudha가 D1 본체 약속을 덮지 않음
+□ Actual-Surface Status 확인
+□ Source-Landing Status 확인
+□ Surface Agreement 확인
+□ Surface Distortion 확인
+□ Use Decision 확인
+□ Missing / Partial Data Rule 적용 확인
+□ Actual-Surface Status Cap 적용 확인
+□ Target Rashi/Bhava overwrite 없음
+□ D1 Rashi/Bhava overwrite 없음
+□ 사건 약속 새로 생성 없음
+□ 강도층 미사용
+□ Aspect/Dasha/Varga Link 확장 없음
+□ Mrityu / AVA / Ashtakavarga / SP 미사용
+□ 표면화 방식만 보정
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-11H. TARGET D-CHART 11H ARUDHA APPLICATION SLOT
+11H → D-A11 타깃 하우스 아루다 세부 적용 슬롯
+REVISED 98 HOUSE-SPECIFIC DETAIL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. HOUSE / POINT AUTO-MAP
+- 《Target House》 = 11H
+- 《Relevant Arudha Point》 = D-A11
+- 《Surface Theme》 = 회수 표면 / 성과 표면 / 보상 표면 / 귀속 표면 / 네트워크 표면
+- 《Target House Core Question》 = 해당 D차트 도메인 안에서 회수·성과·보상·귀속·네트워크가 외부에 어떻게 보이는가
+- 《Primary Extraction Targets》 = 11H occupant / 11L / 5H axis / Venus-Jupiter-Rahu-if-supplied links / gain-recovery circuit planets
+- 《Linked Houses》 = 2H / 5H / 8H / 10H / 12H
+2. SOURCE EXTRACTION FROM 6B-0
+- 《Source Board》 = TARGET_DCHART_ARUDHA_D_STRUCTURE_SOURCE_BOARD_98
+- 《Extracted Point》 = D-A11
+- 《Point Source Status》 = <SOURCE_PRESERVED / PARTIAL / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_SUPPLIED / NOT_USED>
+- 《Point Sign》 = <SIGN / NOT_SHOWN>
+- 《Point Degree》 = <DEGREE / NOT_SHOWN>
+- 《Point Nakshatra/Pada》 = <NAKSHATRA_PADA / NOT_SHOWN>
+- 《Point House From Target D-Chart Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Point House From Target D-Chart Bhava》 = <BHAVA_HOUSE / NOT_SHOWN>
+- 《Source House of Pada》 = 11H
+- 《Pada Landing House》 = <HOUSE / BHAVA_HOUSE / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+Extraction Rule =
+- D-A11는 반드시 6B-0 Source Board에서 추출한다.
+- Source Board에 D-A11가 없으면 NOT_SUPPLIED 또는 NOT_USED로 둔다.
+- Sign만 있으면 SUPPORT_ONLY.
+- Sign + House만 있으면 SUPPORT_ONLY 가능.
+- Sign + Degree가 있으면 APPLY_AS_SURFACE 가능하되, Pada가 없으면 degree-detail은 제한한다.
+- Sign + Degree + Nakshatra/Pada가 있으면 APPLY_AS_SURFACE 가능.
+- Derived 값은 APP_VISIBLE / USER_TEXT_SUPPLIED 값을 덮어쓰지 않는다.
+- Source House와 Pada Landing House를 섞지 않는다.
+3. LINKED TARGET STRUCTURE
+- 《Target D-Chart》 = <D_CHART_TAG>
+- 《Target D-Chart Domain》 = <D_CHART_DOMAIN_LOCK_SENTENCE>
+- 《Linked Target House》 = 11H
+- 《Linked Target House Function》 = 회수 / 성과 / 보상 / 귀속 / 네트워크
+- 《Linked Target House Lord》 = <TARGET_HOUSE_LORD / NOT_SHOWN>
+- 《Linked Target Lord Position》 = <SIGN / HOUSE / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Target Rashi Link》 = <TARGET_RASHI_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / CO-PRESENCE / NOT_SHOWN>
+- 《Target Bhava Link》 = <TARGET_BHAVA_HOUSE / SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_SHOWN>
+- 《Target Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《Target Lord Movement Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《Target Actual Function》 = 회수 / 성과 / 보상 / 귀속 / 네트워크
+- 《Surface Function》 = 밖에서 보이는 성과·회수·보상·네트워크 표면
+- 《D1 Rashi Anchor》 = <D1_RELEVANT_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Bhava Anchor》 = <D1_RELEVANT_BHAVA / SAME / MOVED / SPLIT / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Arudha Anchor》 = <D1_AL / D1_A2~D1_A12 / D1_UL / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Anchor Role》 = <BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED>
+- 《D1 Anchor Use Decision》 = <REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED>
+4. ACTUAL-SURFACE CHECK
+- 《Actual-Surface Status》 = <SAME / DIFFERENT / PARTIAL / SPLIT / NEEDS_RECHECK>
+- 《Source-Landing Status》 = <SAME_HOUSE / DIFFERENT_HOUSE / PARTIAL / SPLIT / NOT_CHECKED>
+- 《Surface Agreement》 = <YES / NO / PARTIAL / NOT_CHECKED>
+- 《Surface Distortion》 = <NONE / OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT>
+- 《Use Decision》 = <APPLY_AS_SURFACE / APPLY_AS_SURFACE_AS_DISTORTION / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+SAME 기준 =
+- 실제 11H 구조와 D-A11 표면이 같으면, 실제 회수와 밖에서 보이는 성과 표면이 일치한다.
+DIFFERENT 기준 =
+- 실제 11H 구조와 D-A11 표면이 다르면, 실제로 남는 것과 밖에서 보이는 성과·보상 이미지가 갈라진다.
+PARTIAL 기준 =
+- 실제 11H 구조와 D-A11 표면이 일부만 같은 방향을 가리키고, 핵심 기능은 완전히 같지 않을 때 사용한다.
+SPLIT 기준 =
+- 실제 11H 구조가 둘 이상의 표면 기능으로 갈라져 보이거나, D-A11와 다른 point가 동시에 표면을 나눌 때 사용한다.
+NEEDS_RECHECK 기준 =
+- Source / Sign / Degree / House From Lagna / Bhava Link / Linked Target House가 부족할 때 사용한다.
+5. CHECK QUESTIONS
+1) 6B-0 Source Board에 D-A11가 보존되어 있는가?
+2) D-A11의 Sign / Degree / Nakshatra/Pada / House From Lagna가 확인되는가?
+3) D-A11는 Target 11H의 실제 하우스·로드·행성 구조와 연결되는가?
+4) Target Rashi 구조와 D-A11 표면이 같은 방향으로 드러나는가?
+5) Target Bhava 현실 적용과 D-A11 표면이 같은 house-function으로 내려오는가?
+6) 실제 구조와 표면 구조가 같으면 어떤 표면 일치가 생기는가?
+7) 실제 구조와 외부 인식이 다르면 어디서 갈라지는가?
+8) 표면이 실제보다 과하게 보이는가, 실제보다 덜 보이는가, 다른 위치로 보이는가?
+9) D-A11가 D1 본체 약속을 덮어쓰고 있지는 않은가?
+9-A) D1 Anchor Role은 BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED 중 하나로 제한되어 있는가?
+9-B) D1 Anchor Use Decision은 REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED 중 하나로 제한되어 있는가?
+9-C) D1 Anchor가 Target D-chart Arudha point를 생성하거나 덮어쓰고 있지는 않은가?
+10) D-A11가 Target D-Chart Rashi/Bhava를 덮어쓰고 있지는 않은가?
+11) D-A11는 표면화 방식만 보정하고 있는가?
+6. OUTPUT SENTENCE FORMAT
+LEVEL 1 SLOT JUDGEMENT SENTENCE =
+《<D_CHART_TAG> D-A11》는 해당 분할차트 실제 《11H 회수 / 성과 / 보상 / 귀속 / 네트워크》을 대체하지 않고,
+그 구조가 해당 D차트 도메인 안에서 외부 인식과 표면 장부에 《회수 표면 / 성과 표면 / 보상 표면 / 귀속 표면 / 네트워크 표면》로 어떻게 보이는지 확인하는 표면화 보조층이다.
+실제 《11H》 구조와 《D-A11》 표면 구조가 같으면 《SAME》으로 두고,
+갈라지면 《DIFFERENT / PARTIAL / SPLIT》로 표기하며,
+최종 구조판정은 해당 분할차트 Rashi/Bhava와 D1 본체 약속을 기준으로 유지한다.
+LEVEL 2 DEF_BOARD SURFACE NOTE =
+《<D_CHART_TAG> 11H》의 실제 구조는 《<TARGET_RASHI_LINK>》와 《<TARGET_BHAVA_LINK>》를 기준으로 유지하고,
+《D-A11》는 그 구조가 외부에서 《밖에서 보이는 성과·회수·보상·네트워크 표면》으로 보이는 방식만 보정한다.
+따라서 이 표면값은 사건 약속을 새로 만들지 않고,
+실제 구조가 표면에서 《<OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT / NONE>》로 드러나는지 확인하는 데만 사용한다.
+7. USE DECISION
+- 《APPLY_AS_SURFACE》 = D-A11가 11H의 외부 인식과 표면 장부를 유효하게 보정할 때 사용한다.
+- 《APPLY_AS_SURFACE_AS_DISTORTION》 = 실제 11H 구조와 D-A11 표면 구조가 다르지만, source가 명확하고 그 차이가 중요한 표면 왜곡 정보일 때 사용한다.
+- 《SUPPORT_ONLY》 = 실제 구조를 보조 설명할 수 있으나, 구조판정에 직접 반영하지 않을 때 사용한다.
+- 《REFERENCE_ONLY》 = 값은 보존하지만 현재 하우스 판정에는 쓰지 않을 때 사용한다.
+- 《HOLD》 = Source Confidence 부족, Degree/Nakshatra/Pada 누락, Actual-Surface Status 불명확, Target Rashi/Bhava link 미확인일 때 사용한다.
+- 《NOT_USED》 = 해당 point 자료가 없거나 현재 질문 범위에 포함되지 않을 때 사용한다.
+8. 11H COMPLETION CHECK
+□ 6B-0 Source Board 존재 확인
+□ Target D-Chart 확인
+□ Target D-Chart Domain 확인
+□ Target House = 11H 확인
+□ Relevant Arudha Point = D-A11 추출 확인
+□ Point Source Status 확인
+□ Source House of Pada = 11H 확인
+□ Arudha Sign 확인
+□ Arudha Degree 확인
+□ Arudha Nakshatra/Pada 확인
+□ Arudha House From Target D-Chart Lagna 확인
+□ Arudha House From Target D-Chart Bhava 확인
+□ Pada Landing House 확인
+□ Linked Target House = 11H 확인
+□ Linked Target House Lord 확인
+□ Linked Target Lord Position 확인
+□ Target Rashi Link 확인
+□ Target Bhava Link 확인
+□ Target Co-presence Link 확인
+□ Target Lord Movement Link 확인
+□ Target Actual Function 확인
+□ Surface Function 확인
+□ D1 Rashi Anchor 확인
+□ D1 Bhava Anchor 확인
+□ D1 Arudha Anchor 확인
+□ D1 Anchor Role 확인
+□ D1 Anchor Use Decision 확인
+□ D1 Anchor가 Target D-chart Arudha를 생성하지 않음
+□ D1 Anchor가 Target Rashi/Bhava를 덮지 않음
+□ Target D-chart Arudha가 D1 본체 약속을 덮지 않음
+□ Actual-Surface Status 확인
+□ Source-Landing Status 확인
+□ Surface Agreement 확인
+□ Surface Distortion 확인
+□ Use Decision 확인
+□ Missing / Partial Data Rule 적용 확인
+□ Actual-Surface Status Cap 적용 확인
+□ Target Rashi/Bhava overwrite 없음
+□ D1 Rashi/Bhava overwrite 없음
+□ 사건 약속 새로 생성 없음
+□ 강도층 미사용
+□ Aspect/Dasha/Varga Link 확장 없음
+□ Mrityu / AVA / Ashtakavarga / SP 미사용
+□ 표면화 방식만 보정
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-12H. TARGET D-CHART 12H ARUDHA APPLICATION SLOT
+12H → D-A12 타깃 하우스 아루다 세부 적용 슬롯
+REVISED 98 HOUSE-SPECIFIC DETAIL
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. HOUSE / POINT AUTO-MAP
+- 《Target House》 = 12H
+- 《Relevant Arudha Point》 = D-A12
+- 《Surface Theme》 = 소모 표면 / 누수 표면 / 배후처리 표면 / 해소 표면
+- 《Target House Core Question》 = 해당 D차트 도메인 안에서 배후소모·누수·퇴장·해소·숨은 비용이 외부에 어떻게 보이는가
+- 《Primary Extraction Targets》 = 12H occupant / 12L / 6H axis / Ketu-Saturn-Moon links / loss-release circuit planets
+- 《Linked Houses》 = 6H / 8H / 2H / 4H / 10H / 11H
+2. SOURCE EXTRACTION FROM 6B-0
+- 《Source Board》 = TARGET_DCHART_ARUDHA_D_STRUCTURE_SOURCE_BOARD_98
+- 《Extracted Point》 = D-A12
+- 《Point Source Status》 = <SOURCE_PRESERVED / PARTIAL / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_SUPPLIED / NOT_USED>
+- 《Point Sign》 = <SIGN / NOT_SHOWN>
+- 《Point Degree》 = <DEGREE / NOT_SHOWN>
+- 《Point Nakshatra/Pada》 = <NAKSHATRA_PADA / NOT_SHOWN>
+- 《Point House From Target D-Chart Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Point House From Target D-Chart Bhava》 = <BHAVA_HOUSE / NOT_SHOWN>
+- 《Source House of Pada》 = 12H
+- 《Pada Landing House》 = <HOUSE / BHAVA_HOUSE / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+Extraction Rule =
+- D-A12는 반드시 6B-0 Source Board에서 추출한다.
+- Source Board에 D-A12가 없으면 NOT_SUPPLIED 또는 NOT_USED로 둔다.
+- Sign만 있으면 SUPPORT_ONLY.
+- Sign + House만 있으면 SUPPORT_ONLY 가능.
+- Sign + Degree가 있으면 APPLY_AS_SURFACE 가능하되, Pada가 없으면 degree-detail은 제한한다.
+- Sign + Degree + Nakshatra/Pada가 있으면 APPLY_AS_SURFACE 가능.
+- Derived 값은 APP_VISIBLE / USER_TEXT_SUPPLIED 값을 덮어쓰지 않는다.
+- Source House와 Pada Landing House를 섞지 않는다.
+3. LINKED TARGET STRUCTURE
+- 《Target D-Chart》 = <D_CHART_TAG>
+- 《Target D-Chart Domain》 = <D_CHART_DOMAIN_LOCK_SENTENCE>
+- 《Linked Target House》 = 12H
+- 《Linked Target House Function》 = 배후소모 / 누수 / 퇴장 / 해소 / 숨은 비용
+- 《Linked Target House Lord》 = <TARGET_HOUSE_LORD / NOT_SHOWN>
+- 《Linked Target Lord Position》 = <SIGN / HOUSE / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Target Rashi Link》 = <TARGET_RASHI_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / CO-PRESENCE / NOT_SHOWN>
+- 《Target Bhava Link》 = <TARGET_BHAVA_HOUSE / SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_SHOWN>
+- 《Target Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《Target Lord Movement Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《Target Actual Function》 = 배후소모 / 누수 / 퇴장 / 해소 / 숨은 비용
+- 《Surface Function》 = 밖에서 보이는 소모·누수·배후처리·해소 표면
+- 《D1 Rashi Anchor》 = <D1_RELEVANT_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Bhava Anchor》 = <D1_RELEVANT_BHAVA / SAME / MOVED / SPLIT / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Arudha Anchor》 = <D1_AL / D1_A2~D1_A12 / D1_UL / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Anchor Role》 = <BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED>
+- 《D1 Anchor Use Decision》 = <REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED>
+4. ACTUAL-SURFACE CHECK
+- 《Actual-Surface Status》 = <SAME / DIFFERENT / PARTIAL / SPLIT / NEEDS_RECHECK>
+- 《Source-Landing Status》 = <SAME_HOUSE / DIFFERENT_HOUSE / PARTIAL / SPLIT / NOT_CHECKED>
+- 《Surface Agreement》 = <YES / NO / PARTIAL / NOT_CHECKED>
+- 《Surface Distortion》 = <NONE / OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT>
+- 《Use Decision》 = <APPLY_AS_SURFACE / APPLY_AS_SURFACE_AS_DISTORTION / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+SAME 기준 =
+- 실제 12H 구조와 D-A12 표면이 같으면, 실제 소모·해소와 밖에서 보이는 배후처리 표면이 일치한다.
+DIFFERENT 기준 =
+- 실제 12H 구조와 D-A12 표면이 다르면, 실제 누수·소모는 뒤에서 발생하지만 밖에서는 다른 표면으로 보일 수 있다.
+PARTIAL 기준 =
+- 실제 12H 구조와 D-A12 표면이 일부만 같은 방향을 가리키고, 핵심 기능은 완전히 같지 않을 때 사용한다.
+SPLIT 기준 =
+- 실제 12H 구조가 둘 이상의 표면 기능으로 갈라져 보이거나, D-A12와 다른 point가 동시에 표면을 나눌 때 사용한다.
+NEEDS_RECHECK 기준 =
+- Source / Sign / Degree / House From Lagna / Bhava Link / Linked Target House가 부족할 때 사용한다.
+5. CHECK QUESTIONS
+1) 6B-0 Source Board에 D-A12가 보존되어 있는가?
+2) D-A12의 Sign / Degree / Nakshatra/Pada / House From Lagna가 확인되는가?
+3) D-A12는 Target 12H의 실제 하우스·로드·행성 구조와 연결되는가?
+4) Target Rashi 구조와 D-A12 표면이 같은 방향으로 드러나는가?
+5) Target Bhava 현실 적용과 D-A12 표면이 같은 house-function으로 내려오는가?
+6) 실제 구조와 표면 구조가 같으면 어떤 표면 일치가 생기는가?
+7) 실제 구조와 외부 인식이 다르면 어디서 갈라지는가?
+8) 표면이 실제보다 과하게 보이는가, 실제보다 덜 보이는가, 다른 위치로 보이는가?
+9) D-A12가 D1 본체 약속을 덮어쓰고 있지는 않은가?
+9-A) D1 Anchor Role은 BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED 중 하나로 제한되어 있는가?
+9-B) D1 Anchor Use Decision은 REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED 중 하나로 제한되어 있는가?
+9-C) D1 Anchor가 Target D-chart Arudha point를 생성하거나 덮어쓰고 있지는 않은가?
+10) D-A12가 Target D-Chart Rashi/Bhava를 덮어쓰고 있지는 않은가?
+11) D-A12는 표면화 방식만 보정하고 있는가?
+6. OUTPUT SENTENCE FORMAT
+LEVEL 1 SLOT JUDGEMENT SENTENCE =
+《<D_CHART_TAG> D-A12》는 해당 분할차트 실제 《12H 배후소모 / 누수 / 퇴장 / 해소 / 숨은 비용》을 대체하지 않고,
+그 구조가 해당 D차트 도메인 안에서 외부 인식과 표면 장부에 《소모 표면 / 누수 표면 / 배후처리 표면 / 해소 표면》로 어떻게 보이는지 확인하는 표면화 보조층이다.
+실제 《12H》 구조와 《D-A12》 표면 구조가 같으면 《SAME》으로 두고,
+갈라지면 《DIFFERENT / PARTIAL / SPLIT》로 표기하며,
+최종 구조판정은 해당 분할차트 Rashi/Bhava와 D1 본체 약속을 기준으로 유지한다.
+LEVEL 2 DEF_BOARD SURFACE NOTE =
+《<D_CHART_TAG> 12H》의 실제 구조는 《<TARGET_RASHI_LINK>》와 《<TARGET_BHAVA_LINK>》를 기준으로 유지하고,
+《D-A12》는 그 구조가 외부에서 《밖에서 보이는 소모·누수·배후처리·해소 표면》으로 보이는 방식만 보정한다.
+따라서 이 표면값은 사건 약속을 새로 만들지 않고,
+실제 구조가 표면에서 《<OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT / NONE>》로 드러나는지 확인하는 데만 사용한다.
+7. USE DECISION
+- 《APPLY_AS_SURFACE》 = D-A12가 12H의 외부 인식과 표면 장부를 유효하게 보정할 때 사용한다.
+- 《APPLY_AS_SURFACE_AS_DISTORTION》 = 실제 12H 구조와 D-A12 표면 구조가 다르지만, source가 명확하고 그 차이가 중요한 표면 왜곡 정보일 때 사용한다.
+- 《SUPPORT_ONLY》 = 실제 구조를 보조 설명할 수 있으나, 구조판정에 직접 반영하지 않을 때 사용한다.
+- 《REFERENCE_ONLY》 = 값은 보존하지만 현재 하우스 판정에는 쓰지 않을 때 사용한다.
+- 《HOLD》 = Source Confidence 부족, Degree/Nakshatra/Pada 누락, Actual-Surface Status 불명확, Target Rashi/Bhava link 미확인일 때 사용한다.
+- 《NOT_USED》 = 해당 point 자료가 없거나 현재 질문 범위에 포함되지 않을 때 사용한다.
+8. 12H COMPLETION CHECK
+□ 6B-0 Source Board 존재 확인
+□ Target D-Chart 확인
+□ Target D-Chart Domain 확인
+□ Target House = 12H 확인
+□ Relevant Arudha Point = D-A12 추출 확인
+□ Point Source Status 확인
+□ Source House of Pada = 12H 확인
+□ Arudha Sign 확인
+□ Arudha Degree 확인
+□ Arudha Nakshatra/Pada 확인
+□ Arudha House From Target D-Chart Lagna 확인
+□ Arudha House From Target D-Chart Bhava 확인
+□ Pada Landing House 확인
+□ Linked Target House = 12H 확인
+□ Linked Target House Lord 확인
+□ Linked Target Lord Position 확인
+□ Target Rashi Link 확인
+□ Target Bhava Link 확인
+□ Target Co-presence Link 확인
+□ Target Lord Movement Link 확인
+□ Target Actual Function 확인
+□ Surface Function 확인
+□ D1 Rashi Anchor 확인
+□ D1 Bhava Anchor 확인
+□ D1 Arudha Anchor 확인
+□ D1 Anchor Role 확인
+□ D1 Anchor Use Decision 확인
+□ D1 Anchor가 Target D-chart Arudha를 생성하지 않음
+□ D1 Anchor가 Target Rashi/Bhava를 덮지 않음
+□ Target D-chart Arudha가 D1 본체 약속을 덮지 않음
+□ Actual-Surface Status 확인
+□ Source-Landing Status 확인
+□ Surface Agreement 확인
+□ Surface Distortion 확인
+□ Use Decision 확인
+□ Missing / Partial Data Rule 적용 확인
+□ Actual-Surface Status Cap 적용 확인
+□ Target Rashi/Bhava overwrite 없음
+□ D1 Rashi/Bhava overwrite 없음
+□ 사건 약속 새로 생성 없음
+□ 강도층 미사용
+□ Aspect/Dasha/Varga Link 확장 없음
+□ Mrityu / AVA / Ashtakavarga / SP 미사용
+□ 표면화 방식만 보정
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-UL. TARGET D-CHART UL ARUDHA APPLICATION SLOT
+D-UL 관계·동반자 표면 세부 적용 슬롯
+REVISED 98 HOUSE-SPECIFIC DETAIL / A7-SEPARATED
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. POINT AUTO-MAP
+- 《Target Type》 = Relationship / Partner / Marriage / Contract Surface / Alliance Surface
+- 《Relevant Arudha Point》 = D-UL
+- 《Surface Theme》 = 관계 표면 / 동반자 표면 / 파트너 표면 / 관계의 보이는 장부
+- 《Target Core Question》 = 해당 D차트 도메인 안에서 관계·동반자·계약·파트너 구조가 외부에 어떤 표면 장부로 보이는가
+- 《Primary Extraction Targets》 = D-UL / D-A7 / 7H occupant / 7L / Venus / DK if supplied / UL-linked lord / relationship-surface circuit planets
+- 《Linked Houses》 = 7H / 1H / 2H / 8H / 10H / 11H / 12H
+2. SOURCE EXTRACTION FROM 6B-0
+- 《Source Board》 = TARGET_DCHART_ARUDHA_D_STRUCTURE_SOURCE_BOARD_98
+- 《Extracted Point》 = D-UL
+- 《Point Source Status》 = <SOURCE_PRESERVED / PARTIAL / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_SUPPLIED / NOT_USED>
+- 《Point Sign》 = <SIGN / NOT_SHOWN>
+- 《Point Degree》 = <DEGREE / NOT_SHOWN>
+- 《Point Nakshatra/Pada》 = <NAKSHATRA_PADA / NOT_SHOWN>
+- 《Point House From Target D-Chart Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Point House From Target D-Chart Bhava》 = <BHAVA_HOUSE / NOT_SHOWN>
+- 《Source House of Pada》 = UL_LINK
+- 《Pada Landing House》 = <HOUSE / BHAVA_HOUSE / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+Extraction Rule =
+- D-UL은 반드시 6B-0 Source Board에서 추출한다.
+- Source Board에 D-UL이 없으면 NOT_SUPPLIED 또는 NOT_USED로 둔다.
+- D-UL은 D-A7과 같지 않다.
+- D-A7이 있어도 D-UL을 대체하지 않는다.
+- D-UL이 있어도 D-A7을 대체하지 않는다.
+- Sign만 있으면 SUPPORT_ONLY.
+- Sign + House만 있으면 SUPPORT_ONLY 가능.
+- Sign + Degree가 있으면 APPLY_AS_SURFACE 가능하되, Pada가 없으면 degree-detail은 제한한다.
+- Sign + Degree + Nakshatra/Pada가 있으면 APPLY_AS_SURFACE 가능.
+- Derived 값은 APP_VISIBLE / USER_TEXT_SUPPLIED 값을 덮어쓰지 않는다.
+- Source House와 Pada Landing House를 섞지 않는다.
+3. LINKED TARGET STRUCTURE
+- 《Target D-Chart》 = <D_CHART_TAG>
+- 《Target D-Chart Domain》 = <D_CHART_DOMAIN_LOCK_SENTENCE>
+- 《Linked Target Type》 = Relationship / Partner / Marriage / Contract Surface
+- 《Linked Target House》 = <7H / UL_LINK / OTHER_RELEVANT_HOUSE / NOT_SHOWN>
+- 《Linked Target Function》 = 관계 / 동반자 / 파트너 / 계약 / 외부 결합 표면
+- 《Linked Target Lord》 = <7L / UL_LORD / NOT_SHOWN>
+- 《Linked Target Lord Position》 = <SIGN / HOUSE / DEGREE / NAKSHATRA_PADA / RL-NL-SL-SSL / NOT_SHOWN>
+- 《Target Rashi Link》 = <7H_RASHI_LINK / RELATIONSHIP_RELEVANT_LINK / NOT_SHOWN>
+- 《Target Bhava Link》 = <7H_BHAVA_LINK / SAME / MOVED / SPLIT / RE-FUNCTIONED / NOT_SHOWN>
+- 《D-A7 Comparison》 = <SAME_DIRECTION / PARTIAL / DIFFERENT / SPLIT / NOT_SUPPLIED / NOT_CHECKED>
+- 《Target Actual Function》 = 관계 / 동반자 / 파트너 / 계약 / 외부 결합 구조
+- 《Surface Function》 = 밖에서 보이는 관계·동반자·계약·파트너 표면
+- 《D1 Rashi Anchor》 = <D1_RELEVANT_HOUSE / SIGN / OCCUPANTS / HOUSE_LORD / LORD_POSITION / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Bhava Anchor》 = <D1_RELEVANT_BHAVA / SAME / MOVED / SPLIT / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Arudha Anchor》 = <D1_AL / D1_A2~D1_A12 / D1_UL / NOT_APPLIED / NOT_SHOWN>
+- 《D1 Anchor Role》 = <BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED>
+- 《D1 Anchor Use Decision》 = <REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED>
+4. ACTUAL-SURFACE CHECK
+- 《Actual-Surface Status》 = <SAME / DIFFERENT / PARTIAL / SPLIT / NEEDS_RECHECK>
+- 《Source-Landing Status》 = <SAME_HOUSE / DIFFERENT_HOUSE / PARTIAL / SPLIT / NOT_CHECKED>
+- 《Surface Agreement With D-A7》 = <YES / NO / PARTIAL / SPLIT / NOT_CHECKED>
+- 《Surface Distortion》 = <NONE / OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT>
+- 《Use Decision》 = <APPLY_AS_SURFACE / APPLY_AS_SURFACE_AS_DISTORTION / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+SAME 기준 =
+- 실제 관계 구조와 D-UL 표면이 같은 방향이면, 관계의 실제 장부와 밖에서 보이는 동반자 표면이 일치한다.
+DIFFERENT 기준 =
+- 실제 관계 구조와 D-UL 표면이 다르면, 실제 관계 조건과 외부가 보는 파트너 이미지가 갈라진다.
+PARTIAL 기준 =
+- 실제 관계 구조와 D-UL 표면이 일부만 같은 방향을 가리키고, 핵심 기능은 완전히 같지 않을 때 사용한다.
+SPLIT 기준 =
+- D-UL과 D-A7이 서로 다른 관계 표면을 만들거나, 실제 관계 구조가 둘 이상의 표면으로 갈라질 때 사용한다.
+NEEDS_RECHECK 기준 =
+- Source / Sign / Degree / House From Lagna / Bhava Link / Linked Target Type이 부족할 때 사용한다.
+5. CHECK QUESTIONS
+1) 6B-0 Source Board에 D-UL이 보존되어 있는가?
+2) D-UL의 Sign / Degree / Nakshatra/Pada / House From Lagna가 확인되는가?
+3) D-UL은 D-A7과 분리되어 있는가?
+4) D-UL은 실제 관계·동반자·계약 구조와 연결되는가?
+5) D-UL과 D-A7이 같은 표면을 만드는가, 일부만 겹치는가, 갈라지는가?
+6) 실제 관계 구조와 외부 인식이 다르면 어디서 갈라지는가?
+7) D-UL이 D1 본체 약속을 덮어쓰고 있지는 않은가?
+7-A) D1 Anchor Role은 BODY_PROMISE_CHECK / SURFACE_COMPARISON / SUPPORT_ONLY / DISTORTION_CHECK / NOT_USED 중 하나로 제한되어 있는가?
+7-B) D1 Anchor Use Decision은 REFERENCE_ONLY / SUPPORT_ONLY / SURFACE_COMPARISON_ONLY / HOLD / NOT_USED 중 하나로 제한되어 있는가?
+7-C) D1 Anchor가 Target D-chart Arudha point를 생성하거나 덮어쓰고 있지는 않은가?
+8) D-UL이 Target D-Chart Rashi/Bhava를 덮어쓰고 있지는 않은가?
+9) D-UL은 표면화 방식만 보정하고 있는가?
+6. OUTPUT SENTENCE FORMAT
+LEVEL 1 SLOT JUDGEMENT SENTENCE =
+《<D_CHART_TAG> D-UL》은 해당 분할차트 실제 《관계 / 동반자 / 파트너 / 계약 / 외부 결합 구조》를 대체하지 않고,
+그 구조가 해당 D차트 도메인 안에서 외부 인식과 표면 장부에 《관계 표면 / 동반자 표면 / 파트너 표면 / 관계의 보이는 장부》로 어떻게 보이는지 확인하는 표면화 보조층이다.
+《D-UL》은 《D-A7》과 병합하지 않고,
+같은 방향이면 《Surface Agreement = YES》,
+갈라지면 《PARTIAL / DIFFERENT / SPLIT》로 표기하며,
+최종 구조판정은 해당 분할차트 Rashi/Bhava와 D1 본체 약속을 기준으로 유지한다.
+LEVEL 2 DEF_BOARD SURFACE NOTE =
+《<D_CHART_TAG> 관계 표면》의 실제 구조는 《<TARGET_RASHI_LINK>》와 《<TARGET_BHAVA_LINK>》를 기준으로 유지하고,
+《D-UL》은 그 구조가 외부에서 《밖에서 보이는 관계·동반자·계약·파트너 표면》으로 보이는 방식만 보정한다.
+따라서 이 표면값은 사건 약속을 새로 만들지 않고,
+실제 관계 구조가 표면에서 《<OVER-VISIBLE / UNDER-VISIBLE / MISPLACED / SPLIT / NONE>》로 드러나는지 확인하는 데만 사용한다.
+7. USE DECISION
+- 《APPLY_AS_SURFACE》 = D-UL이 관계·동반자·계약 표면을 유효하게 보정할 때 사용한다.
+- 《APPLY_AS_SURFACE_AS_DISTORTION》 = 실제 관계 구조와 D-UL 표면 구조가 다르지만, source가 명확하고 그 차이가 중요한 표면 왜곡 정보일 때 사용한다.
+- 《SUPPORT_ONLY》 = 실제 관계 구조를 보조 설명할 수 있으나, 구조판정에 직접 반영하지 않을 때 사용한다.
+- 《REFERENCE_ONLY》 = 값은 보존하지만 현재 판정에는 쓰지 않을 때 사용한다.
+- 《HOLD》 = Source Confidence 부족, Degree/Nakshatra/Pada 누락, Actual-Surface Status 불명확, Target Rashi/Bhava link 미확인일 때 사용한다.
+- 《NOT_USED》 = D-UL 자료가 없거나 현재 질문 범위에 포함되지 않을 때 사용한다.
+8. UL COMPLETION CHECK
+□ 6B-0 Source Board 존재 확인
+□ Target D-Chart 확인
+□ Target D-Chart Domain 확인
+□ Relevant Arudha Point = D-UL 추출 확인
+□ Point Source Status 확인
+□ Source House of Pada = UL_LINK 확인
+□ Arudha Sign 확인
+□ Arudha Degree 확인
+□ Arudha Nakshatra/Pada 확인
+□ Arudha House From Target D-Chart Lagna 확인
+□ Arudha House From Target D-Chart Bhava 확인
+□ Pada Landing House 확인
+□ D-A7 / D-UL 분리 확인
+□ D-A7 Comparison 확인
+□ Linked Target Type 확인
+□ Linked Target Lord 확인
+□ Linked Target Lord Position 확인
+□ Target Rashi Link 확인
+□ Target Bhava Link 확인
+□ Target Actual Function 확인
+□ Surface Function 확인
+□ D1 Rashi Anchor 확인
+□ D1 Bhava Anchor 확인
+□ D1 Arudha Anchor 확인
+□ D1 Anchor Role 확인
+□ D1 Anchor Use Decision 확인
+□ D1 Anchor가 Target D-chart Arudha를 생성하지 않음
+□ D1 Anchor가 Target Rashi/Bhava를 덮지 않음
+□ Target D-chart Arudha가 D1 본체 약속을 덮지 않음
+□ Actual-Surface Status 확인
+□ Source-Landing Status 확인
+□ Surface Agreement With D-A7 확인
+□ Surface Distortion 확인
+□ Use Decision 확인
+□ Target Rashi/Bhava overwrite 없음
+□ D1 Rashi/Bhava overwrite 없음
+□ 사건 약속 새로 생성 없음
+□ 강도층 미사용
+□ Aspect/Dasha/Varga Link 확장 없음
+□ Mrityu / AVA / Ashtakavarga / SP 미사용
+□ 표면화 방식만 보정
+TITLE=TARGET_DCHART_UL_ARUDHA_APPLICATION_SLOT_98
+STATUS=UL_APPLICATION_READY / A7_SEPARATED / SURFACE_ONLY / NO_OVERWRITE
+━━━━━━━━━━━━━━━━━━━━━━━━━
+17-FINAL. HOUSE-BY-HOUSE D-ARUDHA APPLICATION LOCK
+━━━━━━━━━━━━━━━━━━━━━━━━━
+이 17번 하우스별 세부 슬롯은
+TARGET_DCHART_ARUDHA_FULL_PLUS_SINGLE_98_LOCK의 6B-0 Source Board와
+6B-0A Source House / Pada Landing House Distinction Rule과
+6B-HOUSE-TARGET Single Target House Slot을 1H~12H별로 풀어쓴 적용판이다.
+다른 탭은 이 파일을 사용할 때:
+1) Target D-chart를 고르고,
+2) 6B-0 Source Board에 전체 D-Arudha point를 보존한 뒤,
+3) 6B-0A에서 Source House와 Pada Landing House를 분리하고,
+4) 17번에서 해당 Target House 슬롯 또는 17-UL 슬롯을 선택하고,
+5) 해당 D-Apoint 또는 D-UL을 추출해,
+6) D1 Rashi Anchor / D1 Bhava Anchor / D1 Arudha Anchor / D1 Anchor Role / D1 Anchor Use Decision을 입력하고,
+7) Actual-Surface Status / Source-Landing Status / Surface Distortion / Use Decision만 판정한다.
+TITLE=TARGET_DCHART_ARUDHA_1H_TO_12H_PLUS_UL_APPLICATION_PACKETS_98
+STATUS=HOUSE_BY_HOUSE_APPLICATION_READY / UL_APPLICATION_READY / D1_ANCHOR_FIELDS_READY / OTHER_TAB_READY / SOURCE_GATED / SOURCE_LANDING_SEPARATED / SURFACE_ONLY / NO_OVERWRITE / 98_LOCK_READY
+━━━━━━━━━━━━━━━━━━━━━━━━━

@@ -11,6 +11,13 @@
 - `SC8/*.txt`
   - `$rq-sc8` PIKACHU 20D 정본 ZIP에서 추출한 Arudha member 20개
   - 각 파일은 1D × 12H `AppLieD_R`
+- `templates/*.txt`
+  - 사용자 제공 06A D1·06B Target Arudha typed template 원문
+- `grammar/`
+  - SC7 ↔ SC8 Arudha 공통문법, 양방향 실행기, 260-point coverage, HOLD registry
+  - 호출키: `$rq-sc7-sc8-arudha-grammar`
+- `HYEWON_SC7_SC8_ARUDHA_GRAMMAR_PACK.zip`
+  - SC7·SC8 원문, 첨부 템플릿, 문법·실행기·검증·HOLD 기록을 함께 담은 재실행 묶음
 
 ## 활성 D 순서
 
@@ -25,5 +32,13 @@
 - Rashi·Bhava·Timing·AVA와 혼합 없음
 - 원문 대소문자·상태문·공백을 수정하지 않음
 - SC7과 SC8을 서로 덮어쓰지 않음
+
+## 문법 판정
+
+- 좌표 결속: `240H + UL 20 = 260/260 PASS`
+- 공통 구조문법: `PASS`
+- 기존 SC7 ↔ 기존 SC8 byte-exact 양방향: `HOLD`
+- 이유: SC7은 후속 스크린샷 교정 상태이고 SC8은 이전 PIKACHU 상태이므로 122/260 point 값이 다름
+- 수동 보정과 D차트별 옛값 치환표: `0`
 
 세부 해시와 파일 목록은 `ARUDHA_EXPORT_MANIFEST.json`에 기록했다.

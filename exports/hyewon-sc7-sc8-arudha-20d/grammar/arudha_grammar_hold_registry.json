@@ -1,0 +1,113 @@
+{
+  "registry_version": "1.0",
+  "grammar_call": "$rq-sc7-sc8-arudha-grammar",
+  "grammar_status": "HOLD",
+  "policy": {
+    "manual_corrections_allowed": false,
+    "chart_id_value_exceptions_allowed": false,
+    "historical_value_lookup_allowed": false,
+    "unseen_value_inference_allowed": false,
+    "hold_is_failure_override": false
+  },
+  "holds": [
+    {
+      "hold_id": "HOLD-ARU-SOURCE-STATE-001",
+      "severity": "BLOCKING",
+      "scope": "complete paired corpus",
+      "claim_blocked": "SC7 and SC8 are the same-state forward/reverse pair",
+      "observed": {
+        "sc7_state": "SCREENSHOT_MASTER_SOURCE_VERIFIED",
+        "sc8_state": "HISTORICAL_APPLIED_R",
+        "point_schema_equal": 260,
+        "different_points": 122,
+        "different_field_occurrences": 674
+      },
+      "required_to_release": "Choose one canonical target state and supply same-state pairs.",
+      "forbidden_workaround": "Do not label the historical SC8 values as a deterministic rendering of the later SC7 corrections.",
+      "exception_status": "NO_EXCEPTION_ADDED"
+    },
+    {
+      "hold_id": "HOLD-ARU-D1-DEGREE-LOSS-001",
+      "severity": "BLOCKING",
+      "scope": "D1 AL/A1~A11 and UL",
+      "claim_blocked": "SC8 D1 -> corrected SC7 D1 inverse",
+      "observed": {
+        "sc7_visible_degree_points": 12,
+        "sc8_serialized_value": "not shown",
+        "lost_fields": ["Arudha Degree x11", "UL Degree x1"]
+      },
+      "required_to_release": "Carry the 12 D1 degrees in the target profile or pair SC8 with a pre-correction SC7 that also says not shown.",
+      "forbidden_workaround": "Do not read degrees from the paired SC7 reference during reverse execution.",
+      "exception_status": "NO_REFERENCE_REPLAY"
+    },
+    {
+      "hold_id": "HOLD-ARU-CORRECTED-VALUES-001",
+      "severity": "BLOCKING",
+      "scope": "Target D-chart point positions",
+      "claim_blocked": "one value-independent historical conversion rule",
+      "observed": {
+        "Arudha_Sign_differences": 82,
+        "Arudha_House_differences": 82,
+        "Arudha_Degree_differences": 103,
+        "Arudha_Nakshatra_Pada_differences": 100,
+        "UL_position_field_differences": 27,
+        "Source_Landing_Status_differences": 11
+      },
+      "required_to_release": "Supply provenance for a common correction rule or keep historical and corrected states as separate versions.",
+      "forbidden_workaround": "Do not create a D-chart/House old-value table.",
+      "exception_status": "NO_CHART_ID_VALUE_MAP"
+    },
+    {
+      "hold_id": "HOLD-ARU-TEMPLATE-SKELETON-001",
+      "severity": "BLOCKING",
+      "scope": "exact applied-document serialization",
+      "claim_blocked": "06A/06B are byte skeletons for the historical SC8 documents",
+      "observed": {
+        "d1_template_lines": 1089,
+        "d1_historical_sc8_lines": 366,
+        "target_template_lines": 2789,
+        "target_sc8_lines_typical": 576,
+        "d1_template_placeholders": 355,
+        "target_template_placeholders": 524,
+        "byte_equal_to_applied_document": false
+      },
+      "required_to_release": "Provide an exact applied skeleton for the chosen target version.",
+      "forbidden_workaround": "Do not treat the typed specification as a value-deleted historical output.",
+      "exception_status": "NO_SILENT_TEMPLATE_SWITCH"
+    },
+    {
+      "hold_id": "HOLD-ARU-INVERSE-CARRIER-001",
+      "severity": "BLOCKING",
+      "scope": "SC8 -> SC7 integrated container",
+      "claim_blocked": "Reverse(y) = byte-identical SC7 monolith",
+      "observed": {
+        "sc7_index_members": 1,
+        "sc7_chart_members": 20,
+        "sc8_chart_members": 20,
+        "sc8_carries_current_sc7_index_state": false,
+        "sc8_carries_all_corrected_values": false
+      },
+      "required_to_release": "Add a lossless index/value carrier to a new SC8 profile or supply a same-state reverse target.",
+      "forbidden_workaround": "Do not concatenate the paired SC7 reference file as reverse output.",
+      "exception_status": "NO_SIDE_CHANNEL_INVENTED"
+    },
+    {
+      "hold_id": "HOLD-ARU-EXACT-RENDERER-001",
+      "severity": "BLOCKING",
+      "scope": "all four exact invariants",
+      "claim_blocked": "full forward/reverse/roundtrip PASS",
+      "observed": {
+        "coordinates_bound": 260,
+        "common_grammar_status": "PASS",
+        "exact_points": 138,
+        "different_points": 122,
+        "exact_documents": 0,
+        "documents_compared": 20,
+        "target_txt_emitted": 0
+      },
+      "required_to_release": "Resolve every blocking source-state and inverse-carrier hold, then pass byte SHA-256 comparison without manual edits.",
+      "forbidden_workaround": "Do not emit target-looking TXT while the target source state is unresolved.",
+      "exception_status": "FAIL_CLOSED"
+    }
+  ]
+}

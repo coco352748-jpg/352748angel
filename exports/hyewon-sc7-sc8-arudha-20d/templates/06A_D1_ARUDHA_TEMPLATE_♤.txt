@@ -1,0 +1,1089 @@
+HYEWON_D1_ARUDHA_12H_SLOT_TEMPLATE_98_NOBLANK
+━━━━━━━━━━━━━━━━━━━━━━━━━
+D1 ARUDHA 12H SLOT TEMPLATE
+D1 아루다 12하우스 표면화 슬롯
+REVISED 98 / D1 ONLY / SURFACE STRUCTURE / AL-A2~A12 + UL INDEPENDENT
+━━━━━━━━━━━━━━━━━━━━━━━━━
+ROLE =
+- 이 문서는 D1 Arudha / Surface Structure를 1H~12H별로 적용하기 위한 D1 전용 슬롯 템플릿이다.
+- D1 Arudha는 D1 실제 구조가 외부 인식·표면 장부·보이는 결과에서 어떻게 드러나는지 확인하는 표면화층이다.
+- D1 Arudha는 D1 Rashi 원본 구조를 덮어쓰지 않는다.
+- D1 Arudha는 D1 Bhava 현실 적용층을 덮어쓰지 않는다.
+- D1 Arudha는 사건 약속을 새로 만들지 않는다.
+- D1 Arudha는 실제 구조가 아니라 표면화 구조다.
+- 이 단계에서는 강도층 / Aspect / Dasha / AVA / Bhinna / Ashta / Varga Link를 적용하지 않는다.
+MASTER ORDER POSITION =
+- Step 6 = D1 ARUDHA / SURFACE STRUCTURE
+- Step 0 Source Call 이후 사용한다.
+- Step 1 D1 Rashi Source Slot 이후 사용한다.
+- Step 2 D1 Bhava Source Slot 이후 사용한다.
+- Step 3 D1 Rashi + Bhava First Integration 이후 사용한다.
+- Step 4 D1 Co-presence Check 이후 사용 가능하다.
+- Step 7 Strength 1st Correction 이전에 표면화 구조만 잠근다.
+SOURCE DATASET =
+- 《D1 Arudha Dataset》 = <SUBJECT_CODE>_D1_ARUDHA_<SOURCE_TAG>_MASTER_DATASET
+- 《D1 Rashi Source》 = <SUBJECT_CODE>_D1_RASHI_<SOURCE_TAG>_MASTER_BASELINE_DATASET
+- 《D1 Bhava Source》 = <SUBJECT_CODE>_D1_BHAVA_<BHAVA_SYSTEM>_<SOURCE_TAG>_MASTER_BASELINE_DATASET
+- 《Source Type》 = <USER_TEXT_BLOCK / SCREENSHOT_ONLY / SCREENSHOT_PLUS_TEXT / DERIVED_WITH_RULE / NOT_SHOWN>
+- 《Source Confidence》 = <VISIBLE / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+SOURCE FAMILY LOCK =
+- D1 Rashi = 실제 원본 구조 / 사건 약속
+- D1 Bhava = 현실 house-function 적용층
+- D1 Arudha = 외부 인식 / 표면 장부 / 보이는 결과 / surface projection
+- UL = 관계·배우자·결합·계약 표면화 독립 슬롯
+- Arudha는 Rashi/Bhava를 대체하지 않는다.
+- Arudha는 D차트 원본 구조처럼 취급하지 않는다.
+- Arudha는 surface layer로만 사용한다.
+CORE RULE =
+- D1 Arudha 12H는 A1/AL~A12를 하우스별로 보존한다.
+- UL은 A12가 아니라 독립 슬롯으로 둔다.
+- 각 Arudha Pada는 해당 D1 house matter가 외부에 어떻게 보이는지 확인한다.
+- Arudha Sign / Arudha House / Arudha Lord / Arudha Lord Position을 분리한다.
+- Rashi/Bhava source와 Arudha surface를 분리한다.
+- 표면 구조가 실제 구조와 같아 보이더라도 실제 구조를 대체하지 않는다.
+- 표면 구조가 실제 구조와 다르면 Surface Split / Surface Distortion / Surface Displacement로 기록한다.
+- 해석 확장 금지.
+- 기능어 사용 금지.
+- 현실처방 금지.
+MISSING / NOT VISIBLE RULE =
+- Arudha Pada가 NOT_SHOWN이면 계산하거나 추정하지 않는다.
+- Arudha Sign이 없으면 Arudha House를 만들지 않는다.
+- Arudha Lord가 없으면 Lord Movement를 확정하지 않는다.
+- D1 Rashi Link가 없으면 Surface Source Comparison을 HOLD로 둔다.
+- D1 Bhava Link가 없으면 Reality Surface Comparison을 HOLD로 둔다.
+- UL이 없으면 UL slot은 NOT_USED로 둔다.
+- Derived Arudha는 계산식과 기준값이 함께 있을 때만 DERIVED_WITH_RULE로 쓴다.
+- DERIVED_UNCHECKED는 REFERENCE_ONLY 또는 HOLD로 둔다.
+USE DECISION =
+- APPLY_AS_D1_ARUDHA_SURFACE = source 충분 / 표면화 구조 적용 가능
+- SUPPORT_ONLY = 일부 source만 확인 / 보조 사용
+- REFERENCE_ONLY = 값은 보존하지만 현재 판정에 쓰지 않음
+- HOLD = source 또는 비교축 부족
+- NOT_USED = source 없음
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. D1 ARUDHA 12H SURFACE SLOTS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+D1_ARUDHA_AL / A1_1H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1H. D1 ARUDHA AL / A1 SURFACE SLOT
+AL / A1 표면화 슬롯 / 1H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. TARGET SURFACE
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 1H
+- 《Arudha Pada》 = AL / A1
+- 《Surface Function》 = 전체 이미지 / 외부에서 보이는 나 / 표면 정체성 / 사회적 인식
+- 《Application Status》 = <APPLY / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+2. SOURCE EXTRACTION
+- 《Arudha Source Dataset》 = <D1_ARUDHA_SOURCE_DATASET>
+- 《Arudha Source Type》 = <USER_TEXT_BLOCK / SCREENSHOT_ONLY / SCREENSHOT_PLUS_TEXT / DERIVED_WITH_RULE / NOT_SHOWN>
+- 《Arudha Source Confidence》 = <VISIBLE / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Calculation Status》 = <APP_VISIBLE / USER_TEXT_SUPPLIED / DERIVED_WITH_RULE / DERIVED_UNCHECKED / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+3. ARUDHA POSITION
+- 《Arudha Pada》 = AL / A1
+- 《Arudha Sign》 = <SIGN / NOT_SHOWN>
+- 《Arudha House from D1 Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Arudha Degree》 = <DEGREE / NOT_SHOWN>
+- 《Arudha Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Arudha Lord》 = <PLANET / NOT_SHOWN>
+- 《Arudha Lord Position》 = <D1_HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / NOT_SHOWN>
+- 《Arudha Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+4. D1 STRUCTURE LINK
+- 《D1 Rashi Source Link》 = <D1_RASHI_1H_SOURCE / SIGN / OCCUPANTS / LORD / DEGREE_ORDER / NOT_SHOWN>
+- 《D1 Bhava Source Link》 = <D1_BHAVA_1H_SOURCE / BHAVA_OCCUPANTS / SAME-MOVED-SPLIT / NOT_SHOWN>
+- 《D1 House Lord Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《D1 Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《D1 Actual Structure Function》 = <실제 구조에서 담당하는 기능 / NOT_SHOWN>
+5. SURFACE COMPARISON
+- 《Actual Structure》 = <D1_RASHI_BHAVA_STRUCTURE>
+- 《Surface Structure》 = <ARUDHA_SURFACE_POSITION>
+- 《Surface Relation》 = <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED / HOLD>
+- 《Surface Visibility》 = <VISIBLE / INDIRECT_VISIBLE / MISRECOGNIZED / HIDDEN / OVEREXPOSED / HOLD>
+- 《Surface Ledger Type》 = <IMAGE / MONEY / ROLE / RELATION / BURDEN / LOSS / REWARD / BACKSTAGE / HOLD>
+- 《Surface Risk》 = <표면이 실제 구조를 과장·왜곡·은폐·대체해 보이게 하는 위험 / NONE / HOLD>
+6. REQUIRED READING ORDER
+1) D1 Rashi 1H source 확인
+2) D1 Bhava 1H source 확인
+3) D1 First Integration 확인
+4) D1 Co-presence가 있으면 원본 공동장 확인
+5) AL / A1 Arudha source 확인
+6) Arudha Sign / House / Lord 확인
+7) 실제 구조와 표면 구조가 같은지/갈라지는지 확인
+8) Arudha를 실제 구조로 대체하지 않음
+9) Strength / Aspect / Dasha는 아직 적용하지 않음
+7. OUTPUT SENTENCE FORMAT
+Sentence 01 =
+D1 1H는 Rashi/Bhava 구조상 <ACTUAL_STRUCTURE>로 먼저 보존된다.
+Sentence 02 =
+AL / A1는 이 1H 주제가 외부 인식·표면 장부·보이는 결과에서 <ARUDHA_SURFACE_POSITION>으로 드러나는지를 보여준다.
+Sentence 03 =
+이 표면화는 실제 구조를 바꾸지 않고, 실제 1H 기능이 외부에서 어떻게 보이고 어떤 표면 장부로 인식되는지를 보정한다.
+Sentence 04 =
+Surface Relation이 <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED>이면, 실제 구조와 표면 구조의 차이를 Conflict Note 또는 Surface Note에 남긴다.
+8. 98 CHECK
+PASS =
+- D1 Rashi/Bhava source와 Arudha source가 분리되어 있다.
+- Arudha가 실제 구조를 덮어쓰지 않는다.
+- Arudha Sign / House / Lord가 분리되어 있다.
+- 실제 구조와 표면 구조의 관계가 명시되어 있다.
+- UL을 A12와 혼합하지 않는다.
+- Strength / Aspect / Dasha / Varga Link를 섞지 않는다.
+FAIL =
+- Arudha를 실제 사건 구조로 사용함.
+- Arudha가 D1 Rashi/Bhava를 덮어씀.
+- Arudha Pada가 없는데 임의 계산함.
+- A12와 UL을 혼합함.
+- 표면화 차이를 쓰지 않고 “좋다/나쁘다”로 결론 냄.
+9. USE DECISION
+- 《APPLY_AS_D1_ARUDHA_SURFACE》 = source 충분 / 표면화 구조 적용 가능
+- 《SUPPORT_ONLY》 = 일부 source만 확인
+- 《REFERENCE_ONLY》 = 값 보존 / 현재 판정에는 보조
+- 《HOLD》 = source 또는 비교축 부족
+- 《NOT_USED》 = source 없음
+D1_ARUDHA_A2_2H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2H. D1 ARUDHA A2 SURFACE SLOT
+A2 표면화 슬롯 / 2H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. TARGET SURFACE
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 2H
+- 《Arudha Pada》 = A2
+- 《Surface Function》 = 돈 / 말값 / 가족장부 / 보유 구조가 외부에 보이는 방식
+- 《Application Status》 = <APPLY / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+2. SOURCE EXTRACTION
+- 《Arudha Source Dataset》 = <D1_ARUDHA_SOURCE_DATASET>
+- 《Arudha Source Type》 = <USER_TEXT_BLOCK / SCREENSHOT_ONLY / SCREENSHOT_PLUS_TEXT / DERIVED_WITH_RULE / NOT_SHOWN>
+- 《Arudha Source Confidence》 = <VISIBLE / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Calculation Status》 = <APP_VISIBLE / USER_TEXT_SUPPLIED / DERIVED_WITH_RULE / DERIVED_UNCHECKED / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+3. ARUDHA POSITION
+- 《Arudha Pada》 = A2
+- 《Arudha Sign》 = <SIGN / NOT_SHOWN>
+- 《Arudha House from D1 Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Arudha Degree》 = <DEGREE / NOT_SHOWN>
+- 《Arudha Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Arudha Lord》 = <PLANET / NOT_SHOWN>
+- 《Arudha Lord Position》 = <D1_HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / NOT_SHOWN>
+- 《Arudha Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+4. D1 STRUCTURE LINK
+- 《D1 Rashi Source Link》 = <D1_RASHI_2H_SOURCE / SIGN / OCCUPANTS / LORD / DEGREE_ORDER / NOT_SHOWN>
+- 《D1 Bhava Source Link》 = <D1_BHAVA_2H_SOURCE / BHAVA_OCCUPANTS / SAME-MOVED-SPLIT / NOT_SHOWN>
+- 《D1 House Lord Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《D1 Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《D1 Actual Structure Function》 = <실제 구조에서 담당하는 기능 / NOT_SHOWN>
+5. SURFACE COMPARISON
+- 《Actual Structure》 = <D1_RASHI_BHAVA_STRUCTURE>
+- 《Surface Structure》 = <ARUDHA_SURFACE_POSITION>
+- 《Surface Relation》 = <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED / HOLD>
+- 《Surface Visibility》 = <VISIBLE / INDIRECT_VISIBLE / MISRECOGNIZED / HIDDEN / OVEREXPOSED / HOLD>
+- 《Surface Ledger Type》 = <IMAGE / MONEY / ROLE / RELATION / BURDEN / LOSS / REWARD / BACKSTAGE / HOLD>
+- 《Surface Risk》 = <표면이 실제 구조를 과장·왜곡·은폐·대체해 보이게 하는 위험 / NONE / HOLD>
+6. REQUIRED READING ORDER
+1) D1 Rashi 2H source 확인
+2) D1 Bhava 2H source 확인
+3) D1 First Integration 확인
+4) D1 Co-presence가 있으면 원본 공동장 확인
+5) A2 Arudha source 확인
+6) Arudha Sign / House / Lord 확인
+7) 실제 구조와 표면 구조가 같은지/갈라지는지 확인
+8) Arudha를 실제 구조로 대체하지 않음
+9) Strength / Aspect / Dasha는 아직 적용하지 않음
+7. OUTPUT SENTENCE FORMAT
+Sentence 01 =
+D1 2H는 Rashi/Bhava 구조상 <ACTUAL_STRUCTURE>로 먼저 보존된다.
+Sentence 02 =
+A2는 이 2H 주제가 외부 인식·표면 장부·보이는 결과에서 <ARUDHA_SURFACE_POSITION>으로 드러나는지를 보여준다.
+Sentence 03 =
+이 표면화는 실제 구조를 바꾸지 않고, 실제 2H 기능이 외부에서 어떻게 보이고 어떤 표면 장부로 인식되는지를 보정한다.
+Sentence 04 =
+Surface Relation이 <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED>이면, 실제 구조와 표면 구조의 차이를 Conflict Note 또는 Surface Note에 남긴다.
+8. 98 CHECK
+PASS =
+- D1 Rashi/Bhava source와 Arudha source가 분리되어 있다.
+- Arudha가 실제 구조를 덮어쓰지 않는다.
+- Arudha Sign / House / Lord가 분리되어 있다.
+- 실제 구조와 표면 구조의 관계가 명시되어 있다.
+- UL을 A12와 혼합하지 않는다.
+- Strength / Aspect / Dasha / Varga Link를 섞지 않는다.
+FAIL =
+- Arudha를 실제 사건 구조로 사용함.
+- Arudha가 D1 Rashi/Bhava를 덮어씀.
+- Arudha Pada가 없는데 임의 계산함.
+- A12와 UL을 혼합함.
+- 표면화 차이를 쓰지 않고 “좋다/나쁘다”로 결론 냄.
+9. USE DECISION
+- 《APPLY_AS_D1_ARUDHA_SURFACE》 = source 충분 / 표면화 구조 적용 가능
+- 《SUPPORT_ONLY》 = 일부 source만 확인
+- 《REFERENCE_ONLY》 = 값 보존 / 현재 판정에는 보조
+- 《HOLD》 = source 또는 비교축 부족
+- 《NOT_USED》 = source 없음
+D1_ARUDHA_A3_3H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+3H. D1 ARUDHA A3 SURFACE SLOT
+A3 표면화 슬롯 / 3H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. TARGET SURFACE
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 3H
+- 《Arudha Pada》 = A3
+- 《Surface Function》 = 말 / 연락 / 기술 / 실행 / 가까운 관계 반응이 외부에 보이는 방식
+- 《Application Status》 = <APPLY / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+2. SOURCE EXTRACTION
+- 《Arudha Source Dataset》 = <D1_ARUDHA_SOURCE_DATASET>
+- 《Arudha Source Type》 = <USER_TEXT_BLOCK / SCREENSHOT_ONLY / SCREENSHOT_PLUS_TEXT / DERIVED_WITH_RULE / NOT_SHOWN>
+- 《Arudha Source Confidence》 = <VISIBLE / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Calculation Status》 = <APP_VISIBLE / USER_TEXT_SUPPLIED / DERIVED_WITH_RULE / DERIVED_UNCHECKED / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+3. ARUDHA POSITION
+- 《Arudha Pada》 = A3
+- 《Arudha Sign》 = <SIGN / NOT_SHOWN>
+- 《Arudha House from D1 Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Arudha Degree》 = <DEGREE / NOT_SHOWN>
+- 《Arudha Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Arudha Lord》 = <PLANET / NOT_SHOWN>
+- 《Arudha Lord Position》 = <D1_HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / NOT_SHOWN>
+- 《Arudha Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+4. D1 STRUCTURE LINK
+- 《D1 Rashi Source Link》 = <D1_RASHI_3H_SOURCE / SIGN / OCCUPANTS / LORD / DEGREE_ORDER / NOT_SHOWN>
+- 《D1 Bhava Source Link》 = <D1_BHAVA_3H_SOURCE / BHAVA_OCCUPANTS / SAME-MOVED-SPLIT / NOT_SHOWN>
+- 《D1 House Lord Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《D1 Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《D1 Actual Structure Function》 = <실제 구조에서 담당하는 기능 / NOT_SHOWN>
+5. SURFACE COMPARISON
+- 《Actual Structure》 = <D1_RASHI_BHAVA_STRUCTURE>
+- 《Surface Structure》 = <ARUDHA_SURFACE_POSITION>
+- 《Surface Relation》 = <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED / HOLD>
+- 《Surface Visibility》 = <VISIBLE / INDIRECT_VISIBLE / MISRECOGNIZED / HIDDEN / OVEREXPOSED / HOLD>
+- 《Surface Ledger Type》 = <IMAGE / MONEY / ROLE / RELATION / BURDEN / LOSS / REWARD / BACKSTAGE / HOLD>
+- 《Surface Risk》 = <표면이 실제 구조를 과장·왜곡·은폐·대체해 보이게 하는 위험 / NONE / HOLD>
+6. REQUIRED READING ORDER
+1) D1 Rashi 3H source 확인
+2) D1 Bhava 3H source 확인
+3) D1 First Integration 확인
+4) D1 Co-presence가 있으면 원본 공동장 확인
+5) A3 Arudha source 확인
+6) Arudha Sign / House / Lord 확인
+7) 실제 구조와 표면 구조가 같은지/갈라지는지 확인
+8) Arudha를 실제 구조로 대체하지 않음
+9) Strength / Aspect / Dasha는 아직 적용하지 않음
+7. OUTPUT SENTENCE FORMAT
+Sentence 01 =
+D1 3H는 Rashi/Bhava 구조상 <ACTUAL_STRUCTURE>로 먼저 보존된다.
+Sentence 02 =
+A3는 이 3H 주제가 외부 인식·표면 장부·보이는 결과에서 <ARUDHA_SURFACE_POSITION>으로 드러나는지를 보여준다.
+Sentence 03 =
+이 표면화는 실제 구조를 바꾸지 않고, 실제 3H 기능이 외부에서 어떻게 보이고 어떤 표면 장부로 인식되는지를 보정한다.
+Sentence 04 =
+Surface Relation이 <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED>이면, 실제 구조와 표면 구조의 차이를 Conflict Note 또는 Surface Note에 남긴다.
+8. 98 CHECK
+PASS =
+- D1 Rashi/Bhava source와 Arudha source가 분리되어 있다.
+- Arudha가 실제 구조를 덮어쓰지 않는다.
+- Arudha Sign / House / Lord가 분리되어 있다.
+- 실제 구조와 표면 구조의 관계가 명시되어 있다.
+- UL을 A12와 혼합하지 않는다.
+- Strength / Aspect / Dasha / Varga Link를 섞지 않는다.
+FAIL =
+- Arudha를 실제 사건 구조로 사용함.
+- Arudha가 D1 Rashi/Bhava를 덮어씀.
+- Arudha Pada가 없는데 임의 계산함.
+- A12와 UL을 혼합함.
+- 표면화 차이를 쓰지 않고 “좋다/나쁘다”로 결론 냄.
+9. USE DECISION
+- 《APPLY_AS_D1_ARUDHA_SURFACE》 = source 충분 / 표면화 구조 적용 가능
+- 《SUPPORT_ONLY》 = 일부 source만 확인
+- 《REFERENCE_ONLY》 = 값 보존 / 현재 판정에는 보조
+- 《HOLD》 = source 또는 비교축 부족
+- 《NOT_USED》 = source 없음
+D1_ARUDHA_A4_4H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+4H. D1 ARUDHA A4 SURFACE SLOT
+A4 표면화 슬롯 / 4H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. TARGET SURFACE
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 4H
+- 《Arudha Pada》 = A4
+- 《Surface Function》 = 집 / 기반 / 공간 / 안정 / 가족 기반이 외부에 보이는 방식
+- 《Application Status》 = <APPLY / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+2. SOURCE EXTRACTION
+- 《Arudha Source Dataset》 = <D1_ARUDHA_SOURCE_DATASET>
+- 《Arudha Source Type》 = <USER_TEXT_BLOCK / SCREENSHOT_ONLY / SCREENSHOT_PLUS_TEXT / DERIVED_WITH_RULE / NOT_SHOWN>
+- 《Arudha Source Confidence》 = <VISIBLE / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Calculation Status》 = <APP_VISIBLE / USER_TEXT_SUPPLIED / DERIVED_WITH_RULE / DERIVED_UNCHECKED / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+3. ARUDHA POSITION
+- 《Arudha Pada》 = A4
+- 《Arudha Sign》 = <SIGN / NOT_SHOWN>
+- 《Arudha House from D1 Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Arudha Degree》 = <DEGREE / NOT_SHOWN>
+- 《Arudha Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Arudha Lord》 = <PLANET / NOT_SHOWN>
+- 《Arudha Lord Position》 = <D1_HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / NOT_SHOWN>
+- 《Arudha Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+4. D1 STRUCTURE LINK
+- 《D1 Rashi Source Link》 = <D1_RASHI_4H_SOURCE / SIGN / OCCUPANTS / LORD / DEGREE_ORDER / NOT_SHOWN>
+- 《D1 Bhava Source Link》 = <D1_BHAVA_4H_SOURCE / BHAVA_OCCUPANTS / SAME-MOVED-SPLIT / NOT_SHOWN>
+- 《D1 House Lord Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《D1 Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《D1 Actual Structure Function》 = <실제 구조에서 담당하는 기능 / NOT_SHOWN>
+5. SURFACE COMPARISON
+- 《Actual Structure》 = <D1_RASHI_BHAVA_STRUCTURE>
+- 《Surface Structure》 = <ARUDHA_SURFACE_POSITION>
+- 《Surface Relation》 = <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED / HOLD>
+- 《Surface Visibility》 = <VISIBLE / INDIRECT_VISIBLE / MISRECOGNIZED / HIDDEN / OVEREXPOSED / HOLD>
+- 《Surface Ledger Type》 = <IMAGE / MONEY / ROLE / RELATION / BURDEN / LOSS / REWARD / BACKSTAGE / HOLD>
+- 《Surface Risk》 = <표면이 실제 구조를 과장·왜곡·은폐·대체해 보이게 하는 위험 / NONE / HOLD>
+6. REQUIRED READING ORDER
+1) D1 Rashi 4H source 확인
+2) D1 Bhava 4H source 확인
+3) D1 First Integration 확인
+4) D1 Co-presence가 있으면 원본 공동장 확인
+5) A4 Arudha source 확인
+6) Arudha Sign / House / Lord 확인
+7) 실제 구조와 표면 구조가 같은지/갈라지는지 확인
+8) Arudha를 실제 구조로 대체하지 않음
+9) Strength / Aspect / Dasha는 아직 적용하지 않음
+7. OUTPUT SENTENCE FORMAT
+Sentence 01 =
+D1 4H는 Rashi/Bhava 구조상 <ACTUAL_STRUCTURE>로 먼저 보존된다.
+Sentence 02 =
+A4는 이 4H 주제가 외부 인식·표면 장부·보이는 결과에서 <ARUDHA_SURFACE_POSITION>으로 드러나는지를 보여준다.
+Sentence 03 =
+이 표면화는 실제 구조를 바꾸지 않고, 실제 4H 기능이 외부에서 어떻게 보이고 어떤 표면 장부로 인식되는지를 보정한다.
+Sentence 04 =
+Surface Relation이 <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED>이면, 실제 구조와 표면 구조의 차이를 Conflict Note 또는 Surface Note에 남긴다.
+8. 98 CHECK
+PASS =
+- D1 Rashi/Bhava source와 Arudha source가 분리되어 있다.
+- Arudha가 실제 구조를 덮어쓰지 않는다.
+- Arudha Sign / House / Lord가 분리되어 있다.
+- 실제 구조와 표면 구조의 관계가 명시되어 있다.
+- UL을 A12와 혼합하지 않는다.
+- Strength / Aspect / Dasha / Varga Link를 섞지 않는다.
+FAIL =
+- Arudha를 실제 사건 구조로 사용함.
+- Arudha가 D1 Rashi/Bhava를 덮어씀.
+- Arudha Pada가 없는데 임의 계산함.
+- A12와 UL을 혼합함.
+- 표면화 차이를 쓰지 않고 “좋다/나쁘다”로 결론 냄.
+9. USE DECISION
+- 《APPLY_AS_D1_ARUDHA_SURFACE》 = source 충분 / 표면화 구조 적용 가능
+- 《SUPPORT_ONLY》 = 일부 source만 확인
+- 《REFERENCE_ONLY》 = 값 보존 / 현재 판정에는 보조
+- 《HOLD》 = source 또는 비교축 부족
+- 《NOT_USED》 = source 없음
+D1_ARUDHA_A5_5H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+5H. D1 ARUDHA A5 SURFACE SLOT
+A5 표면화 슬롯 / 5H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. TARGET SURFACE
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 5H
+- 《Arudha Pada》 = A5
+- 《Surface Function》 = 판단 / 창조 / 선택 / 공덕 / 자원투입이 외부에 보이는 방식
+- 《Application Status》 = <APPLY / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+2. SOURCE EXTRACTION
+- 《Arudha Source Dataset》 = <D1_ARUDHA_SOURCE_DATASET>
+- 《Arudha Source Type》 = <USER_TEXT_BLOCK / SCREENSHOT_ONLY / SCREENSHOT_PLUS_TEXT / DERIVED_WITH_RULE / NOT_SHOWN>
+- 《Arudha Source Confidence》 = <VISIBLE / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Calculation Status》 = <APP_VISIBLE / USER_TEXT_SUPPLIED / DERIVED_WITH_RULE / DERIVED_UNCHECKED / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+3. ARUDHA POSITION
+- 《Arudha Pada》 = A5
+- 《Arudha Sign》 = <SIGN / NOT_SHOWN>
+- 《Arudha House from D1 Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Arudha Degree》 = <DEGREE / NOT_SHOWN>
+- 《Arudha Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Arudha Lord》 = <PLANET / NOT_SHOWN>
+- 《Arudha Lord Position》 = <D1_HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / NOT_SHOWN>
+- 《Arudha Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+4. D1 STRUCTURE LINK
+- 《D1 Rashi Source Link》 = <D1_RASHI_5H_SOURCE / SIGN / OCCUPANTS / LORD / DEGREE_ORDER / NOT_SHOWN>
+- 《D1 Bhava Source Link》 = <D1_BHAVA_5H_SOURCE / BHAVA_OCCUPANTS / SAME-MOVED-SPLIT / NOT_SHOWN>
+- 《D1 House Lord Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《D1 Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《D1 Actual Structure Function》 = <실제 구조에서 담당하는 기능 / NOT_SHOWN>
+5. SURFACE COMPARISON
+- 《Actual Structure》 = <D1_RASHI_BHAVA_STRUCTURE>
+- 《Surface Structure》 = <ARUDHA_SURFACE_POSITION>
+- 《Surface Relation》 = <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED / HOLD>
+- 《Surface Visibility》 = <VISIBLE / INDIRECT_VISIBLE / MISRECOGNIZED / HIDDEN / OVEREXPOSED / HOLD>
+- 《Surface Ledger Type》 = <IMAGE / MONEY / ROLE / RELATION / BURDEN / LOSS / REWARD / BACKSTAGE / HOLD>
+- 《Surface Risk》 = <표면이 실제 구조를 과장·왜곡·은폐·대체해 보이게 하는 위험 / NONE / HOLD>
+6. REQUIRED READING ORDER
+1) D1 Rashi 5H source 확인
+2) D1 Bhava 5H source 확인
+3) D1 First Integration 확인
+4) D1 Co-presence가 있으면 원본 공동장 확인
+5) A5 Arudha source 확인
+6) Arudha Sign / House / Lord 확인
+7) 실제 구조와 표면 구조가 같은지/갈라지는지 확인
+8) Arudha를 실제 구조로 대체하지 않음
+9) Strength / Aspect / Dasha는 아직 적용하지 않음
+7. OUTPUT SENTENCE FORMAT
+Sentence 01 =
+D1 5H는 Rashi/Bhava 구조상 <ACTUAL_STRUCTURE>로 먼저 보존된다.
+Sentence 02 =
+A5는 이 5H 주제가 외부 인식·표면 장부·보이는 결과에서 <ARUDHA_SURFACE_POSITION>으로 드러나는지를 보여준다.
+Sentence 03 =
+이 표면화는 실제 구조를 바꾸지 않고, 실제 5H 기능이 외부에서 어떻게 보이고 어떤 표면 장부로 인식되는지를 보정한다.
+Sentence 04 =
+Surface Relation이 <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED>이면, 실제 구조와 표면 구조의 차이를 Conflict Note 또는 Surface Note에 남긴다.
+8. 98 CHECK
+PASS =
+- D1 Rashi/Bhava source와 Arudha source가 분리되어 있다.
+- Arudha가 실제 구조를 덮어쓰지 않는다.
+- Arudha Sign / House / Lord가 분리되어 있다.
+- 실제 구조와 표면 구조의 관계가 명시되어 있다.
+- UL을 A12와 혼합하지 않는다.
+- Strength / Aspect / Dasha / Varga Link를 섞지 않는다.
+FAIL =
+- Arudha를 실제 사건 구조로 사용함.
+- Arudha가 D1 Rashi/Bhava를 덮어씀.
+- Arudha Pada가 없는데 임의 계산함.
+- A12와 UL을 혼합함.
+- 표면화 차이를 쓰지 않고 “좋다/나쁘다”로 결론 냄.
+9. USE DECISION
+- 《APPLY_AS_D1_ARUDHA_SURFACE》 = source 충분 / 표면화 구조 적용 가능
+- 《SUPPORT_ONLY》 = 일부 source만 확인
+- 《REFERENCE_ONLY》 = 값 보존 / 현재 판정에는 보조
+- 《HOLD》 = source 또는 비교축 부족
+- 《NOT_USED》 = source 없음
+D1_ARUDHA_A6_6H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+6H. D1 ARUDHA A6 SURFACE SLOT
+A6 표면화 슬롯 / 6H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. TARGET SURFACE
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 6H
+- 《Arudha Pada》 = A6
+- 《Surface Function》 = 문제 / 부담 / 노동 / 적대 / 손실방어가 외부에 보이는 방식
+- 《Application Status》 = <APPLY / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+2. SOURCE EXTRACTION
+- 《Arudha Source Dataset》 = <D1_ARUDHA_SOURCE_DATASET>
+- 《Arudha Source Type》 = <USER_TEXT_BLOCK / SCREENSHOT_ONLY / SCREENSHOT_PLUS_TEXT / DERIVED_WITH_RULE / NOT_SHOWN>
+- 《Arudha Source Confidence》 = <VISIBLE / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Calculation Status》 = <APP_VISIBLE / USER_TEXT_SUPPLIED / DERIVED_WITH_RULE / DERIVED_UNCHECKED / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+3. ARUDHA POSITION
+- 《Arudha Pada》 = A6
+- 《Arudha Sign》 = <SIGN / NOT_SHOWN>
+- 《Arudha House from D1 Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Arudha Degree》 = <DEGREE / NOT_SHOWN>
+- 《Arudha Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Arudha Lord》 = <PLANET / NOT_SHOWN>
+- 《Arudha Lord Position》 = <D1_HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / NOT_SHOWN>
+- 《Arudha Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+4. D1 STRUCTURE LINK
+- 《D1 Rashi Source Link》 = <D1_RASHI_6H_SOURCE / SIGN / OCCUPANTS / LORD / DEGREE_ORDER / NOT_SHOWN>
+- 《D1 Bhava Source Link》 = <D1_BHAVA_6H_SOURCE / BHAVA_OCCUPANTS / SAME-MOVED-SPLIT / NOT_SHOWN>
+- 《D1 House Lord Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《D1 Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《D1 Actual Structure Function》 = <실제 구조에서 담당하는 기능 / NOT_SHOWN>
+5. SURFACE COMPARISON
+- 《Actual Structure》 = <D1_RASHI_BHAVA_STRUCTURE>
+- 《Surface Structure》 = <ARUDHA_SURFACE_POSITION>
+- 《Surface Relation》 = <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED / HOLD>
+- 《Surface Visibility》 = <VISIBLE / INDIRECT_VISIBLE / MISRECOGNIZED / HIDDEN / OVEREXPOSED / HOLD>
+- 《Surface Ledger Type》 = <IMAGE / MONEY / ROLE / RELATION / BURDEN / LOSS / REWARD / BACKSTAGE / HOLD>
+- 《Surface Risk》 = <표면이 실제 구조를 과장·왜곡·은폐·대체해 보이게 하는 위험 / NONE / HOLD>
+6. REQUIRED READING ORDER
+1) D1 Rashi 6H source 확인
+2) D1 Bhava 6H source 확인
+3) D1 First Integration 확인
+4) D1 Co-presence가 있으면 원본 공동장 확인
+5) A6 Arudha source 확인
+6) Arudha Sign / House / Lord 확인
+7) 실제 구조와 표면 구조가 같은지/갈라지는지 확인
+8) Arudha를 실제 구조로 대체하지 않음
+9) Strength / Aspect / Dasha는 아직 적용하지 않음
+7. OUTPUT SENTENCE FORMAT
+Sentence 01 =
+D1 6H는 Rashi/Bhava 구조상 <ACTUAL_STRUCTURE>로 먼저 보존된다.
+Sentence 02 =
+A6는 이 6H 주제가 외부 인식·표면 장부·보이는 결과에서 <ARUDHA_SURFACE_POSITION>으로 드러나는지를 보여준다.
+Sentence 03 =
+이 표면화는 실제 구조를 바꾸지 않고, 실제 6H 기능이 외부에서 어떻게 보이고 어떤 표면 장부로 인식되는지를 보정한다.
+Sentence 04 =
+Surface Relation이 <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED>이면, 실제 구조와 표면 구조의 차이를 Conflict Note 또는 Surface Note에 남긴다.
+8. 98 CHECK
+PASS =
+- D1 Rashi/Bhava source와 Arudha source가 분리되어 있다.
+- Arudha가 실제 구조를 덮어쓰지 않는다.
+- Arudha Sign / House / Lord가 분리되어 있다.
+- 실제 구조와 표면 구조의 관계가 명시되어 있다.
+- UL을 A12와 혼합하지 않는다.
+- Strength / Aspect / Dasha / Varga Link를 섞지 않는다.
+FAIL =
+- Arudha를 실제 사건 구조로 사용함.
+- Arudha가 D1 Rashi/Bhava를 덮어씀.
+- Arudha Pada가 없는데 임의 계산함.
+- A12와 UL을 혼합함.
+- 표면화 차이를 쓰지 않고 “좋다/나쁘다”로 결론 냄.
+9. USE DECISION
+- 《APPLY_AS_D1_ARUDHA_SURFACE》 = source 충분 / 표면화 구조 적용 가능
+- 《SUPPORT_ONLY》 = 일부 source만 확인
+- 《REFERENCE_ONLY》 = 값 보존 / 현재 판정에는 보조
+- 《HOLD》 = source 또는 비교축 부족
+- 《NOT_USED》 = source 없음
+D1_ARUDHA_A7_7H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+7H. D1 ARUDHA A7 SURFACE SLOT
+A7 표면화 슬롯 / 7H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. TARGET SURFACE
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 7H
+- 《Arudha Pada》 = A7
+- 《Surface Function》 = 상대 / 계약 / 대면관계 / 외부 피드백이 보이는 방식
+- 《Application Status》 = <APPLY / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+2. SOURCE EXTRACTION
+- 《Arudha Source Dataset》 = <D1_ARUDHA_SOURCE_DATASET>
+- 《Arudha Source Type》 = <USER_TEXT_BLOCK / SCREENSHOT_ONLY / SCREENSHOT_PLUS_TEXT / DERIVED_WITH_RULE / NOT_SHOWN>
+- 《Arudha Source Confidence》 = <VISIBLE / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Calculation Status》 = <APP_VISIBLE / USER_TEXT_SUPPLIED / DERIVED_WITH_RULE / DERIVED_UNCHECKED / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+3. ARUDHA POSITION
+- 《Arudha Pada》 = A7
+- 《Arudha Sign》 = <SIGN / NOT_SHOWN>
+- 《Arudha House from D1 Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Arudha Degree》 = <DEGREE / NOT_SHOWN>
+- 《Arudha Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Arudha Lord》 = <PLANET / NOT_SHOWN>
+- 《Arudha Lord Position》 = <D1_HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / NOT_SHOWN>
+- 《Arudha Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+4. D1 STRUCTURE LINK
+- 《D1 Rashi Source Link》 = <D1_RASHI_7H_SOURCE / SIGN / OCCUPANTS / LORD / DEGREE_ORDER / NOT_SHOWN>
+- 《D1 Bhava Source Link》 = <D1_BHAVA_7H_SOURCE / BHAVA_OCCUPANTS / SAME-MOVED-SPLIT / NOT_SHOWN>
+- 《D1 House Lord Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《D1 Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《D1 Actual Structure Function》 = <실제 구조에서 담당하는 기능 / NOT_SHOWN>
+5. SURFACE COMPARISON
+- 《Actual Structure》 = <D1_RASHI_BHAVA_STRUCTURE>
+- 《Surface Structure》 = <ARUDHA_SURFACE_POSITION>
+- 《Surface Relation》 = <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED / HOLD>
+- 《Surface Visibility》 = <VISIBLE / INDIRECT_VISIBLE / MISRECOGNIZED / HIDDEN / OVEREXPOSED / HOLD>
+- 《Surface Ledger Type》 = <IMAGE / MONEY / ROLE / RELATION / BURDEN / LOSS / REWARD / BACKSTAGE / HOLD>
+- 《Surface Risk》 = <표면이 실제 구조를 과장·왜곡·은폐·대체해 보이게 하는 위험 / NONE / HOLD>
+6. REQUIRED READING ORDER
+1) D1 Rashi 7H source 확인
+2) D1 Bhava 7H source 확인
+3) D1 First Integration 확인
+4) D1 Co-presence가 있으면 원본 공동장 확인
+5) A7 Arudha source 확인
+6) Arudha Sign / House / Lord 확인
+7) 실제 구조와 표면 구조가 같은지/갈라지는지 확인
+8) Arudha를 실제 구조로 대체하지 않음
+9) Strength / Aspect / Dasha는 아직 적용하지 않음
+7. OUTPUT SENTENCE FORMAT
+Sentence 01 =
+D1 7H는 Rashi/Bhava 구조상 <ACTUAL_STRUCTURE>로 먼저 보존된다.
+Sentence 02 =
+A7는 이 7H 주제가 외부 인식·표면 장부·보이는 결과에서 <ARUDHA_SURFACE_POSITION>으로 드러나는지를 보여준다.
+Sentence 03 =
+이 표면화는 실제 구조를 바꾸지 않고, 실제 7H 기능이 외부에서 어떻게 보이고 어떤 표면 장부로 인식되는지를 보정한다.
+Sentence 04 =
+Surface Relation이 <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED>이면, 실제 구조와 표면 구조의 차이를 Conflict Note 또는 Surface Note에 남긴다.
+8. 98 CHECK
+PASS =
+- D1 Rashi/Bhava source와 Arudha source가 분리되어 있다.
+- Arudha가 실제 구조를 덮어쓰지 않는다.
+- Arudha Sign / House / Lord가 분리되어 있다.
+- 실제 구조와 표면 구조의 관계가 명시되어 있다.
+- UL을 A12와 혼합하지 않는다.
+- Strength / Aspect / Dasha / Varga Link를 섞지 않는다.
+FAIL =
+- Arudha를 실제 사건 구조로 사용함.
+- Arudha가 D1 Rashi/Bhava를 덮어씀.
+- Arudha Pada가 없는데 임의 계산함.
+- A12와 UL을 혼합함.
+- 표면화 차이를 쓰지 않고 “좋다/나쁘다”로 결론 냄.
+9. USE DECISION
+- 《APPLY_AS_D1_ARUDHA_SURFACE》 = source 충분 / 표면화 구조 적용 가능
+- 《SUPPORT_ONLY》 = 일부 source만 확인
+- 《REFERENCE_ONLY》 = 값 보존 / 현재 판정에는 보조
+- 《HOLD》 = source 또는 비교축 부족
+- 《NOT_USED》 = source 없음
+D1_ARUDHA_A8_8H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+8H. D1 ARUDHA A8 SURFACE SLOT
+A8 표면화 슬롯 / 8H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. TARGET SURFACE
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 8H
+- 《Arudha Pada》 = A8
+- 《Surface Function》 = 숨은 장부 / 위기 / 공유책임 / 전환이 외부에 드러나는 방식
+- 《Application Status》 = <APPLY / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+2. SOURCE EXTRACTION
+- 《Arudha Source Dataset》 = <D1_ARUDHA_SOURCE_DATASET>
+- 《Arudha Source Type》 = <USER_TEXT_BLOCK / SCREENSHOT_ONLY / SCREENSHOT_PLUS_TEXT / DERIVED_WITH_RULE / NOT_SHOWN>
+- 《Arudha Source Confidence》 = <VISIBLE / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Calculation Status》 = <APP_VISIBLE / USER_TEXT_SUPPLIED / DERIVED_WITH_RULE / DERIVED_UNCHECKED / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+3. ARUDHA POSITION
+- 《Arudha Pada》 = A8
+- 《Arudha Sign》 = <SIGN / NOT_SHOWN>
+- 《Arudha House from D1 Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Arudha Degree》 = <DEGREE / NOT_SHOWN>
+- 《Arudha Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Arudha Lord》 = <PLANET / NOT_SHOWN>
+- 《Arudha Lord Position》 = <D1_HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / NOT_SHOWN>
+- 《Arudha Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+4. D1 STRUCTURE LINK
+- 《D1 Rashi Source Link》 = <D1_RASHI_8H_SOURCE / SIGN / OCCUPANTS / LORD / DEGREE_ORDER / NOT_SHOWN>
+- 《D1 Bhava Source Link》 = <D1_BHAVA_8H_SOURCE / BHAVA_OCCUPANTS / SAME-MOVED-SPLIT / NOT_SHOWN>
+- 《D1 House Lord Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《D1 Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《D1 Actual Structure Function》 = <실제 구조에서 담당하는 기능 / NOT_SHOWN>
+5. SURFACE COMPARISON
+- 《Actual Structure》 = <D1_RASHI_BHAVA_STRUCTURE>
+- 《Surface Structure》 = <ARUDHA_SURFACE_POSITION>
+- 《Surface Relation》 = <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED / HOLD>
+- 《Surface Visibility》 = <VISIBLE / INDIRECT_VISIBLE / MISRECOGNIZED / HIDDEN / OVEREXPOSED / HOLD>
+- 《Surface Ledger Type》 = <IMAGE / MONEY / ROLE / RELATION / BURDEN / LOSS / REWARD / BACKSTAGE / HOLD>
+- 《Surface Risk》 = <표면이 실제 구조를 과장·왜곡·은폐·대체해 보이게 하는 위험 / NONE / HOLD>
+6. REQUIRED READING ORDER
+1) D1 Rashi 8H source 확인
+2) D1 Bhava 8H source 확인
+3) D1 First Integration 확인
+4) D1 Co-presence가 있으면 원본 공동장 확인
+5) A8 Arudha source 확인
+6) Arudha Sign / House / Lord 확인
+7) 실제 구조와 표면 구조가 같은지/갈라지는지 확인
+8) Arudha를 실제 구조로 대체하지 않음
+9) Strength / Aspect / Dasha는 아직 적용하지 않음
+7. OUTPUT SENTENCE FORMAT
+Sentence 01 =
+D1 8H는 Rashi/Bhava 구조상 <ACTUAL_STRUCTURE>로 먼저 보존된다.
+Sentence 02 =
+A8는 이 8H 주제가 외부 인식·표면 장부·보이는 결과에서 <ARUDHA_SURFACE_POSITION>으로 드러나는지를 보여준다.
+Sentence 03 =
+이 표면화는 실제 구조를 바꾸지 않고, 실제 8H 기능이 외부에서 어떻게 보이고 어떤 표면 장부로 인식되는지를 보정한다.
+Sentence 04 =
+Surface Relation이 <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED>이면, 실제 구조와 표면 구조의 차이를 Conflict Note 또는 Surface Note에 남긴다.
+8. 98 CHECK
+PASS =
+- D1 Rashi/Bhava source와 Arudha source가 분리되어 있다.
+- Arudha가 실제 구조를 덮어쓰지 않는다.
+- Arudha Sign / House / Lord가 분리되어 있다.
+- 실제 구조와 표면 구조의 관계가 명시되어 있다.
+- UL을 A12와 혼합하지 않는다.
+- Strength / Aspect / Dasha / Varga Link를 섞지 않는다.
+FAIL =
+- Arudha를 실제 사건 구조로 사용함.
+- Arudha가 D1 Rashi/Bhava를 덮어씀.
+- Arudha Pada가 없는데 임의 계산함.
+- A12와 UL을 혼합함.
+- 표면화 차이를 쓰지 않고 “좋다/나쁘다”로 결론 냄.
+9. USE DECISION
+- 《APPLY_AS_D1_ARUDHA_SURFACE》 = source 충분 / 표면화 구조 적용 가능
+- 《SUPPORT_ONLY》 = 일부 source만 확인
+- 《REFERENCE_ONLY》 = 값 보존 / 현재 판정에는 보조
+- 《HOLD》 = source 또는 비교축 부족
+- 《NOT_USED》 = source 없음
+D1_ARUDHA_A9_9H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+9H. D1 ARUDHA A9 SURFACE SLOT
+A9 표면화 슬롯 / 9H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. TARGET SURFACE
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 9H
+- 《Arudha Pada》 = A9
+- 《Surface Function》 = 명분 / 법전 / 상위 기준 / 다르마가 외부에 보이는 방식
+- 《Application Status》 = <APPLY / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+2. SOURCE EXTRACTION
+- 《Arudha Source Dataset》 = <D1_ARUDHA_SOURCE_DATASET>
+- 《Arudha Source Type》 = <USER_TEXT_BLOCK / SCREENSHOT_ONLY / SCREENSHOT_PLUS_TEXT / DERIVED_WITH_RULE / NOT_SHOWN>
+- 《Arudha Source Confidence》 = <VISIBLE / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Calculation Status》 = <APP_VISIBLE / USER_TEXT_SUPPLIED / DERIVED_WITH_RULE / DERIVED_UNCHECKED / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+3. ARUDHA POSITION
+- 《Arudha Pada》 = A9
+- 《Arudha Sign》 = <SIGN / NOT_SHOWN>
+- 《Arudha House from D1 Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Arudha Degree》 = <DEGREE / NOT_SHOWN>
+- 《Arudha Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Arudha Lord》 = <PLANET / NOT_SHOWN>
+- 《Arudha Lord Position》 = <D1_HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / NOT_SHOWN>
+- 《Arudha Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+4. D1 STRUCTURE LINK
+- 《D1 Rashi Source Link》 = <D1_RASHI_9H_SOURCE / SIGN / OCCUPANTS / LORD / DEGREE_ORDER / NOT_SHOWN>
+- 《D1 Bhava Source Link》 = <D1_BHAVA_9H_SOURCE / BHAVA_OCCUPANTS / SAME-MOVED-SPLIT / NOT_SHOWN>
+- 《D1 House Lord Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《D1 Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《D1 Actual Structure Function》 = <실제 구조에서 담당하는 기능 / NOT_SHOWN>
+5. SURFACE COMPARISON
+- 《Actual Structure》 = <D1_RASHI_BHAVA_STRUCTURE>
+- 《Surface Structure》 = <ARUDHA_SURFACE_POSITION>
+- 《Surface Relation》 = <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED / HOLD>
+- 《Surface Visibility》 = <VISIBLE / INDIRECT_VISIBLE / MISRECOGNIZED / HIDDEN / OVEREXPOSED / HOLD>
+- 《Surface Ledger Type》 = <IMAGE / MONEY / ROLE / RELATION / BURDEN / LOSS / REWARD / BACKSTAGE / HOLD>
+- 《Surface Risk》 = <표면이 실제 구조를 과장·왜곡·은폐·대체해 보이게 하는 위험 / NONE / HOLD>
+6. REQUIRED READING ORDER
+1) D1 Rashi 9H source 확인
+2) D1 Bhava 9H source 확인
+3) D1 First Integration 확인
+4) D1 Co-presence가 있으면 원본 공동장 확인
+5) A9 Arudha source 확인
+6) Arudha Sign / House / Lord 확인
+7) 실제 구조와 표면 구조가 같은지/갈라지는지 확인
+8) Arudha를 실제 구조로 대체하지 않음
+9) Strength / Aspect / Dasha는 아직 적용하지 않음
+7. OUTPUT SENTENCE FORMAT
+Sentence 01 =
+D1 9H는 Rashi/Bhava 구조상 <ACTUAL_STRUCTURE>로 먼저 보존된다.
+Sentence 02 =
+A9는 이 9H 주제가 외부 인식·표면 장부·보이는 결과에서 <ARUDHA_SURFACE_POSITION>으로 드러나는지를 보여준다.
+Sentence 03 =
+이 표면화는 실제 구조를 바꾸지 않고, 실제 9H 기능이 외부에서 어떻게 보이고 어떤 표면 장부로 인식되는지를 보정한다.
+Sentence 04 =
+Surface Relation이 <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED>이면, 실제 구조와 표면 구조의 차이를 Conflict Note 또는 Surface Note에 남긴다.
+8. 98 CHECK
+PASS =
+- D1 Rashi/Bhava source와 Arudha source가 분리되어 있다.
+- Arudha가 실제 구조를 덮어쓰지 않는다.
+- Arudha Sign / House / Lord가 분리되어 있다.
+- 실제 구조와 표면 구조의 관계가 명시되어 있다.
+- UL을 A12와 혼합하지 않는다.
+- Strength / Aspect / Dasha / Varga Link를 섞지 않는다.
+FAIL =
+- Arudha를 실제 사건 구조로 사용함.
+- Arudha가 D1 Rashi/Bhava를 덮어씀.
+- Arudha Pada가 없는데 임의 계산함.
+- A12와 UL을 혼합함.
+- 표면화 차이를 쓰지 않고 “좋다/나쁘다”로 결론 냄.
+9. USE DECISION
+- 《APPLY_AS_D1_ARUDHA_SURFACE》 = source 충분 / 표면화 구조 적용 가능
+- 《SUPPORT_ONLY》 = 일부 source만 확인
+- 《REFERENCE_ONLY》 = 값 보존 / 현재 판정에는 보조
+- 《HOLD》 = source 또는 비교축 부족
+- 《NOT_USED》 = source 없음
+D1_ARUDHA_A10_10H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+10H. D1 ARUDHA A10 SURFACE SLOT
+A10 표면화 슬롯 / 10H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. TARGET SURFACE
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 10H
+- 《Arudha Pada》 = A10
+- 《Surface Function》 = 직업 / 역할 / 결과물 / 공적 출력이 외부에 보이는 방식
+- 《Application Status》 = <APPLY / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+2. SOURCE EXTRACTION
+- 《Arudha Source Dataset》 = <D1_ARUDHA_SOURCE_DATASET>
+- 《Arudha Source Type》 = <USER_TEXT_BLOCK / SCREENSHOT_ONLY / SCREENSHOT_PLUS_TEXT / DERIVED_WITH_RULE / NOT_SHOWN>
+- 《Arudha Source Confidence》 = <VISIBLE / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Calculation Status》 = <APP_VISIBLE / USER_TEXT_SUPPLIED / DERIVED_WITH_RULE / DERIVED_UNCHECKED / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+3. ARUDHA POSITION
+- 《Arudha Pada》 = A10
+- 《Arudha Sign》 = <SIGN / NOT_SHOWN>
+- 《Arudha House from D1 Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Arudha Degree》 = <DEGREE / NOT_SHOWN>
+- 《Arudha Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Arudha Lord》 = <PLANET / NOT_SHOWN>
+- 《Arudha Lord Position》 = <D1_HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / NOT_SHOWN>
+- 《Arudha Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+4. D1 STRUCTURE LINK
+- 《D1 Rashi Source Link》 = <D1_RASHI_10H_SOURCE / SIGN / OCCUPANTS / LORD / DEGREE_ORDER / NOT_SHOWN>
+- 《D1 Bhava Source Link》 = <D1_BHAVA_10H_SOURCE / BHAVA_OCCUPANTS / SAME-MOVED-SPLIT / NOT_SHOWN>
+- 《D1 House Lord Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《D1 Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《D1 Actual Structure Function》 = <실제 구조에서 담당하는 기능 / NOT_SHOWN>
+5. SURFACE COMPARISON
+- 《Actual Structure》 = <D1_RASHI_BHAVA_STRUCTURE>
+- 《Surface Structure》 = <ARUDHA_SURFACE_POSITION>
+- 《Surface Relation》 = <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED / HOLD>
+- 《Surface Visibility》 = <VISIBLE / INDIRECT_VISIBLE / MISRECOGNIZED / HIDDEN / OVEREXPOSED / HOLD>
+- 《Surface Ledger Type》 = <IMAGE / MONEY / ROLE / RELATION / BURDEN / LOSS / REWARD / BACKSTAGE / HOLD>
+- 《Surface Risk》 = <표면이 실제 구조를 과장·왜곡·은폐·대체해 보이게 하는 위험 / NONE / HOLD>
+6. REQUIRED READING ORDER
+1) D1 Rashi 10H source 확인
+2) D1 Bhava 10H source 확인
+3) D1 First Integration 확인
+4) D1 Co-presence가 있으면 원본 공동장 확인
+5) A10 Arudha source 확인
+6) Arudha Sign / House / Lord 확인
+7) 실제 구조와 표면 구조가 같은지/갈라지는지 확인
+8) Arudha를 실제 구조로 대체하지 않음
+9) Strength / Aspect / Dasha는 아직 적용하지 않음
+7. OUTPUT SENTENCE FORMAT
+Sentence 01 =
+D1 10H는 Rashi/Bhava 구조상 <ACTUAL_STRUCTURE>로 먼저 보존된다.
+Sentence 02 =
+A10는 이 10H 주제가 외부 인식·표면 장부·보이는 결과에서 <ARUDHA_SURFACE_POSITION>으로 드러나는지를 보여준다.
+Sentence 03 =
+이 표면화는 실제 구조를 바꾸지 않고, 실제 10H 기능이 외부에서 어떻게 보이고 어떤 표면 장부로 인식되는지를 보정한다.
+Sentence 04 =
+Surface Relation이 <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED>이면, 실제 구조와 표면 구조의 차이를 Conflict Note 또는 Surface Note에 남긴다.
+8. 98 CHECK
+PASS =
+- D1 Rashi/Bhava source와 Arudha source가 분리되어 있다.
+- Arudha가 실제 구조를 덮어쓰지 않는다.
+- Arudha Sign / House / Lord가 분리되어 있다.
+- 실제 구조와 표면 구조의 관계가 명시되어 있다.
+- UL을 A12와 혼합하지 않는다.
+- Strength / Aspect / Dasha / Varga Link를 섞지 않는다.
+FAIL =
+- Arudha를 실제 사건 구조로 사용함.
+- Arudha가 D1 Rashi/Bhava를 덮어씀.
+- Arudha Pada가 없는데 임의 계산함.
+- A12와 UL을 혼합함.
+- 표면화 차이를 쓰지 않고 “좋다/나쁘다”로 결론 냄.
+9. USE DECISION
+- 《APPLY_AS_D1_ARUDHA_SURFACE》 = source 충분 / 표면화 구조 적용 가능
+- 《SUPPORT_ONLY》 = 일부 source만 확인
+- 《REFERENCE_ONLY》 = 값 보존 / 현재 판정에는 보조
+- 《HOLD》 = source 또는 비교축 부족
+- 《NOT_USED》 = source 없음
+D1_ARUDHA_A11_11H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+11H. D1 ARUDHA A11 SURFACE SLOT
+A11 표면화 슬롯 / 11H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. TARGET SURFACE
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 11H
+- 《Arudha Pada》 = A11
+- 《Surface Function》 = 성과 / 회수 / 보상 / 귀속 / 네트워크가 외부에 보이는 방식
+- 《Application Status》 = <APPLY / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+2. SOURCE EXTRACTION
+- 《Arudha Source Dataset》 = <D1_ARUDHA_SOURCE_DATASET>
+- 《Arudha Source Type》 = <USER_TEXT_BLOCK / SCREENSHOT_ONLY / SCREENSHOT_PLUS_TEXT / DERIVED_WITH_RULE / NOT_SHOWN>
+- 《Arudha Source Confidence》 = <VISIBLE / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Calculation Status》 = <APP_VISIBLE / USER_TEXT_SUPPLIED / DERIVED_WITH_RULE / DERIVED_UNCHECKED / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+3. ARUDHA POSITION
+- 《Arudha Pada》 = A11
+- 《Arudha Sign》 = <SIGN / NOT_SHOWN>
+- 《Arudha House from D1 Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Arudha Degree》 = <DEGREE / NOT_SHOWN>
+- 《Arudha Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Arudha Lord》 = <PLANET / NOT_SHOWN>
+- 《Arudha Lord Position》 = <D1_HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / NOT_SHOWN>
+- 《Arudha Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+4. D1 STRUCTURE LINK
+- 《D1 Rashi Source Link》 = <D1_RASHI_11H_SOURCE / SIGN / OCCUPANTS / LORD / DEGREE_ORDER / NOT_SHOWN>
+- 《D1 Bhava Source Link》 = <D1_BHAVA_11H_SOURCE / BHAVA_OCCUPANTS / SAME-MOVED-SPLIT / NOT_SHOWN>
+- 《D1 House Lord Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《D1 Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《D1 Actual Structure Function》 = <실제 구조에서 담당하는 기능 / NOT_SHOWN>
+5. SURFACE COMPARISON
+- 《Actual Structure》 = <D1_RASHI_BHAVA_STRUCTURE>
+- 《Surface Structure》 = <ARUDHA_SURFACE_POSITION>
+- 《Surface Relation》 = <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED / HOLD>
+- 《Surface Visibility》 = <VISIBLE / INDIRECT_VISIBLE / MISRECOGNIZED / HIDDEN / OVEREXPOSED / HOLD>
+- 《Surface Ledger Type》 = <IMAGE / MONEY / ROLE / RELATION / BURDEN / LOSS / REWARD / BACKSTAGE / HOLD>
+- 《Surface Risk》 = <표면이 실제 구조를 과장·왜곡·은폐·대체해 보이게 하는 위험 / NONE / HOLD>
+6. REQUIRED READING ORDER
+1) D1 Rashi 11H source 확인
+2) D1 Bhava 11H source 확인
+3) D1 First Integration 확인
+4) D1 Co-presence가 있으면 원본 공동장 확인
+5) A11 Arudha source 확인
+6) Arudha Sign / House / Lord 확인
+7) 실제 구조와 표면 구조가 같은지/갈라지는지 확인
+8) Arudha를 실제 구조로 대체하지 않음
+9) Strength / Aspect / Dasha는 아직 적용하지 않음
+7. OUTPUT SENTENCE FORMAT
+Sentence 01 =
+D1 11H는 Rashi/Bhava 구조상 <ACTUAL_STRUCTURE>로 먼저 보존된다.
+Sentence 02 =
+A11는 이 11H 주제가 외부 인식·표면 장부·보이는 결과에서 <ARUDHA_SURFACE_POSITION>으로 드러나는지를 보여준다.
+Sentence 03 =
+이 표면화는 실제 구조를 바꾸지 않고, 실제 11H 기능이 외부에서 어떻게 보이고 어떤 표면 장부로 인식되는지를 보정한다.
+Sentence 04 =
+Surface Relation이 <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED>이면, 실제 구조와 표면 구조의 차이를 Conflict Note 또는 Surface Note에 남긴다.
+8. 98 CHECK
+PASS =
+- D1 Rashi/Bhava source와 Arudha source가 분리되어 있다.
+- Arudha가 실제 구조를 덮어쓰지 않는다.
+- Arudha Sign / House / Lord가 분리되어 있다.
+- 실제 구조와 표면 구조의 관계가 명시되어 있다.
+- UL을 A12와 혼합하지 않는다.
+- Strength / Aspect / Dasha / Varga Link를 섞지 않는다.
+FAIL =
+- Arudha를 실제 사건 구조로 사용함.
+- Arudha가 D1 Rashi/Bhava를 덮어씀.
+- Arudha Pada가 없는데 임의 계산함.
+- A12와 UL을 혼합함.
+- 표면화 차이를 쓰지 않고 “좋다/나쁘다”로 결론 냄.
+9. USE DECISION
+- 《APPLY_AS_D1_ARUDHA_SURFACE》 = source 충분 / 표면화 구조 적용 가능
+- 《SUPPORT_ONLY》 = 일부 source만 확인
+- 《REFERENCE_ONLY》 = 값 보존 / 현재 판정에는 보조
+- 《HOLD》 = source 또는 비교축 부족
+- 《NOT_USED》 = source 없음
+D1_ARUDHA_A12_12H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+12H. D1 ARUDHA A12 SURFACE SLOT
+A12 표면화 슬롯 / 12H
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. TARGET SURFACE
+- 《Layer》 = D1 Arudha / Surface Structure
+- 《D1 House》 = 12H
+- 《Arudha Pada》 = A12
+- 《Surface Function》 = 배후소모 / 누수 / 퇴장 / 숨은 비용이 외부에 보이는 방식
+- 《Application Status》 = <APPLY / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+2. SOURCE EXTRACTION
+- 《Arudha Source Dataset》 = <D1_ARUDHA_SOURCE_DATASET>
+- 《Arudha Source Type》 = <USER_TEXT_BLOCK / SCREENSHOT_ONLY / SCREENSHOT_PLUS_TEXT / DERIVED_WITH_RULE / NOT_SHOWN>
+- 《Arudha Source Confidence》 = <VISIBLE / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Calculation Status》 = <APP_VISIBLE / USER_TEXT_SUPPLIED / DERIVED_WITH_RULE / DERIVED_UNCHECKED / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+3. ARUDHA POSITION
+- 《Arudha Pada》 = A12
+- 《Arudha Sign》 = <SIGN / NOT_SHOWN>
+- 《Arudha House from D1 Lagna》 = <HOUSE / NOT_SHOWN>
+- 《Arudha Degree》 = <DEGREE / NOT_SHOWN>
+- 《Arudha Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《Arudha Lord》 = <PLANET / NOT_SHOWN>
+- 《Arudha Lord Position》 = <D1_HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / NOT_SHOWN>
+- 《Arudha Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+4. D1 STRUCTURE LINK
+- 《D1 Rashi Source Link》 = <D1_RASHI_12H_SOURCE / SIGN / OCCUPANTS / LORD / DEGREE_ORDER / NOT_SHOWN>
+- 《D1 Bhava Source Link》 = <D1_BHAVA_12H_SOURCE / BHAVA_OCCUPANTS / SAME-MOVED-SPLIT / NOT_SHOWN>
+- 《D1 House Lord Link》 = <HOUSE_LORD / LORD_POSITION / NOT_SHOWN>
+- 《D1 Co-presence Link》 = <NONE / SINGLE / CO-PRESENCE / SPLIT / NOT_SHOWN>
+- 《D1 Actual Structure Function》 = <실제 구조에서 담당하는 기능 / NOT_SHOWN>
+5. SURFACE COMPARISON
+- 《Actual Structure》 = <D1_RASHI_BHAVA_STRUCTURE>
+- 《Surface Structure》 = <ARUDHA_SURFACE_POSITION>
+- 《Surface Relation》 = <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED / HOLD>
+- 《Surface Visibility》 = <VISIBLE / INDIRECT_VISIBLE / MISRECOGNIZED / HIDDEN / OVEREXPOSED / HOLD>
+- 《Surface Ledger Type》 = <IMAGE / MONEY / ROLE / RELATION / BURDEN / LOSS / REWARD / BACKSTAGE / HOLD>
+- 《Surface Risk》 = <표면이 실제 구조를 과장·왜곡·은폐·대체해 보이게 하는 위험 / NONE / HOLD>
+6. REQUIRED READING ORDER
+1) D1 Rashi 12H source 확인
+2) D1 Bhava 12H source 확인
+3) D1 First Integration 확인
+4) D1 Co-presence가 있으면 원본 공동장 확인
+5) A12 Arudha source 확인
+6) Arudha Sign / House / Lord 확인
+7) 실제 구조와 표면 구조가 같은지/갈라지는지 확인
+8) Arudha를 실제 구조로 대체하지 않음
+9) Strength / Aspect / Dasha는 아직 적용하지 않음
+7. OUTPUT SENTENCE FORMAT
+Sentence 01 =
+D1 12H는 Rashi/Bhava 구조상 <ACTUAL_STRUCTURE>로 먼저 보존된다.
+Sentence 02 =
+A12는 이 12H 주제가 외부 인식·표면 장부·보이는 결과에서 <ARUDHA_SURFACE_POSITION>으로 드러나는지를 보여준다.
+Sentence 03 =
+이 표면화는 실제 구조를 바꾸지 않고, 실제 12H 기능이 외부에서 어떻게 보이고 어떤 표면 장부로 인식되는지를 보정한다.
+Sentence 04 =
+Surface Relation이 <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED>이면, 실제 구조와 표면 구조의 차이를 Conflict Note 또는 Surface Note에 남긴다.
+8. 98 CHECK
+PASS =
+- D1 Rashi/Bhava source와 Arudha source가 분리되어 있다.
+- Arudha가 실제 구조를 덮어쓰지 않는다.
+- Arudha Sign / House / Lord가 분리되어 있다.
+- 실제 구조와 표면 구조의 관계가 명시되어 있다.
+- UL을 A12와 혼합하지 않는다.
+- Strength / Aspect / Dasha / Varga Link를 섞지 않는다.
+FAIL =
+- Arudha를 실제 사건 구조로 사용함.
+- Arudha가 D1 Rashi/Bhava를 덮어씀.
+- Arudha Pada가 없는데 임의 계산함.
+- A12와 UL을 혼합함.
+- 표면화 차이를 쓰지 않고 “좋다/나쁘다”로 결론 냄.
+9. USE DECISION
+- 《APPLY_AS_D1_ARUDHA_SURFACE》 = source 충분 / 표면화 구조 적용 가능
+- 《SUPPORT_ONLY》 = 일부 source만 확인
+- 《REFERENCE_ONLY》 = 값 보존 / 현재 판정에는 보조
+- 《HOLD》 = source 또는 비교축 부족
+- 《NOT_USED》 = source 없음
+D1_ARUDHA_UL_INDEPENDENT
+━━━━━━━━━━━━━━━━━━━━━━━━━
+UL. D1 UPAPADA LAGNA INDEPENDENT SLOT
+UL 독립 슬롯 / 관계·결합·계약 표면화
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. TARGET SURFACE
+- 《Layer》 = D1 Arudha / Upapada Lagna
+- 《Special Pada》 = UL
+- 《Surface Function》 = 관계 / 배우자 / 결합 / 계약 / 상대와의 사회적 표면화 / 관계 장부가 외부에 보이는 방식
+- 《Application Status》 = <APPLY / SUPPORT_ONLY / REFERENCE_ONLY / HOLD / NOT_USED>
+2. SOURCE EXTRACTION
+- 《UL Source Dataset》 = <D1_ARUDHA_UL_SOURCE_DATASET>
+- 《UL Source Type》 = <USER_TEXT_BLOCK / SCREENSHOT_ONLY / SCREENSHOT_PLUS_TEXT / DERIVED_WITH_RULE / NOT_SHOWN>
+- 《UL Source Confidence》 = <VISIBLE / TEXT_SUPPLIED / DERIVED / NOT_SHOWN>
+- 《Calculation Status》 = <APP_VISIBLE / USER_TEXT_SUPPLIED / DERIVED_WITH_RULE / DERIVED_UNCHECKED / NOT_SHOWN>
+- 《Conflict Note》 = <NONE / SOURCE_CONFLICT / DERIVED_CONFLICT / INCOMPLETE / NOT_CHECKED>
+3. UL POSITION
+- 《UL Sign》 = <SIGN / NOT_SHOWN>
+- 《UL House from D1 Lagna》 = <HOUSE / NOT_SHOWN>
+- 《UL Degree》 = <DEGREE / NOT_SHOWN>
+- 《UL Nakshatra / Pada》 = <NAKSHATRA / PADA / NOT_SHOWN>
+- 《UL Lord》 = <PLANET / NOT_SHOWN>
+- 《UL Lord Position》 = <D1_HOUSE / SIGN / DEGREE / NAKSHATRA_PADA / NOT_SHOWN>
+- 《UL Lord Circuit》 = <RL-NL-SL-SSL / NOT_SHOWN>
+4. D1 RELATION STRUCTURE LINK
+- 《D1 7H Rashi Link》 = <D1_RASHI_7H_SOURCE / SIGN / OCCUPANTS / LORD / NOT_SHOWN>
+- 《D1 7H Bhava Link》 = <D1_BHAVA_7H_SOURCE / BHAVA_OCCUPANTS / SAME-MOVED-SPLIT / NOT_SHOWN>
+- 《D1 12H Link for UL Logic》 = <D1_RASHI/BHAVA_12H_SOURCE / NOT_SHOWN>
+- 《D1 Venus/Jupiter Link if relevant》 = <PLANET_LINK / NOT_SHOWN>
+5. UL SURFACE COMPARISON
+- 《Actual Relationship Structure》 = <D1_7H_RASHI_BHAVA_STRUCTURE>
+- 《UL Surface Structure》 = <UL_SURFACE_POSITION>
+- 《UL Surface Relation》 = <ALIGNED / DISPLACED / SPLIT / DISTORTED / HIDDEN / AMPLIFIED / HOLD>
+- 《Relationship Visibility》 = <VISIBLE / INDIRECT_VISIBLE / MISRECOGNIZED / HIDDEN / OVEREXPOSED / HOLD>
+- 《Relationship Ledger Type》 = <CONTRACT / MARRIAGE / SOCIAL_PAIRING / OBLIGATION / BURDEN / SUPPORT / HOLD>
+6. REQUIRED READING ORDER
+1) D1 Rashi/Bhava 7H source 확인
+2) D1 Rashi/Bhava 12H source 확인
+3) UL source 확인
+4) UL Sign / House / Lord 확인
+5) UL을 A12와 혼합하지 않음
+6) UL을 실제 관계 구조로 대체하지 않음
+7) UL은 관계 표면화 / 결합 표면장으로만 사용
+8) Strength / Aspect / Dasha는 아직 적용하지 않음
+7. OUTPUT SENTENCE FORMAT
+- D1 관계 구조는 7H Rashi/Bhava와 관련 lord 구조에서 먼저 보존된다.
+- UL은 그 관계·결합·계약 구조가 외부 표면에서 어떤 sign/house 장부로 보이는지 확인한다.
+- UL은 실제 관계 구조를 만들거나 덮어쓰지 않고, 관계 표면화·사회적 결합 이미지·보이는 관계장부를 보정한다.
+8. 98 CHECK
+PASS =
+- UL이 A12와 분리되어 있다.
+- UL source와 D1 7H/12H source가 분리되어 있다.
+- UL은 관계 표면화층으로만 사용된다.
+FAIL =
+- UL을 A12로 처리함.
+- UL을 실제 관계 사건 구조로 대체함.
+- UL source 없이 임의 계산함.
+- Strength / Aspect / Dasha를 이 슬롯에 섞음.
+9. USE DECISION
+- 《APPLY_AS_UL_SURFACE》 = source 충분 / 관계 표면화 적용 가능
+- 《SUPPORT_ONLY》 = 일부 source만 확인
+- 《REFERENCE_ONLY》 = 값 보존 / 현재 판정에는 보조
+- 《HOLD》 = source 또는 비교축 부족
+- 《NOT_USED》 = source 없음
+━━━━━━━━━━━━━━━━━━━━━━━━━
+2. D1 ARUDHA FINAL CHECK
+━━━━━━━━━━━━━━━━━━━━━━━━━
+□ D1 Arudha source 확인
+□ AL / A1 확인
+□ A2~A12 확인
+□ UL 독립 슬롯 확인
+□ D1 Rashi source link 확인
+□ D1 Bhava source link 확인
+□ Arudha Sign / House / Lord 확인
+□ Surface Relation 확인
+□ Surface Visibility 확인
+□ Arudha가 Rashi/Bhava를 덮어쓰지 않음
+□ Arudha를 D차트 원본 구조처럼 사용하지 않음
+□ UL과 A12 혼합 없음
+□ Strength 미적용
+□ Aspect 미적용
+□ Dasha 미적용
+□ Arudha source 없는 값 임의 생성 없음
+━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE=HYEWON_D1_ARUDHA_12H_SLOT_TEMPLATE_98_NOBLANK
+INDEX=D_ENGINE > D1 > ARUDHA > SURFACE_STRUCTURE > AL_A2_A12_UL > 12H_SLOT > REVISED_98
+STATUS=D1_ONLY / ARUDHA_SURFACE_LAYER / AL_A2_A12_INCLUDED / UL_INDEPENDENT_INCLUDED / NO_RASHI_BHAVA_OVERWRITE / NO_EVENT_PROMISE_CREATION / 98_LOCK_READY
+━━━━━━━━━━━━━━━━━━━━━━━━━

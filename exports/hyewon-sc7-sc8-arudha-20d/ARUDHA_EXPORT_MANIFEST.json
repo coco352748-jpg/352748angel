@@ -45,6 +45,27 @@
       {"dchart":"D60","path":"SC8/06_1B_D60_AruDhA_12H_AppLieD_R.txt","size_bytes":37147,"sha256":"40048d9ea1e62a48405615b011f997f03662564775cba9c9dcf4519f00191651"}
     ]
   },
+  "grammar": {
+    "call": "$rq-sc7-sc8-arudha-grammar",
+    "directory": "grammar",
+    "templates_directory": "templates",
+    "coordinate_scope": {
+      "house_coordinates": 240,
+      "independent_ul_coordinates": 20,
+      "total_points": 260,
+      "bound_points": 260,
+      "status": "PASS"
+    },
+    "common_structural_grammar": "PASS",
+    "exact_bidirectional_grammar": "HOLD_SOURCE_STATE_MISMATCH",
+    "exact_points": 138,
+    "different_points": 122,
+    "field_occurrences_compared": 6645,
+    "different_field_occurrences": 674,
+    "manual_corrections": 0,
+    "chart_id_value_exceptions": 0,
+    "output_txt_emitted": false
+  },
   "preservation": {
     "ocr_rerun": false,
     "value_derivation": false,

@@ -1,0 +1,4655 @@
+{
+  "schema_version": "SC7_SC8_ARUDHA_COVERAGE_V1",
+  "grammar_call": "$rq-sc7-sc8-arudha-grammar",
+  "status": "HOLD",
+  "status_reason": "The common 20D Arudha grammar is structurally verified, but SC7 is a later screenshot-master state and SC8 is an earlier PIKACHU state. Corrected point values are not recoverable from the older text.",
+  "source_snapshot": {
+    "sc7_file": "07_6AB_AruDha_Sc.txt",
+    "sc7_sha256": "4ed64718172c0f570371378e3a215f12d9f2f92c40298912ca7205e282a64414",
+    "sc7_container_members": 21,
+    "sc7_index_members": 1,
+    "sc7_chart_members": 20,
+    "sc8_chart_members": 20
+  },
+  "coordinate_coverage": {
+    "dcharts": 20,
+    "houses_per_dchart": 12,
+    "house_coordinates_requested": 240,
+    "house_coordinates_bound": 240,
+    "ul_coordinates_requested": 20,
+    "ul_coordinates_bound": 20,
+    "total_points_requested": 260,
+    "total_points_bound": 260,
+    "missing_points": 0,
+    "status": "PASS"
+  },
+  "common_grammar_validation": {
+    "sc7": {
+      "profile": "SC7_SCREENSHOT_MASTER",
+      "status": "PASS",
+      "checks": {
+        "POINT_COUNT_12H_PLUS_UL": {
+          "tested": 20,
+          "passed": 20,
+          "failed": 0,
+          "status": "PASS"
+        },
+        "D1_HOUSE_TO_PADA_MAP": {
+          "tested": 12,
+          "passed": 12,
+          "failed": 0,
+          "status": "PASS"
+        },
+        "A12_HOLD_PRESERVATION": {
+          "tested": 20,
+          "passed": 20,
+          "failed": 0,
+          "status": "PASS"
+        },
+        "UL_INDEPENDENT": {
+          "tested": 20,
+          "passed": 20,
+          "failed": 0,
+          "status": "PASS"
+        },
+        "TARGET_HOUSE_TO_POINT_MAP": {
+          "tested": 228,
+          "passed": 228,
+          "failed": 0,
+          "status": "PASS"
+        },
+        "LANDING_DUPLICATION": {
+          "tested": 209,
+          "passed": 209,
+          "failed": 0,
+          "status": "PASS"
+        },
+        "SOURCE_LANDING_STATUS": {
+          "tested": 209,
+          "passed": 209,
+          "failed": 0,
+          "status": "PASS"
+        }
+      },
+      "failures": []
+    },
+    "sc8": {
+      "profile": "SC8_PIKACHU_HISTORICAL",
+      "status": "PASS",
+      "checks": {
+        "POINT_COUNT_12H_PLUS_UL": {
+          "tested": 20,
+          "passed": 20,
+          "failed": 0,
+          "status": "PASS"
+        },
+        "D1_HOUSE_TO_PADA_MAP": {
+          "tested": 12,
+          "passed": 12,
+          "failed": 0,
+          "status": "PASS"
+        },
+        "A12_HOLD_PRESERVATION": {
+          "tested": 20,
+          "passed": 20,
+          "failed": 0,
+          "status": "PASS"
+        },
+        "UL_INDEPENDENT": {
+          "tested": 20,
+          "passed": 20,
+          "failed": 0,
+          "status": "PASS"
+        },
+        "TARGET_HOUSE_TO_POINT_MAP": {
+          "tested": 228,
+          "passed": 228,
+          "failed": 0,
+          "status": "PASS"
+        },
+        "LANDING_DUPLICATION": {
+          "tested": 209,
+          "passed": 209,
+          "failed": 0,
+          "status": "PASS"
+        },
+        "SOURCE_LANDING_STATUS": {
+          "tested": 209,
+          "passed": 209,
+          "failed": 0,
+          "status": "PASS"
+        }
+      },
+      "failures": []
+    },
+    "status": "PASS"
+  },
+  "paired_point_comparison": {
+    "points_compared": 260,
+    "point_field_schema_equal": 260,
+    "exact_points": 138,
+    "different_points": 122,
+    "field_occurrences_compared": 6645,
+    "exact_field_occurrences": 5971,
+    "different_field_occurrences": 674,
+    "source_only_field_occurrences": 0,
+    "target_only_field_occurrences": 0,
+    "status": "HOLD"
+  },
+  "field_difference_counts": {
+    "Arudha Degree": {
+      "different": 103,
+      "exact": 136
+    },
+    "Arudha House From Target D-Chart Lagna": {
+      "different": 82,
+      "exact": 146
+    },
+    "Arudha Nakshatra/Pada": {
+      "different": 100,
+      "exact": 128
+    },
+    "Arudha Sign": {
+      "different": 82,
+      "exact": 157
+    },
+    "Landing House Surface Channel": {
+      "different": 82,
+      "exact": 146
+    },
+    "Pada Landing House From Lagna": {
+      "different": 82,
+      "exact": 146
+    },
+    "Pada Landing Sign": {
+      "different": 82,
+      "exact": 146
+    },
+    "Source-Landing Status": {
+      "different": 11,
+      "exact": 217
+    },
+    "Surface Visibility": {
+      "different": 11
+    },
+    "UL Degree": {
+      "different": 8,
+      "exact": 12
+    },
+    "UL House From Target D-Chart Lagna": {
+      "different": 6,
+      "exact": 13
+    },
+    "UL Nakshatra/Pada": {
+      "different": 7,
+      "exact": 12
+    },
+    "UL Sign": {
+      "different": 6,
+      "exact": 14
+    },
+    "Use Decision": {
+      "different": 12,
+      "exact": 248
+    }
+  },
+  "document_byte_comparison": {
+    "documents_compared": 20,
+    "byte_equal_documents": 0,
+    "different_documents": 20,
+    "status": "HOLD"
+  },
+  "templates": [
+    {
+      "filename": "06A_D1_ARUDHA_TEMPLATE_♤.txt",
+      "expected_profile": "D1_06A_TYPED",
+      "sha256": "d58f74fc853b670f8c0e23b20a33e02fc036a128b00d6687e45cdb76b0c12c57",
+      "size_bytes": 62081,
+      "line_count": 1089,
+      "placeholder_occurrences": 355,
+      "unique_placeholders": 58,
+      "field_rows": 443,
+      "unique_field_labels": 59,
+      "byte_equal_to_any_applied_document": false,
+      "role": "TYPED_GRAMMAR_SPECIFICATION_NOT_BYTE_SKELETON"
+    },
+    {
+      "filename": "06B_TARGET_ARUDHA_TEMPLATE_♤.txt",
+      "expected_profile": "TARGET_06B_TYPED",
+      "sha256": "efd3ea70c804af11ae62351add8f3dca69be41942fcb83547a185f3910721ffb",
+      "size_bytes": 186886,
+      "line_count": 2789,
+      "placeholder_occurrences": 524,
+      "unique_placeholders": 69,
+      "field_rows": 771,
+      "unique_field_labels": 111,
+      "byte_equal_to_any_applied_document": false,
+      "role": "TYPED_GRAMMAR_SPECIFICATION_NOT_BYTE_SKELETON"
+    }
+  ],
+  "exact_invariants": {
+    "forward_sc7_to_sc8": {
+      "requested_points": 260,
+      "passed": 0,
+      "held": 260,
+      "status": "HOLD"
+    },
+    "reverse_sc8_to_sc7": {
+      "requested_points": 260,
+      "passed": 0,
+      "held": 260,
+      "status": "HOLD"
+    },
+    "reverse_forward": {
+      "requested_points": 260,
+      "passed": 0,
+      "held": 260,
+      "status": "HOLD"
+    },
+    "forward_reverse": {
+      "requested_points": 260,
+      "passed": 0,
+      "held": 260,
+      "status": "HOLD"
+    },
+    "reason": "No source-backed rule converts corrected SC7 values to the older SC8 values or restores corrected values from SC8."
+  },
+  "acceptance_checks": {
+    "manual_corrections": {
+      "observed": 0,
+      "required": 0,
+      "status": "PASS"
+    },
+    "chart_id_exception_rules": {
+      "observed": 0,
+      "required": 0,
+      "status": "PASS"
+    },
+    "unexplained_sc8_output_elements": {
+      "observed": "historical value state and fixed-profile rows",
+      "required": 0,
+      "status": "HOLD"
+    },
+    "unrecovered_sc7_input_elements": {
+      "observed": "corrected degrees/positions and container index state",
+      "required": 0,
+      "status": "HOLD"
+    },
+    "overall": "HOLD"
+  },
+  "blocking_holds": [
+    "HOLD-ARU-SOURCE-STATE-001",
+    "HOLD-ARU-D1-DEGREE-LOSS-001",
+    "HOLD-ARU-CORRECTED-VALUES-001",
+    "HOLD-ARU-TEMPLATE-SKELETON-001",
+    "HOLD-ARU-INVERSE-CARRIER-001",
+    "HOLD-ARU-EXACT-RENDERER-001"
+  ],
+  "no_output_txt_emitted": true,
+  "documents": [
+    {
+      "dchart": "D1",
+      "sc7_container_member": "06_1A_D1_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1A_D1_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "77ec083b861b90eb204ce7316a2415bb2a91f2d8ad09fd80744c82634ba5f608",
+      "sc8_file_sha256": "44f93ea35217b96ffe2ecb81998fcc5372f5552c2f5a3df7a4b95e9dc5f7a89d",
+      "sc7_line_count": 366,
+      "sc8_line_count": 366,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D9",
+      "sc7_container_member": "06_1A_D9_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1A_D9_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "251cd7aa824d2a78fa8e004ef380359698dbe3d70de589b0f7277c7e28f7ef0a",
+      "sc8_file_sha256": "8ae641f6f2d20509984be6989eaffea8b9c0b9926575cdea71d49c22041bd4b9",
+      "sc7_line_count": 576,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D2",
+      "sc7_container_member": "06_1B_D2_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1B_D2_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "9adc514a49b4149259d51eafbf5ca8046866ea5d1f5efd824609974e6bc69cfb",
+      "sc8_file_sha256": "d102e2988162204a30fe3b2afb9292930c4d199d1521e2fb972ea61501751cc2",
+      "sc7_line_count": 576,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D3",
+      "sc7_container_member": "06_1B_D3_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1B_D3_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "ac668dda5fdcd0ab39ea42b5d203a0dd036145d8a9079d62dc688a104606f627",
+      "sc8_file_sha256": "8639b9e91f56b32fe47c52f48c5cbc1ca8a64ce8a5e193c93441ef7bf6c828b4",
+      "sc7_line_count": 576,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D4",
+      "sc7_container_member": "06_1B_D4_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1B_D4_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "66ca974c45883a22c14ba94fc9f4214771cf4aed0e7c0541dd49ae8d0089a976",
+      "sc8_file_sha256": "42016669f6757697cfdd34fda107035bfecb84ed584a812ef2890937b654cd72",
+      "sc7_line_count": 576,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D5",
+      "sc7_container_member": "06_1B_D5_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1B_D5_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "79cc36c2a5e9fb93364a69d2f9ea5fa7f04c1a6db2a6dacd43c3d4e3eaae7cbf",
+      "sc8_file_sha256": "ccc235ffd6a78ba02a1e641e3b773e1e1cc7b59be670521829aff8a2be1f6447",
+      "sc7_line_count": 576,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D6",
+      "sc7_container_member": "06_1B_D6_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1B_D6_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "47826c3daae7e64ecd08db8c4def3cdbf83bdfd68d32b847516fafa32b233328",
+      "sc8_file_sha256": "e385301515d3346625c2a9357dd472dd216b7f3fe83eb43d15f38403fac9b190",
+      "sc7_line_count": 576,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D7",
+      "sc7_container_member": "06_1B_D7_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1B_D7_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "ca32cc0dd3e7519fcc4193416f2cb891a6c4e0c0d5835d7406369029614b84c9",
+      "sc8_file_sha256": "6b9da3cc8f9f0f9c3c64f829cf8ae2b68c4af2f71625134789bed370b6b23cf3",
+      "sc7_line_count": 576,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D8",
+      "sc7_container_member": "06_1B_D8_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1B_D8_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "421c8830756eb32687e8f033e210ac7997657e0db5560ffa2461d3cba0cf8e92",
+      "sc8_file_sha256": "40ecf6bc9f4c97dc566b8be957ec202fb2db5be52579f5186846f2a3e57de5bf",
+      "sc7_line_count": 576,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D10",
+      "sc7_container_member": "06_1B_D10_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1B_D10_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "950b8f3bc7f069cfd95f30f20f9017b98a1f618438e9e1a3537d20cb466259f0",
+      "sc8_file_sha256": "e8c7b069f2f615292719af9af7e30e560a3eb6265324994ea9ed5678006353e0",
+      "sc7_line_count": 576,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D11",
+      "sc7_container_member": "06_1B_D11_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1B_D11_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "32118411c4c1e93eb53f4bd782856cb0b46f94875f5d79764e1aa461904fc0eb",
+      "sc8_file_sha256": "28c9cfbd9af16794421a327b8fb94f27e64e9cbd384c8ac51c85b0b9499c0be5",
+      "sc7_line_count": 576,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D12",
+      "sc7_container_member": "06_1B_D12_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1B_D12_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "27617d6f0cef3d5a3a02da431f459f42769c1fcdb23f3afdf07def141c23d2e3",
+      "sc8_file_sha256": "a6d9a8973c53172a416ef6cb44c6025a880f70e12de1236691e28129927afb53",
+      "sc7_line_count": 590,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D16",
+      "sc7_container_member": "06_1B_D16_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1B_D16_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "c27d1d853262f835105a2202e1370f0c6ddc22c0ff40a64c03b1911cc005f862",
+      "sc8_file_sha256": "dabc9180d0012c0a2f69fef131c5611f23b82655868afb434c7a093274d996ee",
+      "sc7_line_count": 576,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D20",
+      "sc7_container_member": "06_1B_D20_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1B_D20_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "a22366d27f84607f146de730742f8bb5c9af6481cf30a29443afae577088424d",
+      "sc8_file_sha256": "407663f282f4a5650184b0ebfd612ab5d67d512f1b94e2d3b1f1899faeeeb866",
+      "sc7_line_count": 576,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D24",
+      "sc7_container_member": "06_1B_D24_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1B_D24_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "827dedcad52ac7fc6b977c3347ae0ce3a66baf547268e0aea1df78867c35a39f",
+      "sc8_file_sha256": "c3c52f49bbb397fc470fd2e3c028ec41294689e2be2b46c09f56a59c2e68acf1",
+      "sc7_line_count": 576,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D27",
+      "sc7_container_member": "06_1B_D27_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1B_D27_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "c03f0a7c7e1c4d09c41a3ee3db960516c832ccb82f0d8d6226c57d21e96a1419",
+      "sc8_file_sha256": "0f96e1f21a08224308c7944f8779eac0b6800141cc81db41466c4f1087969c2e",
+      "sc7_line_count": 576,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D30",
+      "sc7_container_member": "06_1B_D30_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1B_D30_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "0b1c47329e602931594690ee1ccf716f83ac1157d00e545314f47fd44c07de29",
+      "sc8_file_sha256": "459f7d59850732fcdaaffb0ffe4b487c9e4340bf33f589e67bdcef92eb7fee24",
+      "sc7_line_count": 576,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D40",
+      "sc7_container_member": "06_1B_D40_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1B_D40_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "a50e92349797a5a26cdf12ecfe579215fb56bcdf8a10c5ce799ea57e08b2d535",
+      "sc8_file_sha256": "6e426d9916cd194822faaf5c09cc0140d9ceae6af739bed3be7200da11b887cf",
+      "sc7_line_count": 576,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D45",
+      "sc7_container_member": "06_1B_D45_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1B_D45_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "750bc347582f3f234a157c87cb6f413e0129a8a9d28e9e75b6e38872ff1eb308",
+      "sc8_file_sha256": "e91e97b0fcd250ac8fb8ac51e1077653f87617d2c143a2a11bf72b1fe47199b3",
+      "sc7_line_count": 576,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    },
+    {
+      "dchart": "D60",
+      "sc7_container_member": "06_1B_D60_AruDhA_12H_AppLieD_R.txt",
+      "sc8_file": "06_1B_D60_AruDhA_12H_AppLieD_R.txt",
+      "sc7_member_sha256_after_wrapper_newline_normalization": "e12bb94e8c49883df9d376f2354e8735ec279ed79f648720872cd50eb68c304a",
+      "sc8_file_sha256": "40048d9ea1e62a48405615b011f997f03662564775cba9c9dcf4519f00191651",
+      "sc7_line_count": 576,
+      "sc8_line_count": 576,
+      "byte_equal_after_wrapper_newline_normalization": false
+    }
+  ],
+  "point_mismatches": [
+    {
+      "dchart": "D1",
+      "point": "H01",
+      "schema_equal": true,
+      "field_count": 20,
+      "different_field_count": 3,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Surface Visibility",
+          "occurrence": 1
+        },
+        {
+          "field": "Use Decision",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D1",
+      "point": "H02",
+      "schema_equal": true,
+      "field_count": 20,
+      "different_field_count": 3,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Surface Visibility",
+          "occurrence": 1
+        },
+        {
+          "field": "Use Decision",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D1",
+      "point": "H03",
+      "schema_equal": true,
+      "field_count": 20,
+      "different_field_count": 3,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Surface Visibility",
+          "occurrence": 1
+        },
+        {
+          "field": "Use Decision",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D1",
+      "point": "H04",
+      "schema_equal": true,
+      "field_count": 20,
+      "different_field_count": 3,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Surface Visibility",
+          "occurrence": 1
+        },
+        {
+          "field": "Use Decision",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D1",
+      "point": "H05",
+      "schema_equal": true,
+      "field_count": 20,
+      "different_field_count": 3,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Surface Visibility",
+          "occurrence": 1
+        },
+        {
+          "field": "Use Decision",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D1",
+      "point": "H06",
+      "schema_equal": true,
+      "field_count": 20,
+      "different_field_count": 3,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Surface Visibility",
+          "occurrence": 1
+        },
+        {
+          "field": "Use Decision",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D1",
+      "point": "H07",
+      "schema_equal": true,
+      "field_count": 20,
+      "different_field_count": 3,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Surface Visibility",
+          "occurrence": 1
+        },
+        {
+          "field": "Use Decision",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D1",
+      "point": "H08",
+      "schema_equal": true,
+      "field_count": 20,
+      "different_field_count": 3,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Surface Visibility",
+          "occurrence": 1
+        },
+        {
+          "field": "Use Decision",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D1",
+      "point": "H09",
+      "schema_equal": true,
+      "field_count": 20,
+      "different_field_count": 3,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Surface Visibility",
+          "occurrence": 1
+        },
+        {
+          "field": "Use Decision",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D1",
+      "point": "H10",
+      "schema_equal": true,
+      "field_count": 20,
+      "different_field_count": 3,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Surface Visibility",
+          "occurrence": 1
+        },
+        {
+          "field": "Use Decision",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D1",
+      "point": "H11",
+      "schema_equal": true,
+      "field_count": 20,
+      "different_field_count": 3,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Surface Visibility",
+          "occurrence": 1
+        },
+        {
+          "field": "Use Decision",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D1",
+      "point": "UL",
+      "schema_equal": true,
+      "field_count": 14,
+      "different_field_count": 2,
+      "different_fields": [
+        {
+          "field": "UL Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Use Decision",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D9",
+      "point": "H10",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 2,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D3",
+      "point": "H11",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 2,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D4",
+      "point": "H01",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D4",
+      "point": "H02",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D4",
+      "point": "H03",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D4",
+      "point": "H04",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D4",
+      "point": "H05",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 8,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Source-Landing Status",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D4",
+      "point": "H06",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 8,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Source-Landing Status",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D4",
+      "point": "H07",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D4",
+      "point": "H08",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D4",
+      "point": "H09",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D4",
+      "point": "H10",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 8,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Source-Landing Status",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D4",
+      "point": "H11",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D4",
+      "point": "UL",
+      "schema_equal": true,
+      "field_count": 13,
+      "different_field_count": 4,
+      "different_fields": [
+        {
+          "field": "UL Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "UL House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "UL Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "UL Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D5",
+      "point": "H01",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D5",
+      "point": "H02",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D5",
+      "point": "H03",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 8,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Source-Landing Status",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D5",
+      "point": "H04",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 8,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Source-Landing Status",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D5",
+      "point": "H05",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D5",
+      "point": "H06",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 8,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Source-Landing Status",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D5",
+      "point": "H07",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D5",
+      "point": "H08",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 8,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Source-Landing Status",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D5",
+      "point": "H09",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D5",
+      "point": "H10",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D5",
+      "point": "H11",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D5",
+      "point": "UL",
+      "schema_equal": true,
+      "field_count": 13,
+      "different_field_count": 4,
+      "different_fields": [
+        {
+          "field": "UL Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "UL House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "UL Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "UL Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D6",
+      "point": "H01",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D6",
+      "point": "H02",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 1,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D6",
+      "point": "H03",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D6",
+      "point": "H04",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D6",
+      "point": "H05",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D6",
+      "point": "H06",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D6",
+      "point": "H07",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D6",
+      "point": "H08",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 8,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Source-Landing Status",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D6",
+      "point": "H09",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D6",
+      "point": "H10",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D6",
+      "point": "H11",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D6",
+      "point": "UL",
+      "schema_equal": true,
+      "field_count": 13,
+      "different_field_count": 4,
+      "different_fields": [
+        {
+          "field": "UL Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "UL House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "UL Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "UL Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D7",
+      "point": "H01",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D7",
+      "point": "H02",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D7",
+      "point": "H03",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D7",
+      "point": "H04",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D7",
+      "point": "H05",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D7",
+      "point": "H06",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D7",
+      "point": "H07",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D7",
+      "point": "H08",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 8,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Source-Landing Status",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D7",
+      "point": "H09",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D7",
+      "point": "H10",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D7",
+      "point": "H11",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D7",
+      "point": "UL",
+      "schema_equal": true,
+      "field_count": 13,
+      "different_field_count": 1,
+      "different_fields": [
+        {
+          "field": "UL Degree",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D8",
+      "point": "H01",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 2,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D8",
+      "point": "H02",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D8",
+      "point": "H03",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D8",
+      "point": "H04",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D8",
+      "point": "H05",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D8",
+      "point": "H06",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 2,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D8",
+      "point": "H07",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D8",
+      "point": "H08",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D8",
+      "point": "H09",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D8",
+      "point": "H10",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D8",
+      "point": "H11",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D8",
+      "point": "UL",
+      "schema_equal": true,
+      "field_count": 13,
+      "different_field_count": 4,
+      "different_fields": [
+        {
+          "field": "UL Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "UL House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "UL Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "UL Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D10",
+      "point": "H01",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 2,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D10",
+      "point": "H02",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D10",
+      "point": "H03",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D10",
+      "point": "H04",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 2,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D10",
+      "point": "H05",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 2,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D10",
+      "point": "H06",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D10",
+      "point": "H07",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D10",
+      "point": "H08",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D10",
+      "point": "H09",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D10",
+      "point": "H10",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D10",
+      "point": "H11",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 2,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D10",
+      "point": "UL",
+      "schema_equal": true,
+      "field_count": 13,
+      "different_field_count": 4,
+      "different_fields": [
+        {
+          "field": "UL Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "UL House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "UL Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "UL Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D11",
+      "point": "H01",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D11",
+      "point": "H02",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D11",
+      "point": "H03",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D11",
+      "point": "H04",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D11",
+      "point": "H05",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 8,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Source-Landing Status",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D11",
+      "point": "H06",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D11",
+      "point": "H07",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D11",
+      "point": "H08",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D11",
+      "point": "H09",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D11",
+      "point": "H10",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D11",
+      "point": "H11",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D11",
+      "point": "UL",
+      "schema_equal": true,
+      "field_count": 13,
+      "different_field_count": 4,
+      "different_fields": [
+        {
+          "field": "UL Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "UL House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "UL Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "UL Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D12",
+      "point": "H01",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 1,
+      "different_fields": [
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D12",
+      "point": "H02",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 1,
+      "different_fields": [
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D12",
+      "point": "H03",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 1,
+      "different_fields": [
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D12",
+      "point": "H04",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 1,
+      "different_fields": [
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D12",
+      "point": "H05",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 1,
+      "different_fields": [
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D12",
+      "point": "H06",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 1,
+      "different_fields": [
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D12",
+      "point": "H07",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 1,
+      "different_fields": [
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D12",
+      "point": "H08",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 1,
+      "different_fields": [
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D12",
+      "point": "H09",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 1,
+      "different_fields": [
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D12",
+      "point": "H10",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D12",
+      "point": "H11",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 1,
+      "different_fields": [
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D12",
+      "point": "UL",
+      "schema_equal": true,
+      "field_count": 13,
+      "different_field_count": 1,
+      "different_fields": [
+        {
+          "field": "UL Nakshatra/Pada",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D16",
+      "point": "H05",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D16",
+      "point": "H08",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D20",
+      "point": "H07",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D20",
+      "point": "H10",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 1,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D24",
+      "point": "H06",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D27",
+      "point": "H05",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D27",
+      "point": "H08",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D40",
+      "point": "H08",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D40",
+      "point": "H11",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D45",
+      "point": "H04",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 8,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Source-Landing Status",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D45",
+      "point": "H07",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    },
+    {
+      "dchart": "D60",
+      "point": "H03",
+      "schema_equal": true,
+      "field_count": 27,
+      "different_field_count": 7,
+      "different_fields": [
+        {
+          "field": "Arudha Degree",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha House From Target D-Chart Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Nakshatra/Pada",
+          "occurrence": 1
+        },
+        {
+          "field": "Arudha Sign",
+          "occurrence": 1
+        },
+        {
+          "field": "Landing House Surface Channel",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing House From Lagna",
+          "occurrence": 1
+        },
+        {
+          "field": "Pada Landing Sign",
+          "occurrence": 1
+        }
+      ],
+      "source_only_fields": [],
+      "target_only_fields": [],
+      "exact_point": false
+    }
+  ],
+  "direction": "SC7_TO_SC8",
+  "exact_renderer_status": "HOLD"
+}
