@@ -245,9 +245,9 @@
       },
       "boot_validator": {
         "availability": "PRESENT",
-        "bytes": 21366,
+        "bytes": 22023,
         "path": "scripts/validate_kani_boot.py",
-        "sha256": "f3568e04e9edfaf018b529b470a5dbc638653b8a258417b01990fb139633a29f"
+        "sha256": "76443b7605ec54b328cb021080b66322705a9514cf3c2fdde382bbb1f0dadc43"
       },
       "e5_independent_validator": {
         "availability": "PRESENT",
@@ -287,29 +287,77 @@
       },
       "skill_entrypoint": {
         "availability": "PRESENT",
-        "bytes": 20076,
+        "bytes": 22424,
         "path": "SKILL.md",
-        "sha256": "4e5b4e326239401bf6edf45627940936e3dfb35345ec5498cad6c336c69d2687"
+        "sha256": "2765f6cfb748bc05aa56f9be335fafb9fb0a85bd6046a9dce0f6140876b046f9"
       },
       "v10_manifest_builder": {
         "availability": "PRESENT",
-        "bytes": 43825,
+        "bytes": 48337,
         "path": "scripts/build_kani_v10_manifest.py",
-        "sha256": "e22d16fa0d621391a666700b6f614d8549f7bb4611b4bf3d44ef837252155db6"
+        "sha256": "febf7f3eaf26912f82259c946d59246f4e48419b5e92d22ec5356f338f165b00"
       },
       "v10_runtime_validator": {
         "availability": "PRESENT",
-        "bytes": 47422,
+        "bytes": 53194,
         "path": "scripts/validate_kani_v10_runtime.py",
-        "sha256": "a05a00dbc5d6bc7646cd89ff1d9da5460728bf0a0d403d11f3d65dcd2a7caa3f"
+        "sha256": "24a0800599d21c31515eb14515416f16ed78fd937d029e589f203820d074a6d0"
       }
     },
     "status": "HASH_LOCKED_EXECUTABLES_AND_ENTRYPOINTS"
   },
-  "manifest_id": "779e40b620c761dd5cb2e314c1d3c3ba223662135e0ea881a7e925549b8f4989",
+  "manifest_id": "43c7202030ec13ce306d7c1cda2718b4bd6ebd92e259433aad9d2d3297a57faa",
   "pending_components": [],
   "promotion_authority": "CURRENT_USER_EXPLICIT_ONLY",
   "purpose": "SECOND_RESTORE_ROUTER_EXECUTION_EVIDENCE_BOARD",
+  "registered_work_instructions": {
+    "artifacts": {
+      "registration_manifest": {
+        "availability": "PRESENT",
+        "bytes": 3086,
+        "path": "references/v10_runtime/sc7_sc8_rashi_bhava_registration.json",
+        "sha256": "8a7660a1a7ab5ea1d3da509e26e6cdd5312c305b3538fa3ca1b878842986116b"
+      },
+      "registration_validator": {
+        "availability": "PRESENT",
+        "bytes": 19926,
+        "path": "scripts/validate_sc7_sc8_rashi_bhava_registration.py",
+        "sha256": "9febe62ebb00a05895c682187d6d3df327c3bf808adc1371da22777650e27ba2"
+      },
+      "sc7_master_zip": {
+        "availability": "PRESENT",
+        "bytes": 91544,
+        "path": "references/source_window_originals/sc7_sc8_rashi_bhava/HYEWON_SC7_RASHI_BHAVA_20D_ALL.zip",
+        "sha256": "b4bf526397aad3443eb7c4a883c866ed5a5ff7367341adf490aedff4ee4f427e"
+      },
+      "sc8_master_zip": {
+        "availability": "PRESENT",
+        "bytes": 490028,
+        "path": "references/source_window_originals/sc7_sc8_rashi_bhava/HYEWON_SC8_RASHI_BHAVA_20D_ALL.zip",
+        "sha256": "732ac5370fe9703027339db691883825c1be07d118b98342c3e5b1a9255b9f72"
+      },
+      "work_instruction": {
+        "availability": "PRESENT",
+        "bytes": 11105,
+        "path": "references/SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_WORK_INSTRUCTION.md",
+        "sha256": "c971ae7c0254b4cbde56019af7c164b7ff08302655c1076a9949ea3be0daf8ce"
+      }
+    },
+    "execution_state": "NOT_EXECUTED",
+    "first_real_job": "SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_EXTRACTION",
+    "status": "REGISTERED_HASH_LOCKED_FIRST_UNEXECUTED_JOB",
+    "validation": {
+      "active_non_3p_corpus": 580,
+      "archives": 2,
+      "d_h_lane_units": 480,
+      "dcharts_per_archive": 20,
+      "paired_lane_artifacts": 40,
+      "physical_3p_operationally_void": 20,
+      "physical_full_corpus": 600,
+      "source_text_files": 80,
+      "status": "PASS"
+    }
+  },
   "sc7_calibration": {
     "artifacts": {
       "sc7_records": {

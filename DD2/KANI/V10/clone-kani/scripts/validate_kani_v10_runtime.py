@@ -12,6 +12,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import subprocess
 import sys
 from pathlib import Path
 from typing import Any
@@ -109,6 +110,14 @@ IMPLEMENTATION_PATHS = {
     "skill_entrypoint": "SKILL.md",
     "boot_validator": "scripts/validate_kani_boot.py",
     "agent_interface": "agents/openai.yaml",
+}
+
+REGISTERED_WORK_PATHS = {
+    "work_instruction": "references/SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_WORK_INSTRUCTION.md",
+    "registration_manifest": "references/v10_runtime/sc7_sc8_rashi_bhava_registration.json",
+    "sc7_master_zip": "references/source_window_originals/sc7_sc8_rashi_bhava/HYEWON_SC7_RASHI_BHAVA_20D_ALL.zip",
+    "sc8_master_zip": "references/source_window_originals/sc7_sc8_rashi_bhava/HYEWON_SC8_RASHI_BHAVA_20D_ALL.zip",
+    "registration_validator": "scripts/validate_sc7_sc8_rashi_bhava_registration.py",
 }
 
 
@@ -276,6 +285,26 @@ def artifact_map_valid(base: Path, artifact_map: Any) -> bool:
         if metadata.get("bytes") is not None and path.stat().st_size != metadata.get("bytes"):
             return False
     return True
+
+
+def run_registration_validator(root: Path) -> dict[str, Any]:
+    completed = subprocess.run(
+        [
+            sys.executable,
+            str(root / REGISTERED_WORK_PATHS["registration_validator"]),
+            "--root",
+            str(root),
+        ],
+        cwd=root,
+        capture_output=True,
+        check=False,
+        text=True,
+        timeout=30,
+    )
+    return {
+        "returncode": completed.returncode,
+        "report": json.loads(completed.stdout),
+    }
 
 
 def validate(root: Path, manifest_path: Path) -> dict[str, Any]:
@@ -897,6 +926,100 @@ def validate(root: Path, manifest_path: Path) -> dict[str, Any]:
         and sc7.get("records") == sc7.get("exact_replay") == 240,
     )
 
+    # User-registered first real job. This proves registration only; the
+    # bidirectional grammar and 480-unit round trip remain unexecuted.
+    registered = manifest.get("registered_work_instructions", {})
+    registered_artifacts = registered.get("artifacts", {})
+    audit.check(
+        "registered_work_inventory_exact",
+        set(registered_artifacts) == set(REGISTERED_WORK_PATHS),
+    )
+    registered_hashes_ok = True
+    for key, relative in REGISTERED_WORK_PATHS.items():
+        record = registered_artifacts.get(key)
+        registered_hashes_ok = registered_hashes_ok and (
+            isinstance(record, dict)
+            and record.get("availability") == "PRESENT"
+            and file_record_matches(root, record, relative)
+        )
+    audit.check("registered_work_artifacts_hash_locked", registered_hashes_ok)
+
+    registration = audit.guard(
+        "registered_work_registration_read",
+        lambda: read_json(root / REGISTERED_WORK_PATHS["registration_manifest"]),
+    ) or {}
+    registered_scope = registration.get("scope", {})
+    registered_execution = registration.get("execution", {})
+    expected_registered_d_order = [
+        "D1", "D9", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D10",
+        "D11", "D12", "D16", "D20", "D24", "D27", "D30", "D40", "D45", "D60",
+    ]
+    audit.check(
+        "registered_work_contract",
+        registered.get("status") == "REGISTERED_HASH_LOCKED_FIRST_UNEXECUTED_JOB"
+        and registered.get("execution_state") == "NOT_EXECUTED"
+        and registered.get("first_real_job")
+        == "SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_EXTRACTION"
+        and registration.get("schema_version")
+        == "KANI_SC7_SC8_BIDIRECTIONAL_GRAMMAR_REGISTRATION_V1"
+        and registration.get("registration_id")
+        == "KANI-SC7-SC8-RASHI-BHAVA-20260830-001"
+        and registration.get("status")
+        == "REGISTERED_HASH_LOCKED_FIRST_UNEXECUTED_JOB"
+        and registered_scope.get("d_order") == expected_registered_d_order
+        and registered_scope.get("lane_order")
+        == ["RASHI", "BHAVA", "RASHI_BHAVA_BINDING"]
+        and registered_scope.get("dcharts") == 20
+        and registered_scope.get("paired_lane_artifacts") == 40
+        and registered_scope.get("d_h_lane_units") == 480
+        and registered_scope.get("source_text_files") == 80
+        and registered_scope.get("physical_full_corpus") == 600
+        and registered_scope.get("physical_3p_preserved_operationally_void") == 20
+        and registered_scope.get("active_non_3p_corpus") == 580
+        and registered_execution.get("grammar_extraction") == "NOT_EXECUTED"
+        and registered_execution.get("forward_runner") == "NOT_CREATED"
+        and registered_execution.get("reverse_runner") == "NOT_CREATED"
+        and registered_execution.get("round_trip_480") == "HOLD_UNEXECUTED"
+        and registered_execution.get("new_public_call_key")
+        == "HOLD_UNTIL_SEPARATE_USER_REQUEST",
+    )
+
+    registered_validation = audit.guard(
+        "registered_work_validator_exec",
+        lambda: run_registration_validator(root),
+    ) or {}
+    registered_report = registered_validation.get("report", {})
+    registered_counts = registered_report.get("counts", {})
+    audit.check(
+        "registered_work_validator_exec_pass",
+        registered_validation.get("returncode") == 0
+        and registered_report.get("status") == "PASS"
+        and registered_report.get("errors") == []
+        and registered_report.get("execution_state") == "NOT_EXECUTED"
+        and registered_report.get("d_order") == expected_registered_d_order
+        and registered_counts.get("archives") == 2
+        and registered_counts.get("paired_lane_artifacts") == 40
+        and registered_counts.get("d_h_lane_units") == 480
+        and registered_counts.get("source_text_files") == 80
+        and registered_counts.get("physical_full_corpus") == 600
+        and registered_counts.get("physical_3p_operationally_void") == 20
+        and registered_counts.get("active_non_3p_corpus") == 580,
+    )
+    audit.check(
+        "registered_work_manifest_validation_summary",
+        registered.get("validation") == {
+            "status": "PASS",
+            "archives": 2,
+            "dcharts_per_archive": 20,
+            "paired_lane_artifacts": 40,
+            "d_h_lane_units": 480,
+            "source_text_files": 80,
+            "physical_full_corpus": 600,
+            "physical_3p_operationally_void": 20,
+            "active_non_3p_corpus": 580,
+        },
+    )
+
     implementation = manifest.get("implementation_bindings", {})
     audit.check(
         "implementation_binding_status",
@@ -975,6 +1098,9 @@ def validate(root: Path, manifest_path: Path) -> dict[str, Any]:
             if promotion_record_state == "PRESENT_HASH_LOCKED"
             else "FAIL"
         ),
+        "registered_work": registered.get("status"),
+        "registered_work_execution_state": registered.get("execution_state"),
+        "registered_work_validation": registered.get("validation", {}).get("status"),
         "public_restore_state": manifest.get("effective_states", {}).get("PUBLIC_RESTORE_STATE"),
         "user_evidence_review": manifest.get("effective_states", {}).get("USER_EVIDENCE_REVIEW"),
         "public_final_pass": manifest.get("effective_states", {}).get("FINAL_PASS"),

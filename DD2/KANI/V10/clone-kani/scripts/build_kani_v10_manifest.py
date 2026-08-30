@@ -14,6 +14,7 @@ import argparse
 import hashlib
 import json
 import os
+import subprocess
 import sys
 import tempfile
 from pathlib import Path
@@ -114,6 +115,14 @@ IMPLEMENTATION_PATHS = {
     "skill_entrypoint": "SKILL.md",
     "boot_validator": "scripts/validate_kani_boot.py",
     "agent_interface": "agents/openai.yaml",
+}
+
+REGISTERED_WORK_PATHS = {
+    "work_instruction": "references/SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_WORK_INSTRUCTION.md",
+    "registration_manifest": "references/v10_runtime/sc7_sc8_rashi_bhava_registration.json",
+    "sc7_master_zip": "references/source_window_originals/sc7_sc8_rashi_bhava/HYEWON_SC7_RASHI_BHAVA_20D_ALL.zip",
+    "sc8_master_zip": "references/source_window_originals/sc7_sc8_rashi_bhava/HYEWON_SC8_RASHI_BHAVA_20D_ALL.zip",
+    "registration_validator": "scripts/validate_sc7_sc8_rashi_bhava_registration.py",
 }
 
 
@@ -828,6 +837,100 @@ def build_sc7_calibration(root: Path) -> dict[str, Any]:
     }
 
 
+def build_registered_work(root: Path) -> dict[str, Any]:
+    artifacts = {
+        key: file_record(root, relative)
+        for key, relative in REGISTERED_WORK_PATHS.items()
+    }
+    registration = read_json(root / REGISTERED_WORK_PATHS["registration_manifest"])
+    scope = registration.get("scope", {})
+    execution = registration.get("execution", {})
+    expected_d_order = [
+        "D1", "D9", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D10",
+        "D11", "D12", "D16", "D20", "D24", "D27", "D30", "D40", "D45", "D60",
+    ]
+    if not (
+        registration.get("schema_version")
+        == "KANI_SC7_SC8_BIDIRECTIONAL_GRAMMAR_REGISTRATION_V1"
+        and registration.get("registration_id")
+        == "KANI-SC7-SC8-RASHI-BHAVA-20260830-001"
+        and registration.get("status")
+        == "REGISTERED_HASH_LOCKED_FIRST_UNEXECUTED_JOB"
+        and scope.get("d_order") == expected_d_order
+        and scope.get("lane_order") == ["RASHI", "BHAVA", "RASHI_BHAVA_BINDING"]
+        and scope.get("dcharts") == 20
+        and scope.get("paired_lane_artifacts") == 40
+        and scope.get("d_h_lane_units") == 480
+        and scope.get("source_text_files") == 80
+        and scope.get("physical_full_corpus") == 600
+        and scope.get("physical_3p_preserved_operationally_void") == 20
+        and scope.get("active_non_3p_corpus") == 580
+        and execution.get("grammar_extraction") == "NOT_EXECUTED"
+        and execution.get("first_real_job")
+        == "SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_EXTRACTION"
+        and execution.get("new_public_call_key")
+        == "HOLD_UNTIL_SEPARATE_USER_REQUEST"
+    ):
+        raise ManifestError("SC7/SC8 Rashi-Bhava registration contract is invalid")
+
+    try:
+        completed = subprocess.run(
+            [
+                sys.executable,
+                str(root / REGISTERED_WORK_PATHS["registration_validator"]),
+                "--root",
+                str(root),
+            ],
+            cwd=root,
+            capture_output=True,
+            check=False,
+            text=True,
+            timeout=30,
+        )
+    except (OSError, subprocess.SubprocessError) as error:
+        raise ManifestError(
+            f"SC7/SC8 registration validator could not run: {type(error).__name__}"
+        ) from error
+    try:
+        validation = json.loads(completed.stdout)
+    except json.JSONDecodeError as error:
+        raise ManifestError("SC7/SC8 registration validator did not emit JSON") from error
+    counts = validation.get("counts", {})
+    if not (
+        completed.returncode == 0
+        and validation.get("status") == "PASS"
+        and validation.get("errors") == []
+        and validation.get("execution_state") == "NOT_EXECUTED"
+        and validation.get("d_order") == expected_d_order
+        and counts.get("archives") == 2
+        and counts.get("paired_lane_artifacts") == 40
+        and counts.get("d_h_lane_units") == 480
+        and counts.get("source_text_files") == 80
+        and counts.get("physical_full_corpus") == 600
+        and counts.get("physical_3p_operationally_void") == 20
+        and counts.get("active_non_3p_corpus") == 580
+    ):
+        raise ManifestError("SC7/SC8 registration validator did not pass exact scope")
+
+    return {
+        "status": "REGISTERED_HASH_LOCKED_FIRST_UNEXECUTED_JOB",
+        "execution_state": "NOT_EXECUTED",
+        "first_real_job": "SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_EXTRACTION",
+        "validation": {
+            "status": "PASS",
+            "archives": 2,
+            "dcharts_per_archive": 20,
+            "paired_lane_artifacts": 40,
+            "d_h_lane_units": 480,
+            "source_text_files": 80,
+            "physical_full_corpus": 600,
+            "physical_3p_operationally_void": 20,
+            "active_non_3p_corpus": 580,
+        },
+        "artifacts": artifacts,
+    }
+
+
 def component_state(record: dict[str, Any]) -> str:
     return str(record.get("availability", "MISSING_PENDING"))
 
@@ -839,6 +942,7 @@ def build_manifest(root: Path) -> dict[str, Any]:
     v10_e5 = build_v10_e5(root, v9_baseline)
     v10_e6 = build_v10_e6(root)
     sc7 = build_sc7_calibration(root)
+    registered_work = build_registered_work(root)
     implementation_bindings = {
         "status": "HASH_LOCKED_EXECUTABLES_AND_ENTRYPOINTS",
         "artifacts": {
@@ -875,6 +979,7 @@ def build_manifest(root: Path) -> dict[str, Any]:
         "v10_e5_overlay": v10_e5,
         "v10_e6_overlay": v10_e6,
         "sc7_calibration": sc7,
+        "registered_work_instructions": registered_work,
         "implementation_bindings": implementation_bindings,
         "technical_build_status": "PASS",
         "promotion_authority": "CURRENT_USER_EXPLICIT_ONLY",

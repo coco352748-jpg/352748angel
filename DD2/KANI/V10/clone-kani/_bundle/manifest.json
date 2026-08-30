@@ -1,37 +1,42 @@
 {
-  "schema_version": "KANI_V10_GITHUB_SYNC_BUNDLE_V2",
-  "local_commit": "bd2e5c5104951b8758e04134159fa69ac263e5c6",
+  "schema_version": "KANI_V10_GITHUB_SYNC_BUNDLE_V3",
+  "local_commit": "8c6f248be6e146916e4ec4d1fcb743b9eebc6241",
   "archive": {
-    "filename": "KANI_V10_bd2e5c5.tar.gz",
-    "format": "git archive tar.gz with clone-kani/ prefix",
-    "bytes": 2276000,
-    "sha256": "1c461eb02a9d18dad22e5e129f3ebddc19f1619d3a6572d9b770737896bb26b3"
+    "filename": "KANI_V10_8c6f248.tar.gz",
+    "format": "git archive tar.gz",
+    "bytes": 2822941,
+    "sha256": "5be29e1672cd210095600a05613c241e6dbc023cbdc52a28913864060e9554de"
   },
   "parts": [
     {
-      "filename": "KANI_V10_bd2e5c5.tar.gz.part00",
+      "filename": "KANI_V10_8c6f248.tar.gz.part00",
       "bytes": 524288,
-      "sha256": "d365a145941aec38c06bd6da5dad3d984ce0a53972591588f0bb81a8885f6012"
+      "sha256": "b64e9fab9d0e10ac3ab62787d630636817887c80faffb8643b25bad74159a40a"
     },
     {
-      "filename": "KANI_V10_bd2e5c5.tar.gz.part01",
+      "filename": "KANI_V10_8c6f248.tar.gz.part01",
       "bytes": 524288,
-      "sha256": "0b8d0e4ff6ab2ce63d65c966cd00bb05e4877850f40a98365cd2abfff5ee297e"
+      "sha256": "af5ad6b69512ca619508385b89271c9c3fb7fcf0604e1c946d483b1292b1fcc0"
     },
     {
-      "filename": "KANI_V10_bd2e5c5.tar.gz.part02",
+      "filename": "KANI_V10_8c6f248.tar.gz.part02",
       "bytes": 524288,
-      "sha256": "b38a8c838b4e0ec86d2f11b3fe0fcb6eb6124cfd86f3c73ca436eaf2f50ff121"
+      "sha256": "8475aef59a5e797f1b9a420d3e28a0f8dcf08df882cd828f917fd77072efb31d"
     },
     {
-      "filename": "KANI_V10_bd2e5c5.tar.gz.part03",
+      "filename": "KANI_V10_8c6f248.tar.gz.part03",
       "bytes": 524288,
-      "sha256": "059d7e1fcd665cd7b8359a73211b3ea48ab24fc0e2255072132e6bc3a42aa5f3"
+      "sha256": "287cc57c45de6c3693e806c9da81d3c85a71945e0a3ac0c961b19a6bf0a07268"
     },
     {
-      "filename": "KANI_V10_bd2e5c5.tar.gz.part04",
-      "bytes": 178848,
-      "sha256": "ed99b7da9b6e3e423403aab17a7ec0c9464a826021bdf93a29dcaa7fb667d3fc"
+      "filename": "KANI_V10_8c6f248.tar.gz.part04",
+      "bytes": 524288,
+      "sha256": "1a340faf12af09b16b8d515ce4b31f2a2ecc226419d3d41b972272b92bb34770"
+    },
+    {
+      "filename": "KANI_V10_8c6f248.tar.gz.part05",
+      "bytes": 201501,
+      "sha256": "1630ca987df16869673c0c24739a1ace3aca9beb1f6678981c87609749baf412"
     }
   ],
   "restore_call": {
@@ -42,9 +47,24 @@
     "path": "clone-kani/references/v10_runtime/user_evidence_promotion_20260830.json",
     "sha256": "354244a626cc9342b751e0d21d1b3564401866e8b506d5eb9304511634c4a1e8"
   },
+  "registered_work": {
+    "state": "REGISTERED_HASH_LOCKED_FIRST_UNEXECUTED_JOB",
+    "execution_state": "NOT_EXECUTED",
+    "work_instruction_path": "clone-kani/references/SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_WORK_INSTRUCTION.md",
+    "work_instruction_sha256": "c971ae7c0254b4cbde56019af7c164b7ff08302655c1076a9949ea3be0daf8ce",
+    "registration_path": "clone-kani/references/v10_runtime/sc7_sc8_rashi_bhava_registration.json",
+    "registration_sha256": "8a7660a1a7ab5ea1d3da509e26e6cdd5312c305b3538fa3ca1b878842986116b",
+    "validator_path": "clone-kani/scripts/validate_sc7_sc8_rashi_bhava_registration.py",
+    "validator_sha256": "9febe62ebb00a05895c682187d6d3df327c3bf808adc1371da22777650e27ba2",
+    "paired_lane_artifacts": 40,
+    "d_h_lane_units": 480,
+    "source_text_files": 80,
+    "physical_full_corpus": 600,
+    "active_non_3p_corpus": 580
+  },
   "v10_manifest": {
-    "sha256": "da2a408f36a53bb9e083fcf835034c64cfa9deac44ffa74161079f6310ccc5a3",
-    "manifest_id": "779e40b620c761dd5cb2e314c1d3c3ba223662135e0ea881a7e925549b8f4989"
+    "sha256": "67a48ace936a6f2e6d1ec8c27fce80f43e0380d5845d15ae85391668f35b404a",
+    "manifest_id": "43c7202030ec13ce306d7c1cda2718b4bd6ebd92e259433aad9d2d3297a57faa"
   },
   "effective_states": {
     "USER_EVIDENCE_REVIEW": "PASS",
@@ -56,6 +76,7 @@
     "REAL_LONG_DRIFT": "HOLD_REAL_LONG_DRIFT_NOT_PROVEN",
     "FINAL_FNA98_RUNTIME": "HOLD_UNTIL_REAL_RUNTIME_GATES_PASS"
   },
+  "historical_bundle_policy": "PRIOR_BD2E5C5_AND_803CFD3_PARTS_MAY_REMAIN_AS_HISTORY__THIS_MANIFEST_SELECTS_8C6F248_ONLY",
   "remote_authority": "REMOTE_SYNC_ONLY_NO_EXECUTION_AUTHORITY",
   "target": {
     "repository": "coco352748-jpg/352748angel",

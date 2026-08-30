@@ -61,7 +61,7 @@ On every explicit invocation:
 12. Read [references/KANI_CAUSAL_RESTORE_V10_PROTOCOL.md](references/KANI_CAUSAL_RESTORE_V10_PROTOCOL.md) completely as the immutable pre-promotion E5/E6 contract.
 13. Read [references/DATASET_TO_PIKACHU_JUDGMENT_ROUTER_V10.json](references/DATASET_TO_PIKACHU_JUDGMENT_ROUTER_V10.json) completely.
 14. Run `python3 scripts/validate_kani_boot.py --expect-installed` from this skill root. This verifies the embedded KK2 manifest, all 156 certified boot checks, the immutable V9 baseline, the hash-locked restore call, the V10 E5/E6 execution overlay, and the user promotion record in one pass.
-15. Require JSON `status=PASS`, `payload_carrier=PASS`, `source_originals=11/11`, `kk2_full_package=38/38`, `kk2_boot=156/156`, `kani_v9_structural_runtime=PASS`, `kani_v9_active_pairs=580/580`, `kani_v10_runtime=PASS`, `kani_v10_restore_call=PRESENT_HASH_LOCKED`, `kani_v10_promotion_record=PRESENT_HASH_LOCKED`, `kani_v10_e5_records=114/114`, `kani_v10_boundary_tests=9/9`, `user_evidence_review=PASS`, `second_restore=PASS_EVIDENCE_SCOPED`, and `registration_layer=INSTALLED_LOCAL_RUNTIME`.
+15. Require JSON `status=PASS`, `payload_carrier=PASS`, `source_originals=11/11`, `kk2_full_package=38/38`, `kk2_boot=156/156`, `kani_v9_structural_runtime=PASS`, `kani_v9_active_pairs=580/580`, `kani_v10_runtime=PASS`, `kani_v10_restore_call=PRESENT_HASH_LOCKED`, `kani_v10_promotion_record=PRESENT_HASH_LOCKED`, `kani_v10_registered_work=REGISTERED_HASH_LOCKED_FIRST_UNEXECUTED_JOB`, `kani_v10_registered_work_execution_state=NOT_EXECUTED`, `kani_v10_registered_work_validation=PASS`, `kani_v10_e5_records=114/114`, `kani_v10_boundary_tests=9/9`, `user_evidence_review=PASS`, `second_restore=PASS_EVIDENCE_SCOPED`, and `registration_layer=INSTALLED_LOCAL_RUNTIME`.
 16. Bind the user's current request as `FIRST_REAL_JOB`. Bind its admitted Dataset or exact Source inputs, execute every source-supported part of `Dataset → Judgment Route → Pikachu Sentence replay`, and then execute the actual job. Never stop at a boot or status-only response when a real job is present.
 
 If validation fails, stop only the affected invariant and name it. Never fall back to KOKO, a generic assistant, or a nearby worker.
@@ -182,6 +182,41 @@ Its exact joint boundary is mandatory:
 prove the hidden judgment protocol. Never promote a judgment joint merely
 because a PikaChu member exists or because SC8 preserved it while correcting
 numeric tokens.
+
+## Registered first real job: SC7 ↔ SC8 Rashi–Bhava grammar
+
+The current user explicitly registered the bidirectional SC7/SC8 Rashi–Bhava
+grammar reconstruction as KANI's first unexecuted production job. Its
+authoritative instruction is
+[references/SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_WORK_INSTRUCTION.md](references/SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_WORK_INSTRUCTION.md),
+and its Source/hash/scope record is
+[references/v10_runtime/sc7_sc8_rashi_bhava_registration.json](references/v10_runtime/sc7_sc8_rashi_bhava_registration.json).
+
+When the user asks for SC7→SC8, SC8→SC7, PIKACHU reverse engineering,
+bidirectional grammar, or the Rashi/Bhava reconstruction protocol:
+
+1. Read both registered files completely and run
+   `python3 scripts/validate_sc7_sc8_rashi_bhava_registration.py` from this
+   skill root before opening the paired archive bodies.
+2. Require registration `status=PASS`, `execution_state=NOT_EXECUTED`, two
+   CRC-clean archives, the exact twenty-D order, forty paired lane artifacts,
+   eighty Source text files, and the locked `40/480/600/580` denominators.
+3. Bind `SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_EXTRACTION` as
+   `FIRST_REAL_JOB`; registration validation is preflight, never the requested
+   production result.
+4. Execute in this order: `RASHI_GRAMMAR → BHAVA_GRAMMAR →
+   RASHI_BHAVA_BINDING`. Derive both forward and inverse rules from the same
+   evidence pairs and preserve the two round-trip invariants.
+5. Do not restart OCR, recalculate astrology, use SC8 merely as a validator,
+   or hardcode one template per chart. Unexplained or lossy joints remain
+   `HOLD`; the twenty physical 3P members remain operationally `VOID`.
+6. Do not claim `480/480`, `600/600`, or `580/580` grammar reproduction until
+   the corresponding full forward/reverse execution ledger exists and passes.
+
+The registered state is `REGISTERED_HASH_LOCKED_FIRST_UNEXECUTED_JOB`; grammar
+extraction, both runners, round-trip coverage, and the optional new public call
+key remain unexecuted or `HOLD` until the user starts that job. This registration
+does not change the immutable V9 baseline or any existing final-runtime gate.
 
 ## Work behavior
 

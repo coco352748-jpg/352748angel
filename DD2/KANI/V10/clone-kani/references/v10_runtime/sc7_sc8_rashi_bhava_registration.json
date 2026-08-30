@@ -1,0 +1,100 @@
+{
+  "schema_version": "KANI_SC7_SC8_BIDIRECTIONAL_GRAMMAR_REGISTRATION_V1",
+  "registration_id": "KANI-SC7-SC8-RASHI-BHAVA-20260830-001",
+  "status": "REGISTERED_HASH_LOCKED_FIRST_UNEXECUTED_JOB",
+  "authority": {
+    "kind": "CURRENT_USER_EXPLICIT_DIRECT",
+    "request": "$clone-kani 등록해줘",
+    "scope": "REGISTER_WORK_INSTRUCTION_AND_SOURCE_CORPUS"
+  },
+  "work_instruction": {
+    "path": "references/SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_WORK_INSTRUCTION.md",
+    "bytes": 11105,
+    "sha256": "c971ae7c0254b4cbde56019af7c164b7ff08302655c1076a9949ea3be0daf8ce"
+  },
+  "sources": {
+    "sc7_master_zip": {
+      "path": "references/source_window_originals/sc7_sc8_rashi_bhava/HYEWON_SC7_RASHI_BHAVA_20D_ALL.zip",
+      "bytes": 91544,
+      "sha256": "b4bf526397aad3443eb7c4a883c866ed5a5ff7367341adf490aedff4ee4f427e",
+      "role": "SC7_SOURCE_SIDE"
+    },
+    "sc8_master_zip": {
+      "path": "references/source_window_originals/sc7_sc8_rashi_bhava/HYEWON_SC8_RASHI_BHAVA_20D_ALL.zip",
+      "bytes": 490028,
+      "sha256": "732ac5370fe9703027339db691883825c1be07d118b98342c3e5b1a9255b9f72",
+      "role": "SC8_PIKACHU_SIDE"
+    }
+  },
+  "scope": {
+    "subject": "HYEWON",
+    "lane_order": [
+      "RASHI",
+      "BHAVA",
+      "RASHI_BHAVA_BINDING"
+    ],
+    "d_order": [
+      "D1",
+      "D9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D10",
+      "D11",
+      "D12",
+      "D16",
+      "D20",
+      "D24",
+      "D27",
+      "D30",
+      "D40",
+      "D45",
+      "D60"
+    ],
+    "dcharts": 20,
+    "registered_lanes": 2,
+    "paired_lane_artifacts": 40,
+    "d_h_lane_units": 480,
+    "source_text_files": 80,
+    "physical_full_corpus": 600,
+    "physical_3p_preserved_operationally_void": 20,
+    "active_non_3p_corpus": 580
+  },
+  "target_invariants": [
+    "Reverse(Forward(SC7)) = SC7",
+    "Forward(Reverse(SC8)) = SC8"
+  ],
+  "execution": {
+    "registration": "PASS_WHEN_V10_HASH_LOCK_AND_BOOT_VALIDATION_PASS",
+    "grammar_extraction": "NOT_EXECUTED",
+    "first_real_job": "SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_EXTRACTION",
+    "forward_runner": "NOT_CREATED",
+    "reverse_runner": "NOT_CREATED",
+    "round_trip_480": "HOLD_UNEXECUTED",
+    "full_physical_600": "HOLD_UNEXECUTED",
+    "active_non_3p_580": "HOLD_UNEXECUTED_FOR_THIS_GRAMMAR",
+    "new_public_call_key": "HOLD_UNTIL_SEPARATE_USER_REQUEST"
+  },
+  "boundary_locks": {
+    "v9_baseline": "READ_ONLY",
+    "ocr_primary_task": "VOID",
+    "astrology_recalculation": "FORBIDDEN",
+    "per_chart_hardcoding": "FORBIDDEN",
+    "grammar_validator_role": "FINAL_ACCEPTANCE_GATE_ONLY",
+    "three_p_reactivation": "FORBIDDEN_WITHOUT_SEPARATE_USER_AUTHORITY",
+    "final_fna98_runtime": "HOLD_UNTIL_EXISTING_REAL_RUNTIME_GATES_PASS"
+  },
+  "registered_target_outputs": [
+    "SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR.md",
+    "sc7_sc8_rashi_bhava_grammar.yaml",
+    "deterministic_forward_runner",
+    "deterministic_reverse_runner",
+    "coverage_report.json",
+    "hold_registry.json",
+    "20D_forward_reverse_evidence_ledger"
+  ]
+}

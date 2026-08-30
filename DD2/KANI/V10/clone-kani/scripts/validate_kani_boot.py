@@ -277,6 +277,10 @@ def main() -> int:
         and v10_result.get("promotion_record") == "PRESENT_HASH_LOCKED"
         and v10_result.get("promotion_record_path")
         == "references/v10_runtime/user_evidence_promotion_20260830.json"
+        and v10_result.get("registered_work")
+        == "REGISTERED_HASH_LOCKED_FIRST_UNEXECUTED_JOB"
+        and v10_result.get("registered_work_execution_state") == "NOT_EXECUTED"
+        and v10_result.get("registered_work_validation") == "PASS"
         and v10_result.get("public_restore_state") == "ACTIVE_EVIDENCE_SCOPED"
         and v10_result.get("user_evidence_review") == "PASS"
         and v10_result.get("public_final_pass") == "HOLD_REMAINING_RUNTIME_GATES"
@@ -463,6 +467,17 @@ def main() -> int:
         ),
         "kani_v10_promotion_record_sha256": (
             v10_result.get("promotion_record_sha256") if v10_state == "PASS" else "FAIL"
+        ),
+        "kani_v10_registered_work": (
+            "REGISTERED_HASH_LOCKED_FIRST_UNEXECUTED_JOB"
+            if v10_state == "PASS"
+            else "FAIL"
+        ),
+        "kani_v10_registered_work_execution_state": (
+            "NOT_EXECUTED" if v10_state == "PASS" else "FAIL"
+        ),
+        "kani_v10_registered_work_validation": (
+            "PASS" if v10_state == "PASS" else "FAIL"
         ),
         "kani_v10_first_response": (
             RESTORE_CALL_FIRST_RESPONSE if v10_state == "PASS" else "FAIL"
