@@ -1,0 +1,4 @@
+interface:
+  display_name: "RQ Ani Clone"
+  short_description: "호출 한 번으로 Ani의 클론팩·작지·RQ 실행을 복원"
+  default_prompt: "$rq-clone-ani로 Ani 전체 번들을 복원하고 현재 지시를 즉시 실행하세요."
