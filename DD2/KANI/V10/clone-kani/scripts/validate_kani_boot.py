@@ -277,10 +277,6 @@ def main() -> int:
         and v10_result.get("promotion_record") == "PRESENT_HASH_LOCKED"
         and v10_result.get("promotion_record_path")
         == "references/v10_runtime/user_evidence_promotion_20260830.json"
-        and v10_result.get("registered_work")
-        == "REGISTERED_HASH_LOCKED_FIRST_UNEXECUTED_JOB"
-        and v10_result.get("registered_work_execution_state") == "NOT_EXECUTED"
-        and v10_result.get("registered_work_validation") == "PASS"
         and v10_result.get("public_restore_state") == "ACTIVE_EVIDENCE_SCOPED"
         and v10_result.get("user_evidence_review") == "PASS"
         and v10_result.get("public_final_pass") == "HOLD_REMAINING_RUNTIME_GATES"
@@ -291,6 +287,31 @@ def main() -> int:
         and v10_result.get("fresh_tab_real_boot_test") == "HOLD"
         and v10_result.get("real_long_drift") == "HOLD_REAL_LONG_DRIFT_NOT_PROVEN"
         and v10_result.get("final_fna98_runtime") == "HOLD_UNTIL_REAL_RUNTIME_GATES_PASS"
+        and v10_result.get("academic_life_forge") == "ACTIVE_REGISTERED_HASH_LOCKED"
+        and v10_result.get("academic_life_forge_registration_validation") == "PASS"
+        and v10_result.get("academic_life_forge_execution") == "NOT_EXECUTED"
+        and v10_result.get("academic_life_forge_analysis_validation") == "NOT_RUN_NO_RUN_BUNDLE"
+        and v10_result.get("academic_life_forge_validation") == "PASS"
+        and v10_result.get("academic_life_forge_tests") == "9/9"
+        and v10_result.get("academic_life_forge_academic_gate") == "HOLD_UNEXECUTED"
+        and v10_result.get("academic_life_forge_life_congruence_gate") == "HOLD_UNEXECUTED"
+        and v10_result.get("academic_life_forge_pikachu_baseline_role")
+        == "FIRST_ANALYSIS_V3_INPUT_NOT_FINAL_ACADEMIC_EVIDENCE"
+        and v10_result.get("academic_life_forge_academic_depth_delta")
+        == "MANDATORY_BEYOND_PIKACHU"
+        and v10_result.get("academic_life_forge_public_stage_sequence") == "V3_V4_V5"
+        and v10_result.get("academic_life_forge_v3_depth")
+        == "PIKACHU_FIRST_ANALYSIS_BASELINE"
+        and v10_result.get("academic_life_forge_v4_depth")
+        == "UNIVERSITY_THESIS_DEPTH"
+        and v10_result.get("academic_life_forge_v4_domain_benchmark")
+        == "BHU_DEPARTMENT_OF_JYOTISH"
+        and v10_result.get("academic_life_forge_v4_writing_benchmark")
+        == "OXFORD_BA_SANSKRIT_FHS_FIRST_CLASS_RUBRIC_TARGET"
+        and v10_result.get("academic_life_forge_v5_depth")
+        == "CONFERENCE_PRESENTATION_REVIEW_DEPTH"
+        and v10_result.get("academic_life_forge_institutional_endorsement")
+        == "NOT_CLAIMED"
         and not v10_result.get("errors")
     ):
         failures.append("kani_v10:contract")
@@ -468,17 +489,6 @@ def main() -> int:
         "kani_v10_promotion_record_sha256": (
             v10_result.get("promotion_record_sha256") if v10_state == "PASS" else "FAIL"
         ),
-        "kani_v10_registered_work": (
-            "REGISTERED_HASH_LOCKED_FIRST_UNEXECUTED_JOB"
-            if v10_state == "PASS"
-            else "FAIL"
-        ),
-        "kani_v10_registered_work_execution_state": (
-            "NOT_EXECUTED" if v10_state == "PASS" else "FAIL"
-        ),
-        "kani_v10_registered_work_validation": (
-            "PASS" if v10_state == "PASS" else "FAIL"
-        ),
         "kani_v10_first_response": (
             RESTORE_CALL_FIRST_RESPONSE if v10_state == "PASS" else "FAIL"
         ),
@@ -492,6 +502,61 @@ def main() -> int:
         "public_final_pass": "HOLD_REMAINING_RUNTIME_GATES" if v10_state == "PASS" else "FAIL",
         "global_29_lane_e5": "HOLD_28_JUDGMENT_TO_SENTENCE_LANES_UNTESTED" if v10_state == "PASS" else "FAIL",
         "real_long_drift": "HOLD_REAL_LONG_DRIFT_NOT_PROVEN" if v10_state == "PASS" else "FAIL",
+        "academic_life_forge": (
+            "ACTIVE_REGISTERED_HASH_LOCKED" if v10_state == "PASS" else "FAIL"
+        ),
+        "academic_life_forge_registration_validation": (
+            "PASS" if v10_state == "PASS" else "FAIL"
+        ),
+        "academic_life_forge_execution": (
+            "NOT_EXECUTED" if v10_state == "PASS" else "FAIL"
+        ),
+        "academic_life_forge_analysis_validation": (
+            "NOT_RUN_NO_RUN_BUNDLE" if v10_state == "PASS" else "FAIL"
+        ),
+        "academic_life_forge_validation": (
+            "PASS" if v10_state == "PASS" else "FAIL"
+        ),
+        "academic_life_forge_tests": "9/9" if v10_state == "PASS" else "FAIL",
+        "academic_life_forge_academic_gate": (
+            "HOLD_UNEXECUTED" if v10_state == "PASS" else "FAIL"
+        ),
+        "academic_life_forge_life_congruence_gate": (
+            "HOLD_UNEXECUTED" if v10_state == "PASS" else "FAIL"
+        ),
+        "academic_life_forge_pikachu_baseline_role": (
+            "FIRST_ANALYSIS_V3_INPUT_NOT_FINAL_ACADEMIC_EVIDENCE"
+            if v10_state == "PASS"
+            else "FAIL"
+        ),
+        "academic_life_forge_academic_depth_delta": (
+            "MANDATORY_BEYOND_PIKACHU" if v10_state == "PASS" else "FAIL"
+        ),
+        "academic_life_forge_public_stage_sequence": (
+            "V3_V4_V5" if v10_state == "PASS" else "FAIL"
+        ),
+        "academic_life_forge_v3_depth": (
+            "PIKACHU_FIRST_ANALYSIS_BASELINE" if v10_state == "PASS" else "FAIL"
+        ),
+        "academic_life_forge_v4_depth": (
+            "UNIVERSITY_THESIS_DEPTH" if v10_state == "PASS" else "FAIL"
+        ),
+        "academic_life_forge_v4_domain_benchmark": (
+            "BHU_DEPARTMENT_OF_JYOTISH" if v10_state == "PASS" else "FAIL"
+        ),
+        "academic_life_forge_v4_writing_benchmark": (
+            "OXFORD_BA_SANSKRIT_FHS_FIRST_CLASS_RUBRIC_TARGET"
+            if v10_state == "PASS"
+            else "FAIL"
+        ),
+        "academic_life_forge_v5_depth": (
+            "CONFERENCE_PRESENTATION_REVIEW_DEPTH"
+            if v10_state == "PASS"
+            else "FAIL"
+        ),
+        "academic_life_forge_institutional_endorsement": (
+            "NOT_CLAIMED" if v10_state == "PASS" else "FAIL"
+        ),
         "registration_layer": "INSTALLED_LOCAL_RUNTIME" if installed else "BUILD_PREFLIGHT",
         "implicit_invocation": "DISABLED",
         "source_authority": "SOURCE_WINDOW_PRIMARY__GOOGLE_DRIVE_BACKUP__GITHUB_REMOTE_SYNC_ONLY",

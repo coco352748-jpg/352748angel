@@ -21,6 +21,13 @@ from typing import Any
 SCHEMA_VERSION = "KANI_CAUSAL_RESTORE_V10_MANIFEST_V1"
 EXPECTED_V9_TREE_SHA256 = "913cb921f9d5f97b351a4455f3e05cb1d441a00cec24291caf78eac5a690c0d9"
 
+ACADEMIC_LIFE_FORGE_PATHS = {
+    "reference": "references/KANI_21_LAYER_VEDIC_ACADEMIC_LIFE_FORGE.md",
+    "registration": "references/v10_runtime/kani_21_layer_academic_life_forge_registration.json",
+    "validator": "scripts/validate_kani_21_layer_academic_life_forge.py",
+    "tests": "scripts/test_kani_21_layer_academic_life_forge.py",
+}
+
 RESTORE_CALL_FIRST_RESPONSE = """$clone-kani KANI V10이 호출되어 ACTIVE_EVIDENCE_SCOPED 상태입니다.
 V9 baseline은 READ_ONLY로 보존하고,
 V10 E5/E6 record/replay와 사용자 승격 레코드를 로드합니다.
@@ -107,17 +114,11 @@ IMPLEMENTATION_PATHS = {
     "sc7_calibration_validator": "scripts/validate_kani_v10_router.py",
     "v10_manifest_builder": "scripts/build_kani_v10_manifest.py",
     "v10_runtime_validator": "scripts/validate_kani_v10_runtime.py",
+    "academic_life_forge_validator": ACADEMIC_LIFE_FORGE_PATHS["validator"],
+    "academic_life_forge_tests": ACADEMIC_LIFE_FORGE_PATHS["tests"],
     "skill_entrypoint": "SKILL.md",
     "boot_validator": "scripts/validate_kani_boot.py",
     "agent_interface": "agents/openai.yaml",
-}
-
-REGISTERED_WORK_PATHS = {
-    "work_instruction": "references/SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_WORK_INSTRUCTION.md",
-    "registration_manifest": "references/v10_runtime/sc7_sc8_rashi_bhava_registration.json",
-    "sc7_master_zip": "references/source_window_originals/sc7_sc8_rashi_bhava/HYEWON_SC7_RASHI_BHAVA_20D_ALL.zip",
-    "sc8_master_zip": "references/source_window_originals/sc7_sc8_rashi_bhava/HYEWON_SC8_RASHI_BHAVA_20D_ALL.zip",
-    "registration_validator": "scripts/validate_sc7_sc8_rashi_bhava_registration.py",
 }
 
 
@@ -285,26 +286,6 @@ def artifact_map_valid(base: Path, artifact_map: Any) -> bool:
         if metadata.get("bytes") is not None and path.stat().st_size != metadata.get("bytes"):
             return False
     return True
-
-
-def run_registration_validator(root: Path) -> dict[str, Any]:
-    completed = subprocess.run(
-        [
-            sys.executable,
-            str(root / REGISTERED_WORK_PATHS["registration_validator"]),
-            "--root",
-            str(root),
-        ],
-        cwd=root,
-        capture_output=True,
-        check=False,
-        text=True,
-        timeout=30,
-    )
-    return {
-        "returncode": completed.returncode,
-        "report": json.loads(completed.stdout),
-    }
 
 
 def validate(root: Path, manifest_path: Path) -> dict[str, Any]:
@@ -926,100 +907,6 @@ def validate(root: Path, manifest_path: Path) -> dict[str, Any]:
         and sc7.get("records") == sc7.get("exact_replay") == 240,
     )
 
-    # User-registered first real job. This proves registration only; the
-    # bidirectional grammar and 480-unit round trip remain unexecuted.
-    registered = manifest.get("registered_work_instructions", {})
-    registered_artifacts = registered.get("artifacts", {})
-    audit.check(
-        "registered_work_inventory_exact",
-        set(registered_artifacts) == set(REGISTERED_WORK_PATHS),
-    )
-    registered_hashes_ok = True
-    for key, relative in REGISTERED_WORK_PATHS.items():
-        record = registered_artifacts.get(key)
-        registered_hashes_ok = registered_hashes_ok and (
-            isinstance(record, dict)
-            and record.get("availability") == "PRESENT"
-            and file_record_matches(root, record, relative)
-        )
-    audit.check("registered_work_artifacts_hash_locked", registered_hashes_ok)
-
-    registration = audit.guard(
-        "registered_work_registration_read",
-        lambda: read_json(root / REGISTERED_WORK_PATHS["registration_manifest"]),
-    ) or {}
-    registered_scope = registration.get("scope", {})
-    registered_execution = registration.get("execution", {})
-    expected_registered_d_order = [
-        "D1", "D9", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D10",
-        "D11", "D12", "D16", "D20", "D24", "D27", "D30", "D40", "D45", "D60",
-    ]
-    audit.check(
-        "registered_work_contract",
-        registered.get("status") == "REGISTERED_HASH_LOCKED_FIRST_UNEXECUTED_JOB"
-        and registered.get("execution_state") == "NOT_EXECUTED"
-        and registered.get("first_real_job")
-        == "SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_EXTRACTION"
-        and registration.get("schema_version")
-        == "KANI_SC7_SC8_BIDIRECTIONAL_GRAMMAR_REGISTRATION_V1"
-        and registration.get("registration_id")
-        == "KANI-SC7-SC8-RASHI-BHAVA-20260830-001"
-        and registration.get("status")
-        == "REGISTERED_HASH_LOCKED_FIRST_UNEXECUTED_JOB"
-        and registered_scope.get("d_order") == expected_registered_d_order
-        and registered_scope.get("lane_order")
-        == ["RASHI", "BHAVA", "RASHI_BHAVA_BINDING"]
-        and registered_scope.get("dcharts") == 20
-        and registered_scope.get("paired_lane_artifacts") == 40
-        and registered_scope.get("d_h_lane_units") == 480
-        and registered_scope.get("source_text_files") == 80
-        and registered_scope.get("physical_full_corpus") == 600
-        and registered_scope.get("physical_3p_preserved_operationally_void") == 20
-        and registered_scope.get("active_non_3p_corpus") == 580
-        and registered_execution.get("grammar_extraction") == "NOT_EXECUTED"
-        and registered_execution.get("forward_runner") == "NOT_CREATED"
-        and registered_execution.get("reverse_runner") == "NOT_CREATED"
-        and registered_execution.get("round_trip_480") == "HOLD_UNEXECUTED"
-        and registered_execution.get("new_public_call_key")
-        == "HOLD_UNTIL_SEPARATE_USER_REQUEST",
-    )
-
-    registered_validation = audit.guard(
-        "registered_work_validator_exec",
-        lambda: run_registration_validator(root),
-    ) or {}
-    registered_report = registered_validation.get("report", {})
-    registered_counts = registered_report.get("counts", {})
-    audit.check(
-        "registered_work_validator_exec_pass",
-        registered_validation.get("returncode") == 0
-        and registered_report.get("status") == "PASS"
-        and registered_report.get("errors") == []
-        and registered_report.get("execution_state") == "NOT_EXECUTED"
-        and registered_report.get("d_order") == expected_registered_d_order
-        and registered_counts.get("archives") == 2
-        and registered_counts.get("paired_lane_artifacts") == 40
-        and registered_counts.get("d_h_lane_units") == 480
-        and registered_counts.get("source_text_files") == 80
-        and registered_counts.get("physical_full_corpus") == 600
-        and registered_counts.get("physical_3p_operationally_void") == 20
-        and registered_counts.get("active_non_3p_corpus") == 580,
-    )
-    audit.check(
-        "registered_work_manifest_validation_summary",
-        registered.get("validation") == {
-            "status": "PASS",
-            "archives": 2,
-            "dcharts_per_archive": 20,
-            "paired_lane_artifacts": 40,
-            "d_h_lane_units": 480,
-            "source_text_files": 80,
-            "physical_full_corpus": 600,
-            "physical_3p_operationally_void": 20,
-            "active_non_3p_corpus": 580,
-        },
-    )
-
     implementation = manifest.get("implementation_bindings", {})
     audit.check(
         "implementation_binding_status",
@@ -1035,6 +922,111 @@ def validate(root: Path, manifest_path: Path) -> dict[str, Any]:
             f"implementation_{key}_hash_locked",
             file_record_matches(root, implementation_artifacts.get(key), relative),
         )
+
+    # KANI-only 21-layer academic/life forge.  The checks below validate only
+    # registration and installation integrity.  Analysis gates must remain
+    # HOLD until a separate complete run bundle is executed.
+    forge = manifest.get("academic_life_forge", {})
+    forge_artifacts = forge.get("artifacts", {}) if isinstance(forge, dict) else {}
+    audit.check(
+        "academic_life_forge_artifact_inventory_exact",
+        set(forge_artifacts) == set(ACADEMIC_LIFE_FORGE_PATHS),
+    )
+    for key, relative in ACADEMIC_LIFE_FORGE_PATHS.items():
+        audit.check(
+            f"academic_life_forge_{key}_hash_locked",
+            file_record_matches(root, forge_artifacts.get(key), relative),
+        )
+    audit.check(
+        "academic_life_forge_manifest_contract",
+        isinstance(forge, dict)
+        and forge.get("status") == "ACTIVE_REGISTERED_HASH_LOCKED"
+        and forge.get("skill") == "ACTIVE_REGISTERED"
+        and forge.get("scope") == "KANI_ONLY_NOT_PUBLISHED_TO_KK2"
+        and forge.get("registration_validation") == "PASS"
+        and forge.get("execution") == "NOT_EXECUTED"
+        and forge.get("analysis_validation") == "NOT_RUN_NO_RUN_BUNDLE"
+        and forge.get("academic_gate") == "HOLD_UNEXECUTED"
+        and forge.get("life_congruence_gate") == "HOLD_UNEXECUTED"
+        and forge.get("visible_route") == "1_TO_21"
+        and forge.get("canonical_route_units") == 19
+        and forge.get("logical_roles") == 57
+        and forge.get("pikachu_baseline_role")
+        == "FIRST_ANALYSIS_V3_INPUT_NOT_FINAL_ACADEMIC_EVIDENCE"
+        and forge.get("academic_depth_delta") == "MANDATORY_BEYOND_PIKACHU"
+        and forge.get("public_stage_sequence") == "V3_V4_V5"
+        and forge.get("v3_depth") == "PIKACHU_FIRST_ANALYSIS_BASELINE"
+        and forge.get("v4_depth") == "UNIVERSITY_THESIS_DEPTH"
+        and forge.get("v4_domain_benchmark") == "BHU_DEPARTMENT_OF_JYOTISH"
+        and forge.get("v4_writing_benchmark")
+        == "OXFORD_BA_SANSKRIT_FHS_FIRST_CLASS_RUBRIC_TARGET"
+        and forge.get("v4_benchmark_mode") == "DUAL_REFERENCE_INTERNAL_TARGET"
+        and forge.get("v5_depth") == "CONFERENCE_PRESENTATION_REVIEW_DEPTH"
+        and forge.get("internal_engine_alias_v4") == "RQ_R5_V5"
+        and forge.get("internal_engine_alias_v5") == "RQ_R5_V7"
+        and forge.get("institutional_endorsement") == "NOT_CLAIMED"
+        and forge.get("validation") == {"status": "PASS", "tests": "9/9"},
+    )
+
+    forge_validation: dict[str, Any] = {}
+    forge_validation_ok = False
+    try:
+        completed = subprocess.run(
+            [
+                sys.executable,
+                str(root / ACADEMIC_LIFE_FORGE_PATHS["validator"]),
+                "--root",
+                str(root),
+            ],
+            cwd=root,
+            check=False,
+            capture_output=True,
+            text=True,
+            timeout=60,
+        )
+        forge_validation = json.loads(completed.stdout) if completed.stdout else {}
+        forge_validation_ok = (
+            completed.returncode == 0
+            and isinstance(forge_validation, dict)
+            and forge_validation.get("status") == "PASS"
+            and forge_validation.get("registration_validation") == "PASS"
+            and forge_validation.get("execution") == "NOT_EXECUTED"
+            and forge_validation.get("analysis_validation") == "NOT_RUN_NO_RUN_BUNDLE"
+            and forge_validation.get("academic_gate") == "HOLD_UNEXECUTED"
+            and forge_validation.get("life_congruence_gate") == "HOLD_UNEXECUTED"
+            and forge_validation.get("public_stage_sequence") == "V3_V4_V5"
+            and forge_validation.get("v3_depth") == "PIKACHU_FIRST_ANALYSIS_BASELINE"
+            and forge_validation.get("v4_depth") == "UNIVERSITY_THESIS_DEPTH"
+            and forge_validation.get("v4_benchmark")
+            == "BHU_JYOTISH_DOMAIN_PLUS_OXFORD_BA_SANSKRIT_FHS_FIRST_CLASS_WRITING"
+            and forge_validation.get("v5_depth")
+            == "CONFERENCE_PRESENTATION_REVIEW_DEPTH"
+            and forge_validation.get("institutional_endorsement") == "NOT_CLAIMED"
+            and forge_validation.get("errors") == []
+        )
+    except (OSError, subprocess.SubprocessError, json.JSONDecodeError):
+        forge_validation_ok = False
+    audit.check("academic_life_forge_registration_validator_pass", forge_validation_ok)
+
+    forge_tests_ok = False
+    try:
+        test_run = subprocess.run(
+            [sys.executable, str(root / ACADEMIC_LIFE_FORGE_PATHS["tests"])],
+            cwd=root,
+            check=False,
+            capture_output=True,
+            text=True,
+            timeout=60,
+        )
+        test_output = test_run.stdout + test_run.stderr
+        forge_tests_ok = (
+            test_run.returncode == 0
+            and "Ran 9 tests" in test_output
+            and "OK" in test_output
+        )
+    except (OSError, subprocess.SubprocessError):
+        forge_tests_ok = False
+    audit.check("academic_life_forge_tests_9_of_9", forge_tests_ok)
 
     pending: list[str] = []
     for key in ("protocol", "admission"):
@@ -1098,9 +1090,6 @@ def validate(root: Path, manifest_path: Path) -> dict[str, Any]:
             if promotion_record_state == "PRESENT_HASH_LOCKED"
             else "FAIL"
         ),
-        "registered_work": registered.get("status"),
-        "registered_work_execution_state": registered.get("execution_state"),
-        "registered_work_validation": registered.get("validation", {}).get("status"),
         "public_restore_state": manifest.get("effective_states", {}).get("PUBLIC_RESTORE_STATE"),
         "user_evidence_review": manifest.get("effective_states", {}).get("USER_EVIDENCE_REVIEW"),
         "public_final_pass": manifest.get("effective_states", {}).get("FINAL_PASS"),
@@ -1111,6 +1100,53 @@ def validate(root: Path, manifest_path: Path) -> dict[str, Any]:
         "fresh_tab_real_boot_test": manifest.get("effective_states", {}).get("FRESH_TAB_REAL_BOOT_TEST"),
         "real_long_drift": manifest.get("effective_states", {}).get("REAL_LONG_DRIFT"),
         "final_fna98_runtime": manifest.get("effective_states", {}).get("FINAL_FNA98_RUNTIME"),
+        "academic_life_forge": forge.get("status") if isinstance(forge, dict) else "FAIL",
+        "academic_life_forge_registration_validation": (
+            "PASS" if forge_validation_ok else "FAIL"
+        ),
+        "academic_life_forge_execution": (
+            forge.get("execution") if isinstance(forge, dict) else "FAIL"
+        ),
+        "academic_life_forge_analysis_validation": (
+            forge.get("analysis_validation") if isinstance(forge, dict) else "FAIL"
+        ),
+        "academic_life_forge_validation": (
+            "PASS" if forge_validation_ok and forge_tests_ok else "FAIL"
+        ),
+        "academic_life_forge_tests": "9/9" if forge_tests_ok else "FAIL",
+        "academic_life_forge_academic_gate": (
+            forge.get("academic_gate") if isinstance(forge, dict) else "FAIL"
+        ),
+        "academic_life_forge_life_congruence_gate": (
+            forge.get("life_congruence_gate") if isinstance(forge, dict) else "FAIL"
+        ),
+        "academic_life_forge_pikachu_baseline_role": (
+            forge.get("pikachu_baseline_role") if isinstance(forge, dict) else "FAIL"
+        ),
+        "academic_life_forge_academic_depth_delta": (
+            forge.get("academic_depth_delta") if isinstance(forge, dict) else "FAIL"
+        ),
+        "academic_life_forge_public_stage_sequence": (
+            forge.get("public_stage_sequence") if isinstance(forge, dict) else "FAIL"
+        ),
+        "academic_life_forge_v3_depth": (
+            forge.get("v3_depth") if isinstance(forge, dict) else "FAIL"
+        ),
+        "academic_life_forge_v4_depth": (
+            forge.get("v4_depth") if isinstance(forge, dict) else "FAIL"
+        ),
+        "academic_life_forge_v4_domain_benchmark": (
+            forge.get("v4_domain_benchmark") if isinstance(forge, dict) else "FAIL"
+        ),
+        "academic_life_forge_v4_writing_benchmark": (
+            forge.get("v4_writing_benchmark") if isinstance(forge, dict) else "FAIL"
+        ),
+        "academic_life_forge_v5_depth": (
+            forge.get("v5_depth") if isinstance(forge, dict) else "FAIL"
+        ),
+        "academic_life_forge_institutional_endorsement": (
+            forge.get("institutional_endorsement") if isinstance(forge, dict) else "FAIL"
+        ),
         "historical_pre_promotion_claims": manifest.get("claims"),
         "checks": audit.checks,
         "errors": sorted(set(audit.errors)),

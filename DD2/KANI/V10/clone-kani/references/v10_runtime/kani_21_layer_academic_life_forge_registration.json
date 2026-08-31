@@ -1,0 +1,631 @@
+{
+  "schema_version": "KANI_21_LAYER_ACADEMIC_LIFE_FORGE_REGISTRATION_V2",
+  "registration_id": "KANI_21_LAYER_VEDIC_ACADEMIC_LIFE_FORGE_V2",
+  "reference_binding": {
+    "path": "references/KANI_21_LAYER_VEDIC_ACADEMIC_LIFE_FORGE.md",
+    "bytes": 32274,
+    "sha256": "e88cf3565fe846e9a4fd5b9da233fce94791e1d8c2c4ae0310219a39269aa61c",
+    "binding_mode": "EXACT_BYTES_SHA256"
+  },
+  "authority": {
+    "authority_type": "CURRENT_USER_EXPLICIT_ONLY",
+    "authority_count": 4,
+    "exact_user_authority_strings": [
+      "피카츄 파일을 보면 1차분석을 해놧잖아 그보다 높은 학문적 깊이가 필요한거지",
+      "베딕 학문적으로 4 5 단계를 얘기한거임 5단계는 학회발표 4단계는 대학생논문수준 정도가 되지 않을까요?",
+      "21단계 모두사용해서 말입니다",
+      "내가 받은 분석이 학문적 근거가 있고 사회적으로 내놓아도 흠잡히지 않을 수준 학회발표정도는 되야 가능할것 같고 또 실제 내 삶과도 일치하게 설명할수 있을거 같아서요"
+    ],
+    "provenance": "IN_TURN_DIRECT_USER_MESSAGES_GIT_COMMITTED_REGISTRATION",
+    "scope": "KANI_ONLY_FORGE_DESIGN_AND_REGISTRATION",
+    "contract_authority": {
+      "machine": "HASH_LOCKED_REGISTRATION_AND_RUN_BUNDLE",
+      "human_guidance": "references/KANI_21_LAYER_VEDIC_ACADEMIC_LIFE_FORGE.md",
+      "conflict": "HOLD",
+      "registration_scope": "INSTALLATION_ONLY",
+      "analysis_validation": "NOT_RUN_NO_RUN_BUNDLE"
+    }
+  },
+  "stage_semantics": {
+    "V3": {
+      "user_visible_stage": "V3",
+      "depth": "PIKACHU_FIRST_ANALYSIS_BASELINE",
+      "default_entry": true,
+      "internal_engine_alias": "RQ_R5_V3",
+      "state": "COMPLETED_FIRST_ANALYSIS_BASELINE"
+    },
+    "V4": {
+      "user_visible_stage": "V4",
+      "depth": "UNIVERSITY_THESIS_DEPTH",
+      "internal_engine_alias": "RQ_R5_V5",
+      "benchmark_contract_ref": "V4_DUAL_BENCHMARK",
+      "institutional_outcome": "NOT_CLAIMED",
+      "required_joint_count": 7,
+      "required_joints": [
+        "V5.STRUCTURE_VERDICT",
+        "V5.INPUT_SELECTION",
+        "V5.OPERATION_TRANSFER",
+        "V5.COMMON_ROOT",
+        "V5.CAPABILITY_DISTORTION_BRANCH",
+        "V5.MINIMUM_TRANSITION",
+        "V5.FINAL_STRUCTURE_LOCK"
+      ],
+      "joint_record_artifact": "15_user_v4_r5_v5_joint_records.jsonl"
+    },
+    "V5": {
+      "user_visible_stage": "V5",
+      "depth": "CONFERENCE_PRESENTATION_REVIEW_DEPTH",
+      "internal_engine_alias": "RQ_R5_V7",
+      "benchmark_contract_ref": "V5_INTERNAL_CONFERENCE_REVIEW",
+      "acceptance": "NOT_CLAIMED",
+      "peer_review": "NOT_CLAIMED",
+      "presentation": "NOT_CLAIMED",
+      "publication": "NOT_CLAIMED",
+      "required_joint_count": 8,
+      "required_joints": [
+        "V7.JURISDICTION",
+        "V7.REPEATED_EVIDENCE_INVARIANT",
+        "V7.SUPERORDINATE_RULE",
+        "V7.APPLICATION_GATE",
+        "V7.JUDGMENT_PRIORITY",
+        "V7.OPERATING_ORDER",
+        "V7.EXCEPTION_COUNTEREXAMPLE_PROHIBITION",
+        "V7.TERMINATION_CODE_LOCK"
+      ],
+      "joint_record_artifact": "16_user_v5_r5_v7_joint_records.jsonl",
+      "lower_structure_independence_artifact": "17_lower_structure_independence_graph.json",
+      "minimum_independent_lower_structures": 2
+    }
+  },
+  "benchmark_contract": {
+    "stage_naming_authority": "CURRENT_USER_CORRECTION_V3_DEFAULT_THEN_V4_V5",
+    "public_stage_sequence": [
+      "V3",
+      "V4",
+      "V5"
+    ],
+    "internal_alias_policy": "IMPLEMENTATION_DETAIL_NEVER_PUBLIC_STAGE_RENAME",
+    "V4_DUAL_BENCHMARK": {
+      "mode": "DUAL_REFERENCE_INTERNAL_TARGET",
+      "domain_anchor": {
+        "id": "BHU_DEPARTMENT_OF_JYOTISH",
+        "role": "JYOTISH_DOMAIN_ANCHOR_ONLY_NOT_OUTPUT_ENDORSEMENT",
+        "scope": "JYOTISHSASTRA_SIDDHANTA_SAMHITA_HORA",
+        "official_urls": [
+          "https://www.bhu.ac.in/site/UnitHomeTemplate/1_131_653_Faculty-of-Sanskrit-Vidya-Dharma-Vijnan-Jyotish",
+          "https://www.bhu.ac.in/site/Programme/0_131_664_Department-of-Jyotish-Programmes"
+        ]
+      },
+      "writing_rubric": {
+        "id": "OXFORD_BA_SANSKRIT_FHS_FIRST_CLASS_RUBRIC_TARGET",
+        "role": "ACADEMIC_WRITING_RUBRIC_ONLY_NOT_JYOTISH_DOMAIN_AUTHORITY",
+        "scope": "RESEARCH_QUESTION_PRIMARY_SECONDARY_LITERATURE_CRITICAL_ARGUMENT_STRUCTURE_CITATION_LIMITATIONS",
+        "official_urls": [
+          "https://www.ames.ox.ac.uk/sanskrit-ba-hons",
+          "https://www.ames.ox.ac.uk/sites/default/files/orinst/documents/media/ba_sanskrit_handbook_2025-26.pdf"
+        ]
+      },
+      "benchmark_checked_date": "2026-08-31",
+      "institutional_endorsement": "NOT_CLAIMED",
+      "degree_equivalence": "NOT_CLAIMED"
+    },
+    "V5_INTERNAL_CONFERENCE_REVIEW": {
+      "mode": "INTERNAL_REVIEWABLE_PRESENTATION_FORM",
+      "named_conference_or_society": "NONE",
+      "acceptance": "NOT_CLAIMED",
+      "peer_review": "NOT_CLAIMED",
+      "presentation": "NOT_CLAIMED",
+      "publication": "NOT_CLAIMED",
+      "scientific_validation": "NOT_CLAIMED"
+    }
+  },
+  "route": {
+    "user_visible_route": "ALL_21_VISIBLE_LAYERS",
+    "units": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "D-1",
+      "5-4",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "12",
+      "13",
+      "14",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21"
+    ],
+    "unit_count": 19,
+    "terminal_unit": "21",
+    "role_types": [
+      "ELIVEDIC",
+      "ELICOLLEGE",
+      "ELIPHD"
+    ],
+    "role_semantics": {
+      "ELIVEDIC": "SOURCE_FACT_OBSERVATION",
+      "ELICOLLEGE": "METHOD_PATTERN_COMPARISON",
+      "ELIPHD": "DERIVED_CLAIM_DEEP_STRUCTURE"
+    },
+    "roles_per_unit": 3,
+    "role_packet_count": 57,
+    "role_packets": [
+      {
+        "role_packet_id": "U01_ELIVEDIC",
+        "unit": "1",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U01_ELICOLLEGE",
+        "unit": "1",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U01_ELIPHD",
+        "unit": "1",
+        "role_type": "ELIPHD"
+      },
+      {
+        "role_packet_id": "U02_ELIVEDIC",
+        "unit": "2",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U02_ELICOLLEGE",
+        "unit": "2",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U02_ELIPHD",
+        "unit": "2",
+        "role_type": "ELIPHD"
+      },
+      {
+        "role_packet_id": "U03_ELIVEDIC",
+        "unit": "3",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U03_ELICOLLEGE",
+        "unit": "3",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U03_ELIPHD",
+        "unit": "3",
+        "role_type": "ELIPHD"
+      },
+      {
+        "role_packet_id": "U04_ELIVEDIC",
+        "unit": "4",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U04_ELICOLLEGE",
+        "unit": "4",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U04_ELIPHD",
+        "unit": "4",
+        "role_type": "ELIPHD"
+      },
+      {
+        "role_packet_id": "U05_ELIVEDIC",
+        "unit": "D-1",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U05_ELICOLLEGE",
+        "unit": "D-1",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U05_ELIPHD",
+        "unit": "D-1",
+        "role_type": "ELIPHD"
+      },
+      {
+        "role_packet_id": "U06_ELIVEDIC",
+        "unit": "5-4",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U06_ELICOLLEGE",
+        "unit": "5-4",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U06_ELIPHD",
+        "unit": "5-4",
+        "role_type": "ELIPHD"
+      },
+      {
+        "role_packet_id": "U07_ELIVEDIC",
+        "unit": "6",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U07_ELICOLLEGE",
+        "unit": "6",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U07_ELIPHD",
+        "unit": "6",
+        "role_type": "ELIPHD"
+      },
+      {
+        "role_packet_id": "U08_ELIVEDIC",
+        "unit": "7",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U08_ELICOLLEGE",
+        "unit": "7",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U08_ELIPHD",
+        "unit": "7",
+        "role_type": "ELIPHD"
+      },
+      {
+        "role_packet_id": "U09_ELIVEDIC",
+        "unit": "8",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U09_ELICOLLEGE",
+        "unit": "8",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U09_ELIPHD",
+        "unit": "8",
+        "role_type": "ELIPHD"
+      },
+      {
+        "role_packet_id": "U10_ELIVEDIC",
+        "unit": "9",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U10_ELICOLLEGE",
+        "unit": "9",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U10_ELIPHD",
+        "unit": "9",
+        "role_type": "ELIPHD"
+      },
+      {
+        "role_packet_id": "U11_ELIVEDIC",
+        "unit": "10",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U11_ELICOLLEGE",
+        "unit": "10",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U11_ELIPHD",
+        "unit": "10",
+        "role_type": "ELIPHD"
+      },
+      {
+        "role_packet_id": "U12_ELIVEDIC",
+        "unit": "12",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U12_ELICOLLEGE",
+        "unit": "12",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U12_ELIPHD",
+        "unit": "12",
+        "role_type": "ELIPHD"
+      },
+      {
+        "role_packet_id": "U13_ELIVEDIC",
+        "unit": "13",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U13_ELICOLLEGE",
+        "unit": "13",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U13_ELIPHD",
+        "unit": "13",
+        "role_type": "ELIPHD"
+      },
+      {
+        "role_packet_id": "U14_ELIVEDIC",
+        "unit": "14",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U14_ELICOLLEGE",
+        "unit": "14",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U14_ELIPHD",
+        "unit": "14",
+        "role_type": "ELIPHD"
+      },
+      {
+        "role_packet_id": "U15_ELIVEDIC",
+        "unit": "17",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U15_ELICOLLEGE",
+        "unit": "17",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U15_ELIPHD",
+        "unit": "17",
+        "role_type": "ELIPHD"
+      },
+      {
+        "role_packet_id": "U16_ELIVEDIC",
+        "unit": "18",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U16_ELICOLLEGE",
+        "unit": "18",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U16_ELIPHD",
+        "unit": "18",
+        "role_type": "ELIPHD"
+      },
+      {
+        "role_packet_id": "U17_ELIVEDIC",
+        "unit": "19",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U17_ELICOLLEGE",
+        "unit": "19",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U17_ELIPHD",
+        "unit": "19",
+        "role_type": "ELIPHD"
+      },
+      {
+        "role_packet_id": "U18_ELIVEDIC",
+        "unit": "20",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U18_ELICOLLEGE",
+        "unit": "20",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U18_ELIPHD",
+        "unit": "20",
+        "role_type": "ELIPHD"
+      },
+      {
+        "role_packet_id": "U19_ELIVEDIC",
+        "unit": "21",
+        "role_type": "ELIVEDIC"
+      },
+      {
+        "role_packet_id": "U19_ELICOLLEGE",
+        "unit": "21",
+        "role_type": "ELICOLLEGE"
+      },
+      {
+        "role_packet_id": "U19_ELIPHD",
+        "unit": "21",
+        "role_type": "ELIPHD"
+      }
+    ],
+    "route_authority": "RQ_VEDIC_19_LAYER_V1_PROJECT_PROTOCOL_NOT_CLASSICAL_JYOTISH_CANON"
+  },
+  "execution_scope": {
+    "execution_owner": "KANI_ONLY",
+    "kani_authority": "PRIMARY_AND_ONLY",
+    "kk2_role": "EMBEDDED_EXECUTION_SUBSTRATE_ONLY",
+    "kk2_registration_authority": "NONE",
+    "kk2_analysis_promotion_authority": "NONE",
+    "kk2_publication_authority": "NONE",
+    "automatic_external_publication": "FORBIDDEN",
+    "machine_execution_authority": "HASH_LOCKED_REGISTRATION_AND_RUN_BUNDLE"
+  },
+  "targets": [
+    {
+      "coordinate": "D5_8H",
+      "source_section_token": "07_7AB_D5_8H_FINAL_SYNTHESIS_PACKET",
+      "prototype": null
+    },
+    {
+      "coordinate": "D4_10H",
+      "source_section_token": "07_7AB_D4_10H_FINAL_SYNTHESIS_PACKET",
+      "prototype": null
+    },
+    {
+      "coordinate": "D6_5H",
+      "source_section_token": "07_7AB_D6_5H_FINAL_SYNTHESIS_PACKET",
+      "prototype": {
+        "coordinate": "D5_5H",
+        "transfer": "SHAPE_ONLY",
+        "allowed": [
+          "section_order",
+          "field_order",
+          "record_schema",
+          "qa_positions"
+        ],
+        "forbidden": [
+          "values",
+          "chart_facts",
+          "house_facts",
+          "interpretation",
+          "claims",
+          "citations",
+          "life_evidence"
+        ]
+      }
+    }
+  ],
+  "locks": {
+    "pikachu_delta": "EXHAUSTIVE_NO_UNCLASSIFIED_BASELINE_ITEMS",
+    "method_corpus_search": "FROZEN_CORPUS_LOGGED_SEARCH_NO_LIFE_TARGETING",
+    "claims_citations": "CLAIM_LEVEL_LOCATOR_REQUIRED_NO_CITATION_INVENTION",
+    "chart_life_order": "CHART_NATIVE_FREEZE_BEFORE_LIFE_EXPOSURE",
+    "life_evidence": "MODE_LOG_HASH_CHAIN_APPEND_ONLY_ROSTER",
+    "fna98": "EIGHT_AXES_PLUS_EXACT_REVERSE_ZERO_DANGLING",
+    "conflicts": "LOCAL_HOLD_NO_SILENT_RESOLUTION",
+    "pikachu_claim_ids": "EXACT_COMPLETE_CLAIM_ID_SET_EQUALITY",
+    "method_corpus_lock": "BEFORE_INTERPRETATION",
+    "life_exposure_log": "MANDATORY",
+    "contract_conflict": "HOLD",
+    "readiness_authority": "ACTUAL_RUN_VALIDATOR_ONLY"
+  },
+  "state_model": {
+    "separation": "REGISTRATION_NEVER_IMPLIES_ANALYSIS",
+    "initial": {
+      "registration_state": "INSTALLED_LOCAL_CONTRACT",
+      "registration_validation_state": "PENDING_VALIDATOR_EXECUTION",
+      "analysis_state": "NOT_RUN",
+      "publication_state": "FORBIDDEN",
+      "analysis_validation": "NOT_RUN_NO_RUN_BUNDLE",
+      "academic_gate": "HOLD_UNEXECUTED",
+      "life_congruence_gate": "HOLD_UNEXECUTED"
+    },
+    "registration_states": [
+      "UNREGISTERED",
+      "INSTALLED_LOCAL_CONTRACT",
+      "VALIDATED_LOCAL_CONTRACT",
+      "REGISTRATION_HOLD"
+    ],
+    "analysis_states": [
+      "NOT_RUN",
+      "SOURCE_LOCKED",
+      "METHOD_CORPUS_LOCKED",
+      "ROUTE_RUNNING",
+      "CHART_NATIVE_FROZEN",
+      "LIFE_COMPARISON_RUNNING",
+      "RUN_VALIDATED",
+      "ANALYSIS_HOLD"
+    ],
+    "conflict_promotion": "EXPLICIT_SOURCE_OR_USER_AUTHORITY_ONLY",
+    "registration_scope": "INSTALLATION_ONLY",
+    "readiness_authority": "ACTUAL_RUN_VALIDATOR_ONLY",
+    "registration_validator_authority": "REGISTRATION_SHAPE_AND_HASHES_ONLY",
+    "actual_run_validator_authority": "DERIVE_ACADEMIC_LIFE_AND_STAGE_READINESS_FROM_COMPLETE_RUN_BUNDLE"
+  },
+  "run_bundle_contract": {
+    "scope": "ONE_COORDINATE_ONE_STAGE_ONE_REVISION",
+    "required_artifact_count": 23,
+    "required_artifacts": [
+      "00_run_manifest.json",
+      "01_source_lock.json",
+      "02_pikachu_baseline_roster.json",
+      "03_pikachu_delta_ledger.jsonl",
+      "04_method_corpus_manifest.json",
+      "05_method_search_log.jsonl",
+      "06_claim_ledger.jsonl",
+      "07_citation_ledger.jsonl",
+      "08_route_19_units_57_roles.json",
+      "09_chart_native_analysis.md",
+      "10_chart_native_freeze.json",
+      "11_life_exposure_mode.json",
+      "12_life_exposure_log.jsonl",
+      "13_life_evidence_roster.jsonl",
+      "14_life_alignment_ledger.jsonl",
+      "15_user_v4_r5_v5_joint_records.jsonl",
+      "16_user_v5_r5_v7_joint_records.jsonl",
+      "17_lower_structure_independence_graph.json",
+      "18_stage_output_v3_v4_v5.md",
+      "19_exact_reverse_index.json",
+      "20_fna98_report.json",
+      "21_review_record.json",
+      "22_run_bundle_manifest.json"
+    ],
+    "closure_manifest": "22_run_bundle_manifest.json",
+    "artifact_binding": "EXACT_PATH_BYTES_SHA256",
+    "closure_gate": "PHYSICAL_REOPEN_VALIDATORS_FNA98_EXACT_REVERSE",
+    "missing_or_mismatch_state": "ANALYSIS_HOLD",
+    "required_bindings": [
+      "TARGET_COORDINATE_AND_TARGET_SHA256",
+      "INPUT_PATH_BYTES_SHA256",
+      "METHOD_CORPUS_AND_SEARCH_LOG_SHA256",
+      "BASELINE_PATH_BYTES_SHA256_COMPLETE_CLAIM_ID_SET_SHA256",
+      "ORDERED_19_UNITS_AND_57_ROLE_PACKET_SHA256",
+      "PIKACHU_CLAIM_CITATION_AND_LIFE_LEDGER_SHA256",
+      "PUBLIC_V4_INTERNAL_R5_V5_SEVEN_NAMED_JOINT_RECORD_SHA256",
+      "PUBLIC_V5_INTERNAL_R5_V7_EIGHT_NAMED_JOINT_RECORD_SHA256",
+      "PUBLIC_STAGE_SEQUENCE_AND_BENCHMARK_CONTRACT_SHA256",
+      "LOWER_STRUCTURE_INDEPENDENCE_GRAPH_AND_ANCESTRY_SHA256",
+      "CHART_NATIVE_FREEZE_AND_LIFE_CHAIN_HEADS",
+      "STAGE_RENDER_EXACT_REVERSE_AND_FNA98_SHA256",
+      "INTERNAL_REVIEW_RECORD_AND_ACTUAL_RUN_VALIDATOR_RESULT_SHA256"
+    ],
+    "pikachu_claim_id_completeness": "EXACT_SET_EQUALITY_NOT_COUNT_EQUALITY",
+    "review_record": {
+      "path": "21_review_record.json",
+      "type": "INTERNAL_RUNTIME_REVIEW_NOT_PEER_REVIEW"
+    },
+    "readiness_authority": "ACTUAL_RUN_VALIDATOR_ONLY",
+    "registration_validator_can_promote_readiness": false
+  },
+  "claim_contract": {
+    "claim_classes": [
+      "PRIOR_ANALYSIS",
+      "CHART_FACT",
+      "METHOD_CLAIM",
+      "DERIVED_INFERENCE",
+      "LIFE_ALIGNMENT",
+      "LIMITATION"
+    ],
+    "prior_analysis_binding": "BASELINE_PATH_BYTES_SHA256_COMPLETE_CLAIM_ID_SET_AND_DELTA",
+    "claim_citation_binding": "CLAIM_LEVEL_EXACT_LOCATOR",
+    "unsupported_state": "HOLD"
+  },
+  "life_exposure_contract": {
+    "classifications": [
+      "BLIND_CONFIRMATORY",
+      "RETROSPECTIVE_EXPLANATORY",
+      "PROSPECTIVE"
+    ],
+    "mode_classification_map": {
+      "L0_CLOSED": "PROSPECTIVE",
+      "L1_POST_FREEZE_BLIND_COMPARE": "BLIND_CONFIRMATORY",
+      "L2_POST_FREEZE_USER_CONTEXT": "RETROSPECTIVE_EXPLANATORY",
+      "L3_PREEXPOSED_CONTEXT": "RETROSPECTIVE_EXPLANATORY"
+    },
+    "retrospective_max_state": "PASS_SCOPED",
+    "retrospective_forbidden_language": [
+      "VALIDATION",
+      "PREDICTION",
+      "CAUSAL"
+    ],
+    "log_state": "MANDATORY",
+    "roster_state": "APPEND_ONLY_HASH_CHAIN_TOMBSTONES_DEDUP",
+    "dedup_key": "EVIDENCE_ID_PLUS_PAYLOAD_SHA256",
+    "conflict_state": "HOLD"
+  }
+}

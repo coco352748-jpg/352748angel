@@ -1,4 +1,59 @@
 {
+  "academic_life_forge": {
+    "academic_depth_delta": "MANDATORY_BEYOND_PIKACHU",
+    "academic_gate": "HOLD_UNEXECUTED",
+    "analysis_validation": "NOT_RUN_NO_RUN_BUNDLE",
+    "artifacts": {
+      "reference": {
+        "availability": "PRESENT",
+        "bytes": 32274,
+        "path": "references/KANI_21_LAYER_VEDIC_ACADEMIC_LIFE_FORGE.md",
+        "sha256": "e88cf3565fe846e9a4fd5b9da233fce94791e1d8c2c4ae0310219a39269aa61c"
+      },
+      "registration": {
+        "availability": "PRESENT",
+        "bytes": 18867,
+        "path": "references/v10_runtime/kani_21_layer_academic_life_forge_registration.json",
+        "sha256": "e1a207d0dd833fc34a32bec61df052ce22c807d6263a69d2b8f4c6c807f49346"
+      },
+      "tests": {
+        "availability": "PRESENT",
+        "bytes": 8867,
+        "path": "scripts/test_kani_21_layer_academic_life_forge.py",
+        "sha256": "73f64e0ac0c452f263a1928590f5099e60e5e785ee30d9c4a485432c973251b3"
+      },
+      "validator": {
+        "availability": "PRESENT",
+        "bytes": 27131,
+        "path": "scripts/validate_kani_21_layer_academic_life_forge.py",
+        "sha256": "c31a2e8fd4dd57033bf2be5aa18e0e739bc7a896c8102dc6924606a1e96cd006"
+      }
+    },
+    "canonical_route_units": 19,
+    "execution": "NOT_EXECUTED",
+    "institutional_endorsement": "NOT_CLAIMED",
+    "internal_engine_alias_v4": "RQ_R5_V5",
+    "internal_engine_alias_v5": "RQ_R5_V7",
+    "life_congruence_gate": "HOLD_UNEXECUTED",
+    "logical_roles": 57,
+    "pikachu_baseline_role": "FIRST_ANALYSIS_V3_INPUT_NOT_FINAL_ACADEMIC_EVIDENCE",
+    "public_stage_sequence": "V3_V4_V5",
+    "registration_validation": "PASS",
+    "scope": "KANI_ONLY_NOT_PUBLISHED_TO_KK2",
+    "skill": "ACTIVE_REGISTERED",
+    "status": "ACTIVE_REGISTERED_HASH_LOCKED",
+    "v3_depth": "PIKACHU_FIRST_ANALYSIS_BASELINE",
+    "v4_benchmark_mode": "DUAL_REFERENCE_INTERNAL_TARGET",
+    "v4_depth": "UNIVERSITY_THESIS_DEPTH",
+    "v4_domain_benchmark": "BHU_DEPARTMENT_OF_JYOTISH",
+    "v4_writing_benchmark": "OXFORD_BA_SANSKRIT_FHS_FIRST_CLASS_RUBRIC_TARGET",
+    "v5_depth": "CONFERENCE_PRESENTATION_REVIEW_DEPTH",
+    "validation": {
+      "status": "PASS",
+      "tests": "9/9"
+    },
+    "visible_route": "1_TO_21"
+  },
   "bundle_completeness": "EVIDENCE_REVIEWED_PROMOTED_WITH_EXACT_HOLDS",
   "claims": {
     "E5_E6_OVERLAY": "ADD_TO_V9_DO_NOT_OVERWRITE",
@@ -237,6 +292,18 @@
   },
   "implementation_bindings": {
     "artifacts": {
+      "academic_life_forge_tests": {
+        "availability": "PRESENT",
+        "bytes": 8867,
+        "path": "scripts/test_kani_21_layer_academic_life_forge.py",
+        "sha256": "73f64e0ac0c452f263a1928590f5099e60e5e785ee30d9c4a485432c973251b3"
+      },
+      "academic_life_forge_validator": {
+        "availability": "PRESENT",
+        "bytes": 27131,
+        "path": "scripts/validate_kani_21_layer_academic_life_forge.py",
+        "sha256": "c31a2e8fd4dd57033bf2be5aa18e0e739bc7a896c8102dc6924606a1e96cd006"
+      },
       "agent_interface": {
         "availability": "PRESENT",
         "bytes": 401,
@@ -245,9 +312,9 @@
       },
       "boot_validator": {
         "availability": "PRESENT",
-        "bytes": 22023,
+        "bytes": 25278,
         "path": "scripts/validate_kani_boot.py",
-        "sha256": "76443b7605ec54b328cb021080b66322705a9514cf3c2fdde382bbb1f0dadc43"
+        "sha256": "9e5697e0e15c1974132effadf637ffd2fac2e47e540090a4a9db2af59f283635"
       },
       "e5_independent_validator": {
         "availability": "PRESENT",
@@ -287,77 +354,29 @@
       },
       "skill_entrypoint": {
         "availability": "PRESENT",
-        "bytes": 22424,
+        "bytes": 23957,
         "path": "SKILL.md",
-        "sha256": "2765f6cfb748bc05aa56f9be335fafb9fb0a85bd6046a9dce0f6140876b046f9"
+        "sha256": "1bb521afbb87bf692dc4d67806afb950186df5c502433ff2f512f59b66d2611d"
       },
       "v10_manifest_builder": {
         "availability": "PRESENT",
-        "bytes": 48337,
+        "bytes": 49024,
         "path": "scripts/build_kani_v10_manifest.py",
-        "sha256": "febf7f3eaf26912f82259c946d59246f4e48419b5e92d22ec5356f338f165b00"
+        "sha256": "bba49287179e1d44782ac6157c5093f0f6141ab10631cd0d954c416351a749b9"
       },
       "v10_runtime_validator": {
         "availability": "PRESENT",
-        "bytes": 53194,
+        "bytes": 55214,
         "path": "scripts/validate_kani_v10_runtime.py",
-        "sha256": "24a0800599d21c31515eb14515416f16ed78fd937d029e589f203820d074a6d0"
+        "sha256": "079ac262a35fb65be371ee3d51314cf115ebc456fab3968e99ebc91097369cdf"
       }
     },
     "status": "HASH_LOCKED_EXECUTABLES_AND_ENTRYPOINTS"
   },
-  "manifest_id": "43c7202030ec13ce306d7c1cda2718b4bd6ebd92e259433aad9d2d3297a57faa",
+  "manifest_id": "c95ab4adb638e71ca9a5910f412a6a65b93923bfb35d70979f325eb697d1c33c",
   "pending_components": [],
   "promotion_authority": "CURRENT_USER_EXPLICIT_ONLY",
   "purpose": "SECOND_RESTORE_ROUTER_EXECUTION_EVIDENCE_BOARD",
-  "registered_work_instructions": {
-    "artifacts": {
-      "registration_manifest": {
-        "availability": "PRESENT",
-        "bytes": 3086,
-        "path": "references/v10_runtime/sc7_sc8_rashi_bhava_registration.json",
-        "sha256": "8a7660a1a7ab5ea1d3da509e26e6cdd5312c305b3538fa3ca1b878842986116b"
-      },
-      "registration_validator": {
-        "availability": "PRESENT",
-        "bytes": 19926,
-        "path": "scripts/validate_sc7_sc8_rashi_bhava_registration.py",
-        "sha256": "9febe62ebb00a05895c682187d6d3df327c3bf808adc1371da22777650e27ba2"
-      },
-      "sc7_master_zip": {
-        "availability": "PRESENT",
-        "bytes": 91544,
-        "path": "references/source_window_originals/sc7_sc8_rashi_bhava/HYEWON_SC7_RASHI_BHAVA_20D_ALL.zip",
-        "sha256": "b4bf526397aad3443eb7c4a883c866ed5a5ff7367341adf490aedff4ee4f427e"
-      },
-      "sc8_master_zip": {
-        "availability": "PRESENT",
-        "bytes": 490028,
-        "path": "references/source_window_originals/sc7_sc8_rashi_bhava/HYEWON_SC8_RASHI_BHAVA_20D_ALL.zip",
-        "sha256": "732ac5370fe9703027339db691883825c1be07d118b98342c3e5b1a9255b9f72"
-      },
-      "work_instruction": {
-        "availability": "PRESENT",
-        "bytes": 11105,
-        "path": "references/SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_WORK_INSTRUCTION.md",
-        "sha256": "c971ae7c0254b4cbde56019af7c164b7ff08302655c1076a9949ea3be0daf8ce"
-      }
-    },
-    "execution_state": "NOT_EXECUTED",
-    "first_real_job": "SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_EXTRACTION",
-    "status": "REGISTERED_HASH_LOCKED_FIRST_UNEXECUTED_JOB",
-    "validation": {
-      "active_non_3p_corpus": 580,
-      "archives": 2,
-      "d_h_lane_units": 480,
-      "dcharts_per_archive": 20,
-      "paired_lane_artifacts": 40,
-      "physical_3p_operationally_void": 20,
-      "physical_full_corpus": 600,
-      "source_text_files": 80,
-      "status": "PASS"
-    }
-  },
   "sc7_calibration": {
     "artifacts": {
       "sc7_records": {

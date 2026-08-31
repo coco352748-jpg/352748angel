@@ -24,6 +24,13 @@ from typing import Any
 SCHEMA_VERSION = "KANI_CAUSAL_RESTORE_V10_MANIFEST_V1"
 EXPECTED_V9_TREE_SHA256 = "913cb921f9d5f97b351a4455f3e05cb1d441a00cec24291caf78eac5a690c0d9"
 
+ACADEMIC_LIFE_FORGE_PATHS = {
+    "reference": "references/KANI_21_LAYER_VEDIC_ACADEMIC_LIFE_FORGE.md",
+    "registration": "references/v10_runtime/kani_21_layer_academic_life_forge_registration.json",
+    "validator": "scripts/validate_kani_21_layer_academic_life_forge.py",
+    "tests": "scripts/test_kani_21_layer_academic_life_forge.py",
+}
+
 RESTORE_CALL_FIRST_RESPONSE = """$clone-kani KANI V10이 호출되어 ACTIVE_EVIDENCE_SCOPED 상태입니다.
 V9 baseline은 READ_ONLY로 보존하고,
 V10 E5/E6 record/replay와 사용자 승격 레코드를 로드합니다.
@@ -112,17 +119,11 @@ IMPLEMENTATION_PATHS = {
     "sc7_calibration_validator": "scripts/validate_kani_v10_router.py",
     "v10_manifest_builder": "scripts/build_kani_v10_manifest.py",
     "v10_runtime_validator": "scripts/validate_kani_v10_runtime.py",
+    "academic_life_forge_validator": ACADEMIC_LIFE_FORGE_PATHS["validator"],
+    "academic_life_forge_tests": ACADEMIC_LIFE_FORGE_PATHS["tests"],
     "skill_entrypoint": "SKILL.md",
     "boot_validator": "scripts/validate_kani_boot.py",
     "agent_interface": "agents/openai.yaml",
-}
-
-REGISTERED_WORK_PATHS = {
-    "work_instruction": "references/SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_WORK_INSTRUCTION.md",
-    "registration_manifest": "references/v10_runtime/sc7_sc8_rashi_bhava_registration.json",
-    "sc7_master_zip": "references/source_window_originals/sc7_sc8_rashi_bhava/HYEWON_SC7_RASHI_BHAVA_20D_ALL.zip",
-    "sc8_master_zip": "references/source_window_originals/sc7_sc8_rashi_bhava/HYEWON_SC8_RASHI_BHAVA_20D_ALL.zip",
-    "registration_validator": "scripts/validate_sc7_sc8_rashi_bhava_registration.py",
 }
 
 
@@ -837,102 +838,107 @@ def build_sc7_calibration(root: Path) -> dict[str, Any]:
     }
 
 
-def build_registered_work(root: Path) -> dict[str, Any]:
-    artifacts = {
-        key: file_record(root, relative)
-        for key, relative in REGISTERED_WORK_PATHS.items()
-    }
-    registration = read_json(root / REGISTERED_WORK_PATHS["registration_manifest"])
-    scope = registration.get("scope", {})
-    execution = registration.get("execution", {})
-    expected_d_order = [
-        "D1", "D9", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D10",
-        "D11", "D12", "D16", "D20", "D24", "D27", "D30", "D40", "D45", "D60",
-    ]
-    if not (
-        registration.get("schema_version")
-        == "KANI_SC7_SC8_BIDIRECTIONAL_GRAMMAR_REGISTRATION_V1"
-        and registration.get("registration_id")
-        == "KANI-SC7-SC8-RASHI-BHAVA-20260830-001"
-        and registration.get("status")
-        == "REGISTERED_HASH_LOCKED_FIRST_UNEXECUTED_JOB"
-        and scope.get("d_order") == expected_d_order
-        and scope.get("lane_order") == ["RASHI", "BHAVA", "RASHI_BHAVA_BINDING"]
-        and scope.get("dcharts") == 20
-        and scope.get("paired_lane_artifacts") == 40
-        and scope.get("d_h_lane_units") == 480
-        and scope.get("source_text_files") == 80
-        and scope.get("physical_full_corpus") == 600
-        and scope.get("physical_3p_preserved_operationally_void") == 20
-        and scope.get("active_non_3p_corpus") == 580
-        and execution.get("grammar_extraction") == "NOT_EXECUTED"
-        and execution.get("first_real_job")
-        == "SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_EXTRACTION"
-        and execution.get("new_public_call_key")
-        == "HOLD_UNTIL_SEPARATE_USER_REQUEST"
-    ):
-        raise ManifestError("SC7/SC8 Rashi-Bhava registration contract is invalid")
-
-    try:
-        completed = subprocess.run(
-            [
-                sys.executable,
-                str(root / REGISTERED_WORK_PATHS["registration_validator"]),
-                "--root",
-                str(root),
-            ],
-            cwd=root,
-            capture_output=True,
-            check=False,
-            text=True,
-            timeout=30,
-        )
-    except (OSError, subprocess.SubprocessError) as error:
-        raise ManifestError(
-            f"SC7/SC8 registration validator could not run: {type(error).__name__}"
-        ) from error
-    try:
-        validation = json.loads(completed.stdout)
-    except json.JSONDecodeError as error:
-        raise ManifestError("SC7/SC8 registration validator did not emit JSON") from error
-    counts = validation.get("counts", {})
-    if not (
-        completed.returncode == 0
-        and validation.get("status") == "PASS"
-        and validation.get("errors") == []
-        and validation.get("execution_state") == "NOT_EXECUTED"
-        and validation.get("d_order") == expected_d_order
-        and counts.get("archives") == 2
-        and counts.get("paired_lane_artifacts") == 40
-        and counts.get("d_h_lane_units") == 480
-        and counts.get("source_text_files") == 80
-        and counts.get("physical_full_corpus") == 600
-        and counts.get("physical_3p_operationally_void") == 20
-        and counts.get("active_non_3p_corpus") == 580
-    ):
-        raise ManifestError("SC7/SC8 registration validator did not pass exact scope")
-
-    return {
-        "status": "REGISTERED_HASH_LOCKED_FIRST_UNEXECUTED_JOB",
-        "execution_state": "NOT_EXECUTED",
-        "first_real_job": "SC7_SC8_RASHI_BHAVA_BIDIRECTIONAL_GRAMMAR_EXTRACTION",
-        "validation": {
-            "status": "PASS",
-            "archives": 2,
-            "dcharts_per_archive": 20,
-            "paired_lane_artifacts": 40,
-            "d_h_lane_units": 480,
-            "source_text_files": 80,
-            "physical_full_corpus": 600,
-            "physical_3p_operationally_void": 20,
-            "active_non_3p_corpus": 580,
-        },
-        "artifacts": artifacts,
-    }
-
-
 def component_state(record: dict[str, Any]) -> str:
     return str(record.get("availability", "MISSING_PENDING"))
+
+
+def build_academic_life_forge(root: Path) -> dict[str, Any]:
+    """Validate and hash-bind the KANI-only forge registration.
+
+    This proves installation integrity only.  It intentionally leaves every
+    analysis/readiness gate unexecuted until a complete run bundle exists.
+    """
+
+    validator = root / ACADEMIC_LIFE_FORGE_PATHS["validator"]
+    test_script = root / ACADEMIC_LIFE_FORGE_PATHS["tests"]
+    try:
+        validation_run = subprocess.run(
+            [sys.executable, str(validator), "--root", str(root)],
+            cwd=root,
+            check=False,
+            capture_output=True,
+            text=True,
+            timeout=60,
+        )
+    except (OSError, subprocess.SubprocessError) as error:
+        raise ManifestError(f"academic-life forge validator failed: {type(error).__name__}") from error
+    if validation_run.returncode != 0:
+        raise ManifestError(
+            "academic-life forge registration validator rejected the contract: "
+            + (validation_run.stdout.strip() or validation_run.stderr.strip())
+        )
+    try:
+        validation = json.loads(validation_run.stdout)
+    except json.JSONDecodeError as error:
+        raise ManifestError("academic-life forge validator returned invalid JSON") from error
+    if not (
+        isinstance(validation, dict)
+        and validation.get("status") == "PASS"
+        and validation.get("registration_validation") == "PASS"
+        and validation.get("execution") == "NOT_EXECUTED"
+        and validation.get("analysis_validation") == "NOT_RUN_NO_RUN_BUNDLE"
+        and validation.get("academic_gate") == "HOLD_UNEXECUTED"
+        and validation.get("life_congruence_gate") == "HOLD_UNEXECUTED"
+        and validation.get("public_stage_sequence") == "V3_V4_V5"
+        and validation.get("v3_depth") == "PIKACHU_FIRST_ANALYSIS_BASELINE"
+        and validation.get("v4_depth") == "UNIVERSITY_THESIS_DEPTH"
+        and validation.get("v4_benchmark")
+        == "BHU_JYOTISH_DOMAIN_PLUS_OXFORD_BA_SANSKRIT_FHS_FIRST_CLASS_WRITING"
+        and validation.get("v5_depth") == "CONFERENCE_PRESENTATION_REVIEW_DEPTH"
+        and validation.get("institutional_endorsement") == "NOT_CLAIMED"
+        and validation.get("errors") == []
+    ):
+        raise ManifestError("academic-life forge registration validator contract mismatch")
+
+    try:
+        test_run = subprocess.run(
+            [sys.executable, str(test_script)],
+            cwd=root,
+            check=False,
+            capture_output=True,
+            text=True,
+            timeout=60,
+        )
+    except (OSError, subprocess.SubprocessError) as error:
+        raise ManifestError(f"academic-life forge tests failed: {type(error).__name__}") from error
+    test_output = test_run.stdout + test_run.stderr
+    if test_run.returncode != 0 or "Ran 9 tests" not in test_output or "OK" not in test_output:
+        raise ManifestError("academic-life forge registration tests did not pass 9/9")
+
+    artifacts = {
+        key: file_record(root, relative)
+        for key, relative in ACADEMIC_LIFE_FORGE_PATHS.items()
+    }
+    registration = read_json(root / ACADEMIC_LIFE_FORGE_PATHS["registration"])
+    if not isinstance(registration, dict):
+        raise ManifestError("academic-life forge registration must be a JSON object")
+    return {
+        "status": "ACTIVE_REGISTERED_HASH_LOCKED",
+        "skill": "ACTIVE_REGISTERED",
+        "scope": "KANI_ONLY_NOT_PUBLISHED_TO_KK2",
+        "registration_validation": "PASS",
+        "execution": "NOT_EXECUTED",
+        "analysis_validation": "NOT_RUN_NO_RUN_BUNDLE",
+        "academic_gate": "HOLD_UNEXECUTED",
+        "life_congruence_gate": "HOLD_UNEXECUTED",
+        "visible_route": "1_TO_21",
+        "canonical_route_units": 19,
+        "logical_roles": 57,
+        "pikachu_baseline_role": "FIRST_ANALYSIS_V3_INPUT_NOT_FINAL_ACADEMIC_EVIDENCE",
+        "academic_depth_delta": "MANDATORY_BEYOND_PIKACHU",
+        "public_stage_sequence": "V3_V4_V5",
+        "v3_depth": "PIKACHU_FIRST_ANALYSIS_BASELINE",
+        "v4_depth": "UNIVERSITY_THESIS_DEPTH",
+        "v4_domain_benchmark": "BHU_DEPARTMENT_OF_JYOTISH",
+        "v4_writing_benchmark": "OXFORD_BA_SANSKRIT_FHS_FIRST_CLASS_RUBRIC_TARGET",
+        "v4_benchmark_mode": "DUAL_REFERENCE_INTERNAL_TARGET",
+        "v5_depth": "CONFERENCE_PRESENTATION_REVIEW_DEPTH",
+        "internal_engine_alias_v4": "RQ_R5_V5",
+        "internal_engine_alias_v5": "RQ_R5_V7",
+        "institutional_endorsement": "NOT_CLAIMED",
+        "validation": {"status": "PASS", "tests": "9/9"},
+        "artifacts": artifacts,
+    }
 
 
 def build_manifest(root: Path) -> dict[str, Any]:
@@ -942,7 +948,7 @@ def build_manifest(root: Path) -> dict[str, Any]:
     v10_e5 = build_v10_e5(root, v9_baseline)
     v10_e6 = build_v10_e6(root)
     sc7 = build_sc7_calibration(root)
-    registered_work = build_registered_work(root)
+    academic_life_forge = build_academic_life_forge(root)
     implementation_bindings = {
         "status": "HASH_LOCKED_EXECUTABLES_AND_ENTRYPOINTS",
         "artifacts": {
@@ -979,7 +985,7 @@ def build_manifest(root: Path) -> dict[str, Any]:
         "v10_e5_overlay": v10_e5,
         "v10_e6_overlay": v10_e6,
         "sc7_calibration": sc7,
-        "registered_work_instructions": registered_work,
+        "academic_life_forge": academic_life_forge,
         "implementation_bindings": implementation_bindings,
         "technical_build_status": "PASS",
         "promotion_authority": "CURRENT_USER_EXPLICIT_ONLY",
