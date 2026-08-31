@@ -1,0 +1,62 @@
+{
+  "schema_version": "DD2_KANI_V9_GITHUB_REMOTE_READBACK_RECEIPT_V1",
+  "status": "PASS",
+  "repository": "coco352748-jpg/352748angel",
+  "branch": "dd2-remote-sync",
+  "role": "REMOTE_SYNC_ONLY",
+  "data_commit": "2244279d0ce584284877d1c9adb47f1e2ecef213",
+  "data_tree": "d846d6087c4b3df1a96517dcb85ecbb13be0409b",
+  "parent_commit": "428d6b5296f838c6e5c914fe4e49aba1a0aa70c8",
+  "update_mode": "FAST_FORWARD_FORCE_FALSE",
+  "branch_head_at_readback": "2244279d0ce584284877d1c9adb47f1e2ecef213",
+  "path_prefix": "DD2/runtime/final-closure/run_20260829_vas26/",
+  "checks": [
+    {
+      "path": "DD2/runtime/final-closure/run_20260829_vas26/FINAL_TECHNICAL_CLOSURE_CORE_FNA98.json",
+      "blob": "3d05956506cbaff7960ba843beb866e669a4d06c",
+      "path_blob_readback": "PASS",
+      "path_raw_exact": true,
+      "blob_raw_exact": true
+    },
+    {
+      "path": "DD2/runtime/final-closure/run_20260829_vas26/FNA98_INDEPENDENT_ACCEPTANCE.json",
+      "blob": "518b8164601d5df1374ce8954fec5fa43eb2dab5",
+      "path_blob_readback": "PASS",
+      "path_raw_exact": true,
+      "blob_raw_exact": true
+    },
+    {
+      "path": "DD2/runtime/final-closure/run_20260829_vas26/E5/e5_manifest.json",
+      "blob": "7bf8d99f5c423ca40d7b243ab7128c8e43d81d08",
+      "path_blob_readback": "PASS",
+      "path_raw_exact": true,
+      "blob_raw_exact": true
+    },
+    {
+      "path": "DD2/runtime/final-closure/run_20260829_vas26/E5/e5_transcript.txt",
+      "blob": "07c9d28d2f53eead6b05b6f9c79c9fb8bdfccbdf",
+      "path_blob_readback": "PASS",
+      "path_raw_exact": true,
+      "blob_raw_exact": true
+    },
+    {
+      "path": "DD2/runtime/final-closure/run_20260829_vas26/E6/e6_manifest.json",
+      "blob": "025b8d51770600866932985fac96a75c4b47c3f5",
+      "path_blob_readback": "PASS",
+      "path_raw_exact": true,
+      "blob_raw_exact": true
+    },
+    {
+      "path": "DD2/runtime/final-closure/run_20260829_vas26/E6/e6_transcript.txt",
+      "blob": "3f2a7cd0e9a2e8908799c648b8c8c3168efde056",
+      "path_blob_readback": "PASS",
+      "path_raw_exact": true,
+      "blob_raw_exact": true
+    }
+  ],
+  "path_count": 6,
+  "path_blob_readback": "PASS_6_OF_6",
+  "raw_content_readback": "PASS_6_OF_6_EXACT_SOURCE_WINDOW",
+  "source_window_override": "DENY_LOCKED",
+  "final_user_promotion": "NOT_AUTHORIZED_NOT_EXECUTED"
+}
