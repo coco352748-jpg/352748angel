@@ -1,0 +1,53 @@
+{
+  "contract": "TITI_FAMILY_GRAMMAR_V1",
+  "equality_mode": "EXACT_SURFACE",
+  "family_id": "OCCUPANT_INPUT_FAMILY",
+  "records": [
+    {
+      "id": "S1",
+      "sentence": "점유행성 Mars는 11H에 전환압력을 반입한다.",
+      "template": "점유행성 《S1.OCCUPANT.OCCUPANT_PLANET_NP.01》는 《S1.TARGET.TARGET_HOUSE_NP.01》에 《S1.ACTION.INPUT_OBJECT_NP.01》을 반입한다.",
+      "slots": [
+        {"uid": "S1.OCCUPANT.OCCUPANT_PLANET_NP.01", "type": "NP", "semantic_role": "occupant_planet", "value": "Mars", "source_ref": "S1:occupant"},
+        {"uid": "S1.TARGET.TARGET_HOUSE_NP.01", "type": "NP", "semantic_role": "target_house", "value": "11H", "source_ref": "S1:house"},
+        {"uid": "S1.ACTION.INPUT_OBJECT_NP.01", "type": "OBJECT", "semantic_role": "input_object", "value": "전환압력", "source_ref": "S1:object"}
+      ]
+    },
+    {
+      "id": "S2",
+      "sentence": "점유행성 Venus는 2H에 관계자원을 반입한다.",
+      "template": "점유행성 《S2.OCCUPANT.OCCUPANT_PLANET_NP.01》는 《S2.TARGET.TARGET_HOUSE_NP.01》에 《S2.ACTION.INPUT_OBJECT_NP.01》을 반입한다.",
+      "slots": [
+        {"uid": "S2.OCCUPANT.OCCUPANT_PLANET_NP.01", "type": "NP", "semantic_role": "occupant_planet", "value": "Venus", "source_ref": "S2:occupant"},
+        {"uid": "S2.TARGET.TARGET_HOUSE_NP.01", "type": "NP", "semantic_role": "target_house", "value": "2H", "source_ref": "S2:house"},
+        {"uid": "S2.ACTION.INPUT_OBJECT_NP.01", "type": "OBJECT", "semantic_role": "input_object", "value": "관계자원", "source_ref": "S2:object"}
+      ]
+    }
+  ],
+  "family_slots": [
+    {
+      "family_slot_id": "OCCUPANT_PLANET",
+      "type": "NP",
+      "semantic_role": "occupant_planet",
+      "required_across_records": true,
+      "members": {"S1": "S1.OCCUPANT.OCCUPANT_PLANET_NP.01", "S2": "S2.OCCUPANT.OCCUPANT_PLANET_NP.01"}
+    },
+    {
+      "family_slot_id": "TARGET_HOUSE",
+      "type": "NP",
+      "semantic_role": "target_house",
+      "required_across_records": true,
+      "members": {"S1": "S1.TARGET.TARGET_HOUSE_NP.01", "S2": "S2.TARGET.TARGET_HOUSE_NP.01"}
+    },
+    {
+      "family_slot_id": "INPUT_OBJECT",
+      "type": "OBJECT",
+      "semantic_role": "input_object",
+      "required_across_records": true,
+      "members": {"S1": "S1.ACTION.INPUT_OBJECT_NP.01", "S2": "S2.ACTION.INPUT_OBJECT_NP.01"}
+    }
+  ],
+  "variants": [
+    {"variant_id": "V1", "record_ids": ["S1", "S2"]}
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "contract": "TITI_MICRO_ROUNDTRIP_V1",
+  "equality_mode": "EXACT_SURFACE",
+  "records": [
+    {
+      "id": "S1",
+      "sentence": "점유행성 Mars는 11H에 전환압력을 반입한다.",
+      "template": "점유행성 《S1.OCCUPANT.OCCUPANT_PLANET_NP.01》는 《S1.TARGET.TARGET_HOUSE_NP.01》에 《S1.ACTION.INPUT_OBJECT_NP.01》을 반입한다.",
+      "slots": [
+        {
+          "uid": "S1.OCCUPANT.OCCUPANT_PLANET_NP.01",
+          "type": "NP",
+          "semantic_role": "occupant_planet",
+          "value": "Mars",
+          "source_ref": "S1:occupant_planet"
+        },
+        {
+          "uid": "S1.TARGET.TARGET_HOUSE_NP.01",
+          "type": "NP",
+          "semantic_role": "target_house",
+          "value": "11H",
+          "source_ref": "S1:target_house"
+        },
+        {
+          "uid": "S1.ACTION.INPUT_OBJECT_NP.01",
+          "type": "OBJECT",
+          "semantic_role": "input_object",
+          "value": "전환압력",
+          "source_ref": "S1:input_object"
+        }
+      ]
+    }
+  ]
+}

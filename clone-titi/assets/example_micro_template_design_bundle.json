@@ -1,0 +1,77 @@
+{
+  "contract": "TITI_MICRO_TEMPLATE_DESIGN_V1",
+  "mode": "MICRO_TEMPLATE_DESIGN",
+  "validation_mode": "STRUCTURAL_DESIGN",
+  "exact_roundtrip_state": "NOT_APPLICABLE_UNTIL_FILLED",
+  "template_id": "T1",
+  "target": "Produce one source-bounded transfer sentence",
+  "required_roles": [
+    "actor",
+    "input_object",
+    "transformation_action",
+    "output_result"
+  ],
+  "template": "《T1.ACTOR.SUBJECT.01》은 《T1.INPUT.OBJECT.01》을 받아 《T1.ACTION.PROCESS.01》한 뒤 《T1.OUTPUT.RESULT.01》로 넘긴다.",
+  "literal_authority_refs": [
+    "CURRENT_USER:target",
+    "CURRENT_USER:format",
+    "CURRENT_USER:target",
+    "CURRENT_USER:format"
+  ],
+  "slots": [
+    {
+      "uid": "T1.ACTOR.SUBJECT.01",
+      "type": "NP",
+      "semantic_role": "actor",
+      "required": true,
+      "input_ref": "USER_INPUT:actor",
+      "operator": "INSERT_EXACT",
+      "transformation": "NONE",
+      "handoff": "T1.INPUT.OBJECT.01",
+      "result_boundary": "identifies_actor_only",
+      "value_state": "UNBOUND"
+    },
+    {
+      "uid": "T1.INPUT.OBJECT.01",
+      "type": "OBJECT",
+      "semantic_role": "input_object",
+      "required": true,
+      "input_ref": "USER_INPUT:input_object",
+      "operator": "INSERT_EXACT",
+      "transformation": "NONE",
+      "handoff": "T1.ACTION.PROCESS.01",
+      "result_boundary": "identifies_input_only",
+      "value_state": "UNBOUND"
+    },
+    {
+      "uid": "T1.ACTION.PROCESS.01",
+      "type": "PREDICATE",
+      "semantic_role": "transformation_action",
+      "required": true,
+      "input_ref": "USER_INPUT:approved_action",
+      "operator": "INSERT_EXACT",
+      "transformation": "NONE",
+      "handoff": "T1.OUTPUT.RESULT.01",
+      "result_boundary": "states_action_without_result_invention",
+      "value_state": "UNBOUND"
+    },
+    {
+      "uid": "T1.OUTPUT.RESULT.01",
+      "type": "NP",
+      "semantic_role": "output_result",
+      "required": true,
+      "input_ref": "USER_INPUT:output_result",
+      "operator": "INSERT_EXACT",
+      "transformation": "NONE",
+      "handoff": "OUTPUT",
+      "result_boundary": "identifies_output_only",
+      "value_state": "UNBOUND"
+    }
+  ],
+  "output_contract": {
+    "output_type": "SENTENCE",
+    "required_format": "ONE_SENTENCE",
+    "missing_value_policy": "HOLD_SLOT",
+    "completion_rule": "ALL_REQUIRED_SLOTS_BOUND"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "TITI V3–V7 micro·역렌더"
+  short_description: "V3–V7 FNa98 micro 설계와 무손실 역렌더링"
+  default_prompt: "$clone-titi로 V3–V7 문장의 FNa98 micro 미세슬롯 템플릿을 설계하거나 승인 문장을 무손실 역렌더링해줘."
