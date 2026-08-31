@@ -1,0 +1,58 @@
+{
+  "schema_version": "KANI_V9_FINAL_CLOSURE_FNA98_V1",
+  "run_scope": "run_20260829_vas26",
+  "status": "PASS",
+  "technical_exit": "PASS_E5_AND_E6",
+  "hard_failures": 0,
+  "acceptance_gates": {
+    "TARGET_CHECK": "PASS",
+    "FACTCHECK": "PASS",
+    "SOURCE_CHECK": "PASS",
+    "WHY_CHECK": "PASS",
+    "LOGIC_CHECK": "PASS",
+    "CONDITION_EXCEPTION_CHECK": "PASS",
+    "FORMAT_CHECK": "PASS",
+    "PRACTICAL_USABILITY": "PASS_WITH_EXPLICIT_LOCAL_HOLDS",
+    "SUPPLEMENTAL_ROUTING_CHECK": "PASS_9_OF_9",
+    "VOID_REUSE_CHECK": "PASS_3P_20_OF_20_INACTIVE",
+    "SOURCE_GAP_FILL_CHECK": "PASS_ZERO_FABRICATED_VALUES",
+    "HASH_READBACK_CHECK": "PASS"
+  },
+  "e5_independent_result": {
+    "status": "PASS",
+    "e5_status": "PASS_WITH_LOCAL_HOLDS",
+    "manifest_sha256": "86f8b0a07d2a689bfaf8ccfde7c3b27b01af90d3c01d264b419a8de8d8cb20ca",
+    "active_lane_artifacts": 29,
+    "active_pair_records": 580,
+    "local_hold_lanes": 25,
+    "physical_3p_void": 20,
+    "source_admission": "ADMITTED",
+    "baseline_unchanged": true,
+    "errors": []
+  },
+  "e6_independent_result": {
+    "status": "PASS",
+    "e6_status": "PASS",
+    "manifest_sha256": "e1084a3cea862a1fb2042961e987e53368fa4abe3757e0b86aa68d354b6473d4",
+    "e5_manifest_sha256": "86f8b0a07d2a689bfaf8ccfde7c3b27b01af90d3c01d264b419a8de8d8cb20ca",
+    "active_pairs": "580/580",
+    "decision_ledger": "580/580",
+    "physical_3p_void": "20/20",
+    "probes": "9/9",
+    "rebuild_count": 0,
+    "remote_reads": {
+      "drive": 0,
+      "github": 0,
+      "other": 0
+    },
+    "failures": [],
+    "final_promotion": "NOT_EXECUTED"
+  },
+  "authority_boundary": {
+    "source_window": "PRIMARY",
+    "google_drive": "BACKUP_ONLY",
+    "github": "REMOTE_SYNC_ONLY",
+    "final_runtime": "HOLD_USER_PROMOTION_ONLY",
+    "promotion_authority": "CURRENT_USER_EXPLICIT_ONLY"
+  }
+}

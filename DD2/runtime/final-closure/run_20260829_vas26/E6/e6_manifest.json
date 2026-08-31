@@ -1,0 +1,129 @@
+{
+  "artifacts": {
+    "e6_active_pair_manifest.jsonl": {
+      "bytes": 617236,
+      "sha256": "0f0bfa1becfef381a9b3286c617c0ca45507e4d986f71cf22a9f06300cbaeab0"
+    },
+    "e6_checkpoint.json": {
+      "bytes": 922,
+      "sha256": "70785c0927427bfcea23eb09236ae714ca0bdbf99236fd3600027a2a48c066a1"
+    },
+    "e6_fna98.json": {
+      "bytes": 618,
+      "sha256": "4454a49f9059b894d127666dd544f25f92c30e5166edf2118193bc6967643719"
+    },
+    "e6_probe_results.json": {
+      "bytes": 3947,
+      "sha256": "4c961b52b5ab94229085a47b51b3f02069bf02d99af056a8cd5123b17e7ea1f1"
+    },
+    "e6_reopen_record.json": {
+      "bytes": 52692,
+      "sha256": "f7cc4f650d4195748c5fb78ad127a427df5ca2c9547ddda5cb2a7c461418b775"
+    },
+    "e6_transcript.txt": {
+      "bytes": 1054,
+      "sha256": "3aaa0617b0a3219168c29a26f61b0b85c2d7fdda92ca475d0c5668214a88bfea"
+    }
+  },
+  "baseline_tree_sha256": "913cb921f9d5f97b351a4455f3e05cb1d441a00cec24291caf78eac5a690c0d9",
+  "checkpoint": {
+    "E6_LONG_DRIFT_REOPEN": "PASS_E6_TESTED_SCOPE",
+    "FINAL_KANI_JUDGMENT_RUNTIME": "HOLD_USER_PROMOTION_ONLY",
+    "FRESH_TAB_LONG_DRIFT_REAL_RUNTIME_GATE": "HOLD_UNEXECUTED",
+    "LONG_DRIFT": "PASS",
+    "NEW_DATASET_PRODUCTION": "PASS_WITH_LOCAL_HOLDS",
+    "first_unexecuted_job": "FINAL_USER_PROMOTION_PACKET",
+    "lower_stage_reassembly_count": 0,
+    "lower_stage_restart": "VOID",
+    "post_technical_state": "READY_FOR_USER_PROMOTION",
+    "rebuild_count": 0,
+    "restore_floor": "ANALYSIS02_MATURE_PRODUCTION_STATE",
+    "retained_passes": [
+      "REPLAY_BUNDLE",
+      "TAB_GENEALOGY",
+      "OUTPUT_CORPUS",
+      "INPUT_OUTPUT_BINDING",
+      "STRUCTURAL_LANE_RUNTIME",
+      "DIRECT_03_INSTRUCTION_BODY",
+      "CAUSAL_DECISION_RULES",
+      "BLIND_REPLAY"
+    ],
+    "run_id": "8a4e9bb8b0df30a8fcff1ac42acd81251345f94a13101ac75694004b9dfad69d",
+    "schema_version": "KANI_V9_E6_OVERLAY_V1",
+    "user_promotion": "NOT_AUTHORIZED_NOT_EXECUTED"
+  },
+  "counts": {
+    "active_3p_lanes": 0,
+    "active_lanes": 29,
+    "active_pairs": 580,
+    "dcharts": 20,
+    "decision_ledger_rows": 580,
+    "passed_probes": 9,
+    "physical_3p_members": 20,
+    "representative_boundary_probes": 9
+  },
+  "decision_fields": [
+    "TRIGGER",
+    "SELECTED_ROUTE",
+    "REJECTED_ROUTE",
+    "WHY_JOINT",
+    "OUTPUT_EFFECT",
+    "CORRECTION",
+    "QA_GATE",
+    "HANDOFF"
+  ],
+  "e5_tree_sha256": "939a2b40f2b5c8b654cb3d3abe32608b2aec8daad4ebafb7ce71e1c7e0fde4d0",
+  "e6_status": "PASS",
+  "entry_condition": {
+    "e5_dir": "/root/.codex/skills/clone-kani/references/v9_closure_runs/run_20260829_vas26/e5",
+    "e5_manifest_sha256": "86f8b0a07d2a689bfaf8ccfde7c3b27b01af90d3c01d264b419a8de8d8cb20ca",
+    "e5_run_id": "91b877555ed7c2b190429e1534b74e059cd35f4e039d2ae4c1efef2361472d68",
+    "e5_status": "PASS_WITH_LOCAL_HOLDS",
+    "observed": "PASS",
+    "required": "E5_MANIFEST_GLOBAL_PASS"
+  },
+  "evidence_level": "E6_REOPENED_CONTINUATION_AFTER_INTERVENING_WORK",
+  "execution_counters": {
+    "baseline_change_count": 0,
+    "drive_read_count": 0,
+    "e5_output_change_count": 0,
+    "github_read_count": 0,
+    "lower_stage_reassembly_count": 0,
+    "other_remote_read_count": 0,
+    "rebuild_count": 0,
+    "source_change_count": 0
+  },
+  "failures": [],
+  "fna98": {
+    "e6_status": "PASS",
+    "gates": {
+      "CONDITION_EXCEPTION_CHECK": "PASS",
+      "FACTCHECK": "PASS",
+      "FORMAT_CHECK": "PASS",
+      "HASH_READBACK_CHECK": "PASS",
+      "LOGIC_CHECK": "PASS",
+      "PRACTICAL_USABILITY": "PASS",
+      "SOURCE_CHECK": "PASS",
+      "SOURCE_GAP_FILL_CHECK": "PASS",
+      "SUPPLEMENTAL_ROUTING_CHECK": "PASS",
+      "TARGET_CHECK": "PASS",
+      "VOID_REUSE_CHECK": "PASS",
+      "WHY_CHECK": "PASS"
+    },
+    "hard_fail_count": 0,
+    "hard_failures": [],
+    "run_id": "8a4e9bb8b0df30a8fcff1ac42acd81251345f94a13101ac75694004b9dfad69d",
+    "schema_version": "KANI_V9_E6_OVERLAY_V1",
+    "status": "PASS"
+  },
+  "promotion_firewall": {
+    "authority": "CURRENT_USER_EXPLICIT_ONLY",
+    "final_runtime": "HOLD_USER_PROMOTION_ONLY",
+    "new_technical_stage_after_e6": "FORBIDDEN",
+    "status": "NOT_AUTHORIZED_NOT_EXECUTED"
+  },
+  "run_id": "8a4e9bb8b0df30a8fcff1ac42acd81251345f94a13101ac75694004b9dfad69d",
+  "schema_version": "KANI_V9_E6_OVERLAY_V1",
+  "source_sha256": "3e716d8435801e77872697798ae45456b4533c110821c6c77b02003b6fa745ef",
+  "status": "PASS"
+}
