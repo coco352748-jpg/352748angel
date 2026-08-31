@@ -111,6 +111,36 @@ class V3V7MicroForgeGuardTests(unittest.TestCase):
         self.assertFalse(report["gates"]["NO_INVENTED_BINDINGS"])
         self.assertEqual(report["fna98_quality"]["completeness"], "REVISE")
 
+    def test_calibration_cannot_be_semantic_value_source(self) -> None:
+        for operation, version, ref_key, ref_value in (
+            (
+                "DESIGN_STAGE",
+                "V4",
+                "input_ref",
+                "SOURCE_REQUIREMENT:CALIBRATION:TITI_V3_DEFAULT_LOCK_3SET:D5-H08",
+            ),
+            (
+                "EXACT_STAGE_REVERSE",
+                "V3",
+                "source_ref",
+                "SOURCE:CALIBRATION:D5-H05",
+            ),
+        ):
+            with self.subTest(operation=operation, version=version):
+                bundle = guard.sample_bundle(operation, [version])
+                joint = bundle["versions"][0]["joints"][0]
+                joint["cells"]["INPUT_REF"][ref_key] = ref_value
+                child = joint["child_bundle"]
+                if operation == "DESIGN_STAGE":
+                    child["slots"][0][ref_key] = ref_value
+                else:
+                    child["records"][0]["slots"][0][ref_key] = ref_value
+                report = guard.audit_forge_bundle(bundle)
+                self.assertFalse(report["gates"]["NO_INVENTED_BINDINGS"])
+                self.assertNotEqual(
+                    report["fna98_quality"]["verdict"], "FNA98_SENTENCE_PASS"
+                )
+
     def test_native_exact_reverse_mutation_is_rejected(self) -> None:
         bundle = guard.sample_bundle("EXACT_STAGE_REVERSE", ["V4"])
         child_record = bundle["versions"][0]["joints"][0]["child_bundle"]["records"][0]

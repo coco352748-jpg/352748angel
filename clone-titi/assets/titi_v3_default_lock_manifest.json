@@ -1,0 +1,98 @@
+{
+  "contract": "TITI_V3_DEFAULT_LOCK_CALIBRATION_V1",
+  "profile_id": "TITI_V3_DEFAULT_LOCK_3SET",
+  "authority": "CURRENT_USER_DIRECTIVE",
+  "activation": {
+    "task_scope": "LOCK_SENTENCE",
+    "when_version_omitted": "V3",
+    "when_version_explicit_v3": "APPLY_DEFAULT_IF_NO_USER_OVERRIDE",
+    "user_override": {
+      "allowed": true,
+      "priority": "CURRENT_USER_INSTRUCTION",
+      "effect": "REPLACE_CALIBRATION_PROFILE_ONLY",
+      "may_change_v3_stage_semantics": false,
+      "may_change_current_target_source": false
+    }
+  },
+  "v3_stage": {
+    "stage": "3",
+    "joint_count": 6,
+    "joint_uids": [
+      "V3.CENTER_OPERATION",
+      "V3.FIELD_INPUT",
+      "V3.OPERATOR_OBJECT",
+      "V3.STATE_TRANSFORMATION",
+      "V3.TRANSFER_CHECKPOINT",
+      "V3.RESULT_BOUNDARY"
+    ],
+    "semantics_authority": "RQ_R5_V3_CANON",
+    "exact_output_state": "NOT_EXECUTED"
+  },
+  "calibration": {
+    "default_anchor_order": [
+      "D5-H08",
+      "D4-H10",
+      "D6-H05"
+    ],
+    "default_use": "SENTENCE_MICRO_CALIBRATION_ONLY",
+    "calibration_value_state": "VOID",
+    "current_target_value_source": "CURRENT_TARGET_SOURCE_ONLY",
+    "literal_copy_authority": "NONE",
+    "exact_source_text_state": "NOT_BOUND"
+  },
+  "anchor_profiles": [
+    {
+      "target_id": "D5-H08",
+      "profile_role": "V3_DEFAULT_CALIBRATION_ANCHOR",
+      "sentence_micro_structure": "CALIBRATION_ONLY",
+      "calibration_value_state": "VOID",
+      "value_source": "CURRENT_TARGET_SOURCE_ONLY"
+    },
+    {
+      "target_id": "D4-H10",
+      "profile_role": "V3_DEFAULT_CALIBRATION_ANCHOR",
+      "sentence_micro_structure": "CALIBRATION_ONLY",
+      "calibration_value_state": "VOID",
+      "value_source": "CURRENT_TARGET_SOURCE_ONLY"
+    },
+    {
+      "target_id": "D6-H05",
+      "profile_role": "V3_DEFAULT_CALIBRATION_ANCHOR",
+      "sentence_micro_structure": "CALIBRATION_ONLY",
+      "calibration_value_state": "VOID",
+      "value_source": "CURRENT_D6_SOURCE_ONLY",
+      "archetype_target_id": "D5-H05",
+      "archetype_scope": [
+        "SENTENCE_STRUCTURE",
+        "MICRO_STRUCTURE"
+      ],
+      "archetype_value_state": "VOID",
+      "archetype_value_inheritance": "PROHIBITED"
+    }
+  ],
+  "archetype_profiles": [
+    {
+      "target_id": "D5-H05",
+      "profile_role": "D6-H05_ARCHETYPE_ONLY",
+      "allowed_use": [
+        "SENTENCE_STRUCTURE",
+        "MICRO_STRUCTURE"
+      ],
+      "calibration_value_state": "VOID",
+      "semantic_value_authority": "NONE"
+    }
+  ],
+  "exclusions": {
+    "operations": [
+      "EXACT_STAGE_REVERSE"
+    ],
+    "versions": [
+      "V4",
+      "V5",
+      "V6",
+      "V7"
+    ],
+    "cross_target_value_inheritance": "PROHIBITED",
+    "archetype_value_inheritance": "PROHIBITED"
+  }
+}

@@ -18,6 +18,8 @@ DELIVERY_GRADE=FNa98
 
 This is an internal `$clone-titi` capability. It does not create another public call key, clone identity, or fallback route. Activate it only when the current user instruction explicitly requests an R5/V3–V7 sentence stage, its micro fine-slot design, or its exact reverse rendering. Target and routing remain exactly bound to the user's current instruction.
 
+For lock-sentence work with no explicit Version, V3 is the default. For a V3 design or new V3 sentence with no user-selected sentence standard, read `TITI_V3_DEFAULT_LOCK_CALIBRATION.md` and apply the ordered `D5-H08 → D4-H10 → D6-H05` prose/micro-structure calibration. Its values are always void. `D6-H05` uses `D5-H05` as a sentence/micro archetype only and binds actual values from current D6 Source. The calibration never applies to V4–V7 or `EXACT_STAGE_REVERSE`.
+
 Before either operation, read the current R5 canon, registry, and exact-roundtrip contract completely. R5 controls stage meaning, joint identity, registry order, paragraph function, evidence boundary, and sentence authority. TITI controls only the micro-template design, occurrence addressing, structural audit, and exact sentence↔slot inversion. TITI must not reinterpret, summarize, merge, or silently extend an R5 formula.
 
 ## 1. Frozen stage mapping

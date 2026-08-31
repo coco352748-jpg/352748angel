@@ -22,6 +22,11 @@ from reverse_render_guard import (
     load_bundle as load_reverse_bundle,
     self_test as reverse_self_test,
 )
+from v3_default_lock_guard import (
+    audit_manifest as audit_v3_default_lock_manifest,
+    load_manifest as load_v3_default_lock_manifest,
+    self_test as v3_default_lock_self_test,
+)
 from v3_v7_micro_forge_guard import self_test as v3_v7_forge_self_test
 
 
@@ -42,6 +47,9 @@ def main() -> int:
     ).read_text(encoding="utf-8")
     v3_v7_contract = (
         ROOT / "references" / "TITI_V3_V7_MICRO_FORGE.md"
+    ).read_text(encoding="utf-8")
+    v3_default_lock_contract = (
+        ROOT / "references" / "TITI_V3_DEFAULT_LOCK_CALIBRATION.md"
     ).read_text(encoding="utf-8")
     interface = (ROOT / "agents" / "openai.yaml").read_text(encoding="utf-8")
 
@@ -79,6 +87,14 @@ def main() -> int:
             and "Resolution" in v3_v7_contract
             and "Completeness" in v3_v7_contract
         ),
+        "v3_default_lock_contract": (
+            "CONTRACT=TITI_V3_DEFAULT_LOCK_CALIBRATION_V1"
+            in v3_default_lock_contract
+            and "D5-H08 > D4-H10 > D6-H05" in v3_default_lock_contract
+            and "D6-H05" in skill
+            and "D5-H05" in skill
+            and "CALIBRATION_VALUE_VOID" in skill
+        ),
     }
     for name, passed in checks.items():
         if not passed:
@@ -99,6 +115,12 @@ def main() -> int:
         )
     )
     v3_v7_runtime = v3_v7_forge_self_test()
+    v3_default_lock_runtime = v3_default_lock_self_test()
+    v3_default_lock_manifest = audit_v3_default_lock_manifest(
+        load_v3_default_lock_manifest(
+            ROOT / "assets" / "titi_v3_default_lock_manifest.json"
+        )
+    )
     if runtime.get("status") != "PASS":
         failures.append("reverse_render_self_test")
     if example.get("status") != "PASS":
@@ -113,6 +135,10 @@ def main() -> int:
         failures.append("example_micro_template_design")
     if v3_v7_runtime.get("status") != "PASS":
         failures.append("v3_v7_micro_forge_self_test")
+    if v3_default_lock_runtime.get("status") != "PASS":
+        failures.append("v3_default_lock_self_test")
+    if v3_default_lock_manifest.get("status") != "PASS":
+        failures.append("v3_default_lock_manifest")
 
     report = {
         "status": "PASS" if not failures else "REVISE",
@@ -131,6 +157,9 @@ def main() -> int:
         ),
         "v3_v7_micro_forge_contract": (
             "PASS" if checks["v3_v7_micro_forge_contract"] else "REVISE"
+        ),
+        "v3_default_lock_contract": (
+            "PASS" if checks["v3_default_lock_contract"] else "REVISE"
         ),
         "reverse_render_self_test": runtime.get("status"),
         "example_roundtrip": example.get("status"),
@@ -156,6 +185,18 @@ def main() -> int:
         ),
         "v3_v7_exact_fna98": v3_v7_runtime.get("valid_exact_fna98", {}).get(
             "verdict"
+        ),
+        "v3_default_lock_self_test": v3_default_lock_runtime.get("status"),
+        "v3_default_lock_manifest": v3_default_lock_manifest.get("status"),
+        "v3_default_anchor_order": v3_default_lock_manifest.get(
+            "default_anchor_order"
+        ),
+        "v3_default_joint_count": v3_default_lock_manifest.get("v3_joint_count"),
+        "v3_default_d6_archetype": v3_default_lock_manifest.get(
+            "d6_archetype_target"
+        ),
+        "v3_default_d6_value_source": v3_default_lock_manifest.get(
+            "d6_value_source"
         ),
         "failures": failures,
     }

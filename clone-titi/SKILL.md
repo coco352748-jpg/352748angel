@@ -32,16 +32,20 @@ These two locks outrank every default below. The user's latest correction outran
 
 On every explicit invocation:
 
-1. Run `python3 scripts/validate_clone_titi.py` and require `status=PASS`, both top-level locks `PASS`, `lineage_isolation=PASS`, and all micro-design, V3–V7 forge, reverse-render, and Family-grammar tests `PASS`.
+1. Run `python3 scripts/validate_clone_titi.py` and require `status=PASS`, both top-level locks `PASS`, `lineage_isolation=PASS`, and all micro-design, V3 default-lock, V3–V7 forge, reverse-render, and Family-grammar tests `PASS`.
 2. Bind `ACTUAL_QUESTION / TARGET / ACTION / SOURCE / SCOPE / OUTPUT / FORMAT / COMPLETION` from the user's current instruction.
 3. Select exactly one mode: `MICRO_TEMPLATE_DESIGN`, `V3_V7_MICRO_FORGE`, `REVERSE_DESIGN`, `FORWARD_RENDER`, `ROUNDTRIP_AUDIT`, `REPAIR_PAIR`, `PACKAGE_PAIR`, or `FAMILY_GRAMMAR_FORGE`.
 4. For `MICRO_TEMPLATE_DESIGN`, read [references/TITI_MICRO_TEMPLATE_DESIGN.md](references/TITI_MICRO_TEMPLATE_DESIGN.md) completely and freeze the design brief, required roles, Source boundary, literal authority, output contract, and completion rule. An exact finished sentence is not required.
 5. For `V3_V7_MICRO_FORGE`, read [references/TITI_V3_V7_MICRO_FORGE.md](references/TITI_V3_V7_MICRO_FORGE.md) completely, then read the current `rq-r5` skill, V3–V7 sentence-joint canon, joint registry, and exact-roundtrip contract completely. Freeze each requested Version independently; never average V3–V7 into one template.
+   - For a lock-sentence job with no explicit Version, select `V3`.
+   - For a `V3` design or new V3 sentence with no user-selected calibration, also read [references/TITI_V3_DEFAULT_LOCK_CALIBRATION.md](references/TITI_V3_DEFAULT_LOCK_CALIBRATION.md) completely and apply its ordered default set: `D5-H08 → D4-H10 → D6-H05`.
+   - The set is sentence/micro-structure calibration only. Every chart, event, and conclusion value is `CALIBRATION_VALUE_VOID`; bind the current Target only from its current Source.
 6. For every exact sentence-pair operation, read [references/TITI_REVERSE_RENDER_CONTRACT.md](references/TITI_REVERSE_RENDER_CONTRACT.md) completely and freeze the exact source sentence bytes before filling, reversing, or repairing slots. If the exact sentence is unavailable, HOLD only that source joint; never reconstruct it from memory.
 7. For `FAMILY_GRAMMAR_FORGE`, also read [references/TITI_FAMILY_GRAMMAR_FORGE.md](references/TITI_FAMILY_GRAMMAR_FORGE.md) completely.
 8. Run the mode-specific guard for every new or changed artifact:
    - `MICRO_TEMPLATE_DESIGN`: `python3 scripts/micro_template_design_guard.py audit --bundle <DESIGN_BUNDLE.json> --json`
    - `V3_V7_MICRO_FORGE`: `python3 scripts/v3_v7_micro_forge_guard.py audit --bundle <STAGE_BUNDLE.json> --json`
+   - V3 default calibration: `python3 scripts/v3_default_lock_guard.py audit --manifest assets/titi_v3_default_lock_manifest.json --json`
    - exact sentence pair: `python3 scripts/reverse_render_guard.py audit --bundle <BUNDLE.json> --json`
    - `FAMILY_GRAMMAR_FORGE`: `python3 scripts/family_grammar_guard.py audit --bundle <FAMILY_BUNDLE.json> --json`
 9. Require JSON `status=PASS`, every applicable gate `true`, and zero failures before marking the artifact complete. A V3–V7 design may claim only `FNA98_DESIGN_READY`; only executed exact reverse-rendering may claim `FNA98_SENTENCE_PASS`.
@@ -74,6 +78,8 @@ Use this route when the user asks TITI for R5 V3–V7 sentence-stage micro templ
 6. In `EXACT_STAGE_REVERSE`, freeze the approved paragraphs, execute the native exact sentence↔slot roundtrip for every joint, and return `FNA98_SENTENCE_PASS` only after all Source, stage, and three-axis gates pass.
 7. Compute FNa98 as the logical AND of Density, Resolution, and Completeness. Do not use a score average, word count, declared `PASS`, or one strong joint to compensate for a failed one.
 8. For V6, keep the first inner mechanism and deepest core joint distinct. For V7, require at least two independently addressable lower structures with separate Source-backed input→operation→transformation→handoff→result paths.
+9. For V3 lock-sentence work, use the default calibration only when the user did not choose another sentence standard. Preserve the six V3 joints unchanged. `D6-H05` uses `D5-H05` only as its sentence/micro-structure archetype and must use current `D6-H05` Source values. Any unclosed archetype slot stays `HOLD`.
+10. Do not apply the V3 default calibration to V4–V7 or to `EXACT_STAGE_REVERSE`; an approved exact source sentence always outranks a style calibration.
 
 This is a TITI-internal mode, not another public call key. R5 controls stage meaning and paragraph authority; TITI controls micro addressing and lossless bidirectional proof.
 
@@ -187,6 +193,9 @@ Reject or HOLD:
 - FNa98 inferred from sentence length, an average score, a declared status, or a structural sentinel;
 - V6 first-inner and deepest-inner joints collapsed into interchangeable packets;
 - a V7 law promoted from one lower structure or duplicated Source labels;
+- a calibration anchor supplying a sign, occupant, lord, degree, pada, strength, aspect, event, result, or timing value to the current Target;
+- `D5-H05` values copied into `D6-H05` instead of using only its sentence/micro structure;
+- the V3 default calibration applied to V4–V7, an exact reverse job, or against a user-selected calibration;
 - rerouting to a nearby clone because its name or capabilities look similar.
 
 ## Simple call response
