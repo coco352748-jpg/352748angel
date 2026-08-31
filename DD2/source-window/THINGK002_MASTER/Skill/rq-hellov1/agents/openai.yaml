@@ -1,0 +1,6 @@
+interface:
+  display_name: "RQ Hello V1"
+  short_description: "소스창→$스킬→Drive 백업 전역순서와 FNa98 오프닝 잠금"
+  default_prompt: "$rq-hellov1로 소스창 실행본→해당 $스킬 즉시 실행→Google Drive 백업 순서를 시스템 상위잠금하고 FNa98 범위를 열어줘."
+policy:
+  allow_implicit_invocation: true
