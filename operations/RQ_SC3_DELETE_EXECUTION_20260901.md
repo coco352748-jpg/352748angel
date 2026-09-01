@@ -5,7 +5,8 @@ EXECUTION_ID=RQ_SC3_DELETE_20260901
 UTC_CHECKED_AT=2026-09-01T15:59:53Z
 TARGET=rq-sc3_EXTERNAL_PERSONAL_SKILL
 PRESERVE=rq-vedic_INTERNAL_SC3
-STATUS=HOLD_BACKEND_HTTP_500
+STATUS=HOLD_BACKEND_HTTP_500_CONFIRMED
+PRE_PUSH_CHECK=PASS
 MUTATION_CONFIRMED=false
 SLOT_DELTA=0
 OTHER_SKILLS_CHANGED=false
@@ -52,18 +53,20 @@ INTERNAL_ROUTE_STATUS=PASS
 
 ## 중앙 응답
 
-세 가지 제출 경로를 구분해 확인했다.
+네 가지 제출 경로를 구분해 확인했다.
 
 1. 중앙 기본 정본 직접 반영 요청
 2. 준비된 영구삭제 작업 단위 제출
-3. 제출 검문 상태 재확인 뒤 작업 단위 재제출
+3. 원래 제출 검문 상태 재확인 뒤 작업 단위 재제출
+4. 실행 가능한 별도 검문 경로에서 LFS 사전검문 PASS 뒤 작업 단위 제출
 
-세 요청 모두 동일하게 다음 응답으로 종료됐다.
+네 요청 모두 동일하게 다음 응답으로 종료됐다.
 
 ```text
 error=RPC failed
 http_status=500
 transport_message=remote end hung up unexpectedly
+pre_push_check=PASS
 central_state_changed=false
 ```
 
@@ -76,7 +79,7 @@ TARGET_LOCK=PASS
 PROTECTED_COPY_LOCK=PASS
 HASH_CHECK=PASS
 DELETE_PACKET_SCOPE=PASS
-CENTRAL_DELETE=HOLD
+CENTRAL_DELETE=HOLD_BACKEND_HTTP_500
 REMOTE_ABSENCE_VERIFY=FAIL
 SLOT_RECOVERY=NOT_ACHIEVED
 OTHER_SKILLS=UNCHANGED
@@ -93,3 +96,10 @@ OTHER_SKILLS=UNCHANGED
 3. Vedic 내부 SC3 Source hash가 유지됨
 4. `$rq-vedic-sc3` 내부 호출이 PASS함
 5. 다른 스킬 변화가 없음
+
+
+## 최종 병목 확인
+
+원래 검문 훅이 실행 불가한 마운트에 있던 문제를 분리해, 동일 훅을 실행 가능한 경로에서 직접 PASS시킨 뒤 제출했다. 그 상태에서도 중앙이 같은 HTTP 500을 반환했고 정본은 변하지 않았다.
+
+따라서 현재 실패 원인은 삭제 패킷·대상 식별·Vedic 내부 보존·로컬 사전검문이 아니라 중앙 저장 서비스의 쓰기 처리다. 이 실행에서는 더 이상 제출하지 않는다.
