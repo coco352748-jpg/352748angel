@@ -1,6 +1,6 @@
 ---
 name: rq-vedic
-description: Source 잠금형 조티시 지식엔진과 차트 해석을 하나의 Vedic 본체 안에서 ELIVEDIC→ELICOLLEGE→ELIPHD 하위 메뉴로 실행·검산하는 마스터 스킬. 사용자가 $rq-vedic, 베딕·조티시 AI 데이터베이스·빅데이터, 법칙·규칙의 차트별 스킬화, 20D·12H·Rashi/Bhava/이동/공동장/배경/강도/시간/행렬 메뉴, 현행 공통인정, SC7·SC8 전층 적용 또는 FNa98 처음부터 최종 엔딩을 요청할 때 사용한다. 세 수준을 별도 스킬로 만들지 않고 공통 메뉴·증거원장·19층을 공유하며, 특정 Source 번호·폴더·라우터는 자동 연결하지 않는다.
+description: Source 잠금형 조티시 지식엔진과 차트 해석을 하나의 Vedic 본체 안에서 ELIVEDIC→ELICOLLEGE→ELIPHD 하위 메뉴로 실행·검산하는 마스터 스킬. 사용자가 $rq-vedic, 베딕·조티시 AI 데이터베이스·빅데이터, 법칙·규칙의 차트별 스킬화, 20D·12H·Rashi/Bhava/이동/공동장/배경/강도/시간/행렬 메뉴, 현행 공통인정, SC7·SC8 전층 적용, $rq-vedic-sc·$rq-vedic-sc3·$rq-vedic-sc7·$rq-vedic-sc8·$rq-vedic-sc8v2 또는 FNa98 처음부터 최종 엔딩을 요청할 때 사용한다. 세 수준과 SC series를 별도 등록 스킬로 만들지 않고 한 rq-vedic 슬롯의 하위 메뉴로 라우팅하며, 명시되지 않은 Source 번호·폴더·라우터는 자동 연결하지 않는다.
 ---
 
 # RQ Vedic
@@ -26,6 +26,10 @@ description: Source 잠금형 조티시 지식엔진과 차트 해석을 하나�
 7. 사용자가 분석 연산자를 호출하거나 연산자 의미가 결과를 바꾸면 `references/analysis-operator-contract.md`
 8. 처음부터 최종 엔딩·완제품 설계·FNa98 감사를 요구하면 `references/fna98-end-gate.md`
 9. SC 사본 작업이면 `references/sc-adapter-contract.md`: 물리 사본·Source lane 어댑터 계약
+10. `$rq-vedic-sc*` 호출 또는 SC 하위 메뉴 작업이면 `references/vedic-sc-submenu-registry.json`: 한 등록 슬롯의 SC selector·기존 owner skill·HOLD 경계
+11. `$rq-sc8-01` D1 PIKACHU를 D1·12H·Rashi/Bhava/CO2/Nak/pada/Circuit의
+    세 수준과 19층으로 분석하면 `references/d1-pikachu-analysis-contract.md`와
+    `references/d1-pikachu-analysis-matrix.json`
 
 현재성 또는 방법 입장이 쟁점이면 공식 기관·현행 기술문서의 최신 상태를 다시 확인하라. 고전 문헌은 현재 실무 수용을 확인하는 보조자료일 뿐, 오래되었다는 이유만으로 기본규칙이 되지 않는다.
 
@@ -47,6 +51,35 @@ Selector만 호출되면 메뉴 좌표를 잠근 것이지 자동 실행한 것�
 
 숫자 route보다 semantic module ID가 권위값이다. Master는 `20=Yoga`, `21=Transit`이다. 하위 owner adapter의 기존 숫자가 반대여도 의미 ID로 변환하며 Master 순서를 바꾸지 않는다. Varga Mini/Full의 Master `13/14`와 legacy coordinate `0-1/0-2`를 같은 Job에서 중복 실행하지 않는다.
 
+## SC 한 칸 하위 메뉴
+
+등록·표시되는 스킬은 `$rq-vedic` 하나다. SC series는 새 `SKILL.md`나 새 등록 슬롯을 만들지 않고 `references/vedic-sc-submenu-registry.json`의 내부 selector로 기존 owner skill에 위임한다.
+
+- `$rq-vedic SC` 또는 `$rq-vedic-sc` → 기존 `$rq-sc` 합체호출
+- `$rq-vedic SC3` 또는 `$rq-vedic-sc3` → 기존 `$rq-sc3` 도메인 좌표 Source
+- `$rq-vedic SC7` 또는 `$rq-vedic-sc7` → 기존 `$rq-sc7` Plain Source
+- `$rq-vedic SC8` 또는 `$rq-vedic-sc8` → 기존 `$rq-sc8` PIKACHU Source router
+- `$rq-vedic SC8V2` 또는 `$rq-vedic-sc8v2` → 기존 `$rq-sc8v2` D×H 합성 orchestration
+- `$rq-vedic SC8-01` 또는 `$rq-vedic-sc8-01` → 기존 `$rq-sc8-01` D1 PIKACHU 정본
+- `$rq-vedic SC8-<SOURCE_CODE>` 또는 `$rq-vedic-sc8-<source-code>` → 동일 code의 `$rq-sc8-<source-code>` 한 계층
+
+`$rq-vedic SC8-01`을 해석할 때의 Source 진입순서는 다음으로 고정한다.
+
+`$rq-sc8-13ab Varga Mini → $rq-sc8-14ab Varga Full → $rq-sc8-01 D1 PIKACHU`
+
+13AB는 후보 방향을 먼저 열고 14AB는 실제 Full Varga 비교값으로 확인한 뒤, 그 Handoff를 01 D1 적용판이 소비한다. 이것은 사용자가 승인한 D1 해석 선행 Source 순서이며 일반 SC8 호출의 인접 계층 자동병합으로 확장하지 않는다. 세 Source의 값·상태·bytes가 다르면 앞값이나 뒷값으로 덮지 않고 각 lane과 차이를 보존한다. 이 진입순서는 Source dependency를 잠그며 아래 19층 semantic ID와 증거를 중복 실행·가산하지 않는다.
+
+SC selector가 명시되면 설치된 스킬에서 registry의 `target_skill`과 일치하는 frontmatter `name`을 찾아 해당 `SKILL.md`를 처음부터 끝까지 읽는다. owner가 없거나 읽을 수 없으면 기능을 복제하지 말고 `HOLD`한다. 같은 이름 후보가 여러 개면 registry의 `required_markers`가 모두 일치하는 단일 owner만 선택하며 여러 후보의 내용을 합치지 않는다.
+
+이 연결은 호출명과 Handoff만 제공한다. `$rq-sc*`의 Source·권한·기본값·단독호출·결합호출·금지선을 그대로 보존하고 그 내용을 `$rq-vedic` 안에 복제하지 않는다. `$rq-vedic`만 호출되고 SC selector가 없으면 SC series를 자동으로 열지 않는다.
+
+`$rq-vedic-sc2`와 `$rq-vedic-sc4`는 독립 owner가 없으므로 자동 연결하지 않는다. `SC8-2AB`는 Bhava 차트이고 `SC8-4AK`는 Shadbala·Drishti·Planet Aspect Source다. `SC8-4AB`는 Vedic CO2 Source이므로 숫자 4만으로 4AB와 4AK 중 하나를 고르지 말고 exact route를 지정하도록 `HOLD`한다.
+
+`$rq-sc8-01` D1 PIKACHU batch에서는 수준마다 D1 전체 1개·House 12개·Module
+6개의 19개 menu view를 제공한다. 세 수준의 57개 menu view는 19층×3의 57개
+layer packet을 다시 계산하는 독립 엔진이 아니라, 한 번 계산된 packet을 서로 다른
+방향에서 조회하는 projection이다. `57×19` 중복 실행을 금지한다.
+
 ## 지식엔진
 
 빅데이터는 증거 후보를 찾고 대조하는 pool이며 데이터베이스는 검증된 Source·방법·규칙·예외·case를 구조화한 원장이다. 검색빈도·문서수·임베딩 유사도·모델 자신감은 규칙 권위가 아니다.
@@ -59,7 +92,7 @@ AI는 후보를 만들 수 있지만 exact passage·method·scope·exception·fa
 
 ## 비연결 원칙
 
-특정 Source 번호, 파일명, 폴더, 외부 라우터 또는 다른 스킬을 자동 연결하지 마라. 호출자가 실제로 제공하거나 사용자가 명시적으로 승인한 차트 패킷만 `CHART_INPUT_LOCK`에 넣어라. 입력 출처가 없으면 추정 연결하지 말고 `HOLD`하라.
+특정 Source 번호, 파일명, 폴더, 외부 라우터 또는 다른 스킬을 자동 연결하지 마라. 사용자가 명시한 SC 하위 selector는 `vedic-sc-submenu-registry.json`에 등록된 exact owner로만 연결하며 이것을 인접 Source의 자동 연결로 확장하지 마라. 호출자가 실제로 제공하거나 사용자가 명시적으로 승인한 차트 패킷만 `CHART_INPUT_LOCK`에 넣어라. 입력 출처가 없으면 추정 연결하지 말고 `HOLD`하라.
 
 ## SC 물리 사본
 
@@ -127,7 +160,11 @@ python3 scripts/verify_sc_protocol_copies.py
 python3 scripts/validate_vedic_submenu.py
 ```
 
-검증 실패를 완료로 선언하지 마라. `ARCHITECTURE_PASS`, `CORPUS_IN_PROGRESS`, `MODULE_PASS`, `CHART_JOB_PASS`, `FULL_SYSTEM_PASS`를 서로 바꾸지 마라. 사용자가 전체 층 패킷을 요구하지 않으면 최종 답에는 결론, 핵심 근거 경로, 적용방법, HOLD/CONFLICT, 차트층과 학자층의 분리만 간결하게 제시하라.
+검증 실패를 완료로 선언하지 마라. `ARCHITECTURE_PASS`, `CORPUS_COLLECTION_READY`,
+`CORPUS_IN_PROGRESS`, `MODULE_PASS`, `CHART_JOB_PASS`, `FULL_SYSTEM_PASS`를 서로
+바꾸지 마라. 실제 Source 수집이 시작되지 않았으면 `CORPUS_IN_PROGRESS`를 금지한다.
+사용자가 전체 층 패킷을 요구하지 않으면 최종 답에는 결론, 핵심 근거 경로,
+적용방법, HOLD/CONFLICT, 차트층과 학자층의 분리만 간결하게 제시하라.
 
 ## 인식론적 경계
 

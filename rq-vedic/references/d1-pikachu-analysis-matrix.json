@@ -1,0 +1,402 @@
+{
+  "schema_version": "RQ_VEDIC_D1_PIKACHU_ANALYSIS_MATRIX_V1",
+  "root_skill": "rq-vedic",
+  "independent_skill_creation": false,
+  "source_binding": {
+    "call": "$rq-sc8-01",
+    "provider": "rq-sc8",
+    "mode": "EXPLICIT_CANONICAL_DCHART_ROUTE",
+    "d_chart": "D1",
+    "package": "assets/pikachu-sc-canonical/01_AB_D1_PicAcHu_☆.zip",
+    "package_sha256": "546101d5fb52298df2d5189899388b76f747308b491cf5dd3c3d27df69d54c54",
+    "source_lane_id": "SC8:01:D1_PIKACHU",
+    "pre_interpretation_source_order": [
+      {
+        "position": 1,
+        "call": "$rq-sc8-13ab",
+        "meaning": "VARGA_MINI_CANDIDATE",
+        "archive": "assets/source-layers/rq-sc8-13ab/07_13AB_MiNi_Varga.zip",
+        "archive_sha256": "abf820cb8b9743bffe599b168f089628d771828a430ba1e3f6ab81cf1886e368",
+        "member": "07_13AB_D1_MiNi_Varga.txt",
+        "source_lane_id": "SC8:13AB:D1_VARGA_MINI"
+      },
+      {
+        "position": 2,
+        "call": "$rq-sc8-14ab",
+        "meaning": "VARGA_FULL_CONFIRMATION",
+        "archive": "assets/source-layers/rq-sc8-14ab/07_14AB_F_Varga.zip",
+        "archive_sha256": "42e8531a6d48a6dda73107fa35e476a5835a43257d4ad1088b2fcf9291b1353a",
+        "member": "07_14AB_D1_F_Varga.txt",
+        "source_lane_id": "SC8:14AB:D1_VARGA_FULL"
+      },
+      {
+        "position": 3,
+        "call": "$rq-sc8-01",
+        "meaning": "D1_PIKACHU_APPLIED_TARGET",
+        "archive": "assets/pikachu-sc-canonical/01_AB_D1_PicAcHu_☆.zip",
+        "archive_sha256": "546101d5fb52298df2d5189899388b76f747308b491cf5dd3c3d27df69d54c54",
+        "source_lane_id": "SC8:01:D1_PIKACHU"
+      }
+    ],
+    "pre_interpretation_handoff_lock": "VARGA_MINI_TO_VARGA_FULL_TO_D1_PIKACHU",
+    "pre_interpretation_scope": "D1_SC8_01_INTERPRETATION_ONLY",
+    "source_lane_merge": "PROHIBITED",
+    "difference_overwrite": "PROHIBITED",
+    "evidence_double_count": "PROHIBITED"
+  },
+  "action_binding": {
+    "required_action": "CHART_EXECUTE",
+    "batch_trigger": "$rq-sc8-01 plus explicit analysis request",
+    "selector_only_outside_batch": "NAVIGATION_ONLY"
+  },
+  "levels": [
+    {
+      "id": "ELIVEDIC",
+      "aliases": ["ELI VEDIC"],
+      "position": 1,
+      "predecessors": [],
+      "claim_ceiling": "DIRECT_SOURCE_AND_BOUNDARY"
+    },
+    {
+      "id": "ELICOLLEGE",
+      "aliases": [],
+      "position": 2,
+      "predecessors": ["ELIVEDIC"],
+      "claim_ceiling": "PATTERN_CANDIDATE_WITH_EXCEPTIONS"
+    },
+    {
+      "id": "ELIPHD",
+      "aliases": [],
+      "position": 3,
+      "predecessors": ["ELIVEDIC", "ELICOLLEGE"],
+      "claim_ceiling": "SOURCE_CLOSED_FINAL_INTERPRETATION"
+    }
+  ],
+  "houses": [
+    "1H",
+    "2H",
+    "3H",
+    "4H",
+    "5H",
+    "6H",
+    "7H",
+    "8H",
+    "9H",
+    "10H",
+    "11H",
+    "12H"
+  ],
+  "modules": [
+    {
+      "id": "RASHI_BASELINE",
+      "token": "RASHI",
+      "parent_lanes": ["RASHI"],
+      "source_members": ["02_1A_D1_RaShi_12H_AppLieD_R.txt"],
+      "master_route": "1"
+    },
+    {
+      "id": "BHAVA_REALITY_POSITION",
+      "token": "BHAVA",
+      "parent_lanes": ["BHAVA"],
+      "source_members": ["02_1B_D1_Bha_12H_AppLieD_R.txt"],
+      "master_route": "2"
+    },
+    {
+      "id": "CO_PRESENCE_FIELD",
+      "token": "CO2",
+      "parent_lanes": ["CO2"],
+      "source_members": ["04_1A_D1_CoPreSeNcE_12H_AppLieD_R.txt"],
+      "master_route": "4",
+      "not_equivalent_to": "RASHI_BHAVA_MOVE_JUDGMENT"
+    },
+    {
+      "id": "NAKSHATRA_BLOCK",
+      "token": "NAK",
+      "parent_lanes": ["RASHI", "BHAVA", "CO2"],
+      "projection_fields": ["Nakshatra", "NL"],
+      "source_members": [
+        "02_1A_D1_RaShi_12H_AppLieD_R.txt",
+        "02_1B_D1_Bha_12H_AppLieD_R.txt",
+        "04_1A_D1_CoPreSeNcE_12H_AppLieD_R.txt"
+      ],
+      "projection_policy": "PRESERVE_PARENT_LANES_NO_AUTHORITY_MERGE"
+    },
+    {
+      "id": "PADA_BLOCK",
+      "token": "pada",
+      "parent_lanes": ["RASHI", "BHAVA", "CO2"],
+      "projection_fields": ["Pada"],
+      "source_members": [
+        "02_1A_D1_RaShi_12H_AppLieD_R.txt",
+        "02_1B_D1_Bha_12H_AppLieD_R.txt",
+        "04_1A_D1_CoPreSeNcE_12H_AppLieD_R.txt"
+      ],
+      "projection_policy": "PRESERVE_PARENT_LANES_NO_AUTHORITY_MERGE",
+      "dependencies": ["NAKSHATRA_BLOCK"]
+    },
+    {
+      "id": "NAKPADA_CIRCUIT",
+      "token": "Circuit",
+      "parent_lanes": ["RASHI", "BHAVA", "CO2"],
+      "projection_fields": ["RL", "NL", "SL", "SSL"],
+      "source_members": [
+        "02_1A_D1_RaShi_12H_AppLieD_R.txt",
+        "02_1B_D1_Bha_12H_AppLieD_R.txt",
+        "04_1A_D1_CoPreSeNcE_12H_AppLieD_R.txt"
+      ],
+      "projection_policy": "PRESERVE_PARENT_LANES_NO_AUTHORITY_MERGE",
+      "dependencies": ["NAKSHATRA_BLOCK", "PADA_BLOCK"]
+    }
+  ],
+  "menu_projection": {
+    "per_level": {
+      "chart_views": {
+        "selectors": ["D1"],
+        "count": 1,
+        "projection": "ALL_12_HOUSES_X_ALL_6_MODULES"
+      },
+      "house_views": {
+        "selectors_ref": "houses",
+        "count": 12,
+        "projection": "ONE_HOUSE_X_ALL_6_MODULES"
+      },
+      "module_views": {
+        "selectors": ["RASHI", "BHAVA", "CO2", "NAK", "pada", "Circuit"],
+        "count": 6,
+        "projection": "ONE_MODULE_X_ALL_12_HOUSES"
+      },
+      "view_count": 19
+    },
+    "level_count": 3,
+    "total_menu_view_count": 57,
+    "core_cell_formula": "12 houses x 6 modules x 3 levels",
+    "core_cell_count": 216,
+    "cartesian_layer_view_expansion": "PROHIBITED"
+  },
+  "layer_engine": {
+    "route": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "D-1",
+      "5-4",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "12",
+      "13",
+      "14",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21"
+    ],
+    "layer_count": 19,
+    "level_count": 3,
+    "layer_packet_count": 57,
+    "run_policy": "EACH_LAYER_ONCE_IN_MASTER_ORDER",
+    "handoff_policy": "REFERENCE_IDS_ONLY_NO_SOURCE_REWRITE"
+  },
+  "layer_source_bindings": [
+    {
+      "layer": "1",
+      "source_call": "$rq-sc8-01",
+      "members": ["02_1A_D1_RaShi_12H_AppLieD_R.txt"]
+    },
+    {
+      "layer": "2",
+      "source_call": "$rq-sc8-01",
+      "members": ["02_1B_D1_Bha_12H_AppLieD_R.txt"]
+    },
+    {
+      "layer": "3",
+      "source_call": "$rq-sc8-01",
+      "members": ["HYEWON_D1_RASHI_BHAVA_03_FIRST_INTEGRATION_PROMISE_LINKED_APPLIED_98.txt"],
+      "boundary_checks": [
+        "RASHI_RAW_PRESERVED",
+        "BHAVA_RAW_PRESERVED",
+        "PLANET_NOT_DELETED",
+        "DEGREE_CONFLICT_PROPAGATED",
+        "FULL_PACKET_BEFORE_ROLE_FILTER"
+      ]
+    },
+    {
+      "layer": "4",
+      "source_call": "$rq-sc8-01",
+      "members": ["04_1A_D1_CoPreSeNcE_12H_AppLieD_R.txt"]
+    },
+    {
+      "layer": "D-1",
+      "source_call": "$rq-sc8-01",
+      "members": [
+        "05_1A_PUSHKARA_BHAGA_D1_12H_AppLieD_♤.txt",
+        "05_2A_D1_UPAGRAHA_SOURCE_♤.txt",
+        "05_3A_D1_SPIRIT_CHALIT_♤.txt"
+      ]
+    },
+    {
+      "layer": "5-4",
+      "source_call": "$rq-sc8-01",
+      "members": ["05_4A_D1_MOON_CHART_12H_AppLieD_R.txt"]
+    },
+    {
+      "layer": "6",
+      "source_call": "$rq-sc8-01",
+      "members": ["06_1A_D1_AruDhA_12H_AppLieD_R.txt"]
+    },
+    {
+      "layer": "7",
+      "source_call": "$rq-sc8-01",
+      "members": [
+        "07_1A_D1_ShAdBaLa_12H_AppLieD_A.txt",
+        "07_1A_D1_ShAdBaLa_12H_AppLieD_R.txt",
+        "07_2A_D1_Bha_BaLa_12H_AppLieD_R.txt",
+        "07_3A_D1_VimSo_pAkA_12H_AppLieD_R.txt",
+        "11_1A_D1_PLANET_ASPECT_12H_AppLieD_R.txt",
+        "015_1A_D1_AsPect02_12H_AppLieD_R.txt",
+        "016_1A_D1_Aspect_03_12H_AppLieD_R.txt"
+      ],
+      "aggregation": "NON_ADDITIVE"
+    },
+    {
+      "layer": "8",
+      "source_call": "$rq-sc8-01",
+      "members": [
+        "08_1A_D1_MIrtYu_12H_AppLieD_.txt",
+        "08_2A_D1_SpOtHeR_12H_AppLieD_.txt"
+      ]
+    },
+    {
+      "layer": "9",
+      "source_call": "$rq-sc8-01",
+      "members": ["09_1A_D1_AVA_12H_AppLieD_R.txt"]
+    },
+    {
+      "layer": "10",
+      "source_call": "$rq-sc8-01",
+      "members": ["10_1A_D1_BhiNNa_MaTriX_12H_AppLieD_R.txt"]
+    },
+    {
+      "layer": "12",
+      "source_call": "$rq-sc8-01",
+      "members": [
+        "012_1A_D1_SaP_12H_AppLieD_R.txt",
+        "012_2A_D1_Tks_12H_AppLieD_R.txt",
+        "012_3A_D1_Eks_12H_AppLieD_R.txt",
+        "012_4A_D1_SpD_12H_AppLieD_R.txt"
+      ],
+      "aggregation": "SEPARATE_STAGES"
+    },
+    {
+      "layer": "13",
+      "source_call": "$rq-sc8-01",
+      "members": ["013_1A_D1_VARGA_LINK_MiNi_AppLieD_R.txt"]
+    },
+    {
+      "layer": "14",
+      "source_call": "$rq-sc8-01",
+      "members": ["014_1A_D1_VaRgA_F_AppLieD_R.txt"]
+    },
+    {
+      "layer": "17",
+      "source_call": "$rq-sc8-01",
+      "members": ["017_1A_D1_DaShA_AppLieD_R.txt"],
+      "time_scope_required_for_claims": true
+    },
+    {
+      "layer": "18",
+      "source_call": "$rq-sc8-01",
+      "members": ["018_1A_D1_TiMiNg_GaTe_AppLieD_R.txt"],
+      "time_scope_required_for_claims": true
+    },
+    {
+      "layer": "19",
+      "source_call": "$rq-sc8-19ab",
+      "archive": "assets/source-layers/rq-sc8-19ab/019_1AB_AVA__A_Sc.zip",
+      "archive_sha256": "69ab336a9342a536f6ea9c08b41dbb60995ada922702807c444cd4ecd0db9e84",
+      "members": ["019_1A_D1_AVA_12H_AppLieD_A_Sc.txt"],
+      "source_lane_policy": "KEEP_SEPARATE_FROM_SC8_01",
+      "time_scope_required_for_claims": true
+    },
+    {
+      "layer": "20",
+      "source_call": "$rq-sc8-20ab",
+      "archive": "assets/source-layers/rq-sc8-20ab/07_20AB_YogA_KO_FNa98.zip",
+      "archive_sha256": "4877bbbec82ac8fca9807eaf479998ad656dd5b9552c29d605d60f2d1ec8e3ba",
+      "members": ["07_20AB_YogA_KO_FNa98.txt"],
+      "locator": "01. 라시 (D1)",
+      "source_lane_policy": "KEEP_SEPARATE_FROM_SC8_01",
+      "method_binding_required": true
+    },
+    {
+      "layer": "21",
+      "source_call": "$rq-sc8-21ab",
+      "archive": "assets/source-layers/rq-sc8-21ab/021_1AB_Transit__A_Sc.zip",
+      "archive_sha256": "43852fa58a304dec1126d0e9e399e6b74518f2b6cb1be22f0bf3372cb5421c46",
+      "members": ["HYEWON_TRANSIT_CHART_SET_2026_08_10_184736.txt"],
+      "locator": "《01 RASHI (T) / TRANSIT RASHI D1》",
+      "source_lane_policy": "KEEP_SEPARATE_FROM_SC8_01",
+      "reference_time_required": true,
+      "static_d1_default_status": "NOT_APPLICABLE",
+      "transit_snapshot": "10-Aug-2026 06:47:36 PM +09:00",
+      "natal_reference_scope": "TRANSIT_SCREEN_CONTEXT_ONLY",
+      "natal_reference_overwrite": "PROHIBITED",
+      "known_cross_lane_differences": [
+        {
+          "field": "Rahu.degree",
+          "sc8_01": "26:33:09",
+          "transit_natal_reference": "24:58:08",
+          "status": "DIFFERENCE"
+        },
+        {
+          "field": "Rahu.SL",
+          "sc8_01": "Ju",
+          "transit_natal_reference": "Ra",
+          "status": "DIFFERENCE"
+        },
+        {
+          "field": "Ketu.degree",
+          "sc8_01": "26:33:09",
+          "transit_natal_reference": "24:58:08",
+          "status": "DIFFERENCE"
+        },
+        {
+          "field": "Ketu.SL",
+          "sc8_01": "Ju",
+          "transit_natal_reference": "Ra",
+          "status": "DIFFERENCE"
+        }
+      ],
+      "difference_policy": "NO_OVERWRITE_NO_AVERAGE_HOLD_NODE_DEPENDENT_TIME_CLAIMS"
+    }
+  ],
+  "excluded_default_evidence": [
+    {
+      "member": "3P_1AB_o0o0o_D1_AppL.txt",
+      "reason": "DERIVED_COMBINED_CONTAINER_NOT_AN_ADDITIONAL_INDEPENDENT_SOURCE"
+    }
+  ],
+  "invariants": {
+    "rashi_raw_preserved": true,
+    "bhava_raw_preserved": true,
+    "planet_not_deleted": true,
+    "degree_conflict_propagated": true,
+    "full_packet_before_role_filter": true,
+    "source_member_text_mutation": "PROHIBITED",
+    "parent_projection_merge": "PROHIBITED",
+    "co2_degree_order_to_time_order": "PROHIBITED_WITHOUT_BOUND_METHOD",
+    "level_backwrite": "PROHIBITED",
+    "missing_rule_fabrication": "PROHIBITED"
+  },
+  "completion_states": {
+    "design": "DESIGN_PASS_AFTER_VALIDATION",
+    "corpus": "CORPUS_COLLECTION_READY",
+    "direct_observation_runtime": "READY_AFTER_SOURCE_LOCK",
+    "rule_dependent_runtime": "HOLD_UNTIL_ACTIVE_RULE_CORPUS",
+    "chart_analysis": "NOT_EXECUTED_BY_DESIGN_ONLY_REQUEST"
+  }
+}

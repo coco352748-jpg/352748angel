@@ -1,0 +1,189 @@
+{
+  "registry_id": "RQ_VEDIC_SC_SUBMENU_REGISTRY_V1",
+  "root_skill": "rq-vedic",
+  "registered_call": "$rq-vedic",
+  "registered_skill_count": 1,
+  "independent_skill_creation": false,
+  "routing_policy": "DELEGATE_WITHOUT_COPY_OR_AUTHORITY_MERGE",
+  "selector_forms": {
+    "canonical": "$rq-vedic <SC_SELECTOR>",
+    "compact_alias": "$rq-vedic-<sc-route>"
+  },
+  "routes": [
+    {
+      "selector": "SC",
+      "canonical_call": "$rq-vedic SC",
+      "compact_alias": "$rq-vedic-sc",
+      "target_skill": "rq-sc",
+      "target_call": "$rq-sc",
+      "mode": "COMPOSITE",
+      "semantics": "PRESERVE_TARGET_CONTRACT",
+      "required_markers": [
+        "SC_ROOT_PROTOCOL_LOCK",
+        "CHART_INPUT_LOCK",
+        "SC_LOCAL_RQ_VEDIC"
+      ]
+    },
+    {
+      "selector": "SC3",
+      "canonical_call": "$rq-vedic SC3",
+      "compact_alias": "$rq-vedic-sc3",
+      "target_skill": "rq-sc3",
+      "target_call": "$rq-sc3",
+      "mode": "DOMAIN_COORDINATE_SOURCE_ONLY",
+      "semantics": "PRESERVE_TARGET_CONTRACT",
+      "required_markers": [
+        "SC3_DOMAIN_COORDINATE",
+        "DDOMAIN__FN.txt",
+        "240_COORDINATES_COMPLETE"
+      ]
+    },
+    {
+      "selector": "SC7",
+      "canonical_call": "$rq-vedic SC7",
+      "compact_alias": "$rq-vedic-sc7",
+      "target_skill": "rq-sc7",
+      "target_call": "$rq-sc7",
+      "mode": "PLAIN_SOURCE_UNLESS_EXPLICIT_CHART_EXECUTE",
+      "semantics": "PRESERVE_TARGET_CONTRACT",
+      "required_markers": [
+        "Plain Source provider",
+        "SOURCE_VERSION_UPDATE",
+        "PERSONAL_CHART_240"
+      ]
+    },
+    {
+      "selector": "SC8",
+      "canonical_call": "$rq-vedic SC8",
+      "compact_alias": "$rq-vedic-sc8",
+      "target_skill": "rq-sc8",
+      "target_call": "$rq-sc8",
+      "mode": "PIKACHU_SOURCE_ROUTER_UNLESS_EXPLICIT_CHART_EXECUTE",
+      "semantics": "PRESERVE_TARGET_CONTRACT",
+      "required_markers": [
+        "SC8_CANONICAL_AND_SOURCE_LAYER_ROUTER",
+        "sc8-layer-folders.json",
+        "pikachu-sc8-direct-values.json"
+      ]
+    },
+    {
+      "selector": "SC8V2",
+      "canonical_call": "$rq-vedic SC8V2",
+      "compact_alias": "$rq-vedic-sc8v2",
+      "target_skill": "rq-sc8v2",
+      "target_call": "$rq-sc8v2",
+      "mode": "SC8_SC3_DH_COMPOSITION",
+      "semantics": "PRESERVE_TARGET_CONTRACT",
+      "required_markers": [
+        "SOURCE_PROVIDER=rq-sc8",
+        "DOMAIN_PROVIDER=rq-sc3",
+        "JOB_TEMPLATE_WORKER=rq-st02v2"
+      ]
+    }
+  ],
+  "canonical_chart_routes": [
+    {
+      "selector": "SC8-01",
+      "canonical_call": "$rq-vedic SC8-01",
+      "compact_alias": "$rq-vedic-sc8-01",
+      "target_skill": "rq-sc8",
+      "target_call": "$rq-sc8-01",
+      "meaning": "D1_PIKACHU_CANONICAL_CHART",
+      "mode": "EXACT_CANONICAL_DCHART_PACKAGE_ONLY",
+      "not_alias_of": "$rq-sc8-1ab"
+    }
+  ],
+  "d1_interpretation_entry_order": {
+    "trigger": "$rq-vedic SC8-01 plus explicit interpretation request",
+    "authorization": "CURRENT_USER_CONFIRMED",
+    "ordered_calls": [
+      "$rq-sc8-13ab",
+      "$rq-sc8-14ab",
+      "$rq-sc8-01"
+    ],
+    "ordered_meanings": [
+      "VARGA_MINI_CANDIDATE",
+      "VARGA_FULL_CONFIRMATION",
+      "D1_PIKACHU_APPLIED_TARGET"
+    ],
+    "handoff_lock": "VARGA_MINI_TO_VARGA_FULL_TO_D1_PIKACHU",
+    "scope": "D1_SC8_01_INTERPRETATION_ONLY",
+    "source_lane_merge": false,
+    "difference_overwrite": "PROHIBITED",
+    "evidence_double_count": "PROHIBITED",
+    "global_19_layer_id_renumbering": false
+  },
+  "sc8_layer_route": {
+    "selector_pattern": "SC8-<SOURCE_CODE>",
+    "canonical_call_pattern": "$rq-vedic SC8-<SOURCE_CODE>",
+    "compact_alias_pattern": "$rq-vedic-sc8-<source-code>",
+    "target_call_pattern": "$rq-sc8-<source-code>",
+    "mode": "EXACT_SOURCE_LAYER_ONLY",
+    "allowed_source_codes": [
+      "1ab",
+      "2ab",
+      "3ab",
+      "4ab",
+      "4ak",
+      "5a",
+      "5ab",
+      "6ab",
+      "7ab",
+      "9ab",
+      "10ab",
+      "12ab",
+      "13ab",
+      "14ab",
+      "16ab",
+      "17ab",
+      "18ab",
+      "19ab",
+      "20ab",
+      "21ab"
+    ],
+    "confirmed_meanings": {
+      "2ab": "BHAVA_CHART",
+      "4ab": "VEDIC_CO2_SOURCE",
+      "4ak": "SHADBALA_DRISHTI_PLANET_ASPECT",
+      "13ab": "VARGA_MINI",
+      "14ab": "VARGA_FULL"
+    },
+    "adjacent_layer_auto_merge": false
+  },
+  "unbound_shortcuts": [
+    {
+      "call": "$rq-vedic-sc2",
+      "status": "HOLD",
+      "reason": "NO_STANDALONE_RQ_SC2_OWNER",
+      "confirmed_meaning": "SC8-2AB_IS_BHAVA_CHART",
+      "exact_choices": [
+        "$rq-vedic SC8-2AB"
+      ]
+    },
+    {
+      "call": "$rq-vedic-sc4",
+      "status": "HOLD",
+      "reason": "NO_STANDALONE_RQ_SC4_OWNER_AND_TWO_SC8_LAYER_CHOICES",
+      "route_distinction": {
+        "$rq-vedic SC8-4AB": "VEDIC_CO2_SOURCE",
+        "$rq-vedic SC8-4AK": "SHADBALA_DRISHTI_PLANET_ASPECT"
+      },
+      "exact_choices": [
+        "$rq-vedic SC8-4AB",
+        "$rq-vedic SC8-4AK"
+      ]
+    }
+  ],
+  "invariants": [
+    "ONE_REGISTERED_SKILL_SLOT_ONLY",
+    "NO_NEW_SC_ALIAS_SKILL_DIRECTORIES",
+    "OWNER_SKILL_CONTRACT_IS_AUTHORITATIVE",
+    "NO_SOURCE_VALUE_OR_STATUS_MERGE",
+    "NO_UNREQUESTED_SC_ROUTE",
+    "SC3_NEVER_REPLACES_CHART_SOURCE",
+    "SC7_AND_SC8_REMAIN_INDEPENDENT_SOURCE_LANES",
+    "SC8_LAYER_CALL_READS_EXACTLY_ONE_REQUESTED_LAYER",
+    "D1_INTERPRETATION_ENTRY_IS_13AB_THEN_14AB_THEN_01",
+    "MISSING_OR_AMBIGUOUS_OWNER_IS_HOLD"
+  ]
+}

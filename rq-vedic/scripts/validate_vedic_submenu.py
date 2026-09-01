@@ -10,6 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "references" / "vedic-submenu-registry.json"
+SC_REGISTRY = ROOT / "references" / "vedic-sc-submenu-registry.json"
 
 EXPECTED_LEVELS = ["ELIVEDIC", "ELICOLLEGE", "ELIPHD"]
 EXPECTED_D = [
@@ -33,6 +34,18 @@ EXPECTED_MODULE_IDS = {
     "TIMING_MATCH_GATE", "AVA_POST_TIMING_CONDITION", "YOGA_CONDITION_CHECK",
     "TRANSIT_CONTEXT",
 }
+EXPECTED_SC_ROUTES = {
+    "SC": ("$rq-vedic-sc", "rq-sc", "$rq-sc"),
+    "SC3": ("$rq-vedic-sc3", "rq-sc3", "$rq-sc3"),
+    "SC7": ("$rq-vedic-sc7", "rq-sc7", "$rq-sc7"),
+    "SC8": ("$rq-vedic-sc8", "rq-sc8", "$rq-sc8"),
+    "SC8V2": ("$rq-vedic-sc8v2", "rq-sc8v2", "$rq-sc8v2"),
+}
+EXPECTED_SC8_SOURCE_CODES = [
+    "1ab", "2ab", "3ab", "4ab", "4ak", "5a", "5ab", "6ab", "7ab",
+    "9ab", "10ab", "12ab", "13ab", "14ab", "16ab", "17ab", "18ab",
+    "19ab", "20ab", "21ab",
+]
 
 
 def fail(condition: bool, message: str) -> None:
@@ -119,7 +132,62 @@ def main() -> int:
             fail(schema.get("type") == "object", f"schema root must be object: {filename}")
             fail(bool(schema.get("required")), f"schema required fields missing: {filename}")
 
-        print("PASS rq-vedic submenu: 1 root + 3 levels + 20D + 12H + 45 modules + 4 DB schemas")
+        sc_data = json.loads(SC_REGISTRY.read_text(encoding="utf-8"))
+        fail(sc_data.get("root_skill") == "rq-vedic", "SC submenu root must be rq-vedic")
+        fail(sc_data.get("registered_call") == "$rq-vedic", "SC submenu must use rq-vedic call")
+        fail(sc_data.get("registered_skill_count") == 1, "SC submenu must consume one skill slot")
+        fail(sc_data.get("independent_skill_creation") is False, "SC routes must remain submenus")
+
+        sc_routes = {entry["selector"]: entry for entry in sc_data["routes"]}
+        fail(set(sc_routes) == set(EXPECTED_SC_ROUTES), "SC submenu route set mismatch")
+        for selector, (alias, target_skill, target_call) in EXPECTED_SC_ROUTES.items():
+            route = sc_routes[selector]
+            fail(route.get("compact_alias") == alias, f"SC alias mismatch: {selector}")
+            fail(route.get("target_skill") == target_skill, f"SC owner mismatch: {selector}")
+            fail(route.get("target_call") == target_call, f"SC target call mismatch: {selector}")
+            fail(route.get("semantics") == "PRESERVE_TARGET_CONTRACT", f"SC contract boundary missing: {selector}")
+            fail(bool(route.get("required_markers")), f"SC owner markers missing: {selector}")
+
+        sc8_layer = sc_data["sc8_layer_route"]
+        fail(sc8_layer.get("allowed_source_codes") == EXPECTED_SC8_SOURCE_CODES, "SC8 layer code set mismatch")
+        fail(sc8_layer.get("confirmed_meanings", {}).get("2ab") == "BHAVA_CHART", "SC8-2AB Bhava meaning mismatch")
+        fail(
+            sc8_layer.get("confirmed_meanings", {}).get("4ak") == "SHADBALA_DRISHTI_PLANET_ASPECT",
+            "SC8-4AK strength/aspect meaning mismatch",
+        )
+        fail(sc8_layer.get("confirmed_meanings", {}).get("13ab") == "VARGA_MINI", "SC8-13AB Varga Mini mismatch")
+        fail(sc8_layer.get("confirmed_meanings", {}).get("14ab") == "VARGA_FULL", "SC8-14AB Varga Full mismatch")
+        fail(sc8_layer.get("adjacent_layer_auto_merge") is False, "SC8 adjacent layer merge must be disabled")
+
+        canonical_chart_routes = sc_data.get("canonical_chart_routes", [])
+        fail(len(canonical_chart_routes) == 1, "expected one SC8 canonical chart route")
+        d1_route = canonical_chart_routes[0]
+        fail(d1_route.get("selector") == "SC8-01", "D1 PIKACHU selector mismatch")
+        fail(d1_route.get("target_call") == "$rq-sc8-01", "D1 PIKACHU target call mismatch")
+        fail(d1_route.get("not_alias_of") == "$rq-sc8-1ab", "SC8-01/1AB boundary missing")
+
+        d1_entry = sc_data.get("d1_interpretation_entry_order", {})
+        fail(
+            d1_entry.get("ordered_calls") == ["$rq-sc8-13ab", "$rq-sc8-14ab", "$rq-sc8-01"],
+            "D1 interpretation entry order must be 13AB -> 14AB -> 01",
+        )
+        fail(d1_entry.get("source_lane_merge") is False, "D1 Varga/01 lanes must remain separate")
+        fail(d1_entry.get("evidence_double_count") == "PROHIBITED", "D1 Varga evidence double count boundary missing")
+
+        unbound = {entry["call"]: entry for entry in sc_data["unbound_shortcuts"]}
+        fail(set(unbound) == {"$rq-vedic-sc2", "$rq-vedic-sc4"}, "SC unbound shortcut set mismatch")
+        fail(all(entry.get("status") == "HOLD" for entry in unbound.values()), "unbound SC shortcuts must HOLD")
+        fail(
+            unbound["$rq-vedic-sc2"].get("confirmed_meaning") == "SC8-2AB_IS_BHAVA_CHART",
+            "SC2 shortcut Bhava boundary missing",
+        )
+        fail(
+            unbound["$rq-vedic-sc4"].get("route_distinction", {}).get("$rq-vedic SC8-4AK")
+            == "SHADBALA_DRISHTI_PLANET_ASPECT",
+            "SC4 shortcut 4AK boundary missing",
+        )
+
+        print("PASS rq-vedic submenu: 1 root/slot + 3 levels + 20D + 12H + 45 modules + 5 SC routes + 4 DB schemas")
         return 0
     except (OSError, json.JSONDecodeError, KeyError, TypeError, ValueError) as exc:
         print(f"REVISE: {exc}", file=sys.stderr)
