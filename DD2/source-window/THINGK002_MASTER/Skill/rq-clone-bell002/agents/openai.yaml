@@ -1,4 +1,0 @@
-interface:
-  display_name: "RQ Bell002 Clone"
-  short_description: "팅크벨 동생 Bell002 작업자를 한 키로 복원·실행"
-  default_prompt: "$rq-clone-bell002로 Bell002를 복원하고 현재 RQ 작업을 이어가세요."
