@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:rq-vedic:schema:case:v1",
+  "title": "RQ Vedic Case and Counterexample Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "case_id",
+    "case_type",
+    "chart_input_ref",
+    "calculation_setting_ref",
+    "target",
+    "expected_direct_facts",
+    "applicable_rule_refs",
+    "nonmatching_rule_refs",
+    "observed_layer_outputs",
+    "exceptions",
+    "adjudication",
+    "privacy_scope",
+    "state"
+  ],
+  "properties": {
+    "case_id": {"type": "string", "minLength": 1},
+    "case_type": {"enum": ["WORKED_EXAMPLE", "COUNTEREXAMPLE", "REGRESSION_CASE", "USER_CHART_CASE"]},
+    "chart_input_ref": {"type": "string", "minLength": 1},
+    "calculation_setting_ref": {"type": "string", "minLength": 1},
+    "target": {
+      "type": "object",
+      "required": ["d_chart", "house", "modules"],
+      "properties": {
+        "d_chart": {"type": ["string", "null"]},
+        "house": {"type": ["string", "null"]},
+        "modules": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}}
+      }
+    },
+    "expected_direct_facts": {"type": "array", "items": {"type": "object"}},
+    "applicable_rule_refs": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "nonmatching_rule_refs": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "observed_layer_outputs": {"type": "array", "items": {"type": "object"}},
+    "exceptions": {"type": "array", "items": {"type": "string"}},
+    "adjudication": {"enum": ["MATCH", "PARTIAL_MATCH", "NON_MATCH", "CONFLICT", "HOLD"]},
+    "privacy_scope": {"enum": ["PUBLIC", "PROJECT_PRIVATE", "USER_PRIVATE"]},
+    "state": {"enum": ["ACTIVE", "IN_PROGRESS", "REVISE", "HOLD", "VOID"]}
+  }
+}

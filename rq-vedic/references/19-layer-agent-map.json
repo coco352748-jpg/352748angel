@@ -1,0 +1,153 @@
+{
+  "protocol_id": "RQ_VEDIC_19_LAYER_V1",
+  "input_gate": {
+    "id": "CHART_INPUT_LOCK",
+    "source_binding": "CALLER_SUPPLIED_ONLY",
+    "counted_as_layer": false
+  },
+  "level_order": ["ELIVEDIC", "ELICOLLEGE", "ELIPHD"],
+  "route": ["1", "2", "3", "4", "D-1", "5-4", "6", "7", "8", "9", "10", "12", "13", "14", "17", "18", "19", "20", "21"],
+  "always_on_operators": ["STRUCTURE", "EXTRACT", "ASSUMPTIONS", "TRACE", "SYNTHESIZE"],
+  "layers": [
+    {
+      "sequence": 1,
+      "id": "1",
+      "name": "Rashi baseline",
+      "default_admission": "CURRENT_COMMON_CORE",
+      "agents": {"ELIVEDIC": "L01_ELIVEDIC", "ELICOLLEGE": "L01_ELICOLLEGE", "ELIPHD": "L01_ELIPHD"}
+    },
+    {
+      "sequence": 2,
+      "id": "2",
+      "name": "Bhava reality position",
+      "default_admission": "CURRENT_COMMON_CORE_SOURCE_PROVIDED_ASSIGNMENT",
+      "agents": {"ELIVEDIC": "L02_ELIVEDIC", "ELICOLLEGE": "L02_ELICOLLEGE", "ELIPHD": "L02_ELIPHD"}
+    },
+    {
+      "sequence": 3,
+      "id": "3",
+      "name": "Rashi-Bhava move judgment",
+      "default_admission": "CURRENT_COMMON_CORE_BOUNDARY_WITH_METHOD_SPECIFIC_CALCULATION",
+      "agents": {"ELIVEDIC": "L03_ELIVEDIC", "ELICOLLEGE": "L03_ELICOLLEGE", "ELIPHD": "L03_ELIPHD"},
+      "hard_boundaries": ["preserve_rashi_raw", "preserve_bhava_raw", "never_delete_planet", "propagate_degree_conflict", "full_packet_before_role_filter"]
+    },
+    {
+      "sequence": 4,
+      "id": "4",
+      "name": "Co-presence",
+      "default_admission": "CURRENT_COMMON_CORE_FACT_WITH_METHOD_SPECIFIC_RELATION",
+      "agents": {"ELIVEDIC": "L04_ELIVEDIC", "ELICOLLEGE": "L04_ELICOLLEGE", "ELIPHD": "L04_ELIPHD"}
+    },
+    {
+      "sequence": 5,
+      "id": "D-1",
+      "name": "Background group: 5-1 Pushkara, 5-2 Upagraha, 5-3 Chalit",
+      "subroute": ["5-1", "5-2", "5-3"],
+      "default_admission": "METHOD_SPECIFIC",
+      "agents": {"ELIVEDIC": "LD1_ELIVEDIC", "ELICOLLEGE": "LD1_ELICOLLEGE", "ELIPHD": "LD1_ELIPHD"}
+    },
+    {
+      "sequence": 6,
+      "id": "5-4",
+      "name": "Moon reference",
+      "default_admission": "METHOD_SPECIFIC_UNLESS_SOURCE_BOUND",
+      "agents": {"ELIVEDIC": "L05_4_ELIVEDIC", "ELICOLLEGE": "L05_4_ELICOLLEGE", "ELIPHD": "L05_4_ELIPHD"}
+    },
+    {
+      "sequence": 7,
+      "id": "6",
+      "name": "Arudha",
+      "default_admission": "METHOD_SPECIFIC",
+      "agents": {"ELIVEDIC": "L06_ELIVEDIC", "ELICOLLEGE": "L06_ELICOLLEGE", "ELIPHD": "L06_ELIPHD"}
+    },
+    {
+      "sequence": 8,
+      "id": "7",
+      "name": "Strength and aspect parent",
+      "children": ["7-4", "7-5", "7-6", "7-7"],
+      "aggregation": "NON_ADDITIVE",
+      "default_admission": "METHOD_SPECIFIC",
+      "agents": {"ELIVEDIC": "L07_ELIVEDIC", "ELICOLLEGE": "L07_ELICOLLEGE", "ELIPHD": "L07_ELIPHD"}
+    },
+    {
+      "sequence": 9,
+      "id": "8",
+      "name": "Mrityu and special points",
+      "default_admission": "METHOD_SPECIFIC",
+      "agents": {"ELIVEDIC": "L08_ELIVEDIC", "ELICOLLEGE": "L08_ELICOLLEGE", "ELIPHD": "L08_ELIPHD"}
+    },
+    {
+      "sequence": 10,
+      "id": "9",
+      "name": "Ava relationship reference",
+      "default_admission": "METHOD_SPECIFIC",
+      "agents": {"ELIVEDIC": "L09_ELIVEDIC", "ELICOLLEGE": "L09_ELICOLLEGE", "ELIPHD": "L09_ELIPHD"}
+    },
+    {
+      "sequence": 11,
+      "id": "10",
+      "name": "Bhinna raw matrix",
+      "default_admission": "METHOD_SPECIFIC",
+      "agents": {"ELIVEDIC": "L10_ELIVEDIC", "ELICOLLEGE": "L10_ELICOLLEGE", "ELIPHD": "L10_ELIPHD"}
+    },
+    {
+      "sequence": 12,
+      "id": "12",
+      "name": "SAP-TKS-EKS-SDP separate stages",
+      "subroute": ["SAP", "TKS", "EKS", "SDP"],
+      "aggregation": "SEPARATE_STAGES",
+      "default_admission": "METHOD_SPECIFIC",
+      "agents": {"ELIVEDIC": "L12_ELIVEDIC", "ELICOLLEGE": "L12_ELICOLLEGE", "ELIPHD": "L12_ELIPHD"}
+    },
+    {
+      "sequence": 13,
+      "id": "13",
+      "name": "Varga Mini candidate",
+      "default_admission": "METHOD_SPECIFIC_CANDIDATE_ONLY",
+      "agents": {"ELIVEDIC": "L13_ELIVEDIC", "ELICOLLEGE": "L13_ELICOLLEGE", "ELIPHD": "L13_ELIPHD"}
+    },
+    {
+      "sequence": 14,
+      "id": "14",
+      "name": "Varga Full confirmation",
+      "default_admission": "METHOD_SPECIFIC_CONFIRMATION",
+      "agents": {"ELIVEDIC": "L14_ELIVEDIC", "ELICOLLEGE": "L14_ELICOLLEGE", "ELIPHD": "L14_ELIPHD"}
+    },
+    {
+      "sequence": 15,
+      "id": "17",
+      "name": "Dasha time window",
+      "default_admission": "METHOD_SPECIFIC_TIME_SYSTEM",
+      "agents": {"ELIVEDIC": "L17_ELIVEDIC", "ELICOLLEGE": "L17_ELICOLLEGE", "ELIPHD": "L17_ELIPHD"}
+    },
+    {
+      "sequence": 16,
+      "id": "18",
+      "name": "Timing Gate match only",
+      "default_admission": "PROJECT_METHOD_SPECIFIC",
+      "agents": {"ELIVEDIC": "L18_ELIVEDIC", "ELICOLLEGE": "L18_ELICOLLEGE", "ELIPHD": "L18_ELIPHD"}
+    },
+    {
+      "sequence": 17,
+      "id": "19",
+      "name": "Post-timing Ava condition",
+      "default_admission": "METHOD_SPECIFIC",
+      "agents": {"ELIVEDIC": "L19_ELIVEDIC", "ELICOLLEGE": "L19_ELICOLLEGE", "ELIPHD": "L19_ELIPHD"}
+    },
+    {
+      "sequence": 18,
+      "id": "20",
+      "name": "Yoga condition",
+      "default_admission": "METHOD_SPECIFIC",
+      "agents": {"ELIVEDIC": "L20_ELIVEDIC", "ELICOLLEGE": "L20_ELICOLLEGE", "ELIPHD": "L20_ELIPHD"}
+    },
+    {
+      "sequence": 19,
+      "id": "21",
+      "name": "Transit context",
+      "default_admission": "CURRENT_COMMON_CONTEXT_WITH_METHOD_SPECIFIC_INTERPRETATION",
+      "agents": {"ELIVEDIC": "L21_ELIVEDIC", "ELICOLLEGE": "L21_ELICOLLEGE", "ELIPHD": "L21_ELIPHD"}
+    }
+  ],
+  "post_route": ["CHART_NATIVE_INTERPRETATION_LOCK", "POST_CHART_SCHOLAR_LAYER_OPTIONAL"]
+}

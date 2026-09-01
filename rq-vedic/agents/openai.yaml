@@ -1,0 +1,4 @@
+interface:
+  display_name: "RQ Vedic"
+  short_description: "Vedic AI 규칙원장·3수준 하위 메뉴·19층 FNa98 해석"
+  default_prompt: "$rq-vedic의 ELIVEDIC→ELICOLLEGE→ELIPHD 하위 메뉴와 검증된 규칙원장으로 현재 Target을 FNa98까지 분석해 주세요."

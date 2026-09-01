@@ -1,0 +1,463 @@
+{
+  "registry_id": "RQ_VEDIC_SUBMENU_REGISTRY_V1",
+  "root_skill": "rq-vedic",
+  "independent_skill_creation": false,
+  "architecture": "ONE_ROOT_THREE_LEVELS_SHARED_MENU",
+  "command_shape": "$rq-vedic <LEVEL> [ACTION] [D_CHART] [HOUSE] [MODULE...] [OPERATOR...]",
+  "actions": [
+    "RULE_BUILD",
+    "RULE_QUERY",
+    "CHART_EXECUTE",
+    "AUDIT"
+  ],
+  "levels": [
+    {
+      "name": "ELIVEDIC",
+      "aliases": ["ELI VEDIC"],
+      "position": 1,
+      "semantic_role": "SOURCE_OBSERVATION",
+      "required_predecessors": [],
+      "claim_ceiling": "DIRECT_SOURCE_AND_BOUNDARY"
+    },
+    {
+      "name": "ELICOLLEGE",
+      "aliases": [],
+      "position": 2,
+      "semantic_role": "RULE_COMPARISON_AND_STRUCTURED_INTERPRETATION",
+      "required_predecessors": ["ELIVEDIC"],
+      "claim_ceiling": "PATTERN_CANDIDATE_WITH_EXCEPTIONS"
+    },
+    {
+      "name": "ELIPHD",
+      "aliases": [],
+      "position": 3,
+      "semantic_role": "DEEP_CAUSAL_ARCHITECTURE_AND_FINAL_PROMOTION",
+      "required_predecessors": ["ELIVEDIC", "ELICOLLEGE"],
+      "claim_ceiling": "SOURCE_CLOSED_FINAL_INTERPRETATION"
+    }
+  ],
+  "selectors": {
+    "d_charts": [
+      "D1",
+      "D9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D10",
+      "D11",
+      "D12",
+      "D16",
+      "D20",
+      "D24",
+      "D27",
+      "D30",
+      "D40",
+      "D45",
+      "D60"
+    ],
+    "void_d_charts": ["D50"],
+    "houses": [
+      "1H",
+      "2H",
+      "3H",
+      "4H",
+      "5H",
+      "6H",
+      "7H",
+      "8H",
+      "9H",
+      "10H",
+      "11H",
+      "12H"
+    ],
+    "batch_policy": {
+      "implicit_all_houses_forbidden": true,
+      "implicit_all_d_charts_forbidden": true,
+      "explicit_20d_12h_required": true,
+      "selector_only_is_navigation_not_execution": true
+    }
+  },
+  "module_groups": [
+    "CORE_STRUCTURE",
+    "D1_BACKGROUND_AND_DERIVED",
+    "STRENGTH_AND_ASPECT",
+    "LIMIT_AND_RELATION",
+    "BHINNA_MATRIX",
+    "ASHTAKAVARGA_STAGES",
+    "VARGA_COMPARISON",
+    "TIMING_AND_FINAL_CONTEXT"
+  ],
+  "modules": [
+    {
+      "id": "RASHI_BASELINE",
+      "tokens": ["RASHI"],
+      "group": "CORE_STRUCTURE",
+      "master_route": "1",
+      "owner_adapter": "rq-co2oo1",
+      "default_admission": "CURRENT_COMMON_CORE"
+    },
+    {
+      "id": "BHAVA_REALITY_POSITION",
+      "tokens": ["BHAVA"],
+      "group": "CORE_STRUCTURE",
+      "master_route": "2",
+      "owner_adapter": "rq-co2oo1",
+      "default_admission": "CURRENT_COMMON_CORE_SOURCE_PROVIDED_ASSIGNMENT"
+    },
+    {
+      "id": "RASHI_BHAVA_MOVE_JUDGMENT",
+      "tokens": ["Rashi bhava move", "이동판정"],
+      "group": "CORE_STRUCTURE",
+      "master_route": "3",
+      "owner_adapter": "rq-co2oo1",
+      "default_admission": "CURRENT_COMMON_CORE_BOUNDARY_WITH_METHOD_SPECIFIC_CALCULATION"
+    },
+    {
+      "id": "CO_PRESENCE_FIELD",
+      "tokens": ["CO2", "공동장"],
+      "group": "CORE_STRUCTURE",
+      "master_route": "4",
+      "owner_adapter": "rq-co2oo1",
+      "default_admission": "CURRENT_COMMON_CORE_FACT_WITH_METHOD_SPECIFIC_RELATION"
+    },
+    {
+      "id": "NAKSHATRA_BLOCK",
+      "tokens": ["NAK"],
+      "group": "CORE_STRUCTURE",
+      "master_route": "NAK",
+      "owner_adapter": "rq-nak",
+      "dependencies": ["RASHI_BHAVA_MOVE_JUDGMENT"]
+    },
+    {
+      "id": "PADA_BLOCK",
+      "tokens": ["pada"],
+      "group": "CORE_STRUCTURE",
+      "master_route": "PADA",
+      "owner_adapter": "rq-nak",
+      "dependencies": ["NAKSHATRA_BLOCK"]
+    },
+    {
+      "id": "NAKPADA_CIRCUIT",
+      "tokens": ["Circuit"],
+      "group": "CORE_STRUCTURE",
+      "master_route": "CIRCUIT",
+      "owner_adapter": "rq-nak",
+      "dependencies": ["NAKSHATRA_BLOCK", "PADA_BLOCK"]
+    },
+    {
+      "id": "PUSHKARA_REFERENCE",
+      "tokens": ["Pushkara bhaga"],
+      "group": "D1_BACKGROUND_AND_DERIVED",
+      "master_route": "D-1/5-1",
+      "owner_adapter": "rq-co2oo1",
+      "scope_boundary": "D1_BACKGROUND_ONLY",
+      "default_admission": "METHOD_SPECIFIC"
+    },
+    {
+      "id": "UPAGRAHA_REFERENCE",
+      "tokens": ["UpAgRaHa_"],
+      "group": "D1_BACKGROUND_AND_DERIVED",
+      "master_route": "D-1/5-2",
+      "owner_adapter": "rq-co2oo1",
+      "scope_boundary": "D1_BACKGROUND_ONLY",
+      "default_admission": "METHOD_SPECIFIC"
+    },
+    {
+      "id": "SRIPATHI_CHALIT_REFERENCE",
+      "tokens": ["Sripathi", "Chalit"],
+      "group": "D1_BACKGROUND_AND_DERIVED",
+      "master_route": "D-1/5-3",
+      "owner_adapter": "rq-co2oo1",
+      "scope_boundary": "D1_BACKGROUND_ONLY_METHOD_BINDING_REQUIRED",
+      "default_admission": "METHOD_SPECIFIC"
+    },
+    {
+      "id": "MOON_REFERENCE",
+      "tokens": ["Moon"],
+      "group": "D1_BACKGROUND_AND_DERIVED",
+      "master_route": "5-4",
+      "owner_adapter": "rq-co2oo1",
+      "default_admission": "METHOD_SPECIFIC_UNLESS_SOURCE_BOUND"
+    },
+    {
+      "id": "ARUDHA_SURFACE_REPRESENTATION",
+      "tokens": ["Arudha"],
+      "group": "D1_BACKGROUND_AND_DERIVED",
+      "master_route": "6",
+      "owner_adapter": "rq-co2oo1",
+      "default_admission": "METHOD_SPECIFIC"
+    },
+    {
+      "id": "STRENGTH_ASPECT_PARENT",
+      "tokens": ["STRENGTH"],
+      "group": "STRENGTH_AND_ASPECT",
+      "master_route": "7",
+      "owner_adapter": "rq-vedic-19-layer-agent",
+      "aggregation": "NON_ADDITIVE"
+    },
+    {
+      "id": "SHADBALA_COMPONENT",
+      "tokens": ["shadbala"],
+      "group": "STRENGTH_AND_ASPECT",
+      "master_route": "7-4/shadbala",
+      "owner_adapter": "rq-vedic-19-layer-agent"
+    },
+    {
+      "id": "DRISHTI_COMPONENT",
+      "tokens": ["Drishti"],
+      "group": "STRENGTH_AND_ASPECT",
+      "master_route": "7-4/drishti",
+      "owner_adapter": "rq-vedic-19-layer-agent"
+    },
+    {
+      "id": "PLANET_ASPECT_COMPONENT",
+      "tokens": ["plant Aspect"],
+      "group": "STRENGTH_AND_ASPECT",
+      "master_route": "7-4/aspect01",
+      "owner_adapter": "rq-vedic-19-layer-agent",
+      "literal_token_preserved": true
+    },
+    {
+      "id": "BHAVA_BALA_COMPONENT",
+      "tokens": ["Bhava bala"],
+      "group": "STRENGTH_AND_ASPECT",
+      "master_route": "7-5/bhava-bala",
+      "owner_adapter": "rq-vedic-19-layer-agent"
+    },
+    {
+      "id": "BHAVA_ASPECT_COMPONENT",
+      "tokens": ["Bhava Aspect"],
+      "group": "STRENGTH_AND_ASPECT",
+      "master_route": "7-5/bhava-aspect",
+      "owner_adapter": "rq-vedic-19-layer-agent"
+    },
+    {
+      "id": "VIMSOPAKA_COMPONENT",
+      "tokens": ["Vimsopaka"],
+      "group": "STRENGTH_AND_ASPECT",
+      "master_route": "7-6/vimsopaka",
+      "owner_adapter": "rq-vedic-19-layer-agent"
+    },
+    {
+      "id": "D1_ASPECT_COMPONENT",
+      "tokens": ["D1 Aspect"],
+      "group": "STRENGTH_AND_ASPECT",
+      "master_route": "7-6/d1-aspect",
+      "owner_adapter": "rq-vedic-19-layer-agent"
+    },
+    {
+      "id": "HOUSE_FINAL_SYNTHESIS",
+      "tokens": ["Final_Synthesis"],
+      "group": "STRENGTH_AND_ASPECT",
+      "master_route": "7-7",
+      "owner_adapter": "rq-vedic-19-layer-agent",
+      "evidence_authority": "DERIVED_CROSSCHECK_CONTAINER"
+    },
+    {
+      "id": "MRITYU_LIMITATION_CHECK",
+      "tokens": ["MirtYu", "Mityu"],
+      "group": "LIMIT_AND_RELATION",
+      "master_route": "8-1",
+      "owner_adapter": "rq-vedic-19-layer-agent",
+      "literal_tokens_preserved": true
+    },
+    {
+      "id": "SPECIAL_POINT_AUXILIARY",
+      "tokens": ["Spother"],
+      "group": "LIMIT_AND_RELATION",
+      "master_route": "8-2",
+      "owner_adapter": "rq-vedic-19-layer-agent"
+    },
+    {
+      "id": "AVA_RELATIONSHIP_REFERENCE",
+      "tokens": ["Ava", "Ava 1"],
+      "group": "LIMIT_AND_RELATION",
+      "master_route": "9",
+      "owner_adapter": "rq-co2oo1"
+    },
+    {
+      "id": "BHINNA_LAGNA_ROW",
+      "tokens": ["Bhinna Lagna"],
+      "group": "BHINNA_MATRIX",
+      "master_route": "10",
+      "row": "Lagna",
+      "owner_adapter": "rq-vedic-19-layer-agent"
+    },
+    {
+      "id": "BHINNA_SUN_ROW",
+      "tokens": ["Bhinna Sun"],
+      "group": "BHINNA_MATRIX",
+      "master_route": "10",
+      "row": "Sun",
+      "owner_adapter": "rq-vedic-19-layer-agent"
+    },
+    {
+      "id": "BHINNA_MOON_ROW",
+      "tokens": ["Bhinna Moon"],
+      "group": "BHINNA_MATRIX",
+      "master_route": "10",
+      "row": "Moon",
+      "owner_adapter": "rq-vedic-19-layer-agent"
+    },
+    {
+      "id": "BHINNA_MARS_ROW",
+      "tokens": ["Bhinna Mars"],
+      "group": "BHINNA_MATRIX",
+      "master_route": "10",
+      "row": "Mars",
+      "owner_adapter": "rq-vedic-19-layer-agent"
+    },
+    {
+      "id": "BHINNA_MERCURY_ROW",
+      "tokens": ["Bhinna Mercury"],
+      "group": "BHINNA_MATRIX",
+      "master_route": "10",
+      "row": "Mercury",
+      "owner_adapter": "rq-vedic-19-layer-agent"
+    },
+    {
+      "id": "BHINNA_JUPITER_ROW",
+      "tokens": ["Bhinna Jupiter"],
+      "group": "BHINNA_MATRIX",
+      "master_route": "10",
+      "row": "Jupiter",
+      "owner_adapter": "rq-vedic-19-layer-agent"
+    },
+    {
+      "id": "BHINNA_VENUS_ROW",
+      "tokens": ["Bhinna Venus"],
+      "group": "BHINNA_MATRIX",
+      "master_route": "10",
+      "row": "Venus",
+      "owner_adapter": "rq-vedic-19-layer-agent"
+    },
+    {
+      "id": "BHINNA_SATURN_ROW",
+      "tokens": ["Bhinna Saturn"],
+      "group": "BHINNA_MATRIX",
+      "master_route": "10",
+      "row": "Saturn",
+      "owner_adapter": "rq-vedic-19-layer-agent"
+    },
+    {
+      "id": "BHINNA_RAHU_ROW",
+      "tokens": ["Bhinna Rahu"],
+      "group": "BHINNA_MATRIX",
+      "master_route": "10",
+      "row": "Rahu",
+      "owner_adapter": "rq-vedic-19-layer-agent",
+      "exact_source_row_required": true
+    },
+    {
+      "id": "BHINNA_KETU_ROW",
+      "tokens": ["Bhinna Ketu"],
+      "group": "BHINNA_MATRIX",
+      "master_route": "10",
+      "row": "Ketu",
+      "owner_adapter": "rq-vedic-19-layer-agent",
+      "exact_source_row_required": true
+    },
+    {
+      "id": "SAP_STAGE",
+      "tokens": ["Sap"],
+      "group": "ASHTAKAVARGA_STAGES",
+      "master_route": "12/sap",
+      "owner_adapter": "rq-vedic-19-layer-agent"
+    },
+    {
+      "id": "TKS_STAGE",
+      "tokens": ["Tks"],
+      "group": "ASHTAKAVARGA_STAGES",
+      "master_route": "12/tks",
+      "owner_adapter": "rq-vedic-19-layer-agent"
+    },
+    {
+      "id": "EKS_STAGE",
+      "tokens": ["Eks"],
+      "group": "ASHTAKAVARGA_STAGES",
+      "master_route": "12/eks",
+      "owner_adapter": "rq-vedic-19-layer-agent"
+    },
+    {
+      "id": "SPD_STAGE",
+      "tokens": ["Spd"],
+      "group": "ASHTAKAVARGA_STAGES",
+      "master_route": "12/spd",
+      "owner_adapter": "rq-vedic-19-layer-agent",
+      "forbidden_implicit_alias": "Sdp",
+      "exact_source_mapping_required": true
+    },
+    {
+      "id": "VARGA_MINI",
+      "tokens": ["Varga Mini"],
+      "group": "VARGA_COMPARISON",
+      "master_route": "13",
+      "legacy_coordinate_adapter": "0-1",
+      "owner_adapter": "rq-co2oo1",
+      "duplicate_execution_forbidden": true
+    },
+    {
+      "id": "VARGA_FULL",
+      "tokens": ["Varga Full"],
+      "group": "VARGA_COMPARISON",
+      "master_route": "14",
+      "legacy_coordinate_adapter": "0-2",
+      "owner_adapter": "rq-co2oo1",
+      "duplicate_execution_forbidden": true
+    },
+    {
+      "id": "DASHA_TIME_WINDOW",
+      "tokens": ["Dasha"],
+      "group": "TIMING_AND_FINAL_CONTEXT",
+      "master_route": "17",
+      "owner_adapter": "rq-co2oo1"
+    },
+    {
+      "id": "TIMING_MATCH_GATE",
+      "tokens": ["timming gate"],
+      "group": "TIMING_AND_FINAL_CONTEXT",
+      "master_route": "18",
+      "owner_adapter": "rq-co2oo1",
+      "literal_token_preserved": true
+    },
+    {
+      "id": "AVA_POST_TIMING_CONDITION",
+      "tokens": ["Ava 2", "Ava2"],
+      "group": "TIMING_AND_FINAL_CONTEXT",
+      "master_route": "19",
+      "owner_adapter": "rq-co2oo1",
+      "must_not_merge_with": "AVA_RELATIONSHIP_REFERENCE"
+    },
+    {
+      "id": "YOGA_CONDITION_CHECK",
+      "tokens": ["yoga"],
+      "group": "TIMING_AND_FINAL_CONTEXT",
+      "master_route": "20",
+      "owner_adapter": "rq-co2oo1",
+      "owner_adapter_route": "21"
+    },
+    {
+      "id": "TRANSIT_CONTEXT",
+      "tokens": ["transit", "vedic transit"],
+      "group": "TIMING_AND_FINAL_CONTEXT",
+      "master_route": "21",
+      "owner_adapter": "rq-co2oo1",
+      "owner_adapter_route": "20"
+    }
+  ],
+  "route_invariants": {
+    "semantic_id_is_authoritative_across_adapters": true,
+    "master_route_yoga": "20",
+    "master_route_transit": "21",
+    "adapter_numbers_may_differ": true,
+    "same_semantic_module_executes_once": true,
+    "same_source_evidence_key_counts_once": true,
+    "level_promotion_direction": "ELIVEDIC_TO_ELICOLLEGE_TO_ELIPHD",
+    "reverse_source_rewrite_forbidden": true,
+    "module_presence_does_not_imply_job_admission": true
+  }
+}

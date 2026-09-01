@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:rq-vedic:schema:source:v1",
+  "title": "RQ Vedic Source Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "source_id",
+    "version_id",
+    "source_family_id",
+    "source_class",
+    "title",
+    "language",
+    "locator",
+    "content_hash",
+    "authority",
+    "state"
+  ],
+  "properties": {
+    "source_id": {"type": "string", "minLength": 1},
+    "version_id": {"type": "string", "minLength": 1},
+    "source_family_id": {"type": "string", "minLength": 1},
+    "source_class": {
+      "enum": [
+        "USER_CANONICAL_SOURCE",
+        "PRIMARY_CLASSICAL_TEXT",
+        "OFFICIAL_MODERN_CURRICULUM",
+        "OFFICIAL_TECHNICAL_DOCUMENT",
+        "SCHOLAR_TECHNICAL_WORK",
+        "SECONDARY_EXPLANATION",
+        "INFERENCE"
+      ]
+    },
+    "title": {"type": "string", "minLength": 1},
+    "author_or_institution": {"type": ["string", "null"]},
+    "edition": {"type": ["string", "null"]},
+    "language": {"type": "string", "minLength": 1},
+    "publication_date": {"type": ["string", "null"]},
+    "acquired_at": {"type": ["string", "null"], "format": "date-time"},
+    "locator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["document", "position"],
+      "properties": {
+        "document": {"type": "string", "minLength": 1},
+        "position": {"type": "string", "minLength": 1},
+        "canonical_url": {"type": ["string", "null"]}
+      }
+    },
+    "content_hash": {"type": "string", "minLength": 16},
+    "evidence_key": {"type": ["string", "null"]},
+    "authority": {
+      "enum": [
+        "DIRECT_SOURCE",
+        "DERIVED",
+        "REFERENCE",
+        "USER_SPECIFIED",
+        "INFERENCE",
+        "WORKING_ASSUMPTION"
+      ]
+    },
+    "state": {
+      "enum": [
+        "ACTIVE",
+        "VOID",
+        "NONE",
+        "NOT_PARSED",
+        "NOT_APPLICABLE",
+        "CONFLICT",
+        "HOLD"
+      ]
+    },
+    "transformation": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["kind", "input_hash", "output_hash", "settings", "review_state"],
+      "properties": {
+        "kind": {"enum": ["OCR", "TRANSLATION", "NORMALIZATION", "EXTRACTION"]},
+        "input_hash": {"type": "string", "minLength": 16},
+        "output_hash": {"type": "string", "minLength": 16},
+        "settings": {"type": "object"},
+        "review_state": {"enum": ["UNREVIEWED", "REVIEWED", "REVISE", "HOLD"]}
+      }
+    }
+  }
+}
