@@ -39,6 +39,36 @@
       ]
     },
     {
+      "selector": "SC2",
+      "canonical_call": "$rq-vedic SC2",
+      "compact_alias": "$rq-vedic-sc2",
+      "target_skill": "rq-sc8",
+      "target_call": "$rq-sc8-2ab",
+      "mode": "EXACT_BHAVA_CHART_SOURCE_ONLY",
+      "meaning": "BHAVA_CHART",
+      "semantics": "PRESERVE_TARGET_CONTRACT",
+      "required_markers": [
+        "SC8_CANONICAL_AND_SOURCE_LAYER_ROUTER",
+        "sc8-layer-folders.json",
+        "$rq-sc8-2ab"
+      ]
+    },
+    {
+      "selector": "SC4",
+      "canonical_call": "$rq-vedic SC4",
+      "compact_alias": "$rq-vedic-sc4",
+      "target_skill": "rq-sc8",
+      "target_call": "$rq-sc8-4ak",
+      "mode": "EXACT_STRENGTH_ASPECT_SOURCE_ONLY",
+      "meaning": "SHADBALA_DRISHTI_PLANET_ASPECT",
+      "semantics": "PRESERVE_TARGET_CONTRACT",
+      "required_markers": [
+        "SC8_CANONICAL_AND_SOURCE_LAYER_ROUTER",
+        "sc8-layer-folders.json",
+        "$rq-sc8-4ak"
+      ]
+    },
+    {
       "selector": "SC7",
       "canonical_call": "$rq-vedic SC7",
       "compact_alias": "$rq-vedic-sc7",
@@ -150,30 +180,7 @@
     },
     "adjacent_layer_auto_merge": false
   },
-  "unbound_shortcuts": [
-    {
-      "call": "$rq-vedic-sc2",
-      "status": "HOLD",
-      "reason": "NO_STANDALONE_RQ_SC2_OWNER",
-      "confirmed_meaning": "SC8-2AB_IS_BHAVA_CHART",
-      "exact_choices": [
-        "$rq-vedic SC8-2AB"
-      ]
-    },
-    {
-      "call": "$rq-vedic-sc4",
-      "status": "HOLD",
-      "reason": "NO_STANDALONE_RQ_SC4_OWNER_AND_TWO_SC8_LAYER_CHOICES",
-      "route_distinction": {
-        "$rq-vedic SC8-4AB": "VEDIC_CO2_SOURCE",
-        "$rq-vedic SC8-4AK": "SHADBALA_DRISHTI_PLANET_ASPECT"
-      },
-      "exact_choices": [
-        "$rq-vedic SC8-4AB",
-        "$rq-vedic SC8-4AK"
-      ]
-    }
-  ],
+  "unbound_shortcuts": [],
   "invariants": [
     "ONE_REGISTERED_SKILL_SLOT_ONLY",
     "NO_NEW_SC_ALIAS_SKILL_DIRECTORIES",
@@ -183,6 +190,9 @@
     "SC3_NEVER_REPLACES_CHART_SOURCE",
     "SC7_AND_SC8_REMAIN_INDEPENDENT_SOURCE_LANES",
     "SC8_LAYER_CALL_READS_EXACTLY_ONE_REQUESTED_LAYER",
+    "SC2_IS_SC8_2AB_BHAVA_ONLY",
+    "SC4_IS_SC8_4AK_STRENGTH_ASPECT_ONLY",
+    "SC8_4AB_CO2_NEVER_MERGES_INTO_SC4",
     "D1_INTERPRETATION_ENTRY_IS_13AB_THEN_14AB_THEN_01",
     "MISSING_OR_AMBIGUOUS_OWNER_IS_HOLD"
   ]

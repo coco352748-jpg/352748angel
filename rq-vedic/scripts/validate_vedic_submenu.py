@@ -36,7 +36,9 @@ EXPECTED_MODULE_IDS = {
 }
 EXPECTED_SC_ROUTES = {
     "SC": ("$rq-vedic-sc", "rq-sc", "$rq-sc"),
+    "SC2": ("$rq-vedic-sc2", "rq-sc8", "$rq-sc8-2ab"),
     "SC3": ("$rq-vedic-sc3", "rq-sc3", "$rq-sc3"),
+    "SC4": ("$rq-vedic-sc4", "rq-sc8", "$rq-sc8-4ak"),
     "SC7": ("$rq-vedic-sc7", "rq-sc7", "$rq-sc7"),
     "SC8": ("$rq-vedic-sc8", "rq-sc8", "$rq-sc8"),
     "SC8V2": ("$rq-vedic-sc8v2", "rq-sc8v2", "$rq-sc8v2"),
@@ -174,20 +176,14 @@ def main() -> int:
         fail(d1_entry.get("source_lane_merge") is False, "D1 Varga/01 lanes must remain separate")
         fail(d1_entry.get("evidence_double_count") == "PROHIBITED", "D1 Varga evidence double count boundary missing")
 
-        unbound = {entry["call"]: entry for entry in sc_data["unbound_shortcuts"]}
-        fail(set(unbound) == {"$rq-vedic-sc2", "$rq-vedic-sc4"}, "SC unbound shortcut set mismatch")
-        fail(all(entry.get("status") == "HOLD" for entry in unbound.values()), "unbound SC shortcuts must HOLD")
+        fail(sc_data.get("unbound_shortcuts") == [], "all confirmed SC shortcuts must be bound")
+        fail(sc_routes["SC2"].get("meaning") == "BHAVA_CHART", "SC2 Bhava binding missing")
         fail(
-            unbound["$rq-vedic-sc2"].get("confirmed_meaning") == "SC8-2AB_IS_BHAVA_CHART",
-            "SC2 shortcut Bhava boundary missing",
-        )
-        fail(
-            unbound["$rq-vedic-sc4"].get("route_distinction", {}).get("$rq-vedic SC8-4AK")
-            == "SHADBALA_DRISHTI_PLANET_ASPECT",
-            "SC4 shortcut 4AK boundary missing",
+            sc_routes["SC4"].get("meaning") == "SHADBALA_DRISHTI_PLANET_ASPECT",
+            "SC4 strength/aspect binding missing",
         )
 
-        print("PASS rq-vedic submenu: 1 root/slot + 3 levels + 20D + 12H + 45 modules + 5 SC routes + 4 DB schemas")
+        print("PASS rq-vedic submenu: 1 root/slot + 3 levels + 20D + 12H + 45 modules + 7 SC routes + 4 DB schemas")
         return 0
     except (OSError, json.JSONDecodeError, KeyError, TypeError, ValueError) as exc:
         print(f"REVISE: {exc}", file=sys.stderr)
