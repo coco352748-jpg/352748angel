@@ -56,9 +56,7 @@ Selector만 호출되면 메뉴 좌표를 잠근 것이지 자동 실행한 것�
 등록·표시되는 스킬은 `$rq-vedic` 하나다. SC series는 새 `SKILL.md`나 새 등록 슬롯을 만들지 않고 `references/vedic-sc-submenu-registry.json`의 내부 selector로 기존 owner skill에 위임한다.
 
 - `$rq-vedic SC` 또는 `$rq-vedic-sc` → 기존 `$rq-sc` 합체호출
-- `$rq-vedic SC2` 또는 `$rq-vedic-sc2` → `$rq-sc8-2ab` Bhava 차트 Source
 - `$rq-vedic SC3` 또는 `$rq-vedic-sc3` → 기존 `$rq-sc3` 도메인 좌표 Source
-- `$rq-vedic SC4` 또는 `$rq-vedic-sc4` → `$rq-sc8-4ak` Shadbala·Drishti·Planet Aspect Source
 - `$rq-vedic SC7` 또는 `$rq-vedic-sc7` → 기존 `$rq-sc7` Plain Source
 - `$rq-vedic SC8` 또는 `$rq-vedic-sc8` → 기존 `$rq-sc8` PIKACHU Source router
 - `$rq-vedic SC8V2` 또는 `$rq-vedic-sc8v2` → 기존 `$rq-sc8v2` D×H 합성 orchestration
@@ -75,7 +73,7 @@ SC selector가 명시되면 설치된 스킬에서 registry의 `target_skill`과
 
 이 연결은 호출명과 Handoff만 제공한다. `$rq-sc*`의 Source·권한·기본값·단독호출·결합호출·금지선을 그대로 보존하고 그 내용을 `$rq-vedic` 안에 복제하지 않는다. `$rq-vedic`만 호출되고 SC selector가 없으면 SC series를 자동으로 열지 않는다.
 
-`$rq-vedic-sc2`와 `$rq-vedic-sc4`는 별도 스킬을 만들지 않고 사용자가 확정한 SC8 owner route로 직접 위임한다. `SC2=SC8-2AB Bhava`, `SC4=SC8-4AK Shadbala·Drishti·Planet Aspect`다. `SC8-4AB` Vedic CO2는 `$rq-vedic SC8-4AB` exact route로만 열며 SC4에 섞지 않는다.
+`SC8-2AB` Bhava, `SC8-4AK` Shadbala·Drishti·Planet Aspect, `SC8-4AB` Vedic CO2는 모두 SC8의 exact 하위 route다. 독립 SC series 호출명으로 바꾸지 않는다.
 
 `$rq-sc8-01` D1 PIKACHU batch에서는 수준마다 D1 전체 1개·House 12개·Module
 6개의 19개 menu view를 제공한다. 세 수준의 57개 menu view는 19층×3의 57개
